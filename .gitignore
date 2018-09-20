@@ -1,0 +1,10 @@
+*.pyc
+*.ini
+epg.xml
+logs/
+temp/
+../config/siteinis
+../config/siteini.pack/
+config/siteini.user/
+bin/channels.json
+bin/wgmulti.log.txt
