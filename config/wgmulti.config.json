@@ -105,6 +105,13 @@
       "update": "i"
     },
     {
+      "siteinis": [],
+      "xmltv_id": "24 Horas",
+      "enabled": true,
+      "name": "24 Horas",
+      "update": "i"
+    },
+    {
       "siteinis": [
         {
           "site_id": "24Kitchen.bg",
@@ -154,6 +161,13 @@
       "xmltv_id": "24 Техно",
       "enabled": true,
       "name": "24 Техно",
+      "update": "i"
+    },
+    {
+      "siteinis": [],
+      "xmltv_id": "2M Monde",
+      "enabled": true,
+      "name": "2M Monde",
       "update": "i"
     },
     {
@@ -550,7 +564,7 @@
     {
       "siteinis": [],
       "xmltv_id": "Akilli TV",
-      "enabled": true,
+      "enabled": false,
       "name": "Akilli TV",
       "update": "i"
     },
@@ -1791,6 +1805,13 @@
       "update": "i"
     },
     {
+      "siteinis": [],
+      "xmltv_id": "CBC Sport",
+      "enabled": true,
+      "name": "CBC Sport",
+      "update": "i"
+    },
+    {
       "siteinis": [
         {
           "site_id": "CBSDrama/118",
@@ -2129,7 +2150,7 @@
         }
       ],
       "xmltv_id": "Chartshow TV",
-      "enabled": false,
+      "enabled": true,
       "name": "Chartshow TV",
       "update": "i"
     },
@@ -4335,7 +4356,7 @@
         }
       ],
       "xmltv_id": "Flash TV",
-      "enabled": true,
+      "enabled": false,
       "name": "Flash TV",
       "update": "i"
     },
@@ -4355,7 +4376,7 @@
         }
       ],
       "xmltv_id": "Flava",
-      "enabled": false,
+      "enabled": true,
       "name": "Flava",
       "update": "i"
     },
@@ -5294,7 +5315,7 @@
     {
       "siteinis": [],
       "xmltv_id": "Kanal 5",
-      "enabled": true,
+      "enabled": false,
       "name": "Kanal 5",
       "update": "i"
     },
@@ -5549,7 +5570,7 @@
         }
       ],
       "xmltv_id": "LA 5",
-      "enabled": false,
+      "enabled": true,
       "name": "LA 5",
       "update": "i"
     },
@@ -6073,7 +6094,7 @@
         }
       ],
       "xmltv_id": "Motors UK",
-      "enabled": true,
+      "enabled": false,
       "name": "Motors UK",
       "update": "i"
     },
@@ -6123,7 +6144,7 @@
     },
     {
       "name": "Movies 4 Men",
-      "enabled": true,
+      "enabled": false,
       "update": "i",
       "siteinis": [
         {
@@ -6142,7 +6163,7 @@
       "timeshifts": [
         {
           "xmltv_id": "Movies 4 Men +1",
-          "enabled": true,
+          "enabled": false,
           "name": "Movies 4 Men +1",
           "offset": 1
         }
@@ -6985,7 +7006,7 @@
     },
     {
       "name": "POP",
-      "enabled": false,
+      "enabled": true,
       "update": "i",
       "siteinis": [
         {
@@ -8846,7 +8867,7 @@
     {
       "siteinis": [],
       "xmltv_id": "Rila TV (web)",
-      "enabled": true,
+      "enabled": false,
       "name": "Rila TV (web)",
       "update": "i"
     },
@@ -9807,7 +9828,7 @@
         }
       ],
       "xmltv_id": "Sky Sport 4",
-      "enabled": false,
+      "enabled": true,
       "name": "Sky Sport 4",
       "update": "i"
     },
@@ -9823,7 +9844,7 @@
         }
       ],
       "xmltv_id": "Sky Sport 5",
-      "enabled": false,
+      "enabled": true,
       "name": "Sky Sport 5",
       "update": "i"
     },
@@ -10141,7 +10162,7 @@
     },
     {
       "name": "Sony Movies",
-      "enabled": true,
+      "enabled": false,
       "update": "i",
       "siteinis": [
         {
@@ -10156,7 +10177,7 @@
       "timeshifts": [
         {
           "xmltv_id": "Sony Movies +1",
-          "enabled": true,
+          "enabled": false,
           "name": "Sony Movies +1",
           "offset": 1
         }
@@ -10838,7 +10859,7 @@
         }
       ],
       "xmltv_id": "TRT Arapca",
-      "enabled": true,
+      "enabled": false,
       "name": "TRT Arapca",
       "update": "i"
     },
@@ -10858,7 +10879,7 @@
         }
       ],
       "xmltv_id": "TRT Avaz",
-      "enabled": true,
+      "enabled": false,
       "name": "TRT Avaz",
       "update": "i"
     },
@@ -10934,7 +10955,7 @@
         }
       ],
       "xmltv_id": "TRT Music",
-      "enabled": true,
+      "enabled": false,
       "name": "TRT Music",
       "update": "i"
     },
@@ -11045,7 +11066,7 @@
     {
       "siteinis": [],
       "xmltv_id": "TV 8.5",
-      "enabled": true,
+      "enabled": false,
       "name": "TV 8.5",
       "update": "i"
     },
@@ -11660,7 +11681,7 @@
         }
       ],
       "xmltv_id": "The Vault",
-      "enabled": false,
+      "enabled": true,
       "name": "The Vault",
       "update": "i"
     },
@@ -14002,6 +14023,13 @@
       "update": "i"
     },
     {
+      "siteinis": [],
+      "xmltv_id": "Новый Мир",
+      "enabled": true,
+      "name": "Новый Мир",
+      "update": "i"
+    },
+    {
       "siteinis": [
         {
           "site_id": "nochnoy-club",
@@ -14700,6 +14728,13 @@
       "update": "i"
     },
     {
+      "siteinis": [],
+      "xmltv_id": "ТНТ Инт.",
+      "enabled": true,
+      "name": "ТНТ Инт.",
+      "update": "i"
+    },
+    {
       "siteinis": [
         {
           "site_id": "2p2-ua",
@@ -14966,9 +15001,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "run": false,
+    "type": "mdb",
     "grab": true,
-    "type": "mdb"
+    "run": false
   },
   "siteinis": [
     {
