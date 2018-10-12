@@ -15001,11 +15001,15 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "run": false,
+    "type": "mdb",
     "grab": true,
-    "type": "mdb"
+    "run": false
   },
   "siteinis": [
+    {
+      "enabled": false,
+      "name": "tvguide.co.uk"
+    },
     {
       "path": "http://rytecepg.ipservers.eu/epg_data/rytecGR_Basic.gz",
       "grab_type": "copy",
