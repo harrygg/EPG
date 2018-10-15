@@ -24,12 +24,12 @@ if commitEnabled:
 
 ### Generate EPG
 log("Generating EPG started")
-#epg.generate_config()
-#epg.grab()
-#epg.queryimdb()
-#epg.remove_tags()
-#epg.hash()
-#epg.zip()
+epg.generate_config()
+epg.grab()
+epg.queryimdb()
+epg.remove_tags()
+epg.hash()
+epg.zip()
 
 log("Generating EPG endeded")
 
