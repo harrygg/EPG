@@ -5735,6 +5735,70 @@
       "update": "i"
     },
     {
+      "siteinis": [
+        {
+          "site_id": "11237",
+          "name": "dnes.bg"
+        },
+        {
+          "site_id": "channel_296",
+          "name": "dnevnik.bg"
+        }
+      ],
+      "xmltv_id": "MAX Sport 1",
+      "enabled": false,
+      "name": "MAX Sport 1",
+      "update": "i"
+    },
+    {
+      "siteinis": [
+        {
+          "site_id": "11238",
+          "name": "dnes.bg"
+        },
+        {
+          "site_id": "channel_297",
+          "name": "dnevnik.bg"
+        }
+      ],
+      "xmltv_id": "MAX Sport 2",
+      "enabled": false,
+      "name": "MAX Sport 2",
+      "update": "i"
+    },
+    {
+      "siteinis": [
+        {
+          "site_id": "11239",
+          "name": "dnes.bg"
+        },
+        {
+          "site_id": "channel_311",
+          "name": "dnevnik.bg"
+        }
+      ],
+      "xmltv_id": "MAX Sport 3",
+      "enabled": false,
+      "name": "MAX Sport 3",
+      "update": "i"
+    },
+    {
+      "siteinis": [
+        {
+          "site_id": "11242",
+          "name": "dnes.bg"
+        },
+        {
+          "site_id": "channel_296",
+          "name": "dnevnik.bg"
+        }
+      ],
+      "xmltv_id": "MAX Sport 4",
+      "enabled": false,
+      "name": "MAX Sport 4",
+      "update": "i"
+    },
+    {
       "siteinis": [],
       "xmltv_id": "MCM Top",
       "enabled": true,
@@ -6290,18 +6354,6 @@
       "xmltv_id": "Movistar Golf",
       "enabled": true,
       "name": "Movistar Golf",
-      "update": "i"
-    },
-    {
-      "siteinis": [
-        {
-          "site_id": "11220",
-          "name": "dnes.bg"
-        }
-      ],
-      "xmltv_id": "Mtel Sport 1",
-      "enabled": false,
-      "name": "Mtel Sport 1",
       "update": "i"
     },
     {
@@ -15001,9 +15053,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "type": "mdb",
+    "run": false,
     "grab": true,
-    "run": false
+    "type": "mdb"
   },
   "siteinis": [
     {
