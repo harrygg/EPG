@@ -1159,7 +1159,12 @@
       "update": "i"
     },
     {
-      "siteinis": [],
+      "siteinis": [
+        {
+          "site_id": "",
+          "name": "bbcnordic.com"
+        }
+      ],
       "xmltv_id": "BBC Earth",
       "enabled": true,
       "name": "BBC Earth",
@@ -6166,7 +6171,7 @@
       "siteinis": [
         {
           "site_id": "moviestar",
-          "name": "megaepg.kodibg.org"
+          "name": "proxy.kodibg.org"
         },
         {
           "site_id": "11226",
@@ -15053,9 +15058,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "type": "mdb",
+    "run": false,
     "grab": true,
-    "run": false
+    "type": "mdb"
   },
   "siteinis": [
     {
