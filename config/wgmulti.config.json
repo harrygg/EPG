@@ -3,8 +3,8 @@
     "channelDelay": 0,
     "indexDelay": 0,
     "attempts": 1,
-    "timeOut": 20,
-    "showDelay": 0
+    "timeOut": 60,
+    "showDelay": 1
   },
   "logging": true,
   "timespan": {
@@ -15058,9 +15058,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "type": "mdb",
+    "run": false,
     "grab": true,
-    "run": false
+    "type": "mdb"
   },
   "siteinis": [
     {
