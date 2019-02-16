@@ -8518,20 +8518,20 @@
     {
       "siteinis": [
         {
-          "site_id": "ring",
-          "name": "btv.bg"
-        },
-        {
-          "site_id": "RINGBG.bg",
-          "name": "BGBasic"
-        },
-        {
           "site_id": "3623",
           "name": "dnes.bg"
         },
         {
           "site_id": "103_ring",
           "name": "dnevnik.bg"
+        },
+        {
+          "site_id": "ring",
+          "name": "btv.bg"
+        },
+        {
+          "site_id": "RINGBG.bg",
+          "name": "BGBasic"
         }
       ],
       "xmltv_id": "RING BG",
@@ -15058,9 +15058,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "run": false,
+    "type": "mdb",
     "grab": true,
-    "type": "mdb"
+    "run": false
   },
   "siteinis": [
     {
