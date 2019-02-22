@@ -5751,7 +5751,7 @@
         }
       ],
       "xmltv_id": "MAX Sport 1",
-      "enabled": false,
+      "enabled": true,
       "name": "MAX Sport 1",
       "update": "i"
     },
@@ -5767,7 +5767,7 @@
         }
       ],
       "xmltv_id": "MAX Sport 2",
-      "enabled": false,
+      "enabled": true,
       "name": "MAX Sport 2",
       "update": "i"
     },
@@ -5783,7 +5783,7 @@
         }
       ],
       "xmltv_id": "MAX Sport 3",
-      "enabled": false,
+      "enabled": true,
       "name": "MAX Sport 3",
       "update": "i"
     },
@@ -5799,7 +5799,7 @@
         }
       ],
       "xmltv_id": "MAX Sport 4",
-      "enabled": false,
+      "enabled": true,
       "name": "MAX Sport 4",
       "update": "i"
     },
@@ -11944,6 +11944,10 @@
     },
     {
       "siteinis": [
+        {
+          "site_id": "11131",
+          "name": "dnes.bg"
+        },
         {
           "site_id": "106",
           "name": "potv.bg"

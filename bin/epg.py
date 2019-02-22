@@ -242,4 +242,27 @@ def sortchildrenby(parent, attr):
   parent[:] = sorted(parent, key=lambda child: child.get(attr))
 
 
-
+def export_other_epgs():
+  try:
+    tv = ET.Element('tv')
+    
+    export_config_file = os.path.join(configdir, "exports.json")
+    export_configs = json.loads(open(export_config_file))
+    for conf in export_configs:
+      epg_file = os.path.join(gitdir, conf["provider"] + ".xml")
+      log("Exporting EPG file: %s" % epg_file)
+      with open(epg_file, 'w') as w_out:
+        data = et.parse(final_epg_file)
+        for event, elem in iterparse(data):
+          if event == "end" and elem.tag == "channel":
+            channel_id = elem.get("id")
+            if channel_id in conf["channels"]:
+              item = et.SubElement(tv, elem)
+          elif event == "end" and elem.tag == "programme":
+            programme_id = elem.get("channel")
+            #if programme_id 
+    pass
+  except:
+    pass
+    
+    
