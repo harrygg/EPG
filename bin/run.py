@@ -24,13 +24,16 @@ if commitEnabled:
 
 ### Generate EPG
 log("Generating EPG started")
-#epg.generate_config()
+epg.generate_config()
 epg.grab()
 epg.queryimdb()
 epg.remove_tags()
 epg.hash()
-epg.zip()
-#epg.export_other_epgs()
+epg.zip(final_epg_file)
+exported_files = epg.export_other_epgs()
+for file in exported_files:
+  log("zipping file %s" % file)
+  epg.zip(file)
 log("Generating EPG endeded")
 
 if commitEnabled:

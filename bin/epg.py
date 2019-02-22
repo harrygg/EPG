@@ -208,12 +208,12 @@ def hash():
     log("Error while generating EPG hash.")
     log(er)
 
-def zip():
+def zip(epg_file):
   try:
     log("Zipping EPG")
     ## Zip EPG
-    gzfile = os.path.join(gitdir, "epg.xml.gz")
-    with open(final_epg_file, 'rb') as f_in, gzip.open(gzfile, 'wb') as f_out:
+    gzfile = epg_file + ".gz"
+    with open(epg_file, 'rb') as f_in, gzip.open(gzfile, 'wb') as f_out:
       shutil.copyfileobj(f_in, f_out)
     statinfo = os.stat(gzfile)
     log("Zip file saved to %s" % gzfile)
@@ -243,26 +243,37 @@ def sortchildrenby(parent, attr):
 
 
 def export_other_epgs():
-  try:
-    tv = ET.Element('tv')
+  #try:
+  files = []
+  export_config_file = os.path.join(configdir, "exports.json")
+  export_configs = json.load(codecs.open(export_config_file))
+  for conf in export_configs:
+    tv = et.Element('tv')
+    epg_file = os.path.join(gitdir, conf["filename"])
+    files.append(epg_file)
+    log("Exporting EPG file: %s" % epg_file)
+    #with open(epg_file, 'w') as w_out:
+    tree = et.parse(final_epg_file)
+    root = tree.getroot()
+    channel_ids = []
     
-    export_config_file = os.path.join(configdir, "exports.json")
-    export_configs = json.loads(open(export_config_file))
-    for conf in export_configs:
-      epg_file = os.path.join(gitdir, conf["provider"] + ".xml")
-      log("Exporting EPG file: %s" % epg_file)
-      with open(epg_file, 'w') as w_out:
-        data = et.parse(final_epg_file)
-        for event, elem in iterparse(data):
-          if event == "end" and elem.tag == "channel":
-            channel_id = elem.get("id")
-            if channel_id in conf["channels"]:
-              item = et.SubElement(tv, elem)
-          elif event == "end" and elem.tag == "programme":
-            programme_id = elem.get("channel")
-            #if programme_id 
-    pass
-  except:
-    pass
+    for elem in root:  
+      for subelem in elem:
+        if elem.tag == "channel":
+          channel_name = elem.find('display-name').text
+          if channel_name in conf["channels"]:
+            channel_ids.append(elem.get("id"))
+            tv.append(elem)
+        elif elem.tag == "programme":
+          channel_id = elem.get("channel")
+          if channel_id in channel_ids:
+            tv.append(elem)
+
+    tree = et.ElementTree()   
+    tree._setroot(tv)
+    tree.write(epg_file, encoding="utf-8", xml_declaration=True)
+    
+    return files
+
     
     
