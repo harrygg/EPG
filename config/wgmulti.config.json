@@ -1030,7 +1030,7 @@
     {
       "siteinis": [
         {
-          "site_id": "11231",
+          "site_id": "11227",
           "name": "dnes.bg"
         },
         {
@@ -1347,6 +1347,18 @@
       "xmltv_id": "BOX",
       "enabled": true,
       "name": "BOX",
+      "update": "i"
+    },
+    {
+      "siteinis": [
+        {
+          "site_id": "11243",
+          "name": "dnes.bg"
+        }
+      ],
+      "xmltv_id": "BSTV",
+      "enabled": false,
+      "name": "BSTV",
       "update": "i"
     },
     {
@@ -3163,7 +3175,16 @@
       "update": "i"
     },
     {
-      "siteinis": [],
+      "siteinis": [
+        {
+          "site_id": "edgesport",
+          "name": "proxy.kodibg.org"
+        },
+        {
+          "site_id": "11233",
+          "name": "dnes.bg"
+        }
+      ],
       "xmltv_id": "EDGE",
       "enabled": false,
       "name": "EDGE",
@@ -5742,6 +5763,10 @@
     {
       "siteinis": [
         {
+          "site_id": "maxsport1",
+          "name": "proxy.kodibg.org"
+        },
+        {
           "site_id": "11237",
           "name": "dnes.bg"
         },
@@ -5757,6 +5782,10 @@
     },
     {
       "siteinis": [
+        {
+          "site_id": "maxsport2",
+          "name": "proxy.kodibg.org"
+        },
         {
           "site_id": "11238",
           "name": "dnes.bg"
@@ -5774,6 +5803,10 @@
     {
       "siteinis": [
         {
+          "site_id": "maxsport3",
+          "name": "proxy.kodibg.org"
+        },
+        {
           "site_id": "11239",
           "name": "dnes.bg"
         },
@@ -5789,6 +5822,10 @@
     },
     {
       "siteinis": [
+        {
+          "site_id": "maxsport4",
+          "name": "proxy.kodibg.org"
+        },
         {
           "site_id": "11242",
           "name": "dnes.bg"
@@ -13302,14 +13339,32 @@
       "update": "i"
     },
     {
-      "siteinis": [],
+      "siteinis": [
+        {
+          "site_id": "bnt3",
+          "name": "bnt.bg"
+        },
+        {
+          "site_id": "11234",
+          "name": "dnes.bg"
+        }
+      ],
       "xmltv_id": "БНТ 3",
       "enabled": true,
       "name": "БНТ 3",
       "update": "i"
     },
     {
-      "siteinis": [],
+      "siteinis": [
+        {
+          "site_id": "bnt4",
+          "name": "bnt.bg"
+        },
+        {
+          "site_id": "11235",
+          "name": "dnes.bg"
+        }
+      ],
       "xmltv_id": "БНТ 4",
       "enabled": true,
       "name": "БНТ 4",
@@ -15074,9 +15129,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "run": false,
+    "type": "mdb",
     "grab": true,
-    "type": "mdb"
+    "run": false
   },
   "siteinis": [
     {
