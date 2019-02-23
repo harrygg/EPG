@@ -12378,6 +12378,18 @@
     {
       "siteinis": [
         {
+          "site_id": "9969",
+          "name": "dnes.bg"
+        }
+      ],
+      "xmltv_id": "Vivacom Arena",
+      "enabled": true,
+      "name": "Vivacom Arena",
+      "update": "i"
+    },
+    {
+      "siteinis": [
+        {
           "site_id": "WDR.de",
           "name": "DEBasic"
         },
@@ -15062,9 +15074,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "type": "mdb",
+    "run": false,
     "grab": true,
-    "run": false
+    "type": "mdb"
   },
   "siteinis": [
     {
