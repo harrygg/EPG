@@ -2637,8 +2637,8 @@
     {
       "siteinis": [
         {
-          "site_id": "Diema.bg",
-          "name": "BGBasic"
+          "site_id": "9",
+          "name": "tv.dir.bg"
         },
         {
           "site_id": "8##BNDI",
@@ -5503,8 +5503,8 @@
     {
       "siteinis": [
         {
-          "site_id": "KinoNova.bg",
-          "name": "BGBasic"
+          "site_id": "63",
+          "name": "tv.dir.bg"
         },
         {
           "site_id": "8##BNKN",
@@ -12806,6 +12806,10 @@
     {
       "siteinis": [
         {
+          "site_id": "228",
+          "name": "tv.dir.bg"
+        },
+        {
           "site_id": "4403",
           "name": "dnes.bg"
         },
@@ -12838,12 +12842,12 @@
     {
       "siteinis": [
         {
-          "site_id": "btv-cinema",
-          "name": "btv.bg"
+          "site_id": "tv.dir.bg",
+          "name": "153"
         },
         {
-          "site_id": "bTVCinema.bg",
-          "name": "BGBasic"
+          "site_id": "btv-cinema",
+          "name": "btv.bg"
         },
         {
           "site_id": "4725",
@@ -12877,6 +12881,10 @@
       "update": "i",
       "siteinis": [
         {
+          "site_id": "68",
+          "name": "tv.dir.bg"
+        },
+        {
           "site_id": "btv-comedy",
           "name": "btv.bg"
         },
@@ -12909,6 +12917,10 @@
     },
     {
       "siteinis": [
+        {
+          "site_id": "223",
+          "name": "tv.dir.bg"
+        },
         {
           "site_id": "btv-lady",
           "name": "btv.bg"
@@ -15129,9 +15141,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "type": "mdb",
+    "run": false,
     "grab": true,
-    "run": false
+    "type": "mdb"
   },
   "siteinis": [
     {
