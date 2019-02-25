@@ -1357,7 +1357,7 @@
         }
       ],
       "xmltv_id": "BSTV",
-      "enabled": false,
+      "enabled": true,
       "name": "BSTV",
       "update": "i"
     },
@@ -5208,8 +5208,8 @@
     {
       "siteinis": [
         {
-          "site_id": "JimJam.bg",
-          "name": "BGBasic"
+          "site_id": "11094",
+          "name": "dnes.bg"
         },
         {
           "site_id": "JimJam/91",
@@ -15141,9 +15141,9 @@
     "server": "Automatic"
   },
   "postprocess": {
-    "run": false,
+    "type": "mdb",
     "grab": true,
-    "type": "mdb"
+    "run": false
   },
   "siteinis": [
     {
