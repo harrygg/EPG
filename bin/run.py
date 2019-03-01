@@ -24,7 +24,7 @@ if commitEnabled:
 
 ### Generate EPG
 log("Generating EPG started")
-epg.generate_config()
+#epg.generate_config()
 epg.grab()
 epg.queryimdb()
 epg.remove_tags()
