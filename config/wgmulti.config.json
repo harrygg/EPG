@@ -15,13 +15,6 @@
   "filename": "epg.xml",
   "channels": [
     {
-      "siteinis": [],
-      "xmltv_id": "1 Music Channel",
-      "enabled": false,
-      "name": "1 Music Channel",
-      "update": "i"
-    },
-    {
       "siteinis": [
         {
           "site_id": "1p1-ua",
@@ -13829,20 +13822,28 @@
     {
       "siteinis": [
         {
-          "site_id": "boec",
-          "name": "ExUSSR"
-        },
-        {
-          "site_id": "Матч! Боец",
+          "site_id": "Матч! Страна",
           "name": "matchtv.ru"
         },
+        {
+          "site_id": "126",
+          "name": "ntvplus.ru"
+        }
+      ],
+      "xmltv_id": "Матч Страна",
+      "enabled": true,
+      "name": "Матч Страна",
+      "update": "i"
+    },
+    {
+      "siteinis": [
         {
           "site_id": "79",
           "name": "ntvplus.ru"
         },
         {
-          "site_id": "554",
-          "name": "Teleguide"
+          "site_id": "Матч! Боец",
+          "name": "matchtv.ru"
         }
       ],
       "xmltv_id": "Матч Боец",
@@ -13851,18 +13852,23 @@
       "update": "i"
     },
     {
-      "siteinis": [],
-      "xmltv_id": "Матч! Игра",
+      "siteinis": [
+        {
+          "site_id": "211",
+          "name": "ntvplus.ru"
+        },
+        {
+          "site_id": "Матч! Игра",
+          "name": "matchtv.ru"
+        }
+      ],
+      "xmltv_id": "Матч Игра",
       "enabled": true,
-      "name": "Матч! Игра",
+      "name": "Матч Игра",
       "update": "i"
     },
     {
       "siteinis": [
-        {
-          "site_id": "match",
-          "name": "ExUSSR"
-        },
         {
           "site_id": "Матч ТВ",
           "name": "matchtv.ru"
@@ -14889,10 +14895,6 @@
     },
     {
       "siteinis": [
-        {
-          "site_id": "kxl",
-          "name": "ExUSSR"
-        },
         {
           "site_id": "127",
           "name": "ntvplus.ru"
