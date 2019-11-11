@@ -5524,6 +5524,22 @@
     {
       "siteinis": [
         {
+          "site_id": "tv.dir.bg",
+          "name": "372"
+        },
+        {
+          "site_id": "tv.dir",
+          "name": "horizon.tv.ro"
+        }
+      ],
+      "xmltv_id": "7-8 TV",
+      "enabled": true,
+      "name": "78TV",
+      "update": "i"
+    },
+    {
+      "siteinis": [
+        {
           "site_id": "KissTV.uk",
           "name": "UKFTA"
         },
