@@ -5619,6 +5619,19 @@
 			"update": "i"
 		},
 		{
+			"siteinis": [
+
+				{
+					"site_id": "11256",
+					"name": "dnes.bg"
+				}
+			],
+			"xmltv_id": "NickToons",
+			"enabled": true,
+			"name": "NickToons",
+			"update": "i"
+		},
+		{
 			"siteinis": [{
 					"site_id": "11159",
 					"name": "dnes.bg"
