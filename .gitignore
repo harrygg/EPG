@@ -1,0 +1,13 @@
+*.pyc
+*.ini
+epg.xml
+vivacom.epg.xml
+wgmulti.exe.config
+logs/
+temp/
+../config/siteinis
+../config/siteini.pack/
+config/siteini.user/
+bin/channels.json
+bin/wgmulti.log.txt
+output.txt
