@@ -1,0 +1,2970 @@
+﻿---
+# A list of channels to maintain EPG for. Standard YAML syntax. 
+# Mandatory parameters: 
+# id - the id of the channel.
+# name - the name of the channel
+# sources - a list of source names which offer this channel's program. 
+# Optional parameters: 
+# icon - the url of the channel icon
+# groups - a list of groups the channel belongs to. You n generate separate EPG files based on the groups.
+# names - a list of available channel names. Use when the channel have more than one name in different languages. If a list of name is provided, you must specify a language attribute to each name.
+# Example configuration:
+# - id: channel1.id 
+#   name: Channel 1
+#   icon: http://icon.url
+#   sources:
+#   - source.com
+#   - source2.com
+#   groups: 
+#   - National
+#   - Sport
+#
+# - id: channel2.id 
+#   names: 
+#   - name: Channel 2
+#     lang: en
+#   - name: Kanal 2
+#     lang: de
+#   sources:
+#   - source.com
+#   - source2.com
+#
+
+- id: bnt1.bg
+  names: 
+  - name: БНТ 1
+  - name: БНТ 1 HD
+  icon: http://tv.bnt.bg/assets/images/bnt1-home.jpg
+  groups: ["bg"]
+  sources:
+  - bnt.bg
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: bnt2.bg
+  enabled: true
+  names:
+  - name: БНТ 2
+    lang: bg
+  - name: БНТ 2 HD
+    lang: bg
+  - name: BNT 2
+    lang: en
+  groups: ["bg"]
+  sources:
+  - bnt.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: bnt3.bg
+  enabled: true
+  names:
+  - name: БНТ 3
+    lang: bg
+  - name: БНТ 3 HD
+    lang: bg
+  groups: ["bg"]
+  sources:
+  - bnt.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: bnt4.bg
+  enabled: true
+  names:
+  - name: БНТ 4
+    lang: bg
+  - name: БНТ 4 HD
+    lang: bg
+  groups: ["bg"]
+  sources:
+  - bnt.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: btv.bg
+  enabled: true
+  names:
+  - name: БТВ
+    lang: bg
+  - name: bTV HD
+    lang: en
+  - name: bTV
+    lang: en
+  - name: bTV LQ
+    lang: en
+  groups: ["bg"]  
+  sources:
+  - btv.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: btvaction.bg
+  enabled: true
+  names:
+  - name: БТВ Екшън
+    lang: bg
+  - name: bTV Action
+    lang: en
+  - name: bTV Action HD
+    lang: en
+  groups: ["bg"]
+  sources:
+  - btv.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: btvlady.bg
+  enabled: true
+  names:
+  - name: БТВ Лейди
+    lang: bg
+  - name: bTV Lady
+    lang: en
+  - name: bTV Lady HD
+    lang: en
+  groups: ["bg"]
+  sources:
+  - btv.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: nova.bg
+  enabled: true
+  names:
+  - name: Нова
+    lang: bg
+  - name: Нова HD
+    lang: bg
+  - name: Nova
+    lang: en
+  - name: Nova LQ
+    lang: en
+  groups: ["bg"]
+  sources:
+  - nova.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: bloombergtv.bg
+  enabled: true
+  names:
+  - name: Bloomberg BG
+    lang: en
+  - name: Bloomberg BG HD
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+
+- id: bgonair.bg
+  enabled: true
+  groups: ["bg"]
+  names:
+  - name: България Он Еър
+    lang: bg
+  - name: Bulgaria On Air
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: evrokom.bg
+  enabled: true
+  names:
+  - name: Evrokom
+    lang: en
+  - name: Евроком 
+    lang: bg
+  - name: Евроком HD
+    lang: bg
+  groups: ["bg"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: codehealth.bg
+  enabled: true
+  names:
+  - name: Code Health
+    lang: en
+  - name: Code Health HD
+    lang: en
+  groups: ["bg"]
+  sources:
+  - codehealth.bg
+  - dnes.bg
+  
+- id: skat.bg
+  enabled: true
+  names:
+  - name: Скат
+    lang: bg
+  - name: СКАТ
+    lang: bg
+  - name: Skat
+    lang: en
+  groups: ["bg"]
+  sources:
+  - start.bg
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: bulgaria24.bg
+  enabled: false
+  names:
+  - name: България 24
+    lang: bg
+  - name: Bulgaria 24
+    lang: en
+  groups: ["bg"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+  
+- id: alfatv.bg
+  enabled: true
+  names:
+  - name: Алфа
+    lang: bg
+  - name: Alfa TV
+    lang: en
+  - name: Alfa
+    lang: en
+  groups: ["bg"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: agrotv.bg
+  enabled: true
+  names:
+  - name: Агро ТВ
+    lang: bg
+  - name: Agro TV
+    lang: en
+  groups: ["bg"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: trakia.potv.eu
+  enabled: true
+  names:
+  - name: ПОТВ Тракия
+    lang: bg
+  - name: Trakia
+    lang: en
+  groups: ["bg"]
+  sources:
+  - tv.dir.bg
+  
+- id: eurochannel.com
+  enabled: true
+  names:
+  - name: Eurochannel
+    lang: en
+  - name: Eurochannel HD
+    lang: en
+  sources:
+  - start.bg
+  - dnes.bg
+  
+- id: bstv.bg
+  enabled: true
+  names:
+  - name: БСТВ
+    lang: bg
+  - name: BSTV
+    lang: en
+  - name: BSTV HD
+    lang: en
+  groups: ["bg"]
+  sources:
+  - bstv.bg
+  - dnes.bg
+  
+- id: tv1.bg
+  enabled: true
+  names:
+  - name: ТВ1
+    lang: bg
+  - name: TV1
+    lang: en
+  - name: TV1 HD
+    lang: en
+  groups: ["bg"]
+  sources:
+  - dnes.bg
+  
+- id: sedemosmi.tv
+  enabled: true
+  names:
+  - name: 7/8 TV
+    lang: en
+  - name: 7/8 HD
+    lang: en
+  - name: 7/8 LQ
+    lang: en
+  - name: 7/8 ТВ
+    lang: bg
+  groups: ["bg"]
+  sources:
+  - start.bg
+  - dnes.bg
+  
+- id: vtk.bg
+  enabled: true
+  names:
+  - name: ВТК
+    lang: bg
+  groups: ["bg"]
+  sources:
+  - start.bg
+  
+##############
+### MOVIES ###
+##############
+
+- id: hbo.bg
+  enabled: true
+  names:
+  - name: HBO
+    lang: en
+  - name: HBO HD
+    lang: en
+  sources:
+  # - hbo.bg
+  - tv-programa.bg
+  - tv.dir.bg
+  - dnes.bg
+
+- id: hbo2.bg
+  enabled: true
+  names:
+  - name: HBO 2
+    lang: en
+  - name: HBO 2 HD
+    lang: en
+  sources:
+  # - hbo.bg
+  - tv-programa.bg
+  - tv.dir.bg
+  - dnes.bg
+
+- id: hbo3.bg
+  enabled: true
+  names:
+  - name: HBO 3
+    lang: en
+  - name: HBO 3 HD
+    lang: en
+  sources:
+  # - hbo.bg
+  - tv-programa.bg
+  - tv.dir.bg
+  - dnes.bg
+
+- id: cinemax1.bg
+  enabled: true
+  names:
+  - name: Cinemax
+    lang: en
+  - name: Cinemax HD
+    lang: en
+  sources:
+  # - hbo.bg
+  - tv-programa.bg
+  - tv.dir.bg
+  - dnes.bg
+
+- id: cinemax2.bg
+  enabled: true
+  names:
+  - name: Cinemax 2
+    lang: en
+  - name: Cinemax 2 HD
+    lang: en
+  sources:
+  # - hbo.bg
+  - tv-programa.bg
+  - tv.dir.bg
+  - dnes.bg
+
+- id: btvcinema.bg
+  enabled: true
+  names:
+  - name: БТВ Синема
+    lang: bg
+  - name: Btv Cinema
+    lang: en
+  - name: Btv Cinema HD
+    lang: en
+  sources:
+  - btv.bg
+  - dnes.bg
+
+- id: btvcomedy.bg
+  enabled: true
+  names:
+  - name: БТВ Комеди
+    lang: bg
+  - name: Btv Comedy
+    lang: en
+  - name: Btv Comedy HD
+    lang: en
+  sources:
+  - btv.bg
+  - dnes.bg
+  
+- id: moviestar.bg
+  enabled: true
+  names:
+  - name: Moviestar
+    lang: en
+  - name: Movie Star
+    lang: en
+  - name: Moviestar HD
+    lang: en
+  sources:
+  - moviestar.bg
+  - tv-programa.bg
+  
+- id: cinemania.bg
+  enabled: true
+  names:
+  - name: Cinemania
+  - name: Cinemania HD
+  sources:
+  - tv-programa.bg
+  - start.bg
+
+- id: epicdrama.bg
+  enabled: true
+  names:
+  - name: Epic Drama
+    lang: en
+  - name: Epic Drama HD
+    lang: en
+  sources:
+  - pawa.tv
+  - dnes.bg
+  - tv-programa.bg
+
+- id: tv1000.bg
+  enabled: true
+  names:
+  - name: TV 1000
+    lang: en
+  - name: TV 1000 HD
+    lang: en
+  sources:
+  - pawa.tv
+  - dnes.bg
+
+- id: diema.bg
+  enabled: true
+  names:
+  - name: Диема
+    lang: bg
+  - name: Diema
+    lang: en
+  - name: Diema LQ
+    lang: en
+  sources:
+  - nova.bg
+  - dnes.bg
+
+- id: diemafamily.bg
+  enabled: true
+  names:
+  - name: Диема Фемили
+    lang: bg
+  - name: Diema Family
+    lang: en
+  sources:
+  - nova.bg
+  - dnes.bg
+
+- id: kinonova.bg
+  enabled: true
+  names:
+  - name: КиноНова
+    lang: bg
+  - name: KinoNova
+    lang: en
+  - name: KinoNova HD
+    lang: en
+  - name: KinoNova LQ
+    lang: en
+  sources:
+  - nova.bg
+  - dnes.bg
+  - tv.dir.bg
+  - tv-programa.bg
+  
+- id: axn.bg
+  enabled: true
+  names:
+  - name: AXN
+    lang: en
+  sources:
+  - axn.bg
+  - dnes.bg
+  
+- id: axnwhite.bg
+  enabled: true
+  names:
+  - name: AXN White
+    lang: en
+  sources:
+  - dnes.bg
+  
+- id: axnblack.bg
+  enabled: true
+  names:
+  - name: AXN Black
+    lang: en
+  sources:
+  - dnes.bg
+  
+- id: cbsreality.tv
+  enabled: false
+  names:
+  - name: CBS Reality
+    lang: en
+  sources:
+  - dnes.bg
+
+- id: fox.bg
+  enabled: true
+  names:
+  - name: Fox
+    lang: en
+  - name: Fox HD
+    lang: en
+  - name: FOX Channel
+    lang: en
+  - name: FOX LQ
+    lang: en
+  sources:
+  - waltdisney.bg
+  - dnes.bg
+
+- id: foxlife.bg
+  enabled: true
+  names:
+  - name: Fox Life
+    lang: en
+  - name: Fox Life HD
+    lang: en
+  sources:
+  - waltdisney.bg
+  - dnes.bg
+
+- id: foxcrime.bg
+  enabled: true
+  names:
+  - name: Fox Crime
+    lang: en
+  - name: Fox Crime HD
+    lang: en
+  sources:
+    - waltdisney.bg
+    - dnes.bg
+
+- id: amc.bg
+  enabled: true
+  names:
+  - name: AMC
+    lang: en
+  sources:
+  - tv.dir.bg
+  
+- id: nostalgia.bg
+  enabled: true
+  names:
+  - name: Nostalgia
+    lang: en
+  - name: Nostalgia HD
+    lang: en
+  sources:
+  - start.bg
+  - dnes.bg
+
+#############
+### SPORT ###
+#############
+
+- id: novasport.bg
+  enabled: true
+  names:
+  - name: Нова Спорт
+    lang: bg
+  - name: Nova Sport
+  - name: Nova Sport HD
+  - name: Nova Sport LQ
+  groups: ["sport"]
+  sources:
+  - nova.bg
+  - dnes.bg
+
+- id: diemasport.bg
+  enabled: true
+  increment: false
+  names:
+  - name: Диема Спорт
+    lang: bg
+  - name: Diema Sport
+  - name: Diema Sport HD
+  - name: Diema Sport LQ
+  groups: ["sport"]
+  sources:
+  - diemaextra.bg
+  - nova.bg
+  - dnes.bg
+
+- id: diemasport2.bg
+  enabled: true
+  increment: false
+  names:
+  - name: Диема Спорт 2
+    lang: bg
+  - name: Diema Sport 2
+  - name: Diema Sport 2 HD
+  - name: Diema Sport 2 4K
+  - name: Diema Sport 2 LQ
+  groups: ["sport"]
+  sources:
+  - diemaextra.bg
+  - nova.bg
+  - dnes.bg
+
+- id: diemasport3.bg
+  enabled: true
+  increment: false
+  names:
+  - name: Диема Спорт 3
+    lang: bg
+  - name: Diema Sport 3
+  - name: Diema Sport 3 HD
+  - name: Diema Sport 3 4K
+  - name: Diema Sport 3 LQ
+  groups: ["sport"]
+  sources:
+  - diemaextra.bg
+  - nova.bg
+  - dnes.bg
+  
+- id: ring.bg
+  enabled: true
+  names:
+  - name: Ринг
+    lang: bg
+  - name: Ring LQ
+  - name: Ring BG
+    lang: en
+  - name: Ring BG HD
+    lang: en
+  groups: ["sport"]
+  sources:
+  - btv.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: maxsport1.bg
+  enabled: true
+  names:
+  - name: Max Sport 1
+  - name: Max Sport 1 HD
+  - name: Max Sport 1 LQ
+  groups: ["sport"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: maxsport2.bg
+  enabled: true
+  names:
+  - name: Max Sport 2
+  - name: Max Sport 2 HD
+  - name: Max Sport 2 LQ
+  groups: ["sport"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: maxsport3.bg
+  enabled: true
+  names:
+  - name: Max Sport 3
+  - name: Max Sport 3 HD
+  - name: Max Sport 3 LQ
+  groups: ["sport"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: maxsport4.bg
+  enabled: true
+  names:
+  - name: Max Sport 4
+  - name: Max Sport 4 HD
+  - name: Max Sport 4 LQ
+  groups: ["sport"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: sportal.bg
+  enabled: true
+  names:
+  - name: Sportal HD
+  - name: Sportal TV
+  groups: ["sport"]
+  sources:
+  - sportal.bg
+  
+- id: b1b.tv
+  enabled: true
+  names:
+  - name: B1B Action HD
+  - name: B1B TV
+  groups: ["sport"]
+  sources:
+  - b1b.tv
+  
+- id: edgesport.bg
+  enabled: true
+  names:
+  - name: EDGE Sport
+  - name: Edge Sport HD
+  groups: ["sport"]
+  sources:
+  - dnes.bg
+
+- id: eurosport1.bg
+  enabled: true
+  names:
+  - name: Eurosport
+  - name: Eurosport HD
+  - name: Eurosport LQ
+  groups: ["sport"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+
+- id: eurosport2.bg
+  enabled: true
+  names:
+  - name: Eurosport 2 HD
+  - name: Eurosport 2
+  - name: Eurosport 2 LQ
+  groups: ["sport"]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+
+- id: arenasport1.sr
+  enabled: true
+  names:
+  - name: Arena Sport 1 (SRB)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - tvarenasport.com
+  
+- id: arenasport2.sr
+  enabled: true
+  names:
+  - name: Arena Sport 2 (SRB)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - tvarenasport.com
+  
+- id: arenasport3.sr
+  enabled: false
+  names:
+  - name: Arena Sport 3 (SRB)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - tvarenasport.com
+  
+- id: arenasport4.sr
+  enabled: false
+  names:
+  - name: Arena Sport 4 (SRB)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - tvarenasport.com
+  
+- id: arenasport5.sr
+  enabled: false
+  names:
+  - name: Arena Sport 5 (SRB)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - tvarenasport.com
+  
+- id: arenasport6.sr
+  enabled: false
+  names:
+  - name: Arena Sport 6 (SRB)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - tvarenasport.com
+  
+- id: arenasport1.hr
+  enabled: true
+  names:
+  - name: Arena Sport 1 (HR)
+    lang: en
+  - name: Arena Sport 1 HD (HR)
+    lang: en
+  groups: ["sport"]
+  sources:
+    - mojtv.hr
+    - tvarenasport.com
+  
+- id: arenasport2.hr
+  enabled: true
+  names:
+  - name: Arena Sport 2 (HR)
+    lang: en
+  - name: Arena Sport 2 HD (HR)
+    lang: en
+  groups: ["sport"]
+  sources:
+    - mojtv.hr
+    - tvarenasport.com
+  
+- id: arenasport3.hr
+  enabled: false
+  names:
+  - name: Arena Sport 3 (HR)
+    lang: en
+  - name: Arena Sport 3 HD (HR)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - mojtv.hr
+  - tvarenasport.com
+  
+- id: arenasport4.hr
+  enabled: false
+  names:
+  - name: Arena Sport 4 (HR)
+    lang: en
+  - name: Arena Sport 4 HD (HR)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - mojtv.hr
+  - tvarenasport.com
+  
+- id: arenasport5.hr
+  enabled: false
+  names:
+  - name: Arena Sport 5 (HR)
+    lang: en
+  - name: Arena Sport 5 HD (HR)
+    lang: en
+  groups: ["sport"]
+  sources:
+  - mojtv.hr
+  - tvarenasport.com
+  
+- id: matchfutbol1.ru
+  enabled: true
+  names:
+  - name: Матч! Футбол 1
+    lang: ru
+  - name: Матч! Футбол 1 HD
+    lang: ru
+  - name: Match! Football 1
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: matchfutbol2.ru
+  enabled: true
+  names:
+  - name: Матч! Футбол 2
+    lang: ru
+  - name: Матч! Футбол 2 HD
+    lang: ru
+  - name: Match! Football 2
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: matchfutbol3.ru
+  enabled: true
+  names:
+  - name: Матч! Футбол 3
+    lang: ru
+  - name: Матч! Футбол 3 HD
+    lang: ru
+  - name: Match! Football 3
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: matchigra.ru
+  enabled: true
+  names:
+  - name: Матч! Игра
+    lang: ru
+  - name: Матч! Игра HD
+    lang: ru
+  - name: Match! Igra
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: matcharena.ru
+  enabled: true
+  names:
+  - name: Матч! Арена
+    lang: ru
+  - name: Матч! Арена HD
+    lang: ru
+  - name: Match! Arena
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: matchpremier.ru
+  enabled: true
+  names:
+  - name: Матч! Пермиер
+    lang: ru
+  - name: Матч! Пермиер HD
+    lang: ru
+  - name: Match! Premier
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+
+- id: matchtv.ru
+  enabled: true
+  names:
+  - name: Матч! ТВ
+    lang: ru
+  - name: Матч! ТВ HD
+    lang: ru
+  - name: Match! TV
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: matchboetz.ru
+  enabled: true
+  names:
+  - name: Матч! Боец
+    lang: ru
+  - name: Match! Boetz
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: matchstrana.ru
+  enabled: true
+  names:
+  - name: Матч! Страна
+    lang: ru
+  - name: Match! Strana
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: telekanalkhl.ru
+  enabled: true
+  names:
+  - name: Телеканал КХЛ
+    lang: ru
+  - name: Телеканал КХЛ HD
+    lang: ru
+  - name: Telekanal KHL
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: mirbaseketbola.ru
+  enabled: true
+  names:
+  - name: Мир Баскетбола
+    lang: ru
+  - name: Mir Basketball
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: konnyimir.ru
+  enabled: true
+  names:
+  - name: Конный мир
+    lang: ru
+  - name: Конный мир HD
+    lang: ru
+  - name: Konnyi mir
+    lang: en
+  groups: ["sport"]
+  sources:
+  - ntvplus.ru
+  
+- id: gametoon.tv
+  enabled: true
+  names:
+  - name: Gametoon
+    lang: en
+  - name: Gametoon HD
+    lang: en
+  groups: ["sport"]
+  sources:
+  - programtv.onet.pl
+
+- id: aspor.tr
+  enabled: true
+  names:
+  - name: A Spor
+  - name: A Spor HD
+  groups: ["sport"]
+  sources:
+  - turksatkablo.com.tr
+
+- id: tivibuspor.tr
+  enabled: false
+  names:
+  - name: Tivibu Spor
+  - name: Tivibu Spor HD
+  groups: ["sport"]
+  sources:
+  
+- id: trtspor.tr
+  enabled: true
+  names:
+  - name: TRT Spor
+    lang: tr
+  - name: TRT Spor HD
+    lang: tr
+  groups: ["sport"]
+  sources:
+  - trt.net.tr
+  - turksatkablo.com.tr
+
+- id: raisport1.it
+  enabled: true
+  names:
+  - name: Rai Sport 1
+  groups: ["sport"]
+  sources:
+  - raiplay.it
+    
+- id: extremesportschannel.com
+  enabled: true
+  names:
+  - name: Extreme Sports Channel
+    lang: en
+  groups: ["sport"]
+  sources:
+  - mts.rs
+  - dnes.bg
+  
+  
+- id: sport1.de
+  enabled: true
+  names:
+  - name: Sport 1
+    lang: de
+  - name: Sport 1 DE
+    lang: de
+  groups: ["sport"]
+  sources:
+  - tvtoday.de
+  
+- id: sport1plus.de
+  enabled: true
+  names:
+  - name: Sport +
+  - name: Sport+
+  - name: Sport+ HD
+    lang: de
+  groups: ["sport"]
+  sources:
+  - tvtoday.de
+  
+- id: eurosport1.de
+  enabled: true
+  names:
+  - name: Eurosport DE HD
+    lang: de
+  - name: Eurosport DE
+    lang: de
+  groups: ["sport"]
+  sources:
+  - tvtoday.de
+  
+- id: skysport1.de
+  enabled: true
+  names:
+  - name: Sky Sport 1
+    lang: de
+  - name: Sky Sport 1 HD
+    lang: de
+  groups: ["sport"]
+  sources:
+  - tvtoday.de
+  - programtv.onet.pl
+  
+- id: skysport2.de
+  enabled: true
+  names:
+  - name: Sky Sport 2 HD
+    lang: de
+  - name: Sky Sport 2
+    lang: de
+  groups: ["sport"]
+  sources:
+  - tvtoday.de
+  - programtv.onet.pl
+  
+- id: skysportaustria.au
+  enabled: false
+  names:
+  - name: Sky Sport Austria
+    lang: de
+  groups: ["sport"]
+  sources:
+  - tvtoday.de
+  - programtv.onet.pl
+  
+- id: skysportbundesliga.de
+  enabled: true
+  names:
+  - name: Sky Sport Bundesliga
+    lang: de
+  - name: Sky Sport Bundesliga HD
+    lang: de
+  groups: ["sport"]
+  sources:
+  - tvtoday.de
+  
+- id: ligadecampeones.mplus.es
+  enabled: true
+  names:
+  - name: M+ Liga de Campeones
+    lang: es
+  - name: Bein Sports HD (es)
+    lang: es
+  groups: ["sport"]
+  sources:
+  - movistarplus.es
+  
+- id: deportes.mplus.es
+  enabled: true
+  names:
+  - name: M+ Deportes
+    lang: es
+  - name: Movistar Deportes 1 HD
+    lang: es
+  groups: ["sport"]
+  sources:
+  - movistarplus.es
+
+  
+#############
+### MUSIC ###
+#############
+
+- id: iconcerts.stingray.com
+  enabled: true
+  names:
+  - name: iConcerts
+    lang: en
+  - name: iConcerts HD
+    lang: en
+  sources:
+  - telestar.fr
+  - dnes.bg
+  - programtv.onet.pl
+  
+- id: mtv80s.com
+  enabled: true
+  names:
+  - name: MTV 80s
+    lang: en
+  - name: MTV 80’s
+    lang: en
+  sources:
+  - dnes.bg
+  - programtv.onet.pl
+  
+- id: mtv90s.com
+  enabled: true
+  names:
+  - name: MTV 90s
+    lang: en
+  - name: MTV 90’s
+    lang: en
+  sources:
+  - dnes.bg
+  - programtv.onet.pl
+
+- id: mtv00s.com
+  enabled: true
+  names:
+  - name: MTV 00s
+    lang: en
+  - name: MTV 00’s
+    lang: en
+  - name: VH1
+    lang: en
+  sources:
+  - dnes.bg
+  - programtv.onet.pl
+
+- id: clubmtv.com
+  enabled: true
+  names:
+  - name: Club MTV
+    lang: en
+  - name: Club MTV HD
+    lang: en
+  sources:
+  - dnes.bg
+  - programtv.onet.pl
+  
+- id: mtvhits.com
+  enabled: true
+  names:
+  - name: MTV Hits
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  - programtv.onet.pl
+
+- id: mtvlive.com
+  enabled: true
+  names:
+  - name: MTV Live
+    lang: en
+  - name: MTV Live HD
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  - mtv-live-hd-105
+
+- id: thevoice.bg
+  enabled: true
+  names:
+  - name: The Voice
+    lang: en
+  sources:
+  - dnes.bg
+
+- id: citytv.bg
+  enabled: true
+  names:
+  - name: City TV
+    lang: en
+  sources:
+  - city.bg
+
+- id: magictv.bg
+  enabled: false
+  names:
+  - name: Magic TV
+    lang: en
+  sources:
+  
+- id: planeta4k.bg
+  enabled: true
+  names:
+  - name: Planeta 4K
+    lang: en
+  - name: Планета 4K
+    lang: bg
+  sources:
+  - dnes.bg
+  
+- id: planetatv.bg
+  enabled: true
+  names:
+  - name: Planeta
+    lang: en
+  - name: Планета
+    lang: bg
+  - name: Планета HD
+    lang: bg
+  sources:
+  - dnes.bg
+
+- id: planetafolk.bg
+  enabled: true
+  names:
+  - name: Planeta Folk
+    lang: en
+  - name: Планета Фолк
+    lang: bg
+  sources:
+  - dnes.bg
+  
+- id: fentv.bg
+  enabled: true
+  names:
+  - name: Фен ТВ
+    lang: en
+  - name: Fen TV
+    lang: en
+  - name: Fen HD
+    lang: en
+  sources:
+  - dnes.bg
+    
+- id: fenfolk.bg
+  enabled: true
+  names:
+  - name: Фен Фолк
+    lang: bg
+  - name: Fen Folk TV
+    lang: en
+  sources:
+  - dnes.bg
+  
+- id: balkanika.bg
+  enabled: true
+  names:
+  - name: Балканика
+    lang: bg
+  - name: Balkanika HD
+    lang: en
+  - name: Balkanika
+    lang: en
+  sources:
+  - dnes.bg
+  
+- id: mezzo.tv
+  enabled: true
+  names:
+  - name: Mezzo
+    lang: en
+  sources:
+  - programtv.onet.pl
+  - tvtoday.de
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: mezzolive.tv
+  enabled: true
+  names:
+  - name: Mezzo Live
+    lang: en
+  sources:
+  - programtv.onet.pl
+
+- id: deutschesmusik.de
+  enabled: true
+  names:
+  - name: Deutsche Musik
+    lang: de
+  sources:
+  - tvtoday.de
+
+- id: mcm.fr
+  enabled: true
+  name: MCM
+  sources:
+  - telestar.fr
+
+##############
+### GERMAN ###
+##############
+
+- id: ard.de
+  enabled: true
+  names:
+  - name: ARD
+    lang: de
+  - name: ARD / Das Erste
+    lang: de
+  - name: ARD / Das Erste HD
+    lang: de
+  sources:
+  - tvtoday.de
+
+- id: zdf.de
+  enabled: true
+  names:
+  - name: ZDF
+    lang: de
+  - name: ZDF HD
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: zdfinfo.de
+  enabled: true
+  names:
+  - name: ZDF Info
+    lang: de
+  - name: ZDF Info HD
+    lang: de
+  sources:
+  - tvtoday.de
+
+- id: zdfneo.de
+  enabled: true
+  names:
+  - name: ZDF Neo
+    lang: de
+  - name: ZDF Neo HD
+    lang: de
+  sources:
+  - tvtoday.de
+
+- id: pro7max.de
+  enabled: true
+  names:
+  - name: Pro 7 Maxx
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: prosieben.de
+  enabled: true
+  names:
+  - name: Pro 7
+    lang: de
+  - name: ProSieben
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: sat1.de
+  enabled: true
+  names:
+  - name: SAT.1
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: sat1gold.de
+  enabled: true
+  names:
+  - name: SAT.1 Gold
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: rtl.de
+  enabled: true
+  names:
+  - name: RTL
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: rtl2.de
+  enabled: true
+  names:
+  - name: RTL II
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: rtlnitro.de
+  enabled: true
+  names:
+  - name: RTL Nitro
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: super.rtl.de
+  enabled: true
+  names:
+  - name: Super RTL
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: kika.de
+  enabled: true
+  names:
+  - name: Kika
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: 3sat.de
+  enabled: true
+  names:
+  - name: 3 Sat
+    lang: de
+  - name: 3Sat HD
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: arte.de
+  enabled: true
+  names:
+  - name: Arte HD
+    lang: de
+  - name: Arte
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: anixe.de
+  enabled: true
+  names:
+  - name: Anixe
+    lang: de
+  - name: Anixe HD
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: ntv.de
+  enabled: true
+  names:
+  - name: N-TV
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: tagesschau.de
+  enabled: true
+  names:
+  - name: Tagesschau 24
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: tele5.de
+  enabled: true
+  names:
+  - name: Tele 5
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: sixx.de
+  enabled: true
+  names:
+  - name: Sixx
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: phoenix.de
+  enabled: true
+  names:
+  - name: Phoenix
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: kabeleinsdoku.de
+  enabled: true
+  names:
+  - name: Kabel Eins Doku
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: orf1.au
+  enabled: true
+  names:
+  - name: ORF 1
+    lang: de
+  - name: ORF1 HD
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: orf2.au
+  enabled: true
+  names:
+  - name: ORF 2
+    lang: de
+  - name: ORF2 HD
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: tlc.de
+  enabled: true
+  names:
+  - name: TLC
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: disney.de
+  enabled: true
+  names:
+  - name: Disney
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: wdr.de
+  enabled: true
+  names:
+  - name: WDR
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: servus.de
+  enabled: true
+  names:
+  - name: Servus
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: skyaction.de
+  enabled: true
+  names:
+  - name: Sky Action
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: skyatlantic.de
+  enabled: true
+  names:
+  - name: Sky Atlantic
+    lang: de
+  - name: Sky Atlantic HD
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: skycinemafamily.de
+  enabled: true
+  names:
+  - name: Sky Cinema Family HD
+    lang: de
+  - name: Sky Cinema Family
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: syfy.de
+  enabled: true
+  names:
+  - name: SyFy
+    lang: de
+  - name: SyFy HD
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: discovery.de
+  enabled: true
+  names:
+  - name: Discovery DE
+  - name: Discovery DE HD
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: natgeowild.de
+  enabled: true
+  names:
+  - name: NatGeo Wild EU HD
+  - name: Nat Geo Wild
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: natgeo.de
+  enabled: true
+  names:
+  - name: National Geographic
+  - name: Nat Geo HD DE
+    lang: de
+  sources:
+  - tvtoday.de
+  
+- id: dmax.de
+  enabled: true
+  names:
+  - name: DMAX DE
+    lang: de
+  - name: DMAX DE HD
+    lang: de
+  sources:
+  - programtv.onet.pl
+  - tvtoday.de
+
+############
+### NEWS ###
+############
+
+- id: tvevropa.bg
+  enabled: true
+  names:
+  - name: ТВ Европа
+    lang: bg
+  - name: TV Evropa
+    lang: en
+  sources:
+  - dnes.bg
+
+- id: news.nova.bg
+  enabled: true
+  names:
+  - name: Нова Нюз
+    lang: bg
+  - name: Nova News
+    lang: en
+  - name: Nova News HD
+    lang: en
+  sources:
+  - nova.bg
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: cnninternational.com
+  enabled: true
+  names:
+  - name: CNN International
+    lang: en
+  - name: CNN International HD
+    lang: en
+  sources:
+  - uksky.com
+  - dnes.bg
+  
+- id: aljazeera.com
+  enabled: true
+  names:
+  - name: Al Jazeera
+    lang: en
+  - name: Aljazeera English HD
+    lang: en
+  - name: Al Jazeera Eng
+    lang: en
+  sources:
+  - uksky.com
+  - tvtoday.de
+  - telestar.fr
+  
+- id: deutschewelle.de
+  enabled: true
+  names:
+  - name: Deutsche Welle
+    lang: en
+  sources:
+  - programtv.onet.pl
+  
+- id: euronews.de
+  enabled: false
+  names:
+  - name: Euronews
+    lang: en
+  - name: Euronews HD
+    lang: en
+  sources:
+  - tvguide.co.uk
+  
+- id: bbcworldnews.com
+  enabled: true
+  names:
+  - name: BBC World News
+    lang: en
+  - name: BBC Worldnews
+    lang: en
+  sources:
+  - uksky.com
+  - telestar.fr
+  
+- id: trtworld.com
+  enabled: true
+  names:
+  - name: TRT World
+    lang: en
+  - name: TRT World HD
+    lang: en
+  sources:
+  - uksky.com
+
+- id: cnbc.com
+  enabled: true
+  names:
+  - name: CNBC
+    lang: en
+  sources:
+  - telestar.fr
+  - uksky.com
+  - programtv.onet.pl
+
+- id: france24.com
+  enabled: false
+  names:
+  - name: France 24
+    lang: en
+  sources:
+  
+- id: russiatoday.com
+  enabled: true
+  names:
+  - name: Russia Today
+    lang: en
+  - name: RT News HD
+    lang: en
+  sources:
+  - tv.yandex.ru
+  - uksky.com
+  - programtv.onet.pl
+  
+- id: rtdoc.com
+  enabled: true
+  names:
+  - name: RT Doc
+  - name: RT Docu
+  - name: RT Docu HD
+  sources:
+  - tv.yandex.ru
+  
+- id: nhkworld.com
+  enabled: true
+  names:
+  - name: NHK World
+    lang: en
+  sources:
+  - uksky.com
+  - programtv.onet.pl
+  
+- id: skynews.uk
+  enabled: true
+  names:
+  - name: Sky News
+    lang: en
+  sources:
+  - programtv.onet.pl
+  
+- id: cgtn.cn
+  enabled: true
+  names:
+  - name: CGTN
+    lang: en
+  sources:
+  - mts.rs
+  - programtv.onet.pl
+  
+- id: arirang.tv
+  enabled: true
+  names:
+  - name: Arirang
+    lang: en
+  - name: Arirang HD
+    lang: en
+  sources:
+  - uksky.com
+  - programtv.onet.pl
+
+#######################
+### HOBBY & SCIENCE ###
+#######################
+
+- id: natgeo.bg
+  enabled: true
+  names:
+  - name: National Geographic
+    lang: en
+  - name: NatGeo HD
+    lang: en
+  sources:
+  - waltdisney.bg
+  - tv.dir.bg
+
+- id: natgeowild.bg
+  enabled: true
+  names:
+  - name: NatGeo Wild
+    lang: en
+  - name: NatGeo Wild HD
+    lang: en
+  sources:
+  - waltdisney.bg
+  - dnes.bg
+  - tv.dir.bg
+
+- id: 24kitchen.bg
+  enabled: true
+  names:
+  - name: 24 Kitchen
+    lang: en
+  - name: 24 Kitchen HD
+    lang: en
+  sources:
+  - waltdisney.bg
+  
+- id: kitchen.tv
+  enabled: true
+  names:
+  - name: Kitchen TV
+  - name: Kitchen TV HD
+  sources:
+  - mts.rs
+  
+- id: hgtv.bg
+  enabled: true
+  names:
+  - name: HDGE
+    lang: en
+  sources:
+  - tv.dir.bg
+  
+- id: tlc.bg
+  enabled: true
+  names:
+  - name: TLC
+    lang: en
+  sources:
+  - tv.dir.bg
+  
+- id: crimeinvestigation.bg
+  enabled: true
+  names:
+  - name: Crime & Investigation
+    lang: en
+  - name: C&I Networks
+    lang: en
+  sources:
+  - tv.dir.bg
+
+- id: history.viasat.bg
+  enabled: true
+  names:
+  - name: Viasat History
+    lang: en
+  - name: Viasat History HD
+    lang: en
+  sources:
+  - pawa.tv
+  - viasat.bg
+  - dnes.bg
+
+- id: explore.viasat.bg
+  enabled: true
+  names:
+  - name: Viasat Explore
+    lang: en
+  - name: Viasat Explore HD
+    lang: en
+  sources:
+  - pawa.tv
+  - viasat.bg
+  - dnes.bg
+
+- id: nature.viasat.bg
+  enabled: true
+  names:
+  - name: Viasat Nature
+    lang: en
+  - name: Viasat Nature HD
+    lang: en
+  sources:
+  - pawa.tv
+  - viasat.bg
+  - dnes.bg
+  
+- id: discoverychannel.bg
+  enabled: true
+  names:
+  - name: Discovery Channel
+    lang: en
+  - name: Discovery HD
+    lang: en
+  sources:
+  - dnes.bg
+
+- id: discoveryscience.bg
+  enabled: true
+  names:
+  - name: Discovery Science
+    lang: en
+  - name: Discovery Science HD
+    lang: en
+  sources:
+  - dnes.bg
+  
+- id: discoveryshowcase.bg
+  enabled: false
+  names:
+  - name: Discovery Showcase
+    lang: en
+  sources:
+  - tv.dir.bg
+  
+- id: investigationdiscovery.bg
+  enabled: true
+  names:
+  - name: Investigation Discovery
+    lang: en
+  - name: ID Xtra
+    lang: en
+  - name: ID Xtra HD
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: dtx.tv
+  enabled: true
+  names:
+  - name: DTX HD
+  - name: DTX
+  sources:
+  - mts.rs
+  
+- id: foodnetwork.bg
+  enabled: true
+  names:
+  - name: Food Network
+    lang: en
+  - name: Food Network HD
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  - tv-programa.bg
+  
+- id: animalplanet.bg
+  enabled: true
+  names:
+  - name: Animal Planet
+    lang: en
+  - name: Animal Planet HD
+    lang: en
+  sources:
+  - dnes.bg
+
+- id: hobbylov.bg
+  enabled: false
+  names:
+  - name: Hobby Lov
+    lang: en
+  - name: Хоби Лов
+    lang: bg
+  - name: BG Лов
+    lang: bg
+  sources:
+  - hobbytv.bg
+
+- id: hobbytv.bg
+  enabled: true
+  names:
+  - name: Hobby TV
+    lang: en
+  - name: Хоби ТВ
+    lang: bg
+  sources:
+  - hobbytv.bg
+  - dnes.bg
+  - tv.dir.bg
+  - tv-programa.bg
+  
+- id: hobbyhd.bg
+  enabled: false
+  names:
+  - name: Hobby HD
+    lang: en
+  - name: Хоби HD
+    lang: bg
+  sources:
+  - hobbytv.bg
+  
+- id: ohotarybalka.ru
+  enabled: true
+  names:
+  - name: Охота и рыбалка
+    lang: ru
+  - name: Ohota Rybalka
+    lang: en
+  sources:
+  - tv.yandex.ru
+  - ntvplus.ru
+  - dnes.bg
+  - ohotarybalka.tv
+  
+- id: travelxp.tv
+  enabled: true
+  names:
+  - name: Travel XP
+    lang: en
+  - name: Travel XP HD
+    lang: en
+  sources:
+  - dnes.bg
+  
+- id: travelchannel.bg
+  enabled: true
+  names:
+  - name: Travel Channel
+    lang: en
+  - name: Travel Channel HD
+    lang: en
+  sources:
+  - dnes.bg
+
+- id: traveltv.bg
+  enabled: true
+  names:
+  - name: Травел ТВ
+    lang: bg
+  - name: Travel TV
+    lang: en
+  sources:
+  - tv.dir.bg
+  - start.bg
+  
+- id: docubox.spiintl.com
+  enabled: true
+  names:
+  - name: DocuBox
+    lang: en
+  sources:
+  - tv.dir.bg
+  - tv-programa.bg
+  
+- id: historytv.com
+  enabled: true
+  names:
+  - name: History Channel
+    lang: en
+  - name: History HD
+    lang: en
+  sources:
+  - tv.dir.bg
+  
+- id: tvt.bg
+  enabled: true
+  names:
+  - name: TVT Tourism
+    lang: en
+  sources:
+  - tv.dir.bg
+  
+- id: tv.lovenature.com
+  enabled: true
+  names:
+  - name: Love Nature
+    lang: en
+  - name: Love Nature HD
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: bbcearth.com
+  enabled: false
+  names:
+  - name: BBC Earth
+    lang: en
+  - name: BBC Earth HD
+    lang: en
+  sources:
+
+- id: fashion.tv
+  enabled: true
+  names:
+  - name: Fashion TV
+    lang: en
+  - name: Fashion HD
+    lang: en
+  sources:
+  - programtv.onet.pl
+  
+- id: fashionbox.tv
+  enabled: true
+  names:
+  - name: FashionBox HD
+    lang: en
+  - name: FashionBox TV
+    lang: en
+  sources:
+  - mts.rs
+  
+- id: chasseetpeche.fr
+  enabled: true
+  names:
+  - name: Chasse & Peche
+  sources:
+  - telestar.fr
+  
+- id: theworld.bg
+  enabled: true
+  names:
+  - name: The World
+  sources:
+  - tv-programa.bg
+  
+- id: jivayapriroda.ru
+  enabled: true
+  days-ahead: 1
+  names:
+  - name: Живая природа
+  - name: Живая природа HD
+  - name: Jivaya Priroda
+  sources:
+  - tv.yandex.ru
+
+  
+- id: wnesstv.com
+  enabled: false
+  names:
+  - name: Wness TV
+    lang: en
+  - name: Wness HD
+    lang: en
+  sources:
+  - wness.com
+  
+############
+### KIDS ###
+############
+
+- id: nickelodeon.tv
+  enabled: true
+  names:
+  - name: Nickeldeon
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+
+- id: nick.tv
+  enabled: true
+  names:
+  - name: Nick HD
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: jimjam.tv
+  enabled: true
+  names:
+  - name: JimJam
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  - dnes.bg
+  
+- id: ekids.bg
+  enabled: true
+  names:
+  - name: E-kids
+    lang: en
+  - name: eKids
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  - dnes.bg
+  
+- id: davincilearning.tv
+  enabled: true
+  names:
+  - name: Da Vinci Learning
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  - dnes.bg
+  - tv.dir.bg
+  
+- id: boomerang.tv
+  enabled: true
+  names:
+  - name: Boomerang
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  - tv.dir.bg
+  
+- id: cartoonnetwork.tv
+  enabled: true
+  names:
+  - name: Cartoon Network
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  - tv.dir.bg
+  
+- id: disneychannel.bg
+  enabled: true
+  names:
+  - name: Disney Channel
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  - tv.dir.bg
+  
+- id: karusel.ru
+  enabled: false
+  names:
+  - name: Карусел
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  
+- id: detskyimir.ru
+  enabled: false
+  names:
+  - name: Детский мир / Телеклуб
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  
+- id: disney.ru
+  enabled: false
+  names:
+  - name: Disney
+    lang: en
+  groups: [ "kids" ]
+  sources:
+  
+- id: trtcocuk.tr
+  enabled: true
+  names:
+  - name: TRT Cocuk
+    lang: tr
+  groups: [ "kids" ]
+  sources:
+  - trt.net.tr
+  - turksatkablo.com.tr
+
+###############
+### RUSSIAN ###
+###############
+
+- id: rossiya1.ru
+  enabled: true
+  names:
+  - name: Россия 1
+    lang: ru
+  - name: Russia 1
+    lang: en
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+
+- id: rossiya24.ru
+  enabled: false
+  names:
+  - name: Россия 24
+    lang: ru
+  - name: Russia 24
+    lang: en
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: rossiyak.ru
+  enabled: true
+  names:
+  - name: Россия К
+    lang: ru
+  - name: Russia K
+    lang: en
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: pervyikanal.ru
+  enabled: true
+  names:
+  - name: Первый канал
+    lang: ru
+  - name: Первый канал (EUR)
+    lang: ru
+  - name: Первый канал (RU)
+    lang: ru
+  - name: Pervyi kanal
+    lang: en
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  - tv.dir.bg
+  - tv-programa.bg
+ 
+  
+- id: zvezda.ru
+  enabled: true
+  names:
+  - name: Звезда
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: sts.ru
+  enabled: true
+  names:
+  - name: СТС
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: tnt.ru
+  enabled: true
+  names:
+  - name: ТНТ
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: zhivi.ru
+  enabled: true
+  names:
+  - name: Живи
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: ntv.ru
+  enabled: true
+  names:
+  - name: НТВ Мир
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  - tv.dir.bg
+  
+- id: rtrplaneta.ru
+  enabled: false
+  names:
+  - name: РТР Планета
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - tv.dir.bg
+  
+- id: lyubimoekino.ru
+  enabled: true
+  names:
+  - name: Любимое кино
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: domkino.ru
+  enabled: true
+  names:
+  - name: Дом кино
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: ruskoekino.tv1000.ru
+  enabled: true
+  names:
+  - name: TV 1000 Руское кино
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+- id: vremya.ru
+  enabled: true
+  names:
+  - name: Время
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  
+- id: telekafe.ru
+  enabled: true
+  names:
+  - name: Телекафе
+    lang: ru
+  groups: [ "ru" ]
+  sources:
+  - ntvplus.ru
+  
+###############
+### TURKISH ###
+###############
+
+- id: trt1.tr
+  enabled: true
+  names:
+  - name: TRT 1
+    lang: tr
+  - name: TRT 1 HD
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  - trt.net.tr
+  - turksatkablo.com.tr
+
+- id: trthaber.tr
+  enabled: true
+  names:
+  - name: TRT Haber
+    lang: tr
+  - name: TRT Haber HD
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  - trt.net.tr
+  - turksatkablo.com.tr
+
+- id: trtbelgesel.tr
+  enabled: true
+  names:
+  - name: TRT Belgesel
+    lang: tr
+  - name: TRT Belgesel HD
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  - trt.net.tr
+  - turksatkablo.com.tr
+
+- id: cnnturk.tr
+  enabled: true
+  names:
+  - name: CNN Turk
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: haberturk.tr
+  enabled: true
+  names:
+  - name: Haber Turk
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: yabantv.tr
+  enabled: false
+  names:
+  - name: Yaban TV
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+
+- id: eurod.tr
+  enabled: false
+  names:
+  - name: Euro D
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+
+- id: semerkand.tr
+  enabled: false
+  names:
+  - name: Semerkand
+    lang: tr
+  - name: Semerkand HD
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  
+- id: kanal7.tr
+  enabled: true
+  names:
+  - name: Kanal 7
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: dreamturk.tr
+  enabled: false
+  names:
+  - name: Dream Turk
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  
+- id: teve2.tr
+  enabled: true
+  names:
+  - name: Teve 2
+    lang: tr
+  - name: Teve 2 HD
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: taytv.tr
+  enabled: false
+  names:
+  - name: Tay TV
+    lang: tr
+  - name: Tay TV HD
+    lang: tr
+  groups: [ "tr" ]
+  sources:
+
+- id: ahaber.tr
+  enabled: true
+  names:
+  - name: A Haber
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: atv.tr
+  enabled: true
+  names:
+  - name: ATV
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: ntv.tr
+  enabled: true
+  names:
+  - name: NTV
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: startv.tr
+  enabled: true
+  names:
+  - name: Star TV
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: tv8.tr
+  enabled: true
+  names:
+  - name: TV 8
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: fox.tr
+  enabled: true
+  names:
+  - name: Fox TR
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: kanald.tr
+  enabled: true
+  names:
+  - name: Kanal D
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+- id: showtv.tr
+  enabled: true
+  names:
+  - name: Show TV
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+  
+- id: beyaztv.tr
+  enabled: true
+  names:
+  - name: Beyaz TV
+  - name: Beyaz HD
+  groups: [ "tr" ]
+  sources:
+  - turksatkablo.com.tr
+
+
+##############
+### OTHERS ###
+##############
+
+- id: englishclub.bg
+  enabled: false
+  names:
+  - name: English Club
+    lang: en
+  groups: [ "oth" ]
+  sources:
+
+- id: tve.es
+  enabled: true
+  names:
+  - name: TVE
+    lang: es
+  sources:
+  - movistarplus.es
+  
+- id: telesur.es
+  enabled: true
+  names:
+  - name: TeleSur
+    lang: es
+  sources:
+  - movistarplus.es
+
+#############
+### EROTIC
+#############
+
+- id: erox.spiintl.com
+  enabled: true
+  names:
+  - name: Erox
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+  
+- id: eroxxx.spiintl.com
+  enabled: true
+  names:
+  - name: Eroxxx
+    lang: en
+  - name: Eroxx HD
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+  
+- id: dorceltv.com
+  enabled: true
+  names:
+  - name: Dorcel TV
+    lang: en
+  - name: Dorcel TV HD
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+  
+- id: dorcelxxx.com
+  enabled: true
+  names:
+  - name: Dorcel XXX
+    lang: en
+  - name: Dorcel XXX HD
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+  
+- id: hustlerhd.com
+  enabled: true
+  names:
+  - name: Hustler HD
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+  
+- id: hustlertv.com
+  enabled: true
+  names:
+  - name: Hustler TV
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+  
+- id: redlighttv.com
+  enabled: true
+  names:
+  - name: Redlight
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+  
+- id: private.tv
+  enabled: true
+  names:
+  - name: Private TV
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+  
+- id: brazzers.eu
+  enabled: true
+  names:
+  - name: Brazzers Europe
+    lang: en
+  groups: [ "xxx" ]
+  sources:
+  - programtv.onet.pl
+
+###############
+### SERBIAN ###
+###############
+
+- id: rts1.rs
+  enabled: true
+  names:
+  - name: РТС 1
+    lang: sr
+  groups: [ "srb" ]
+  sources:
+  - mts.rs
+  
+- id: rts2.rs
+  enabled: true
+  names:
+  - name: РТС 2
+    lang: sr
+  groups: [ "srb" ]
+  sources:
+  - mts.rs
+  
+- id: prva.rs
+  enabled: true
+  names:
+  - name: Prva
+    lang: sr
+  sources:
+  - mts.rs
+  
+- id: o2.rs
+  enabled: true
+  names:
+  - name: O2
+    lang: sr
+  groups: [ "srb" ]
+  sources:
+  - mts.rs
+  
+##############
+### FRENCH ###
+##############
+
+- id: france2.fr
+  enabled: true
+  names:
+  - name: France 2
+  - name: France 2 HD
+  groups: [ "fr" ]
+  sources:
+  - telestar.fr
+  
+- id: france3.fr
+  enabled: true
+  names:
+  - name: France 3
+  - name: France 3 HD
+  groups: [ "fr" ]
+  sources:
+  - telestar.fr
+  
+- id: m6.fr
+  enabled: true
+  names:
+  - name: M6
+  groups: [ "fr" ]
+  sources:
+  - telestar.fr
+  
+- id: arte.fr
+  enabled: true
+  names:
+  - name: Arte
+  - name: ARTE Francais HD
+  groups: [ "fr" ]
+  sources:
+  - telestar.fr
+  
+- id: bfmbusiness.fr
+  enabled: true
+  names:
+  - name: BFM Business
+  groups: [ "fr" ]
+  sources:
+  - telestar.fr
+  
+- id: france24fr.fr
+  enabled: true
+  names:
+  - name: France 24 FR
+  groups: [ "fr" ]
+  sources:
+  - telestar.fr
+  
+###############
+### ITALIAN ###
+###############
+
+- id: rai1.it
+  enabled: true
+  names:
+  - name: Rai 1
+  groups: [ "it" ]
+  sources:
+  - raiplay.it
+  
+- id: rai2.it
+  enabled: true
+  names:
+  - name: Rai 2
+  groups: [ "it" ]
+  sources:
+  - raiplay.it
+  
+- id: rai3.it
+  enabled: true
+  names:
+  - name: Rai 3
+  groups: [ "it" ]
+  sources:
+  - raiplay.it
+  
+- id: rainews.it
+  enabled: false
+  names:
+  - name: Rai News
+  sources:
+  - raiplay.it
+  
+- id: raiscuola.it
+  enabled: true
+  groups: [ "it" ]
+  names:
+  - name: Rai Scuola
+  sources:
+  - raiplay.it
