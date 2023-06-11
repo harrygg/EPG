@@ -1,0 +1,72 @@
+---
+id: tv.yandex.ru
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: Ru-ru
+
+init-page:
+  request:
+    url: https://tv.yandex.ru/
+    headers: 
+      Cookie: yandexuid=4870124631652887990;
+    #debug: true
+  elements:
+    - name: key
+      locator-strategy: regex
+      locator: '"key":"(.*?)"'
+    - name: yandexuId
+      locator-strategy: regex
+      locator: '"yandexuid":"(.*?)"'
+
+request:
+  url: https://tv.yandex.ru/api/10379/channel/${channelId}/schedule?selectedDay=${date}
+  date-format: yyyy-MM-dd
+  headers:
+    Referer: https://tv.yandex.ru/
+    X-Requested-With: XMLHttpRequest
+    Cookie: yandexuid=${yandexuId};
+    X-TV-SK: ${key}
+    
+programs:
+  locator-strategy: jsonpath
+  locator: $.schedule.events[:]
+  #debug: true
+
+elements: 
+  - name: title
+    language: ru
+    locator: title
+  - name: start
+    locator: start
+    time-format: o
+    debug: true
+  - name: stop
+    locator: finish
+    time-format: o
+    debug: true
+  - name: desc
+    locator: program.description
+
+
+channel-parameters:
+  ohotarybalka.ru:
+    channelId: ohota-i-rybalka-621
+  jivayapriroda.ru:
+    channelId: jivaya-priroda-1090
+  russiatoday.com:
+    channelId: russia-today-70
+  rtdoc.com:
+    channelId: rt-doc-1258
+
+
+# Used for extracting channel names and params from a page containing the list of available channels
+channel-extract-rules: 
+  url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=now&tz=0&search=&channel=&offset=0
+  channel-name: 
+    locator: .channel-header--title a
+    property: text
+    
+  channel-param: 
+    locator: .channel-header--title a
+    attribute: href

@@ -1,0 +1,33 @@
+---
+id: city.bg
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://www.city.bg/schedule
+
+programs:
+  locator: '#schedule-container tr'
+
+elements:
+  - name: start
+    locator: .show-time
+    time-format: HH.mm
+            
+  - name: title
+    lang: bg
+    locator: .show-name
+
+  - name: detailsUrl
+    locator: .show-name a
+    attribute: href
+
+program-details:
+  request:
+    url: https://www.city.bg${detailsUrl}
+
+  elements:
+    - name: desc
+      locator: .show-article p

@@ -1,0 +1,1031 @@
+---
+id: mts.rs
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: sr-Latn-RS
+timezone: UTC
+
+request:
+  url: https://mts.rs/oec/epg/program?date=${date}&position=${channelId}
+  date-format: yyyy-MM-dd
+  headers:
+    X-Requested-With: XMLHttpRequest
+    Referer: https://mts.rs/oec/epg
+
+programs:
+  locator-strategy: jsonpath
+  locator: $.channels[0].items[:]
+
+elements:
+  - name: start
+    time-format: yyyy-MM-dd HH:mm:ss
+    locator: full_start
+
+  #- name: stop
+  #  time-format: yyyy-MM-dd HH:mm:ss
+  #  debug: true
+  #  locator: full_end
+
+  - name: title
+    locator: title
+
+  - name: category
+    locator: category
+
+  - name: desc
+    locator: description
+
+  - name: icon
+    locator: image
+
+channel-extract-rules:
+  url: https://mts.rs/oec/epg/channel
+  headers:
+    X-Requested-With: XMLHttpRequest
+    Referer: https://mts.rs/oec/epg
+    
+  locator-strategy: jsonpath
+  channel-name:
+    locator: $.*.name
+    
+  channel-param: 
+    locator: $.*.position
+
+channel-parameters:
+  rts1.rs:
+    channelId: 101
+  rts2.rs:
+    channelId: 102
+  #'SUPERSTAR TV':
+  #  channelId: 103
+  'TV Pink':
+    channelId: 104
+  prva.rs:
+    channelId: 105
+  o2.rs:
+    channelId: 106
+  'Happy TV':
+    channelId: 107
+  Kurir:
+    channelId: 108
+  K1:
+    channelId: 109
+  'Red TV':
+    channelId: 110
+  Vesti:
+    channelId: 111
+  'Euronews Serbia':
+    channelId: 112
+  'Tanjug TV':
+    channelId: 113
+  'Klasik TV':
+    channelId: 114
+  'Toxic TV':
+    channelId: 115
+  'Toxic Folk':
+    channelId: 116
+  'Studio B':
+    channelId: 117
+  'RTS Kolo':
+    channelId: 118
+  TVDR:
+    channelId: 119
+  Kazbuka:
+    channelId: 120
+  'RTS Poletarac':
+    channelId: 121
+  'RTS Nauka':
+    channelId: 122
+  'Decija TV':
+    channelId: 123
+  'TV Ras':
+    channelId: 124
+  kitchen.tv:
+    channelId: 125
+  'Agro TV':
+    channelId: 126
+  'Dexy TV':
+    channelId: 127
+  'Dox TV':
+    channelId: 128
+  'Film klub':
+    channelId: 129
+  'RTV 1':
+    channelId: 131
+  'RTV 2':
+    channelId: 132
+  'Prva MAX':
+    channelId: 133
+  'Balkan Trip':
+    channelId: 134
+  RTRS:
+    channelId: 135
+  BN:
+    channelId: 136
+  'TV Hram':
+    channelId: 137
+  Koreni:
+    channelId: 138
+  'TV Mreza Most':
+    channelId: 139
+  'RTS 3':
+    channelId: 140
+  'TV Pancevo':
+    channelId: 142
+  'Dunav TV':
+    channelId: 143
+  'RTS Zivot':
+    channelId: 144
+  'RTS Trezor':
+    channelId: 145
+  Hype:
+    channelId: 146
+  'RTS Klasika':
+    channelId: 147
+  'RTS Drama':
+    channelId: 148
+  'Arena PREMIUM 1':
+    channelId: 149
+  'Arena PREMIUM 2':
+    channelId: 150
+  'Arena PREMIUM 3':
+    channelId: 151
+  #arenasport1.rs:
+  #  channelId: 152
+  #arenasport2.rs:
+  #  channelId: 153
+  'Arena Sport 3':
+    channelId: 154
+  'Arena Sport 4':
+    channelId: 155
+  'Arena Sport 5':
+    channelId: 156
+  'Arena Sport 6':
+    channelId: 157
+  'Arena Sport 7':
+    channelId: 158
+  'Arena Sport 8':
+    channelId: 159
+  'Arena Sport 1x2':
+    channelId: 160
+  'Arena Fight':
+    channelId: 161
+  'Arena Esport':
+    channelId: 162
+  'Kuvo TV':
+    channelId: 164
+  'Timeless Dizi Channel':
+    channelId: 165
+  'RTS Muzika':
+    channelId: 166
+  'OK KANAL':
+    channelId: 170
+  'SUPERSTAR TV':
+    channelId: 200
+  'SUPERSTAR 2':
+    channelId: 201
+  #'Klasik TV':
+  #  channelId: 202
+  'Film Klub':
+    channelId: 203
+  'Pink Premium':
+    channelId: 204
+  'Pink Movies':
+    channelId: 205
+  'Pink Action':
+    channelId: 206
+  'Pink Thriller':
+    channelId: 207
+  'Pink Crime & Mystery':
+    channelId: 208
+  'Pink Comedy':
+    channelId: 209
+  'Pink Classic':
+    channelId: 210
+  'Pink Western':
+    channelId: 211
+  'Pink Romance':
+    channelId: 212
+  'Pink Sci-Fi & Fantasy':
+    channelId: 213
+  'Pink Horror':
+    channelId: 214
+  'Pink World Cinema':
+    channelId: 215
+  'Pink Film':
+    channelId: 216
+  Fox:
+    channelId: 217
+  'Fox Movies':
+    channelId: 218
+  'Fox Life':
+    channelId: 219
+  'Fox Crime':
+    channelId: 220
+  TV1000:
+    channelId: 221
+  AMC:
+    channelId: 222
+  AXN:
+    channelId: 223
+  'AXN Spin':
+    channelId: 224
+  TV2:
+    channelId: 227
+  'HBO HD':
+    channelId: 230
+  'HBO 2 HD':
+    channelId: 231
+  'HBO 3 HD':
+    channelId: 232
+  'Cinemax HD':
+    channelId: 233
+  Diva:
+    channelId: 235
+  'Cinemax 2 HD':
+    channelId: 234
+  'Epic Drama':
+    channelId: 240
+  'Sci Fi':
+    channelId: 241
+  'Filmbox Premium':
+    channelId: 236
+  'Filmbox Stars':
+    channelId: 237
+  'Pink Family':
+    channelId: 242
+  'Filmbox Extra':
+    channelId: 238
+  'Pink Serije':
+    channelId: 243
+  'Filmbox Arthouse':
+    channelId: 239
+  'Pink Soap':
+    channelId: 244
+  'Film Klub Extra':
+    channelId: 245
+  'CineStar TV 1':
+    channelId: 246
+  'CineStar TV Action':
+    channelId: 247
+  'CineStar TV Fantasy':
+    channelId: 248
+  'CineStar TV Comedy':
+    channelId: 249
+  'Prva Life':
+    channelId: 260
+  'Prva Files':
+    channelId: 261
+  'Prva Kick':
+    channelId: 262
+  'Prva World':
+    channelId: 263
+  24Kitchen:
+    channelId: 264
+  fashionbox.tv:
+    channelId: 265
+  #'Agro TV':
+  #  channelId: 266
+  #'Kitchen TV':
+  #  channelId: 267
+  #TVDR:
+  #  channelId: 268
+  #'Balkan Trip':
+  #  channelId: 269
+  'Zdravlje TV':
+    channelId: 270
+  'Turizam + TV':
+    channelId: 271
+  'Travel Channel':
+    channelId: 272
+  TLC:
+    channelId: 273
+  'Fashion TV':
+    channelId: 274
+  'Pink Fashion':
+    channelId: 275
+  'Pink Style':
+    channelId: 276
+  'Pink Kuvar':
+    channelId: 277
+  'Pink Show':
+    channelId: 278
+  'Pink Zabava':
+    channelId: 279
+  'Pink Reality':
+    channelId: 280
+  'Pink World':
+    channelId: 281
+  'Pink Extra':
+    channelId: 282
+  'Pink Plus':
+    channelId: 283
+  'HA HA':
+    channelId: 284
+  LOL:
+    channelId: 285
+  Gametoon:
+    channelId: 286
+  'Happy Reality 1':
+    channelId: 287
+  'Happy Reality 2':
+    channelId: 288
+  E!:
+    channelId: 289
+  'Zadruga live 1':
+    channelId: 291
+  'Zadruga live 2':
+    channelId: 292
+  'Zadruga live 3':
+    channelId: 293
+  'Zadruga live 4':
+    channelId: 294
+  #Hype:
+  #  channelId: 295
+  #'Kuvo TV':
+  #  channelId: 296
+  #'Food Network':
+  #  channelId: 297
+  #'Arena PREMIUM 1':
+  #  channelId: 300
+  #'Arena PREMIUM 2':
+  #  channelId: 301
+  #'Arena PREMIUM 3':
+  #  channelId: 302
+  arenasport1.rs:
+    channelId: 303
+  arenasport2.rs:
+    channelId: 304
+  arenasport3.rs:
+    channelId: 305
+  arenasport4.rs:
+    channelId: 306
+  arenasport5.rs:
+    channelId: 307
+  arenasport6.rs:
+    channelId: 308
+  #'Arena Sport 7':
+  #  channelId: 309
+  #'Arena Sport 8':
+  #  channelId: 310
+  #'Arena Sport 1x2':
+  #  channelId: 311
+  #'Arena Fight':
+  #  channelId: 312
+  LFCTV:
+    channelId: 314
+  'SOS Kanal Plus':
+    channelId: 315
+  Fast&Fun:
+    channelId: 316
+  extremesportschannel.com:
+    channelId: 317
+  Motorvision:
+    channelId: 318
+  'Zvezda TV':
+    channelId: 320
+  'TV Partizan':
+    channelId: 321
+  'Discovery Science':
+    channelId: 322
+  'Fight Network':
+    channelId: 323
+  Telebet:
+    channelId: 324
+  'Fight Box':
+    channelId: 325
+  'Discovery Channel':
+    channelId: 350
+  'Animal Planet':
+    channelId: 352
+  'National Geographic':
+    channelId: 353
+  'National Geographic Wild':
+    channelId: 354
+  'History 2':
+    channelId: 355
+  'Viasat History':
+    channelId: 356
+  'Viasat Explore':
+    channelId: 357
+  'Viasat Nature':
+    channelId: 358
+  Docubox:
+    channelId: 359
+  'BBC Earth':
+    channelId: 360
+  ID:
+    channelId: 361
+  'CBS Reality':
+    channelId: 362
+  'RT Documentary':
+    channelId: 363
+  'Pink Pedia':
+    channelId: 364
+  eduTV:
+    channelId: 365
+  'Da Vinci Learning':
+    channelId: 366
+  History:
+    channelId: 368
+  'Crime and Investigation':
+    channelId: 369
+  HGTV:
+    channelId: 371
+  'HGTV HD':
+    channelId: 397
+  #'Decija TV':
+  #  channelId: 401
+  'Nickelodeon Junior':
+    channelId: 402
+  'Duck TV':
+    channelId: 403
+  Nickelodeon:
+    channelId: 400
+  'Pink Super Kids':
+    channelId: 405
+  'Baby TV':
+    channelId: 407
+  'Cartoon Network':
+    channelId: 409
+  'Pink Kids':
+    channelId: 410
+  'Disney Junior':
+    channelId: 412
+  'Disney Channel':
+    channelId: 413
+  Boomerang:
+    channelId: 408
+  JimJam:
+    channelId: 404
+  Hayatovci:
+    channelId: 417
+  'Pink Music':
+    channelId: 450
+  'Pink Music 2':
+    channelId: 451
+  'Bravo Music':
+    channelId: 452
+  'Pink Koncert':
+    channelId: 453
+  'HiFi Music':
+    channelId: 454
+  'City play':
+    channelId: 455
+  MUZZIK:
+    channelId: 456
+  'TV S':
+    channelId: 457
+  'TV Duga plus':
+    channelId: 458
+  'Hayat Folk':
+    channelId: 459
+  'Hayat Music':
+    channelId: 460
+  'Pink Folk':
+    channelId: 461
+  'Pink Folk 2':
+    channelId: 462
+  'BN Music':
+    channelId: 463
+  'DM SAT':
+    channelId: 464
+  'TV K::CN Music 2':
+    channelId: 465
+  'TV K::CN Svet Plus 3':
+    channelId: 466
+  'TV Melos':
+    channelId: 467
+  'HiFi Etno':
+    channelId: 468
+  #'Toxic Folk':
+  #  channelId: 469
+  pinkandroll.rs:
+    channelId: 470
+  'Pink Hits 1':
+    channelId: 471
+  'Pink Hits 2':
+    channelId: 472
+  'MTV Europe':
+    channelId: 473
+  'MTV Hits International':
+    channelId: 474
+  'Toxic Rap':
+    channelId: 475
+  'MTV 90s':
+    channelId: 476
+  'MTV 80s':
+    channelId: 478
+  '360 Tune box':
+    channelId: 480
+  #'Toxic TV':
+  #  channelId: 481
+  'JEKA MUZZIK':
+    channelId: 482
+  'POP STAR':
+    channelId: 483
+  'Rock N Roll MUZZIK':
+    channelId: 484
+  #K1:
+    #channelId: 486
+  'TV Belle Amie HD':
+    channelId: 495
+  BTV:
+    channelId: 501
+  'TV K::CN 1':
+    channelId: 502
+  'SuperSat TV':
+    channelId: 503
+  'RTV 101':
+    channelId: 504
+  'TV Front':
+    channelId: 505
+  'Humana TV Plus':
+    channelId: 511
+  'TV Bap':
+    channelId: 519
+  'TV Subotica':
+    channelId: 520
+  'TV YU ECO':
+    channelId: 521
+  'TV K23':
+    channelId: 522
+  'Panon TV':
+    channelId: 523
+  'TV Backa':
+    channelId: 525
+  'TV Kanal 25':
+    channelId: 526
+  'RTV Sombor':
+    channelId: 527
+  'TV Q':
+    channelId: 528
+  'TV Becej':
+    channelId: 529
+  'TV Novi Becej':
+    channelId: 530
+  'TV Apatin':
+    channelId: 531
+  'Novosadska TV':
+    channelId: 532
+  'Balkan TV':
+    channelId: 533
+  'TV Delta':
+    channelId: 534
+  'TV Most':
+    channelId: 535
+  'TV K9':
+    channelId: 536
+  VTV:
+    channelId: 537
+  'TV Banat':
+    channelId: 538
+  'TV Santos':
+    channelId: 539
+  'TV Kikinda':
+    channelId: 540
+  'TV Lav':
+    channelId: 541
+  'TV CINK':
+    channelId: 542
+  'Sremska TV':
+    channelId: 543
+  'TV Petrovec':
+    channelId: 544
+  'RTV Stara Pazova':
+    channelId: 545
+  'TV Fruska Gora':
+    channelId: 546
+  'Gradska M':
+    channelId: 547
+  'TV MAG':
+    channelId: 548
+  'TV GEM':
+    channelId: 549
+  'K::CN K':
+    channelId: 550
+  'RTV Sumadija':
+    channelId: 552
+  'TV Sunce':
+    channelId: 553
+  'TV HIT plus Batocina':
+    channelId: 554
+  'RTV Kragujevac':
+    channelId: 555
+  'TV Raca':
+    channelId: 557
+  RTP:
+    channelId: 558
+  'TV Palma plus':
+    channelId: 559
+  'TV 4S':
+    channelId: 560
+  'TV Krusevac':
+    channelId: 561
+  'TV Plus':
+    channelId: 562
+  'TV Diskos':
+    channelId: 563
+  'TV Trstenik':
+    channelId: 564
+  'TV Kanal M':
+    channelId: 565
+  'TV Mix Kraljevo':
+    channelId: 566
+  'TV Kraljevo i ibarske novosti':
+    channelId: 567
+  'KA TV':
+    channelId: 568
+  'TV Vrnjacka Banja':
+    channelId: 569
+  'TV K::CN Raska':
+    channelId: 570
+  'TV Sandzak':
+    channelId: 572
+  'RTV Novi Pazar':
+    channelId: 573
+  'Sandzacka TV Mreza':
+    channelId: 574
+  'K::CN Zapad':
+    channelId: 576
+  'TV Sabac':
+    channelId: 577
+  'TV AS':
+    channelId: 578
+  'TV GM Plus':
+    channelId: 579
+  'TV Lotel plus':
+    channelId: 580
+  'TV Podrinje':
+    channelId: 581
+  'TV City':
+    channelId: 583
+  'TV Vujic':
+    channelId: 584
+  'TV VA PLUS':
+    channelId: 585
+  'TV Mars':
+    channelId: 586
+  'Info 24 Plus':
+    channelId: 587
+  'TV Galaksija 32':
+    channelId: 588
+  Telemark:
+    channelId: 589
+  'TV Lav Plus':
+    channelId: 590
+  'TV 5 Uzice':
+    channelId: 591
+  'TV Pozega':
+    channelId: 592
+  'TV Zlatar':
+    channelId: 593
+  'TV Priboj':
+    channelId: 594
+  'TV K::CN Istok':
+    channelId: 597
+  'TV Jasenica':
+    channelId: 598
+  'SAT TV':
+    channelId: 599
+  'TV Kladovo':
+    channelId: 600
+  'TV Bor':
+    channelId: 601
+  'TV Trans':
+    channelId: 602
+  T1:
+    channelId: 603
+  'TV Nova':
+    channelId: 604
+  'TV Istok':
+    channelId: 605
+  'TV Pirot':
+    channelId: 606
+  'TV PI kanal':
+    channelId: 607
+  'TV Caribrod':
+    channelId: 608
+  'Super D+':
+    channelId: 609
+  'TV Belle Amie':
+    channelId: 610
+  NTV:
+    channelId: 611
+  'TV Zona Plus':
+    channelId: 612
+  'TV Mostnet':
+    channelId: 613
+  'RTV Bosphorus':
+    channelId: 614
+  'TV Leskovac':
+    channelId: 616
+  'TV K-1':
+    channelId: 617
+  'SKAY TV':
+    channelId: 618
+  'TV Vranje':
+    channelId: 619
+  'Vranjska plus':
+    channelId: 620
+  'TV Ritam':
+    channelId: 621
+  'TV Fokus':
+    channelId: 622
+  'TV Bujanovac':
+    channelId: 624
+  Hayat:
+    channelId: 640
+  'Hayat Plus':
+    channelId: 641
+  RTL:
+    channelId: 642
+  'RTL 2':
+    channelId: 643
+  'RTL KOCKICA':
+    channelId: 644
+  'RTL Croatia World':
+    channelId: 645
+  'RTCG Sat':
+    channelId: 650
+  'Pink Montenegro':
+    channelId: 651
+  'Prva CG':
+    channelId: 652
+  'ADRIA TV':
+    channelId: 653
+  'Al Jazeera':
+    channelId: 654
+  'Face TV':
+    channelId: 655
+  FTV:
+    channelId: 656
+  ATV:
+    channelId: 657
+  K3:
+    channelId: 658
+  OBN:
+    channelId: 659
+  CNN:
+    channelId: 660
+  'Fox News':
+    channelId: 661
+  'Rossia 24':
+    channelId: 662
+  'RT News':
+    channelId: 664
+  Euronews:
+    channelId: 665
+  'France 24':
+    channelId: 666
+  'TV5 Monde':
+    channelId: 667
+  Bloomberg:
+    channelId: 669
+  'CCTV 4':
+    channelId: 670
+  cgtn.cn:
+    channelId: 671
+  #RTL:
+  #  channelId: 672
+  'RTL Klub':
+    channelId: 674
+  'Duna TV':
+    channelId: 675
+  'Duna World':
+    channelId: 676
+  'RTL II':
+    channelId: 680
+  M2:
+    channelId: 681
+  COOL:
+    channelId: 682
+  'Film +':
+    channelId: 683
+  'Muzsika TV':
+    channelId: 684
+  'Film 4':
+    channelId: 685
+  M1:
+    channelId: 686
+  'RTL +':
+    channelId: 687
+  M5:
+    channelId: 688
+  'RTL Gold':
+    channelId: 689
+  Sorozat+:
+    channelId: 690
+  'Story 4':
+    channelId: 691
+  'Super TV2':
+    channelId: 693
+  'M4 Sport':
+    channelId: 694
+  'Food Network HD':
+    channelId: 695
+  'Discovery Science HD':
+    channelId: 696
+  dtx.tv:
+    channelId: 698
+  'Arena PREMIUM 1 HD':
+    channelId: 700
+  'Arena PREMIUM 2 HD':
+    channelId: 701
+  'Arena PREMIUM 3 HD':
+    channelId: 702
+  'Arena Sport 1 HD':
+    channelId: 703
+  'Arena Sport 2 HD':
+    channelId: 704
+  'Arena Sport 3 HD':
+    channelId: 705
+  'Fox HD':
+    channelId: 706
+  'Fox Movies HD':
+    channelId: 707
+  'Arena Sport 6 HD':
+    channelId: 708
+  'Arena Sport 7 HD':
+    channelId: 709
+  'Arena Sport 8 HD':
+    channelId: 710
+  'Arena Sport 1x2 HD':
+    channelId: 711
+  'Arena Fight HD':
+    channelId: 712
+  'Arena Esport  HD':
+    channelId: 713
+  'SUPERSTAR TV HD':
+    channelId: 714
+  'SUPERSTAR 2 HD':
+    channelId: 715
+  'RTS 1 HD':
+    channelId: 716
+  'RTS 2 HD':
+    channelId: 717
+  'NBA TV HD':
+    channelId: 718
+  'Agro TV HD':
+    channelId: 719
+  'TV Pink HD':
+    channelId: 720
+  'Kitchen TV HD':
+    channelId: 721
+  '24Kitchen HD':
+    channelId: 722
+  'Eurosport 1 HD':
+    channelId: 723
+  'Euronews Serbia HD':
+    channelId: 724
+  'TV Partizan HD':
+    channelId: 725
+  'Zvezda TV HD':
+    channelId: 726
+  'BBC Earth HD':
+    channelId: 727
+  'Happy TV HD':
+    channelId: 728
+  'Tanjug TV HD':
+    channelId: 730
+  'National Geographic HD':
+    channelId: 731
+  'National Geographic Wild HD':
+    channelId: 332
+  'Klasik TV HD':
+    channelId: 733
+  'Toxic TV HD':
+    channelId: 734
+  'Prva TV HD':
+    channelId: 735
+  'B92 HD':
+    channelId: 736
+  'Pink Premium HD':
+    channelId: 738
+  'TV Pancevo HD':
+    channelId: 739
+  'Dunav TV HD':
+    channelId: 740
+  'Dexy TV HD':
+    channelId: 741
+  'Balkan Trip HD':
+    channelId: 742
+  'K1 HD':
+    channelId: 743
+  'TVDR HD':
+    channelId: 744
+  'Kazbuka HD':
+    channelId: 745
+  'Zdravlje TV HD':
+    channelId: 746
+  'Turizam+ TV HD':
+    channelId: 747
+  'CineStar TV Comedy HD':
+    channelId: 748
+  'FilmBox Extra HD':
+    channelId: 749
+  'FilmBox Premium HD':
+    channelId: 750
+  'Epic Drama HD':
+    channelId: 751
+  'Sci Fi HD':
+    channelId: 752
+  'E! HD':
+    channelId: 753
+  'Docubox HD':
+    channelId: 754
+  'Discovery Channel HD':
+    channelId: 755
+  'Viasat Nature HD':
+    channelId: 756
+  'Dox TV HD':
+    channelId: 757
+  'Viasat History HD':
+    channelId: 758
+  'History2 HD':
+    channelId: 759
+  'Travel Channel HD':
+    channelId: 760
+  'Euronews HD':
+    channelId: 761
+  'RT News HD':
+    channelId: 762
+  'DW English HD':
+    channelId: 763
+  'M2 HD':
+    channelId: 764
+  'Fast & Fun HD':
+    channelId: 765
+  'Fight Box HD':
+    channelId: 766
+  'Gametoon HD':
+    channelId: 767
+  'TV Mreza Most HD':
+    channelId: 769
+  'Koreni HD':
+    channelId: 770
+  'BN HD':
+    channelId: 771
+  'BN 2 HD':
+    channelId: 772
+  'RTCG Sat HD':
+    channelId: 773
+  'RTV Bosphorus HD':
+    channelId: 774
+  'History HD':
+    channelId: 775
+  'TV5 Monde HD':
+    channelId: 776
+  'Al Jazeera HD':
+    channelId: 777
+  'RTS 3 HD':
+    channelId: 778
+  'Viasat Explore HD':
+    channelId: 779
+  'Kurir HD':
+    channelId: 780
+  'Toxic Rap HD':
+    channelId: 781
+  'Kuvo TV HD':
+    channelId: 782
+  'Red TV HD':
+    channelId: 783
+  'TLC HD':
+    channelId: 784
+  'RTS Klasika HD':
+    channelId: 785
+  'LFCTV HD':
+    channelId: 786
+  'Fox News HD':
+    channelId: 787
+  'Toxic Folk HD':
+    channelId: 737
+  'Prva MAX HD':
+    channelId: 789
+  'Prva Life HD':
+    channelId: 790
+  'Prva Files HD':
+    channelId: 791
+  'Prva Kick HD':
+    channelId: 792
+  'Prva World HD':
+    channelId: 793
+  'MUZZIK HD':
+    channelId: 490
+  'Vesti HD':
+    channelId: 794
+  'JEKA MUZZIK HD':
+    channelId: 491
+  'TV Hram HD':
+    channelId: 795
+  'Rock N Roll MUZZIK HD':
+    channelId: 492
+  'TV K9 HD':
+    channelId: 796
+  'OK KANAL HD':
+    channelId: 493
+  'TV S HD':
+    channelId: 798
+  'Hype HD':
+    channelId: 799

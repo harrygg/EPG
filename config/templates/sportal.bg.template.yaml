@@ -1,0 +1,25 @@
+---
+id: sportal.bg
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://sportal.bg/tv-schedule?view=tv
+  date-format: dd
+
+programs:
+  locator: .tv-program__row
+    
+elements:
+  - name: start
+    time-format: HH:mm
+    locator: em    
+
+  - name: title
+    lang: bg
+    locator: strong
+    operations:
+    - hook: after
+      name: beautify

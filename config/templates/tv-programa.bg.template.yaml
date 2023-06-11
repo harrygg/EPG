@@ -1,0 +1,87 @@
+id: tv-programa.bg
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://www.xn----8sbafg9clhjcp.bg/tv/${channelId}/${date.format(dddd).capitalize()}
+  date-format: dddd
+
+programs:
+  locator: .programTable > tbody > tr
+  exclude-first: 1
+  exclude-last: 0
+    
+elements:
+  - name: start
+    time-format: HH:mm
+    locator: .programTime
+
+  - name: title
+    language: bg
+    locator: td > a
+    operations:
+      - name: beautify
+        hook: after
+
+  - name: detailsUrl
+    debug: true
+    locator: td > a
+    attribute: href
+
+program-details:
+  enabled: ${programDetailsEnabled}
+  request: 
+    url: https://www.xn----8sbafg9clhjcp.bg/predavane${detailsUrl}
+
+  elements:
+    - name: desc
+      locator: .filmInfo
+      debug: true
+      operations:
+      - name: beautify
+        hook: after
+
+timeouts:
+  between-requests: 1
+
+global-parameters:
+  programDetailsEnabled: false
+
+channel-parameters: 
+  theworld.bg:
+    channelId: the-world
+  moviestar.bg:
+    channelId: moviestar
+    programDetailsEnabled: true
+  cinemania.bg:
+    channelId: cinemania
+    programDetailsEnabled: true
+  epicdrama.bg:
+    channelId: epic-drama
+  axn.bg:
+    channelId: axn
+  hbo.bg:
+    channelId: hbo
+  hbo2.bg:
+    channelId: hbo-comedy
+  hbo3.bg:
+    channelId: hbo-3
+  cinemax.bg:
+    channelId: cinemax
+  cinemax2.bg:
+    channelId: cinemax-2
+  hobbytv.bg:
+    channelId: hobi
+  docubox.spiintl.com:
+    channelId: docubox
+
+
+channel-extract-rules:
+  url: https://www.xn----8sbafg9clhjcp.bg/
+  channel-name: 
+    locator: .dropDownColumn a span
+    property: 
+  channel-param:
+    locator: .dropDownColumn a
+    attribute: href

@@ -1,0 +1,110 @@
+---
+id: united.cloud
+enabled: true
+version: 1.0
+author: Hristo Genev
+
+init-page:
+  request:
+    url: https://api-web.ug-be.cdn.united.cloud/oauth/token?grant_type=client_credentials
+    http-method: POST
+    headers: 
+      Authorization: Basic MjdlMTFmNWUtODhlMi00OGU0LWJkNDItOGUxNWFiYmM2NmY1OjEyejJzMXJ3bXdhZmsxMGNkdzl0cjloOWFjYjZwdjJoZDhscXZ0aGc=
+      Content-Type: application/x-www-form-urlencoded
+    body:
+      grant_type=client_credentials
+    debug: true
+  elements:
+    - name: token
+      locator-strategy: jsonpath
+      locator: access_token
+      debug: true    
+
+request:
+  url: https://api-web.ug-be.cdn.united.cloud/v1/public/events/epg?cid=${channelId}&fromTime=${date}000&toTime=${date.addDays(1)}999&communityIdentifier=sk_rs&languageId=404
+  date-format: unix
+  debug: true
+  headers:
+    Referer: https://sportklub.rs/
+    Authorization: Bearer ${token}
+    X-UCP-TIME-FORMAT: timestamp
+    
+programs:
+  locator-strategy: jsonpath
+  locator: $.*.[:]
+  #debug: true
+
+elements: 
+  - name: title
+    locator: title
+  - name: start
+    locator: startTime
+    time-format: unix
+    debug: true
+  - name: stop
+    locator: endTime
+    time-format: unix
+    debug: true
+  - name: desc
+    locator: shortDescription
+
+
+channel-parameters:
+  sportklub1.rs:
+    channelId: 66
+  sportklub2.rs:
+    channelId: 67
+  sportklub3.rs:
+    channelId: 68
+  sportklub4.rs:
+    channelId: 69
+  sportklub5.rs:
+    channelId: 70
+  sportklub6.rs:
+    channelId: 71
+  sportklub7.rs:
+    channelId: 74
+  sportklub8.rs:
+    channelId: 75
+  sportklub9.rs:
+    channelId: 76
+  sportklub10.rs:
+    channelId: 77
+  sportklub4k.rs:
+    channelId: 644 
+  sportklubhd.rs:
+    channelId: 18
+  sportklubgolf.rs:
+    channelId: 73
+  sportklubfight.rs:
+    channelId: 72
+  sportklubesports.rs:
+    channelId: 687
+  sportklub1.hr:
+    channelId: 556
+  sportklub2.hr:
+    channelId: 923
+  sportklub3.hr:
+    channelId: 924
+  sportklub4.hr:
+    channelId: 925
+  sportklub5.hr:
+    channelId: 926
+  sportklub6.hr:
+    channelId: 927
+  sportklubhd.hr:
+    channelId: 928
+  sportklub4k.hr:
+    channelId: 644
+
+
+# Used for extracting channel names and params from a page containing the list of available channels
+channel-extract-rules: 
+  url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=now&tz=0&search=&channel=&offset=0
+  channel-name: 
+    locator: .channel-header--title a
+    property: text
+    
+  channel-param: 
+    locator: .channel-header--title a
+    attribute: href

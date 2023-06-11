@@ -1,0 +1,52 @@
+---
+id: trt.net.tr
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: TR-tr
+
+request:
+  url: http://www.trt.net.tr/televizyon/akis.aspx?kanal=${channelId}&gun=${date}
+  date-format: list
+  list: [ 0, 1, 2, 3, 4, 5, 6 ]
+    
+programs:
+  locator: '#gunlukAkisDIV p a'
+    
+elements:
+  - name: start
+    locator:  span.aks0
+  - name: title
+    locator: span.aks1
+
+channel-parameters:
+  trt1.tr:
+    channelId: trt-1
+  trt2.tr:
+    channelId: trt-2
+  trthaber.tr:
+    channelId: trt-haber
+  trtspor.tr:
+    channelId: trt-spor-yildiz
+  trtkurdi.tr:
+    channelId: trt-kurdi
+  trtcocuk.tr:
+    channelId: trt-cocuk
+  trtturk.tr:
+    channelId: trt-turk
+  trtavaz.tr:
+    channelId: trt-avaz
+  trtbelgesel.tr:
+    channelId: trt-belgesel
+  trtmuzik.tr:
+    channelId: trt-muzik
+  trtarabi.tr:
+    channelId: trt-arabi
+  trt4k.tr:
+    channelId: trt-4k
+  trtebailkokul.tr:
+    channelId: trt-eba-ilkokul
+  trtebaortaokul.tr:
+    channelId: trt-eba-ortaokul
+  trtebalise.tr:
+    channelId: trt-eba-lise

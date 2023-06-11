@@ -1,0 +1,48 @@
+---
+id: axn.bg
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://www.axn-bulgaria.com/programa/ajax/axnbg/data/listings/true/${date}
+  date-format: yyyy/MM/dd
+    
+programs:
+  locator: li.listing
+    
+elements:
+  - name: start
+    locator: .date
+  - name: _meta
+    locator: .meta
+  - name: title
+    lang: bg
+    locator: .title
+    operations:
+      - name: beautify
+        hook: after
+      - name: append
+        hook: after
+        arguments: [ ", ${_meta}" ]
+        conditions: [ value-not-empty ]
+  - name: category
+    lang: en
+    locator: .genre
+  - name: icon
+    locator: img
+    attribute: src
+  - name: _detailsurl
+    locator: .title a
+    attribute: href
+
+program-details:
+  request:
+    url: https://www.axn-bulgaria.com${_detailsurl}
+  
+  elements:
+    - name: desc
+      locator: .pane-title + .pane-content p
+
+delay-between-requests: 500

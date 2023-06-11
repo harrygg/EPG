@@ -1,0 +1,40 @@
+---
+id: diemaxtra.bg
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: En-us
+
+request:
+  url: https://diemaxtra.nova.bg/${channelId}/schedule
+  
+programs:
+  locator: div#${date.format(dddd).lowercase()} ul.tv_content > li
+
+elements:
+  - name: start
+    locator: .time
+    time-format: HH.mm            
+  - name: _desc
+    locator: .description
+    operations: 
+      - name: prepend
+        hook: after
+        arguments: [ ", " ]
+        conditions: [ value-not-empty ]
+  - name: title
+    locator: .title
+    lang: bg
+    operations:
+      - name: append
+        hook: after
+        arguments: [ "${_desc}" ]
+        conditions: [ argument-not-empty ]
+
+channel-parameters:
+  diemasport.bg: 
+    channelId: diemasport
+  diemasport2.bg: 
+    channelId: diemasport2
+  diemasport3.bg: 
+    channelId: diemasport3

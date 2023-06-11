@@ -1,0 +1,62 @@
+---
+id: raiplay.it
+enabled: true
+version: 1.0
+author: Hristo Genev
+
+request:
+  url: https://www.raiplay.it/palinsesto/app/${channelId}/${date}.json
+  date-format: dd-MM-yyyy
+    
+programs:
+  locator-strategy: jsonpath
+  locator: events[:]
+
+elements:
+  - name: start
+    locator: hour
+
+  - name: title
+    language: it
+    locator: name
+  
+  - name: desc
+    locator: description
+
+  - name: icon
+    locator: image
+    enabled: false
+
+  - name: episode
+    enabled: false
+    locator: episode_title
+  
+channel-parameters:
+  rai1.it:
+    channelId: rai-1
+  rai2.it:
+    channelId: rai-2
+  rai3.it:
+    channelId: rai-3
+  rai4.it:
+    channelId: rai-4
+  rai5.it:
+    channelId: rai-5
+  raimovie.it:
+    channelId: rai-movie
+  raipremium.it:
+    channelId: rai-premium
+  raigulp.it:
+    channelId: rai-gulp
+  raiyoyo.it:
+    channelId: rai-yoyo
+  raistoria.it:
+    channelId: rai-storia
+  raiscuola.it:
+    channelId: rai-scuola
+  rainews.it:
+    channelId: rai-news-24
+  raisportplus.it:
+    channelId: rai-sport-piu-hd
+  raisport1.it:
+    channelId: rai-sport

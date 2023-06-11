@@ -1,0 +1,51 @@
+---
+id: bnt.bg
+enabled: true
+version: 1.0
+author: Hristo Genev
+content-culture: bg-BG
+
+request:
+  url: https://bnt.bg/program/${urlParam}/${date}
+  date-format: yyyyMMdd
+
+programs:
+  locator: .tab-holder-${date} a
+
+elements:
+  - name: title
+    locator: .name
+    language: bg
+
+  - name: start
+    locator: .hour
+    time-format: H:mm
+
+  - name: icon
+    locator: img
+    attribute: src
+
+  - name: detailsUrl
+    attribute: href
+
+program-details:
+  request:
+    url: ${detailsUrl}
+  elements:
+    - name: desc
+      locator: .under-head
+      operations:
+      - name: beautify
+        hook: after
+
+channel-parameters:
+  bnt1.bg:
+    urlParam: bnt1
+  bnt2.bg:
+    urlParam: bnt2
+  bnt3.bg:
+    urlParam: bnt3
+  bnt4.bg:
+    urlParam: bnt4
+
+delay-between-requests: 500

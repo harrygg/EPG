@@ -1,0 +1,285 @@
+id: tv.dir.bg
+version: 1.0
+author: Hristo Genev
+
+request:
+  cache-priority: 2
+  url: https://tv.dir.bg/tv_channel.php?id=${channelId}&dd=${date}
+  date-format: dd.MM
+
+programs:
+  locator: '#events li'
+  exclude-first: 1
+  exclude-last: 1
+    
+elements:
+  - name: start
+    time-format: HH.mm
+    locator: i
+
+  - name: title
+    language: bg
+    operations:
+      - name: regex-remove
+        hook: after
+        arguments: [ '\d\d\.\d\d' ]
+      - name: beautify
+        hook: after
+
+  - name: detailsUrl
+    locator: a
+    attribute: href
+
+program-details:
+  request: 
+    url: https://tv.dir.bg/${detailsUrl}
+
+  elements: 
+    - name: icon
+      locator: .shou-image img
+      attribute: src
+
+    - name: desc
+      locator: .news-body
+      operations:
+        - name: beautify
+          hook: after
+timeouts:
+  between-requests: 1
+
+channel-parameters: 
+  btn1.bg:
+    channelId: 21
+  btv.bg:
+    channelId: 12
+  diemasport1.bg:
+    channelId: 299
+  nova.bg:
+    channelId: 28
+  24kitchen.bg:
+    channelId: 190
+  amc.bg:
+    channelId: 124
+  axn.bg:
+    channelId: 64
+  axnblack.axn.bg:
+    channelId: 264
+  axnwhite.bg:
+    channelId: 265
+  bloombergtv.bg:
+    channelId: 316
+  btvaction.bg:
+    channelId: 228
+  btvcinema.bg:
+    channelId: 153
+  btvcomedy.bg:
+    channelId: 68
+  btvlady.bg:
+    channelId: 223
+  bgonair.bg:
+    channelId: 24
+  diema.bg:
+    channelId: 9
+  diemafamily.bg:
+    channelId: 79
+  diemasport2.bg:
+    channelId: 310
+  diemasport3.bg:
+    channelId: 375
+  discoverychannel.bg:
+    channelId: 10
+  ekids.bg:
+    channelId: 363
+  epicdrama.bg:
+    channelId: 351
+  eurosport1.bg:
+    channelId: 13
+  eurosport2.bg:
+    channelId: 101
+  fox.bg:
+    channelId: 230
+  foxcrime.bg:
+    channelId: 86
+  foxlife.bg:
+    channelId: 69
+  hbo.bg:
+    channelId: 58
+  hbo2.bg:
+    channelId: 89
+  hbo3.bg:
+    channelId: 319
+  history.tv:
+    channelId: 143
+  kinonova.bg:
+    channelId: 63
+  maxsport1.bg:
+    channelId: 365
+  maxsport2.bg:
+    channelId: 366
+  maxsport3.bg:
+    channelId: 367
+  maxsport4.bg:
+    channelId: 368
+  natgeowild.bg:
+    channelId: 150
+  natgeo.bg:
+    channelId: 27
+  novanews.bg:
+    channelId: 19
+  novasport.bg:
+    channelId: 167
+  ring.bg:
+    channelId: 33
+  rmtv.bg:
+    channelId: 374
+  tv1000.bg:
+    channelId: 76
+  tv1.bg:
+    channelId: 216
+  tvt.bg:
+    channelId: 369
+  explore.viasat.bg:
+    channelId: 91
+  history.viasat.bg:
+    channelId: 7
+  nature.viasat.bg:
+    channelId: 168
+  alfatv.bg:
+    channelId: 359
+  balkanika.bg:
+    channelId: 74
+  bnt2.bg:
+    channelId: 203
+  bnt3.bg:
+    channelId: 292
+  bnt4.bg:
+    channelId: 22
+  tvvratsa.bg:
+    channelId: 269
+  evrokom.bg:
+    channelId: 14
+  tvevropa.bg:
+    channelId: 56
+  planetatv.bg:
+    channelId: 60
+  planetafolk.bg:
+    channelId: 114
+  skat.bg:
+    channelId: 38
+  sedemosmi.tv:
+    channelId: 372
+  Телемедиа:
+    channelId: 325
+  traveltv.bg:
+    channelId: 154
+  trakia.potv.eu:
+    channelId: 211
+  fentv.bg:
+    channelId: 71
+  fenfolk.bg:
+    channelId: 301
+  hobbytv.bg:
+    channelId: 80
+  animalplanet.bg:
+    channelId: 65
+  boomerang.tv:
+    channelId: 122
+  cartoonnetwork.tv:
+    channelId: 6
+  cbsreality.tv:
+    channelId: 93
+  cinemax1.bg:
+    channelId: 90
+  cinemax2.bg:
+    channelId: 105
+  cnninternational.com:
+    channelId: 49
+  comedycentral.com:
+    channelId: 271
+  crimeinvestigation.bg:
+    channelId: 219
+  davincilearning.tv:
+    channelId: 176
+  discoveryshowcase.bg:
+    channelId: 247
+  disneychannel.bg:
+    channelId: 185
+  disneyjunior.waltdisney.bg:
+    channelId: 248
+  docubox.spiintl.com:
+    channelId: 279
+  extremesportschannel.com:
+    channelId: 220
+  fashion.tv:
+    channelId: 233
+  fightbox.spiintl.com:
+    channelId: 280
+  filmbox.spiintl.com:
+    channelId: 354
+  filmboxextra.spiintl.com:
+    channelId: 282
+  foodnetwork.bg:
+    channelId: 234
+  'Fuel TV':
+    channelId: 283
+  hgtv.bg:
+    channelId: 382
+  historytv.com:
+    channelId: 240
+  'ID Xtra':
+    channelId: 311
+  investigationdiscovery.bg:
+    channelId: 246
+  JimJam:
+    channelId: 210
+  tv.lovenature.com:
+    channelId: 380
+  mcm.mcm.fr:
+    channelId: 50
+  mezzo.tv:
+    channelId: 381
+  moviestar.bg:
+    channelId: 347
+  mtv:
+    channelId: 25
+  mtvhits.mtv.com:
+    channelId: 251
+  mtvlive.mtv.bg:
+    channelId: 221
+  'Nick HD':
+    channelId: 241
+  nick.tv:
+    channelId: 253
+  nickelodeon.tv:
+    channelId: 232
+  'Outdoor Channel':
+    channelId: 245
+  tlc.bg:
+    channelId: 178
+  'Trace Sport Stars':
+    channelId: 300
+  'UA TV':
+    channelId: 378
+  mtv90s.mtv.com:
+    channelId: 46
+  mtv00s.mtv.com:
+    channelId: 254
+  ntv.ru:
+    channelId: 379
+  ohotarybalka.ru:
+    channelId: 156
+  pervyikanal.ru:
+    channelId: 55
+  rtrplaneta.ru:
+    channelId: 326
+
+# Used for extracting channel names and params from a page 
+# containing the list of available channels
+channel-extract-rules:
+  url: https://tv.dir.bg/
+  channel-name: 
+    locator: "#tab3-1 a,#tab3-2 a"
+    property: text
+  channel-param:
+    locator: "#tab3-1 a,#tab3-2 a"
+    attribute: href

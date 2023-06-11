@@ -1,0 +1,109 @@
+---
+id: arenasport.com
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: sr-Latn-RS
+timezone: utc
+
+request:
+  url: https://www.tvarenasport.${topdomain}/api/schedule?date=&date=${date}
+  date-format: d-MM-yyyy
+    
+programs:
+  locator-strategy: jsonpath
+  locator: $.items[?(@.group =~ /${channelId}/)]
+
+elements:
+  - name: start
+    time-format: o
+    locator: start
+
+  - name: sportType
+    locator: sport
+    operations:
+      - name: append
+        hook: after
+        arguments: [ ": " ]
+        conditions: [ value-not-empty ]
+
+  - name: category
+    enabled: false
+    locator: league
+
+  - name: title  
+    locator: title
+    language: sr
+    operations:
+      - name: prepend
+        hook: after
+        arguments: ["${sportType}"]
+        conditions: 
+          - argument-not-empty
+          - argument-not-contain-value
+
+      
+channel-parameters:
+  arenasport1.sr:
+    topdomain: com 
+    channelId: 380
+  arenasport2.sr:
+    topdomain: com 
+    channelId: 381
+  arenasport3.sr:
+    topdomain: com
+    channelId: 382
+  arenasport4.sr:
+    topdomain: com
+    channelId: 383
+  arenasport5.sr:
+    topdomain: com
+    channelId: 384
+  arenasport6.sr:
+    topdomain: com
+    channelId: 5594
+  arenasport7.sr:
+    topdomain: com
+    channelId: 5595
+  arenasport8.sr:
+    topdomain: com
+    channelId: 5596
+  arenapremium1.sr:
+    topdomain: com
+    channelId: 5710
+  arenapremium2.sr:
+    topdomain: com
+    channelId: 5711
+  arenapremium3.sr:
+    topdomain: com
+    channelId: 5712
+  arenasport1.hr:
+    topdomain: hr
+    channelId: 380
+  arenasport2.hr:
+    topdomain: hr 
+    channelId: 381
+  arenasport3.hr:
+    topdomain: hr
+    channelId: 382
+  arenasport4.hr:
+    topdomain: hr
+    channelId: 383
+  arenasport5.hr:
+    topdomain: hr
+    channelId: 384
+  arenasport6.hr:
+    topdomain: hr
+    channelId: 1175
+  arenasport7.hr:
+    topdomain: hr
+    channelId: 1291
+  arenasport8.hr:
+    topdomain: hr
+    channelId: 1292
+  arenasport9.hr:
+    topdomain: hr
+    channelId: 1293
+  arenasport10.hr:
+    topdomain: hr
+    channelId: 1294

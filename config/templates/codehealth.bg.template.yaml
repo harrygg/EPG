@@ -1,0 +1,37 @@
+---
+id: codehealth.bg
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://codehealth.bg/wp-admin/admin-ajax.php
+  cache-lifetime: 0
+  date-format: unix
+  http-method: POST
+  body: action=extvs_get_schedule_simple&param_shortcode={"style":"2","fullcontent_in":"collapse","show_image":"show","channel":"","slidesshow":"","slidesscroll":"","start_on":"","before_today":"0","after_today":"5","order":"DESC","orderby":"date","meta_key":"","meta_value":"","ID":"ex-6275"}&date=${date}&chanel=code-health
+  headers:
+    content-type: application/x-www-form-urlencoded
+  operations:
+    - name: regex-unescape
+      hook: after
+    - name: remove-before
+      hook: after
+      arguments: [ '{"html":"', true ]
+    - name: remove-after
+      hook: after
+      arguments: [ '","current_day', true ]
+  
+programs:
+  locator-strategy: csspath
+  locator: tr
+
+elements:
+  - name: title
+    locator: h3
+
+  - name: start
+    locator: span
+
+  - name: desc
+    locator: p

@@ -1,0 +1,31 @@
+---
+id: bstv.bg
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://bstv.bg/programa/${date}
+  date-format: yyyy-MM-dd
+
+programs:
+  locator: .schedule-list p
+    
+elements:
+  - name: start
+    time-format: HH.mm
+    operations:
+    - hook: after-extract
+      name: regex-extract
+      arguments: [ '(\d\d\.\d\d)' ]
+            
+  - name: title
+    lang: bg
+    operations:
+    - hook: after
+      name: regex-remove
+      arguments: [ '(\d\d\.\d\d\s*)' ]
+    - hook: after
+      name: remove
+      arguments: [ '„', '“' ]

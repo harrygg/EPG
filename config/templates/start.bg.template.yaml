@@ -1,0 +1,308 @@
+---
+id: start.bg
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://www.start.bg/lenta/tv-programa//tv/show/channel/${channelId}/${date}/0
+  date-format: yyyy-MM-dd
+
+programs:
+  locator: .tv-dlist > li
+    
+elements:
+  - name: start
+    locator: .time
+
+  - name: title
+    lang: bg
+    locator: .title
+
+channel-parameters:    
+  bnt1.bg:
+    channelId: 11 
+  btv.bg:
+    channelId: 15
+  nova.bg:
+    channelId: 70
+  bgonair.bg:
+    channelId: 115
+  bloombergtv.bg:
+    channelId: 176
+  axn.bg:
+    channelId: 5
+  'Animal Planet':
+    channelId: 3
+  alfatv.bg:
+    channelId: 2
+  balkanika.bg:
+    channelId: 8
+  bnt2.bg:
+    channelId: 12
+  Boomerang:
+    channelId: 14
+  'bTV Action':
+    channelId: 16
+  'bTV Cinema':
+    channelId: 17
+  'bTV Comedy':
+    channelId: 18
+  'bTV Lady':
+    channelId: 19
+  'Cartoon Network':
+    channelId: 20
+  Cinemax:
+    channelId: 21
+  'Cinemax 2':
+    channelId: 22
+  CNN:
+    channelId: 23
+  'Diema Family':
+    channelId: 26
+  Diema:
+    channelId: 27
+  'Discovery Channel':
+    channelId: 29
+  'Discovery Science':
+    channelId: 31
+  'Disney Channel':
+    channelId: 32
+  'Da Vinci Learning':
+    channelId: 34
+  ekids.bg:
+    channelId: 35
+  evrokom.bg:
+    channelId: 37
+  Eurosport:
+    channelId: 40
+  'Eurosport 2':
+    channelId: 41
+  'Viasat Explorer':
+    channelId: 42
+  'Extreme Sports':
+    channelId: 43
+  'Fen TV':
+    channelId: 44
+  'Fox Life':
+    channelId: 47
+  'Fox Crime':
+    channelId: 48
+  HBO:
+    channelId: 50
+  'Viasat History':
+    channelId: 52
+  'History Channel':
+    channelId: 53
+  'Хоби ТВ':
+    channelId: 54
+  JimJam:
+    channelId: 55
+  MCM:
+    channelId: 58
+  MGM:
+    channelId: 59
+  'MTV Live HD':
+    channelId: 63
+  'Viasat Nature':
+    channelId: 65
+  'National Geographic':
+    channelId: 67
+  'National Geographic Wild':
+    channelId: 68
+  'Nova Sport':
+    channelId: 69
+  ORT:
+    channelId: 73
+  planetatv.bg:
+    channelId: 74
+  planetafolk.bg:
+    channelId: 75
+  planetahd.bg.:
+    channelId: 76
+  Ring.BG:
+    channelId: 80
+  Skat:
+    channelId: 87
+  Telekabel:
+    channelId: 93
+  'The Voice':
+    channelId: 94
+  TLC:
+    channelId: 95
+  traveltv.bg:
+    channelId: 96
+  'Travel Channel HD':
+    channelId: 97
+  'Travel Channel SD':
+    channelId: 114
+  TV1000:
+    channelId: 99
+  TVPlus:
+    channelId: 101
+  Utilisima:
+    channelId: 102
+  'VH 1':
+    channelId: 103
+  'Vivacom Arena':
+    channelId: 104
+  'Fox Channel':
+    channelId: 107
+  'Fashion TV':
+    channelId: 110
+  'MTV Hits':
+    channelId: 113
+  'CBS Reality':
+    channelId: 117
+  'ТВ Европа':
+    channelId: 121
+  'Охота и рыбалка':
+    channelId: 122
+  'Kino Nova':
+    channelId: 123
+  'Food Network HD':
+    channelId: 126
+  NickHD:
+    channelId: 127
+  'Eurosport HD':
+    channelId: 128
+  'HBO HD':
+    channelId: 129
+  'Box TV':
+    channelId: 130
+  'Disney Jr':
+    channelId: 131
+  Nickelodeon:
+    channelId: 132
+  'Investigation Discovery':
+    channelId: 137
+  'Trace Sports':
+    channelId: 138
+  'History HD':
+    channelId: 140
+  'National Geographic HD':
+    channelId: 142
+  'bTV HD':
+    channelId: 143
+  'AXN Black':
+    channelId: 146
+  'AXN White':
+    channelId: 147
+  'Crime and Investigation':
+    channelId: 148
+  Moviestar:
+    channelId: 149
+  Первий:
+    channelId: 150
+  'Comedy Central Extra':
+    channelId: 155
+  'Agro TV':
+    channelId: 162
+  DocuBox:
+    channelId: 163
+  FightBox:
+    channelId: 164
+  'Fuel TV':
+    channelId: 166
+  'Viasat Nature/History HD':
+    channelId: 168
+  TV1:
+    channelId: 169
+  Mezzo:
+    channelId: 170
+  'Diema Sport':
+    channelId: 171
+  'Diema Sport 2':
+    channelId: 173
+  'Investigation Discovery Extra':
+    channelId: 174
+  'HBO 2':
+    channelId: 181
+  HBO3:
+    channelId: 182
+  vtk.bg:
+    channelId: 186
+  'Nickelodeon Junior':
+    channelId: 191
+  'EPIC Drama':
+    channelId: 195
+  'FilmBox Basic':
+    channelId: 196
+  'FilmBox Extra':
+    channelId: 197
+  'FilmBox Plus':
+    channelId: 198
+  'EDGE Sport':
+    channelId: 200
+  'BNT 3':
+    channelId: 201
+  BNT4:
+    channelId: 202
+  'MAX Sport 1':
+    channelId: 204
+  'MAX Sport 2':
+    channelId: 205
+  'MAX Sport 3':
+    channelId: 206
+  'MAX Sport 4':
+    channelId: 209
+  НТВ-МИР:
+    channelId: 211
+  eurochannel.com:
+    channelId: 212
+  'НТВ Право':
+    channelId: 213
+  'НТВ Сериал':
+    channelId: 214
+  'НТВ Стиль':
+    channelId: 215
+  'B1B Action':
+    channelId: 216
+  sedemosmi.tv:
+    channelId: 217
+  NickToons:
+    channelId: 220
+  'Film Plus HD':
+    channelId: 221
+  'MTV 80s':
+    channelId: 224
+  'MTV 90s':
+    channelId: 225
+  CLUBMTV:
+    channelId: 226
+  'Fen Folk':
+    channelId: 227
+  planeta4k.bg:
+    channelId: 231
+  cinemania.bg:
+    channelId: 233
+  NovaNews:
+    channelId: 234
+  'Love Nature':
+    channelId: 235
+  nostalgia.bg:
+    channelId: 236
+  '360 TuneBox':
+    channelId: 237
+  Fast&FunBox:
+    channelId: 238
+  'Mezzo Live HD':
+    channelId: 240
+  HGTV:
+    channelId: 241
+  'FilmBox Arthouse':
+    channelId: 243
+  GameToon:
+    channelId: 244
+  'Diema Sport 3':
+    channelId: 249    
+
+channel-extract-rules:
+  url: https://www.start.bg/lenta/tv-programa//tv/show/channel/11
+  channel-name:
+    locator: select.tv option
+    attribute: text
+  channel-param: 
+    locator: select.tv option
+    property: value

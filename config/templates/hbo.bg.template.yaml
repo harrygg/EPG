@@ -1,0 +1,98 @@
+---
+id: hbo.bg
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://linearschedule-prod.hbogo.eu/graphql
+  cache-lifetime: 0
+  date-format: yyyy-MM-dd
+  encoding: utf-8
+  http-method: POST
+  body: 
+    query: "query{\nscheduleByDayAndCountry(day:\"${date}T06:00:00+01:00\",country:\"bg\"){\ncountry\nchannels{\nid\nname\ncontent{\ntitle_id\nschedule_id\nstart_time\n}\n}\n}\n}"
+  headers:
+    content-type: application/json
+  
+programs:
+  locator-strategy: jsonpath
+  locator: data.scheduleByDayAndCountry[0].channels[?(@.id==${channelId})].content[*]
+
+elements:
+  - name: $title_id
+    locator: title_id
+
+  - name: start
+    time-format: dd.MM.yyyy ã. HH:mm
+    locator: start_time
+
+program-details:
+  request:
+    url: https://hbogo.bg/api/modal/title/${title_id}/ext
+
+  elements:
+    - name: title
+      language: bg
+      locator: title
+
+    - name: title
+      language: en
+      locator: english_title
+
+    - name: desc
+      locator-strategy: csspath
+      locator: p.synopsis
+      language: bg
+      operations:
+        - name: remove-before
+          arguments: [<div class=\"modal-container hidden-init\">]
+          hook: before
+        - name: remove-after
+          arguments: [</div></div></div></div>\\n]
+          hook: before
+        - name: replace
+          arguments: [ '\"', '"']
+          hook: before
+
+    - name: icon
+      locator-strategy: jsonpath
+      locator: image[0].url
+      operations:
+        - name: remove-before
+          arguments: [ <script type="application/ld+json">, true ]
+          hook: before
+        - name: remove-after
+          arguments: [ </script>, true ]
+          hook: before
+        - name: remove
+          arguments: [ '\\n', '\n' ]
+          hook: before
+          
+    - name: country
+      lang: bg
+      locator: countryOfOrigin.name
+
+    - name: category
+      locator: genre[:]
+
+    - name: date
+      locator: dateCreated
+        
+    - name: director
+      locator: director[:].name
+        
+    - name: actor
+      locator: actor[:].name
+          
+channel-parameters:    
+  hbo.bg:
+    channelId: 63
+  hbo2.bg:
+    channelId: 86
+  hbo3.bg:
+    channelId: 87
+  cinemax1.bg:
+    channelId: 109
+  cinemax2.bg:
+    channelId: 110

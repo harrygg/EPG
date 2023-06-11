@@ -1,0 +1,38 @@
+---
+id: localhost.global.html
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+init-page:
+  request:
+    url: https://localhost/authenticate
+    debug: true
+  elements:
+    - name: userId
+      debug: true
+      locator-strategy: regex
+      locator: userId=(.*)
+
+request:
+  url: https://localhost/?userId=${userId}-${channelId}&date=${date}
+  date-format: yyyy-MM-dd
+  debug: true
+
+programs:
+  debug: true
+  locator-strategy: csspath
+  locator: .tv_line
+
+elements:  
+  - name: start
+    locator: .info
+
+  - name: title
+    language: bg
+    locator: .ttl
+
+channel-parameters:
+  channel1.id:
+    channelId: channel1

@@ -1,0 +1,442 @@
+id: tvtoday.de
+version: 1.0
+author: Hristo Genev
+culture: DE-de
+timezone: UTC
+
+request:
+  url: https://m.tvtoday.de/programm/standard/sender/${channelId}.html?date=${date}
+  date-format: yyMMdd
+
+programs:
+  locator: li.time-listing
+
+elements: 
+  - name: title
+    locator: .tv-tip-heading
+  
+  - name: start
+    locator: 
+    attribute: data-start-time
+    time-format: unix
+
+  #- name: stop
+  #  locator: li
+  #  attribute: data-end-time
+  #  time-format: epoch
+
+channel-parameters: 
+  pro7max.de:
+    channelId: pro7m
+  ard.de:
+    channelId: ard
+  zdf.de:
+    channelId: zdf
+  rtl.de:
+    channelId: rtl
+  sat1.de :
+    channelId: sat1
+  prosieben.de:
+    channelId: pro7
+  kabeleins.de:
+    channelId: k1
+  rtl2.de:
+    channelId: rtl2
+  vox.de:
+    channelId: vox
+  3sat.de:
+    channelId: 3sat
+  arte.de:
+    channelId: arte
+  zdfneo.de:
+    channelId: 2neo
+  One:
+    channelId: fes
+  sixx.de:
+    channelId: sixx
+  dmax.de:
+    channelId: dmax
+  tele5.de:
+    channelId: tele5
+  servus.de:
+    channelId: servu
+  rtlnitro.de:
+    channelId: rtl-n
+  RTLup:
+    channelId: rtlpl
+  sat1gold.de:
+    channelId: sat1g
+  comedycentral.de:
+    channelId: cc
+  ndr.de:
+    channelId: n3
+  wdr.de:
+    channelId: wdr
+  bayerntv.de:
+    channelId: br
+  swrsr.de:
+    channelId: swr
+  HESSEN:
+    channelId: hr
+  MDR:
+    channelId: mdr
+  RBB:
+    channelId: rbb
+  sport1.de:
+    channelId: sport
+  sport1plus.de:
+    channelId: s1plu
+  eurosport1.de:
+    channelId: euro
+  eurosport2.de:
+    channelId: euro2
+  dazn.de:
+    channelId: dazn
+  skysportnews.de:
+    channelId: snhd
+  skysport1.de:
+    channelId: hdspo
+  skysport2.de:
+    channelId: shd2
+  extremesportschannel.com:
+    channelId: ex-sp
+  skysportaustria.au:
+    channelId: spo-a
+  skysportbundesliga.de:
+    channelId: buli
+  sportdigital:
+    channelId: spo-d
+  automotorsportchannel.de:
+    channelId: ams
+  eSports1:
+    channelId: es1
+  ardalpha.de:
+    channelId: alpha
+  tagesschau24.de:
+    channelId: tag24
+  zdfinfo.de:
+    channelId: zinfo
+  phoenix.de:
+    channelId: phoen
+  welt.de:
+    channelId: welt
+  n24doku.de:
+    channelId: n24doku
+  ntv.de:
+    channelId: ntv
+  kabeleinsdoku.de:
+    channelId: k1doku
+  deutschewelle.de:
+    channelId: dwtv
+  euronews.de:
+    channelId: euron
+  bbcnews.com:
+    channelId: bbc-n
+  bildtv.com:
+    channelId: bild
+  super.rtl.de:
+    channelId: super
+  kika.de:
+    channelId: kika
+  disney.de:
+    channelId: disne
+  NICK:
+    channelId: nick
+  Ric:
+    channelId: ric
+  'TOGGO plus':
+    channelId: toggo
+  nickjr.:
+    channelId: nickj
+  nicktoons:
+    channelId: nickt
+  Junior:
+    channelId: junio
+  'CARTOON Network':
+    channelId: c-net
+  'FIX & FOXI':
+    channelId: fftv
+  orf1.au:
+    channelId: orf1
+  orf2.au:
+    channelId: orf2
+  orf3.au:
+    channelId: orf3
+  orfsportsplus.au:
+    channelId: orfsp
+  PULS4:
+    channelId: puls4
+  ATV:
+    channelId: atv
+  'ATV II':
+    channelId: atv2
+  oe24.TV:
+    channelId: oe24tv
+  'SRF 1':
+    channelId: sf1
+  'SRF 2':
+    channelId: sf2
+  'STAR TV':
+    channelId: sttv
+  'PULS acht':
+    channelId: puls8
+  3+:
+    channelId: 3plus
+  'TV Berlin':
+    channelId: tvb
+  'Hamburg 1':
+    channelId: hh1
+  munchen.tv:
+    channelId: tvm
+  'LEIPZIG FERNSEHEN':
+    channelId: leitv
+  'rheinmain tv':
+    channelId: rmtv
+  'RNF Plus':
+    channelId: rnf
+  aljazeera.com:
+    channelId: aljaz
+  bbcworldnews.com:
+    channelId: bbc
+  bloomberg.tv:
+    channelId: blm
+  CNBC:
+    channelId: cnbc
+  CNN:
+    channelId: cnn
+  'France 24 (franz.)':
+    channelId: fr24f
+  'France 24 (engl.)':
+    channelId: fr24e
+  'NHK WORLD TV':
+    channelId: nhk
+  'CNN Turk':
+    channelId: cnn-t
+  deutschesmusik.de:
+    channelId: dmf
+  'MTV Base':
+    channelId: mtv-b
+  'club MTV':
+    channelId: mtv-d
+  'MTV Hits':
+    channelId: mtv-h
+  mtv.de:
+    channelId: mtv
+  'MTV LIVE HD':
+    channelId: mtv-l
+  deluxemusic.com:
+    channelId: dmc
+  'VH-1 Classic':
+    channelId: vh1
+  animalplanet.de:
+    channelId: aplan
+  anixe.de:
+    channelId: anixe
+  'Bibel TV':
+    channelId: bibel
+  discovery.de:
+    channelId: hddis
+  'More than Sports TV':
+    channelId: eotv
+  'GEO Television':
+    channelId: geo
+  'Crime + Investigation':
+    channelId: crin
+  'health tv':
+    channelId: health
+  KTV:
+    channelId: ktv
+  MarcoPolo:
+    channelId: mapo
+  natgeo.de:
+    channelId: n-ghd
+  natgeowild.de:
+    channelId: n-gw
+  'Spiegel TV Wissen':
+    channelId: sptvw
+  'Spiegel Geschichte':
+    channelId: sp-ge
+  tlc.discovery.de:
+    channelId: tlc
+  'travelxp 4K':
+    channelId: travelxp
+  UHD1:
+    channelId: uhd1
+  'Welt der Wunder TV':
+    channelId: wdwtv
+  'Home & Garden TV':
+    channelId: hgtv
+  VOXup:
+    channelId: voxup
+  'Rocket Beans TV':
+    channelId: rbtv
+  123.tv:
+    channelId: 123tv
+  Channel21:
+    channelId: ch21
+  HSE24:
+    channelId: hse
+  QVC:
+    channelId: qvc
+  QVC2:
+    channelId: qvcp
+  sonnenklar.TV:
+    channelId: sklar
+  'Belgien 1':
+    channelId: be1
+  DK1:
+    channelId: dr1
+  TV2:
+    channelId: tv2
+  'TV 5':
+    channelId: tv5
+  'Canal+ Sport':
+    channelId: cpluss
+  'BBC Two':
+    channelId: bbc2
+  'Canale 5':
+    channelId: c5
+  'BBC One':
+    channelId: bbc1
+  Canal+:
+    channelId: cplus
+  'Canal+ Cinema':
+    channelId: cplusc
+  'Euro D':
+    channelId: euro-d
+  'Euro Star':
+    channelId: euro-s
+  'France 4':
+    channelId: fra4
+  'France 5':
+    channelId: fra5
+  'Show Turk':
+    channelId: shot
+  'France 3':
+    channelId: fra3
+  'BBC four':
+    channelId: bbc4
+  'Canal+ Decale':
+    channelId: cplusd
+  'Turkmax Gurme':
+    channelId: tmax
+  'France 2':
+    channelId: fra2
+  'sky cinema premieren':
+    channelId: cin
+  'sky cinema premieren +24':
+    channelId: cin24
+  skyaction.de:
+    channelId: sky-a
+  'sky one':
+    channelId: sky1
+  skyatlantic.de:
+    channelId: skyat
+  'sky cinema fun':
+    channelId: sky-c
+  skycinemafamily.de:
+    channelId: sky-f
+  'sky cinema best of':
+    channelId: sky-h
+  'sky cinema classics':
+    channelId: sky-n
+  'sky comedy':
+    channelId: sky-co
+  'sky krimi':
+    channelId: sky-k
+  'E! Entertainment':
+    channelId: e!
+  'History HD':
+    channelId: hishd
+  Heimatkanal:
+    channelId: heima
+  '13th Street':
+    channelId: 13th
+  'Beate Uhse TV':
+    channelId: butv
+  'kabel eins classics':
+    channelId: k1cla
+  'Pro Sieben Fun':
+    channelId: pro7f
+  syfy.de:
+    channelId: scifi
+  'Kinowelt TV':
+    channelId: kinow
+  'Warner TV Comedy':
+    channelId: tnt-c
+  'Warner TV Film':
+    channelId: tnt-f
+  'Warner TV Serie':
+    channelId: tnt-s
+  'Motorvision TV':
+    channelId: movtv
+  'Romance TV':
+    channelId: rom
+  'Universal TV':
+    channelId: unive
+  'sky crime':
+    channelId: sky-cr
+  'sky cinema Special HD':
+    channelId: skycs
+  'sky sport F1':
+    channelId: skyf1
+  'sky thriller':
+    channelId: skyth
+  'sky documentaries':
+    channelId: sky-d
+  'sky nature':
+    channelId: sky-na
+  'Adult Channel':
+    channelId: adult
+  AXN:
+    channelId: axn
+  'BBC entertainment':
+    channelId: bbc-e
+  BonGusto:
+    channelId: gusto
+  Classica:
+    channelId: class
+  'Fashion TV HD':
+    channelId: fatv
+  Goldstar:
+    channelId: gold
+  'Gute Laune TV':
+    channelId: laune
+  Jukebox:
+    channelId: juke
+  'Lust Pur':
+    channelId: lustp
+  mezzo.tv:
+    channelId: mezzo
+  'Nautical Channel':
+    channelId: nauch
+  'Playboy TV Europe':
+    channelId: pboy
+  'RTL Passion':
+    channelId: pass
+  'SAT.1 Emotions':
+    channelId: sat1e
+  Silverline:
+    channelId: silve
+  'Sony Channel':
+    channelId: sony
+  'RTL CRIME':
+    channelId: rtl-c
+  'Trace TV':
+    channelId: trace
+  'RTL LIVING':
+    channelId: rtl-l
+  Bergblick:
+    channelId: berg
+
+channel-extract-rules:
+  url: https://m.tvtoday.de/tv-programm/?time=now&hptime=0&show-index=0&limit=999&category=
+
+  channel-name:
+    locator: li.tv-tip > a.icon-wrap
+    attribute: title
+  channel-param:
+    locator: li.tv-tip > a.icon-wrap
+    attribute: href
+
+

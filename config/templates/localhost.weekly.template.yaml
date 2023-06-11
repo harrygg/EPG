@@ -1,0 +1,49 @@
+---
+id: localhost.weekly
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://localhost/?channelId=${channelId}/${channelUrl}
+  date-format: yyyy-MM-dd
+  cache-priority: 3
+
+programs:     
+  debug: true
+  method: csspath
+  locator: .b5,.tv_line,.clearfix
+  
+  operations:
+    - name: remove-before
+      hook: before
+      arguments: [<div id="full_program">, true]
+    - name: remove-after
+      hook: before
+      arguments: [ </div><div class="c"></div>", true ]
+
+elements:
+  - name: start
+    locator: .info
+  - name: title
+    language: bg
+    locator: .ttl
+
+channel-parameters:
+  channel1.id:
+    channelId: 1
+    channelUrl: program-for-2-days.html
+    locator: ".b5,.tv_line,.clearfix"
+  channel2.id:
+    channelId: '2'
+    channelUrl: program-for-2-days.html
+    locator: ".b5,.tv_line,.clearfix"
+  channel3.id:
+    channelId: '3'
+    channelUrl: program-for-2-days.html
+    locator": .b5,.tv_line,.clearfix"
+  channel4.id:
+    channelId: '4'
+    channelUrl: program-for-2-days.html
+    locator: .b5,.tv_line,.clearfix

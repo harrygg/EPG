@@ -1,0 +1,30 @@
+---
+id: tv999.bg
+enabled: true
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: http://tv999.bg/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0.html
+
+programs:
+  locator: .tv_mod
+  
+elements:
+  - name: start
+    locator: .item_published
+    operations: 
+      - name: regex-extract
+        hook: after-extract
+        arguments: [ '(\d\d:\d\d)' ]
+
+  - name: stop
+    locator: small
+
+  - name: title
+    lang: bg
+    locator: .item_title
+    operations:
+      - name: beautify
+        hook: after

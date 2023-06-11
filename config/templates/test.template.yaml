@@ -1,0 +1,63 @@
+﻿---
+enabled: true
+author: Hristo Genev
+version: 0.2
+
+request:
+  method: POST
+  url: https://localhost.home/${date}
+  date-format: YYYYMMdd
+  headers:
+    user-agent: EPG.Grabber
+
+programs:
+  debug: true
+  locator-strategy: csspath
+  locator: ${locator}
+  exclude-first-blocks: 1
+
+elements:
+  - name: start
+    debug: true
+    locator: .time
+
+  - name: title
+    language: bg
+    locator: .ttl
+
+  - name: title
+    language: en
+    locator: .ttl-ori
+
+  - name: detailsUrl
+    locator: a
+    attribute: href
+
+
+program-details:
+  request:
+    url: '${detailsUrl}'
+
+  elements:
+    - name: extraDetailsUrl
+      locator: .link
+      attribute: href
+
+
+program-extras:
+  request:
+    url: '${extraDetailsUrl}'
+
+  elements:
+    - name: desc
+      locator: .ext-details
+    - name: date
+      locator: .year
+
+
+channel-parameters:
+  channel1.id:
+    channelId: 1
+    channelUrl: program-for-a-single-day.html
+    locator: .b5,.tv_line,.clearfix
+ 

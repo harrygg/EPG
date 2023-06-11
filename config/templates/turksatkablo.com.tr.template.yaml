@@ -1,0 +1,70 @@
+﻿---
+id: turksatkablo.com.tr
+enabled: true
+version: 1.0
+author: Hristo Genev
+
+request:
+  url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=${date} 
+  date-format: epoch
+    
+programs:
+  locator-strategy: jsonpath
+  locator: $.k[?(@.n=='${channelId}')].p[:]
+
+elements:
+  - name: start
+    locator: c
+  - name: title
+    language: tr
+    locator: b
+
+channel-parameters: 
+  kanald.tr:
+    channelId: Kanal D
+  fox.tr:
+    channelId: Fox
+  tv8.tr:
+    channelId: TV 8
+  trt1.tr:
+    channelId: TRT 1
+  trthaber.tr:
+    channelId: TRT Haber
+  trtworld.tr:
+    channelId: TRT World
+  trtbelgesel.tr:
+    channelId: TRT Belgesel
+  trtspor.tr:
+    channelId: TRT Spor
+  trtcocuk.tr:
+    channelId: TRT Çocuk
+  ahaber.tr:
+    channelId: A Haber
+  haberturk.tr:
+    channelId: HABERTÜRK TV
+  cnnturk.tr:
+    channelId: CNN Türk
+  beyaztv.tr:
+    channelId: Beyaz TV
+  showtv.tr:
+    channelId: Show
+  startv.tr:
+    channelId: Star
+  ntv.tr:
+    channelId: NTV
+  aspor.tr:
+    channelId: A Spor
+  atv.tr:
+    channelId: Atv
+  teve2.tr:
+    channelId: Teve 2
+  kanal7.tr:
+    channelId: Kanal 7
+  beinsports1.tr:
+    channelId: beIN SPORTS 1
+  beinsports2.tr:
+    channelId: beIN SPORTS 2
+  beinsports3.tr:
+    channelId: beIN SPORTS 3
+  beinsports4.tr:
+    channelId: beIN SPORTS 4

@@ -1,0 +1,35 @@
+---
+id: tvguide.co.uk
+enabled: true
+version: 1.0
+author: Hristo Genev
+timezone: Europe/London
+
+request:
+  url: https://www.tvguide.co.uk/mobile/channellisting.asp?ch=${channelId}
+
+programs:
+  locator-strategy: csspath
+  locator: div#channel-listings tr
+
+elements:
+  - name: start
+    time-format: H:mm tt
+    locator: .time
+
+  - name: title  
+    locator: .title
+      
+  - name: desc
+    locator: .detail
+    enabled: false
+  
+  - name: rating
+    locator: .rating-num
+    enabled: false
+
+channel-parameters:
+  euronews.com:
+    channelId: 140
+  bbcworldnews.com:
+    channelId: 894

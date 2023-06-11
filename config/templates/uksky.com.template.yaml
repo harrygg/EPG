@@ -1,0 +1,249 @@
+---
+id: uksky.com
+enabled: true
+version: 1.0
+author: Hristo Genev
+timezone: utc
+
+request:
+  url: https://awk.epgsky.com/hawk/linear/schedule/${date}/${channelId}
+  date-format: yyyyMMdd
+    
+programs:
+  locator-strategy: jsonpath
+  locator: $.schedule[0].events[:]
+
+elements:
+  - name: start
+    time-format: epoch
+    locator: st
+  - name: title  
+    locator: t
+  - name: desc
+    locator: sy
+      
+channel-parameters:
+  bbcworldnews.com:
+    channelId: 2085
+  laligatv.com:
+    channelId: 1015
+  'BBC One HD':
+    channelId: 2076
+  'Channel 4 HD':
+    channelId: 4075
+  'Sky Music HD':
+    channelId: 4020
+  'SkyAnimationHD':
+    channelId: 1199
+  'Sky Hits HD':
+    channelId: 4033
+  'Sky ScFi/HorHD':
+    channelId: 4017
+  'Premier 1 HD':
+    channelId: 5153
+  'Premier 2 HD':
+    channelId: 1634
+  'FreeSports HD':
+    channelId: 1150
+  'LFCTV HD':
+    channelId: 3845
+  'SportyStuff HD':
+    channelId: 1223
+  'SkySpBoxOffHD':
+    channelId: 1035
+  'BTSBoxOff2HD':
+    channelId: 1218
+  'Bloomberg HD':
+    channelId: 1074
+  nhkworld.com:
+    channelId: 3147
+  france24.com:
+    channelId: 1121
+  aljazeera.com:
+    channelId: 1023
+  'GB News HD':
+    channelId: 1196
+  arirang.tv:
+    channelId: 1066
+  'WION HD':
+    channelId: 1084
+  'DAYSTAR HD':
+    channelId: 5541
+  'LoveWorld HD':
+    channelId: 1228
+  'New Media HD':
+    channelId: 1131
+  'Cartoon Net HD':
+    channelId: 4077
+  'Boomerang HD':
+    channelId: 4030
+  'NickelodeonHD':
+    channelId: 4069
+  'CBBC HD':
+    channelId: 2078
+  'CBeebies HD':
+    channelId: 2088
+  'Nick Jr. HD':
+    channelId: 4039
+  'Ideal World HD':
+    channelId: 1244
+  'Create&CraftHD':
+    channelId: 1245
+  'BBC Two HD':
+    channelId: 2075
+  'ITV HD':
+    channelId: 6503
+  'Channel 5 HD':
+    channelId: 4058
+  'SkyShowcaseHD':
+    channelId: 1275
+  'Sky Witness HD':
+    channelId: 4066
+  'Sky Atlantic HD':
+    channelId: 4053
+  'W HD':
+    channelId: 3810
+  'GOLD HD':
+    channelId: 6513
+  'Dave HD':
+    channelId: 3809
+  'ComedyCentHD':
+    channelId: 4056
+  'Sky Max HD':
+    channelId: 4061
+  'Sky Comedy HD':
+    channelId: 1143
+  'BBC Four HD':
+    channelId: 2086
+  'ITV2 HD':
+    channelId: 6532
+  'ITV3 HD':
+    channelId: 6533
+  'ITV4 HD':
+    channelId: 6534
+  'SkyDocmntrsHD':
+    channelId: 1136
+  'Sky Crime HD':
+    channelId: 1212
+  'Sky HistoryHD':
+    channelId: 4086
+  'Sky Nature HD':
+    channelId: 1165
+  'Discovery HD':
+    channelId: 4003
+  'MTV HD':
+    channelId: 3831
+  'Nat Geo HD':
+    channelId: 4031
+  'Sky Arts HD':
+    channelId: 4063
+  'alibi HD':
+    channelId: 3825
+  'TLC HD':
+    channelId: 3812
+  'S4C HD':
+    channelId: 2296
+  'E4 HD':
+    channelId: 4076
+  'More4 HD':
+    channelId: 4043
+  'QUEST HD':
+    channelId: 1128
+  'E! HD':
+    channelId: 4028
+  'SYFY HD':
+    channelId: 4074
+  'Crime+Inv HD':
+    channelId: 4088
+  'SkyHistory2HD':
+    channelId: 1195
+  'NatGeoWild HD':
+    channelId: 4025
+  'Smithsonian HD':
+    channelId: 5135
+  'BBCScotlandHD':
+    channelId: 1138
+  'SkyPremiereHD':
+    channelId: 4021
+  'SkyTheMatrixHD':
+    channelId: 4015
+  'Sky Family HD':
+    channelId: 4018
+  'Sky Action HD':
+    channelId: 4014
+  'Sky Thriller HD':
+    channelId: 4062
+  'SkyChristmasHD':
+    channelId: 4016
+  'Film4 HD':
+    channelId: 4044
+  'SkySpMainEvHD':
+    channelId: 4002
+  'SkySp PL HD':
+    channelId: 4010
+  'SkySp Football HD':
+    channelId: 3939
+  'SkySpCricket HD':
+    channelId: 4081
+  'SkySp Golf HD':
+    channelId: 4026
+  'SkySp F1 HD':
+    channelId: 3835
+  'SkySp NFL HD':
+    channelId: 4022
+  'SkySp DartsHD':
+    channelId: 3940
+  'SkySp News HD':
+    channelId: 4049
+  'Eurosport 1 HD':
+    channelId: 4004
+  'Eurosport 2 HD':
+    channelId: 4009
+  'BT Sport 1 HD':
+    channelId: 3625
+  'BT Sport 2 HD':
+    channelId: 3627
+  'BT Sport 3 HD':
+    channelId: 3629
+  'SkySp Racing HD':
+    channelId: 4032
+  'SkySp Mix HD':
+    channelId: 4090
+  'MUTV HD':
+    channelId: 1003
+  'BTSpt//ESPNHD':
+    channelId: 4040
+  'Racing TV HD':
+    channelId: 5272
+  skynews.com:
+    channelId: 4050
+  cnbc.com:
+    channelId: 1088
+  cnninternational.com:
+    channelId: 1019
+  russiatoday.com:
+    channelId: 5314
+  trtworld.com:
+    channelId: 5237
+  'TJC HD':
+    channelId: 1113
+  'SONY TV HD':
+    channelId: 4045
+  'Utsav Plus HD':
+    channelId: 5300
+  'COLORS HD':
+    channelId: 1372
+  'SONY MAX HD':
+    channelId: 4046
+  'Utsav Gold HD':
+    channelId: 4047
+  'PCNE Chinese HD':
+    channelId: 1140
+  'BBC One ScotHD':
+    channelId: 2082
+  'BBC One Wal HD':
+    channelId: 2083
+  'BBC One NI HD':
+    channelId: 2081
+  'BBC Two Wal HD':
+    channelId: 3015

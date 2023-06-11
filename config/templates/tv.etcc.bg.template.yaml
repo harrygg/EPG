@@ -1,0 +1,49 @@
+---
+id: tv.etcc.bg
+version: 1.0
+author: Hristo Genev
+
+request:
+  cache-priority: 2
+  url: http://tv.etcc.bg/epg/serviceepg.php?service=${url}.xml
+
+programs:
+  locator: tr
+  exclude-first: 2
+    
+elements:
+  - name: start
+    locator: td:nth-child(2)
+
+  - name: title
+    language: bg
+    locator: td:nth-child(4)
+    operations:
+      - name: beautify
+        hook: after
+        
+  - name: detailedDesc
+    debug: true
+    locator: td:nth-child(6)
+    operations:
+      - name: beautify
+        hook: after
+
+  - name: desc
+    locator: td:nth-child(5)
+    operations:
+      - name: beautify
+        hook: after
+      - name: append
+        hook: after
+        arguments: [" ${detailedDesc}"]
+        conditions: [ argument-not-empty ]
+
+timeouts:
+  between-requests: 1
+
+channel-parameters: 
+  axn.bg:
+    url: AXN
+  animalplanet.discovery.bg:
+    url: Animal%20Planet

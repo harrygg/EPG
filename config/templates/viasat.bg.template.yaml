@@ -1,0 +1,43 @@
+id: viasat.bg
+version: 1.0
+author: Hristo Genev
+culture: bg-BG
+
+request:
+  url: https://${host}/?date=${date}
+  date-format: yyyy-MM-d
+
+programs:
+  locator: .list-unstyled,.accordian-inner-items li
+
+elements:
+  - name: title
+    locator: h4
+    type: InnerText
+    operations:
+    - name: beautify
+      hook: after
+  
+  - name: start
+    locator: h2
+
+  - name: desc
+    locator: .description > p
+    type: InnerText
+    operations:
+      - name: beautify
+        hook: after
+
+  - name: icon
+    locator: .image-inner-wrapper > img
+    attribute: src
+
+channel-parameters:
+  history.viasat.bg:
+    host: viasathistory.bg
+  explore.viasat.bg:
+    host: viasatexplore.bg
+  nature.viasat.bg:
+    host: viasatnature.bg
+  tv1000.bg:
+    host: tv1000.bg
