@@ -1,0 +1,997 @@
+2023-06-11 21:00:36.515 00001 [INF] **************************************************************************
+2023-06-11 21:00:36.531 00001 [INF] 
+2023-06-11 21:00:36.537 00001 [INF]                        EPG.grabber  1.2022.224.0
+2023-06-11 21:00:36.539 00001 [INF] 
+2023-06-11 21:00:36.539 00001 [INF] **************************************************************************
+2023-06-11 21:00:36.540 00001 [INF] Start time: "2023-06-11T21:00:36.5404790+03:00"
+2023-06-11 21:00:36.542 00001 [INF] Command line arguments: grab -f C:\Git\Popular EPG\config -l 2
+2023-06-11 21:00:36.785 00001 [INF] Loading config from file C:\Git\Popular EPG\config\config.yaml
+2023-06-11 21:00:36.873 00001 [VRB] Created config folder C:\Git\Popular EPG\config
+2023-06-11 21:00:36.873 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
+2023-06-11 21:00:36.873 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
+2023-06-11 21:00:36.873 00001 [VRB] Created output folder C:\Git\Popular EPG\config\output
+2023-06-11 21:00:36.873 00001 [DBG] Using configuration:
+2023-06-11 21:00:36.874 00001 [DBG] Grabbing for days ahead: 4
+2023-06-11 21:00:36.874 00001 [DBG] Grabbing for days behind: 7
+2023-06-11 21:00:36.874 00001 [DBG] Using templates folder: C:\Git\Popular EPG\config\templates
+2023-06-11 21:00:36.874 00001 [DBG] Number of parallel grabbing threads: 1
+2023-06-11 21:00:37.378 00001 [INF] Loaded 248 channels from config file
+2023-06-11 21:00:37.381 00001 [INF] Calculating and setting channels' grabbing start and end times
+2023-06-11 21:00:37.382 00001 [INF] Creating grabbing groups for round #1
+2023-06-11 21:00:37.385 00001 [INF] Created 31 grabber groups
+2023-06-11 21:00:37.410 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\bnt.bg.template.yaml
+2023-06-11 21:00:37.433 00005 [INF] BNT.BG |Starting grabbing programs for 4 channels
+2023-06-11 21:00:37.490 00007 [INF] BNT.BG |БНТ 1 |1|11|0| Added valid 197 programs from cache "2023-06-08T05:55:00.0000000+03:00" -> "2023-06-14T23:25:00.0000000+03:00"
+2023-06-11 21:00:37.525 00007 [INF] BNT.BG |БНТ 1 |1|11|0| All programs grabbed for channel bnt1.bg
+2023-06-11 21:00:37.535 00005 [INF] BNT.BG |БНТ 2 |1|11|0| Added valid 260 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:00:37.587 00005 [INF] BNT.BG |БНТ 2 |1|11|0| All programs grabbed for channel bnt2.bg
+2023-06-11 21:00:37.591 00007 [INF] BNT.BG |БНТ 3 |1|11|0| Added valid 151 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:37.612 00007 [INF] BNT.BG |БНТ 3 |1|11|0| All programs grabbed for channel bnt3.bg
+2023-06-11 21:00:37.620 00005 [INF] BNT.BG |БНТ 4 |1|11|0| Added valid 202 programs from cache "2023-06-08T05:55:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:00:37.652 00005 [INF] BNT.BG |БНТ 4 |1|11|0| All programs grabbed for channel bnt4.bg
+2023-06-11 21:00:37.657 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\btv.bg.template.yaml
+2023-06-11 21:00:37.668 00005 [INF] BTV.BG |Starting grabbing programs for 6 channels
+2023-06-11 21:00:37.675 00007 [INF] BTV.BG |БТВ |1|11|0| Added valid 153 programs from cache "2023-06-08T00:20:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:37.695 00007 [INF] BTV.BG |БТВ |1|11|0| All programs grabbed for channel btv.bg
+2023-06-11 21:00:37.705 00005 [INF] BTV.BG |БТВ Екшън |1|11|0| Added valid 136 programs from cache "2023-06-08T00:15:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:37.721 00005 [INF] BTV.BG |БТВ Екшън |1|11|0| All programs grabbed for channel btvaction.bg
+2023-06-11 21:00:37.724 00007 [INF] BTV.BG |БТВ Лейди |1|11|0| Added valid 156 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:37.744 00007 [INF] BTV.BG |БТВ Лейди |1|11|0| All programs grabbed for channel btvlady.bg
+2023-06-11 21:00:37.751 00005 [INF] BTV.BG |БТВ Синема |1|11|0| Added valid 80 programs from cache "2023-06-08T01:15:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:00:37.758 00005 [INF] BTV.BG |БТВ Синема |1|11|0| All programs grabbed for channel btvcinema.bg
+2023-06-11 21:00:37.767 00009 [INF] BTV.BG |БТВ Комеди |1|11|0| Added valid 135 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:37.785 00009 [INF] BTV.BG |БТВ Комеди |1|11|0| All programs grabbed for channel btvcomedy.bg
+2023-06-11 21:00:37.788 00007 [INF] BTV.BG |Ринг |1|11|0| Added valid 87 programs from cache "2023-06-08T01:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:37.795 00007 [INF] BTV.BG |Ринг |1|11|0| All programs grabbed for channel ring.bg
+2023-06-11 21:00:37.798 00007 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\nova.bg.template.yaml
+2023-06-11 21:00:37.809 00007 [INF] NOVA.BG |Starting grabbing programs for 6 channels
+2023-06-11 21:00:37.817 00007 [INF] NOVA.BG |Нова |1|11|0| Added valid 124 programs from cache "2023-06-08T09:30:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:37.830 00007 [INF] NOVA.BG |Нова |1|11|0| All programs grabbed for channel nova.bg
+2023-06-11 21:00:37.834 00009 [INF] NOVA.BG |Диема |1|11|0| Added valid 84 programs from cache "2023-06-08T11:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:37.841 00009 [INF] NOVA.BG |Диема |1|11|0| All programs grabbed for channel diema.bg
+2023-06-11 21:00:37.846 00007 [INF] NOVA.BG |Диема Фемили |1|11|0| Added valid 106 programs from cache "2023-06-08T11:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:37.857 00007 [INF] NOVA.BG |Диема Фемили |1|11|0| All programs grabbed for channel diemafamily.bg
+2023-06-11 21:00:37.863 00009 [INF] NOVA.BG |КиноНова |1|11|0| Added valid 73 programs from cache "2023-06-08T11:00:00.0000000+03:00" -> "2023-06-14T23:25:00.0000000+03:00"
+2023-06-11 21:00:37.869 00009 [INF] NOVA.BG |КиноНова |1|11|0| All programs grabbed for channel kinonova.bg
+2023-06-11 21:00:37.872 00007 [INF] NOVA.BG |Нова Спорт |1|11|0| Added valid 77 programs from cache "2023-06-08T11:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:37.879 00007 [INF] NOVA.BG |Нова Спорт |1|11|0| All programs grabbed for channel novasport.bg
+2023-06-11 21:00:37.883 00009 [INF] NOVA.BG |Нова Нюз |1|11|0| Added valid 246 programs from cache "2023-06-08T11:00:00.0000000+03:00" -> "2023-06-14T23:25:00.0000000+03:00"
+2023-06-11 21:00:37.938 00009 [INF] NOVA.BG |Нова Нюз |1|11|0| All programs grabbed for channel news.nova.bg
+2023-06-11 21:00:37.940 00009 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\dnes.bg.template.yaml
+2023-06-11 21:00:37.954 00009 [INF] DNES.BG |Starting grabbing programs for 42 channels
+2023-06-11 21:00:37.958 00007 [INF] DNES.BG |Bloomberg BG |1|11|0| Added valid 188 programs from cache "2023-06-08T11:35:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:37.986 00007 [INF] DNES.BG |Bloomberg BG |1|11|0| All programs grabbed for channel bloombergtv.bg
+2023-06-11 21:00:37.994 00005 [INF] DNES.BG |България Он Еър |1|11|0| Added valid 209 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:00:38.034 00005 [INF] DNES.BG |България Он Еър |1|11|0| All programs grabbed for channel bgonair.bg
+2023-06-11 21:00:38.038 00005 [INF] DNES.BG |Evrokom |1|11|0| Added valid 136 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:38.054 00005 [INF] DNES.BG |Evrokom |1|11|0| All programs grabbed for channel evrokom.bg
+2023-06-11 21:00:38.062 00005 [INF] DNES.BG |Алфа |1|11|0| Added valid 298 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:38.128 00005 [INF] DNES.BG |Алфа |1|11|0| All programs grabbed for channel alfatv.bg
+2023-06-11 21:00:38.137 00007 [INF] DNES.BG |Агро ТВ |1|11|0| Added valid 654 programs from cache "2023-06-08T11:10:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:00:38.435 00007 [INF] DNES.BG |Агро ТВ |1|11|0| All programs grabbed for channel agrotv.bg
+2023-06-11 21:00:38.439 00005 [INF] DNES.BG |ТВ1 |1|11|0| Added valid 144 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:38.453 00005 [INF] DNES.BG |ТВ1 |1|11|0| All programs grabbed for channel tv1.bg
+2023-06-11 21:00:38.461 00007 [INF] DNES.BG |AXN White |1|11|0| Added valid 111 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T23:20:00.0000000+03:00"
+2023-06-11 21:00:38.471 00007 [INF] DNES.BG |AXN White |1|11|0| All programs grabbed for channel axnwhite.bg
+2023-06-11 21:00:38.479 00005 [INF] DNES.BG |AXN Black |1|11|0| Added valid 141 programs from cache "2023-06-08T11:20:00.0000000+03:00" -> "2023-06-14T22:50:00.0000000+03:00"
+2023-06-11 21:00:38.494 00005 [INF] DNES.BG |AXN Black |1|11|0| All programs grabbed for channel axnblack.bg
+2023-06-11 21:00:38.501 00009 [INF] DNES.BG |Max Sport 1 |1|11|0| Added valid 86 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:38.508 00009 [INF] DNES.BG |Max Sport 1 |1|11|0| All programs grabbed for channel maxsport1.bg
+2023-06-11 21:00:38.515 00005 [INF] DNES.BG |Max Sport 2 |1|11|0| Added valid 93 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T22:25:00.0000000+03:00"
+2023-06-11 21:00:38.524 00005 [INF] DNES.BG |Max Sport 2 |1|11|0| All programs grabbed for channel maxsport2.bg
+2023-06-11 21:00:38.529 00005 [INF] DNES.BG |Max Sport 3 |1|11|0| Added valid 60 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T22:30:00.0000000+03:00"
+2023-06-11 21:00:38.532 00005 [INF] DNES.BG |Max Sport 3 |1|11|0| All programs grabbed for channel maxsport3.bg
+2023-06-11 21:00:38.538 00005 [INF] DNES.BG |Max Sport 4 |1|11|0| Added valid 68 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:38.544 00005 [INF] DNES.BG |Max Sport 4 |1|11|0| All programs grabbed for channel maxsport4.bg
+2023-06-11 21:00:38.547 00009 [INF] DNES.BG |EDGE Sport |1|11|0| Added valid 122 programs from cache "2023-06-08T11:40:00.0000000+03:00" -> "2023-06-14T23:40:00.0000000+03:00"
+2023-06-11 21:00:38.561 00009 [INF] DNES.BG |EDGE Sport |1|11|0| All programs grabbed for channel edgesport.bg
+2023-06-11 21:00:38.565 00005 [INF] DNES.BG |Eurosport |1|11|0| Added valid 101 programs from cache "2023-06-08T13:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:38.572 00005 [INF] DNES.BG |Eurosport |1|11|0| All programs grabbed for channel eurosport1.bg
+2023-06-11 21:00:38.580 00005 [INF] DNES.BG |Eurosport 2 HD |1|11|0| Added valid 98 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:38.590 00005 [INF] DNES.BG |Eurosport 2 HD |1|11|0| All programs grabbed for channel eurosport2.bg
+2023-06-11 21:00:38.598 00005 [INF] DNES.BG |MTV 80s |1|11|0| Added valid 41 programs from cache "2023-06-08T15:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:38.601 00005 [INF] DNES.BG |MTV 80s |1|11|0| All programs grabbed for channel mtv80s.com
+2023-06-11 21:00:38.607 00009 [INF] DNES.BG |MTV 90s |1|11|0| Added valid 51 programs from cache "2023-06-08T13:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:38.611 00009 [INF] DNES.BG |MTV 90s |1|11|0| All programs grabbed for channel mtv90s.com
+2023-06-11 21:00:38.612 00009 [WRN] DNES.BG |MTV 00s |1| 11|0| No parameters found for channel mtv00s.com
+2023-06-11 21:00:38.615 00005 [INF] DNES.BG |MTV 00s |1|11|0| Added valid 47 programs from cache "2023-06-08T05:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:38.617 00005 [INF] DNES.BG |MTV 00s |1|11|0| All programs grabbed for channel mtv00s.com
+2023-06-11 21:00:38.623 00005 [INF] DNES.BG |Club MTV |1|11|0| Added valid 51 programs from cache "2023-06-08T16:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:38.628 00005 [INF] DNES.BG |Club MTV |1|11|0| All programs grabbed for channel clubmtv.com
+2023-06-11 21:00:38.631 00005 [INF] DNES.BG |MTV Hits |1|11|0| Added valid 65 programs from cache "2023-06-08T13:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:38.635 00005 [INF] DNES.BG |MTV Hits |1|11|0| All programs grabbed for channel mtvhits.com
+2023-06-11 21:00:38.638 00005 [INF] DNES.BG |MTV Live |1|11|0| Added valid 148 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:38.653 00005 [INF] DNES.BG |MTV Live |1|11|0| All programs grabbed for channel mtvlive.com
+2023-06-11 21:00:38.657 00007 [INF] DNES.BG |The Voice |1|11|0| Added valid 87 programs from cache "2023-06-08T11:25:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:38.664 00007 [INF] DNES.BG |The Voice |1|11|0| All programs grabbed for channel thevoice.bg
+2023-06-11 21:00:38.672 00007 [INF] DNES.BG |Planeta 4K |1|11|0| Added valid 414 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T23:40:00.0000000+03:00"
+2023-06-11 21:00:38.771 00007 [INF] DNES.BG |Planeta 4K |1|11|0| All programs grabbed for channel planeta4k.bg
+2023-06-11 21:00:38.776 00005 [INF] DNES.BG |Planeta |1|11|0| Added valid 375 programs from cache "2023-06-08T11:10:00.0000000+03:00" -> "2023-06-14T23:10:00.0000000+03:00"
+2023-06-11 21:00:38.861 00005 [INF] DNES.BG |Planeta |1|11|0| All programs grabbed for channel planetatv.bg
+2023-06-11 21:00:38.866 00007 [INF] DNES.BG |Planeta Folk |1|11|0| Added valid 351 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T23:40:00.0000000+03:00"
+2023-06-11 21:00:38.935 00007 [INF] DNES.BG |Planeta Folk |1|11|0| All programs grabbed for channel planetafolk.bg
+2023-06-11 21:00:38.943 00008 [INF] DNES.BG |Фен ТВ |1|11|0| Added valid 79 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:00:39.439 00008 [INF] DNES.BG |Фен ТВ |1|14|0| Scraping url: https://www.dnes.bg/tv.php?tv=11144&date=2023-06-14
+2023-06-11 21:00:39.853 00013 [INF] DNES.BG |Фен ТВ |1|14|11| Grabbed program Зона за поздрави LIVE /развлекателно предаване с поздрави на живо/ @ "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:00:39.856 00013 [INF] DNES.BG |Фен ТВ |1|14|0| All programs grabbed for channel fentv.bg
+2023-06-11 21:00:39.859 00007 [INF] DNES.BG |Фен Фолк |1|11|0| Added valid 177 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:39.883 00007 [INF] DNES.BG |Фен Фолк |1|11|0| All programs grabbed for channel fenfolk.bg
+2023-06-11 21:00:39.889 00008 [INF] DNES.BG |Балканика |1|11|0| Added valid 68 programs from cache "2023-06-08T14:00:00.0000000+03:00" -> "2023-06-14T19:00:00.0000000+03:00"
+2023-06-11 21:00:39.895 00008 [INF] DNES.BG |Балканика |1|14|0| Scraping url: https://www.dnes.bg/tv.php?tv=11122&date=2023-06-14
+2023-06-11 21:00:39.972 00013 [INF] DNES.BG |Балканика |1|14|10| Grabbed program Balkan Party @ "2023-06-14T19:00:00.0000000+03:00"
+2023-06-11 21:00:39.974 00013 [INF] DNES.BG |Балканика |1|14|0| All programs grabbed for channel balkanika.bg
+2023-06-11 21:00:39.981 00007 [INF] DNES.BG |ТВ Европа |1|11|0| Added valid 403 programs from cache "2023-06-08T11:18:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:00:40.077 00007 [INF] DNES.BG |ТВ Европа |1|11|0| All programs grabbed for channel tvevropa.bg
+2023-06-11 21:00:40.084 00008 [INF] DNES.BG |Discovery Channel |1|11|0| Added valid 170 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:40.104 00008 [INF] DNES.BG |Discovery Channel |1|11|0| All programs grabbed for channel discoverychannel.bg
+2023-06-11 21:00:40.108 00007 [INF] DNES.BG |Discovery Science |1|11|0| Added valid 254 programs from cache "2023-06-08T11:24:00.0000000+03:00" -> "2023-06-14T23:40:00.0000000+03:00"
+2023-06-11 21:00:40.146 00007 [INF] DNES.BG |Discovery Science |1|11|0| All programs grabbed for channel discoveryscience.bg
+2023-06-11 21:00:40.149 00008 [INF] DNES.BG |Investigation Discovery |1|11|0| Added valid 141 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:40.162 00008 [INF] DNES.BG |Investigation Discovery |1|11|0| All programs grabbed for channel investigationdiscovery.bg
+2023-06-11 21:00:40.170 00007 [INF] DNES.BG |Food Network |1|11|0| Added valid 262 programs from cache "2023-06-08T11:10:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:00:40.211 00007 [INF] DNES.BG |Food Network |1|11|0| All programs grabbed for channel foodnetwork.bg
+2023-06-11 21:00:40.218 00005 [INF] DNES.BG |Animal Planet |1|11|0| Added valid 169 programs from cache "2023-06-08T11:20:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:40.237 00005 [INF] DNES.BG |Animal Planet |1|11|0| All programs grabbed for channel animalplanet.bg
+2023-06-11 21:00:40.240 00005 [WRN] DNES.BG |Travel XP |1| 11|0| No parameters found for channel travelxp.tv
+2023-06-11 21:00:40.242 00005 [WRN] DNES.BG |Travel XP |1|11|0| Param 'channelId' not found!
+2023-06-11 21:00:40.250 00007 [INF] DNES.BG |Travel Channel |1|11|0| Added valid 140 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:40.265 00007 [INF] DNES.BG |Travel Channel |1|11|0| All programs grabbed for channel travelchannel.bg
+2023-06-11 21:00:40.272 00007 [INF] DNES.BG |Love Nature |1|11|0| Added valid 158 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:00:40.289 00007 [INF] DNES.BG |Love Nature |1|11|0| All programs grabbed for channel tv.lovenature.com
+2023-06-11 21:00:40.298 00007 [INF] DNES.BG |Nickeldeon |1|11|0| Added valid 347 programs from cache "2023-06-08T11:25:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:00:40.366 00007 [INF] DNES.BG |Nickeldeon |1|11|0| All programs grabbed for channel nickelodeon.tv
+2023-06-11 21:00:40.370 00005 [INF] DNES.BG |Nick HD |1|11|0| Added valid 347 programs from cache "2023-06-08T11:25:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:00:40.438 00005 [INF] DNES.BG |Nick HD |1|11|0| All programs grabbed for channel nick.tv
+2023-06-11 21:00:40.442 00007 [INF] DNES.BG |JimJam |1|11|0| Added valid 358 programs from cache "2023-06-08T11:13:00.0000000+03:00" -> "2023-06-14T23:56:00.0000000+03:00"
+2023-06-11 21:00:40.515 00007 [INF] DNES.BG |JimJam |1|11|0| All programs grabbed for channel jimjam.tv
+2023-06-11 21:00:40.522 00005 [INF] DNES.BG |E-kids |1|11|0| Added valid 174 programs from cache "2023-06-08T11:30:00.0000000+03:00" -> "2023-06-14T20:40:00.0000000+03:00"
+2023-06-11 21:00:40.542 00005 [INF] DNES.BG |E-kids |1|14|0| Scraping url: https://www.dnes.bg/tv.php?tv=11121&date=2023-06-14
+2023-06-11 21:00:40.640 00013 [INF] DNES.BG |E-kids |1|14|28| Grabbed program Лексиконче с песнички - детско музикално предаване @ "2023-06-14T20:40:00.0000000+03:00"
+2023-06-11 21:00:40.646 00007 [INF] DNES.BG |Da Vinci Learning |1|11|0| Added valid 554 programs from cache "2023-06-08T11:27:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:40.815 00007 [INF] DNES.BG |Da Vinci Learning |1|11|0| All programs grabbed for channel davincilearning.tv
+2023-06-11 21:00:40.817 00007 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\codehealth.bg.template.yaml
+2023-06-11 21:00:40.828 00007 [INF] CODEHEALTH.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:00:40.830 00007 [WRN] CODEHEALTH.BG |Code Health |1| No parameters found for channel codehealth.bg
+2023-06-11 21:00:40.836 00005 [INF] CODEHEALTH.BG |Code Health |1|11|0| Added valid 38 programs from cache "2023-06-10T08:30:00.0000000+03:00" -> "2023-06-11T23:40:00.0000000+03:00"
+2023-06-11 21:00:40.840 00005 [INF] CODEHEALTH.BG |Code Health |1|12|0| Scraping url: https://codehealth.bg/wp-admin/admin-ajax.php
+2023-06-11 21:00:42.133 00013 [ERR] CODEHEALTH.BG |Code Health |1|12|0| Unexpected response from server 400
+2023-06-11 21:00:42.136 00013 [ERR] CODEHEALTH.BG |Code Health |1|12|0| No valid content from scraping was downloaded
+2023-06-11 21:00:42.137 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\start.bg.template.yaml
+2023-06-11 21:00:42.140 00013 [INF] START.BG |Starting grabbing programs for 5 channels
+2023-06-11 21:00:42.141 00013 [WRN] START.BG |Скат |1| No parameters found for channel skat.bg
+2023-06-11 21:00:42.143 00007 [INF] START.BG |Скат |1|11|0| Added valid 166 programs from cache "2023-06-08T13:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:42.163 00007 [INF] START.BG |Скат |1|11|0| All programs grabbed for channel skat.bg
+2023-06-11 21:00:42.171 00007 [INF] START.BG |Eurochannel |1|11|0| Added valid 101 programs from cache "2023-06-08T12:25:00.0000000+03:00" -> "2023-06-14T23:05:00.0000000+03:00"
+2023-06-11 21:00:42.179 00007 [INF] START.BG |Eurochannel |1|11|0| All programs grabbed for channel eurochannel.com
+2023-06-11 21:00:42.182 00007 [INF] START.BG |7/8 TV |1|11|0| Added valid 121 programs from cache "2023-06-08T14:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:42.193 00007 [INF] START.BG |7/8 TV |1|11|0| All programs grabbed for channel sedemosmi.tv
+2023-06-11 21:00:42.196 00007 [INF] START.BG |ВТК |1|11|0| Scraping url: https://www.start.bg/lenta/tv-programa//tv/show/channel/186/2023-06-11/0
+2023-06-11 21:00:42.427 00013 [INF] START.BG |ВТК |1|12|0| Scraping url: https://www.start.bg/lenta/tv-programa//tv/show/channel/186/2023-06-12/0
+2023-06-11 21:00:42.643 00013 [INF] START.BG |ВТК |1|13|0| Scraping url: https://www.start.bg/lenta/tv-programa//tv/show/channel/186/2023-06-13/0
+2023-06-11 21:00:42.846 00013 [INF] START.BG |ВТК |1|14|0| Scraping url: https://www.start.bg/lenta/tv-programa//tv/show/channel/186/2023-06-14/0
+2023-06-11 21:00:43.137 00008 [INF] START.BG |Nostalgia |1|11|0| Added valid 72 programs from cache "2023-06-08T12:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:43.142 00008 [INF] START.BG |Nostalgia |1|11|0| All programs grabbed for channel nostalgia.bg
+2023-06-11 21:00:43.145 00008 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\tv.dir.bg.template.yaml
+2023-06-11 21:00:43.150 00008 [INF] TV.DIR.BG |Starting grabbing programs for 12 channels
+2023-06-11 21:00:43.153 00008 [INF] TV.DIR.BG |ПОТВ Тракия |1|11|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=211&dd=11.06
+2023-06-11 21:00:43.393 00013 [INF] TV.DIR.BG |ПОТВ Тракия |1|12|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=211&dd=12.06
+2023-06-11 21:00:43.536 00013 [INF] TV.DIR.BG |ПОТВ Тракия |1|13|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=211&dd=13.06
+2023-06-11 21:00:43.672 00013 [INF] TV.DIR.BG |ПОТВ Тракия |1|14|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=211&dd=14.06
+2023-06-11 21:00:43.806 00008 [INF] TV.DIR.BG |AMC |1|11|0| Added valid 89 programs from cache "2023-06-08T07:20:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:43.814 00008 [INF] TV.DIR.BG |AMC |1|11|0| All programs grabbed for channel amc.bg
+2023-06-11 21:00:43.822 00008 [INF] TV.DIR.BG |HDGE |1|11|0| Added valid 217 programs from cache "2023-06-08T05:45:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:43.852 00008 [INF] TV.DIR.BG |HDGE |1|11|0| All programs grabbed for channel hgtv.bg
+2023-06-11 21:00:43.860 00008 [INF] TV.DIR.BG |TLC |1|11|0| Added valid 154 programs from cache "2023-06-08T05:30:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:43.877 00008 [INF] TV.DIR.BG |TLC |1|11|0| All programs grabbed for channel tlc.bg
+2023-06-11 21:00:43.885 00019 [INF] TV.DIR.BG |Crime & Investigation |1|11|0| Added valid 191 programs from cache "2023-06-08T06:05:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:43.908 00019 [INF] TV.DIR.BG |Crime & Investigation |1|11|0| All programs grabbed for channel crimeinvestigation.bg
+2023-06-11 21:00:43.913 00019 [INF] TV.DIR.BG |Травел ТВ |1|11|0| Added valid 78 programs from cache "2023-06-10T05:30:00.0000000+03:00" -> "2023-06-11T23:00:00.0000000+03:00"
+2023-06-11 21:00:43.919 00019 [INF] TV.DIR.BG |Травел ТВ |1|12|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=154&dd=12.06
+2023-06-11 21:00:44.093 00013 [INF] TV.DIR.BG |Травел ТВ |1|13|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=154&dd=13.06
+2023-06-11 21:00:44.252 00013 [INF] TV.DIR.BG |Травел ТВ |1|14|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=154&dd=14.06
+2023-06-11 21:00:44.396 00019 [INF] TV.DIR.BG |DocuBox |1|11|0| Added valid 212 programs from cache "2023-06-08T05:30:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:44.425 00019 [INF] TV.DIR.BG |DocuBox |1|11|0| All programs grabbed for channel docubox.spiintl.com
+2023-06-11 21:00:44.433 00019 [INF] TV.DIR.BG |History Channel |1|11|0| Added valid 265 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:44.475 00019 [INF] TV.DIR.BG |History Channel |1|11|0| All programs grabbed for channel historytv.com
+2023-06-11 21:00:44.478 00019 [INF] TV.DIR.BG |TVT Tourism |1|11|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=369&dd=11.06
+2023-06-11 21:00:44.635 00013 [INF] TV.DIR.BG |TVT Tourism |1|12|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=369&dd=12.06
+2023-06-11 21:00:44.770 00013 [INF] TV.DIR.BG |TVT Tourism |1|13|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=369&dd=13.06
+2023-06-11 21:00:44.915 00013 [INF] TV.DIR.BG |TVT Tourism |1|14|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=369&dd=14.06
+2023-06-11 21:00:45.054 00013 [INF] TV.DIR.BG |Boomerang |1|11|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=122&dd=11.06
+2023-06-11 21:00:45.170 00013 [INF] TV.DIR.BG |Boomerang |1|12|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=122&dd=12.06
+2023-06-11 21:00:45.313 00013 [INF] TV.DIR.BG |Boomerang |1|13|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=122&dd=13.06
+2023-06-11 21:00:45.436 00013 [INF] TV.DIR.BG |Boomerang |1|14|0| Scraping url: https://tv.dir.bg/tv_channel.php?id=122&dd=14.06
+2023-06-11 21:00:45.582 00019 [INF] TV.DIR.BG |Cartoon Network |1|11|0| Added valid 701 programs from cache "2023-06-08T05:15:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:00:45.843 00019 [INF] TV.DIR.BG |Cartoon Network |1|11|0| All programs grabbed for channel cartoonnetwork.tv
+2023-06-11 21:00:45.848 00019 [INF] TV.DIR.BG |Disney Channel |1|11|0| Added valid 391 programs from cache "2023-06-08T05:35:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:00:45.935 00019 [INF] TV.DIR.BG |Disney Channel |1|11|0| All programs grabbed for channel disneychannel.bg
+2023-06-11 21:00:45.938 00019 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\bstv.bg.template.yaml
+2023-06-11 21:00:45.947 00019 [INF] BSTV.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:00:45.949 00019 [WRN] BSTV.BG |БСТВ |1| No parameters found for channel bstv.bg
+2023-06-11 21:00:45.951 00019 [INF] BSTV.BG |БСТВ |1|11|0| Scraping url: https://bstv.bg/programa/2023-06-11
+2023-06-11 21:00:46.845 00013 [INF] BSTV.BG |БСТВ |1|12|0| Scraping url: https://bstv.bg/programa/2023-06-12
+2023-06-11 21:00:47.572 00013 [INF] BSTV.BG |БСТВ |1|13|0| Scraping url: https://bstv.bg/programa/2023-06-13
+2023-06-11 21:00:48.310 00013 [INF] BSTV.BG |БСТВ |1|14|0| Scraping url: https://bstv.bg/programa/2023-06-14
+2023-06-11 21:00:48.965 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\tv-programa.bg.template.yaml
+2023-06-11 21:00:48.978 00013 [INF] TV-PROGRAMA.BG |Starting grabbing programs for 7 channels
+2023-06-11 21:00:48.981 00008 [INF] TV-PROGRAMA.BG |HBO |1|11|0| Added valid 97 programs from cache "2023-06-08T02:30:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:48.988 00008 [INF] TV-PROGRAMA.BG |HBO |1|11|0| All programs grabbed for channel hbo.bg
+2023-06-11 21:00:48.995 00019 [INF] TV-PROGRAMA.BG |HBO 2 |1|11|0| Added valid 106 programs from cache "2023-06-08T01:20:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:00:49.004 00019 [INF] TV-PROGRAMA.BG |HBO 2 |1|11|0| All programs grabbed for channel hbo2.bg
+2023-06-11 21:00:49.009 00019 [INF] TV-PROGRAMA.BG |HBO 3 |1|11|0| Added valid 131 programs from cache "2023-06-08T00:20:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:49.022 00019 [INF] TV-PROGRAMA.BG |HBO 3 |1|11|0| All programs grabbed for channel hbo3.bg
+2023-06-11 21:00:49.024 00019 [WRN] TV-PROGRAMA.BG |Cinemax |1| 11|0| No parameters found for channel cinemax1.bg
+2023-06-11 21:00:49.031 00019 [INF] TV-PROGRAMA.BG |Cinemax |1|11|0| Added valid 86 programs from cache "2023-06-08T08:35:00.0000000+03:00" -> "2023-06-14T23:20:00.0000000+03:00"
+2023-06-11 21:00:49.037 00019 [INF] TV-PROGRAMA.BG |Cinemax |1|11|0| All programs grabbed for channel cinemax1.bg
+2023-06-11 21:00:49.045 00019 [INF] TV-PROGRAMA.BG |Cinemax 2 |1|11|0| Added valid 94 programs from cache "2023-06-08T01:25:00.0000000+03:00" -> "2023-06-14T21:30:00.0000000+03:00"
+2023-06-11 21:00:49.052 00019 [INF] TV-PROGRAMA.BG |Cinemax 2 |1|11|0| All programs grabbed for channel cinemax2.bg
+2023-06-11 21:00:49.057 00019 [INF] TV-PROGRAMA.BG |Cinemania |1|11|0| Added valid 78 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:49.061 00019 [INF] TV-PROGRAMA.BG |Cinemania |1|11|0| All programs grabbed for channel cinemania.bg
+2023-06-11 21:00:49.068 00019 [INF] TV-PROGRAMA.BG |The World |1|11|0| Added valid 142 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:00:49.083 00019 [INF] TV-PROGRAMA.BG |The World |1|11|0| All programs grabbed for channel theworld.bg
+2023-06-11 21:00:49.085 00019 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\moviestar.bg.template.yaml
+2023-06-11 21:00:49.088 00019 [INF] MOVIESTAR.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:00:49.089 00019 [WRN] MOVIESTAR.BG |Moviestar |1| No parameters found for channel moviestar.bg
+2023-06-11 21:00:49.096 00005 [INF] MOVIESTAR.BG |Moviestar |1|11|0| Added valid 87 programs from cache "2023-06-08T00:10:00.0000000+03:00" -> "2023-06-13T10:45:00.0000000+03:00"
+2023-06-11 21:00:49.111 00005 [INF] MOVIESTAR.BG |Moviestar |1|13|0| Scraping url: http://moviestar.bg/?rhc_action=get_calendar_events&post_type[]=events&start=1686603600&end=1686690000&rhc_shrink=0&view=agendaDay
+2023-06-11 21:00:50.427 00013 [INF] MOVIESTAR.BG |Moviestar |1|13|1| Grabbed program Град на греха: Жена, за която да убиеш @ "2023-06-13T22:05:00.0000000+03:00"
+2023-06-11 21:00:50.436 00013 [INF] MOVIESTAR.BG |Moviestar |1|13|2| Grabbed program Джими @ "2023-06-13T18:05:00.0000000+03:00"
+2023-06-11 21:00:50.446 00013 [INF] MOVIESTAR.BG |Moviestar |1|13|3| Grabbed program Смъртна присъда @ "2023-06-13T20:00:00.0000000+03:00"
+2023-06-11 21:00:50.455 00013 [INF] MOVIESTAR.BG |Moviestar |1|13|4| Grabbed program Игри на любовта @ "2023-06-13T14:20:00.0000000+03:00"
+2023-06-11 21:00:50.498 00013 [INF] MOVIESTAR.BG |Moviestar |1|13|10| Grabbed program Разходка в гората @ "2023-06-13T16:05:00.0000000+03:00"
+2023-06-11 21:00:50.508 00013 [INF] MOVIESTAR.BG |Moviestar |1|13|11| Grabbed program Ловецът на крокодили: Сблъсъкът @ "2023-06-13T12:35:00.0000000+03:00"
+2023-06-11 21:00:50.519 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|0| Scraping url: http://moviestar.bg/?rhc_action=get_calendar_events&post_type[]=events&start=1686690000&end=1686776400&rhc_shrink=0&view=agendaDay
+2023-06-11 21:00:51.246 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|1| Grabbed program Тактически сили @ "2023-06-14T21:20:00.0000000+03:00"
+2023-06-11 21:00:51.256 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|2| Grabbed program Бандит @ "2023-06-14T19:00:00.0000000+03:00"
+2023-06-11 21:00:51.265 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|3| Grabbed program Прозрение @ "2023-06-14T23:05:00.0000000+03:00"
+2023-06-11 21:00:51.274 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|4| Grabbed program Митика: Тъмните времена @ "2023-06-14T16:55:00.0000000+03:00"
+2023-06-11 21:00:51.283 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|5| Grabbed program Борба с дивото: Оцеляване в Серенгети @ "2023-06-14T10:00:00.0000000+03:00"
+2023-06-11 21:00:51.293 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|6| Grabbed program Наказателен отряд @ "2023-06-14T01:55:00.0000000+03:00"
+2023-06-11 21:00:51.303 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|7| Grabbed program Без преотстъпване @ "2023-06-14T15:15:00.0000000+03:00"
+2023-06-11 21:00:51.312 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|8| Grabbed program Ние, които останахме @ "2023-06-14T13:35:00.0000000+03:00"
+2023-06-11 21:00:51.322 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|9| Grabbed program Бягство и отклонение @ "2023-06-14T03:50:00.0000000+03:00"
+2023-06-11 21:00:51.332 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|10| Grabbed program Пазителят @ "2023-06-14T00:05:00.0000000+03:00"
+2023-06-11 21:00:51.342 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|11| Grabbed program Сивия бухал @ "2023-06-14T05:40:00.0000000+03:00"
+2023-06-11 21:00:51.351 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|12| Grabbed program Купон с преспиване @ "2023-06-14T11:50:00.0000000+03:00"
+2023-06-11 21:00:51.361 00013 [INF] MOVIESTAR.BG |Moviestar |1|14|13| Grabbed program Дивата Америка @ "2023-06-14T07:55:00.0000000+03:00"
+2023-06-11 21:00:51.366 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\pawa.tv.template.yaml
+2023-06-11 21:00:51.369 00013 [INF] PAWA.TV |Starting grabbing programs for 5 channels
+2023-06-11 21:00:51.373 00008 [INF] PAWA.TV |Epic Drama |1|11|0| Added valid 137 programs from cache "2023-06-08T14:15:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:00:51.388 00008 [INF] PAWA.TV |Epic Drama |1|11|0| All programs grabbed for channel epicdrama.bg
+2023-06-11 21:00:51.396 00008 [INF] PAWA.TV |TV 1000 |1|11|0| Added valid 66 programs from cache "2023-06-08T13:20:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:51.401 00008 [INF] PAWA.TV |TV 1000 |1|11|0| All programs grabbed for channel tv1000.bg
+2023-06-11 21:00:51.409 00008 [INF] PAWA.TV |Viasat History |1|11|0| Added valid 170 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:00:51.428 00008 [INF] PAWA.TV |Viasat History |1|11|0| All programs grabbed for channel history.viasat.bg
+2023-06-11 21:00:51.437 00008 [INF] PAWA.TV |Viasat Explore |1|11|0| Added valid 180 programs from cache "2023-06-08T00:50:00.0000000+03:00" -> "2023-06-14T23:10:00.0000000+03:00"
+2023-06-11 21:00:51.459 00008 [INF] PAWA.TV |Viasat Explore |1|11|0| All programs grabbed for channel explore.viasat.bg
+2023-06-11 21:00:51.468 00008 [INF] PAWA.TV |Viasat Nature |1|11|0| Added valid 214 programs from cache "2023-06-08T00:30:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:00:51.499 00008 [INF] PAWA.TV |Viasat Nature |1|11|0| All programs grabbed for channel nature.viasat.bg
+2023-06-11 21:00:51.502 00008 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\axn.bg.template.yaml
+2023-06-11 21:00:51.505 00008 [INF] AXN.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:00:51.507 00008 [WRN] AXN.BG |AXN |1| No parameters found for channel axn.bg
+2023-06-11 21:00:51.515 00005 [INF] AXN.BG |AXN |1|11|0| Added valid 142 programs from cache "2023-06-08T06:05:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:51.530 00005 [INF] AXN.BG |AXN |1|11|0| All programs grabbed for channel axn.bg
+2023-06-11 21:00:51.532 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\waltdisney.bg.template.yaml
+2023-06-11 21:00:51.542 00005 [INF] WALTDISNEY.BG |Starting grabbing programs for 6 channels
+2023-06-11 21:00:51.545 00019 [INF] WALTDISNEY.BG |Fox |1|11|0| Added valid 157 programs from cache "2023-06-09T00:45:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:00:51.562 00019 [INF] WALTDISNEY.BG |Fox |1|11|0| All programs grabbed for channel fox.bg
+2023-06-11 21:00:51.566 00019 [INF] WALTDISNEY.BG |Fox Life |1|11|0| Added valid 219 programs from cache "2023-06-08T00:40:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:00:51.595 00019 [INF] WALTDISNEY.BG |Fox Life |1|11|0| All programs grabbed for channel foxlife.bg
+2023-06-11 21:00:51.603 00019 [INF] WALTDISNEY.BG |Fox Crime |1|11|0| Added valid 173 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:51.623 00019 [INF] WALTDISNEY.BG |Fox Crime |1|11|0| All programs grabbed for channel foxcrime.bg
+2023-06-11 21:00:51.632 00019 [INF] WALTDISNEY.BG |National Geographic |1|11|0| Added valid 220 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:51.662 00019 [INF] WALTDISNEY.BG |National Geographic |1|11|0| All programs grabbed for channel natgeo.bg
+2023-06-11 21:00:51.671 00005 [INF] WALTDISNEY.BG |NatGeo Wild |1|11|0| Added valid 225 programs from cache "2023-06-08T00:10:00.0000000+03:00" -> "2023-06-14T23:20:00.0000000+03:00"
+2023-06-11 21:00:51.703 00005 [INF] WALTDISNEY.BG |NatGeo Wild |1|11|0| All programs grabbed for channel natgeowild.bg
+2023-06-11 21:00:51.712 00005 [INF] WALTDISNEY.BG |24 Kitchen |1|11|0| Added valid 252 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:51.751 00005 [INF] WALTDISNEY.BG |24 Kitchen |1|11|0| All programs grabbed for channel 24kitchen.bg
+2023-06-11 21:00:51.754 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\diemaextra.bg.template.yaml
+2023-06-11 21:00:51.757 00005 [INF] DIEMAXTRA.BG |Starting grabbing programs for 3 channels
+2023-06-11 21:00:51.758 00005 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|0| Scraping url: https://diemaxtra.nova.bg/diemasport/schedule
+2023-06-11 21:00:51.902 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|1| Grabbed program "Головете на кръга", 35 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-11T08:00:00.0000000+03:00"
+2023-06-11 21:00:51.905 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|2| Grabbed program "Героите на кръга", 36 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-11T08:30:00.0000000+03:00"
+2023-06-11 21:00:51.906 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|3| Grabbed program Футбол: Берое - Спортист Своге, мач за място в efbet Лига, /п/ @ "2023-06-11T09:00:00.0000000+03:00"
+2023-06-11 21:00:51.908 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|4| Grabbed program Футбол: Левски - Черно море, класика efbet Лига (2018-19), /п/ @ "2023-06-11T11:00:00.0000000+03:00"
+2023-06-11 21:00:51.909 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|5| Grabbed program "Домът на футбола", 49 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-11T11:30:00.0000000+03:00"
+2023-06-11 21:00:51.911 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|6| Grabbed program Футбол: Левски - ЦСКА, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-11T12:30:00.0000000+03:00"
+2023-06-11 21:00:51.912 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|7| Grabbed program efbet Лига: Обзор на кръга, 35 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-11T14:30:00.0000000+03:00"
+2023-06-11 21:00:51.914 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|8| Grabbed program Футбол: Ботев Пловдив - Арда, 36 кръг, efbet Лига (2022-23), /п/ @ "2023-06-11T15:30:00.0000000+03:00"
+2023-06-11 21:00:51.915 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|9| Grabbed program Втора професионална лига: Обзор на кръга, 34 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-11T17:30:00.0000000+03:00"
+2023-06-11 21:00:51.917 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|10| Grabbed program Студио "efbet Лига футбол", директно @ "2023-06-11T18:30:00.0000000+03:00"
+2023-06-11 21:00:51.918 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|11| Grabbed program Футбол: Левски - Арда, мач за място в Лига на Конференциите, директно @ "2023-06-11T19:00:00.0000000+03:00"
+2023-06-11 21:00:51.920 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|12| Grabbed program Студио "efbet Лига футбол", директно @ "2023-06-11T20:55:00.0000000+03:00"
+2023-06-11 21:00:51.921 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|13| Grabbed program "Дневник НБА", 228 епизод, предаване за НБА (2022-23), /п/ @ "2023-06-11T21:30:00.0000000+03:00"
+2023-06-11 21:00:51.923 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|14| Grabbed program Футбол: Черно море - Лудогорец, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-11T22:00:00.0000000+03:00"
+2023-06-11 21:00:51.924 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|11|15| Grabbed program Футбол: ЦСКА 1948 - Локомотив Пловдив, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-12T00:00:00.0000000+03:00"
+2023-06-11 21:00:51.926 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|0| Scraping url: https://diemaxtra.nova.bg/diemasport/schedule
+2023-06-11 21:00:51.971 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|1| Grabbed program Футбол: Левски - Арда, мач за място в Лига на Конференциите, /п/ @ "2023-06-12T08:00:00.0000000+03:00"
+2023-06-11 21:00:51.973 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|2| Grabbed program Футбол: Берое - Спортист Своге, мач за място в efbet Лига, /п/ @ "2023-06-12T10:00:00.0000000+03:00"
+2023-06-11 21:00:51.975 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|3| Grabbed program Футбол: ЦСКА 1948 - Локомотив Пловдив, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-12T12:00:00.0000000+03:00"
+2023-06-11 21:00:51.976 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|4| Grabbed program Футбол: Левски - ЦСКА, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-12T14:00:00.0000000+03:00"
+2023-06-11 21:00:51.978 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|5| Grabbed program Футбол: Черно море - Лудогорец, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-12T16:00:00.0000000+03:00"
+2023-06-11 21:00:51.979 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|6| Grabbed program Футбол: ЦСКА - ЦСКА 1948, 34 кръг, efbet Лига (2022-23), /п/ @ "2023-06-12T18:00:00.0000000+03:00"
+2023-06-11 21:00:51.981 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|7| Grabbed program "Героите на сезона", 37 епизод, предаване за български футбол (2022-23) @ "2023-06-12T20:00:00.0000000+03:00"
+2023-06-11 21:00:51.982 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|8| Grabbed program "Дневник НБА", 228 епизод, предаване за НБА (2022-23), /п/ @ "2023-06-12T21:00:00.0000000+03:00"
+2023-06-11 21:00:51.984 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|9| Grabbed program Футбол: Лудогорец - Левски, 34 кръг, efbet Лига (2022-23), /п/ @ "2023-06-12T21:30:00.0000000+03:00"
+2023-06-11 21:00:51.986 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|12|10| Grabbed program Футбол: Ботев Враца - Хебър, 34 кръг, efbet Лига (2022-23), /п/ @ "2023-06-12T23:30:00.0000000+03:00"
+2023-06-11 21:00:51.988 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|0| Scraping url: https://diemaxtra.nova.bg/diemasport/schedule
+2023-06-11 21:00:52.029 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|1| Grabbed program Футбол: Берое - Пирин, 34 кръг, efbet Лига (2022-23), /п/ @ "2023-06-13T08:00:00.0000000+03:00"
+2023-06-11 21:00:52.035 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|2| Grabbed program Футбол: Спартак Варна - Септември, 34 кръг, efbet Лига (2022-23), /п/ @ "2023-06-13T10:00:00.0000000+03:00"
+2023-06-11 21:00:52.037 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|3| Grabbed program Футбол: Левски - Арда, мач за място в Лига на Конференциите, /п/ @ "2023-06-13T12:00:00.0000000+03:00"
+2023-06-11 21:00:52.039 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|4| Grabbed program Футбол: Берое - Спортист Своге, мач за място в efbet Лига, /п/ @ "2023-06-13T14:00:00.0000000+03:00"
+2023-06-11 21:00:52.041 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|5| Grabbed program efbet Лига: Обзор на кръга, 35 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-13T16:00:00.0000000+03:00"
+2023-06-11 21:00:52.042 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|6| Grabbed program "Героите на сезона", 37 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-13T17:00:00.0000000+03:00"
+2023-06-11 21:00:52.043 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|7| Grabbed program Обзор на сезона на Лудогорец, 1 епизод, предаване за български футбол (2022-23) @ "2023-06-13T18:00:00.0000000+03:00"
+2023-06-11 21:00:52.045 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|8| Grabbed program "Головете на сезона", 1 епизод, предаване за български футбол (2022-23) @ "2023-06-13T19:00:00.0000000+03:00"
+2023-06-11 21:00:52.046 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|9| Grabbed program "Обзор на сезона", предаване за български футбол (2022-23) @ "2023-06-13T20:00:00.0000000+03:00"
+2023-06-11 21:00:52.048 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|10| Grabbed program "Дневник НБА", 229 епизод, предаване за НБА (2022-23) @ "2023-06-13T22:00:00.0000000+03:00"
+2023-06-11 21:00:52.049 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|13|11| Grabbed program ONE, Бойна галавечер в Банкок, Тайланд, /п/ @ "2023-06-13T22:30:00.0000000+03:00"
+2023-06-11 21:00:52.051 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|0| Scraping url: https://diemaxtra.nova.bg/diemasport/schedule
+2023-06-11 21:00:52.091 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|1| Grabbed program Футбол: Хебър - Берое, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-14T08:00:00.0000000+03:00"
+2023-06-11 21:00:52.093 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|2| Grabbed program Футбол: Пирин - Спартак Варна, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-14T10:00:00.0000000+03:00"
+2023-06-11 21:00:52.095 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|3| Grabbed program Футбол: Септември - Ботев Враца, 35 кръг, efbet Лига (2022-23), /п/ @ "2023-06-14T12:00:00.0000000+03:00"
+2023-06-11 21:00:52.097 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|4| Grabbed program Обзор на сезона на Лудогорец, 1 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-14T14:00:00.0000000+03:00"
+2023-06-11 21:00:52.098 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|5| Grabbed program "Обзор на сезона", предаване за български футбол (2022-23), /п/ @ "2023-06-14T15:00:00.0000000+03:00"
+2023-06-11 21:00:52.100 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|6| Grabbed program "Головете на сезона", 1 епизод, предаване за български футбол (2022-23), /п/ @ "2023-06-14T17:00:00.0000000+03:00"
+2023-06-11 21:00:52.101 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|7| Grabbed program Обзор на сезона на ЦСКА, 2 епизод, предаване за български футбол (2022-23) @ "2023-06-14T18:00:00.0000000+03:00"
+2023-06-11 21:00:52.104 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|8| Grabbed program "Головете на сезона", 2 епизод, предаване за български футбол (2022-23) @ "2023-06-14T19:00:00.0000000+03:00"
+2023-06-11 21:00:52.106 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|9| Grabbed program "Домът на футбола", 50 епизод, предаване за български футбол (2022-23), директно @ "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:00:52.107 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|10| Grabbed program "Дневник НБА", 229 епизод, предаване за НБА (2022-23), /п/ @ "2023-06-14T21:00:00.0000000+03:00"
+2023-06-11 21:00:52.108 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|11| Grabbed program Футбол: Левски - Арда, мач за място в Лига на Конференциите, /п/ @ "2023-06-14T21:30:00.0000000+03:00"
+2023-06-11 21:00:52.110 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|12| Grabbed program Футбол: Берое - Спортист Своге, мач за място в efbet Лига, /п/ @ "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:52.112 00013 [INF] DIEMAXTRA.BG |Диема Спорт |1|14|0| All programs grabbed for channel diemasport.bg
+2023-06-11 21:00:52.113 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|0| Scraping url: https://diemaxtra.nova.bg/diemasport2/schedule
+2023-06-11 21:00:52.644 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|1| Grabbed program Футбол: Евертън - Борнемут, 38 кръг, Висша лига (2022-23), /п/ @ "2023-06-11T08:00:00.0000000+03:00"
+2023-06-11 21:00:52.647 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|2| Grabbed program Баскетбол: Ховентут - Реал Мадрид, Лига Ендеса (2022-23), полуфинал, мач №3, /п/ @ "2023-06-11T10:00:00.0000000+03:00"
+2023-06-11 21:00:52.649 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|3| Grabbed program Max Fight Championship 54, Бокс, ММА, К1, бойно събитие в Пловдив, /п/ @ "2023-06-11T12:00:00.0000000+03:00"
+2023-06-11 21:00:52.650 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|4| Grabbed program Футбол: Челси - Фулъм, класика от Висшата лига (2005-06), /п/ @ "2023-06-11T16:00:00.0000000+03:00"
+2023-06-11 21:00:52.652 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|5| Grabbed program "Да скъсаш мрежата", 39 епизод, предаване за английски футбол (2022-23), /п/ @ "2023-06-11T16:30:00.0000000+03:00"
+2023-06-11 21:00:52.653 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|6| Grabbed program Футбол: Олимпиакос - ПАОК, Суперлига на Гърция за младежи (2022-23), финал, директно @ "2023-06-11T17:00:00.0000000+03:00"
+2023-06-11 21:00:52.655 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|7| Grabbed program "Головете на сезона", предаване за английски футбол (2022-23), /п/ @ "2023-06-11T19:00:00.0000000+03:00"
+2023-06-11 21:00:52.656 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|8| Grabbed program "Истории от Висшата лига", 46 епизод, предаване за английски футбол (2022-23), /п/ @ "2023-06-11T20:00:00.0000000+03:00"
+2023-06-11 21:00:52.658 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|9| Grabbed program "НБА Екшън", 35 епизод, предаване за американски баскетбол (2022-23), /п/ @ "2023-06-11T20:30:00.0000000+03:00"
+2023-06-11 21:00:52.660 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|10| Grabbed program 8TKO, 4 кръг, Бойно събитие в Алкмаар, Нидерландия, директно @ "2023-06-11T21:45:00.0000000+03:00"
+2023-06-11 21:00:52.668 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|11|11| Grabbed program Бокс: Топ Ранк, Боксово събитие в Ню Йорк, САЩ, /п/ @ "2023-06-11T23:45:00.0000000+03:00"
+2023-06-11 21:00:52.672 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|0| Scraping url: https://diemaxtra.nova.bg/diemasport2/schedule
+2023-06-11 21:00:52.733 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|1| Grabbed program Футбол: Олимпиакос - ПАОК, Суперлига на Гърция за юноши (2022-23), финал, /п/ @ "2023-06-12T08:00:00.0000000+03:00"
+2023-06-11 21:00:52.736 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|2| Grabbed program Футбол: Ливърпул - Астън Вила, 37 кръг, Висша лига (2022-23), /п/ @ "2023-06-12T10:00:00.0000000+03:00"
+2023-06-11 21:00:52.738 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|3| Grabbed program Футбол: Манчестър Сити - Челси, 37 кръг, Висша лига (2022-23), /п/ @ "2023-06-12T12:00:00.0000000+03:00"
+2023-06-11 21:00:52.740 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|4| Grabbed program Футбол: Нюкасъл Юнайтед - Лестър Сити, 36 кръг, Висша лига (2022-23), /п/ @ "2023-06-12T14:00:00.0000000+03:00"
+2023-06-11 21:00:52.742 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|5| Grabbed program Баскетбол: Ховентут - Реал Мадрид, Лига Ендеса (2022-23), полуфинал, мач №3, /п/ @ "2023-06-12T16:00:00.0000000+03:00"
+2023-06-11 21:00:52.743 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|6| Grabbed program Футбол: Арсенал - Брайтън & Хоув Албиън, 36 кръг, Висша лига (2022-23), /п/ @ "2023-06-12T18:00:00.0000000+03:00"
+2023-06-11 21:00:52.745 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|7| Grabbed program Висша лига: Обзор на сезона, предаване за английски футбол (2022-23), /п/ @ "2023-06-12T20:00:00.0000000+03:00"
+2023-06-11 21:00:52.746 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|8| Grabbed program Лига 1: Обзор на сезона, предаване за френски футбол (2022-23) @ "2023-06-12T21:00:00.0000000+03:00"
+2023-06-11 21:00:52.748 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|9| Grabbed program Баскетбол: Ховентут - Реал Мадрид, Лига Ендеса (2022-23), полуфинал, мач №4, директно @ "2023-06-12T22:00:00.0000000+03:00"
+2023-06-11 21:00:52.749 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|10| Grabbed program 8TKO, 3 кръг, Бойно събитие в Алкмаар, Нидерландия, /п/ @ "2023-06-12T23:45:00.0000000+03:00"
+2023-06-11 21:00:52.750 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|12|11| Grabbed program 8TKO, 4 кръг, Бойно събитие в Алкмаар, Нидерландия, /п/ @ "2023-06-13T01:45:00.0000000+03:00"
+2023-06-11 21:00:52.752 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|0| Scraping url: https://diemaxtra.nova.bg/diemasport2/schedule
+2023-06-11 21:00:52.796 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|1| Grabbed program Футбол: Арис - Олимпиакос, Суперлига на Гърция за юноши (2022-23), полуфинал, /п/ @ "2023-06-13T08:00:00.0000000+03:00"
+2023-06-11 21:00:52.799 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|2| Grabbed program Футбол: АЕК - ПАОК, Суперлига на Гърция за юноши (2022-23), полуфинал, /п/ @ "2023-06-13T10:00:00.0000000+03:00"
+2023-06-11 21:00:52.801 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|3| Grabbed program Футбол: Нюкасъл Юнайтед - Арсенал, 35 кръг, Висша лига (2022-23), /п/ @ "2023-06-13T12:00:00.0000000+03:00"
+2023-06-11 21:00:52.802 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|4| Grabbed program Баскетбол: Ховентут - Реал Мадрид, Лига Ендеса (2022-23), полуфинал, мач №4, /п/ @ "2023-06-13T14:00:00.0000000+03:00"
+2023-06-11 21:00:52.804 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|5| Grabbed program Лига 1: Обзор на сезона, предаване за френски футбол (2022-23), /п/ @ "2023-06-13T16:00:00.0000000+03:00"
+2023-06-11 21:00:52.805 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|6| Grabbed program Футбол: Нотингам Форест - Саутхямптън, 35 кръг, Висша лига (2022-23), /п/ @ "2023-06-13T17:00:00.0000000+03:00"
+2023-06-11 21:00:52.807 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|7| Grabbed program Футбол: Фулъм - Лестър Сити, 35 кръг, Висша лига (2022-23), /п/ @ "2023-06-13T19:00:00.0000000+03:00"
+2023-06-11 21:00:52.808 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|8| Grabbed program Бокс без ръкавици, Бойно събитие №44, Грейт Фолс, САЩ, /п/ @ "2023-06-13T21:00:00.0000000+03:00"
+2023-06-11 21:00:52.810 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|13|9| Grabbed program Футбол: Олимпиакос - ПАОК, Суперлига на Гърция за юноши (2022-23), финал, /п/ @ "2023-06-14T01:00:00.0000000+03:00"
+2023-06-11 21:00:52.812 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|0| Scraping url: https://diemaxtra.nova.bg/diemasport2/schedule
+2023-06-11 21:00:52.852 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|1| Grabbed program Баскетбол: Ховентут - Реал Мадрид, Лига Ендеса (2022-23), полуфинал, мач №4, /п/ @ "2023-06-14T08:00:00.0000000+03:00"
+2023-06-11 21:00:52.855 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|2| Grabbed program Футбол: Ливърпул - Тотнъм Хотспър, 34 кръг, Висша лига (2022-23), /п/ @ "2023-06-14T10:00:00.0000000+03:00"
+2023-06-11 21:00:52.856 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|3| Grabbed program Футбол: Арис - Олимпиакос, Суперлига на Гърция за юноши (2022-23), полуфинал, /п/ @ "2023-06-14T12:00:00.0000000+03:00"
+2023-06-11 21:00:52.858 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|4| Grabbed program Футбол: АЕК - ПАОК, Суперлига на Гърция за юноши (2022-23), полуфинал, /п/ @ "2023-06-14T14:00:00.0000000+03:00"
+2023-06-11 21:00:52.860 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|5| Grabbed program ФА Къп: Обзор на кръга, 8 епизод, предаване за английски футбол (2022-23), /п/ @ "2023-06-14T16:00:00.0000000+03:00"
+2023-06-11 21:00:52.861 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|6| Grabbed program "Головете на сезона", предаване за английски футбол (2022-23), /п/ @ "2023-06-14T16:30:00.0000000+03:00"
+2023-06-11 21:00:52.863 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|7| Grabbed program Футбол: Олимпиакос - ПАОК, Суперлига на Гърция за юноши (2022-23), финал, /п/ @ "2023-06-14T17:30:00.0000000+03:00"
+2023-06-11 21:00:52.864 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|8| Grabbed program "Истории от Висшата лига", 47 епизод, предаване за английски футбол (2022-23) @ "2023-06-14T19:30:00.0000000+03:00"
+2023-06-11 21:00:52.866 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|9| Grabbed program Футбол: Брайтън & Хоув Албиън - Евертън, 35 кръг, Висша лига (2022-23), /п/ @ "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:00:52.867 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|10| Grabbed program Баскетбол: Реал Мадрид - Ховентут, Лига Ендеса (2022-23), полуфинал, мач №5, директно @ "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:52.869 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|11| Grabbed program "Истории от Висшата лига", 47 епизод, предаване за английски футбол (2022-23), /п/ @ "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:00:52.872 00013 [INF] DIEMAXTRA.BG |Диема Спорт 2 |1|14|0| All programs grabbed for channel diemasport2.bg
+2023-06-11 21:00:52.874 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|0| Scraping url: https://diemaxtra.nova.bg/diemasport3/schedule
+2023-06-11 21:00:53.422 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|1| Grabbed program Футбол: Рб Лайпциг - Айнтрахт Франкфурт, Купа на Германия (2022-23), финал, /п/ @ "2023-06-11T07:15:00.0000000+03:00"
+2023-06-11 21:00:53.425 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|2| Grabbed program "Формула 1 Токшоу", 14 епизод, предаване за Формула 1 (2023), /п/ @ "2023-06-11T09:30:00.0000000+03:00"
+2023-06-11 21:00:53.427 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|3| Grabbed program Футбол: Кьолн - Байерн Мюнхен, 34 кръг, Бундеслига (2022-23), /п/ @ "2023-06-11T10:30:00.0000000+03:00"
+2023-06-11 21:00:53.428 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|4| Grabbed program "Бундеслига Токшоу", 35 епизод, предаване за германски футбол (2022-23), /п/ @ "2023-06-11T12:30:00.0000000+03:00"
+2023-06-11 21:00:53.430 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|5| Grabbed program ONE, Бойна галавечер в Банкок, Тайланд, /п/ @ "2023-06-11T13:30:00.0000000+03:00"
+2023-06-11 21:00:53.431 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|6| Grabbed program Формула 1: Екстра, 8 епизод, предаване за Формула 1 (2023), /п/ @ "2023-06-11T18:00:00.0000000+03:00"
+2023-06-11 21:00:53.433 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|7| Grabbed program Баскетбол: Маями Хийт - Денвър Нъгетс, НБА (2022-23), плейофи, мач №4 от финалната серия, /п/ @ "2023-06-11T19:00:00.0000000+03:00"
+2023-06-11 21:00:53.434 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|8| Grabbed program Футбол: Бари - Каляри, Серия Б на Италия (2022-23), плейофи, финал, реванш, директно @ "2023-06-11T21:30:00.0000000+03:00"
+2023-06-11 21:00:53.436 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|9| Grabbed program Футбол: Волфсбург - Херта Берлин, 34 кръг, Бундеслига (2022-23), /п/ @ "2023-06-11T23:25:00.0000000+03:00"
+2023-06-11 21:00:53.437 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|11|10| Grabbed program Футбол: Бохум - Байер Леверкузен, 34 кръг, Бундеслига (2022-23), /п/ @ "2023-06-12T01:25:00.0000000+03:00"
+2023-06-11 21:00:53.439 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|0| Scraping url: https://diemaxtra.nova.bg/diemasport3/schedule
+2023-06-11 21:00:53.478 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|1| Grabbed program Футбол: Херта Берлин - Бохум, 33 кръг, Бундеслига (2022-23), /п/ @ "2023-06-12T08:00:00.0000000+03:00"
+2023-06-11 21:00:53.481 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|2| Grabbed program Футбол: Шалке 04 - Айнтрахт Франкфурт, 33 кръг, Бундеслига (2022-23), /п/ @ "2023-06-12T10:00:00.0000000+03:00"
+2023-06-11 21:00:53.482 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|3| Grabbed program Футбол: Хамбургер - Щутгарт, Бундеслига (2022-23), плейаут, реванш, /п/ @ "2023-06-12T12:00:00.0000000+03:00"
+2023-06-11 21:00:53.484 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|4| Grabbed program Футбол: Хофенхайм - Унион Берлин, 33 кръг, Бундеслига (2022-23), /п/ @ "2023-06-12T14:00:00.0000000+03:00"
+2023-06-11 21:00:53.485 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|5| Grabbed program Футбол: Байерн Мюнхен - Рб Лайпциг, 33 кръг, Бундеслига (2022-23), /п/ @ "2023-06-12T16:00:00.0000000+03:00"
+2023-06-11 21:00:53.487 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|6| Grabbed program "Преди кръга в УЕФА Лига на нациите", 4 епизод, предаване за Европейски футбол (2022-23), /п/ @ "2023-06-12T18:00:00.0000000+03:00"
+2023-06-11 21:00:53.488 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|7| Grabbed program Студио "Футбол", директно @ "2023-06-12T18:30:00.0000000+03:00"
+2023-06-11 21:00:53.490 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|8| Grabbed program Футбол: Германия - Украйна, международен приятелски мач, директно @ "2023-06-12T19:00:00.0000000+03:00"
+2023-06-11 21:00:53.492 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|9| Grabbed program Студио "Футбол", директно @ "2023-06-12T20:55:00.0000000+03:00"
+2023-06-11 21:00:53.494 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|10| Grabbed program Европейски квалификации: Преди кръга, 2 епизод, предаване за международен футбол (2023-24) @ "2023-06-12T21:30:00.0000000+03:00"
+2023-06-11 21:00:53.495 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|11| Grabbed program Баскетбол: Маями Хийт - Денвър Нъгетс, НБА (2022-23), плейофи, мач №4 от финалната серия, /п/ @ "2023-06-12T22:00:00.0000000+03:00"
+2023-06-11 21:00:53.500 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|12| Grabbed program Футбол: Аугсбург - Борусия Дортмунд, 33 кръг, Бундеслига (2022-23), /п/ @ "2023-06-13T00:30:00.0000000+03:00"
+2023-06-11 21:00:53.503 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|13| Grabbed program "Формула 1 Токшоу", 14 епизод, предаване за Формула 1 (2023), /п/ @ "2023-06-13T02:30:00.0000000+03:00"
+2023-06-11 21:00:53.504 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|12|14| Grabbed program Баскетбол: Денвър Нъгетс - Маями Хийт, НБА (2022-23), плейофи, мач №5 от финалната серия, директно @ "2023-06-13T03:30:00.0000000+03:00"
+2023-06-11 21:00:53.507 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|0| Scraping url: https://diemaxtra.nova.bg/diemasport3/schedule
+2023-06-11 21:00:53.550 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|1| Grabbed program Футбол: Унион Берлин - Фрайбург, 32 кръг, Бундеслига (2022-23), /п/ @ "2023-06-13T07:30:00.0000000+03:00"
+2023-06-11 21:00:53.553 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|2| Grabbed program Баскетбол: Денвър Нъгетс - Маями Хийт, НБА (2022-23), плейофи, мач №5 от финалната серия, /п/ @ "2023-06-13T09:30:00.0000000+03:00"
+2023-06-11 21:00:53.554 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|3| Grabbed program Футбол: Германия - Украйна, международен приятелски мач, /п/ @ "2023-06-13T12:00:00.0000000+03:00"
+2023-06-11 21:00:53.556 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|4| Grabbed program 8TKO, 3 кръг, Бойно събитие в Алкмаар, Нидерландия, /п/ @ "2023-06-13T14:00:00.0000000+03:00"
+2023-06-11 21:00:53.557 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|5| Grabbed program 8TKO, 4 кръг, Бойно събитие в Алкмаар, Нидерландия, /п/ @ "2023-06-13T16:00:00.0000000+03:00"
+2023-06-11 21:00:53.559 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|6| Grabbed program Футбол: Кьолн - Херта Берлин, 32 кръг, Бундеслига (2022-23), /п/ @ "2023-06-13T18:00:00.0000000+03:00"
+2023-06-11 21:00:53.560 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|7| Grabbed program Футбол: Борусия Дортмунд - Борусия Мьонхенгладбах, 32 кръг, Бундеслига (2022-23), /п/ @ "2023-06-13T20:00:00.0000000+03:00"
+2023-06-11 21:00:53.562 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|8| Grabbed program Футбол: Байерн Мюнхен - Шалке 04, 32 кръг, Бундеслига (2022-23), /п/ @ "2023-06-13T22:00:00.0000000+03:00"
+2023-06-11 21:00:53.563 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|9| Grabbed program Футбол: Рб Лайпциг - Вердер Бремен, 32 кръг, Бундеслига (2022-23), /п/ @ "2023-06-14T00:00:00.0000000+03:00"
+2023-06-11 21:00:53.565 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|13|10| Grabbed program Футбол: Бохум - Аугсбург, 32 кръг, Бундеслига (2022-23), /п/ @ "2023-06-14T02:00:00.0000000+03:00"
+2023-06-11 21:00:53.566 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|0| Scraping url: https://diemaxtra.nova.bg/diemasport3/schedule
+2023-06-11 21:00:53.604 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|1| Grabbed program Футбол: Майнц - Шалке 04, 31 кръг, Бундеслига (2022-23), /п/ @ "2023-06-14T08:00:00.0000000+03:00"
+2023-06-11 21:00:53.606 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|2| Grabbed program Футбол: Хофенхайм - Айнтрахт Франкфурт, 31 кръг, Бундеслига (2022-23), /п/ @ "2023-06-14T10:00:00.0000000+03:00"
+2023-06-11 21:00:53.608 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|3| Grabbed program Футбол: Борусия Дортмунд - Волфсбург, 31 кръг, Бундеслига (2022-23), /п/ @ "2023-06-14T12:00:00.0000000+03:00"
+2023-06-11 21:00:53.609 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|4| Grabbed program Бундеслига: Обзор на сезона, предаване за германски футбол (2022-23), /п/ @ "2023-06-14T14:00:00.0000000+03:00"
+2023-06-11 21:00:53.611 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|5| Grabbed program Европейски квалификации: Преди кръга, 2 епизод, предаване за международен футбол (2023-24), /п/ @ "2023-06-14T15:00:00.0000000+03:00"
+2023-06-11 21:00:53.612 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|6| Grabbed program Футбол: Германия - Украйна, международен приятелски мач, /п/ @ "2023-06-14T15:30:00.0000000+03:00"
+2023-06-11 21:00:53.614 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|7| Grabbed program Баскетбол: Денвър Нъгетс - Маями Хийт, НБА (2022-23), плейофи, мач №5 от финалната серия, /п/ @ "2023-06-14T17:30:00.0000000+03:00"
+2023-06-11 21:00:53.615 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|8| Grabbed program "Преди кръга в УЕФА Лига на нациите", 4 епизод, предаване за Европейски футбол (2022-23), /п/ @ "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:00:53.617 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|9| Grabbed program "Поверително от Формула 1", 10 епизод, предаване за Формула 1 (2023) @ "2023-06-14T20:30:00.0000000+03:00"
+2023-06-11 21:00:53.618 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|10| Grabbed program Студио "Лига на нациите", директно @ "2023-06-14T21:00:00.0000000+03:00"
+2023-06-11 21:00:53.620 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|11| Grabbed program Футбол: Нидерландия - Хърватия, УЕФА Лига на нациите (2022-23), полуфинал, директно @ "2023-06-14T21:45:00.0000000+03:00"
+2023-06-11 21:00:53.621 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|12| Grabbed program Студио "Лига на нациите", директно @ "2023-06-14T23:40:00.0000000+03:00"
+2023-06-11 21:00:53.623 00013 [INF] DIEMAXTRA.BG |Диема Спорт 3 |1|14|0| All programs grabbed for channel diemasport3.bg
+2023-06-11 21:00:53.625 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\sportal.bg.template.yaml
+2023-06-11 21:00:53.627 00013 [INF] SPORTAL.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:00:53.628 00013 [WRN] SPORTAL.BG |Sportal HD |1| No parameters found for channel sportal.bg
+2023-06-11 21:00:53.635 00008 [INF] SPORTAL.BG |Sportal HD |1|11|0| Added valid 167 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T22:45:00.0000000+03:00"
+2023-06-11 21:00:53.655 00008 [INF] SPORTAL.BG |Sportal HD |1|11|0| All programs grabbed for channel sportal.bg
+2023-06-11 21:00:53.658 00008 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\b1b.tv.template.yaml
+2023-06-11 21:00:53.660 00008 [INF] B1B.TV |Starting grabbing programs for 1 channels
+2023-06-11 21:00:53.661 00008 [WRN] B1B.TV |B1B Action HD |1| No parameters found for channel b1b.tv
+2023-06-11 21:00:53.664 00019 [INF] B1B.TV |B1B Action HD |1|11|0| Added valid 64 programs from cache "2023-06-09T00:00:00.0000000+03:00" -> "2023-06-14T23:05:00.0000000+03:00"
+2023-06-11 21:00:53.667 00019 [INF] B1B.TV |B1B Action HD |1|11|0| All programs grabbed for channel b1b.tv
+2023-06-11 21:00:53.670 00019 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\tvarenasport.com.template.yaml
+2023-06-11 21:00:53.680 00019 [INF] ARENASPORT.COM |Starting grabbing programs for 2 channels
+2023-06-11 21:00:53.686 00019 [INF] ARENASPORT.COM |Arena Sport 1 (SRB) |1|11|0| Scraping url: https://www.tvarenasport.com/api/schedule?date=&date=11-06-2023
+2023-06-11 21:00:54.035 00013 [ERR] ARENASPORT.COM |Arena Sport 1 (SRB) |1|11|0| Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+2023-06-11 21:00:54.037 00013 [INF] ARENASPORT.COM |Arena Sport 2 (SRB) |1|11|0| Scraping url: https://www.tvarenasport.com/api/schedule?date=&date=11-06-2023
+2023-06-11 21:00:54.240 00013 [ERR] ARENASPORT.COM |Arena Sport 2 (SRB) |1|11|0| Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+2023-06-11 21:00:54.245 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\mojtv.hr.template.yaml
+2023-06-11 21:00:54.247 00013 [INF] MOJTV.HR |Starting grabbing programs for 2 channels
+2023-06-11 21:00:54.253 00008 [INF] MOJTV.HR |Arena Sport 1 (HR) |1|11|0| Added valid 92 programs from cache "2023-06-08T08:00:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:00:54.261 00008 [INF] MOJTV.HR |Arena Sport 1 (HR) |1|11|0| All programs grabbed for channel arenasport1.hr
+2023-06-11 21:00:54.268 00005 [INF] MOJTV.HR |Arena Sport 2 (HR) |1|11|0| Added valid 82 programs from cache "2023-06-08T08:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:54.275 00005 [INF] MOJTV.HR |Arena Sport 2 (HR) |1|11|0| All programs grabbed for channel arenasport2.hr
+2023-06-11 21:00:54.277 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\ntvplus.ru.template.yaml
+2023-06-11 21:00:54.280 00005 [INF] NTVPLUS.RU |Starting grabbing programs for 24 channels
+2023-06-11 21:00:54.286 00005 [INF] NTVPLUS.RU |Матч! Футбол 1 |1|11|0| Added valid 161 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:05:00.0000000+03:00"
+2023-06-11 21:00:54.305 00005 [INF] NTVPLUS.RU |Матч! Футбол 1 |1|11|0| All programs grabbed for channel matchfutbol1.ru
+2023-06-11 21:00:54.312 00005 [INF] NTVPLUS.RU |Матч! Футбол 2 |1|11|0| Added valid 85 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:00:54.319 00005 [INF] NTVPLUS.RU |Матч! Футбол 2 |1|11|0| All programs grabbed for channel matchfutbol2.ru
+2023-06-11 21:00:54.323 00005 [INF] NTVPLUS.RU |Матч! Футбол 3 |1|11|0| Added valid 153 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:00:54.338 00005 [INF] NTVPLUS.RU |Матч! Футбол 3 |1|11|0| All programs grabbed for channel matchfutbol3.ru
+2023-06-11 21:00:54.342 00019 [INF] NTVPLUS.RU |Матч! Игра |1|11|0| Added valid 117 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:40:00.0000000+03:00"
+2023-06-11 21:00:54.353 00019 [INF] NTVPLUS.RU |Матч! Игра |1|11|0| All programs grabbed for channel matchigra.ru
+2023-06-11 21:00:54.361 00019 [INF] NTVPLUS.RU |Матч! Арена |1|11|0| Added valid 100 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:10:00.0000000+03:00"
+2023-06-11 21:00:54.369 00019 [INF] NTVPLUS.RU |Матч! Арена |1|11|0| All programs grabbed for channel matcharena.ru
+2023-06-11 21:00:54.375 00019 [INF] NTVPLUS.RU |Матч! Пермиер |1|11|0| Added valid 154 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:25:00.0000000+03:00"
+2023-06-11 21:00:54.392 00019 [INF] NTVPLUS.RU |Матч! Пермиер |1|11|0| All programs grabbed for channel matchpremier.ru
+2023-06-11 21:00:54.400 00019 [INF] NTVPLUS.RU |Матч! ТВ |1|11|0| Added valid 163 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:30:00.0000000+03:00"
+2023-06-11 21:00:54.419 00019 [INF] NTVPLUS.RU |Матч! ТВ |1|11|0| All programs grabbed for channel matchtv.ru
+2023-06-11 21:00:54.423 00005 [INF] NTVPLUS.RU |Матч! Боец |1|11|0| Added valid 130 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:40:00.0000000+03:00"
+2023-06-11 21:00:54.434 00005 [INF] NTVPLUS.RU |Матч! Боец |1|11|0| All programs grabbed for channel matchboetz.ru
+2023-06-11 21:00:54.443 00005 [INF] NTVPLUS.RU |Матч! Страна |1|11|0| Added valid 176 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:00:54.464 00005 [INF] NTVPLUS.RU |Матч! Страна |1|11|0| All programs grabbed for channel matchstrana.ru
+2023-06-11 21:00:54.467 00019 [INF] NTVPLUS.RU |Телеканал КХЛ |1|11|0| Added valid 111 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:25:00.0000000+03:00"
+2023-06-11 21:00:54.477 00019 [INF] NTVPLUS.RU |Телеканал КХЛ |1|11|0| All programs grabbed for channel telekanalkhl.ru
+2023-06-11 21:00:54.484 00005 [INF] NTVPLUS.RU |Мир Баскетбола |1|11|0| Added valid 78 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T21:55:00.0000000+03:00"
+2023-06-11 21:00:54.491 00005 [INF] NTVPLUS.RU |Мир Баскетбола |1|11|0| All programs grabbed for channel mirbaseketbola.ru
+2023-06-11 21:00:54.498 00019 [INF] NTVPLUS.RU |Конный мир |1|11|0| Added valid 98 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T21:00:00.0000000+03:00"
+2023-06-11 21:00:54.507 00019 [INF] NTVPLUS.RU |Конный мир |1|11|0| All programs grabbed for channel konnyimir.ru
+2023-06-11 21:00:54.514 00005 [INF] NTVPLUS.RU |Россия 1 |1|11|0| Added valid 118 programs from cache "2023-06-08T09:00:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:00:54.524 00005 [INF] NTVPLUS.RU |Россия 1 |1|11|0| All programs grabbed for channel rossiya1.ru
+2023-06-11 21:00:54.532 00005 [INF] NTVPLUS.RU |Россия К |1|11|0| Added valid 197 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:00:54.558 00005 [INF] NTVPLUS.RU |Россия К |1|11|0| All programs grabbed for channel rossiyak.ru
+2023-06-11 21:00:54.566 00005 [INF] NTVPLUS.RU |Первый канал |1|11|0| Added valid 152 programs from cache "2023-06-08T09:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:54.583 00005 [INF] NTVPLUS.RU |Первый канал |1|11|0| All programs grabbed for channel pervyikanal.ru
+2023-06-11 21:00:54.592 00005 [INF] NTVPLUS.RU |Звезда |1|11|0| Added valid 125 programs from cache "2023-06-08T07:00:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:00:54.604 00005 [INF] NTVPLUS.RU |Звезда |1|11|0| All programs grabbed for channel zvezda.ru
+2023-06-11 21:00:54.611 00019 [INF] NTVPLUS.RU |СТС |1|11|0| Added valid 119 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:40:00.0000000+03:00"
+2023-06-11 21:00:54.622 00019 [INF] NTVPLUS.RU |СТС |1|11|0| All programs grabbed for channel sts.ru
+2023-06-11 21:00:54.630 00005 [INF] NTVPLUS.RU |ТНТ |1|11|0| Added valid 177 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:00:54.651 00005 [INF] NTVPLUS.RU |ТНТ |1|11|0| All programs grabbed for channel tnt.ru
+2023-06-11 21:00:54.661 00005 [INF] NTVPLUS.RU |Живи |1|11|0| Added valid 330 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:00:54.726 00005 [INF] NTVPLUS.RU |Живи |1|11|0| All programs grabbed for channel zhivi.ru
+2023-06-11 21:00:54.734 00005 [INF] NTVPLUS.RU |НТВ Мир |1|11|0| Added valid 135 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:00:54.748 00005 [INF] NTVPLUS.RU |НТВ Мир |1|11|0| All programs grabbed for channel ntv.ru
+2023-06-11 21:00:54.756 00019 [INF] NTVPLUS.RU |Любимое кино |1|11|0| Added valid 82 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T22:40:00.0000000+03:00"
+2023-06-11 21:00:54.762 00019 [INF] NTVPLUS.RU |Любимое кино |1|11|0| All programs grabbed for channel lyubimoekino.ru
+2023-06-11 21:00:54.770 00019 [INF] NTVPLUS.RU |Дом кино |1|11|0| Added valid 71 programs from cache "2023-06-08T06:25:00.0000000+03:00" -> "2023-06-14T22:10:00.0000000+03:00"
+2023-06-11 21:00:54.777 00019 [INF] NTVPLUS.RU |Дом кино |1|11|0| All programs grabbed for channel domkino.ru
+2023-06-11 21:00:54.784 00019 [INF] NTVPLUS.RU |TV 1000 Руское кино |1|11|0| Added valid 99 programs from cache "2023-06-08T06:20:00.0000000+03:00" -> "2023-06-14T22:45:00.0000000+03:00"
+2023-06-11 21:00:54.793 00019 [INF] NTVPLUS.RU |TV 1000 Руское кино |1|11|0| All programs grabbed for channel ruskoekino.tv1000.ru
+2023-06-11 21:00:54.800 00019 [INF] NTVPLUS.RU |Телекафе |1|11|0| Added valid 51 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T14:00:00.0000000+03:00"
+2023-06-11 21:00:54.808 00019 [INF] NTVPLUS.RU |Телекафе |1|14|0| Scraping url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=14.06.2023&tz=0&search=&channel=164&offset=0
+2023-06-11 21:00:55.204 00013 [INF] NTVPLUS.RU |Телекафе |1|14|2| Scraping url: https://ntvplus.ru/tv/ajax/review?id=3880889
+2023-06-11 21:00:55.323 00013 [INF] NTVPLUS.RU |Телекафе |1|14|2| Grabbed program Подкидыш (16+) @ "2023-06-14T14:00:00.0000000+03:00"
+2023-06-11 21:00:55.329 00013 [INF] NTVPLUS.RU |Телекафе |1|14|0| All programs grabbed for channel telekafe.ru
+2023-06-11 21:00:55.330 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\programtv.onet.pl.template.yaml
+2023-06-11 21:00:55.340 00013 [INF] PROGRAMTV.ONET.PL |Starting grabbing programs for 16 channels
+2023-06-11 21:00:55.344 00008 [INF] PROGRAMTV.ONET.PL |Gametoon |1|11|0| Added valid 310 programs from cache "2023-06-08T04:10:00.0000000+03:00" -> "2023-06-14T23:20:00.0000000+03:00"
+2023-06-11 21:00:55.404 00008 [INF] PROGRAMTV.ONET.PL |Gametoon |1|11|0| All programs grabbed for channel gametoon.tv
+2023-06-11 21:00:55.408 00008 [INF] PROGRAMTV.ONET.PL |Mezzo |1|11|0| Added valid 124 programs from cache "2023-06-08T04:00:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:00:55.417 00008 [INF] PROGRAMTV.ONET.PL |Mezzo |1|11|0| All programs grabbed for channel mezzo.tv
+2023-06-11 21:00:55.424 00019 [INF] PROGRAMTV.ONET.PL |Mezzo Live |1|11|0| Added valid 116 programs from cache "2023-06-08T04:15:00.0000000+03:00" -> "2023-06-14T23:22:00.0000000+03:00"
+2023-06-11 21:00:55.435 00019 [INF] PROGRAMTV.ONET.PL |Mezzo Live |1|11|0| All programs grabbed for channel mezzolive.tv
+2023-06-11 21:00:55.440 00019 [INF] PROGRAMTV.ONET.PL |DMAX DE |1|11|0| Added valid 201 programs from cache "2023-06-08T04:50:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:00:55.464 00019 [INF] PROGRAMTV.ONET.PL |DMAX DE |1|11|0| All programs grabbed for channel dmax.de
+2023-06-11 21:00:55.468 00008 [INF] PROGRAMTV.ONET.PL |Deutsche Welle |1|11|0| Added valid 404 programs from cache "2023-06-08T04:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:55.560 00008 [INF] PROGRAMTV.ONET.PL |Deutsche Welle |1|11|0| All programs grabbed for channel deutschewelle.de
+2023-06-11 21:00:55.567 00019 [INF] PROGRAMTV.ONET.PL |Sky News |1|11|0| Added valid 311 programs from cache "2023-06-08T04:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:55.622 00019 [INF] PROGRAMTV.ONET.PL |Sky News |1|11|0| All programs grabbed for channel skynews.uk
+2023-06-11 21:00:55.627 00005 [INF] PROGRAMTV.ONET.PL |Fashion TV |1|11|0| Added valid 308 programs from cache "2023-06-08T04:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:00:55.680 00005 [INF] PROGRAMTV.ONET.PL |Fashion TV |1|11|0| All programs grabbed for channel fashion.tv
+2023-06-11 21:00:55.688 00005 [INF] PROGRAMTV.ONET.PL |Erox |1|11|0| Added valid 199 programs from cache "2023-06-08T04:00:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:00:55.712 00005 [INF] PROGRAMTV.ONET.PL |Erox |1|11|0| All programs grabbed for channel erox.spiintl.com
+2023-06-11 21:00:55.716 00005 [INF] PROGRAMTV.ONET.PL |Eroxxx |1|11|0| Added valid 134 programs from cache "2023-06-08T04:00:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:00:55.729 00005 [INF] PROGRAMTV.ONET.PL |Eroxxx |1|11|0| All programs grabbed for channel eroxxx.spiintl.com
+2023-06-11 21:00:55.733 00005 [INF] PROGRAMTV.ONET.PL |Dorcel TV |1|11|0| Added valid 128 programs from cache "2023-06-08T05:24:00.0000000+03:00" -> "2023-06-14T23:25:00.0000000+03:00"
+2023-06-11 21:00:55.744 00005 [INF] PROGRAMTV.ONET.PL |Dorcel TV |1|11|0| All programs grabbed for channel dorceltv.com
+2023-06-11 21:00:55.748 00008 [INF] PROGRAMTV.ONET.PL |Dorcel XXX |1|11|0| Added valid 123 programs from cache "2023-06-08T05:45:00.0000000+03:00" -> "2023-06-14T23:52:00.0000000+03:00"
+2023-06-11 21:00:55.759 00008 [INF] PROGRAMTV.ONET.PL |Dorcel XXX |1|11|0| All programs grabbed for channel dorcelxxx.com
+2023-06-11 21:00:55.762 00005 [INF] PROGRAMTV.ONET.PL |Hustler HD |1|11|0| Added valid 103 programs from cache "2023-06-08T04:30:00.0000000+03:00" -> "2023-06-14T22:30:00.0000000+03:00"
+2023-06-11 21:00:55.770 00005 [INF] PROGRAMTV.ONET.PL |Hustler HD |1|11|0| All programs grabbed for channel hustlerhd.com
+2023-06-11 21:00:55.773 00008 [INF] PROGRAMTV.ONET.PL |Hustler TV |1|11|0| Added valid 110 programs from cache "2023-06-08T04:30:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:00:55.782 00008 [INF] PROGRAMTV.ONET.PL |Hustler TV |1|11|0| All programs grabbed for channel hustlertv.com
+2023-06-11 21:00:55.786 00005 [INF] PROGRAMTV.ONET.PL |Redlight |1|11|0| Added valid 147 programs from cache "2023-06-08T04:00:00.0000000+03:00" -> "2023-06-14T23:46:00.0000000+03:00"
+2023-06-11 21:00:55.799 00005 [INF] PROGRAMTV.ONET.PL |Redlight |1|11|0| All programs grabbed for channel redlighttv.com
+2023-06-11 21:00:55.807 00008 [INF] PROGRAMTV.ONET.PL |Private TV |1|11|0| Added valid 85 programs from cache "2023-06-08T04:15:00.0000000+03:00" -> "2023-06-14T22:35:00.0000000+03:00"
+2023-06-11 21:00:55.814 00008 [INF] PROGRAMTV.ONET.PL |Private TV |1|11|0| All programs grabbed for channel private.tv
+2023-06-11 21:00:55.818 00005 [INF] PROGRAMTV.ONET.PL |Brazzers Europe |1|11|0| Added valid 411 programs from cache "2023-06-08T04:08:00.0000000+03:00" -> "2023-06-14T23:49:00.0000000+03:00"
+2023-06-11 21:00:55.912 00005 [INF] PROGRAMTV.ONET.PL |Brazzers Europe |1|11|0| All programs grabbed for channel brazzers.eu
+2023-06-11 21:00:55.915 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\turksatkablo.com.tr.template.yaml
+2023-06-11 21:00:55.926 00005 [INF] TURKSATKABLO.COM.TR |Starting grabbing programs for 14 channels
+2023-06-11 21:00:55.930 00019 [INF] TURKSATKABLO.COM.TR |A Spor |1|11|0| Added valid 97 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T22:30:00.0000000+03:00"
+2023-06-11 21:00:55.937 00019 [INF] TURKSATKABLO.COM.TR |A Spor |1|11|0| All programs grabbed for channel aspor.tr
+2023-06-11 21:00:55.944 00005 [INF] TURKSATKABLO.COM.TR |CNN Turk |1|11|0| Added valid 122 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T20:45:00.0000000+03:00"
+2023-06-11 21:00:55.955 00005 [INF] TURKSATKABLO.COM.TR |CNN Turk |1|14|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686690000
+2023-06-11 21:00:57.801 00016 [INF] TURKSATKABLO.COM.TR |CNN Turk |1|14|21| Grabbed program Ne Oluyor? @ "2023-06-14T20:45:00.0000000+03:00"
+2023-06-11 21:00:57.804 00016 [INF] TURKSATKABLO.COM.TR |CNN Turk |1|14|0| All programs grabbed for channel cnnturk.tr
+2023-06-11 21:00:57.806 00008 [INF] TURKSATKABLO.COM.TR |Haber Turk |1|11|0| Added valid 95 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:00:57.813 00008 [INF] TURKSATKABLO.COM.TR |Haber Turk |1|14|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686690000
+2023-06-11 21:00:58.775 00016 [INF] TURKSATKABLO.COM.TR |Haber Turk |1|14|15| Grabbed program Açık ve Net @ "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:00:58.778 00016 [INF] TURKSATKABLO.COM.TR |Haber Turk |1|14|0| All programs grabbed for channel haberturk.tr
+2023-06-11 21:00:58.784 00008 [INF] TURKSATKABLO.COM.TR |Kanal 7 |1|11|0| Added valid 100 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:00:58.792 00008 [INF] TURKSATKABLO.COM.TR |Kanal 7 |1|11|0| All programs grabbed for channel kanal7.tr
+2023-06-11 21:00:58.795 00008 [INF] TURKSATKABLO.COM.TR |Teve 2 |1|11|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686430800
+2023-06-11 21:00:59.558 00016 [INF] TURKSATKABLO.COM.TR |Teve 2 |1|12|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686517200
+2023-06-11 21:01:00.257 00016 [INF] TURKSATKABLO.COM.TR |Teve 2 |1|13|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686603600
+2023-06-11 21:01:00.876 00016 [INF] TURKSATKABLO.COM.TR |Teve 2 |1|14|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686690000
+2023-06-11 21:01:01.440 00019 [INF] TURKSATKABLO.COM.TR |A Haber |1|11|0| Added valid 189 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T21:00:00.0000000+03:00"
+2023-06-11 21:01:01.464 00019 [INF] TURKSATKABLO.COM.TR |A Haber |1|11|0| All programs grabbed for channel ahaber.tr
+2023-06-11 21:01:01.469 00019 [INF] TURKSATKABLO.COM.TR |ATV |1|11|0| Added valid 88 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:01:01.474 00019 [INF] TURKSATKABLO.COM.TR |ATV |1|11|0| All programs grabbed for channel atv.tr
+2023-06-11 21:01:01.479 00019 [INF] TURKSATKABLO.COM.TR |NTV |1|11|0| Added valid 573 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:01:01.670 00019 [INF] TURKSATKABLO.COM.TR |NTV |1|11|0| All programs grabbed for channel ntv.tr
+2023-06-11 21:01:01.677 00019 [INF] TURKSATKABLO.COM.TR |Star TV |1|11|0| Added valid 86 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:01.684 00019 [INF] TURKSATKABLO.COM.TR |Star TV |1|11|0| All programs grabbed for channel startv.tr
+2023-06-11 21:01:01.691 00019 [INF] TURKSATKABLO.COM.TR |TV 8 |1|11|0| Added valid 78 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:01:01.699 00019 [INF] TURKSATKABLO.COM.TR |TV 8 |1|14|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686690000
+2023-06-11 21:01:02.195 00016 [INF] TURKSATKABLO.COM.TR |TV 8 |1|14|11| Grabbed program Survivor 2023 @ "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:01:02.198 00016 [INF] TURKSATKABLO.COM.TR |TV 8 |1|14|0| All programs grabbed for channel tv8.tr
+2023-06-11 21:01:02.199 00016 [INF] TURKSATKABLO.COM.TR |Fox TR |1|11|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686430800
+2023-06-11 21:01:02.817 00016 [INF] TURKSATKABLO.COM.TR |Fox TR |1|12|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686517200
+2023-06-11 21:01:03.371 00016 [INF] TURKSATKABLO.COM.TR |Fox TR |1|13|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686603600
+2023-06-11 21:01:03.936 00013 [INF] TURKSATKABLO.COM.TR |Fox TR |1|14|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686690000
+2023-06-11 21:01:04.455 00008 [INF] TURKSATKABLO.COM.TR |Kanal D |1|11|0| Added valid 91 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T22:30:00.0000000+03:00"
+2023-06-11 21:01:04.463 00008 [INF] TURKSATKABLO.COM.TR |Kanal D |1|11|0| All programs grabbed for channel kanald.tr
+2023-06-11 21:01:04.466 00008 [INF] TURKSATKABLO.COM.TR |Show TV |1|11|0| Added valid 74 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:01:04.472 00008 [INF] TURKSATKABLO.COM.TR |Show TV |1|14|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686690000
+2023-06-11 21:01:05.091 00013 [INF] TURKSATKABLO.COM.TR |Show TV |1|14|10| Grabbed program Güzel Günler @ "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:01:05.094 00013 [INF] TURKSATKABLO.COM.TR |Show TV |1|14|0| All programs grabbed for channel showtv.tr
+2023-06-11 21:01:05.096 00019 [INF] TURKSATKABLO.COM.TR |Beyaz TV |1|11|0| Added valid 105 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:05.104 00019 [INF] TURKSATKABLO.COM.TR |Beyaz TV |1|11|0| All programs grabbed for channel beyaztv.tr
+2023-06-11 21:01:05.107 00019 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\trt.net.tr.template.yaml
+2023-06-11 21:01:05.116 00019 [INF] TRT.NET.TR |Starting grabbing programs for 5 channels
+2023-06-11 21:01:05.120 00008 [INF] TRT.NET.TR |TRT Spor |1|11|0| Added valid 177 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:01:05.154 00008 [INF] TRT.NET.TR |TRT Spor |1|11|0| All programs grabbed for channel trtspor.tr
+2023-06-11 21:01:05.159 00019 [INF] TRT.NET.TR |TRT Cocuk |1|11|0| Added valid 469 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:01:05.278 00019 [INF] TRT.NET.TR |TRT Cocuk |1|11|0| All programs grabbed for channel trtcocuk.tr
+2023-06-11 21:01:05.285 00008 [INF] TRT.NET.TR |TRT 1 |1|11|0| Added valid 84 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:01:05.293 00008 [INF] TRT.NET.TR |TRT 1 |1|14|0| Scraping url: http://www.trt.net.tr/televizyon/akis.aspx?kanal=trt-1&gun=3
+2023-06-11 21:01:06.342 00005 [INF] TRT.NET.TR |TRT Haber |1|11|0| Added valid 247 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:20:00.0000000+03:00"
+2023-06-11 21:01:06.380 00005 [INF] TRT.NET.TR |TRT Haber |1|11|0| All programs grabbed for channel trthaber.tr
+2023-06-11 21:01:06.388 00005 [INF] TRT.NET.TR |TRT Belgesel |1|11|0| Added valid 230 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T23:10:00.0000000+03:00"
+2023-06-11 21:01:06.421 00005 [INF] TRT.NET.TR |TRT Belgesel |1|11|0| All programs grabbed for channel trtbelgesel.tr
+2023-06-11 21:01:06.423 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\raiplay.it.template.yaml
+2023-06-11 21:01:06.425 00005 [INF] RAIPLAY.IT |Starting grabbing programs for 5 channels
+2023-06-11 21:01:06.432 00008 [INF] RAIPLAY.IT |Rai Sport 1 |1|11|0| Added valid 140 programs from cache "2023-06-08T01:20:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:01:06.446 00008 [INF] RAIPLAY.IT |Rai Sport 1 |1|11|0| All programs grabbed for channel raisport1.it
+2023-06-11 21:01:06.455 00008 [INF] RAIPLAY.IT |Rai 1 |1|11|0| Added valid 232 programs from cache "2023-06-08T00:55:00.0000000+03:00" -> "2023-06-14T23:31:00.0000000+03:00"
+2023-06-11 21:01:06.488 00008 [INF] RAIPLAY.IT |Rai 1 |1|11|0| All programs grabbed for channel rai1.it
+2023-06-11 21:01:06.496 00005 [INF] RAIPLAY.IT |Rai 2 |1|11|0| Added valid 245 programs from cache "2023-06-08T00:47:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:01:06.533 00005 [INF] RAIPLAY.IT |Rai 2 |1|11|0| All programs grabbed for channel rai2.it
+2023-06-11 21:01:06.542 00005 [INF] RAIPLAY.IT |Rai 3 |1|11|0| Added valid 273 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T21:25:00.0000000+03:00"
+2023-06-11 21:01:06.586 00005 [INF] RAIPLAY.IT |Rai 3 |1|11|0| All programs grabbed for channel rai3.it
+2023-06-11 21:01:06.596 00005 [INF] RAIPLAY.IT |Rai Scuola |1|11|0| Added valid 301 programs from cache "2023-06-08T00:15:00.0000000+03:00" -> "2023-06-14T23:10:00.0000000+03:00"
+2023-06-11 21:01:06.657 00005 [INF] RAIPLAY.IT |Rai Scuola |1|11|0| All programs grabbed for channel raiscuola.it
+2023-06-11 21:01:06.659 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\mts.rs.template.yaml
+2023-06-11 21:01:06.675 00005 [INF] MTS.RS |Starting grabbing programs for 9 channels
+2023-06-11 21:01:06.682 00008 [INF] MTS.RS |Extreme Sports Channel |1|11|0| Added valid 151 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:06.699 00008 [INF] MTS.RS |Extreme Sports Channel |1|11|0| All programs grabbed for channel extremesportschannel.com
+2023-06-11 21:01:06.704 00005 [INF] MTS.RS |CGTN |1|11|0| Added valid 257 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T03:00:00.0000000+03:00"
+2023-06-11 21:01:06.743 00005 [INF] MTS.RS |CGTN |1|14|0| Scraping url: https://mts.rs/oec/epg/program?date=2023-06-14&position=671
+2023-06-11 21:01:07.069 00013 [INF] MTS.RS |CGTN |1|14|1| Grabbed program Nema informacija o programu @ "2023-06-14T03:00:00.0000000+03:00"
+2023-06-11 21:01:07.079 00008 [INF] MTS.RS |Kitchen TV |1|11|0| Added valid 185 programs from cache "2023-06-08T02:40:00.0000000+03:00" -> "2023-06-14T22:15:00.0000000+03:00"
+2023-06-11 21:01:07.101 00008 [INF] MTS.RS |Kitchen TV |1|11|0| All programs grabbed for channel kitchen.tv
+2023-06-11 21:01:07.104 00008 [INF] MTS.RS |DTX HD |1|11|0| Scraping url: https://mts.rs/oec/epg/program?date=2023-06-11&position=698
+2023-06-11 21:01:07.366 00013 [ERR] MTS.RS |DTX HD |1|11|0| Unexpected response from server 404
+2023-06-11 21:01:07.369 00013 [ERR] MTS.RS |DTX HD |1|11|0| No valid content from scraping was downloaded
+2023-06-11 21:01:07.372 00005 [INF] MTS.RS |FashionBox HD |1|11|0| Added valid 182 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T03:00:00.0000000+03:00"
+2023-06-11 21:01:07.394 00005 [INF] MTS.RS |FashionBox HD |1|14|0| Scraping url: https://mts.rs/oec/epg/program?date=2023-06-14&position=265
+2023-06-11 21:01:07.647 00013 [INF] MTS.RS |FashionBox HD |1|14|1| Grabbed program Nema informacija o programu @ "2023-06-14T03:00:00.0000000+03:00"
+2023-06-11 21:01:07.657 00019 [INF] MTS.RS |РТС 1 |1|11|0| Added valid 207 programs from cache "2023-06-08T02:50:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:01:07.684 00019 [INF] MTS.RS |РТС 1 |1|11|0| All programs grabbed for channel rts1.rs
+2023-06-11 21:01:07.694 00005 [INF] MTS.RS |РТС 2 |1|11|0| Added valid 234 programs from cache "2023-06-08T02:49:00.0000000+03:00" -> "2023-06-14T23:10:00.0000000+03:00"
+2023-06-11 21:01:07.727 00005 [INF] MTS.RS |РТС 2 |1|11|0| All programs grabbed for channel rts2.rs
+2023-06-11 21:01:07.737 00005 [INF] MTS.RS |Prva |1|11|0| Added valid 179 programs from cache "2023-06-08T02:56:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:07.757 00005 [INF] MTS.RS |Prva |1|11|0| All programs grabbed for channel prva.rs
+2023-06-11 21:01:07.767 00005 [INF] MTS.RS |O2 |1|11|0| Added valid 239 programs from cache "2023-06-08T02:26:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:01:07.801 00005 [INF] MTS.RS |O2 |1|11|0| All programs grabbed for channel o2.rs
+2023-06-11 21:01:07.804 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\tvtoday.de.template.yaml
+2023-06-11 21:01:07.819 00005 [INF] TVTODAY.DE |Starting grabbing programs for 42 channels
+2023-06-11 21:01:07.826 00005 [INF] TVTODAY.DE |Sport 1 |1|11|0| Added valid 222 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:07.857 00005 [INF] TVTODAY.DE |Sport 1 |1|11|0| All programs grabbed for channel sport1.de
+2023-06-11 21:01:07.865 00005 [INF] TVTODAY.DE |Sport + |1|11|0| Added valid 128 programs from cache "2023-06-08T06:25:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:07.877 00005 [INF] TVTODAY.DE |Sport + |1|11|0| All programs grabbed for channel sport1plus.de
+2023-06-11 21:01:07.881 00007 [INF] TVTODAY.DE |Eurosport DE HD |1|11|0| Added valid 101 programs from cache "2023-06-08T09:30:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:07.889 00007 [INF] TVTODAY.DE |Eurosport DE HD |1|11|0| All programs grabbed for channel eurosport1.de
+2023-06-11 21:01:07.895 00007 [INF] TVTODAY.DE |Sky Sport 1 |1|11|0| Scraping url: https://m.tvtoday.de/programm/standard/sender/hdspo.html?date=230611
+2023-06-11 21:01:08.253 00013 [INF] TVTODAY.DE |Sky Sport 1 |1|12|0| Scraping url: https://m.tvtoday.de/programm/standard/sender/hdspo.html?date=230612
+2023-06-11 21:01:08.347 00013 [INF] TVTODAY.DE |Sky Sport 1 |1|13|0| Scraping url: https://m.tvtoday.de/programm/standard/sender/hdspo.html?date=230613
+2023-06-11 21:01:08.445 00013 [INF] TVTODAY.DE |Sky Sport 1 |1|14|0| Scraping url: https://m.tvtoday.de/programm/standard/sender/hdspo.html?date=230614
+2023-06-11 21:01:08.545 00013 [INF] TVTODAY.DE |Sky Sport 2 HD |1|11|0| Scraping url: https://m.tvtoday.de/programm/standard/sender/shd2.html?date=230611
+2023-06-11 21:01:08.630 00013 [INF] TVTODAY.DE |Sky Sport 2 HD |1|12|0| Scraping url: https://m.tvtoday.de/programm/standard/sender/shd2.html?date=230612
+2023-06-11 21:01:08.742 00013 [INF] TVTODAY.DE |Sky Sport 2 HD |1|13|0| Scraping url: https://m.tvtoday.de/programm/standard/sender/shd2.html?date=230613
+2023-06-11 21:01:08.836 00013 [INF] TVTODAY.DE |Sky Sport 2 HD |1|14|0| Scraping url: https://m.tvtoday.de/programm/standard/sender/shd2.html?date=230614
+2023-06-11 21:01:08.935 00005 [INF] TVTODAY.DE |Sky Sport Bundesliga |1|11|0| Added valid 174 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T22:50:00.0000000+03:00"
+2023-06-11 21:01:08.953 00005 [INF] TVTODAY.DE |Sky Sport Bundesliga |1|11|0| All programs grabbed for channel skysportbundesliga.de
+2023-06-11 21:01:08.957 00007 [INF] TVTODAY.DE |Deutsche Musik |1|11|0| Added valid 149 programs from cache "2023-06-08T06:05:00.0000000+03:00" -> "2023-06-14T22:45:00.0000000+03:00"
+2023-06-11 21:01:08.974 00007 [INF] TVTODAY.DE |Deutsche Musik |1|11|0| All programs grabbed for channel deutschesmusik.de
+2023-06-11 21:01:08.982 00007 [INF] TVTODAY.DE |ARD |1|11|0| Added valid 235 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:01:09.019 00007 [INF] TVTODAY.DE |ARD |1|11|0| All programs grabbed for channel ard.de
+2023-06-11 21:01:09.023 00007 [INF] TVTODAY.DE |ZDF |1|11|0| Added valid 223 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:01:09.052 00007 [INF] TVTODAY.DE |ZDF |1|11|0| All programs grabbed for channel zdf.de
+2023-06-11 21:01:09.060 00007 [INF] TVTODAY.DE |ZDF Info |1|11|0| Added valid 209 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T23:25:00.0000000+03:00"
+2023-06-11 21:01:09.088 00007 [INF] TVTODAY.DE |ZDF Info |1|11|0| All programs grabbed for channel zdfinfo.de
+2023-06-11 21:01:09.092 00019 [INF] TVTODAY.DE |ZDF Neo |1|11|0| Added valid 192 programs from cache "2023-06-08T06:40:00.0000000+03:00" -> "2023-06-14T22:45:00.0000000+03:00"
+2023-06-11 21:01:09.114 00019 [INF] TVTODAY.DE |ZDF Neo |1|11|0| All programs grabbed for channel zdfneo.de
+2023-06-11 21:01:09.119 00007 [INF] TVTODAY.DE |Pro 7 Maxx |1|11|0| Added valid 247 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:09.154 00007 [INF] TVTODAY.DE |Pro 7 Maxx |1|11|0| All programs grabbed for channel pro7max.de
+2023-06-11 21:01:09.162 00007 [INF] TVTODAY.DE |Pro 7 |1|11|0| Added valid 223 programs from cache "2023-06-08T06:05:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:09.193 00007 [INF] TVTODAY.DE |Pro 7 |1|11|0| All programs grabbed for channel prosieben.de
+2023-06-11 21:01:09.197 00005 [INF] TVTODAY.DE |SAT.1 |1|11|0| Added valid 145 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T21:15:00.0000000+03:00"
+2023-06-11 21:01:09.210 00005 [INF] TVTODAY.DE |SAT.1 |1|11|0| All programs grabbed for channel sat1.de
+2023-06-11 21:01:09.218 00005 [INF] TVTODAY.DE |SAT.1 Gold |1|11|0| Added valid 201 programs from cache "2023-06-08T06:25:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:01:09.244 00005 [INF] TVTODAY.DE |SAT.1 Gold |1|11|0| All programs grabbed for channel sat1gold.de
+2023-06-11 21:01:09.248 00019 [INF] TVTODAY.DE |RTL |1|11|0| Added valid 176 programs from cache "2023-06-08T06:20:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:01:09.268 00019 [INF] TVTODAY.DE |RTL |1|11|0| All programs grabbed for channel rtl.de
+2023-06-11 21:01:09.272 00005 [INF] TVTODAY.DE |RTL II |1|11|0| Added valid 145 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:01:09.286 00005 [INF] TVTODAY.DE |RTL II |1|11|0| All programs grabbed for channel rtl2.de
+2023-06-11 21:01:09.290 00019 [INF] TVTODAY.DE |RTL Nitro |1|11|0| Added valid 194 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:05:00.0000000+03:00"
+2023-06-11 21:01:09.313 00019 [INF] TVTODAY.DE |RTL Nitro |1|11|0| All programs grabbed for channel rtlnitro.de
+2023-06-11 21:01:09.318 00005 [INF] TVTODAY.DE |Super RTL |1|11|0| Added valid 269 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T23:05:00.0000000+03:00"
+2023-06-11 21:01:09.359 00005 [INF] TVTODAY.DE |Super RTL |1|11|0| All programs grabbed for channel super.rtl.de
+2023-06-11 21:01:09.367 00005 [INF] TVTODAY.DE |Kika |1|11|0| Added valid 286 programs from cache "2023-06-08T07:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:01:09.415 00005 [INF] TVTODAY.DE |Kika |1|11|0| All programs grabbed for channel kika.de
+2023-06-11 21:01:09.419 00019 [INF] TVTODAY.DE |3 Sat |1|11|0| Added valid 236 programs from cache "2023-06-08T06:29:00.0000000+03:00" -> "2023-06-14T23:25:00.0000000+03:00"
+2023-06-11 21:01:09.452 00019 [INF] TVTODAY.DE |3 Sat |1|11|0| All programs grabbed for channel 3sat.de
+2023-06-11 21:01:09.460 00005 [INF] TVTODAY.DE |Arte HD |1|11|0| Added valid 181 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-14T23:05:00.0000000+03:00"
+2023-06-11 21:01:09.481 00005 [INF] TVTODAY.DE |Arte HD |1|11|0| All programs grabbed for channel arte.de
+2023-06-11 21:01:09.485 00019 [INF] TVTODAY.DE |Anixe |1|11|0| Added valid 248 programs from cache "2023-06-08T07:00:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:01:09.522 00019 [INF] TVTODAY.DE |Anixe |1|11|0| All programs grabbed for channel anixe.de
+2023-06-11 21:01:09.530 00019 [INF] TVTODAY.DE |N-TV |1|11|0| Added valid 394 programs from cache "2023-06-08T06:35:00.0000000+03:00" -> "2023-06-14T23:05:00.0000000+03:00"
+2023-06-11 21:01:09.616 00019 [INF] TVTODAY.DE |N-TV |1|11|0| All programs grabbed for channel ntv.de
+2023-06-11 21:01:09.619 00019 [WRN] TVTODAY.DE |Tagesschau 24 |1| 11|0| No parameters found for channel tagesschau.de
+2023-06-11 21:01:09.620 00019 [WRN] TVTODAY.DE |Tagesschau 24 |1|11|0| Param 'channelId' not found!
+2023-06-11 21:01:09.626 00005 [INF] TVTODAY.DE |Tele 5 |1|11|0| Added valid 121 programs from cache "2023-06-08T06:20:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:09.637 00005 [INF] TVTODAY.DE |Tele 5 |1|11|0| All programs grabbed for channel tele5.de
+2023-06-11 21:01:09.641 00019 [INF] TVTODAY.DE |Sixx |1|11|0| Added valid 177 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:10:00.0000000+03:00"
+2023-06-11 21:01:09.661 00019 [INF] TVTODAY.DE |Sixx |1|11|0| All programs grabbed for channel sixx.de
+2023-06-11 21:01:09.670 00005 [INF] TVTODAY.DE |Phoenix |1|11|0| Added valid 189 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:01:09.693 00005 [INF] TVTODAY.DE |Phoenix |1|11|0| All programs grabbed for channel phoenix.de
+2023-06-11 21:01:09.697 00007 [INF] TVTODAY.DE |Kabel Eins Doku |1|11|0| Added valid 203 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:01:09.723 00007 [INF] TVTODAY.DE |Kabel Eins Doku |1|11|0| All programs grabbed for channel kabeleinsdoku.de
+2023-06-11 21:01:09.728 00005 [INF] TVTODAY.DE |ORF 1 |1|11|0| Added valid 286 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:01:09.774 00005 [INF] TVTODAY.DE |ORF 1 |1|11|0| All programs grabbed for channel orf1.au
+2023-06-11 21:01:09.779 00007 [INF] TVTODAY.DE |ORF 2 |1|11|0| Added valid 291 programs from cache "2023-06-08T06:45:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:09.830 00007 [INF] TVTODAY.DE |ORF 2 |1|11|0| All programs grabbed for channel orf2.au
+2023-06-11 21:01:09.832 00007 [WRN] TVTODAY.DE |TLC |1| 11|0| No parameters found for channel tlc.de
+2023-06-11 21:01:09.834 00007 [WRN] TVTODAY.DE |TLC |1|11|0| Param 'channelId' not found!
+2023-06-11 21:01:09.837 00019 [INF] TVTODAY.DE |Disney |1|11|0| Added valid 375 programs from cache "2023-06-08T06:35:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:01:09.915 00019 [INF] TVTODAY.DE |Disney |1|11|0| All programs grabbed for channel disney.de
+2023-06-11 21:01:09.919 00007 [INF] TVTODAY.DE |WDR |1|11|0| Added valid 211 programs from cache "2023-06-08T06:25:00.0000000+03:00" -> "2023-06-14T23:15:00.0000000+03:00"
+2023-06-11 21:01:09.945 00007 [INF] TVTODAY.DE |WDR |1|11|0| All programs grabbed for channel wdr.de
+2023-06-11 21:01:09.949 00019 [INF] TVTODAY.DE |Servus |1|11|0| Added valid 197 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:01:09.973 00019 [INF] TVTODAY.DE |Servus |1|11|0| All programs grabbed for channel servus.de
+2023-06-11 21:01:09.976 00007 [INF] TVTODAY.DE |Sky Action |1|11|0| Added valid 81 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T22:50:00.0000000+03:00"
+2023-06-11 21:01:09.982 00007 [INF] TVTODAY.DE |Sky Action |1|11|0| All programs grabbed for channel skyaction.de
+2023-06-11 21:01:09.986 00019 [INF] TVTODAY.DE |Sky Atlantic |1|11|0| Added valid 156 programs from cache "2023-06-08T06:35:00.0000000+03:00" -> "2023-06-14T23:45:00.0000000+03:00"
+2023-06-11 21:01:10.001 00019 [INF] TVTODAY.DE |Sky Atlantic |1|11|0| All programs grabbed for channel skyatlantic.de
+2023-06-11 21:01:10.005 00007 [INF] TVTODAY.DE |Sky Cinema Family HD |1|11|0| Added valid 88 programs from cache "2023-06-08T07:30:00.0000000+03:00" -> "2023-06-14T22:55:00.0000000+03:00"
+2023-06-11 21:01:10.011 00007 [INF] TVTODAY.DE |Sky Cinema Family HD |1|11|0| All programs grabbed for channel skycinemafamily.de
+2023-06-11 21:01:10.020 00007 [INF] TVTODAY.DE |SyFy |1|11|0| Added valid 172 programs from cache "2023-06-08T06:10:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:10.039 00007 [INF] TVTODAY.DE |SyFy |1|11|0| All programs grabbed for channel syfy.de
+2023-06-11 21:01:10.047 00007 [INF] TVTODAY.DE |Discovery DE |1|11|0| Added valid 226 programs from cache "2023-06-08T06:05:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:10.080 00007 [INF] TVTODAY.DE |Discovery DE |1|11|0| All programs grabbed for channel discovery.de
+2023-06-11 21:01:10.084 00005 [INF] TVTODAY.DE |NatGeo Wild EU HD |1|11|0| Added valid 200 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:25:00.0000000+03:00"
+2023-06-11 21:01:10.107 00005 [INF] TVTODAY.DE |NatGeo Wild EU HD |1|11|0| All programs grabbed for channel natgeowild.de
+2023-06-11 21:01:10.111 00007 [INF] TVTODAY.DE |National Geographic |1|11|0| Added valid 197 programs from cache "2023-06-08T06:15:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:01:10.136 00007 [INF] TVTODAY.DE |National Geographic |1|11|0| All programs grabbed for channel natgeo.de
+2023-06-11 21:01:10.138 00007 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\movistarplus.es.template.yaml
+2023-06-11 21:01:10.149 00007 [INF] MOVIESTARPLUS.ES |Starting grabbing programs for 4 channels
+2023-06-11 21:01:10.152 00005 [INF] MOVIESTARPLUS.ES |M+ Liga de Campeones |1|11|0| Added valid 135 programs from cache "2023-06-08T07:00:00.0000000+03:00" -> "2023-06-14T21:40:00.0000000+03:00"
+2023-06-11 21:01:10.165 00005 [INF] MOVIESTARPLUS.ES |M+ Liga de Campeones |1|11|0| All programs grabbed for channel ligadecampeones.mplus.es
+2023-06-11 21:01:10.172 00019 [INF] MOVIESTARPLUS.ES |M+ Deportes |1|11|0| Added valid 122 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T21:30:00.0000000+03:00"
+2023-06-11 21:01:10.183 00019 [INF] MOVIESTARPLUS.ES |M+ Deportes |1|11|0| All programs grabbed for channel deportes.mplus.es
+2023-06-11 21:01:10.187 00005 [INF] MOVIESTARPLUS.ES |TVE |1|11|0| Added valid 116 programs from cache "2023-06-08T07:00:00.0000000+03:00" -> "2023-06-14T21:30:00.0000000+03:00"
+2023-06-11 21:01:10.196 00005 [INF] MOVIESTARPLUS.ES |TVE |1|11|0| All programs grabbed for channel tve.es
+2023-06-11 21:01:10.205 00005 [INF] MOVIESTARPLUS.ES |TeleSur |1|11|0| Added valid 258 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:10.245 00005 [INF] MOVIESTARPLUS.ES |TeleSur |1|11|0| All programs grabbed for channel telesur.es
+2023-06-11 21:01:10.247 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\telestar.fr.template.yaml
+2023-06-11 21:01:10.250 00005 [INF] TELESTAR.FR |Starting grabbing programs for 10 channels
+2023-06-11 21:01:10.252 00019 [INF] TELESTAR.FR |iConcerts |1|11|0| Added valid 122 programs from cache "2023-06-08T07:05:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:10.264 00019 [INF] TELESTAR.FR |iConcerts |1|11|0| All programs grabbed for channel iconcerts.stingray.com
+2023-06-11 21:01:10.268 00005 [INF] TELESTAR.FR |MCM |1|11|0| Added valid 180 programs from cache "2023-06-08T07:00:00.0000000+03:00" -> "2023-06-14T23:35:00.0000000+03:00"
+2023-06-11 21:01:10.288 00005 [INF] TELESTAR.FR |MCM |1|11|0| All programs grabbed for channel mcm.fr
+2023-06-11 21:01:10.292 00007 [INF] TELESTAR.FR |CNBC |1|11|0| Added valid 185 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T22:00:00.0000000+03:00"
+2023-06-11 21:01:10.314 00007 [INF] TELESTAR.FR |CNBC |1|11|0| All programs grabbed for channel cnbc.com
+2023-06-11 21:01:10.317 00007 [INF] TELESTAR.FR |Chasse & Peche |1|11|0| Scraping url: https://www.telestar.fr/programme-tv/grille-chaine/chasseetpeche
+2023-06-11 21:01:40.330 00013 [ERR] TELESTAR.FR |Chasse & Peche |1|11|0| Error getting content from web: Call timed out: GET https://www.telestar.fr/programme-tv/grille-chaine/chasseetpeche
+2023-06-11 21:01:40.333 00013 [ERR] TELESTAR.FR |Chasse & Peche |1|11|0| No valid content from scraping was downloaded
+2023-06-11 21:01:40.336 00019 [INF] TELESTAR.FR |France 2 |1|11|0| Added valid 190 programs from cache "2023-06-08T06:30:00.0000000+03:00" -> "2023-06-14T23:50:00.0000000+03:00"
+2023-06-11 21:01:40.365 00019 [INF] TELESTAR.FR |France 2 |1|11|0| All programs grabbed for channel france2.fr
+2023-06-11 21:01:40.374 00019 [INF] TELESTAR.FR |France 3 |1|11|0| Added valid 230 programs from cache "2023-06-08T07:00:00.0000000+03:00" -> "2023-06-14T22:10:00.0000000+03:00"
+2023-06-11 21:01:40.406 00019 [INF] TELESTAR.FR |France 3 |1|11|0| All programs grabbed for channel france3.fr
+2023-06-11 21:01:40.414 00019 [INF] TELESTAR.FR |M6 |1|11|0| Added valid 175 programs from cache "2023-06-08T07:00:00.0000000+03:00" -> "2023-06-14T22:10:00.0000000+03:00"
+2023-06-11 21:01:40.435 00019 [INF] TELESTAR.FR |M6 |1|11|0| All programs grabbed for channel m6.fr
+2023-06-11 21:01:40.443 00019 [INF] TELESTAR.FR |Arte |1|11|0| Added valid 118 programs from cache "2023-06-08T06:00:00.0000000+03:00" -> "2023-06-12T23:30:00.0000000+03:00"
+2023-06-11 21:01:40.453 00019 [INF] TELESTAR.FR |Arte |1|13|0| Scraping url: https://www.telestar.fr/programme-tv/grille-chaine/arte
+2023-06-11 21:01:40.589 00013 [INF] TELESTAR.FR |Arte |1|13|2| Grabbed program Un jour sur Terre, de la Norvège à la Namibie @ "2023-06-13T06:20:00.0000000+03:00"
+2023-06-11 21:01:40.591 00013 [INF] TELESTAR.FR |Arte |1|13|3| Grabbed program Un jour sur Terre, de la Norvège à la Namibie @ "2023-06-13T07:15:00.0000000+03:00"
+2023-06-11 21:01:40.593 00013 [INF] TELESTAR.FR |Arte |1|13|4| Grabbed program Arte journal junior @ "2023-06-13T08:10:00.0000000+03:00"
+2023-06-11 21:01:40.594 00013 [INF] TELESTAR.FR |Arte |1|13|5| Grabbed program Géo reportage @ "2023-06-13T08:14:00.0000000+03:00"
+2023-06-11 21:01:40.596 00013 [INF] TELESTAR.FR |Arte |1|13|6| Grabbed program Les derniers orangs-outangs de Sumatra @ "2023-06-13T08:15:00.0000000+03:00"
+2023-06-11 21:01:40.597 00013 [INF] TELESTAR.FR |Arte |1|13|7| Grabbed program Invitation au voyage @ "2023-06-13T09:10:00.0000000+03:00"
+2023-06-11 21:01:40.599 00013 [INF] TELESTAR.FR |Arte |1|13|8| Grabbed program Invitation au voyage @ "2023-06-13T09:55:00.0000000+03:00"
+2023-06-11 21:01:40.600 00013 [INF] TELESTAR.FR |Arte |1|13|9| Grabbed program La Baltique sauvage @ "2023-06-13T10:25:00.0000000+03:00"
+2023-06-11 21:01:40.601 00013 [INF] TELESTAR.FR |Arte |1|13|10| Grabbed program La Baltique sauvage @ "2023-06-13T11:10:00.0000000+03:00"
+2023-06-11 21:01:40.610 00013 [INF] TELESTAR.FR |Arte |1|13|11| Grabbed program Texas, des rodéos et le Rio Grande @ "2023-06-13T11:55:00.0000000+03:00"
+2023-06-11 21:01:40.612 00013 [INF] TELESTAR.FR |Arte |1|13|12| Grabbed program Texas, des cow-boys et des dauphins @ "2023-06-13T12:40:00.0000000+03:00"
+2023-06-11 21:01:40.614 00013 [INF] TELESTAR.FR |Arte |1|13|13| Grabbed program Géo reportage @ "2023-06-13T13:34:00.0000000+03:00"
+2023-06-11 21:01:40.616 00013 [INF] TELESTAR.FR |Arte |1|13|14| Grabbed program Stromboli, terre de feu @ "2023-06-13T13:35:00.0000000+03:00"
+2023-06-11 21:01:40.617 00013 [INF] TELESTAR.FR |Arte |1|13|15| Grabbed program Un coeur pour ma fille @ "2023-06-13T14:35:00.0000000+03:00"
+2023-06-11 21:01:40.619 00013 [INF] TELESTAR.FR |Arte |1|13|16| Grabbed program L'Italie entre ciel et mer @ "2023-06-13T16:15:00.0000000+03:00"
+2023-06-11 21:01:40.621 00013 [INF] TELESTAR.FR |Arte |1|13|17| Grabbed program L'Italie entre ciel et mer @ "2023-06-13T16:50:00.0000000+03:00"
+2023-06-11 21:01:40.622 00013 [INF] TELESTAR.FR |Arte |1|13|18| Grabbed program L'Italie entre ciel et mer @ "2023-06-13T17:35:00.0000000+03:00"
+2023-06-11 21:01:40.624 00013 [INF] TELESTAR.FR |Arte |1|13|19| Grabbed program Invitation au voyage @ "2023-06-13T18:20:00.0000000+03:00"
+2023-06-11 21:01:40.625 00013 [INF] TELESTAR.FR |Arte |1|13|20| Grabbed program Invitation au voyage @ "2023-06-13T19:05:00.0000000+03:00"
+2023-06-11 21:01:40.627 00013 [INF] TELESTAR.FR |Arte |1|13|21| Grabbed program Arte Regards @ "2023-06-13T19:55:00.0000000+03:00"
+2023-06-11 21:01:40.628 00013 [INF] TELESTAR.FR |Arte |1|13|22| Grabbed program Le dessous des images @ "2023-06-13T20:30:00.0000000+03:00"
+2023-06-11 21:01:40.630 00013 [INF] TELESTAR.FR |Arte |1|13|23| Grabbed program Arte journal @ "2023-06-13T20:45:00.0000000+03:00"
+2023-06-11 21:01:40.631 00013 [INF] TELESTAR.FR |Arte |1|13|24| Grabbed program 28 minutes @ "2023-06-13T21:05:00.0000000+03:00"
+2023-06-11 21:01:40.633 00013 [INF] TELESTAR.FR |Arte |1|13|25| Grabbed program Music Queens @ "2023-06-13T21:49:00.0000000+03:00"
+2023-06-11 21:01:40.634 00013 [INF] TELESTAR.FR |Arte |1|13|26| Grabbed program Margaret Thatcher, l'inoxydable @ "2023-06-13T21:55:00.0000000+03:00"
+2023-06-11 21:01:40.636 00013 [INF] TELESTAR.FR |Arte |1|13|27| Grabbed program Des femmes face aux missiles @ "2023-06-13T23:30:00.0000000+03:00"
+2023-06-11 21:01:40.638 00013 [INF] TELESTAR.FR |Arte |1|13|28| Grabbed program Le plafond de verre, l'invisible discrimination @ "2023-06-14T00:30:00.0000000+03:00"
+2023-06-11 21:01:40.643 00013 [INF] TELESTAR.FR |Arte |1|14|0| Scraping url: https://www.telestar.fr/programme-tv/grille-chaine/arte
+2023-06-11 21:01:40.760 00013 [INF] TELESTAR.FR |Arte |1|14|2| Grabbed program Alan Gilbert dirige la "Symphonie n° 7" de Beethoven @ "2023-06-14T06:00:00.0000000+03:00"
+2023-06-11 21:01:40.763 00013 [INF] TELESTAR.FR |Arte |1|14|3| Grabbed program Des monuments et des hommes @ "2023-06-14T06:50:00.0000000+03:00"
+2023-06-11 21:01:40.764 00013 [INF] TELESTAR.FR |Arte |1|14|4| Grabbed program Un jour sur terre, de la Norvège à la Namibie @ "2023-06-14T07:15:00.0000000+03:00"
+2023-06-11 21:01:40.766 00013 [INF] TELESTAR.FR |Arte |1|14|5| Grabbed program Arte journal junior @ "2023-06-14T08:10:00.0000000+03:00"
+2023-06-11 21:01:40.767 00013 [INF] TELESTAR.FR |Arte |1|14|6| Grabbed program Géo reportage @ "2023-06-14T08:14:00.0000000+03:00"
+2023-06-11 21:01:40.769 00013 [INF] TELESTAR.FR |Arte |1|14|7| Grabbed program Mer du Nord, sauvons les bébés phoques @ "2023-06-14T08:15:00.0000000+03:00"
+2023-06-11 21:01:40.770 00013 [INF] TELESTAR.FR |Arte |1|14|8| Grabbed program Invitation au voyage @ "2023-06-14T09:10:00.0000000+03:00"
+2023-06-11 21:01:40.771 00013 [INF] TELESTAR.FR |Arte |1|14|9| Grabbed program Invitation au voyage @ "2023-06-14T09:55:00.0000000+03:00"
+2023-06-11 21:01:40.773 00013 [INF] TELESTAR.FR |Arte |1|14|10| Grabbed program Les poisons de Poutine @ "2023-06-14T10:25:00.0000000+03:00"
+2023-06-11 21:01:40.774 00013 [INF] TELESTAR.FR |Arte |1|14|11| Grabbed program Les poisons de Poutine @ "2023-06-14T11:20:00.0000000+03:00"
+2023-06-11 21:01:40.776 00013 [INF] TELESTAR.FR |Arte |1|14|12| Grabbed program Les poisons de Poutine @ "2023-06-14T12:15:00.0000000+03:00"
+2023-06-11 21:01:40.778 00013 [INF] TELESTAR.FR |Arte |1|14|13| Grabbed program Les parcs naturels... en Minuscule @ "2023-06-14T13:50:00.0000000+03:00"
+2023-06-11 21:01:40.779 00013 [INF] TELESTAR.FR |Arte |1|14|14| Grabbed program Ariane @ "2023-06-14T14:35:00.0000000+03:00"
+2023-06-11 21:01:40.781 00013 [INF] TELESTAR.FR |Arte |1|14|15| Grabbed program Les Pyrénées secrètes @ "2023-06-14T16:40:00.0000000+03:00"
+2023-06-11 21:01:40.783 00013 [INF] TELESTAR.FR |Arte |1|14|16| Grabbed program null @ "2023-06-14T17:35:00.0000000+03:00"
+2023-06-11 21:01:40.784 00013 [INF] TELESTAR.FR |Arte |1|14|17| Grabbed program Invitation au voyage @ "2023-06-14T18:20:00.0000000+03:00"
+2023-06-11 21:01:40.786 00013 [INF] TELESTAR.FR |Arte |1|14|18| Grabbed program Invitation au voyage @ "2023-06-14T19:05:00.0000000+03:00"
+2023-06-11 21:01:40.787 00013 [INF] TELESTAR.FR |Arte |1|14|19| Grabbed program Arte Regards @ "2023-06-14T19:55:00.0000000+03:00"
+2023-06-11 21:01:40.789 00013 [INF] TELESTAR.FR |Arte |1|14|20| Grabbed program Le dessous des images @ "2023-06-14T20:30:00.0000000+03:00"
+2023-06-11 21:01:40.790 00013 [INF] TELESTAR.FR |Arte |1|14|21| Grabbed program Arte journal @ "2023-06-14T20:45:00.0000000+03:00"
+2023-06-11 21:01:40.792 00013 [INF] TELESTAR.FR |Arte |1|14|22| Grabbed program 28 minutes @ "2023-06-14T21:05:00.0000000+03:00"
+2023-06-11 21:01:40.795 00013 [INF] TELESTAR.FR |Arte |1|14|23| Grabbed program Music Queens @ "2023-06-14T21:51:00.0000000+03:00"
+2023-06-11 21:01:40.797 00013 [INF] TELESTAR.FR |Arte |1|14|24| Grabbed program Casa Susanna @ "2023-06-14T21:55:00.0000000+03:00"
+2023-06-11 21:01:40.799 00013 [INF] TELESTAR.FR |Arte |1|14|25| Grabbed program The Hours @ "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:40.808 00013 [INF] TELESTAR.FR |Arte |1|14|0| All programs grabbed for channel arte.fr
+2023-06-11 21:01:40.811 00013 [WRN] TELESTAR.FR |BFM Business |1| 11|0| No parameters found for channel bfmbusiness.fr
+2023-06-11 21:01:40.812 00013 [WRN] TELESTAR.FR |BFM Business |1|11|0| Param 'channelId' not found!
+2023-06-11 21:01:40.814 00013 [WRN] TELESTAR.FR |France 24 FR |1| 11|0| No parameters found for channel france24fr.fr
+2023-06-11 21:01:40.815 00013 [WRN] TELESTAR.FR |France 24 FR |1|11|0| Param 'channelId' not found!
+2023-06-11 21:01:40.817 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\city.bg.template.yaml
+2023-06-11 21:01:40.827 00013 [INF] CITY.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:01:40.829 00013 [WRN] CITY.BG |City TV |1| No parameters found for channel citytv.bg
+2023-06-11 21:01:40.835 00003 [INF] CITY.BG |City TV |1|11|0| Added valid 49 programs from cache "2023-06-08T00:00:00.0000000+03:00" -> "2023-06-14T18:00:00.0000000+03:00"
+2023-06-11 21:01:40.840 00003 [INF] CITY.BG |City TV |1|14|0| Scraping url: https://www.city.bg/schedule
+2023-06-11 21:01:41.493 00013 [INF] CITY.BG |City TV |1|14|7| Scraping url: https://www.city.bg/show/city-hits
+2023-06-11 21:01:41.638 00013 [INF] CITY.BG |City TV |1|14|7| Grabbed program CITY HITS @ "2023-06-14T18:00:00.0000000+03:00"
+2023-06-11 21:01:41.641 00013 [INF] CITY.BG |City TV |1|14|0| All programs grabbed for channel citytv.bg
+2023-06-11 21:01:41.642 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\uksky.com.template.yaml
+2023-06-11 21:01:41.664 00013 [INF] UKSKY.COM |Starting grabbing programs for 6 channels
+2023-06-11 21:01:41.672 00005 [INF] UKSKY.COM |CNN International |1|11|0| Added valid 208 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:41.699 00005 [INF] UKSKY.COM |CNN International |1|11|0| All programs grabbed for channel cnninternational.com
+2023-06-11 21:01:41.704 00005 [INF] UKSKY.COM |Al Jazeera |1|11|0| Added valid 262 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T23:00:00.0000000+03:00"
+2023-06-11 21:01:41.744 00005 [INF] UKSKY.COM |Al Jazeera |1|11|0| All programs grabbed for channel aljazeera.com
+2023-06-11 21:01:41.752 00005 [INF] UKSKY.COM |BBC World News |1|11|0| Added valid 289 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:41.801 00005 [INF] UKSKY.COM |BBC World News |1|11|0| All programs grabbed for channel bbcworldnews.com
+2023-06-11 21:01:41.805 00005 [INF] UKSKY.COM |TRT World |1|11|0| Added valid 305 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:41.857 00005 [INF] UKSKY.COM |TRT World |1|11|0| All programs grabbed for channel trtworld.com
+2023-06-11 21:01:41.866 00005 [INF] UKSKY.COM |NHK World |1|11|0| Added valid 536 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:42.022 00005 [INF] UKSKY.COM |NHK World |1|11|0| All programs grabbed for channel nhkworld.com
+2023-06-11 21:01:42.030 00019 [INF] UKSKY.COM |Arirang |1|11|0| Added valid 309 programs from cache "2023-06-08T03:00:00.0000000+03:00" -> "2023-06-14T23:30:00.0000000+03:00"
+2023-06-11 21:01:42.087 00019 [INF] UKSKY.COM |Arirang |1|11|0| All programs grabbed for channel arirang.tv
+2023-06-11 21:01:42.089 00019 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\tv.yandex.ru.template.yaml
+2023-06-11 21:01:42.094 00019 [INF] TV.YANDEX.RU |Scraping url: https://tv.yandex.ru/
+2023-06-11 21:01:42.935 00013 [INF] TV.YANDEX.RU |Starting grabbing programs for 4 channels
+2023-06-11 21:01:42.938 00013 [INF] TV.YANDEX.RU |Russia Today |1|11|0| Scraping url: https://tv.yandex.ru/api/10379/channel/russia-today-70/schedule?selectedDay=2023-06-11
+2023-06-11 21:01:43.169 00013 [ERR] TV.YANDEX.RU |Russia Today |1|11|0| Unexpected response from server 400
+2023-06-11 21:01:43.172 00013 [ERR] TV.YANDEX.RU |Russia Today |1|11|0| No valid content from scraping was downloaded
+2023-06-11 21:01:43.174 00013 [INF] TV.YANDEX.RU |RT Doc |1|11|0| Scraping url: https://tv.yandex.ru/api/10379/channel/rt-doc-1258/schedule?selectedDay=2023-06-11
+2023-06-11 21:01:43.269 00013 [ERR] TV.YANDEX.RU |RT Doc |1|11|0| Unexpected response from server 400
+2023-06-11 21:01:43.274 00013 [ERR] TV.YANDEX.RU |RT Doc |1|11|0| No valid content from scraping was downloaded
+2023-06-11 21:01:43.281 00019 [INF] TV.YANDEX.RU |Охота и рыбалка |1|11|0| Added valid 373 programs from cache "2023-06-08T06:05:00.0000000+03:00" -> "2023-06-14T23:55:00.0000000+03:00"
+2023-06-11 21:01:43.363 00019 [INF] TV.YANDEX.RU |Охота и рыбалка |1|11|0| All programs grabbed for channel ohotarybalka.ru
+2023-06-11 21:01:43.366 00019 [INF] TV.YANDEX.RU |Живая природа |1|11|0| Scraping url: https://tv.yandex.ru/api/10379/channel/jivaya-priroda-1090/schedule?selectedDay=2023-06-11
+2023-06-11 21:01:43.729 00013 [ERR] TV.YANDEX.RU |Живая природа |1|11|0| Unexpected response from server 400
+2023-06-11 21:01:43.732 00013 [ERR] TV.YANDEX.RU |Живая природа |1|11|0| No valid content from scraping was downloaded
+2023-06-11 21:01:43.733 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\hobbytv.bg.template.yaml
+2023-06-11 21:01:43.742 00013 [INF] HOBBYTV.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:01:43.745 00019 [INF] HOBBYTV.BG |Hobby TV |1|11|0| Added valid 132 programs from cache "2023-06-08T13:20:00.0000000+03:00" -> "2023-06-14T22:40:00.0000000+03:00"
+2023-06-11 21:01:43.758 00019 [INF] HOBBYTV.BG |Hobby TV |1|11|0| All programs grabbed for channel hobbytv.bg
+2023-06-11 21:01:43.761 00019 [INF] Creating grabbing groups for round #2
+2023-06-11 21:01:43.761 00019 [INF] Created 6 grabber groups
+2023-06-11 21:01:43.763 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\dnes.bg.template.yaml
+2023-06-11 21:01:43.767 00005 [INF] DNES.BG |Starting grabbing programs for 2 channels
+2023-06-11 21:01:43.768 00005 [INF] DNES.BG |Code Health |2|12|0| Scraping url: https://www.dnes.bg/tv.php?tv=11293&date=2023-06-12
+2023-06-11 21:01:43.842 00013 [INF] DNES.BG |Code Health |2|13|0| Scraping url: https://www.dnes.bg/tv.php?tv=11293&date=2023-06-13
+2023-06-11 21:01:43.931 00013 [INF] DNES.BG |Code Health |2|14|0| Scraping url: https://www.dnes.bg/tv.php?tv=11293&date=2023-06-14
+2023-06-11 21:01:44.002 00013 [WRN] DNES.BG |БСТВ |2| 11|0| No parameters found for channel bstv.bg
+2023-06-11 21:01:44.004 00013 [WRN] DNES.BG |БСТВ |2|11|0| Param 'channelId' not found!
+2023-06-11 21:01:44.006 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\tv-programa.bg.template.yaml
+2023-06-11 21:01:44.009 00013 [INF] TV-PROGRAMA.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:01:44.017 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|0| Scraping url: https://www.xn----8sbafg9clhjcp.bg/tv/moviestar/Вторник
+2023-06-11 21:01:44.284 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|5| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%A1%D1%80%D0%B5%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%8F%D1%82-%D0%B6%D1%80%D0%B5%D0%B1%D0%B5%D1%86,2167643550/
+2023-06-11 21:01:44.358 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|5| Grabbed program Сребристият жребец - семеен, драма, 1993, режисьор: Джон Татулис, в ролите: Ръсел Кроу, Карълайн Гудол, Ейми Деймиън и др. В дивата пустош на... @ "2023-06-13T10:45:00.0000000+03:00"
+2023-06-11 21:01:44.361 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|6| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%9B%D0%BE%D0%B2%D0%B5%D1%86%D1%8A%D1%82-%D0%BD%D0%B0-%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%3A-%D0%A1%D0%B1%D0%BB%D1%8A%D1%81%D1%8A%D0%BA%D1%8A%D1%82,4128786472/
+2023-06-11 21:01:44.510 00013 [ERR] TV-PROGRAMA.BG |Moviestar |2|13|6| No valid content from scraping was downloaded
+2023-06-11 21:01:44.514 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|6| Grabbed program Ловецът на крокодили: Сблъсъкът - екшън-приключение, 2002, режисьор: Джон Стейнтън, в ролите: Стив Ъруин, Тери Ъруин, Дейвид Уенам.Стив Ъруин отново е решил да... @ "2023-06-13T12:35:00.0000000+03:00"
+2023-06-11 21:01:44.516 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|7| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%98%D0%B3%D1%80%D0%B8-%D0%BD%D0%B0-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%82%D0%B0,3066575/
+2023-06-11 21:01:44.600 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|7| Grabbed program Игри на любовта - драма, 2016, режисьор: Фархад Ман, в ролите: Хедър Локлиър, Локлин Мънро,Том Стивънс, Емили Тенант, Линда Дарлоу, Майло Шандел... @ "2023-06-13T14:20:00.0000000+03:00"
+2023-06-11 21:01:44.603 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|8| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%A0%D0%B0%D0%B7%D1%85%D0%BE%D0%B4%D0%BA%D0%B0-%D0%B2-%D0%B3%D0%BE%D1%80%D0%B0%D1%82%D0%B0,647829311/
+2023-06-11 21:01:44.644 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|8| Grabbed program Разходка в гората - драма, комедия, приключениe, 2015, режисьор: Кен Куопис, в ролите: Ема Томпсън, Ник Нолти, Кристен Щал, Мери Стийнбъргън,... @ "2023-06-13T16:05:00.0000000+03:00"
+2023-06-11 21:01:44.647 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|9| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%94%D0%B6%D0%B8%D0%BC%D0%B8,4064405309/
+2023-06-11 21:01:44.676 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|9| Grabbed program Джими - драма, семеен, фентъзи, 2013, режисьор: Марк Фрайбургер, в ролите: Патрик Фабиан, Кели Карлсън, Иън Колети и др. Една история... @ "2023-06-13T18:05:00.0000000+03:00"
+2023-06-11 21:01:44.678 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|10| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%A1%D0%BC%D1%8A%D1%80%D1%82%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D1%81%D1%8A%D0%B4%D0%B0,996403287/
+2023-06-11 21:01:44.702 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|10| Grabbed program Смъртна присъда - криминален екшън, 2007, режисьор: Джеймс Уан, в ролите: Кевин Бейкън, Гарет Хедлънд, Кели Престън, Айша Тайлър, Джон Гудман и... @ "2023-06-13T20:00:00.0000000+03:00"
+2023-06-11 21:01:44.705 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|11| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%93%D1%80%D0%B0%D0%B4-%D0%BD%D0%B0-%D0%B3%D1%80%D0%B5%D1%85%D0%B0%3A-%D0%96%D0%B5%D0%BD%D0%B0,1690866779/
+2023-06-11 21:01:44.724 00013 [ERR] TV-PROGRAMA.BG |Moviestar |2|13|11| No valid content from scraping was downloaded
+2023-06-11 21:01:44.726 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|13|11| Grabbed program Град на греха: Жена, за която да убиеш - екшън, криминален, трилър, 2014, режисьори: Робърт Родригес, Франк Милър, в ролите: Мики Рурк, Джесика Алба, Джош Бролин, и др.... @ "2023-06-13T22:05:00.0000000+03:00"
+2023-06-11 21:01:44.735 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|0| Scraping url: https://www.xn----8sbafg9clhjcp.bg/tv/moviestar/Сряда
+2023-06-11 21:01:44.770 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|1| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%BD-%D0%BE%D1%82%D1%80%D1%8F%D0%B4,1495278385/
+2023-06-11 21:01:44.833 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|1| Grabbed program Наказателен отряд - криминален екшън, 2013, режисьор: Кеони Уаксман, в ролите: Стивън Сегал, Винг Реймс, Брен Фостър, Дани Трехо Филмът разказва за... @ "2023-06-14T01:55:00.0000000+03:00"
+2023-06-11 21:01:44.835 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|2| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%91%D1%8F%D0%B3%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D0%BE%D1%82%D0%BA%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5,3103743695/
+2023-06-11 21:01:44.987 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|2| Grabbed program Бягство и отклонение - военна драма, 2019, режисьор: Сторм Ашууд, в ролите: Джош Макконвил, Бони Свен, Рина Оуен, Хю Шеридан и др. След като отрядът... @ "2023-06-14T03:50:00.0000000+03:00"
+2023-06-11 21:01:44.989 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|3| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%A1%D0%B8%D0%B2%D0%B8%D1%8F-%D0%B1%D1%83%D1%85%D0%B0%D0%BB,3665552730/
+2023-06-11 21:01:45.132 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|3| Grabbed program Сивия бухал - драма, уестърн, 1999, режисьор: Ричард Атънбъроу, в ролите: Пиърс Броснан, Стюарт Бик, Власта Врана. Британецът Арчибалд... @ "2023-06-14T05:40:00.0000000+03:00"
+2023-06-11 21:01:45.135 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|4| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%94%D0%B8%D0%B2%D0%B0%D1%82%D0%B0-%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0,4103005924/
+2023-06-11 21:01:45.278 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|4| Grabbed program Дивата Америка - приключение, 1997, режисьор: Уилям Дийър, в ролите: Джонатан Тейлър Томас, Девон Сава, Франсис Фишър, Джейми Шеридан и др.Една... @ "2023-06-14T07:55:00.0000000+03:00"
+2023-06-11 21:01:45.282 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|5| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%91%D0%BE%D1%80%D0%B1%D0%B0-%D1%81-%D0%B4%D0%B8%D0%B2%D0%BE%D1%82%D0%BE%3A-%D0%9E%D1%86%D0%B5%D0%BB%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5-%D0%B2-%D0%A1%D0%B5%D1%80%D0%B5%D0%BD%D0%B3%D0%B5%D1%82%D0%B8,4170746328/
+2023-06-11 21:01:45.419 00013 [ERR] TV-PROGRAMA.BG |Moviestar |2|14|5| No valid content from scraping was downloaded
+2023-06-11 21:01:45.425 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|5| Grabbed program Борба с дивото: Оцеляване в Серенгети - екшън, приключение, семеен, 2016, режисьор: Ричард Бодингтън, в ролите: Джери Райън, Джон Пол Рътън, Ела Балънтайн, Ашли Доудс,... @ "2023-06-14T10:00:00.0000000+03:00"
+2023-06-11 21:01:45.427 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|6| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%9A%D1%83%D0%BF%D0%BE%D0%BD-%D1%81-%D0%BF%D1%80%D0%B5%D1%81%D0%BF%D0%B8%D0%B2%D0%B0%D0%BD%D0%B5,1623443009/
+2023-06-11 21:01:45.562 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|6| Grabbed program Купон с преспиване - романтична комедия, 2004, режисьор: Джо Нюсбаъм, в ролите: Алекса Вега, Мика Борем , Скот Тейлър-Комптън, Кали Флин Чайлдрес,... @ "2023-06-14T11:50:00.0000000+03:00"
+2023-06-11 21:01:45.566 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|7| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%9D%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B8%D1%82%D0%BE-%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%B0%D1%85%D0%BC%D0%B5,3271017874/
+2023-06-11 21:01:45.653 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|7| Grabbed program Ние, които останахме - драма, 2019, режисьор: Айслин Чин-Йе, в ролите: Хедър Греъм, Софи Нелис, Абигейл Пньовски, Шон Галахър и др.Животът на Ками... @ "2023-06-14T13:35:00.0000000+03:00"
+2023-06-11 21:01:45.656 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|8| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%91%D0%B5%D0%B7-%D0%BF%D1%80%D0%B5%D0%BE%D1%82%D1%81%D1%82%D1%8A%D0%BF%D0%B2%D0%B0%D0%BD%D0%B5,1949207338/
+2023-06-11 21:01:45.741 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|8| Grabbed program Без преотстъпване - комедия, 2017, режисьор: Брендън Брадли, в ролите: Ашли Клемънтс, Брендън Брадли, Шана Малкълм, Кейти Уий, Кристофър Никълъс... @ "2023-06-14T15:15:00.0000000+03:00"
+2023-06-11 21:01:45.744 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|9| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%9C%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%3A-%D0%A2%D1%8A%D0%BC%D0%BD%D0%B8%D1%82%D0%B5-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0,4127608671/
+2023-06-11 21:01:45.827 00013 [ERR] TV-PROGRAMA.BG |Moviestar |2|14|9| No valid content from scraping was downloaded
+2023-06-11 21:01:45.831 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|9| Grabbed program Митика: Тъмните времена - екшън, приключение, фентъзи, 2015, режисьор: Ан Блек, в ролите: Мелани Стоун, Адам Джонсън, Робърт Джейн, Кевин Сорбо, Ники... @ "2023-06-14T16:55:00.0000000+03:00"
+2023-06-11 21:01:45.833 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|10| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%91%D0%B0%D0%BD%D0%B4%D0%B8%D1%82,4006574119/
+2023-06-11 21:01:45.914 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|10| Grabbed program Бандит - криминална драма, трилър, 2022, режисьор: Алън Унгар, в ролите: Джош Дюамел, Елиша Кътбърт, Нестор Карбонел, Свен Темел, Оливия... @ "2023-06-14T19:00:00.0000000+03:00"
+2023-06-11 21:01:45.917 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|11| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%A2%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D1%81%D0%B8%D0%BB%D0%B8,1473690127/
+2023-06-11 21:01:45.998 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|11| Grabbed program Тактически сили - екшън, 2011, режисьор: Адамо Паоло Култраро, в ролите: Стив Остин, Майкъл Шанкс, Майкъл Джей Уайт, Кийт Джардин, Майкъл Еклънд... @ "2023-06-14T21:20:00.0000000+03:00"
+2023-06-11 21:01:46.001 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|12| Scraping url: https://www.xn----8sbafg9clhjcp.bg/predavane/predavane/%D0%9F%D1%80%D0%BE%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D0%B5,509487313/
+2023-06-11 21:01:46.107 00013 [INF] TV-PROGRAMA.BG |Moviestar |2|14|12| Grabbed program Прозрение - фентъзи, криминален трилър, 2021, режисьор: Кен Женг, в ролите: Кен Женг, Маделин Зима, Шон Патрик Фланъри, Джон Савидж, Адам... @ "2023-06-14T23:05:00.0000000+03:00"
+2023-06-11 21:01:46.112 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\programtv.onet.pl.template.yaml
+2023-06-11 21:01:46.114 00013 [INF] PROGRAMTV.ONET.PL |Starting grabbing programs for 3 channels
+2023-06-11 21:01:46.115 00013 [INF] PROGRAMTV.ONET.PL |Sky Sport 1 |2|11|0| Scraping url: http://programtv.onet.pl/program-tv/sky-sport-1-441?dzien=0
+2023-06-11 21:01:46.768 00013 [INF] PROGRAMTV.ONET.PL |Sky Sport 1 |2|12|0| Scraping url: http://programtv.onet.pl/program-tv/sky-sport-1-441?dzien=1
+2023-06-11 21:01:47.271 00013 [INF] PROGRAMTV.ONET.PL |Sky Sport 1 |2|13|0| Scraping url: http://programtv.onet.pl/program-tv/sky-sport-1-441?dzien=2
+2023-06-11 21:01:47.834 00013 [INF] PROGRAMTV.ONET.PL |Sky Sport 1 |2|14|0| Scraping url: http://programtv.onet.pl/program-tv/sky-sport-1-441?dzien=3
+2023-06-11 21:01:48.249 00013 [INF] PROGRAMTV.ONET.PL |Sky Sport 2 HD |2|11|0| Scraping url: http://programtv.onet.pl/program-tv/sky-sport-2-443?dzien=0
+2023-06-11 21:01:49.218 00013 [INF] PROGRAMTV.ONET.PL |Sky Sport 2 HD |2|12|0| Scraping url: http://programtv.onet.pl/program-tv/sky-sport-2-443?dzien=1
+2023-06-11 21:01:49.469 00013 [INF] PROGRAMTV.ONET.PL |Sky Sport 2 HD |2|13|0| Scraping url: http://programtv.onet.pl/program-tv/sky-sport-2-443?dzien=2
+2023-06-11 21:01:49.893 00013 [INF] PROGRAMTV.ONET.PL |Sky Sport 2 HD |2|14|0| Scraping url: http://programtv.onet.pl/program-tv/sky-sport-2-443?dzien=3
+2023-06-11 21:01:50.613 00013 [INF] PROGRAMTV.ONET.PL |CGTN |2|14|0| Scraping url: http://programtv.onet.pl/program-tv/cctv-news-291?dzien=3
+2023-06-11 21:01:51.244 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\uksky.com.template.yaml
+2023-06-11 21:01:51.248 00013 [INF] UKSKY.COM |Starting grabbing programs for 1 channels
+2023-06-11 21:01:51.249 00013 [INF] UKSKY.COM |Russia Today |2|11|0| Scraping url: https://awk.epgsky.com/hawk/linear/schedule/20230611/5314
+2023-06-11 21:01:51.428 00013 [INF] UKSKY.COM |Russia Today |2|12|0| Scraping url: https://awk.epgsky.com/hawk/linear/schedule/20230612/5314
+2023-06-11 21:01:51.530 00013 [INF] UKSKY.COM |Russia Today |2|13|0| Scraping url: https://awk.epgsky.com/hawk/linear/schedule/20230613/5314
+2023-06-11 21:01:51.694 00013 [INF] UKSKY.COM |Russia Today |2|14|0| Scraping url: https://awk.epgsky.com/hawk/linear/schedule/20230614/5314
+2023-06-11 21:01:51.895 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\start.bg.template.yaml
+2023-06-11 21:01:51.900 00013 [INF] START.BG |Starting grabbing programs for 1 channels
+2023-06-11 21:01:51.901 00013 [INF] START.BG |Травел ТВ |2|12|0| Scraping url: https://www.start.bg/lenta/tv-programa//tv/show/channel/96/2023-06-12/0
+2023-06-11 21:01:52.095 00013 [INF] START.BG |Травел ТВ |2|13|0| Scraping url: https://www.start.bg/lenta/tv-programa//tv/show/channel/96/2023-06-13/0
+2023-06-11 21:01:52.295 00013 [INF] START.BG |Травел ТВ |2|14|0| Scraping url: https://www.start.bg/lenta/tv-programa//tv/show/channel/96/2023-06-14/0
+2023-06-11 21:01:52.508 00013 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\turksatkablo.com.tr.template.yaml
+2023-06-11 21:01:52.512 00013 [INF] TURKSATKABLO.COM.TR |Starting grabbing programs for 1 channels
+2023-06-11 21:01:52.513 00013 [INF] TURKSATKABLO.COM.TR |TRT 1 |2|14|0| Scraping url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=1686690000
+2023-06-11 21:01:53.638 00013 [INF] TURKSATKABLO.COM.TR |TRT 1 |2|14|12| Grabbed program Teşkilat @ "2023-06-14T20:00:00.0000000+03:00"
+2023-06-11 21:01:53.641 00013 [INF] TURKSATKABLO.COM.TR |TRT 1 |2|14|0| All programs grabbed for channel trt1.tr
+2023-06-11 21:01:53.642 00013 [INF] Creating grabbing groups for round #3
+2023-06-11 21:01:53.643 00013 [INF] Created 1 grabber groups
+2023-06-11 21:01:53.644 00005 [INF] Loading template from file: C:\Git\Popular EPG\config\templates\programtv.onet.pl.template.yaml
+2023-06-11 21:01:53.647 00005 [INF] PROGRAMTV.ONET.PL |Starting grabbing programs for 1 channels
+2023-06-11 21:01:53.648 00005 [INF] PROGRAMTV.ONET.PL |Russia Today |3|11|0| Scraping url: http://programtv.onet.pl/program-tv/russia-today-hd-164?dzien=0
+2023-06-11 21:01:55.182 00013 [INF] PROGRAMTV.ONET.PL |Russia Today |3|12|0| Scraping url: http://programtv.onet.pl/program-tv/russia-today-hd-164?dzien=1
+2023-06-11 21:01:55.882 00009 [INF] PROGRAMTV.ONET.PL |Russia Today |3|13|0| Scraping url: http://programtv.onet.pl/program-tv/russia-today-hd-164?dzien=2
+2023-06-11 21:01:56.365 00009 [INF] PROGRAMTV.ONET.PL |Russia Today |3|14|0| Scraping url: http://programtv.onet.pl/program-tv/russia-today-hd-164?dzien=3
+2023-06-11 21:01:57.350 00003 [INF] Generating EPG in file 'epg.xml'. Details level: 3
+2023-06-11 21:01:57.391 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\epg.xml
+2023-06-11 21:01:57.507 00003 [INF] Generating EPG in file 'epg.xml'. Details level: 3
+2023-06-11 21:01:57.526 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\epg.xml.gz
+2023-06-11 21:01:57.739 00003 [INF] Generating EPG in file 'all-4days.full.epg.xml'. Details level: 3
+2023-06-11 21:01:57.760 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-4days.full.epg.xml
+2023-06-11 21:01:57.883 00003 [INF] Generating EPG in file 'all-4days.full.epg.xml'. Details level: 3
+2023-06-11 21:01:57.912 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-4days.full.epg.xml.gz
+2023-06-11 21:01:58.086 00003 [INF] Generating EPG in file 'all-4days.details.epg.xml'. Details level: 3
+2023-06-11 21:01:58.112 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-4days.details.epg.xml.gz
+2023-06-11 21:01:58.280 00003 [INF] Generating EPG in file 'all-4days.details.epg.xml'. Details level: 3
+2023-06-11 21:01:58.307 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-4days.details.epg.xml
+2023-06-11 21:01:58.394 00003 [INF] Generating EPG in file 'all-4days.basic.epg.xml'. Details level: 3
+2023-06-11 21:01:58.422 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-4days.basic.epg.xml.gz
+2023-06-11 21:01:58.593 00003 [INF] Generating EPG in file 'all-4days.basic.epg.xml'. Details level: 3
+2023-06-11 21:01:58.619 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-4days.basic.epg.xml
+2023-06-11 21:01:58.707 00003 [INF] Generating EPG in file 'all-3days.basic.epg.xml'. Details level: 1
+2023-06-11 21:01:58.741 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-3days.basic.epg.xml
+2023-06-11 21:01:58.799 00003 [INF] Generating EPG in file 'all-3days.basic.epg.xml'. Details level: 1
+2023-06-11 21:01:58.860 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-3days.basic.epg.xml.gz
+2023-06-11 21:01:58.944 00003 [INF] Generating EPG in file 'all-3days.details.epg.xml'. Details level: 2
+2023-06-11 21:01:58.988 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-3days.details.epg.xml
+2023-06-11 21:01:59.057 00003 [INF] Generating EPG in file 'all-3days.details.epg.xml'. Details level: 2
+2023-06-11 21:01:59.105 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-3days.details.epg.xml.gz
+2023-06-11 21:01:59.238 00003 [INF] Generating EPG in file 'all-3days.details.epg.xml'. Details level: 2
+2023-06-11 21:01:59.252 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-3days.details.epg.xml.gz
+2023-06-11 21:01:59.375 00003 [INF] Generating EPG in file 'all-3days.full.epg.xml'. Details level: 3
+2023-06-11 21:01:59.387 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-3days.full.epg.xml
+2023-06-11 21:01:59.468 00003 [INF] Generating EPG in file 'all-3days.full.epg.xml'. Details level: 3
+2023-06-11 21:01:59.475 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-3days.full.epg.xml.gz
+2023-06-11 21:01:59.621 00003 [INF] Generating EPG in file 'all-2days.full.epg.xml'. Details level: 3
+2023-06-11 21:01:59.627 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-2days.full.epg.xml.gz
+2023-06-11 21:01:59.712 00003 [INF] Generating EPG in file 'all-2days.full.epg.xml'. Details level: 3
+2023-06-11 21:01:59.719 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-2days.full.epg.xml
+2023-06-11 21:01:59.761 00003 [INF] Generating EPG in file 'all-2days.details.epg.xml'. Details level: 2
+2023-06-11 21:01:59.772 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-2days.details.epg.xml
+2023-06-11 21:01:59.832 00003 [INF] Generating EPG in file 'all-2days.details.epg.xml'. Details level: 2
+2023-06-11 21:01:59.847 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-2days.details.epg.xml.gz
+2023-06-11 21:01:59.933 00003 [INF] Generating EPG in file 'all-2days.basic.epg.xml'. Details level: 1
+2023-06-11 21:01:59.945 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-2days.basic.epg.xml
+2023-06-11 21:01:59.983 00003 [INF] Generating EPG in file 'all-2days.basic.epg.xml'. Details level: 1
+2023-06-11 21:01:59.997 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\all-2days.basic.epg.xml.gz
+2023-06-11 21:02:00.061 00003 [INF] Generating EPG in file 'bulgarian.3days.full.epg.xml'. Details level: 3
+2023-06-11 21:02:00.063 00003 [INF] Exporting only channels from groups: bg
+2023-06-11 21:02:00.065 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\bulgarian.3days.full.epg.xml.gz
+2023-06-11 21:02:00.080 00003 [INF] Generating EPG in file 'bulgarian.3days.full.epg.xml'. Details level: 3
+2023-06-11 21:02:00.082 00003 [INF] Exporting only channels from groups: bg
+2023-06-11 21:02:00.083 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\bulgarian.3days.full.epg.xml
+2023-06-11 21:02:00.092 00003 [INF] Generating EPG in file 'sport.epg.xml'. Details level: 3
+2023-06-11 21:02:00.094 00003 [INF] Exporting only channels from groups: sport
+2023-06-11 21:02:00.095 00003 [INF] Exporting EPG to C:\Git\Popular EPG\config\output\sport.epg.xml
+2023-06-11 21:02:00.119 00003 [INF] End time "2023-06-11T21:02:00.1194207+03:00"
+2023-06-11 21:02:00.121 00003 [INF] Execution time: "00:01:23.5789417"

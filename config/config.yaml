@@ -100,6 +100,11 @@ output-files:
   - name: all-4days.full.epg.xml
     days-ahead: 4
     days-behind: 0
+    compression: none
+
+  - name: all-4days.full.epg.xml
+    days-ahead: 4
+    days-behind: 0
     compression: gzip
 
   - name: all-4days.details.epg.xml
@@ -152,6 +157,11 @@ output-files:
     details-level: 2
     compression: gzip
 
+  - name: all-3days.full.epg.xml
+    days-ahead: 3
+    days-behind: 0
+    compression: none
+    
   - name: all-3days.full.epg.xml
     days-ahead: 3
     days-behind: 0
