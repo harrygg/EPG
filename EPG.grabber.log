@@ -1,14 +1,14 @@
-2023-06-13 08:24:17.538 00001 [INF] **************************************************************************
-2023-06-13 08:24:17.555 00001 [INF] 
-2023-06-13 08:24:17.561 00001 [INF]                        EPG.grabber  1.2022.224.0
-2023-06-13 08:24:17.563 00001 [INF] 
-2023-06-13 08:24:17.564 00001 [INF] **************************************************************************
-2023-06-13 08:24:17.565 00001 [INF] Start time: "2023-06-13T08:24:17.5651756+03:00"
-2023-06-13 08:24:17.567 00001 [INF] Command line arguments: grab -f config -o ." -l 2
-2023-06-13 08:24:17.662 00001 [INF] Loading config from file C:\Git\EPG\config\config.yaml
-2023-06-13 08:24:17.754 00001 [VRB] Created config folder C:\Git\EPG\config
-2023-06-13 08:24:17.754 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
-2023-06-13 08:24:17.754 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
-2023-06-13 08:24:17.754 00001 [ERR] Error during grabbing The filename, directory name, or volume label syntax is incorrect. : 'C:\Git\EPG\." -l 2'
-2023-06-13 08:24:17.793 00001 [INF] End time "2023-06-13T08:24:17.7934412+03:00"
-2023-06-13 08:24:17.795 00001 [INF] Execution time: "00:00:00.2282656"
+2023-06-13 08:24:47.516 00001 [INF] **************************************************************************
+2023-06-13 08:24:47.533 00001 [INF] 
+2023-06-13 08:24:47.539 00001 [INF]                        EPG.grabber  1.2022.224.0
+2023-06-13 08:24:47.541 00001 [INF] 
+2023-06-13 08:24:47.542 00001 [INF] **************************************************************************
+2023-06-13 08:24:47.543 00001 [INF] Start time: "2023-06-13T08:24:47.5428204+03:00"
+2023-06-13 08:24:47.544 00001 [INF] Command line arguments: grab -f config -o " -l 2
+2023-06-13 08:24:47.638 00001 [INF] Loading config from file C:\Git\EPG\config\config.yaml
+2023-06-13 08:24:47.731 00001 [VRB] Created config folder C:\Git\EPG\config
+2023-06-13 08:24:47.731 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
+2023-06-13 08:24:47.731 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
+2023-06-13 08:24:47.732 00001 [ERR] Error during grabbing The filename, directory name, or volume label syntax is incorrect. : 'C:\Git\EPG\" -l 2'
+2023-06-13 08:24:47.757 00001 [INF] End time "2023-06-13T08:24:47.7578633+03:00"
+2023-06-13 08:24:47.759 00001 [INF] Execution time: "00:00:00.2150429"
