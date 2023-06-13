@@ -1,4 +1,4 @@
-"C:\Git\Popular EPG\bin\app.exe" grab -f "C:\Git\Popular EPG\config" -l 2
+"C:\Git\EPG\bin\app.exe" grab -f "C:\Git\EPG\config" -l 2
 
 git pull
 git status
