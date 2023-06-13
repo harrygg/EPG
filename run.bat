@@ -1,4 +1,4 @@
-"bin\app.exe" grab -f "config" -o "\" -l 2
+"bin\app.exe" grab -f "config" -o "\\" -l 2
 
 git pull
 git status
