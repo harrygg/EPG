@@ -184,6 +184,26 @@
     <display-name>Nova Sport HD</display-name>
     <display-name>Nova Sport LQ</display-name>
   </channel>
+  <channel id="diemasport.bg">
+    <display-name lang="bg">Диема Спорт</display-name>
+    <display-name>Diema Sport</display-name>
+    <display-name>Diema Sport HD</display-name>
+    <display-name>Diema Sport LQ</display-name>
+  </channel>
+  <channel id="diemasport2.bg">
+    <display-name lang="bg">Диема Спорт 2</display-name>
+    <display-name>Diema Sport 2</display-name>
+    <display-name>Diema Sport 2 HD</display-name>
+    <display-name>Diema Sport 2 4K</display-name>
+    <display-name>Diema Sport 2 LQ</display-name>
+  </channel>
+  <channel id="diemasport3.bg">
+    <display-name lang="bg">Диема Спорт 3</display-name>
+    <display-name>Diema Sport 3</display-name>
+    <display-name>Diema Sport 3 HD</display-name>
+    <display-name>Diema Sport 3 4K</display-name>
+    <display-name>Diema Sport 3 LQ</display-name>
+  </channel>
   <channel id="ring.bg">
     <display-name lang="bg">Ринг</display-name>
     <display-name>Ring LQ</display-name>
@@ -637,6 +657,14 @@
     <display-name lang="en">Animal Planet</display-name>
     <display-name lang="en">Animal Planet HD</display-name>
   </channel>
+  <channel id="hobbytv.bg">
+    <display-name lang="en">Hobby TV</display-name>
+    <display-name lang="bg">Хоби ТВ</display-name>
+  </channel>
+  <channel id="ohotarybalka.ru">
+    <display-name lang="ru">Охота и рыбалка</display-name>
+    <display-name lang="en">Ohota Rybalka</display-name>
+  </channel>
   <channel id="travelchannel.bg">
     <display-name lang="en">Travel Channel</display-name>
     <display-name lang="en">Travel Channel HD</display-name>
@@ -1079,7 +1107,7 @@
   <programme start="20230625224500 +0300" stop="20230625230000 +0300" channel="bnt1.bg">
     <title lang="bg">По света и у нас</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="bnt1.bg">
+  <programme start="20230625230000 +0300" stop="20230626055500 +0300" channel="bnt1.bg">
     <title lang="bg">Международен джаз фестивал "Д-р Емил Илиев 2022" - Боровец: Солистите на Биг Бенда на БНР</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="bnt2.bg">
@@ -1358,7 +1386,7 @@
   <programme start="20230625220500 +0300" stop="20230625230000 +0300" channel="bnt2.bg">
     <title lang="bg">Тоска</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="bnt2.bg">
+  <programme start="20230625230000 +0300" stop="20230626060000 +0300" channel="bnt2.bg">
     <title lang="bg">Събота вечер с БНТ</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623061000 +0300" channel="bnt3.bg">
@@ -1523,7 +1551,7 @@
   <programme start="20230625215000 +0300" stop="20230625220000 +0300" channel="bnt3.bg">
     <title lang="bg">Спортни новини</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="bnt3.bg">
+  <programme start="20230625220000 +0300" stop="20230626060000 +0300" channel="bnt3.bg">
     <title lang="bg">Футбол: Хърватия - Испания, финал на турнира на УЕФА "Лига на нациите"</title>
   </programme>
   <programme start="20230623055500 +0300" stop="20230623092000 +0300" channel="bnt4.bg">
@@ -1763,7 +1791,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="bnt4.bg">
     <title lang="bg">Ново 10 + 2</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="bnt4.bg">
+  <programme start="20230625230000 +0300" stop="20230626055500 +0300" channel="bnt4.bg">
     <title lang="bg">Удавникът /70 г. от рождението на актьора Мирослав Косев/</title>
   </programme>
   <programme start="20230623003000 +0300" stop="20230623012000 +0300" channel="btv.bg">
@@ -1946,7 +1974,7 @@
   <programme start="20230625200000 +0300" stop="20230625220000 +0300" channel="btv.bg">
     <title>Стани богат: Въпрос на бъдеще</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="btv.bg">
+  <programme start="20230625220000 +0300" stop="20230626001000 +0300" channel="btv.bg">
     <title>Престъпник за един ден</title>
   </programme>
   <programme start="20230623004500 +0300" stop="20230623014500 +0300" channel="btvaction.bg">
@@ -2105,7 +2133,7 @@
   <programme start="20230625184500 +0300" stop="20230625210000 +0300" channel="btvaction.bg">
     <title>Ултиматумът на Борн</title>
   </programme>
-  <programme start="20230625210000 +0300" channel="btvaction.bg">
+  <programme start="20230625210000 +0300" stop="20230626001500 +0300" channel="btvaction.bg">
     <title>Последното кралство</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623010000 +0300" channel="btvlady.bg">
@@ -2288,7 +2316,7 @@
   <programme start="20230625213000 +0300" stop="20230625223000 +0300" channel="btvlady.bg">
     <title>Хари Уайлд</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="btvlady.bg">
+  <programme start="20230625223000 +0300" stop="20230626015000 +0300" channel="btvlady.bg">
     <title>Имението Даунтън</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623093000 +0300" channel="nova.bg">
@@ -2426,7 +2454,7 @@
   <programme start="20230625200000 +0300" stop="20230625224000 +0300" channel="nova.bg">
     <title>Маскираният певец – музикално шоу, сезон 1</title>
   </programme>
-  <programme start="20230625224000 +0300" channel="nova.bg">
+  <programme start="20230625224000 +0300" stop="20230626060000 +0300" channel="nova.bg">
     <title>Мумията – приключенски, екшън</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623070000 +0300" channel="bloombergtv.bg">
@@ -2663,7 +2691,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="bloombergtv.bg">
     <title>Update - предаване за високите технологии с водещ Бойчо Попов/Елена Кирилова /п./</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="bloombergtv.bg">
+  <programme start="20230625233000 +0300" stop="20230626060000 +0300" channel="bloombergtv.bg">
     <title>Здравей, свят - док. поредица на Bloomberg</title>
   </programme>
   <programme start="20230623053000 +0300" stop="20230623060000 +0300" channel="bgonair.bg">
@@ -2909,7 +2937,7 @@
   <programme start="20230625213000 +0300" stop="20230625220000 +0300" channel="bgonair.bg">
     <title>Новините ON AIR /п./</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="bgonair.bg">
+  <programme start="20230625220000 +0300" stop="20230626053000 +0300" channel="bgonair.bg">
     <title>Сериал</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623100000 +0300" channel="evrokom.bg">
@@ -3101,7 +3129,7 @@
   <programme start="20230625231000 +0300" stop="20230625233000 +0300" channel="evrokom.bg">
     <title>Обективно</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="evrokom.bg">
+  <programme start="20230625233000 +0300" stop="20230626063000 +0300" channel="evrokom.bg">
     <title>Психологически портрет - с Рени Анастасова</title>
   </programme>
   <programme start="20230624064000 +0300" stop="20230624070000 +0300" channel="codehealth.bg">
@@ -3446,7 +3474,7 @@
   <programme start="20230625220000 +0300" stop="20230625223000 +0300" channel="skat.bg">
     <title>Новини - централна емисия на ТВ "СКАТ / повторение /</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="skat.bg">
+  <programme start="20230625223000 +0300" stop="20230626060000 +0300" channel="skat.bg">
     <title>"Политиката на прицел" с водещ Венцислав Тоцев /повторение/</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623070000 +0300" channel="alfatv.bg">
@@ -3830,7 +3858,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="alfatv.bg">
+  <programme start="20230625233000 +0300" stop="20230626053000 +0300" channel="alfatv.bg">
     <title>Актуално</title>
   </programme>
   <programme start="20230623055500 +0300" stop="20230623060000 +0300" channel="agrotv.bg">
@@ -4691,7 +4719,7 @@
   <programme start="20230625233500 +0300" stop="20230625235500 +0300" channel="agrotv.bg">
     <title>Агромаркет</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="agrotv.bg">
+  <programme start="20230625235500 +0300" stop="20230626055500 +0300" channel="agrotv.bg">
     <title>Музикална пауза</title>
   </programme>
   <programme start="20230623051000 +0300" stop="20230623070000 +0300" channel="eurochannel.com">
@@ -4814,7 +4842,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="eurochannel.com">
     <title>Ambition S3 Ep.12</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="eurochannel.com">
+  <programme start="20230625230000 +0300" stop="20230626050500 +0300" channel="eurochannel.com">
     <title>Ambition S3 Ep.13</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623064500 +0300" channel="tv1.bg">
@@ -5021,7 +5049,7 @@
   <programme start="20230625220000 +0300" stop="20230625223000 +0300" channel="tv1.bg">
     <title>"Златен кукер"</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="tv1.bg">
+  <programme start="20230625223000 +0300" stop="20230626060000 +0300" channel="tv1.bg">
     <title>"Viva la Musica!"</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623080000 +0300" channel="sedemosmi.tv">
@@ -5171,7 +5199,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="sedemosmi.tv">
     <title>Вечерното шоу на Слави Трифонов (П)</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="sedemosmi.tv">
+  <programme start="20230625230000 +0300" stop="20230626070000 +0300" channel="sedemosmi.tv">
     <title>Шоуто на сценаристите (П)</title>
   </programme>
   <programme start="20230623024500 +0300" stop="20230623052500 +0300" channel="hbo.bg">
@@ -5285,7 +5313,7 @@
   <programme start="20230625210000 +0300" stop="20230625224000 +0300" channel="hbo.bg">
     <title lang="bg">"Злите мъртви: Пробуждане", хорър - фентъзи, САЩ, 2022; реж. Лий Кронин, с Лили Съливан, Алиса Съдърланд, Морган Дейвис, Габриел Екълс, Нел Фишър, [18+]</title>
   </programme>
-  <programme start="20230625224000 +0300" channel="hbo.bg">
+  <programme start="20230625224000 +0300" stop="20230626020500 +0300" channel="hbo.bg">
     <title lang="bg">"Злокобен", хорър, САЩ, 2021; реж. Джеймс Уон, с Анабел Уолис, Мади Хасън, Джордж Йънг, Жаклин Маккензи, Микол Бриана Уайт, [18+]</title>
   </programme>
   <programme start="20230623012000 +0300" stop="20230623015500 +0300" channel="hbo2.bg">
@@ -5414,7 +5442,7 @@
   <programme start="20230625200000 +0300" stop="20230625215500 +0300" channel="hbo2.bg">
     <title lang="bg">"Uncharted: Извън картата", приключенски екшън, САЩ, 2022; реж. Рубен Флайшър, с Том Холанд, Марк Уолбърг, Антонио Бандерас, София Али, Тати Габриел, [12+]</title>
   </programme>
-  <programme start="20230625215500 +0300" channel="hbo2.bg">
+  <programme start="20230625215500 +0300" stop="20230626012500 +0300" channel="hbo2.bg">
     <title lang="bg">"Батман (2022)", екшън - крими - трилър, САЩ, 2022; реж. Мат Рийвс, с Робърт Патинсън, Зоуи Кравиц, Пол Дано, Джефри Райт, Джон Туртуро, [15+]</title>
   </programme>
   <programme start="20230623042500 +0300" stop="20230623060500 +0300" channel="hbo3.bg">
@@ -5606,7 +5634,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="hbo3.bg">
     <title lang="bg">"Отвъд І, 8 еп.", драма - хорър, САЩ, 2022; реж. Дженифър Ляо, със Скот Маккорд, Харолд Перино, Каталина Сандино Морено, Айон Бейли, Дейвид Алпай, [18+]</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="hbo3.bg">
+  <programme start="20230625230000 +0300" stop="20230626020500 +0300" channel="hbo3.bg">
     <title lang="bg">"Възходът на династията "Лейкърс" І, 4 еп.", спортна драма, САЩ, 2022; реж. Дамян Маркано, с Джон С. Райли, Джейсън Кларк, Ейдриън Броуди, Куинси Айзая, Сали Фийлд, [15+]</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623084500 +0300" channel="cinemax1.bg">
@@ -5711,7 +5739,7 @@
   <programme start="20230625210000 +0300" stop="20230625225500 +0300" channel="cinemax1.bg">
     <title lang="bg">"Блейд Рънър", научно-фантастична драма, САЩ, 1982; реж. Ридли Скот, с Харисън Форд, Рутгер Хауер, Шон Йънг, Едуард Джеймс Олмос, М. Емет Уолш, [15+]</title>
   </programme>
-  <programme start="20230625225500 +0300" channel="cinemax1.bg">
+  <programme start="20230625225500 +0300" stop="20230626083500 +0300" channel="cinemax1.bg">
     <title lang="bg">"Имало едно време в Америка", криминална драма, САЩ, 1984; реж. Серджо Леоне, с Робърт Де Ниро, Джеймс Уудс, Елизабет Макгавърн, Трийт Уилямс, Тюздей Уелд, [18+]</title>
   </programme>
   <programme start="20230623034000 +0300" stop="20230623051500 +0300" channel="cinemax2.bg">
@@ -5825,7 +5853,7 @@
   <programme start="20230625213000 +0300" stop="20230625232000 +0300" channel="cinemax2.bg">
     <title lang="bg">""Сюпрем"", драма - мистерия, Франция, 2021; реж. Одри Еструго, с Тео Кристин, Шандор Фунтек, Феликс Лефевр, Сезар Шураки, Франсоа Нейкен, [15+]</title>
   </programme>
-  <programme start="20230625232000 +0300" channel="cinemax2.bg">
+  <programme start="20230625232000 +0300" stop="20230626025000 +0300" channel="cinemax2.bg">
     <title lang="bg">"Земя на радостта", драма, Пакистан, 2022; реж. Саим Садик, с Али Джунеджо, Расти Фарук, Алина Кан, Сарват Джилани, Сохаил Самеер, [15+]</title>
   </programme>
   <programme start="20230623004500 +0300" stop="20230623024500 +0300" channel="btvcinema.bg">
@@ -5918,7 +5946,7 @@
   <programme start="20230625210000 +0300" stop="20230625231500 +0300" channel="btvcinema.bg">
     <title>Китайски зодиак</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="btvcinema.bg">
+  <programme start="20230625231500 +0300" stop="20230626011500 +0300" channel="btvcinema.bg">
     <title>Хайде в пандиза</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623020000 +0300" channel="btvcomedy.bg">
@@ -6083,7 +6111,7 @@
   <programme start="20230625223000 +0300" stop="20230625233000 +0300" channel="btvcomedy.bg">
     <title>Наръчник за женени</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="btvcomedy.bg">
+  <programme start="20230625233000 +0300" stop="20230626013000 +0300" channel="btvcomedy.bg">
     <title>Анжелика</title>
   </programme>
   <programme start="20230623011000 +0300" stop="20230623025000 +0300" channel="moviestar.bg">
@@ -6293,7 +6321,7 @@
   <programme start="20230625200000 +0300" stop="20230625220000 +0300" channel="cinemania.bg">
     <title lang="bg">КАПЕРНАУМ драма копродукция 2018</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="cinemania.bg">
+  <programme start="20230625220000 +0300" stop="20230626020000 +0300" channel="cinemania.bg">
     <title lang="bg">ДЪЩЕРИТЕ НА АБРИЛ драма Мексико 2017</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623074500 +0300" channel="epicdrama.bg">
@@ -6461,7 +6489,7 @@
   <programme start="20230625220000 +0300" stop="20230625233000 +0300" channel="epicdrama.bg">
     <title>Инспектор Далглиш, сезон 2, еп. 3, Великобритания, 2022</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="epicdrama.bg">
+  <programme start="20230625233000 +0300" stop="20230626063500 +0300" channel="epicdrama.bg">
     <title>Криминалните случаи на г-ца Марпъл, сезон 1, еп. 3, Великобритания, криминален/мистерии, 2004</title>
   </programme>
   <programme start="20230623094500 +0300" stop="20230623114000 +0300" channel="tv1000.bg">
@@ -6533,7 +6561,7 @@
   <programme start="20230625193500 +0300" stop="20230625220000 +0300" channel="tv1000.bg">
     <title>Здрач, САЩ, драма/фентъзи/романтика, 2008</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="tv1000.bg">
+  <programme start="20230625220000 +0300" stop="20230626072000 +0300" channel="tv1000.bg">
     <title>Дюн, Максико,САЩ, 1984</title>
   </programme>
   <programme start="20230623064500 +0300" stop="20230623074500 +0300" channel="diema.bg">
@@ -6617,7 +6645,7 @@
   <programme start="20230625200000 +0300" stop="20230625220000 +0300" channel="diema.bg">
     <title>Детонатор – екшън, трилър</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="diema.bg">
+  <programme start="20230625220000 +0300" stop="20230626064500 +0300" channel="diema.bg">
     <title>Универсален войник: Ден за разплата – екшън, мистери</title>
   </programme>
   <programme start="20230623064500 +0300" stop="20230623074500 +0300" channel="diemafamily.bg">
@@ -6719,7 +6747,7 @@
   <programme start="20230625200000 +0300" stop="20230625220000 +0300" channel="diemafamily.bg">
     <title>Огнена любов – комедия, романтика</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="diemafamily.bg">
+  <programme start="20230625220000 +0300" stop="20230626064500 +0300" channel="diemafamily.bg">
     <title>Лято в Миконос – комедия /п/</title>
   </programme>
   <programme start="20230623065500 +0300" stop="20230623085500 +0300" channel="kinonova.bg">
@@ -6809,7 +6837,7 @@
   <programme start="20230625210000 +0300" stop="20230625233000 +0300" channel="kinonova.bg">
     <title>Индиана Джоунс и кралството на кристалния череп – приключенски, екшън</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="kinonova.bg">
+  <programme start="20230625233000 +0300" stop="20230626065000 +0300" channel="kinonova.bg">
     <title>От местопрестъплението: Маями – сериал, сезон 3 /п/</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623070500 +0300" channel="axn.bg">
@@ -6995,7 +7023,7 @@
   <programme start="20230625225500 +0300" stop="20230625235000 +0300" channel="axn.bg">
     <title>Морски детективи, Сезон 15, Епизод 15</title>
   </programme>
-  <programme start="20230625235000 +0300" channel="axn.bg">
+  <programme start="20230625235000 +0300" stop="20230626061500 +0300" channel="axn.bg">
     <title>Into The Dark - My Valentine, Епизод 1</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623120000 +0300" channel="axnwhite.bg">
@@ -7148,7 +7176,7 @@
   <programme start="20230625232000 +0300" stop="20230625235500 +0300" channel="axnwhite.bg">
     <title>Антикварни герои; сезон 1, епизод 9, риалити, оригинална продукция, Унгария, 2020</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="axnwhite.bg">
+  <programme start="20230625235500 +0300" stop="20230626070000 +0300" channel="axnwhite.bg">
     <title>Антикварни герои; сезон 1, епизод 10, риалити, оригинална продукция, Унгария, 2020</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623101000 +0300" channel="axnblack.bg">
@@ -7301,7 +7329,7 @@
   <programme start="20230625224000 +0300" stop="20230625233500 +0300" channel="axnblack.bg">
     <title>Знаменитости в уединение; сезон 1, епизод 4, документален, Унгария, 2020</title>
   </programme>
-  <programme start="20230625233500 +0300" channel="axnblack.bg">
+  <programme start="20230625233500 +0300" stop="20230626070000 +0300" channel="axnblack.bg">
     <title>Знаменитости в уединение; сезон 1, епизод 5, документален, Унгария, 2020</title>
   </programme>
   <programme start="20230623004500 +0300" stop="20230623012500 +0300" channel="fox.bg">
@@ -7565,7 +7593,7 @@
   <programme start="20230625210000 +0300" stop="20230625220000 +0300" channel="fox.bg">
     <title>Огнена страна</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="fox.bg">
+  <programme start="20230625220000 +0300" stop="20230626004500 +0300" channel="fox.bg">
     <title>Злокобен остров</title>
   </programme>
   <programme start="20230623004000 +0300" stop="20230623013000 +0300" channel="foxlife.bg">
@@ -7841,7 +7869,7 @@
   <programme start="20230625210000 +0300" stop="20230625232000 +0300" channel="foxlife.bg">
     <title>Сутрешен блок</title>
   </programme>
-  <programme start="20230625232000 +0300" channel="foxlife.bg">
+  <programme start="20230625232000 +0300" stop="20230626001500 +0300" channel="foxlife.bg">
     <title>Отчаяни съпруги</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623005000 +0300" channel="foxcrime.bg">
@@ -8045,7 +8073,7 @@
   <programme start="20230625225500 +0300" stop="20230625235500 +0300" channel="foxcrime.bg">
     <title>Менталист: Крадецът на мисли</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="foxcrime.bg">
+  <programme start="20230625235500 +0300" stop="20230626004500 +0300" channel="foxcrime.bg">
     <title>Полицаите от Чикаго</title>
   </programme>
   <programme start="20230623070500 +0300" stop="20230623073000 +0300" channel="amc.bg">
@@ -8339,8 +8367,320 @@
   <programme start="20230625210500 +0300" stop="20230625230000 +0300" channel="novasport.bg">
     <title>Футбол: Четвъртфинал 1</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="novasport.bg">
+  <programme start="20230625230000 +0300" stop="20230626090000 +0300" channel="novasport.bg">
     <title>Футбол: Четвърфинал 2</title>
+  </programme>
+  <programme start="20230623080000 +0300" stop="20230623100000 +0300" channel="diemasport.bg">
+    <title>Футбол: Литва - България, 3 кръг, Квалификации за UEFA Евро 2024, група G, /п/</title>
+  </programme>
+  <programme start="20230623100000 +0300" stop="20230623120000 +0300" channel="diemasport.bg">
+    <title>Футбол: България - Сърбия, 4 кръг, Квалификации за UEFA Евро 2024, група G, /п/</title>
+  </programme>
+  <programme start="20230623120000 +0300" stop="20230623130000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Локомотив София, 10 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623130000 +0300" stop="20230623140000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Арда, 9 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623140000 +0300" stop="20230623150000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Черно море, 8 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623150000 +0300" stop="20230623160000 +0300" channel="diemasport.bg">
+    <title>"Домът на футбола", 51 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623160000 +0300" stop="20230623170000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Локомотив Пловдив, 6 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623170000 +0300" stop="20230623180000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Ботев Пловдив, 7 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623180000 +0300" stop="20230623190000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Берое, 11 епизод, предаване за български футбол (2022-23)</title>
+  </programme>
+  <programme start="20230623190000 +0300" stop="20230623210000 +0300" channel="diemasport.bg">
+    <title>Футбол: Черно море - Лудогорец, 35 кръг, efbet Лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623210000 +0300" stop="20230623230000 +0300" channel="diemasport.bg">
+    <title>Футбол: ЦСКА 1948 - Лудогорец, Sesame Купа на България (2022-23), финал, /п/</title>
+  </programme>
+  <programme start="20230623230000 +0300" stop="20230624010000 +0300" channel="diemasport.bg">
+    <title>Футбол: Берое - Спортист Своге, мач за място в efbet Лига, /п/</title>
+  </programme>
+  <programme start="20230624010000 +0300" stop="20230624080000 +0300" channel="diemasport.bg">
+    <title>Футбол: Левски - Арда, мач за място в Лига на Конференциите, /п/</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624090000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Берое, 11 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624090000 +0300" stop="20230624100000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Левски, 3 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624100000 +0300" stop="20230624110000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на ЦСКА 1948, 4 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624110000 +0300" stop="20230624120000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на ЦСКА, 2 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624130000 +0300" channel="diemasport.bg">
+    <title>"Домът на футбола", 51 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624130000 +0300" stop="20230624140000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Локомотив Пловдив, 6 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624140000 +0300" stop="20230624150000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Ботев Пловдив, 7 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624150000 +0300" stop="20230624160000 +0300" channel="diemasport.bg">
+    <title>"Головете на сезона", 1 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624160000 +0300" stop="20230624170000 +0300" channel="diemasport.bg">
+    <title>"Головете на сезона", 2 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624170000 +0300" stop="20230624180000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Лудогорец, 1 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624180000 +0300" stop="20230624190000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Септември, 12 епизод, предаване за български футбол (2022-23)</title>
+  </programme>
+  <programme start="20230624190000 +0300" stop="20230624210000 +0300" channel="diemasport.bg">
+    <title>Футбол: Литва - България, 3 кръг, Квалификации за UEFA Евро 2024, група G, /п/</title>
+  </programme>
+  <programme start="20230624210000 +0300" stop="20230624230000 +0300" channel="diemasport.bg">
+    <title>Футбол: България - Сърбия, 4 кръг, Квалификации за UEFA Евро 2024, група G, /п/</title>
+  </programme>
+  <programme start="20230624230000 +0300" stop="20230625010000 +0300" channel="diemasport.bg">
+    <title>"Обзор на сезона", предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625010000 +0300" stop="20230625080000 +0300" channel="diemasport.bg">
+    <title>Футбол: Ботев Враца - Хебър, 34 кръг, efbet Лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625080000 +0300" stop="20230625090000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Лудогорец, 1 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625090000 +0300" stop="20230625100000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Септември, 12 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625100000 +0300" stop="20230625110000 +0300" channel="diemasport.bg">
+    <title>"Героите на сезона", 37 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625110000 +0300" stop="20230625120000 +0300" channel="diemasport.bg">
+    <title>"Домът на футбола", 51 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625120000 +0300" stop="20230625140000 +0300" channel="diemasport.bg">
+    <title>Футбол: Спортист Своге - Добруджа, 34 кръг, Втора професионална лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625140000 +0300" stop="20230625150000 +0300" channel="diemasport.bg">
+    <title>"Головете на сезона", 1 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625150000 +0300" stop="20230625170000 +0300" channel="diemasport.bg">
+    <title>Футбол: Берое - Пирин, 34 кръг, efbet Лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625170000 +0300" stop="20230625180000 +0300" channel="diemasport.bg">
+    <title>"Головете на сезона", 2 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625180000 +0300" stop="20230625190000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Ботев Враца, 13 епизод, предаване за български футбол (2022-23)</title>
+  </programme>
+  <programme start="20230625190000 +0300" stop="20230625210000 +0300" channel="diemasport.bg">
+    <title>Футбол: ЦСКА - ЦСКА 1948, 34 кръг, efbet Лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625210000 +0300" stop="20230625230000 +0300" channel="diemasport.bg">
+    <title>Футбол: Лудогорец - Левски, 34 кръг, efbet Лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625230000 +0300" stop="20230626080000 +0300" channel="diemasport.bg">
+    <title>Футбол: Хебър - Берое, 35 кръг, efbet Лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623080000 +0300" stop="20230623100000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Уулвърхямптън Уондърърс - Брентфорд, 31 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623100000 +0300" stop="20230623120000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Исландия - Португалия, 4 кръг, Квалификации за UEFA Евро 2024, група J, /п/</title>
+  </programme>
+  <programme start="20230623120000 +0300" stop="20230623130000 +0300" channel="diemasport2.bg">
+    <title>"НБА Екшън", 37 епизод, предаване за американски баскетбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623130000 +0300" stop="20230623150000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Астън Вила - Нюкасъл Юнайтед, 31 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623150000 +0300" stop="20230623170000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Челси - Брайтън &amp; Хоув Албиън, 31 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623170000 +0300" stop="20230623190000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Нюкасъл Юнайтед - Тотнъм Хотспър, 32 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623190000 +0300" stop="20230623210000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Ливърпул - Нотингам Форест, 32 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623210000 +0300" stop="20230623230000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Саутхямптън - Манчестър Сити, 32 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623230000 +0300" stop="20230624010000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Манчестър Юнайтед - Евертън, 30 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624010000 +0300" stop="20230624030000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Фулъм - Уест Хям Юнайтед, 30 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624030000 +0300" stop="20230624080000 +0300" channel="diemasport2.bg">
+    <title>Бокс без ръкавици, Бойно събитие №45, Холивуд, Флорида, САЩ, директно</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624100000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Брайтън &amp; Хоув Албиън - Брентфорд, 29 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624100000 +0300" stop="20230624120000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Нюкасъл Юнайтед - Манчестър Юнайтед, 29 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624160000 +0300" channel="diemasport2.bg">
+    <title>ONE: Петъчни битки, 22 епизод, Бойно събитие в Банкок, Тайланд, /п/</title>
+  </programme>
+  <programme start="20230624160000 +0300" stop="20230624170000 +0300" channel="diemasport2.bg">
+    <title>"Обзор на сезона", предаване за английски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624170000 +0300" stop="20230624190000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Челси - Астън Вила, 29 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624190000 +0300" stop="20230624210000 +0300" channel="diemasport2.bg">
+    <title>Баскетбол: Реал Мадрид - Барселона, Лига Ендеса (2022-23), финал, мач №3, /п/</title>
+  </programme>
+  <programme start="20230624210000 +0300" stop="20230624220000 +0300" channel="diemasport2.bg">
+    <title>"НБА Екшън", 37 епизод, предаване за американски баскетбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624220000 +0300" stop="20230625000000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Манчестър Юнайтед - Нюкасъл Юнайтед, Карабао Къп (2022-23), финал, /п/</title>
+  </programme>
+  <programme start="20230625000000 +0300" stop="20230625020000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Болтън Уондърърс - Плимут Аргайл, Папа Джонс Трофи (2022-23), финал, /п/</title>
+  </programme>
+  <programme start="20230625020000 +0300" stop="20230625080000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Арсенал - Уест Хям Юнайтед, ФА Къп (2022-23) за младежи, финал, /п/</title>
+  </programme>
+  <programme start="20230625080000 +0300" stop="20230625100000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Лийдс Юнайтед - Кристъл Палас, 30 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625100000 +0300" stop="20230625120000 +0300" channel="diemasport2.bg">
+    <title>Висша лига: Обзор на сезона, предаване за английски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625120000 +0300" stop="20230625160000 +0300" channel="diemasport2.bg">
+    <title>Бокс без ръкавици, Бойно събитие №45, Холивуд, Флорида, САЩ, /п/</title>
+  </programme>
+  <programme start="20230625160000 +0300" stop="20230625170000 +0300" channel="diemasport2.bg">
+    <title>"НБА Екшън", 37 епизод, предаване за американски баскетбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625170000 +0300" stop="20230625180000 +0300" channel="diemasport2.bg">
+    <title>Тази седмица в ONE, 8 епизод, предаване за бойни спортове , /п/</title>
+  </programme>
+  <programme start="20230625180000 +0300" stop="20230625213000 +0300" channel="diemasport2.bg">
+    <title>ONE: Петъчни битки, 22 епизод, Бойно събитие в Банкок, Тайланд, /п/</title>
+  </programme>
+  <programme start="20230625213000 +0300" stop="20230625220000 +0300" channel="diemasport2.bg">
+    <title>"Истории от Висшата лига", 48 епизод, предаване за английски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625220000 +0300" stop="20230626000000 +0300" channel="diemasport2.bg">
+    <title>Баскетбол: Реал Мадрид - Барселона, Лига Ендеса (2022-23), финал, мач №3, /п/</title>
+  </programme>
+  <programme start="20230623073000 +0300" stop="20230623093000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Финландия - Сан Марино, 4 кръг, Квалификации за UEFA Евро 2024, група H, /п/</title>
+  </programme>
+  <programme start="20230623093000 +0300" stop="20230623113000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Англия - Северна Македония, 4 кръг, Квалификации за UEFA Евро 2024, група C, /п/</title>
+  </programme>
+  <programme start="20230623113000 +0300" stop="20230623133000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Унгария - Чехия, Европейско първенство по баскетбол за жени 2023, четвъртфинал, /п/</title>
+  </programme>
+  <programme start="20230623133000 +0300" stop="20230623153000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Белгия - Сърбия, Европейско първенство по баскетбол за жени 2023, четвъртфинал, /п/</title>
+  </programme>
+  <programme start="20230623153000 +0300" stop="20230623193000 +0300" channel="diemasport3.bg">
+    <title>ONE: Петъчни битки, 22 епизод, Бойно събитие в Банкок, Тайланд, директно</title>
+  </programme>
+  <programme start="20230623193000 +0300" stop="20230623223000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Хърватия - Испания, УЕФА Лига на нациите (2022-23), финал, /п/</title>
+  </programme>
+  <programme start="20230623223000 +0300" stop="20230624003000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Франция - Черна гора, Европейско първенство по баскетбол за жени 2023, четвъртфинал, /п/</title>
+  </programme>
+  <programme start="20230624003000 +0300" stop="20230624023000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Испания - Германия, Европейско първенство по баскетбол за жени 2023, четвъртфинал, /п/</title>
+  </programme>
+  <programme start="20230624023000 +0300" stop="20230624043000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Волфсбург - Майнц, 30 кръг, Бундеслига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624043000 +0300" stop="20230624080000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Борусия Мьонхенгладбах - Унион Берлин, 29 кръг, Бундеслига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624100000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Франция - Гърция, 4 кръг, Квалификации за UEFA Евро 2024, група B, /п/</title>
+  </programme>
+  <programme start="20230624100000 +0300" stop="20230624120000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Португалия - Босна и Херцеговина, 3 кръг, Квалификации за UEFA Евро 2024, група J, /п/</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624130000 +0300" channel="diemasport3.bg">
+    <title>Бундеслига: Обзор на сезона, предаване за германски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624130000 +0300" stop="20230624150000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, директно</title>
+  </programme>
+  <programme start="20230624150000 +0300" stop="20230624154500 +0300" channel="diemasport3.bg">
+    <title>Головете на сезона в Бундеслига, предаване за германски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624154500 +0300" stop="20230624174500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, директно</title>
+  </programme>
+  <programme start="20230624174500 +0300" stop="20230624184500 +0300" channel="diemasport3.bg">
+    <title>Квалификации за UEFA Евро 2024: Обзор на кръга, 4 епизод, предаване за международен футбол (2023-24), /п/</title>
+  </programme>
+  <programme start="20230624184500 +0300" stop="20230624204500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, полуфинал, директно</title>
+  </programme>
+  <programme start="20230624204500 +0300" stop="20230624214500 +0300" channel="diemasport3.bg">
+    <title>"Формула 1 Токшоу", 16 епизод, предаване за Формула 1 (2023), /п/</title>
+  </programme>
+  <programme start="20230624214500 +0300" stop="20230624233000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, полуфинал, директно</title>
+  </programme>
+  <programme start="20230624233000 +0300" stop="20230625003000 +0300" channel="diemasport3.bg">
+    <title>Лига 1: Обзор на сезона, предаване за френски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625003000 +0300" stop="20230625023000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
+  </programme>
+  <programme start="20230625023000 +0300" stop="20230625071500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
+  </programme>
+  <programme start="20230625071500 +0300" stop="20230625091500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
+  </programme>
+  <programme start="20230625091500 +0300" stop="20230625111500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
+  </programme>
+  <programme start="20230625111500 +0300" stop="20230625131500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, полуфинал, /п/</title>
+  </programme>
+  <programme start="20230625131500 +0300" stop="20230625151500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, полуфинал, /п/</title>
+  </programme>
+  <programme start="20230625151500 +0300" stop="20230625171500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, директно</title>
+  </programme>
+  <programme start="20230625171500 +0300" stop="20230625180000 +0300" channel="diemasport3.bg">
+    <title>Головете на сезона в Бундеслига, предаване за германски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230625180000 +0300" stop="20230625200000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, мач за 3/4 място, директно</title>
+  </programme>
+  <programme start="20230625200000 +0300" stop="20230625203000 +0300" channel="diemasport3.bg">
+    <title>"Поверително от Формула 1", 10 епизод, предаване за Формула 1 (2023), /п/</title>
+  </programme>
+  <programme start="20230625203000 +0300" stop="20230625210000 +0300" channel="diemasport3.bg">
+    <title>Студио "Баскетбол", директно</title>
+  </programme>
+  <programme start="20230625210000 +0300" stop="20230625230000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Финал, Европейско първенство по баскетбол за жени 2023, финал, директно</title>
+  </programme>
+  <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="diemasport3.bg">
+    <title>Студио "Баскетбол", директно</title>
+  </programme>
+  <programme start="20230625233000 +0300" stop="20230626013000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Германия - Колумбия, международен приятелски мач, /п/</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623020000 +0300" channel="ring.bg">
     <title>– Португалска лига 2022/2023</title>
@@ -8456,7 +8796,7 @@
   <programme start="20230625210000 +0300" stop="20230625220000 +0300" channel="ring.bg">
     <title>Стронгмен</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="ring.bg">
+  <programme start="20230625220000 +0300" stop="20230626000000 +0300" channel="ring.bg">
     <title>– Бойни вечери: UFC</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623080000 +0300" channel="maxsport1.bg">
@@ -8552,7 +8892,7 @@
   <programme start="20230625200000 +0300" stop="20230625223000 +0300" channel="maxsport1.bg">
     <title>ATP 500: Хале Финал повторение</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="maxsport1.bg">
+  <programme start="20230625223000 +0300" stop="20230626080000 +0300" channel="maxsport1.bg">
     <title>Волейбол - Лига на Нациите: Бразилия - Франция повторение</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623080000 +0300" channel="maxsport2.bg">
@@ -8684,7 +9024,7 @@
   <programme start="20230625213000 +0300" stop="20230625233000 +0300" channel="maxsport2.bg">
     <title>Волейбол - Лига на Нациите: България - Куба повторение</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="maxsport2.bg">
+  <programme start="20230625233000 +0300" stop="20230626063000 +0300" channel="maxsport2.bg">
     <title>Волейбол - Лига на Нациите: Италия - Полша повторение</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623090000 +0300" channel="maxsport3.bg">
@@ -8765,7 +9105,7 @@
   <programme start="20230625173000 +0300" stop="20230625220000 +0300" channel="maxsport3.bg">
     <title>Голф: BMW International Open запис</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="maxsport3.bg">
+  <programme start="20230625220000 +0300" stop="20230626080000 +0300" channel="maxsport3.bg">
     <title>ATP 500: Лондон Финал повторение</title>
   </programme>
   <programme start="20230623080000 +0300" stop="20230623100000 +0300" channel="maxsport4.bg">
@@ -8906,7 +9246,7 @@
   <programme start="20230625210000 +0300" stop="20230625233000 +0300" channel="maxsport4.bg">
     <title>Ла Лига 2: Леванте - Алавес Плейоф финал повторение</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="maxsport4.bg">
+  <programme start="20230625233000 +0300" stop="20230626060000 +0300" channel="maxsport4.bg">
     <title>Ла Лига: "Най-добрите голове" "Най-добрите голове" повторение</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623010000 +0300" channel="sportal.bg">
@@ -9098,7 +9438,7 @@
   <programme start="20230625210000 +0300" stop="20230625220000 +0300" channel="sportal.bg">
     <title>„Подкастът на Sportal.bg“ с гост Ивайло Петров – Пифа /повторение/</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="sportal.bg">
+  <programme start="20230625220000 +0300" stop="20230626000000 +0300" channel="sportal.bg">
     <title>„Ретро дерби“: ЦСКА - Левски (2002 г.)</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623052000 +0300" channel="b1b.tv">
@@ -9179,7 +9519,7 @@
   <programme start="20230625232000 +0300" stop="20230625233500 +0300" channel="b1b.tv">
     <title>Предаване: Лице в лице с шампиона: Никола Дипчиков</title>
   </programme>
-  <programme start="20230625233500 +0300" channel="b1b.tv">
+  <programme start="20230625233500 +0300" stop="20230626000000 +0300" channel="b1b.tv">
     <title>Рали: Rally Fenix /ден 3/</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623073500 +0300" channel="edgesport.bg">
@@ -9338,7 +9678,7 @@
   <programme start="20230625214000 +0300" stop="20230625232500 +0300" channel="edgesport.bg">
     <title>Freeride World Tour</title>
   </programme>
-  <programme start="20230625232500 +0300" channel="edgesport.bg">
+  <programme start="20230625232500 +0300" stop="20230626075500 +0300" channel="edgesport.bg">
     <title>FIM SuperMoto</title>
   </programme>
   <programme start="20230623080000 +0300" stop="20230623090000 +0300" channel="eurosport1.bg">
@@ -9470,7 +9810,7 @@
   <programme start="20230625210000 +0300" stop="20230625230000 +0300" channel="eurosport1.bg">
     <title>Ветроходство: Оушън рейс, Генуа, запис</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="eurosport1.bg">
+  <programme start="20230625230000 +0300" stop="20230626070000 +0300" channel="eurosport1.bg">
     <title>Трейл рънинг: Световни серии на Мон Блан, повторение</title>
   </programme>
   <programme start="20230623080000 +0300" stop="20230623084500 +0300" channel="eurosport2.bg">
@@ -9611,7 +9951,7 @@
   <programme start="20230625191500 +0300" stop="20230625200000 +0300" channel="eurosport2.bg">
     <title>Колоездене: Национално първенство на Франция, мъже, общ старт, повторение</title>
   </programme>
-  <programme start="20230625200000 +0300" channel="eurosport2.bg">
+  <programme start="20230625200000 +0300" stop="20230626010000 +0300" channel="eurosport2.bg">
     <title>Голф: PGA тур, Тревълърс чемпиъншип, четвърти ден, директно</title>
   </programme>
   <programme start="20230623080000 +0300" stop="20230623093000 +0300" channel="arenasport1.hr">
@@ -9719,7 +10059,7 @@
   <programme start="20230625203000 +0300" stop="20230625223000 +0300" channel="arenasport1.hr">
     <title>Nogomet: SAD - JAMAICA, gold cup 2023</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="arenasport1.hr">
+  <programme start="20230625223000 +0300" stop="20230626080000 +0300" channel="arenasport1.hr">
     <title>Nogomet: TRINIDAD I TOBAGO - ST KITTS AND NEVIS, gold cup 2023 (UŽIVO)</title>
   </programme>
   <programme start="20230623080000 +0300" stop="20230623103000 +0300" channel="arenasport2.hr">
@@ -9809,7 +10149,7 @@
   <programme start="20230625210000 +0300" stop="20230625230000 +0300" channel="arenasport2.hr">
     <title>Odbojka: FINALE, zlatna liga: final four (UŽIVO)</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="arenasport2.hr">
+  <programme start="20230625230000 +0300" stop="20230626080000 +0300" channel="arenasport2.hr">
     <title>Baseball: SAN FRANCISCO - ARIZONA, mlb (UŽIVO)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623060500 +0300" channel="matchfutbol1.ru">
@@ -9989,7 +10329,7 @@
   <programme start="20230625220000 +0300" stop="20230625220500 +0300" channel="matchfutbol1.ru">
     <title lang="ru">Новости футбола (0+)</title>
   </programme>
-  <programme start="20230625220500 +0300" channel="matchfutbol1.ru">
+  <programme start="20230625220500 +0300" stop="20230626060000 +0300" channel="matchfutbol1.ru">
     <title lang="ru">Лига конференций. РФШ (Латвия) - "Фиорентина" (Италия) (0+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623080500 +0300" channel="matchfutbol2.ru">
@@ -10097,7 +10437,7 @@
   <programme start="20230625215500 +0300" stop="20230625235500 +0300" channel="matchfutbol2.ru">
     <title lang="ru">Чемпионат Бразилии. Прямая трансляция. "Палмейрас" - "Ботафого"</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="matchfutbol2.ru">
+  <programme start="20230625235500 +0300" stop="20230626060000 +0300" channel="matchfutbol2.ru">
     <title lang="ru">Все о главном. Евгений Алдонин (0+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623060500 +0300" channel="matchfutbol3.ru">
@@ -10277,7 +10617,7 @@
   <programme start="20230625220000 +0300" stop="20230625220500 +0300" channel="matchfutbol3.ru">
     <title lang="ru">Новости футбола (0+)</title>
   </programme>
-  <programme start="20230625220500 +0300" channel="matchfutbol3.ru">
+  <programme start="20230625220500 +0300" stop="20230626060000 +0300" channel="matchfutbol3.ru">
     <title lang="ru">Чемпионат Германии. "Фрайбург" - "Боруссия" (Менхенгладбах) (0+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623080000 +0300" channel="matchigra.ru">
@@ -10412,7 +10752,7 @@
   <programme start="20230625225000 +0300" stop="20230625230500 +0300" channel="matchigra.ru">
     <title lang="ru">Специальный репортаж. Страна спортивная (12+)</title>
   </programme>
-  <programme start="20230625230500 +0300" channel="matchigra.ru">
+  <programme start="20230625230500 +0300" stop="20230626060000 +0300" channel="matchigra.ru">
     <title lang="ru">Регби. Товарищеский матч. Трансляция из Москвы. Сборная России - "Барбарианс" (сборная легионеров) (0+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623085500 +0300" channel="matcharena.ru">
@@ -10562,7 +10902,7 @@
   <programme start="20230625222500 +0300" stop="20230625230000 +0300" channel="matcharena.ru">
     <title lang="ru">Спортивный век (12+)</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="matcharena.ru">
+  <programme start="20230625230000 +0300" stop="20230626060000 +0300" channel="matcharena.ru">
     <title lang="ru">Прыжки в воду. Чемпионат России. Мужчины. Трамплин 1 м. Трансляция из Екатеринбурга (0+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623075500 +0300" channel="matchpremier.ru">
@@ -10736,7 +11076,7 @@
   <programme start="20230625213500 +0300" stop="20230625220000 +0300" channel="matchpremier.ru">
     <title lang="ru">Советский футбол. "Спартак" (Москва)", 5-я часть (0+)</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="matchpremier.ru">
+  <programme start="20230625220000 +0300" stop="20230626060000 +0300" channel="matchpremier.ru">
     <title lang="ru">Футбол. МИР Российская Премьер-Лига. Тур 5. В перерыве - Новости футбола. "Пари НН" - "Ростов" (0+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="matchtv.ru">
@@ -10913,7 +11253,7 @@
   <programme start="20230625203500 +0300" stop="20230625215500 +0300" channel="matchtv.ru">
     <title lang="ru">Все на Матч!</title>
   </programme>
-  <programme start="20230625215500 +0300" channel="matchtv.ru">
+  <programme start="20230625215500 +0300" stop="20230626060000 +0300" channel="matchtv.ru">
     <title lang="ru">Футбол. Чемпионат Бразилии. Прямая трансляция. "Палмейрас" - "Ботафого"</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623075500 +0300" channel="matchboetz.ru">
@@ -11051,7 +11391,7 @@
   <programme start="20230625231000 +0300" stop="20230625233000 +0300" channel="matchboetz.ru">
     <title lang="ru">Лица страны. Беслан Мудранов (12+)</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="matchboetz.ru">
+  <programme start="20230625233000 +0300" stop="20230626060000 +0300" channel="matchboetz.ru">
     <title lang="ru">Смешанные единоборства. One FC. Прямая трансляция из Таиланда. А. Малыхин - А. Буллара. П.П.К. Саенчай - С.-А. Гаянгадао (16+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623075000 +0300" channel="matchstrana.ru">
@@ -11264,7 +11604,7 @@
   <programme start="20230625232000 +0300" stop="20230625235000 +0300" channel="matchstrana.ru">
     <title lang="ru">Спортивная неделя. Итоги (12+)</title>
   </programme>
-  <programme start="20230625235000 +0300" channel="matchstrana.ru">
+  <programme start="20230625235000 +0300" stop="20230626060000 +0300" channel="matchstrana.ru">
     <title lang="ru">Пляжный волейбол. Чемпионат России. Женщины. Финал. Трансляция из Анапы (0+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623082500 +0300" channel="telekanalkhl.ru">
@@ -11384,7 +11724,7 @@
   <programme start="20230625212000 +0300" stop="20230625234000 +0300" channel="telekanalkhl.ru">
     <title lang="ru">"Лучшие клубы". Фонбет Чемпионат КХЛ. "Ак Барс" - "Автомобилист" (12+)</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="telekanalkhl.ru">
+  <programme start="20230625234000 +0300" stop="20230626060000 +0300" channel="telekanalkhl.ru">
     <title lang="ru">Топ-20 надежд (6+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623080000 +0300" channel="mirbaseketbola.ru">
@@ -11492,7 +11832,7 @@
   <programme start="20230625200500 +0300" stop="20230625215500 +0300" channel="mirbaseketbola.ru">
     <title lang="ru">АСВ-2022-2023 Чемпионат Испании. Плей-офф. 1/2 финала-4. "Уникаха" - "Барса" (12+)</title>
   </programme>
-  <programme start="20230625215500 +0300" channel="mirbaseketbola.ru">
+  <programme start="20230625215500 +0300" stop="20230626060000 +0300" channel="mirbaseketbola.ru">
     <title lang="ru">АСВ-2022-2023 Чемпионат Испании. Плей-офф. Финал-5. Прямая трансляция. "Реал" - "Барса" (12+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="konnyimir.ru">
@@ -11597,7 +11937,7 @@
   <programme start="20230625231000 +0300" stop="20230625234000 +0300" channel="konnyimir.ru">
     <title lang="ru">PRO_Конников. Тренер Лилия Резникова (0+)</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="konnyimir.ru">
+  <programme start="20230625234000 +0300" stop="20230626060000 +0300" channel="konnyimir.ru">
     <title lang="ru">PRO_Бега (0+)</title>
   </programme>
   <programme start="20230623043000 +0300" stop="20230623052500 +0300" channel="gametoon.tv">
@@ -11981,7 +12321,7 @@
   <programme start="20230625233000 +0300" stop="20230625234000 +0300" channel="gametoon.tv">
     <title>Relacja Prime Time Wrestling Po 20</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="gametoon.tv">
+  <programme start="20230625234000 +0300" stop="20230626042500 +0300" channel="gametoon.tv">
     <title>Stream Nation: Tom Clancy's The Division 2, część 1</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623020000 +0300" channel="aspor.tr">
@@ -12095,7 +12435,7 @@
   <programme start="20230625210000 +0300" stop="20230625230000 +0300" channel="aspor.tr">
     <title lang="tr">Transfer Raporu</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="aspor.tr">
+  <programme start="20230625230000 +0300" stop="20230626000000 +0300" channel="aspor.tr">
     <title lang="tr">Son Sayfa</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623010000 +0300" channel="trtspor.tr">
@@ -12326,7 +12666,7 @@
   <programme start="20230625214000 +0300" stop="20230625234500 +0300" channel="trtspor.tr">
     <title lang="tr">Fransa - İtalya</title>
   </programme>
-  <programme start="20230625234500 +0300" channel="trtspor.tr">
+  <programme start="20230625234500 +0300" stop="20230626000000 +0300" channel="trtspor.tr">
     <title lang="tr">Taktik Analiz</title>
   </programme>
   <programme start="20230623001000 +0300" stop="20230623024000 +0300" channel="raisport1.it">
@@ -12545,7 +12885,7 @@
   <programme start="20230625203000 +0300" stop="20230625224500 +0300" channel="raisport1.it">
     <title lang="it">Calcio. Europeo 2023 U21: Norvegia-Francia</title>
   </programme>
-  <programme start="20230625224500 +0300" channel="raisport1.it">
+  <programme start="20230625224500 +0300" stop="20230626000000 +0300" channel="raisport1.it">
     <title lang="it">European Games Cracovia - Tuffi: Finale Piattaforma 10m sincro maschile</title>
   </programme>
   <programme start="20230623020000 +0300" stop="20230623050000 +0300" channel="extremesportschannel.com">
@@ -12716,7 +13056,7 @@
   <programme start="20230625223000 +0300" stop="20230625230000 +0300" channel="extremesportschannel.com">
     <title>NBA Finals</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="extremesportschannel.com">
+  <programme start="20230625230000 +0300" stop="20230626030000 +0300" channel="extremesportschannel.com">
     <title>NBA Finals</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="sport1.de">
@@ -12935,7 +13275,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="sport1.de">
     <title>Die PS Profis – Mehr Power aus dem Pott</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="sport1.de">
+  <programme start="20230625230000 +0300" stop="20230626060000 +0300" channel="sport1.de">
     <title>Die PS Profis – Mehr Power aus dem Pott</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623062000 +0300" channel="sport1plus.de">
@@ -13109,7 +13449,7 @@
   <programme start="20230625221000 +0300" stop="20230625221500 +0300" channel="sport1plus.de">
     <title>SPORT1 News</title>
   </programme>
-  <programme start="20230625221500 +0300" channel="sport1plus.de">
+  <programme start="20230625221500 +0300" stop="20230626060000 +0300" channel="sport1plus.de">
     <title>Baseball – MLB Regular Season</title>
   </programme>
   <programme start="20230623093000 +0300" stop="20230623103000 +0300" channel="eurosport1.de">
@@ -13208,7 +13548,7 @@
   <programme start="20230625210000 +0300" stop="20230625223000 +0300" channel="eurosport1.de">
     <title>Handball: U21-WM</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="eurosport1.de">
+  <programme start="20230625223000 +0300" stop="20230626093000 +0300" channel="eurosport1.de">
     <title>Handball: U21-WM</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623070000 +0300" channel="skysportbundesliga.de">
@@ -13361,7 +13701,7 @@
   <programme start="20230625200000 +0300" stop="20230625220000 +0300" channel="skysportbundesliga.de">
     <title>Fußball: U19-Bundesliga</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="skysportbundesliga.de">
+  <programme start="20230625220000 +0300" stop="20230626070000 +0300" channel="skysportbundesliga.de">
     <title>Fußball: U17</title>
   </programme>
   <programme start="20230623054000 +0300" stop="20230623073000 +0300" channel="ligadecampeones.mplus.es">
@@ -13790,7 +14130,7 @@
   <programme start="20230625215600 +0300" stop="20230625233500 +0300" channel="iconcerts.stingray.com">
     <title>David Bowie - Bowie: The Man Who Changed the World</title>
   </programme>
-  <programme start="20230625233500 +0300" channel="iconcerts.stingray.com">
+  <programme start="20230625233500 +0300" stop="20230626065500 +0300" channel="iconcerts.stingray.com">
     <title>The Weeknd - Apple Music Festival</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623110000 +0300" channel="mtv80s.com">
@@ -13841,7 +14181,7 @@
   <programme start="20230625190000 +0300" stop="20230625210000 +0300" channel="mtv80s.com">
     <title>Forever 80s</title>
   </programme>
-  <programme start="20230625210000 +0300" channel="mtv80s.com">
+  <programme start="20230625210000 +0300" stop="20230626070000 +0300" channel="mtv80s.com">
     <title>80s Power Ballad Heaven!</title>
   </programme>
   <programme start="20230623090000 +0300" stop="20230623100000 +0300" channel="mtv90s.com">
@@ -13901,7 +14241,7 @@
   <programme start="20230625170000 +0300" stop="20230625200000 +0300" channel="mtv90s.com">
     <title>Mmm Bop! Perfect Pop</title>
   </programme>
-  <programme start="20230625200000 +0300" channel="mtv90s.com">
+  <programme start="20230625200000 +0300" stop="20230626000000 +0300" channel="mtv90s.com">
     <title>Top Hits Of 1996!</title>
   </programme>
   <programme start="20230623050000 +0300" stop="20230623220000 +0300" channel="mtv00s.com">
@@ -13949,7 +14289,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="mtv00s.com">
     <title>Crazy in Love!</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="mtv00s.com">
+  <programme start="20230625230000 +0300" stop="20230626050000 +0300" channel="mtv00s.com">
     <title>Hits Don't Lie</title>
   </programme>
   <programme start="20230623100000 +0300" stop="20230623110000 +0300" channel="clubmtv.com">
@@ -14009,7 +14349,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="clubmtv.com">
     <title>Reload! Club Classics</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="clubmtv.com">
+  <programme start="20230625230000 +0300" stop="20230626100000 +0300" channel="clubmtv.com">
     <title>Ultimate Rap &amp; RnB</title>
   </programme>
   <programme start="20230623080000 +0300" stop="20230623090000 +0300" channel="mtvhits.com">
@@ -14090,7 +14430,7 @@
   <programme start="20230625180000 +0300" stop="20230625220000 +0300" channel="mtvhits.com">
     <title>Worldwide Hits!</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="mtvhits.com">
+  <programme start="20230625220000 +0300" stop="20230626100000 +0300" channel="mtvhits.com">
     <title>Non-Stop Hits</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623070000 +0300" channel="mtvlive.com">
@@ -14282,7 +14622,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="mtvlive.com">
     <title>MTV Rewind: 2012</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="mtvlive.com">
+  <programme start="20230625230000 +0300" stop="20230626060000 +0300" channel="mtvlive.com">
     <title>Festivals 2023: 20 Most...</title>
   </programme>
   <programme start="20230623090000 +0300" stop="20230623090200 +0300" channel="thevoice.bg">
@@ -14381,7 +14721,7 @@
   <programme start="20230625190000 +0300" stop="20230625210000 +0300" channel="thevoice.bg">
     <title>Airplay Chart</title>
   </programme>
-  <programme start="20230625210000 +0300" channel="thevoice.bg">
+  <programme start="20230625210000 +0300" stop="20230626090000 +0300" channel="thevoice.bg">
     <title>We Love Music</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623060000 +0300" channel="citytv.bg">
@@ -14444,7 +14784,7 @@
   <programme start="20230625170000 +0300" stop="20230625180000 +0300" channel="citytv.bg">
     <title>ТИ СИ CITY</title>
   </programme>
-  <programme start="20230625180000 +0300" channel="citytv.bg">
+  <programme start="20230625180000 +0300" stop="20230626000000 +0300" channel="citytv.bg">
     <title>CITY HITS</title>
   </programme>
   <programme start="20230623053000 +0300" stop="20230623060000 +0300" channel="planeta4k.bg">
@@ -14969,7 +15309,7 @@
   <programme start="20230625233000 +0300" stop="20230625234000 +0300" channel="planeta4k.bg">
     <title>"Hot" - новите хитове</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="planeta4k.bg">
+  <programme start="20230625234000 +0300" stop="20230626053000 +0300" channel="planeta4k.bg">
     <title>"Showtime" - музикална мозайка</title>
   </programme>
   <programme start="20230623051000 +0300" stop="20230623054000 +0300" channel="planetatv.bg">
@@ -15443,7 +15783,7 @@
   <programme start="20230625230000 +0300" stop="20230625231000 +0300" channel="planetatv.bg">
     <title>"Хот" - новите хитове</title>
   </programme>
-  <programme start="20230625231000 +0300" channel="planetatv.bg">
+  <programme start="20230625231000 +0300" stop="20230626051000 +0300" channel="planetatv.bg">
     <title>"Party Time" - лято с хитове</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623063000 +0300" channel="fentv.bg">
@@ -15551,7 +15891,7 @@
   <programme start="20230625190000 +0300" stop="20230625200000 +0300" channel="fentv.bg">
     <title>Твоята музика /музикален микс с хитовете на ФЕН ТВ/</title>
   </programme>
-  <programme start="20230625200000 +0300" channel="fentv.bg">
+  <programme start="20230625200000 +0300" stop="20230626000000 +0300" channel="fentv.bg">
     <title>Зона за поздрави LIVE /развлекателно предаване с поздрави на живо/</title>
   </programme>
   <programme start="20230623053000 +0300" stop="20230623060000 +0300" channel="fenfolk.bg">
@@ -15782,7 +16122,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="fenfolk.bg">
     <title>Фолклорна усмивка /музикално-развлекателно предаване на ФЕН ФОЛК ТВ, повторение/</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="fenfolk.bg">
+  <programme start="20230625233000 +0300" stop="20230626051500 +0300" channel="fenfolk.bg">
     <title>Пъстра плетеница /музикално-развлекателен блок/</title>
   </programme>
   <programme start="20230623010000 +0300" stop="20230623100000 +0300" channel="balkanika.bg">
@@ -15869,7 +16209,7 @@
   <programme start="20230625190000 +0300" stop="20230625192000 +0300" channel="balkanika.bg">
     <title>Balkan Movie / Balkan Stories With ...</title>
   </programme>
-  <programme start="20230625192000 +0300" channel="balkanika.bg">
+  <programme start="20230625192000 +0300" stop="20230626010000 +0300" channel="balkanika.bg">
     <title>Balkan Party</title>
   </programme>
   <programme start="20230623040000 +0300" stop="20230623053300 +0300" channel="mezzo.tv">
@@ -16022,7 +16362,7 @@
   <programme start="20230625213000 +0300" stop="20230625222900 +0300" channel="mezzo.tv">
     <title>Hélene Grimaud: Woodland and beyond - Hamburg, Elbphilharmonie</title>
   </programme>
-  <programme start="20230625222900 +0300" channel="mezzo.tv">
+  <programme start="20230625222900 +0300" stop="20230626040000 +0300" channel="mezzo.tv">
     <title>1st Ljubljana Festival International Piano Competition</title>
   </programme>
   <programme start="20230623050600 +0300" stop="20230623070000 +0300" channel="mezzolive.tv">
@@ -16160,7 +16500,7 @@
   <programme start="20230625204200 +0300" stop="20230625220000 +0300" channel="mezzolive.tv">
     <title>Mark Guiliana Beat Music - Bayfront Jazz Festival</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="mezzolive.tv">
+  <programme start="20230625220000 +0300" stop="20230626052000 +0300" channel="mezzolive.tv">
     <title>Mitridate by Mozart at the Berlin Staatsoper</title>
   </programme>
   <programme start="20230623060500 +0300" stop="20230623063500 +0300" channel="deutschesmusik.de">
@@ -16370,7 +16710,7 @@
   <programme start="20230625224500 +0300" stop="20230625231500 +0300" channel="deutschesmusik.de">
     <title>Schlager aktuell!</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="deutschesmusik.de">
+  <programme start="20230625231500 +0300" stop="20230626060500 +0300" channel="deutschesmusik.de">
     <title>Teleshopping</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623080000 +0300" channel="mcm.fr">
@@ -16637,7 +16977,7 @@
   <programme start="20230625225000 +0300" stop="20230625234000 +0300" channel="mcm.fr">
     <title>Once Upon a Time</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="mcm.fr">
+  <programme start="20230625234000 +0300" stop="20230626070000 +0300" channel="mcm.fr">
     <title>Once Upon a Time</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="ard.de">
@@ -16928,7 +17268,7 @@
   <programme start="20230625224500 +0300" stop="20230625234500 +0300" channel="ard.de">
     <title>Anne Will</title>
   </programme>
-  <programme start="20230625234500 +0300" channel="ard.de">
+  <programme start="20230625234500 +0300" stop="20230626063000 +0300" channel="ard.de">
     <title>Tagesthemen</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="zdf.de">
@@ -17210,7 +17550,7 @@
   <programme start="20230625224500 +0300" stop="20230625231500 +0300" channel="zdf.de">
     <title>heute journal</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="zdf.de">
+  <programme start="20230625231500 +0300" stop="20230626060500 +0300" channel="zdf.de">
     <title>Dan Sommerdahl – Tödliche Idylle: Alte Träume</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623071500 +0300" channel="zdfinfo.de">
@@ -17468,7 +17808,7 @@
   <programme start="20230625224000 +0300" stop="20230625232500 +0300" channel="zdfinfo.de">
     <title>Die sieben geheimen Atompläne der DDR</title>
   </programme>
-  <programme start="20230625232500 +0300" channel="zdfinfo.de">
+  <programme start="20230625232500 +0300" stop="20230626063500 +0300" channel="zdfinfo.de">
     <title>Die geheimen Bunker der DDR und der Schweiz</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623065500 +0300" channel="zdfneo.de">
@@ -17702,7 +18042,7 @@
   <programme start="20230625231000 +0300" stop="20230625234000 +0300" channel="zdfneo.de">
     <title>MAITHINK X – Die Show</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="zdfneo.de">
+  <programme start="20230625234000 +0300" stop="20230626061500 +0300" channel="zdfneo.de">
     <title>Der ZDF Comedy Sommer</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623064500 +0300" channel="pro7max.de">
@@ -17948,7 +18288,7 @@
   <programme start="20230625205000 +0300" stop="20230625211500 +0300" channel="pro7max.de">
     <title>Food for Fans – Tailgating durch die USA</title>
   </programme>
-  <programme start="20230625211500 +0300" channel="pro7max.de">
+  <programme start="20230625211500 +0300" stop="20230626061500 +0300" channel="pro7max.de">
     <title>Fußball: U21-EM</title>
   </programme>
   <programme start="20230623060500 +0300" stop="20230623065000 +0300" channel="prosieben.de">
@@ -18224,7 +18564,7 @@
   <programme start="20230625211500 +0300" stop="20230625235000 +0300" channel="prosieben.de">
     <title>Kingsman: The Secret Service</title>
   </programme>
-  <programme start="20230625235000 +0300" channel="prosieben.de">
+  <programme start="20230625235000 +0300" stop="20230626063000 +0300" channel="prosieben.de">
     <title>Hunter Killer</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623063000 +0300" channel="sat1.de">
@@ -18395,7 +18735,7 @@
   <programme start="20230625211500 +0300" stop="20230625235500 +0300" channel="sat1.de">
     <title>Indiana Jones und der letzte Kreuzzug</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="sat1.de">
+  <programme start="20230625235500 +0300" stop="20230626061500 +0300" channel="sat1.de">
     <title>Indiana Jones und das Königreich des Kristallschädels</title>
   </programme>
   <programme start="20230623062000 +0300" stop="20230623071000 +0300" channel="sat1gold.de">
@@ -18605,7 +18945,7 @@
   <programme start="20230625230000 +0300" stop="20230625235500 +0300" channel="sat1gold.de">
     <title>Criminal Minds</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="sat1gold.de">
+  <programme start="20230625235500 +0300" stop="20230626063500 +0300" channel="sat1gold.de">
     <title>Criminal Minds</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623070000 +0300" channel="rtl.de">
@@ -18812,7 +19152,7 @@
   <programme start="20230625211500 +0300" stop="20230625230000 +0300" channel="rtl.de">
     <title>Trolls World Tour</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="rtl.de">
+  <programme start="20230625230000 +0300" stop="20230626061500 +0300" channel="rtl.de">
     <title>stern TV am Sonntag</title>
   </programme>
   <programme start="20230623060500 +0300" stop="20230623070000 +0300" channel="rtl2.de">
@@ -19004,7 +19344,7 @@
   <programme start="20230625211500 +0300" stop="20230625230500 +0300" channel="rtl2.de">
     <title>Bridget Jones – Schokolade zum Frühstück</title>
   </programme>
-  <programme start="20230625230500 +0300" channel="rtl2.de">
+  <programme start="20230625230500 +0300" stop="20230626060500 +0300" channel="rtl2.de">
     <title>Mord nach Plan</title>
   </programme>
   <programme start="20230623062000 +0300" stop="20230623064000 +0300" channel="rtlnitro.de">
@@ -19271,7 +19611,7 @@
   <programme start="20230625225000 +0300" stop="20230625234000 +0300" channel="rtlnitro.de">
     <title>CSI: Den Tätern auf der Spur</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="rtlnitro.de">
+  <programme start="20230625234000 +0300" stop="20230626061500 +0300" channel="rtlnitro.de">
     <title>CSI: Den Tätern auf der Spur</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623065000 +0300" channel="super.rtl.de">
@@ -19607,7 +19947,7 @@
   <programme start="20230625221000 +0300" stop="20230625231000 +0300" channel="super.rtl.de">
     <title>Rizzoli &amp; Isles</title>
   </programme>
-  <programme start="20230625231000 +0300" channel="super.rtl.de">
+  <programme start="20230625231000 +0300" stop="20230626063000 +0300" channel="super.rtl.de">
     <title>Rizzoli &amp; Isles</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623070500 +0300" channel="kika.de">
@@ -19931,7 +20271,7 @@
   <programme start="20230625213000 +0300" stop="20230625220000 +0300" channel="kika.de">
     <title>Schau in meine Welt!</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="kika.de">
+  <programme start="20230625220000 +0300" stop="20230626070000 +0300" channel="kika.de">
     <title>Sendepause</title>
   </programme>
   <programme start="20230623062500 +0300" stop="20230623071000 +0300" channel="3sat.de">
@@ -20174,7 +20514,7 @@
   <programme start="20230625211500 +0300" stop="20230625224500 +0300" channel="3sat.de">
     <title>Spreewaldkrimi: Das Geheimnis im Moor</title>
   </programme>
-  <programme start="20230625224500 +0300" channel="3sat.de">
+  <programme start="20230625224500 +0300" stop="20230626070000 +0300" channel="3sat.de">
     <title>Die Toten vom Bodensee: Abgrundtief</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623065000 +0300" channel="arte.de">
@@ -20375,7 +20715,7 @@
   <programme start="20230625224500 +0300" stop="20230625234000 +0300" channel="arte.de">
     <title>Rätselhafte Charlotte Rampling</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="arte.de">
+  <programme start="20230625234000 +0300" stop="20230626060000 +0300" channel="arte.de">
     <title>Cirque du Soleil – Volta</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623073000 +0300" channel="anixe.de">
@@ -20681,7 +21021,7 @@
   <programme start="20230625224500 +0300" stop="20230625231500 +0300" channel="anixe.de">
     <title>Reppa Münzengalerie</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="anixe.de">
+  <programme start="20230625231500 +0300" stop="20230626070000 +0300" channel="anixe.de">
     <title>Infomercial</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623064000 +0300" channel="ntv.de">
@@ -21092,7 +21432,7 @@
   <programme start="20230625230000 +0300" stop="20230625230500 +0300" channel="ntv.de">
     <title>Nachrichten</title>
   </programme>
-  <programme start="20230625230500 +0300" channel="ntv.de">
+  <programme start="20230625230500 +0300" stop="20230626062500 +0300" channel="ntv.de">
     <title>First 48 – Am Tatort mit den US-Ermittlern</title>
   </programme>
   <programme start="20230623064000 +0300" stop="20230623065000 +0300" channel="tele5.de">
@@ -21233,7 +21573,7 @@
   <programme start="20230625211500 +0300" stop="20230625232000 +0300" channel="tele5.de">
     <title>Kiss Kiss, Bang Bang</title>
   </programme>
-  <programme start="20230625232000 +0300" channel="tele5.de">
+  <programme start="20230625232000 +0300" stop="20230626063000 +0300" channel="tele5.de">
     <title>Ein Mann sieht rot</title>
   </programme>
   <programme start="20230623062500 +0300" stop="20230623070000 +0300" channel="sixx.de">
@@ -21473,7 +21813,7 @@
   <programme start="20230625211500 +0300" stop="20230625233500 +0300" channel="sixx.de">
     <title>La Boum – Die Fete – Eltern unerwünscht</title>
   </programme>
-  <programme start="20230625233500 +0300" channel="sixx.de">
+  <programme start="20230625233500 +0300" stop="20230626061500 +0300" channel="sixx.de">
     <title>La Boum II – Die Fete geht weiter</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623063000 +0300" channel="phoenix.de">
@@ -21692,7 +22032,7 @@
   <programme start="20230625224500 +0300" stop="20230625233000 +0300" channel="phoenix.de">
     <title>Die Frontstadt – Berlin im Kalten Krieg</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="phoenix.de">
+  <programme start="20230625233000 +0300" stop="20230626061500 +0300" channel="phoenix.de">
     <title>Geheimnisvolle Orte</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623064500 +0300" channel="kabeleinsdoku.de">
@@ -21914,7 +22254,7 @@
   <programme start="20230625224500 +0300" stop="20230625233500 +0300" channel="kabeleinsdoku.de">
     <title>Wettkampf der Kettensägen</title>
   </programme>
-  <programme start="20230625233500 +0300" channel="kabeleinsdoku.de">
+  <programme start="20230625233500 +0300" stop="20230626064500 +0300" channel="kabeleinsdoku.de">
     <title>Wettkampf der Kettensägen</title>
   </programme>
   <programme start="20230623061000 +0300" stop="20230623063000 +0300" channel="orf1.au">
@@ -22310,7 +22650,7 @@
   <programme start="20230625211500 +0300" stop="20230625230500 +0300" channel="orf1.au">
     <title>100 Dinge</title>
   </programme>
-  <programme start="20230625230500 +0300" channel="orf1.au">
+  <programme start="20230625230500 +0300" stop="20230626060000 +0300" channel="orf1.au">
     <title>Der Vorname</title>
   </programme>
   <programme start="20230623065000 +0300" stop="20230623071000 +0300" channel="orf2.au">
@@ -22640,7 +22980,7 @@
   <programme start="20230625225000 +0300" stop="20230625231000 +0300" channel="orf2.au">
     <title>ZIB 2</title>
   </programme>
-  <programme start="20230625231000 +0300" channel="orf2.au">
+  <programme start="20230625231000 +0300" stop="20230626060500 +0300" channel="orf2.au">
     <title>Letzte Sendung vor der Sommerpause:</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623064500 +0300" channel="disney.de">
@@ -23105,7 +23445,7 @@
   <programme start="20230625211500 +0300" stop="20230625233000 +0300" channel="disney.de">
     <title>Splash – Jungfrau am Haken</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="disney.de">
+  <programme start="20230625233000 +0300" stop="20230626063500 +0300" channel="disney.de">
     <title>Hör' mal, wer da hämmert</title>
   </programme>
   <programme start="20230623062500 +0300" stop="20230623065000 +0300" channel="wdr.de">
@@ -23354,7 +23694,7 @@
   <programme start="20230625211500 +0300" stop="20230625224500 +0300" channel="wdr.de">
     <title>Wunderschön!</title>
   </programme>
-  <programme start="20230625224500 +0300" channel="wdr.de">
+  <programme start="20230625224500 +0300" stop="20230626065500 +0300" channel="wdr.de">
     <title>Tatort: Sag nichts</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623070000 +0300" channel="servus.de">
@@ -23606,7 +23946,7 @@
   <programme start="20230625230500 +0300" stop="20230625231500 +0300" channel="servus.de">
     <title>Der Wegscheider</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="servus.de">
+  <programme start="20230625231500 +0300" stop="20230626061500 +0300" channel="servus.de">
     <title>Links. Rechts. Mitte – Duell der Meinungsmacher</title>
   </programme>
   <programme start="20230623062500 +0300" stop="20230623082500 +0300" channel="skyaction.de">
@@ -23705,7 +24045,7 @@
   <programme start="20230625211500 +0300" stop="20230625230000 +0300" channel="skyaction.de">
     <title>Deep Blue Sea</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="skyaction.de">
+  <programme start="20230625230000 +0300" stop="20230626061500 +0300" channel="skyaction.de">
     <title>Babylon A.D.</title>
   </programme>
   <programme start="20230623062000 +0300" stop="20230623071500 +0300" channel="skyatlantic.de">
@@ -23885,7 +24225,7 @@
   <programme start="20230625222000 +0300" stop="20230625232000 +0300" channel="skyatlantic.de">
     <title>The Staircase</title>
   </programme>
-  <programme start="20230625232000 +0300" channel="skyatlantic.de">
+  <programme start="20230625232000 +0300" stop="20230626060500 +0300" channel="skyatlantic.de">
     <title>White House Plumbers</title>
   </programme>
   <programme start="20230623062500 +0300" stop="20230623080500 +0300" channel="skycinemafamily.de">
@@ -23996,7 +24336,7 @@
   <programme start="20230625211500 +0300" stop="20230625225000 +0300" channel="skycinemafamily.de">
     <title>Peter Hase</title>
   </programme>
-  <programme start="20230625225000 +0300" channel="skycinemafamily.de">
+  <programme start="20230625225000 +0300" stop="20230626064000 +0300" channel="skycinemafamily.de">
     <title>Der Wolf und der Löwe</title>
   </programme>
   <programme start="20230623061000 +0300" stop="20230623065500 +0300" channel="syfy.de">
@@ -24194,7 +24534,7 @@
   <programme start="20230625211500 +0300" stop="20230625231500 +0300" channel="syfy.de">
     <title>Star Trek IV: Zurück in die Gegenwart</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="syfy.de">
+  <programme start="20230625231500 +0300" stop="20230626061500 +0300" channel="syfy.de">
     <title>Star Trek V: Am Rande des Universums</title>
   </programme>
   <programme start="20230623062000 +0300" stop="20230623064000 +0300" channel="discovery.de">
@@ -24434,7 +24774,7 @@
   <programme start="20230625224500 +0300" stop="20230625233000 +0300" channel="discovery.de">
     <title>Expedition Unknown – Mythen auf der Spur</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="discovery.de">
+  <programme start="20230625233000 +0300" stop="20230626062000 +0300" channel="discovery.de">
     <title>Die Apollo-11-Verschwörung</title>
   </programme>
   <programme start="20230623062000 +0300" stop="20230623070500 +0300" channel="natgeowild.de">
@@ -24674,7 +25014,7 @@
   <programme start="20230625220000 +0300" stop="20230625232500 +0300" channel="natgeowild.de">
     <title>Die Rückkehr des Pumas</title>
   </programme>
-  <programme start="20230625232500 +0300" channel="natgeowild.de">
+  <programme start="20230625232500 +0300" stop="20230626061000 +0300" channel="natgeowild.de">
     <title>Der unglaubliche Dr. Pol</title>
   </programme>
   <programme start="20230623062000 +0300" stop="20230623071000 +0300" channel="natgeo.de">
@@ -24905,7 +25245,7 @@
   <programme start="20230625224500 +0300" stop="20230625233000 +0300" channel="natgeo.de">
     <title>Geisterschiffe der Großen Seen</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="natgeo.de">
+  <programme start="20230625233000 +0300" stop="20230626063000 +0300" channel="natgeo.de">
     <title>Tutanchamun – Mysterien einer Grabkammer</title>
   </programme>
   <programme start="20230623040000 +0300" stop="20230623045000 +0300" channel="dmax.de">
@@ -25124,7 +25464,7 @@
   <programme start="20230625221500 +0300" stop="20230625231500 +0300" channel="dmax.de">
     <title>Die Goldsucher vom Devil's Canyon, odc. 1: Die Suche beginnt</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="dmax.de">
+  <programme start="20230625231500 +0300" stop="20230626040000 +0300" channel="dmax.de">
     <title>Die Goldsucher vom Devil's Canyon, odc. 2: Kälteeinbruch</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623063000 +0300" channel="tvevropa.bg">
@@ -25610,7 +25950,7 @@
   <programme start="20230625144500 +0300" stop="20230625150000 +0300" channel="tvevropa.bg">
     <title>Euronews - истории от света</title>
   </programme>
-  <programme start="20230625150000 +0300" channel="tvevropa.bg">
+  <programme start="20230625150000 +0300" stop="20230626000000 +0300" channel="tvevropa.bg">
     <title>Euronews weekend - новини</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="news.nova.bg">
@@ -25871,7 +26211,7 @@
   <programme start="20230625222000 +0300" stop="20230625225000 +0300" channel="news.nova.bg">
     <title>ПодКАКст с Ei Bo</title>
   </programme>
-  <programme start="20230625225000 +0300" channel="news.nova.bg">
+  <programme start="20230625225000 +0300" stop="20230626060000 +0300" channel="news.nova.bg">
     <title>На фокус с Лора Крумова /п/</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623003000 +0300" channel="cnninternational.com">
@@ -26987,7 +27327,7 @@
   <programme start="20230625231500 +0300" stop="20230625233000 +0300" channel="deutschewelle.de">
     <title>Sports Life: Overcoming Challenges with Sports</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="deutschewelle.de">
+  <programme start="20230625233000 +0300" stop="20230626040000 +0300" channel="deutschewelle.de">
     <title>That's Just Life</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623003000 +0300" channel="bbcworldnews.com">
@@ -27902,7 +28242,7 @@
   <programme start="20230625224500 +0300" stop="20230625233000 +0300" channel="cnbc.com">
     <title>Late Night With Jimmy Fallon</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="cnbc.com">
+  <programme start="20230625233000 +0300" stop="20230626070000 +0300" channel="cnbc.com">
     <title>Investing Edge</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623001800 +0300" channel="nhkworld.com">
@@ -28883,7 +29223,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="skynews.uk">
     <title>Sky News</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="skynews.uk">
+  <programme start="20230625233000 +0300" stop="20230626040000 +0300" channel="skynews.uk">
     <title>Sophy Ridge Highlights</title>
   </programme>
   <programme start="20230623030000 +0300" stop="20230623033000 +0300" channel="cgtn.cn">
@@ -29246,7 +29586,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="cgtn.cn">
     <title>Razor</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="cgtn.cn">
+  <programme start="20230625233000 +0300" stop="20230626030000 +0300" channel="cgtn.cn">
     <title>Talk Africa</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623003000 +0300" channel="arirang.tv">
@@ -29924,7 +30264,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="natgeo.bg">
     <title>Европа отвисоко</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="natgeo.bg">
+  <programme start="20230625230000 +0300" stop="20230626000000 +0300" channel="natgeo.bg">
     <title>Гордън Рамзи: Кулинарният изследовател</title>
   </programme>
   <programme start="20230623001000 +0300" stop="20230623010000 +0300" channel="natgeowild.bg">
@@ -30203,7 +30543,7 @@
   <programme start="20230625222500 +0300" stop="20230625232000 +0300" channel="natgeowild.bg">
     <title>Невероятният д-р Пол</title>
   </programme>
-  <programme start="20230625232000 +0300" channel="natgeowild.bg">
+  <programme start="20230625232000 +0300" stop="20230626001000 +0300" channel="natgeowild.bg">
     <title>Невероятният д-р Пол</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623003000 +0300" channel="24kitchen.bg">
@@ -30566,7 +30906,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="24kitchen.bg">
     <title>Тихоокеанска кухня</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="24kitchen.bg">
+  <programme start="20230625233000 +0300" stop="20230626000000 +0300" channel="24kitchen.bg">
     <title>Тихоокеанска кухня</title>
   </programme>
   <programme start="20230623024000 +0300" stop="20230623041500 +0300" channel="kitchen.tv">
@@ -30809,7 +31149,7 @@
   <programme start="20230625220000 +0300" stop="20230625225500 +0300" channel="kitchen.tv">
     <title>Šešir profesora Koste Vujića</title>
   </programme>
-  <programme start="20230625225500 +0300" channel="kitchen.tv">
+  <programme start="20230625225500 +0300" stop="20230626022500 +0300" channel="kitchen.tv">
     <title>Bekstvo</title>
   </programme>
   <programme start="20230623054500 +0300" stop="20230623061000 +0300" channel="hgtv.bg">
@@ -31067,7 +31407,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="hgtv.bg">
     <title lang="bg">Живот в планината (Series 1): Планинско убежище в Айдахо (Episode 7)</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="hgtv.bg">
+  <programme start="20230625233000 +0300" stop="20230626054500 +0300" channel="hgtv.bg">
     <title lang="bg">Живот в планината (Series 1): Търсене на планинско убежище в Юта (Episode 8)</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623070000 +0300" channel="tlc.bg">
@@ -31214,7 +31554,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="tlc.bg">
     <title lang="bg">Да напуснеш общността на амишите: Завръщане: Ексцентричната Сабрина</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="tlc.bg">
+  <programme start="20230625230000 +0300" stop="20230626063000 +0300" channel="tlc.bg">
     <title lang="bg">Многоженецът: Едно към едно: първа част</title>
   </programme>
   <programme start="20230623060500 +0300" stop="20230623070000 +0300" channel="crimeinvestigation.bg">
@@ -31466,7 +31806,7 @@
   <programme start="20230625230000 +0300" stop="20230625234500 +0300" channel="crimeinvestigation.bg">
     <title lang="bg">Премиера Действителни разпити: Оставен да умре в студа</title>
   </programme>
-  <programme start="20230625234500 +0300" channel="crimeinvestigation.bg">
+  <programme start="20230625234500 +0300" stop="20230626060500 +0300" channel="crimeinvestigation.bg">
     <title lang="bg">Неразрешени случаи: Ангел на мрака</title>
   </programme>
   <programme start="20230623004000 +0300" stop="20230623014500 +0300" channel="history.viasat.bg">
@@ -31673,7 +32013,7 @@
   <programme start="20230625220000 +0300" stop="20230625235000 +0300" channel="history.viasat.bg">
     <title>Тайните на келтския гроб .description.home-desc h4 span { padding: 3px 10px; border-radius: 25px; background-color: #3377b8; color: #fff; border: 1px solid #0a385b; font-size: 14px; text-transform: capitalize; }</title>
   </programme>
-  <programme start="20230625235000 +0300" channel="history.viasat.bg">
+  <programme start="20230625235000 +0300" stop="20230626005500 +0300" channel="history.viasat.bg">
     <title>Перу: жертвоприношенията в царството Чиму .description.home-desc h4 span { padding: 3px 10px; border-radius: 25px; background-color: #3377b8; color: #fff; border: 1px solid #0a385b; font-size: 14px; text-transform: capitalize; }</title>
   </programme>
   <programme start="20230623000500 +0300" stop="20230623010000 +0300" channel="explore.viasat.bg">
@@ -31904,7 +32244,7 @@
   <programme start="20230625225500 +0300" stop="20230625235000 +0300" channel="explore.viasat.bg">
     <title>Австралийски търсачи на злато: Спасителен екип - сезон 1 .description.home-desc h4 span { padding: 3px 10px; border-radius: 25px; background-color: #c7252a; color: #fff; border: 1px solid #0a385b; font-size: 14px; text-transform: capitalize; }</title>
   </programme>
-  <programme start="20230625235000 +0300" channel="explore.viasat.bg">
+  <programme start="20230625235000 +0300" stop="20230626005000 +0300" channel="explore.viasat.bg">
     <title>Превозвачи от калните планини - сезон 2 .description.home-desc h4 span { padding: 3px 10px; border-radius: 25px; background-color: #c7252a; color: #fff; border: 1px solid #0a385b; font-size: 14px; text-transform: capitalize; }</title>
   </programme>
   <programme start="20230623004000 +0300" stop="20230623010000 +0300" channel="nature.viasat.bg">
@@ -32177,7 +32517,7 @@
   <programme start="20230625225500 +0300" stop="20230625234500 +0300" channel="nature.viasat.bg">
     <title>Дива Латинска Америка - сезон 1 .description.home-desc h4 span { padding: 3px 10px; border-radius: 25px; background-color: #99a935; color: #fff; border: 1px solid #0a385b; font-size: 14px; text-transform: capitalize; }</title>
   </programme>
-  <programme start="20230625234500 +0300" channel="nature.viasat.bg">
+  <programme start="20230625234500 +0300" stop="20230626002000 +0300" channel="nature.viasat.bg">
     <title>Имението на сурикатите: Възходът на династията - сезон 1 .description.home-desc h4 span { padding: 3px 10px; border-radius: 25px; background-color: #99a935; color: #fff; border: 1px solid #0a385b; font-size: 14px; text-transform: capitalize; }</title>
   </programme>
   <programme start="20230623053000 +0300" stop="20230623060000 +0300" channel="discoverychannel.bg">
@@ -32405,7 +32745,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="discoverychannel.bg">
     <title>Убийствата в "Плейбой": Молец над пламъка</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="discoverychannel.bg">
+  <programme start="20230625230000 +0300" stop="20230626060000 +0300" channel="discoverychannel.bg">
     <title>Убийствата в "Плейбой": Всичко, което блести</title>
   </programme>
   <programme start="20230623054800 +0300" stop="20230623061200 +0300" channel="discoveryscience.bg">
@@ -32735,7 +33075,7 @@
   <programme start="20230625225000 +0300" stop="20230625234000 +0300" channel="discoveryscience.bg">
     <title>Необяснимо и незнайно: Рицарите тамплиери в Америка</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="discoveryscience.bg">
+  <programme start="20230625234000 +0300" stop="20230626052400 +0300" channel="discoveryscience.bg">
     <title>Необяснимо и незнайно: Да убиеш Мериюетър Луис</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623070000 +0300" channel="investigationdiscovery.bg">
@@ -32921,7 +33261,7 @@
   <programme start="20230625210000 +0300" stop="20230625220000 +0300" channel="investigationdiscovery.bg">
     <title>Смърт по време на мечтаната почивка: Сейшели: Тяло в парка</title>
   </programme>
-  <programme start="20230625220000 +0300" channel="investigationdiscovery.bg">
+  <programme start="20230625220000 +0300" stop="20230626060000 +0300" channel="investigationdiscovery.bg">
     <title>Кой е убил Джефри Епщайн: мистерията на едно убийство</title>
   </programme>
   <programme start="20230623055000 +0300" stop="20230623063500 +0300" channel="foodnetwork.bg">
@@ -33245,7 +33585,7 @@
   <programme start="20230625230500 +0300" stop="20230625235000 +0300" channel="foodnetwork.bg">
     <title>Алекс срещу Америка (Series 1): Алекс срещу мидите (Episode 2)</title>
   </programme>
-  <programme start="20230625235000 +0300" channel="foodnetwork.bg">
+  <programme start="20230625235000 +0300" stop="20230626052500 +0300" channel="foodnetwork.bg">
     <title>Алекс срещу Америка (Series 1): Алекс срещу говеждото (Episode 3)</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623070000 +0300" channel="animalplanet.bg">
@@ -33452,8 +33792,668 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="animalplanet.bg">
     <title>Ловецът на крокодили: най-доброто от Стив Ъруин: Влечугите на изгубения континент</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="animalplanet.bg">
+  <programme start="20230625230000 +0300" stop="20230626061500 +0300" channel="animalplanet.bg">
     <title>На края на Аляска: Епизод 4</title>
+  </programme>
+  <programme start="20230623064000 +0300" stop="20230623080000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230623080000 +0300" stop="20230623084000 +0300" channel="hobbytv.bg">
+    <title>С въдица в ръка - тв поредица, седми сезон, 1 еп.</title>
+  </programme>
+  <programme start="20230623084000 +0300" stop="20230623092000 +0300" channel="hobbytv.bg">
+    <title>Българската история представя</title>
+  </programme>
+  <programme start="20230623092000 +0300" stop="20230623100000 +0300" channel="hobbytv.bg">
+    <title>Рейсинг екстрийм - тв поредица, пети сезон, 2 еп.</title>
+  </programme>
+  <programme start="20230623100000 +0300" stop="20230623112000 +0300" channel="hobbytv.bg">
+    <title>ЗА РИБА - тв поредица, седми сезон, 29 еп.</title>
+  </programme>
+  <programme start="20230623112000 +0300" stop="20230623120000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230623120000 +0300" stop="20230623124000 +0300" channel="hobbytv.bg">
+    <title>МОТОХОБИ</title>
+  </programme>
+  <programme start="20230623124000 +0300" stop="20230623140000 +0300" channel="hobbytv.bg">
+    <title>Подводен риболов</title>
+  </programme>
+  <programme start="20230623140000 +0300" stop="20230623144000 +0300" channel="hobbytv.bg">
+    <title>Истории от музея</title>
+  </programme>
+  <programme start="20230623144000 +0300" stop="20230623160000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230623160000 +0300" stop="20230623164000 +0300" channel="hobbytv.bg">
+    <title>С въдица в ръка - тв поредица, седми сезон, 1 еп.</title>
+  </programme>
+  <programme start="20230623164000 +0300" stop="20230623172000 +0300" channel="hobbytv.bg">
+    <title>Българската история представя</title>
+  </programme>
+  <programme start="20230623172000 +0300" stop="20230623180000 +0300" channel="hobbytv.bg">
+    <title>Рейсинг екстрийм - тв поредица, пети сезон, 2 еп.</title>
+  </programme>
+  <programme start="20230623180000 +0300" stop="20230623192000 +0300" channel="hobbytv.bg">
+    <title>ЗА РИБА - тв поредица, седми сезон, 29 еп.</title>
+  </programme>
+  <programme start="20230623192000 +0300" stop="20230623200000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230623200000 +0300" stop="20230623204000 +0300" channel="hobbytv.bg">
+    <title>МОТОХОБИ</title>
+  </programme>
+  <programme start="20230623204000 +0300" stop="20230623220000 +0300" channel="hobbytv.bg">
+    <title>Подводен риболов</title>
+  </programme>
+  <programme start="20230623220000 +0300" stop="20230623224000 +0300" channel="hobbytv.bg">
+    <title>Истории от музея</title>
+  </programme>
+  <programme start="20230623224000 +0300" stop="20230624064000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624064000 +0300" stop="20230624080000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624092000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624092000 +0300" stop="20230624100000 +0300" channel="hobbytv.bg">
+    <title>В кухнята на баба - тв поредица, 39 еп.</title>
+  </programme>
+  <programme start="20230624100000 +0300" stop="20230624112000 +0300" channel="hobbytv.bg">
+    <title>Риболовни страсти - тв поредица</title>
+  </programme>
+  <programme start="20230624112000 +0300" stop="20230624120000 +0300" channel="hobbytv.bg">
+    <title>Туризъм</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624132000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624132000 +0300" stop="20230624144000 +0300" channel="hobbytv.bg">
+    <title>КОНЕТЕ</title>
+  </programme>
+  <programme start="20230624144000 +0300" stop="20230624160000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230624160000 +0300" stop="20230624172000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624172000 +0300" stop="20230624180000 +0300" channel="hobbytv.bg">
+    <title>В кухнята на баба - тв поредица, 39 еп.</title>
+  </programme>
+  <programme start="20230624180000 +0300" stop="20230624192000 +0300" channel="hobbytv.bg">
+    <title>Риболовни страсти - тв поредица</title>
+  </programme>
+  <programme start="20230624192000 +0300" stop="20230624200000 +0300" channel="hobbytv.bg">
+    <title>Туризъм</title>
+  </programme>
+  <programme start="20230624200000 +0300" stop="20230624212000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624212000 +0300" stop="20230624224000 +0300" channel="hobbytv.bg">
+    <title>КОНЕТЕ</title>
+  </programme>
+  <programme start="20230624224000 +0300" stop="20230625000000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230625000000 +0300" stop="20230625012000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230625012000 +0300" stop="20230625020000 +0300" channel="hobbytv.bg">
+    <title>Киноложка изложба</title>
+  </programme>
+  <programme start="20230625020000 +0300" stop="20230625042000 +0300" channel="hobbytv.bg">
+    <title>Риби и такъми - тв поредица, пети сезон, 36 еп.</title>
+  </programme>
+  <programme start="20230625042000 +0300" stop="20230625044000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230625044000 +0300" stop="20230625064000 +0300" channel="hobbytv.bg">
+    <title>АВТОХОБИ</title>
+  </programme>
+  <programme start="20230625064000 +0300" stop="20230625080000 +0300" channel="hobbytv.bg">
+    <title>АКТУАЛНО - тв поредица, пети сезон, 25 еп.</title>
+  </programme>
+  <programme start="20230625080000 +0300" stop="20230625092000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230625092000 +0300" stop="20230625100000 +0300" channel="hobbytv.bg">
+    <title>Киноложка изложба</title>
+  </programme>
+  <programme start="20230625100000 +0300" stop="20230625112000 +0300" channel="hobbytv.bg">
+    <title>Риби и такъми - тв поредица, пети сезон, 36 еп.</title>
+  </programme>
+  <programme start="20230625112000 +0300" stop="20230625124000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230625124000 +0300" stop="20230625132000 +0300" channel="hobbytv.bg">
+    <title>АВТОХОБИ</title>
+  </programme>
+  <programme start="20230625132000 +0300" stop="20230625144000 +0300" channel="hobbytv.bg">
+    <title>През планини и морета - тв поредица</title>
+  </programme>
+  <programme start="20230625144000 +0300" stop="20230625160000 +0300" channel="hobbytv.bg">
+    <title>АКТУАЛНО - тв поредица, пети сезон, 25 еп.</title>
+  </programme>
+  <programme start="20230625160000 +0300" stop="20230625172000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230625172000 +0300" stop="20230625182000 +0300" channel="hobbytv.bg">
+    <title>Киноложка изложба</title>
+  </programme>
+  <programme start="20230625182000 +0300" stop="20230625192000 +0300" channel="hobbytv.bg">
+    <title>Риби и такъми - тв поредица, пети сезон, 36 еп.</title>
+  </programme>
+  <programme start="20230625192000 +0300" stop="20230625204000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230625204000 +0300" stop="20230625212000 +0300" channel="hobbytv.bg">
+    <title>АВТОХОБИ</title>
+  </programme>
+  <programme start="20230625212000 +0300" stop="20230625224000 +0300" channel="hobbytv.bg">
+    <title>През планини и морета - тв поредица</title>
+  </programme>
+  <programme start="20230625224000 +0300" stop="20230626064000 +0300" channel="hobbytv.bg">
+    <title>АКТУАЛНО - тв поредица, пети сезон, 25 еп.</title>
+  </programme>
+  <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Коротко о главном. 22-я серия (12+)</title>
+  </programme>
+  <programme start="20230623063000 +0300" stop="20230623065500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фишермания. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230623065500 +0300" stop="20230623072500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка в России. 16-я серия (16+)</title>
+  </programme>
+  <programme start="20230623072500 +0300" stop="20230623075000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыболовные путешествия. 5-я серия (16+)</title>
+  </programme>
+  <programme start="20230623075000 +0300" stop="20230623082000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фотоохота с Евгением Полонским. 23-я серия (16+)</title>
+  </programme>
+  <programme start="20230623082000 +0300" stop="20230623083000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Кодекс охотника. 8-я серия (16+)</title>
+  </programme>
+  <programme start="20230623083000 +0300" stop="20230623090000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Оружейные дома мира. 21-я серия (16+)</title>
+  </programme>
+  <programme start="20230623090000 +0300" stop="20230623093000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сезон охоты. 95-я серия (16+)</title>
+  </programme>
+  <programme start="20230623093000 +0300" stop="20230623100000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Охота и рыбалка в.... 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230623100000 +0300" stop="20230623102500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Россия заповедная. 9-я серия (16+)</title>
+  </programme>
+  <programme start="20230623102500 +0300" stop="20230623110000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сомы Европы. 21-я серия (12+)</title>
+  </programme>
+  <programme start="20230623110000 +0300" stop="20230623112500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230623112500 +0300" stop="20230623114000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Две на одного. Оружие. 6-я серия (16+)</title>
+  </programme>
+  <programme start="20230623114000 +0300" stop="20230623120500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Безграничная рыбалка. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623120500 +0300" stop="20230623123500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">На охотничьей тропе. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623123500 +0300" stop="20230623125000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Делай как я. 22-я серия (16+)</title>
+  </programme>
+  <programme start="20230623125000 +0300" stop="20230623130500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Дед Мазай и зайцы. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623130500 +0300" stop="20230623133000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Пофестивалим!. 17-я серия (16+)</title>
+  </programme>
+  <programme start="20230623133000 +0300" stop="20230623140000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Морская охота. 47-я серия (16+)</title>
+  </programme>
+  <programme start="20230623140000 +0300" stop="20230623143000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Блондинка на охоте. 8-я серия (16+)</title>
+  </programme>
+  <programme start="20230623143000 +0300" stop="20230623150000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Хватка хищника. 1-я серия (16+)</title>
+  </programme>
+  <programme start="20230623150000 +0300" stop="20230623153000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">О главном. 24-я серия (12+)</title>
+  </programme>
+  <programme start="20230623153000 +0300" stop="20230623160000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Камский спиннинг. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623160000 +0300" stop="20230623162500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка с Нормундом Грабовскисом. 154-я серия (12+)</title>
+  </programme>
+  <programme start="20230623162500 +0300" stop="20230623170000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сомы Европы. 22-я серия (12+)</title>
+  </programme>
+  <programme start="20230623170000 +0300" stop="20230623172500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230623172500 +0300" stop="20230623180000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Спиннинг сегодня. 15-я серия (16+)</title>
+  </programme>
+  <programme start="20230623180000 +0300" stop="20230623183000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка сегодня XL. 39-я серия (16+)</title>
+  </programme>
+  <programme start="20230623183000 +0300" stop="20230623185500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Андрей Старков и его команда. 4-я серия (16+)</title>
+  </programme>
+  <programme start="20230623185500 +0300" stop="20230623192500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Донка против фидера. 5-я серия (16+)</title>
+  </programme>
+  <programme start="20230623192500 +0300" stop="20230623195000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыболовные путешествия. 6-я серия (16+)</title>
+  </programme>
+  <programme start="20230623195000 +0300" stop="20230623201500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фотоохота с Евгением Полонским. 24-я серия (16+)</title>
+  </programme>
+  <programme start="20230623201500 +0300" stop="20230623203000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Кодекс охотника. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230623203000 +0300" stop="20230623205500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Поймать лосося. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623205500 +0300" stop="20230623213000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка без границ. 26-я серия (12+)</title>
+  </programme>
+  <programme start="20230623213000 +0300" stop="20230623215500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Камский спиннинг. 1-я серия (16+)</title>
+  </programme>
+  <programme start="20230623215500 +0300" stop="20230623222000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка с Нормундом Грабовскисом. 153-я серия (12+)</title>
+  </programme>
+  <programme start="20230623222000 +0300" stop="20230623225000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сомы Европы. 20-я серия (12+)</title>
+  </programme>
+  <programme start="20230623225000 +0300" stop="20230623231500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230623231500 +0300" stop="20230623233000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Две на одного. Оружие. 5-я серия (16+)</title>
+  </programme>
+  <programme start="20230623233000 +0300" stop="20230623235500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Спиннинг сегодня. 14-я серия (16+)</title>
+  </programme>
+  <programme start="20230623235500 +0300" stop="20230624060000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка сегодня XL. 38-я серия (16+)</title>
+  </programme>
+  <programme start="20230624060000 +0300" stop="20230624063000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624063000 +0300" stop="20230624064000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624064000 +0300" stop="20230624065500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624065500 +0300" stop="20230624072000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624072000 +0300" stop="20230624073500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624073500 +0300" stop="20230624075000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624075000 +0300" stop="20230624080000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624083000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">О главном. 24-я серия (12+)</title>
+  </programme>
+  <programme start="20230624083000 +0300" stop="20230624084500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624084500 +0300" stop="20230624090000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624090000 +0300" stop="20230624092500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624092500 +0300" stop="20230624094000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624094000 +0300" stop="20230624095500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624095500 +0300" stop="20230624102000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624102000 +0300" stop="20230624103500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624103500 +0300" stop="20230624105000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624105000 +0300" stop="20230624112000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624112000 +0300" stop="20230624113500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624113500 +0300" stop="20230624114500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624114500 +0300" stop="20230624120000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624122500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624122500 +0300" stop="20230624124000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624124000 +0300" stop="20230624125500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624125500 +0300" stop="20230624132000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624132000 +0300" stop="20230624133500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624133500 +0300" stop="20230624135000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624135000 +0300" stop="20230624142000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624142000 +0300" stop="20230624143000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624143000 +0300" stop="20230624144500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624144500 +0300" stop="20230624150000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624150000 +0300" stop="20230624152500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624152500 +0300" stop="20230624154000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624154000 +0300" stop="20230624155500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624155500 +0300" stop="20230624162000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624162000 +0300" stop="20230624163500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624163500 +0300" stop="20230624165000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624165000 +0300" stop="20230624172000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624172000 +0300" stop="20230624173000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624173000 +0300" stop="20230624174500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624174500 +0300" stop="20230624180000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624180000 +0300" stop="20230624183000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624183000 +0300" stop="20230624184000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624184000 +0300" stop="20230624185500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624185500 +0300" stop="20230624192500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624192500 +0300" stop="20230624194000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624194000 +0300" stop="20230624195000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624195000 +0300" stop="20230624201500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624201500 +0300" stop="20230624203000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624203000 +0300" stop="20230624204500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624204500 +0300" stop="20230624205500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624205500 +0300" stop="20230624212500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624212500 +0300" stop="20230624214000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624214000 +0300" stop="20230624215000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624215000 +0300" stop="20230624222000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624222000 +0300" stop="20230624223000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624223000 +0300" stop="20230624224500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624224500 +0300" stop="20230624231000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624231000 +0300" stop="20230624232500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624232500 +0300" stop="20230624234000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624234000 +0300" stop="20230624235000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624235000 +0300" stop="20230625002000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230625002000 +0300" stop="20230625003000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230625003000 +0300" stop="20230625004500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230625004500 +0300" stop="20230625011000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230625011000 +0300" stop="20230625012500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230625012500 +0300" stop="20230625013500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230625013500 +0300" stop="20230625020500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230625020500 +0300" stop="20230625021500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230625021500 +0300" stop="20230625023000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230625023000 +0300" stop="20230625024000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230625024000 +0300" stop="20230625031000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230625031000 +0300" stop="20230625032000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230625032000 +0300" stop="20230625033500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230625033500 +0300" stop="20230625040000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230625040000 +0300" stop="20230625041500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230625041500 +0300" stop="20230625043000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230625043000 +0300" stop="20230625045500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230625045500 +0300" stop="20230625050500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230625050500 +0300" stop="20230625053500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230625053500 +0300" stop="20230625055000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230625055000 +0300" stop="20230625060000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230625060000 +0300" stop="20230625061500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Давай зарубимся!. 60-я серия (12+)</title>
+  </programme>
+  <programme start="20230625061500 +0300" stop="20230625063000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Кто? Куда? Зачем?. 8-я серия (16+)</title>
+  </programme>
+  <programme start="20230625063000 +0300" stop="20230625065500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Пофестивалим!. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230625065500 +0300" stop="20230625072500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сомы Европы. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230625072500 +0300" stop="20230625075000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">На охотничьей тропе. 29-я серия (16+)</title>
+  </programme>
+  <programme start="20230625075000 +0300" stop="20230625082000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Охота как она есть. 6-я серия (16+)</title>
+  </programme>
+  <programme start="20230625082000 +0300" stop="20230625084500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка в Абхазии. 4-я серия (16+)</title>
+  </programme>
+  <programme start="20230625084500 +0300" stop="20230625090000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка сегодня. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230625090000 +0300" stop="20230625091000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Давай зарубимся!. 61-я серия (12+)</title>
+  </programme>
+  <programme start="20230625091000 +0300" stop="20230625092500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Кто? Куда? Зачем?. 9-я серия (16+)</title>
+  </programme>
+  <programme start="20230625092500 +0300" stop="20230625095500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Пофестивалим!. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230625095500 +0300" stop="20230625102000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 1-я серия (12+)</title>
+  </programme>
+  <programme start="20230625102000 +0300" stop="20230625105000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фишермания. 10-я серия (12+)</title>
+  </programme>
+  <programme start="20230625105000 +0300" stop="20230625110500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Делай как я. 19-я серия (16+)</title>
+  </programme>
+  <programme start="20230625110500 +0300" stop="20230625113500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Охота как она есть. 7-я серия (16+)</title>
+  </programme>
+  <programme start="20230625113500 +0300" stop="20230625120000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыболовная школа для взрослых. 13-я серия (12+)</title>
+  </programme>
+  <programme start="20230625120000 +0300" stop="20230625123000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Карпфишинг. 17-я серия (12+)</title>
+  </programme>
+  <programme start="20230625123000 +0300" stop="20230625130000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Пофестивалим!. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230625130000 +0300" stop="20230625132500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230625132500 +0300" stop="20230625135500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фишермания. 1-я серия (12+)</title>
+  </programme>
+  <programme start="20230625135500 +0300" stop="20230625141000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Делай как я. 20-я серия (16+)</title>
+  </programme>
+  <programme start="20230625141000 +0300" stop="20230625143500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сам себе охотник. 6-я серия (16+)</title>
+  </programme>
+  <programme start="20230625143500 +0300" stop="20230625150500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыболовная школа для взрослых. 14-я серия (12+)</title>
+  </programme>
+  <programme start="20230625150500 +0300" stop="20230625153500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Карпфишинг. 20-я серия (12+)</title>
+  </programme>
+  <programme start="20230625153500 +0300" stop="20230625160000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Пофестивалим!. 13-я серия (16+)</title>
+  </programme>
+  <programme start="20230625160000 +0300" stop="20230625163000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230625163000 +0300" stop="20230625165500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фишермания. 2-я серия (12+)</title>
+  </programme>
+  <programme start="20230625165500 +0300" stop="20230625172500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сам себе охотник. 7-я серия (16+)</title>
+  </programme>
+  <programme start="20230625172500 +0300" stop="20230625175500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка с Нормундом Грабовскисом. 153-я серия (12+)</title>
+  </programme>
+  <programme start="20230625175500 +0300" stop="20230625183000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Карпфишинг. 22-я серия (12+)</title>
+  </programme>
+  <programme start="20230625183000 +0300" stop="20230625185500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Пофестивалим!. 17-я серия (16+)</title>
+  </programme>
+  <programme start="20230625185500 +0300" stop="20230625192500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230625192500 +0300" stop="20230625195000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фишермания. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230625195000 +0300" stop="20230625200500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Делай как я. 22-я серия (16+)</title>
+  </programme>
+  <programme start="20230625200500 +0300" stop="20230625203500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сезон охоты. 95-я серия (16+)</title>
+  </programme>
+  <programme start="20230625203500 +0300" stop="20230625210000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка с Нормундом Грабовскисом. 154-я серия (12+)</title>
+  </programme>
+  <programme start="20230625210000 +0300" stop="20230625213000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">О главном. 24-я серия (12+)</title>
+  </programme>
+  <programme start="20230625213000 +0300" stop="20230625214500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Давай зарубимся!. 58-я серия (12+)</title>
+  </programme>
+  <programme start="20230625214500 +0300" stop="20230625221500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сомы Европы. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230625221500 +0300" stop="20230625224000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Охота в Приволжье. 5-я серия (16+)</title>
+  </programme>
+  <programme start="20230625224000 +0300" stop="20230625230500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Охота как она есть. 4-я серия (16+)</title>
+  </programme>
+  <programme start="20230625230500 +0300" stop="20230625233500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка в Абхазии. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230625233500 +0300" stop="20230626060000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка без границ. 21-я серия (12+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623070000 +0300" channel="travelchannel.bg">
     <title>Експедиция "Голямата Стъпка" (Series 2): По-близо от всякога (Episode 12)</title>
@@ -33629,7 +34629,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="travelchannel.bg">
     <title>Чудовища от планините (Series 1): Човекът-вълк в Улф (Episode 1)</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="travelchannel.bg">
+  <programme start="20230625230000 +0300" stop="20230626060000 +0300" channel="travelchannel.bg">
     <title>Досиетата "Холцер" (Series 2): Възраждане на паранормална активност (Episode 6)</title>
   </programme>
   <programme start="20230624053000 +0300" stop="20230624060000 +0300" channel="traveltv.bg">
@@ -34124,7 +35124,7 @@
   <programme start="20230625223000 +0300" stop="20230625230000 +0300" channel="docubox.spiintl.com">
     <title lang="bg">Пътешествия в Африка</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="docubox.spiintl.com">
+  <programme start="20230625230000 +0300" stop="20230626060000 +0300" channel="docubox.spiintl.com">
     <title lang="bg">Живот в синьо</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623064000 +0300" channel="historytv.com">
@@ -34433,7 +35433,7 @@
   <programme start="20230625224500 +0300" stop="20230625233000 +0300" channel="historytv.com">
     <title lang="bg">Най-големите загадки в историята: Загадките на египетски пирамиди</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="historytv.com">
+  <programme start="20230625233000 +0300" stop="20230626061500 +0300" channel="historytv.com">
     <title lang="bg">Извънземни от древността: От мястото на събитията: Свидетелства за извънземен живот</title>
   </programme>
   <programme start="20230623063500 +0300" stop="20230623070000 +0300" channel="tv.lovenature.com">
@@ -34631,7 +35631,7 @@
   <programme start="20230625222000 +0300" stop="20230625231500 +0300" channel="tv.lovenature.com">
     <title>Удивителни животински приятелства 1</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="tv.lovenature.com">
+  <programme start="20230625231500 +0300" stop="20230626063500 +0300" channel="tv.lovenature.com">
     <title>Удивителни животински приятелства 1</title>
   </programme>
   <programme start="20230623040000 +0300" stop="20230623043000 +0300" channel="fashion.tv">
@@ -35012,7 +36012,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="fashion.tv">
     <title>Designers</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="fashion.tv">
+  <programme start="20230625233000 +0300" stop="20230626040000 +0300" channel="fashion.tv">
     <title>Designers</title>
   </programme>
   <programme start="20230623030000 +0300" stop="20230623040000 +0300" channel="fashionbox.tv">
@@ -35267,7 +36267,7 @@
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="fashionbox.tv">
     <title>Swim Week 2023</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="fashionbox.tv">
+  <programme start="20230625233000 +0300" stop="20230626030000 +0300" channel="fashionbox.tv">
     <title>Swim Week 2023</title>
   </programme>
   <programme start="20230623001000 +0300" stop="20230623074000 +0300" channel="chasseetpeche.fr">
@@ -35345,8 +36345,185 @@
   <programme start="20230623230000 +0300" stop="20230623232000 +0300" channel="chasseetpeche.fr">
     <title>Québec à vol d'oiseau</title>
   </programme>
-  <programme start="20230623232000 +0300" channel="chasseetpeche.fr">
+  <programme start="20230623232000 +0300" stop="20230624072500 +0300" channel="chasseetpeche.fr">
     <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230624072500 +0300" stop="20230624075000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624075000 +0300" stop="20230624081500 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624081500 +0300" stop="20230624084000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624084000 +0300" stop="20230624090500 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624090500 +0300" stop="20230624092500 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624092500 +0300" stop="20230624095500 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624095500 +0300" stop="20230624102000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624102000 +0300" stop="20230624104000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624104000 +0300" stop="20230624110500 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624110500 +0300" stop="20230624115000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230624115000 +0300" stop="20230624123500 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230624123500 +0300" stop="20230624133000 +0300" channel="chasseetpeche.fr">
+    <title>Carpe, destination Saone et Loire</title>
+  </programme>
+  <programme start="20230624133000 +0300" stop="20230624143000 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230624143000 +0300" stop="20230624150000 +0300" channel="chasseetpeche.fr">
+    <title>The Barkings of The Forest</title>
+  </programme>
+  <programme start="20230624150000 +0300" stop="20230624153000 +0300" channel="chasseetpeche.fr">
+    <title>Tempête et chasse aux chamois</title>
+  </programme>
+  <programme start="20230624153000 +0300" stop="20230624155000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse à tir dans la forêt de la Coubre</title>
+  </programme>
+  <programme start="20230624155000 +0300" stop="20230624162000 +0300" channel="chasseetpeche.fr">
+    <title>Les clefs du maniement d'un appeau à brocard</title>
+  </programme>
+  <programme start="20230624162000 +0300" stop="20230624165000 +0300" channel="chasseetpeche.fr">
+    <title>Love of the Wild</title>
+  </programme>
+  <programme start="20230624165000 +0300" stop="20230624171500 +0300" channel="chasseetpeche.fr">
+    <title>Love of the Wild</title>
+  </programme>
+  <programme start="20230624171500 +0300" stop="20230624181000 +0300" channel="chasseetpeche.fr">
+    <title>Ball-Trap de la chasse à la compétition</title>
+  </programme>
+  <programme start="20230624181000 +0300" stop="20230624190000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230624190000 +0300" stop="20230624193000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624193000 +0300" stop="20230624200000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624200000 +0300" stop="20230624203000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624203000 +0300" stop="20230624210000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624210000 +0300" stop="20230624215500 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230624215500 +0300" stop="20230624231000 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230624231000 +0300" stop="20230624233500 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624233500 +0300" stop="20230625000000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230625000000 +0300" stop="20230625005000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230625005000 +0300" stop="20230625074500 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230625074500 +0300" stop="20230625081000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230625081000 +0300" stop="20230625083500 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230625083500 +0300" stop="20230625092500 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230625092500 +0300" stop="20230625101000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230625101000 +0300" stop="20230625110500 +0300" channel="chasseetpeche.fr">
+    <title>Ball-Trap de la chasse à la compétition</title>
+  </programme>
+  <programme start="20230625110500 +0300" stop="20230625115500 +0300" channel="chasseetpeche.fr">
+    <title>Tirez juste !</title>
+  </programme>
+  <programme start="20230625115500 +0300" stop="20230625125000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse du brocard avec le prince de Strongoli</title>
+  </programme>
+  <programme start="20230625125000 +0300" stop="20230625131500 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230625131500 +0300" stop="20230625134000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230625134000 +0300" stop="20230625140000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230625140000 +0300" stop="20230625142500 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230625142500 +0300" stop="20230625145000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230625145000 +0300" stop="20230625155000 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230625155000 +0300" stop="20230625170500 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230625170500 +0300" stop="20230625175500 +0300" channel="chasseetpeche.fr">
+    <title>Carpe, destination Saone et Loire</title>
+  </programme>
+  <programme start="20230625175500 +0300" stop="20230625190000 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230625190000 +0300" stop="20230625193000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230625193000 +0300" stop="20230625200000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230625200000 +0300" stop="20230625203000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230625203000 +0300" stop="20230625210000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230625210000 +0300" stop="20230625212000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230625212000 +0300" stop="20230625212500 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230625212500 +0300" stop="20230625215000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230625215000 +0300" stop="20230625223500 +0300" channel="chasseetpeche.fr">
+    <title>Monster Carp</title>
+  </programme>
+  <programme start="20230625223500 +0300" stop="20230625232000 +0300" channel="chasseetpeche.fr">
+    <title>Monster Carp</title>
+  </programme>
+  <programme start="20230625232000 +0300" stop="20230625233500 +0300" channel="chasseetpeche.fr">
+    <title>Les minutes pêche</title>
+  </programme>
+  <programme start="20230625233500 +0300" stop="20230625235000 +0300" channel="chasseetpeche.fr">
+    <title>Les minutes pêche</title>
+  </programme>
+  <programme start="20230625235000 +0300" stop="20230626002000 +0300" channel="chasseetpeche.fr">
+    <title>Les minutes pêche</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623065000 +0300" channel="theworld.bg">
     <title lang="bg">25 места, които трябва да посетите в Източна Европа - Макар рядко да оглавява класациите за популярни туристически дестинации, със своята палитра от старинни градчета, древна...</title>
@@ -35534,7 +36711,7 @@
   <programme start="20230625225000 +0300" stop="20230625232500 +0300" channel="theworld.bg">
     <title lang="bg">Топ 10 тайни и загадки - Загадките на свещените текстове.Опознайте десет от най-загадъчните свещени текстове по света.Тези текстове съдържат древни...</title>
   </programme>
-  <programme start="20230625232500 +0300" channel="theworld.bg">
+  <programme start="20230625232500 +0300" stop="20230626060000 +0300" channel="theworld.bg">
     <title lang="bg">25 най-невероятни руини в света - Светът е осеян с руини, напомнящи за историята на отминали епохи и древни народи. Опознайте някои от най-забележителните...</title>
   </programme>
   <programme start="20230623052500 +0300" stop="20230623054500 +0300" channel="nickelodeon.tv">
@@ -35966,7 +37143,7 @@
   <programme start="20230625231000 +0300" stop="20230625234000 +0300" channel="nickelodeon.tv">
     <title>Семейство Касагранде</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="nickelodeon.tv">
+  <programme start="20230625234000 +0300" stop="20230626054000 +0300" channel="nickelodeon.tv">
     <title>Семейство Касагранде</title>
   </programme>
   <programme start="20230623052500 +0300" stop="20230623054500 +0300" channel="nick.tv">
@@ -36398,7 +37575,7 @@
   <programme start="20230625231000 +0300" stop="20230625234000 +0300" channel="nick.tv">
     <title>Семейство Касагранде</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="nick.tv">
+  <programme start="20230625234000 +0300" stop="20230626054000 +0300" channel="nick.tv">
     <title>Семейство Касагранде</title>
   </programme>
   <programme start="20230623053300 +0300" stop="20230623055600 +0300" channel="jimjam.tv">
@@ -36851,7 +38028,7 @@
   <programme start="20230625233000 +0300" stop="20230625235600 +0300" channel="jimjam.tv">
     <title>"Състезателната кола Рори"</title>
   </programme>
-  <programme start="20230625235600 +0300" channel="jimjam.tv">
+  <programme start="20230625235600 +0300" stop="20230626053300 +0300" channel="jimjam.tv">
     <title>"Тризнаците"</title>
   </programme>
   <programme start="20230623073000 +0300" stop="20230623080000 +0300" channel="ekids.bg">
@@ -37061,7 +38238,7 @@
   <programme start="20230625200000 +0300" stop="20230625210000 +0300" channel="ekids.bg">
     <title>Миа и аз - анимационен сериал</title>
   </programme>
-  <programme start="20230625210000 +0300" channel="ekids.bg">
+  <programme start="20230625210000 +0300" stop="20230626073000 +0300" channel="ekids.bg">
     <title>Светът и всичко в него - предаване на Симеон Идакиев</title>
   </programme>
   <programme start="20230623052400 +0300" stop="20230623053000 +0300" channel="davincilearning.tv">
@@ -37799,7 +38976,7 @@
   <programme start="20230625230000 +0300" stop="20230625234800 +0300" channel="davincilearning.tv">
     <title>"Дронове: Новата въздушна катастрофа?"</title>
   </programme>
-  <programme start="20230625234800 +0300" channel="davincilearning.tv">
+  <programme start="20230625234800 +0300" stop="20230626052700 +0300" channel="davincilearning.tv">
     <title>"Знаеш ли как... Клипове"</title>
   </programme>
   <programme start="20230623051500 +0300" stop="20230623053000 +0300" channel="cartoonnetwork.tv">
@@ -38651,7 +39828,7 @@
   <programme start="20230625233500 +0300" stop="20230625235500 +0300" channel="cartoonnetwork.tv">
     <title lang="bg">Невероятният свят на Гъмбол</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="cartoonnetwork.tv">
+  <programme start="20230625235500 +0300" stop="20230626051500 +0300" channel="cartoonnetwork.tv">
     <title lang="bg">Невероятният свят на Гъмбол</title>
   </programme>
   <programme start="20230623053500 +0300" stop="20230623055000 +0300" channel="disneychannel.bg">
@@ -39110,7 +40287,7 @@
   <programme start="20230625234500 +0300" stop="20230625235500 +0300" channel="disneychannel.bg">
     <title lang="bg">Анджи и рецептите на Виолета</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="disneychannel.bg">
+  <programme start="20230625235500 +0300" stop="20230626052500 +0300" channel="disneychannel.bg">
     <title lang="bg">Буболечки приятели</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623001500 +0300" channel="trtcocuk.tr">
@@ -39713,7 +40890,7 @@
   <programme start="20230625232500 +0300" stop="20230625235000 +0300" channel="trtcocuk.tr">
     <title lang="tr">İbi</title>
   </programme>
-  <programme start="20230625235000 +0300" channel="trtcocuk.tr">
+  <programme start="20230625235000 +0300" stop="20230626000000 +0300" channel="trtcocuk.tr">
     <title lang="tr">Yılkı Atı - Doru</title>
   </programme>
   <programme start="20230623090000 +0300" stop="20230623093000 +0300" channel="rossiya1.ru">
@@ -39845,7 +41022,7 @@
   <programme start="20230625220000 +0300" stop="20230625224000 +0300" channel="rossiya1.ru">
     <title lang="ru">Москва. Кремль. Путин</title>
   </programme>
-  <programme start="20230625224000 +0300" channel="rossiya1.ru">
+  <programme start="20230625224000 +0300" stop="20230626090000 +0300" channel="rossiya1.ru">
     <title lang="ru">Воскресный вечер с Владимиром Соловьёвым (12+)</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623063500 +0300" channel="rossiyak.ru">
@@ -40055,7 +41232,7 @@
   <programme start="20230625230000 +0300" stop="20230625232500 +0300" channel="rossiyak.ru">
     <title lang="ru">Роман в камне. Екатеринбург. Особняк Тупиковых</title>
   </programme>
-  <programme start="20230625232500 +0300" channel="rossiyak.ru">
+  <programme start="20230625232500 +0300" stop="20230626063000 +0300" channel="rossiyak.ru">
     <title lang="ru">Однажды на Диком Западе</title>
   </programme>
   <programme start="20230623090000 +0300" stop="20230623092000 +0300" channel="pervyikanal.ru">
@@ -40232,7 +41409,7 @@
   <programme start="20230625223500 +0300" stop="20230625233500 +0300" channel="pervyikanal.ru">
     <title lang="ru">Серебряный волк. 1-я серия (16+)</title>
   </programme>
-  <programme start="20230625233500 +0300" channel="pervyikanal.ru">
+  <programme start="20230625233500 +0300" stop="20230626090000 +0300" channel="pervyikanal.ru">
     <title lang="ru">ПОДКАСТ.ЛАБ. Антропология (16+)</title>
   </programme>
   <programme start="20230623061500 +0300" stop="20230623084000 +0300" channel="zvezda.ru">
@@ -40379,7 +41556,7 @@
   <programme start="20230625230000 +0300" stop="20230625234500 +0300" channel="zvezda.ru">
     <title lang="ru">Фетисов (12+)</title>
   </programme>
-  <programme start="20230625234500 +0300" channel="zvezda.ru">
+  <programme start="20230625234500 +0300" stop="20230626070000 +0300" channel="zvezda.ru">
     <title lang="ru">Стрелы Робин Гуда (12+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="sts.ru">
@@ -40496,7 +41673,7 @@
   <programme start="20230625210000 +0300" stop="20230625232500 +0300" channel="sts.ru">
     <title lang="ru">День независимости. Возрождение (12+)</title>
   </programme>
-  <programme start="20230625232500 +0300" channel="sts.ru">
+  <programme start="20230625232500 +0300" stop="20230626060000 +0300" channel="sts.ru">
     <title lang="ru">Три икса. Мировое господство (16+)</title>
   </programme>
   <programme start="20230623063500 +0300" stop="20230623070000 +0300" channel="tnt.ru">
@@ -40676,7 +41853,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="tnt.ru">
     <title lang="ru">Концерты. 24-я серия (16+)</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="tnt.ru">
+  <programme start="20230625230000 +0300" stop="20230626061500 +0300" channel="tnt.ru">
     <title lang="ru">Очень плохая училка (16+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="zhivi.ru">
@@ -41027,7 +42204,7 @@
   <programme start="20230625220000 +0300" stop="20230625230000 +0300" channel="zhivi.ru">
     <title lang="ru">"Йога Reflex" с Ириной Нельсон (12+)</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="zhivi.ru">
+  <programme start="20230625230000 +0300" stop="20230626060000 +0300" channel="zhivi.ru">
     <title lang="ru">Дыхание стретчинга (12+)</title>
   </programme>
   <programme start="20230623063000 +0300" stop="20230623080000 +0300" channel="ntv.ru">
@@ -41189,7 +42366,7 @@
   <programme start="20230625202000 +0300" stop="20230625235500 +0300" channel="ntv.ru">
     <title lang="ru">Мститель. Страшный лес (16+)</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="ntv.ru">
+  <programme start="20230625235500 +0300" stop="20230626063000 +0300" channel="ntv.ru">
     <title lang="ru">Маска (12+)</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623075000 +0300" channel="lyubimoekino.ru">
@@ -41294,7 +42471,7 @@
   <programme start="20230625214500 +0300" stop="20230625231500 +0300" channel="lyubimoekino.ru">
     <title lang="ru">"База "Клейтон" (16+)</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="lyubimoekino.ru">
+  <programme start="20230625231500 +0300" stop="20230626060000 +0300" channel="lyubimoekino.ru">
     <title lang="ru">На пределе (16+)</title>
   </programme>
   <programme start="20230623062000 +0300" stop="20230623073500 +0300" channel="domkino.ru">
@@ -41378,7 +42555,7 @@
   <programme start="20230625164000 +0300" stop="20230625233000 +0300" channel="domkino.ru">
     <title lang="ru">Сваты (16+)</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="domkino.ru">
+  <programme start="20230625233000 +0300" stop="20230626060000 +0300" channel="domkino.ru">
     <title lang="ru">Особенности национальной рыбалки (16+)</title>
   </programme>
   <programme start="20230623061000 +0300" stop="20230623063500 +0300" channel="ruskoekino.tv1000.ru">
@@ -41495,7 +42672,7 @@
   <programme start="20230625204500 +0300" stop="20230625222000 +0300" channel="ruskoekino.tv1000.ru">
     <title lang="ru">Завтрак у папы (12+)</title>
   </programme>
-  <programme start="20230625222000 +0300" channel="ruskoekino.tv1000.ru">
+  <programme start="20230625222000 +0300" stop="20230626062000 +0300" channel="ruskoekino.tv1000.ru">
     <title lang="ru">Крымский мост. Сделано с любовью! (12+)</title>
   </programme>
   <programme start="20230623010000 +0300" stop="20230623023000 +0300" channel="telekafe.ru">
@@ -41567,7 +42744,7 @@
   <programme start="20230625061000 +0300" stop="20230625070000 +0300" channel="telekafe.ru">
     <title lang="ru">Коллекция рецептов (16+)</title>
   </programme>
-  <programme start="20230625070000 +0300" channel="telekafe.ru">
+  <programme start="20230625070000 +0300" stop="20230626010000 +0300" channel="telekafe.ru">
     <title lang="ru">Дальнобойщики (16+)</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623025500 +0300" channel="trt1.tr">
@@ -41675,8 +42852,11 @@
   <programme start="20230625190000 +0300" stop="20230625200000 +0300" channel="trt1.tr">
     <title lang="tr">Ana Haber</title>
   </programme>
-  <programme start="20230625200000 +0300" channel="trt1.tr">
+  <programme start="20230625200000 +0300" stop="20230625224500 +0300" channel="trt1.tr">
     <title lang="tr">Kendi Düşen Ağlamaz</title>
+  </programme>
+  <programme start="20230625224500 +0300" stop="20230626000000 +0300" channel="trt1.tr">
+    <title lang="tr">Dizi</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623010000 +0300" channel="trthaber.tr">
     <title lang="tr">-</title>
@@ -41984,7 +43164,7 @@
   <programme start="20230625210000 +0300" stop="20230625230000 +0300" channel="trthaber.tr">
     <title lang="tr">Birinci Sayfa</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="trthaber.tr">
+  <programme start="20230625230000 +0300" stop="20230626000000 +0300" channel="trthaber.tr">
     <title lang="tr">Gece Bakışı</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623004500 +0300" channel="trtbelgesel.tr">
@@ -42302,7 +43482,7 @@
   <programme start="20230625223000 +0300" stop="20230625230500 +0300" channel="trtbelgesel.tr">
     <title lang="tr">İnançlar Ve Yaşamlar</title>
   </programme>
-  <programme start="20230625230500 +0300" channel="trtbelgesel.tr">
+  <programme start="20230625230500 +0300" stop="20230626000000 +0300" channel="trtbelgesel.tr">
     <title lang="tr">Savunma Sanayiinin Yalnız Dehaları</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623010000 +0300" channel="cnnturk.tr">
@@ -42446,7 +43626,7 @@
   <programme start="20230625180000 +0300" stop="20230625204500 +0300" channel="cnnturk.tr">
     <title lang="tr">Ana Haber</title>
   </programme>
-  <programme start="20230625204500 +0300" channel="cnnturk.tr">
+  <programme start="20230625204500 +0300" stop="20230626000000 +0300" channel="cnnturk.tr">
     <title lang="tr">Gece Görüşü</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623013000 +0300" channel="haberturk.tr">
@@ -42563,7 +43743,7 @@
   <programme start="20230625190000 +0300" stop="20230625210000 +0300" channel="haberturk.tr">
     <title lang="tr">Ana Haber</title>
   </programme>
-  <programme start="20230625210000 +0300" channel="haberturk.tr">
+  <programme start="20230625210000 +0300" stop="20230626000000 +0300" channel="haberturk.tr">
     <title lang="tr">Habertürk Gündem</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623013000 +0300" channel="kanal7.tr">
@@ -42689,7 +43869,7 @@
   <programme start="20230625212000 +0300" stop="20230625231500 +0300" channel="kanal7.tr">
     <title lang="tr">Benimle Kal</title>
   </programme>
-  <programme start="20230625231500 +0300" channel="kanal7.tr">
+  <programme start="20230625231500 +0300" stop="20230626000000 +0300" channel="kanal7.tr">
     <title lang="tr">Diriliş Ertuğrul</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623020000 +0300" channel="ahaber.tr">
@@ -42950,7 +44130,7 @@
   <programme start="20230625205000 +0300" stop="20230625210000 +0300" channel="ahaber.tr">
     <title lang="tr">Hava Durumu</title>
   </programme>
-  <programme start="20230625210000 +0300" channel="ahaber.tr">
+  <programme start="20230625210000 +0300" stop="20230626000000 +0300" channel="ahaber.tr">
     <title lang="tr">Arka Plan</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623010000 +0300" channel="atv.tr">
@@ -43052,8 +44232,11 @@
   <programme start="20230625190000 +0300" stop="20230625200000 +0300" channel="atv.tr">
     <title lang="tr">ATV Ana Haber</title>
   </programme>
-  <programme start="20230625200000 +0300" channel="atv.tr">
+  <programme start="20230625200000 +0300" stop="20230625210000 +0300" channel="atv.tr">
     <title lang="tr">Kim Milyoner Olmak İster?</title>
+  </programme>
+  <programme start="20230625210000 +0300" stop="20230626000000 +0300" channel="atv.tr">
+    <title lang="tr">Ateş Kuşları</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623005000 +0300" channel="ntv.tr">
     <title lang="tr">Bugün Yarın</title>
@@ -43790,7 +44973,7 @@
   <programme start="20230625235000 +0300" stop="20230625235500 +0300" channel="ntv.tr">
     <title lang="tr">Paranın Nabzı</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="ntv.tr">
+  <programme start="20230625235500 +0300" stop="20230626000000 +0300" channel="ntv.tr">
     <title lang="tr">Hava Durumu</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623003000 +0300" channel="startv.tr">
@@ -43898,7 +45081,7 @@
   <programme start="20230625200000 +0300" stop="20230625223000 +0300" channel="startv.tr">
     <title lang="tr">Eltilerin Savaşı</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="startv.tr">
+  <programme start="20230625223000 +0300" stop="20230626000000 +0300" channel="startv.tr">
     <title lang="tr">Eltilerin Savaşı</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623001500 +0300" channel="tv8.tr">
@@ -43988,7 +45171,7 @@
   <programme start="20230625160000 +0300" stop="20230625200000 +0300" channel="tv8.tr">
     <title lang="tr">Zuhal Topal'la Yemekteyiz</title>
   </programme>
-  <programme start="20230625200000 +0300" channel="tv8.tr">
+  <programme start="20230625200000 +0300" stop="20230626000000 +0300" channel="tv8.tr">
     <title lang="tr">Masterchef Türkiye All Star</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623001500 +0300" channel="kanald.tr">
@@ -44102,7 +45285,7 @@
   <programme start="20230625200000 +0300" stop="20230625223000 +0300" channel="kanald.tr">
     <title lang="tr">Servet Operasyonu</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="kanald.tr">
+  <programme start="20230625223000 +0300" stop="20230626000000 +0300" channel="kanald.tr">
     <title lang="tr">Servet Operasyonu</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623003000 +0300" channel="showtv.tr">
@@ -44201,8 +45384,11 @@
   <programme start="20230625184500 +0300" stop="20230625200000 +0300" channel="showtv.tr">
     <title lang="tr">Show Ana Haber</title>
   </programme>
-  <programme start="20230625200000 +0300" channel="showtv.tr">
+  <programme start="20230625200000 +0300" stop="20230625220000 +0300" channel="showtv.tr">
     <title lang="tr">Güldür Güldür Show</title>
+  </programme>
+  <programme start="20230625220000 +0300" stop="20230626000000 +0300" channel="showtv.tr">
+    <title lang="tr">Zirve Ateşi</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623021500 +0300" channel="beyaztv.tr">
     <title lang="tr">-</title>
@@ -44336,7 +45522,7 @@
   <programme start="20230625214500 +0300" stop="20230625233000 +0300" channel="beyaztv.tr">
     <title lang="tr">Tehlikeli Miras</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="beyaztv.tr">
+  <programme start="20230625233000 +0300" stop="20230626000000 +0300" channel="beyaztv.tr">
     <title lang="tr">Ne Var Ne Yok</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623090000 +0300" channel="tve.es">
@@ -45005,7 +46191,7 @@
   <programme start="20230625222500 +0300" stop="20230625232500 +0300" channel="erox.spiintl.com">
     <title>Billiard Babes 2</title>
   </programme>
-  <programme start="20230625232500 +0300" channel="erox.spiintl.com">
+  <programme start="20230625232500 +0300" stop="20230626041000 +0300" channel="erox.spiintl.com">
     <title>Busty Cock Lovers</title>
   </programme>
   <programme start="20230623050500 +0300" stop="20230623064500 +0300" channel="eroxxx.spiintl.com">
@@ -45161,7 +46347,7 @@
   <programme start="20230625215500 +0300" stop="20230625234500 +0300" channel="eroxxx.spiintl.com">
     <title>Teen Romance</title>
   </programme>
-  <programme start="20230625234500 +0300" channel="eroxxx.spiintl.com">
+  <programme start="20230625234500 +0300" stop="20230626061000 +0300" channel="eroxxx.spiintl.com">
     <title>Sexual Encounters</title>
   </programme>
   <programme start="20230623042800 +0300" stop="20230623044700 +0300" channel="dorceltv.com">
@@ -45296,7 +46482,7 @@
   <programme start="20230625230300 +0300" stop="20230625234700 +0300" channel="dorceltv.com">
     <title>intense Pleasure With Luscious Skylar</title>
   </programme>
-  <programme start="20230625234700 +0300" channel="dorceltv.com">
+  <programme start="20230625234700 +0300" stop="20230626044100 +0300" channel="dorceltv.com">
     <title>Contact - Only Girls</title>
   </programme>
   <programme start="20230623050500 +0300" stop="20230623054000 +0300" channel="dorcelxxx.com">
@@ -45467,7 +46653,7 @@
   <programme start="20230625204900 +0300" stop="20230625221300 +0300" channel="dorcelxxx.com">
     <title>Sweet Bunny Vol.5</title>
   </programme>
-  <programme start="20230625221300 +0300" channel="dorcelxxx.com">
+  <programme start="20230625221300 +0300" stop="20230626042600 +0300" channel="dorcelxxx.com">
     <title>Impulses 2</title>
   </programme>
   <programme start="20230623043000 +0300" stop="20230623060000 +0300" channel="hustlerhd.com">
@@ -45593,7 +46779,7 @@
   <programme start="20230625210000 +0300" stop="20230625223000 +0300" channel="hustlerhd.com">
     <title>Busty Japanese Cuties</title>
   </programme>
-  <programme start="20230625223000 +0300" channel="hustlerhd.com">
+  <programme start="20230625223000 +0300" stop="20230626043000 +0300" channel="hustlerhd.com">
     <title>Two Gals 3-Way Girth</title>
   </programme>
   <programme start="20230623043000 +0300" stop="20230623060000 +0300" channel="hustlertv.com">
@@ -45728,7 +46914,7 @@
   <programme start="20230625213000 +0300" stop="20230625230000 +0300" channel="hustlertv.com">
     <title>10 Best: Over-30 Bra-Busting MILFs</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="hustlertv.com">
+  <programme start="20230625230000 +0300" stop="20230626043000 +0300" channel="hustlertv.com">
     <title>Barely Legal : Solo, Then Stuffed, odc. 182</title>
   </programme>
   <programme start="20230623040000 +0300" stop="20230623050200 +0300" channel="redlighttv.com">
@@ -45932,7 +47118,7 @@
   <programme start="20230625231500 +0300" stop="20230625233300 +0300" channel="redlighttv.com">
     <title>Breakfast</title>
   </programme>
-  <programme start="20230625233300 +0300" channel="redlighttv.com">
+  <programme start="20230625233300 +0300" stop="20230626040000 +0300" channel="redlighttv.com">
     <title>04</title>
   </programme>
   <programme start="20230623041000 +0300" stop="20230623060000 +0300" channel="private.tv">
@@ -46034,7 +47220,7 @@
   <programme start="20230625202000 +0300" stop="20230625223500 +0300" channel="private.tv">
     <title>Urban, Sexy And Anal Loving</title>
   </programme>
-  <programme start="20230625223500 +0300" channel="private.tv">
+  <programme start="20230625223500 +0300" stop="20230626040500 +0300" channel="private.tv">
     <title>19YO Cheerleaders Do Splits For Rod</title>
   </programme>
   <programme start="20230623040500 +0300" stop="20230623042900 +0300" channel="brazzers.eu">
@@ -46541,7 +47727,7 @@
   <programme start="20230625232300 +0300" stop="20230625234900 +0300" channel="brazzers.eu">
     <title>Doing Chores And Sucking Cock</title>
   </programme>
-  <programme start="20230625234900 +0300" channel="brazzers.eu">
+  <programme start="20230625234900 +0300" stop="20230626040200 +0300" channel="brazzers.eu">
     <title>More Than Roses For Mother's Day</title>
   </programme>
   <programme start="20230623030000 +0300" stop="20230623031500 +0300" channel="rts1.rs">
@@ -46793,7 +47979,7 @@
   <programme start="20230625230500 +0300" stop="20230625234900 +0300" channel="rts1.rs">
     <title>Radio Mileva</title>
   </programme>
-  <programme start="20230625234900 +0300" channel="rts1.rs">
+  <programme start="20230625234900 +0300" stop="20230626024000 +0300" channel="rts1.rs">
     <title>Porodično blago</title>
   </programme>
   <programme start="20230623022500 +0300" stop="20230623044000 +0300" channel="rts2.rs">
@@ -47087,7 +48273,7 @@
   <programme start="20230625205000 +0300" stop="20230625225500 +0300" channel="rts2.rs">
     <title>Fudbal - Kvalifikacije za EP U21: Švajcarska - Italija</title>
   </programme>
-  <programme start="20230625225500 +0300" channel="rts2.rs">
+  <programme start="20230625225500 +0300" stop="20230626020000 +0300" channel="rts2.rs">
     <title>Fudbal - Evropsko prvenstvo U21: Češka - Nemačka</title>
   </programme>
   <programme start="20230623020500 +0300" stop="20230623032000 +0300" channel="prva.rs">
@@ -47279,7 +48465,7 @@
   <programme start="20230625222000 +0300" stop="20230625230000 +0300" channel="prva.rs">
     <title>Exkluziv - Specijal</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="prva.rs">
+  <programme start="20230625230000 +0300" stop="20230626000000 +0300" channel="prva.rs">
     <title>Igra sudbine</title>
   </programme>
   <programme start="20230623021500 +0300" stop="20230623031500 +0300" channel="o2.rs">
@@ -47534,7 +48720,7 @@
   <programme start="20230625214500 +0300" stop="20230625230000 +0300" channel="o2.rs">
     <title>Dug moru</title>
   </programme>
-  <programme start="20230625230000 +0300" channel="o2.rs">
+  <programme start="20230625230000 +0300" stop="20230626024500 +0300" channel="o2.rs">
     <title>Dug moru</title>
   </programme>
   <programme start="20230623063500 +0300" stop="20230623070000 +0300" channel="france2.fr">
@@ -47801,7 +48987,7 @@
   <programme start="20230625220500 +0300" stop="20230625221000 +0300" channel="france2.fr">
     <title>Oh ! Biz'Art</title>
   </programme>
-  <programme start="20230625221000 +0300" channel="france2.fr">
+  <programme start="20230625221000 +0300" stop="20230626063000 +0300" channel="france2.fr">
     <title>J'accuse</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623093000 +0300" channel="france3.fr">
@@ -48077,7 +49263,7 @@
   <programme start="20230625221100 +0300" stop="20230625234000 +0300" channel="france3.fr">
     <title>Les enquêtes de Dan Sommerdahl</title>
   </programme>
-  <programme start="20230625234000 +0300" channel="france3.fr">
+  <programme start="20230625234000 +0300" stop="20230626070000 +0300" channel="france3.fr">
     <title>Les enquêtes de Dan Sommerdahl</title>
   </programme>
   <programme start="20230623070000 +0300" stop="20230623075900 +0300" channel="m6.fr">
@@ -48260,7 +49446,7 @@
   <programme start="20230625212500 +0300" stop="20230625221000 +0300" channel="m6.fr">
     <title>E=M6</title>
   </programme>
-  <programme start="20230625221000 +0300" channel="m6.fr">
+  <programme start="20230625221000 +0300" stop="20230626070000 +0300" channel="m6.fr">
     <title>Zone interdite</title>
   </programme>
   <programme start="20230623013500 +0300" stop="20230623023500 +0300" channel="arte.fr">
@@ -48461,7 +49647,7 @@
   <programme start="20230625220000 +0300" stop="20230625233500 +0300" channel="arte.fr">
     <title>Sous le sable</title>
   </programme>
-  <programme start="20230625233500 +0300" channel="arte.fr">
+  <programme start="20230625233500 +0300" stop="20230626020500 +0300" channel="arte.fr">
     <title>L'énigme Charlotte Rampling</title>
   </programme>
   <programme start="20230623004500 +0300" stop="20230623011800 +0300" channel="rai1.it">
@@ -48746,7 +49932,7 @@
   <programme start="20230625232500 +0300" stop="20230625233000 +0300" channel="rai1.it">
     <title lang="it">TG1 Sera</title>
   </programme>
-  <programme start="20230625233000 +0300" channel="rai1.it">
+  <programme start="20230625233000 +0300" stop="20230626004000 +0300" channel="rai1.it">
     <title lang="it">Speciale Tg1</title>
   </programme>
   <programme start="20230623001800 +0300" stop="20230623004300 +0300" channel="rai2.it">
@@ -49010,7 +50196,7 @@
   <programme start="20230625211000 +0300" stop="20230625234500 +0300" channel="rai2.it">
     <title lang="it">TIM Summer Hits - La musica dell'estate</title>
   </programme>
-  <programme start="20230625234500 +0300" channel="rai2.it">
+  <programme start="20230625234500 +0300" stop="20230626004500 +0300" channel="rai2.it">
     <title lang="it">La Domenica Sportiva Estate</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623010000 +0300" channel="rai3.it">
@@ -49361,7 +50547,7 @@
   <programme start="20230625235000 +0300" stop="20230625235500 +0300" channel="rai3.it">
     <title lang="it">Meteo 3</title>
   </programme>
-  <programme start="20230625235500 +0300" channel="rai3.it">
+  <programme start="20230625235500 +0300" stop="20230626013000 +0300" channel="rai3.it">
     <title lang="it">Mezz'ora in più - Puntata del 25/06/2023</title>
   </programme>
   <programme start="20230623001500 +0300" stop="20230623010000 +0300" channel="raiscuola.it">
@@ -49730,7 +50916,7 @@
   <programme start="20230625224500 +0300" stop="20230625234500 +0300" channel="raiscuola.it">
     <title lang="it">Progetto Scienza Verso il futuro - p. 03</title>
   </programme>
-  <programme start="20230625234500 +0300" channel="raiscuola.it">
+  <programme start="20230625234500 +0300" stop="20230626000000 +0300" channel="raiscuola.it">
     <title lang="it">Futuro 24</title>
   </programme>
 </tv>

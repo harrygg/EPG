@@ -184,6 +184,26 @@
     <display-name>Nova Sport HD</display-name>
     <display-name>Nova Sport LQ</display-name>
   </channel>
+  <channel id="diemasport.bg">
+    <display-name lang="bg">Диема Спорт</display-name>
+    <display-name>Diema Sport</display-name>
+    <display-name>Diema Sport HD</display-name>
+    <display-name>Diema Sport LQ</display-name>
+  </channel>
+  <channel id="diemasport2.bg">
+    <display-name lang="bg">Диема Спорт 2</display-name>
+    <display-name>Diema Sport 2</display-name>
+    <display-name>Diema Sport 2 HD</display-name>
+    <display-name>Diema Sport 2 4K</display-name>
+    <display-name>Diema Sport 2 LQ</display-name>
+  </channel>
+  <channel id="diemasport3.bg">
+    <display-name lang="bg">Диема Спорт 3</display-name>
+    <display-name>Diema Sport 3</display-name>
+    <display-name>Diema Sport 3 HD</display-name>
+    <display-name>Diema Sport 3 4K</display-name>
+    <display-name>Diema Sport 3 LQ</display-name>
+  </channel>
   <channel id="ring.bg">
     <display-name lang="bg">Ринг</display-name>
     <display-name>Ring LQ</display-name>
@@ -636,6 +656,14 @@
   <channel id="animalplanet.bg">
     <display-name lang="en">Animal Planet</display-name>
     <display-name lang="en">Animal Planet HD</display-name>
+  </channel>
+  <channel id="hobbytv.bg">
+    <display-name lang="en">Hobby TV</display-name>
+    <display-name lang="bg">Хоби ТВ</display-name>
+  </channel>
+  <channel id="ohotarybalka.ru">
+    <display-name lang="ru">Охота и рыбалка</display-name>
+    <display-name lang="en">Ohota Rybalka</display-name>
   </channel>
   <channel id="travelchannel.bg">
     <display-name lang="en">Travel Channel</display-name>
@@ -5662,6 +5690,207 @@
   </programme>
   <programme start="20230624230000 +0300" stop="20230625010000 +0300" channel="novasport.bg">
     <title>Футбол: Дания - Северна Ирландия</title>
+  </programme>
+  <programme start="20230623080000 +0300" stop="20230623100000 +0300" channel="diemasport.bg">
+    <title>Футбол: Литва - България, 3 кръг, Квалификации за UEFA Евро 2024, група G, /п/</title>
+  </programme>
+  <programme start="20230623100000 +0300" stop="20230623120000 +0300" channel="diemasport.bg">
+    <title>Футбол: България - Сърбия, 4 кръг, Квалификации за UEFA Евро 2024, група G, /п/</title>
+  </programme>
+  <programme start="20230623120000 +0300" stop="20230623130000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Локомотив София, 10 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623130000 +0300" stop="20230623140000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Арда, 9 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623140000 +0300" stop="20230623150000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Черно море, 8 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623150000 +0300" stop="20230623160000 +0300" channel="diemasport.bg">
+    <title>"Домът на футбола", 51 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623160000 +0300" stop="20230623170000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Локомотив Пловдив, 6 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623170000 +0300" stop="20230623180000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Ботев Пловдив, 7 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623180000 +0300" stop="20230623190000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Берое, 11 епизод, предаване за български футбол (2022-23)</title>
+  </programme>
+  <programme start="20230623190000 +0300" stop="20230623210000 +0300" channel="diemasport.bg">
+    <title>Футбол: Черно море - Лудогорец, 35 кръг, efbet Лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623210000 +0300" stop="20230623230000 +0300" channel="diemasport.bg">
+    <title>Футбол: ЦСКА 1948 - Лудогорец, Sesame Купа на България (2022-23), финал, /п/</title>
+  </programme>
+  <programme start="20230623230000 +0300" stop="20230624010000 +0300" channel="diemasport.bg">
+    <title>Футбол: Берое - Спортист Своге, мач за място в efbet Лига, /п/</title>
+  </programme>
+  <programme start="20230624010000 +0300" stop="20230624080000 +0300" channel="diemasport.bg">
+    <title>Футбол: Левски - Арда, мач за място в Лига на Конференциите, /п/</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624090000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Берое, 11 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624090000 +0300" stop="20230624100000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Левски, 3 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624100000 +0300" stop="20230624110000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на ЦСКА 1948, 4 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624110000 +0300" stop="20230624120000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на ЦСКА, 2 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624130000 +0300" channel="diemasport.bg">
+    <title>"Домът на футбола", 51 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624130000 +0300" stop="20230624140000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Локомотив Пловдив, 6 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624140000 +0300" stop="20230624150000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Ботев Пловдив, 7 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624150000 +0300" stop="20230624160000 +0300" channel="diemasport.bg">
+    <title>"Головете на сезона", 1 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624160000 +0300" stop="20230624170000 +0300" channel="diemasport.bg">
+    <title>"Головете на сезона", 2 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624170000 +0300" stop="20230624180000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Лудогорец, 1 епизод, предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624180000 +0300" stop="20230624190000 +0300" channel="diemasport.bg">
+    <title>Обзор на сезона на Септември, 12 епизод, предаване за български футбол (2022-23)</title>
+  </programme>
+  <programme start="20230624190000 +0300" stop="20230624210000 +0300" channel="diemasport.bg">
+    <title>Футбол: Литва - България, 3 кръг, Квалификации за UEFA Евро 2024, група G, /п/</title>
+  </programme>
+  <programme start="20230624210000 +0300" stop="20230624230000 +0300" channel="diemasport.bg">
+    <title>Футбол: България - Сърбия, 4 кръг, Квалификации за UEFA Евро 2024, група G, /п/</title>
+  </programme>
+  <programme start="20230624230000 +0300" stop="20230625010000 +0300" channel="diemasport.bg">
+    <title>"Обзор на сезона", предаване за български футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623080000 +0300" stop="20230623100000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Уулвърхямптън Уондърърс - Брентфорд, 31 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623100000 +0300" stop="20230623120000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Исландия - Португалия, 4 кръг, Квалификации за UEFA Евро 2024, група J, /п/</title>
+  </programme>
+  <programme start="20230623120000 +0300" stop="20230623130000 +0300" channel="diemasport2.bg">
+    <title>"НБА Екшън", 37 епизод, предаване за американски баскетбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623130000 +0300" stop="20230623150000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Астън Вила - Нюкасъл Юнайтед, 31 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623150000 +0300" stop="20230623170000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Челси - Брайтън &amp; Хоув Албиън, 31 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623170000 +0300" stop="20230623190000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Нюкасъл Юнайтед - Тотнъм Хотспър, 32 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623190000 +0300" stop="20230623210000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Ливърпул - Нотингам Форест, 32 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623210000 +0300" stop="20230623230000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Саутхямптън - Манчестър Сити, 32 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230623230000 +0300" stop="20230624010000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Манчестър Юнайтед - Евертън, 30 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624010000 +0300" stop="20230624030000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Фулъм - Уест Хям Юнайтед, 30 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624030000 +0300" stop="20230624080000 +0300" channel="diemasport2.bg">
+    <title>Бокс без ръкавици, Бойно събитие №45, Холивуд, Флорида, САЩ, директно</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624100000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Брайтън &amp; Хоув Албиън - Брентфорд, 29 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624100000 +0300" stop="20230624120000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Нюкасъл Юнайтед - Манчестър Юнайтед, 29 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624160000 +0300" channel="diemasport2.bg">
+    <title>ONE: Петъчни битки, 22 епизод, Бойно събитие в Банкок, Тайланд, /п/</title>
+  </programme>
+  <programme start="20230624160000 +0300" stop="20230624170000 +0300" channel="diemasport2.bg">
+    <title>"Обзор на сезона", предаване за английски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624170000 +0300" stop="20230624190000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Челси - Астън Вила, 29 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624190000 +0300" stop="20230624210000 +0300" channel="diemasport2.bg">
+    <title>Баскетбол: Реал Мадрид - Барселона, Лига Ендеса (2022-23), финал, мач №3, /п/</title>
+  </programme>
+  <programme start="20230624210000 +0300" stop="20230624220000 +0300" channel="diemasport2.bg">
+    <title>"НБА Екшън", 37 епизод, предаване за американски баскетбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624220000 +0300" stop="20230625000000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Манчестър Юнайтед - Нюкасъл Юнайтед, Карабао Къп (2022-23), финал, /п/</title>
+  </programme>
+  <programme start="20230623073000 +0300" stop="20230623093000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Финландия - Сан Марино, 4 кръг, Квалификации за UEFA Евро 2024, група H, /п/</title>
+  </programme>
+  <programme start="20230623093000 +0300" stop="20230623113000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Англия - Северна Македония, 4 кръг, Квалификации за UEFA Евро 2024, група C, /п/</title>
+  </programme>
+  <programme start="20230623113000 +0300" stop="20230623133000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Унгария - Чехия, Европейско първенство по баскетбол за жени 2023, четвъртфинал, /п/</title>
+  </programme>
+  <programme start="20230623133000 +0300" stop="20230623153000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Белгия - Сърбия, Европейско първенство по баскетбол за жени 2023, четвъртфинал, /п/</title>
+  </programme>
+  <programme start="20230623153000 +0300" stop="20230623193000 +0300" channel="diemasport3.bg">
+    <title>ONE: Петъчни битки, 22 епизод, Бойно събитие в Банкок, Тайланд, директно</title>
+  </programme>
+  <programme start="20230623193000 +0300" stop="20230623223000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Хърватия - Испания, УЕФА Лига на нациите (2022-23), финал, /п/</title>
+  </programme>
+  <programme start="20230623223000 +0300" stop="20230624003000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Франция - Черна гора, Европейско първенство по баскетбол за жени 2023, четвъртфинал, /п/</title>
+  </programme>
+  <programme start="20230624003000 +0300" stop="20230624023000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Испания - Германия, Европейско първенство по баскетбол за жени 2023, четвъртфинал, /п/</title>
+  </programme>
+  <programme start="20230624023000 +0300" stop="20230624043000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Волфсбург - Майнц, 30 кръг, Бундеслига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624043000 +0300" stop="20230624080000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Борусия Мьонхенгладбах - Унион Берлин, 29 кръг, Бундеслига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624100000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Франция - Гърция, 4 кръг, Квалификации за UEFA Евро 2024, група B, /п/</title>
+  </programme>
+  <programme start="20230624100000 +0300" stop="20230624120000 +0300" channel="diemasport3.bg">
+    <title>Футбол: Португалия - Босна и Херцеговина, 3 кръг, Квалификации за UEFA Евро 2024, група J, /п/</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624130000 +0300" channel="diemasport3.bg">
+    <title>Бундеслига: Обзор на сезона, предаване за германски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624130000 +0300" stop="20230624150000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, директно</title>
+  </programme>
+  <programme start="20230624150000 +0300" stop="20230624154500 +0300" channel="diemasport3.bg">
+    <title>Головете на сезона в Бундеслига, предаване за германски футбол (2022-23), /п/</title>
+  </programme>
+  <programme start="20230624154500 +0300" stop="20230624174500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, директно</title>
+  </programme>
+  <programme start="20230624174500 +0300" stop="20230624184500 +0300" channel="diemasport3.bg">
+    <title>Квалификации за UEFA Евро 2024: Обзор на кръга, 4 епизод, предаване за международен футбол (2023-24), /п/</title>
+  </programme>
+  <programme start="20230624184500 +0300" stop="20230624204500 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, полуфинал, директно</title>
+  </programme>
+  <programme start="20230624204500 +0300" stop="20230624214500 +0300" channel="diemasport3.bg">
+    <title>"Формула 1 Токшоу", 16 епизод, предаване за Формула 1 (2023), /п/</title>
+  </programme>
+  <programme start="20230624214500 +0300" stop="20230624233000 +0300" channel="diemasport3.bg">
+    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, полуфинал, директно</title>
+  </programme>
+  <programme start="20230624233000 +0300" stop="20230625003000 +0300" channel="diemasport3.bg">
+    <title>Лига 1: Обзор на сезона, предаване за френски футбол (2022-23), /п/</title>
   </programme>
   <programme start="20230623000000 +0300" stop="20230623020000 +0300" channel="ring.bg">
     <title>– Португалска лига 2022/2023</title>
@@ -21554,6 +21783,417 @@
   <programme start="20230624230000 +0300" stop="20230625000000 +0300" channel="animalplanet.bg">
     <title>На края на Аляска: Епизод 3</title>
   </programme>
+  <programme start="20230623064000 +0300" stop="20230623080000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230623080000 +0300" stop="20230623084000 +0300" channel="hobbytv.bg">
+    <title>С въдица в ръка - тв поредица, седми сезон, 1 еп.</title>
+  </programme>
+  <programme start="20230623084000 +0300" stop="20230623092000 +0300" channel="hobbytv.bg">
+    <title>Българската история представя</title>
+  </programme>
+  <programme start="20230623092000 +0300" stop="20230623100000 +0300" channel="hobbytv.bg">
+    <title>Рейсинг екстрийм - тв поредица, пети сезон, 2 еп.</title>
+  </programme>
+  <programme start="20230623100000 +0300" stop="20230623112000 +0300" channel="hobbytv.bg">
+    <title>ЗА РИБА - тв поредица, седми сезон, 29 еп.</title>
+  </programme>
+  <programme start="20230623112000 +0300" stop="20230623120000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230623120000 +0300" stop="20230623124000 +0300" channel="hobbytv.bg">
+    <title>МОТОХОБИ</title>
+  </programme>
+  <programme start="20230623124000 +0300" stop="20230623140000 +0300" channel="hobbytv.bg">
+    <title>Подводен риболов</title>
+  </programme>
+  <programme start="20230623140000 +0300" stop="20230623144000 +0300" channel="hobbytv.bg">
+    <title>Истории от музея</title>
+  </programme>
+  <programme start="20230623144000 +0300" stop="20230623160000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230623160000 +0300" stop="20230623164000 +0300" channel="hobbytv.bg">
+    <title>С въдица в ръка - тв поредица, седми сезон, 1 еп.</title>
+  </programme>
+  <programme start="20230623164000 +0300" stop="20230623172000 +0300" channel="hobbytv.bg">
+    <title>Българската история представя</title>
+  </programme>
+  <programme start="20230623172000 +0300" stop="20230623180000 +0300" channel="hobbytv.bg">
+    <title>Рейсинг екстрийм - тв поредица, пети сезон, 2 еп.</title>
+  </programme>
+  <programme start="20230623180000 +0300" stop="20230623192000 +0300" channel="hobbytv.bg">
+    <title>ЗА РИБА - тв поредица, седми сезон, 29 еп.</title>
+  </programme>
+  <programme start="20230623192000 +0300" stop="20230623200000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230623200000 +0300" stop="20230623204000 +0300" channel="hobbytv.bg">
+    <title>МОТОХОБИ</title>
+  </programme>
+  <programme start="20230623204000 +0300" stop="20230623220000 +0300" channel="hobbytv.bg">
+    <title>Подводен риболов</title>
+  </programme>
+  <programme start="20230623220000 +0300" stop="20230623224000 +0300" channel="hobbytv.bg">
+    <title>Истории от музея</title>
+  </programme>
+  <programme start="20230623224000 +0300" stop="20230624064000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624064000 +0300" stop="20230624080000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624092000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624092000 +0300" stop="20230624100000 +0300" channel="hobbytv.bg">
+    <title>В кухнята на баба - тв поредица, 39 еп.</title>
+  </programme>
+  <programme start="20230624100000 +0300" stop="20230624112000 +0300" channel="hobbytv.bg">
+    <title>Риболовни страсти - тв поредица</title>
+  </programme>
+  <programme start="20230624112000 +0300" stop="20230624120000 +0300" channel="hobbytv.bg">
+    <title>Туризъм</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624132000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624132000 +0300" stop="20230624144000 +0300" channel="hobbytv.bg">
+    <title>КОНЕТЕ</title>
+  </programme>
+  <programme start="20230624144000 +0300" stop="20230624160000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230624160000 +0300" stop="20230624172000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624172000 +0300" stop="20230624180000 +0300" channel="hobbytv.bg">
+    <title>В кухнята на баба - тв поредица, 39 еп.</title>
+  </programme>
+  <programme start="20230624180000 +0300" stop="20230624192000 +0300" channel="hobbytv.bg">
+    <title>Риболовни страсти - тв поредица</title>
+  </programme>
+  <programme start="20230624192000 +0300" stop="20230624200000 +0300" channel="hobbytv.bg">
+    <title>Туризъм</title>
+  </programme>
+  <programme start="20230624200000 +0300" stop="20230624212000 +0300" channel="hobbytv.bg">
+    <title>Риболовен филм</title>
+  </programme>
+  <programme start="20230624212000 +0300" stop="20230624224000 +0300" channel="hobbytv.bg">
+    <title>КОНЕТЕ</title>
+  </programme>
+  <programme start="20230624224000 +0300" stop="20230625000000 +0300" channel="hobbytv.bg">
+    <title>МОЕТО ХОБИ</title>
+  </programme>
+  <programme start="20230623060000 +0300" stop="20230623063000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Коротко о главном. 22-я серия (12+)</title>
+  </programme>
+  <programme start="20230623063000 +0300" stop="20230623065500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фишермания. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230623065500 +0300" stop="20230623072500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка в России. 16-я серия (16+)</title>
+  </programme>
+  <programme start="20230623072500 +0300" stop="20230623075000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыболовные путешествия. 5-я серия (16+)</title>
+  </programme>
+  <programme start="20230623075000 +0300" stop="20230623082000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фотоохота с Евгением Полонским. 23-я серия (16+)</title>
+  </programme>
+  <programme start="20230623082000 +0300" stop="20230623083000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Кодекс охотника. 8-я серия (16+)</title>
+  </programme>
+  <programme start="20230623083000 +0300" stop="20230623090000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Оружейные дома мира. 21-я серия (16+)</title>
+  </programme>
+  <programme start="20230623090000 +0300" stop="20230623093000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сезон охоты. 95-я серия (16+)</title>
+  </programme>
+  <programme start="20230623093000 +0300" stop="20230623100000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Охота и рыбалка в.... 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230623100000 +0300" stop="20230623102500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Россия заповедная. 9-я серия (16+)</title>
+  </programme>
+  <programme start="20230623102500 +0300" stop="20230623110000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сомы Европы. 21-я серия (12+)</title>
+  </programme>
+  <programme start="20230623110000 +0300" stop="20230623112500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230623112500 +0300" stop="20230623114000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Две на одного. Оружие. 6-я серия (16+)</title>
+  </programme>
+  <programme start="20230623114000 +0300" stop="20230623120500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Безграничная рыбалка. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623120500 +0300" stop="20230623123500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">На охотничьей тропе. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623123500 +0300" stop="20230623125000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Делай как я. 22-я серия (16+)</title>
+  </programme>
+  <programme start="20230623125000 +0300" stop="20230623130500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Дед Мазай и зайцы. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623130500 +0300" stop="20230623133000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Пофестивалим!. 17-я серия (16+)</title>
+  </programme>
+  <programme start="20230623133000 +0300" stop="20230623140000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Морская охота. 47-я серия (16+)</title>
+  </programme>
+  <programme start="20230623140000 +0300" stop="20230623143000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Блондинка на охоте. 8-я серия (16+)</title>
+  </programme>
+  <programme start="20230623143000 +0300" stop="20230623150000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Хватка хищника. 1-я серия (16+)</title>
+  </programme>
+  <programme start="20230623150000 +0300" stop="20230623153000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">О главном. 24-я серия (12+)</title>
+  </programme>
+  <programme start="20230623153000 +0300" stop="20230623160000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Камский спиннинг. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623160000 +0300" stop="20230623162500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка с Нормундом Грабовскисом. 154-я серия (12+)</title>
+  </programme>
+  <programme start="20230623162500 +0300" stop="20230623170000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сомы Европы. 22-я серия (12+)</title>
+  </programme>
+  <programme start="20230623170000 +0300" stop="20230623172500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230623172500 +0300" stop="20230623180000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Спиннинг сегодня. 15-я серия (16+)</title>
+  </programme>
+  <programme start="20230623180000 +0300" stop="20230623183000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка сегодня XL. 39-я серия (16+)</title>
+  </programme>
+  <programme start="20230623183000 +0300" stop="20230623185500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Андрей Старков и его команда. 4-я серия (16+)</title>
+  </programme>
+  <programme start="20230623185500 +0300" stop="20230623192500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Донка против фидера. 5-я серия (16+)</title>
+  </programme>
+  <programme start="20230623192500 +0300" stop="20230623195000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыболовные путешествия. 6-я серия (16+)</title>
+  </programme>
+  <programme start="20230623195000 +0300" stop="20230623201500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Фотоохота с Евгением Полонским. 24-я серия (16+)</title>
+  </programme>
+  <programme start="20230623201500 +0300" stop="20230623203000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Кодекс охотника. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230623203000 +0300" stop="20230623205500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Поймать лосося. 2-я серия (16+)</title>
+  </programme>
+  <programme start="20230623205500 +0300" stop="20230623213000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка без границ. 26-я серия (12+)</title>
+  </programme>
+  <programme start="20230623213000 +0300" stop="20230623215500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Камский спиннинг. 1-я серия (16+)</title>
+  </programme>
+  <programme start="20230623215500 +0300" stop="20230623222000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка с Нормундом Грабовскисом. 153-я серия (12+)</title>
+  </programme>
+  <programme start="20230623222000 +0300" stop="20230623225000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Сомы Европы. 20-я серия (12+)</title>
+  </programme>
+  <programme start="20230623225000 +0300" stop="20230623231500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Мир охотника. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230623231500 +0300" stop="20230623233000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Две на одного. Оружие. 5-я серия (16+)</title>
+  </programme>
+  <programme start="20230623233000 +0300" stop="20230623235500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Спиннинг сегодня. 14-я серия (16+)</title>
+  </programme>
+  <programme start="20230623235500 +0300" stop="20230624060000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Рыбалка сегодня XL. 38-я серия (16+)</title>
+  </programme>
+  <programme start="20230624060000 +0300" stop="20230624063000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624063000 +0300" stop="20230624064000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624064000 +0300" stop="20230624065500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624065500 +0300" stop="20230624072000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624072000 +0300" stop="20230624073500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624073500 +0300" stop="20230624075000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624075000 +0300" stop="20230624080000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624080000 +0300" stop="20230624083000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">О главном. 24-я серия (12+)</title>
+  </programme>
+  <programme start="20230624083000 +0300" stop="20230624084500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624084500 +0300" stop="20230624090000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624090000 +0300" stop="20230624092500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624092500 +0300" stop="20230624094000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624094000 +0300" stop="20230624095500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624095500 +0300" stop="20230624102000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624102000 +0300" stop="20230624103500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624103500 +0300" stop="20230624105000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624105000 +0300" stop="20230624112000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624112000 +0300" stop="20230624113500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624113500 +0300" stop="20230624114500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624114500 +0300" stop="20230624120000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624120000 +0300" stop="20230624122500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624122500 +0300" stop="20230624124000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624124000 +0300" stop="20230624125500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624125500 +0300" stop="20230624132000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624132000 +0300" stop="20230624133500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624133500 +0300" stop="20230624135000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624135000 +0300" stop="20230624142000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624142000 +0300" stop="20230624143000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624143000 +0300" stop="20230624144500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624144500 +0300" stop="20230624150000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624150000 +0300" stop="20230624152500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624152500 +0300" stop="20230624154000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624154000 +0300" stop="20230624155500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624155500 +0300" stop="20230624162000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624162000 +0300" stop="20230624163500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624163500 +0300" stop="20230624165000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624165000 +0300" stop="20230624172000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624172000 +0300" stop="20230624173000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624173000 +0300" stop="20230624174500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624174500 +0300" stop="20230624180000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624180000 +0300" stop="20230624183000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624183000 +0300" stop="20230624184000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624184000 +0300" stop="20230624185500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624185500 +0300" stop="20230624192500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624192500 +0300" stop="20230624194000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624194000 +0300" stop="20230624195000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624195000 +0300" stop="20230624201500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624201500 +0300" stop="20230624203000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624203000 +0300" stop="20230624204500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624204500 +0300" stop="20230624205500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624205500 +0300" stop="20230624212500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
+  <programme start="20230624212500 +0300" stop="20230624214000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 6-я серия (12+)</title>
+  </programme>
+  <programme start="20230624214000 +0300" stop="20230624215000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 3-я серия (12+)</title>
+  </programme>
+  <programme start="20230624215000 +0300" stop="20230624222000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 11-я серия (16+)</title>
+  </programme>
+  <programme start="20230624222000 +0300" stop="20230624223000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 7-я серия (12+)</title>
+  </programme>
+  <programme start="20230624223000 +0300" stop="20230624224500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 4-я серия (12+)</title>
+  </programme>
+  <programme start="20230624224500 +0300" stop="20230624231000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 12-я серия (16+)</title>
+  </programme>
+  <programme start="20230624231000 +0300" stop="20230624232500 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 8-я серия (12+)</title>
+  </programme>
+  <programme start="20230624232500 +0300" stop="20230624234000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Гoтoвим на пpироде. 5-я серия (12+)</title>
+  </programme>
+  <programme start="20230624234000 +0300" stop="20230624235000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Какая дичь!. 9-я серия (12+)</title>
+  </programme>
+  <programme start="20230624235000 +0300" stop="20230625002000 +0300" channel="ohotarybalka.ru">
+    <title lang="ru">Экспедиции Андрея Старкова. 10-я серия (16+)</title>
+  </programme>
   <programme start="20230623060000 +0300" stop="20230623070000 +0300" channel="travelchannel.bg">
     <title>Експедиция "Голямата Стъпка" (Series 2): По-близо от всякога (Episode 12)</title>
   </programme>
@@ -22709,8 +23349,95 @@
   <programme start="20230623230000 +0300" stop="20230623232000 +0300" channel="chasseetpeche.fr">
     <title>Québec à vol d'oiseau</title>
   </programme>
-  <programme start="20230623232000 +0300" channel="chasseetpeche.fr">
+  <programme start="20230623232000 +0300" stop="20230624072500 +0300" channel="chasseetpeche.fr">
     <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230624072500 +0300" stop="20230624075000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624075000 +0300" stop="20230624081500 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624081500 +0300" stop="20230624084000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624084000 +0300" stop="20230624090500 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624090500 +0300" stop="20230624092500 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624092500 +0300" stop="20230624095500 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624095500 +0300" stop="20230624102000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624102000 +0300" stop="20230624104000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624104000 +0300" stop="20230624110500 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624110500 +0300" stop="20230624115000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230624115000 +0300" stop="20230624123500 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230624123500 +0300" stop="20230624133000 +0300" channel="chasseetpeche.fr">
+    <title>Carpe, destination Saone et Loire</title>
+  </programme>
+  <programme start="20230624133000 +0300" stop="20230624143000 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230624143000 +0300" stop="20230624150000 +0300" channel="chasseetpeche.fr">
+    <title>The Barkings of The Forest</title>
+  </programme>
+  <programme start="20230624150000 +0300" stop="20230624153000 +0300" channel="chasseetpeche.fr">
+    <title>Tempête et chasse aux chamois</title>
+  </programme>
+  <programme start="20230624153000 +0300" stop="20230624155000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse à tir dans la forêt de la Coubre</title>
+  </programme>
+  <programme start="20230624155000 +0300" stop="20230624162000 +0300" channel="chasseetpeche.fr">
+    <title>Les clefs du maniement d'un appeau à brocard</title>
+  </programme>
+  <programme start="20230624162000 +0300" stop="20230624165000 +0300" channel="chasseetpeche.fr">
+    <title>Love of the Wild</title>
+  </programme>
+  <programme start="20230624165000 +0300" stop="20230624171500 +0300" channel="chasseetpeche.fr">
+    <title>Love of the Wild</title>
+  </programme>
+  <programme start="20230624171500 +0300" stop="20230624181000 +0300" channel="chasseetpeche.fr">
+    <title>Ball-Trap de la chasse à la compétition</title>
+  </programme>
+  <programme start="20230624181000 +0300" stop="20230624190000 +0300" channel="chasseetpeche.fr">
+    <title>Chasse entre amis</title>
+  </programme>
+  <programme start="20230624190000 +0300" stop="20230624193000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624193000 +0300" stop="20230624200000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624200000 +0300" stop="20230624203000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624203000 +0300" stop="20230624210000 +0300" channel="chasseetpeche.fr">
+    <title>Cuisine de chasseur</title>
+  </programme>
+  <programme start="20230624210000 +0300" stop="20230624215500 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230624215500 +0300" stop="20230624231000 +0300" channel="chasseetpeche.fr">
+    <title>J'irai pêcher chez vous</title>
+  </programme>
+  <programme start="20230624231000 +0300" stop="20230624233500 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
+  </programme>
+  <programme start="20230624233500 +0300" stop="20230625000000 +0300" channel="chasseetpeche.fr">
+    <title>Québec à vol d'oiseau</title>
   </programme>
   <programme start="20230623060000 +0300" stop="20230623065000 +0300" channel="theworld.bg">
     <title lang="bg">25 места, които трябва да посетите в Източна Европа - Макар рядко да оглавява класациите за популярни туристически дестинации, със своята палитра от старинни градчета, древна...</title>
