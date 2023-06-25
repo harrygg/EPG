@@ -337,8 +337,8 @@
   sources:
   # - hbo.bg
   - tv-programa.bg
-  - tv.dir.bg
   - dnes.bg
+  - tv.dir.bg
 
 - id: hbo2.bg
   enabled: true
@@ -350,8 +350,8 @@
   sources:
   # - hbo.bg
   - tv-programa.bg
-  - tv.dir.bg
   - dnes.bg
+  - tv.dir.bg
 
 - id: hbo3.bg
   enabled: true
@@ -363,8 +363,8 @@
   sources:
   # - hbo.bg
   - tv-programa.bg
-  - tv.dir.bg
   - dnes.bg
+  - tv.dir.bg
 
 - id: cinemax1.bg
   enabled: true
@@ -389,8 +389,8 @@
   sources:
   # - hbo.bg
   - tv-programa.bg
-  - tv.dir.bg
   - dnes.bg
+  - tv.dir.bg
 
 - id: btvcinema.bg
   enabled: true
@@ -501,8 +501,8 @@
   sources:
   - nova.bg
   - dnes.bg
-  - tv.dir.bg
   - tv-programa.bg
+  - tv.dir.bg
   
 - id: axn.bg
   enabled: true
@@ -1948,6 +1948,7 @@
   - name: TLC
     lang: en
   sources:
+  - dnes.bg
   - tv.dir.bg
   
 - id: crimeinvestigation.bg
@@ -1958,6 +1959,7 @@
   - name: C&I Networks
     lang: en
   sources:
+  - dnes.bg
   - tv.dir.bg
 
 - id: history.viasat.bg
@@ -2143,8 +2145,9 @@
   - name: Travel TV
     lang: en
   sources:
-  - tv.dir.bg
   - start.bg
+  - dnes.bg
+  - tv.dir.bg
   
 - id: docubox.spiintl.com
   enabled: true
@@ -2152,8 +2155,9 @@
   - name: DocuBox
     lang: en
   sources:
-  - tv.dir.bg
   - tv-programa.bg
+  - dnes.bg
+  - tv.dir.bg
   
 - id: historytv.com
   enabled: true
@@ -2163,6 +2167,7 @@
   - name: History HD
     lang: en
   sources:
+  - dnes.bg
   - tv.dir.bg
   
 - id: tvt.bg
@@ -2171,6 +2176,7 @@
   - name: TVT Tourism
     lang: en
   sources:
+  - dnes.bg
   - tv.dir.bg
   
 - id: tv.lovenature.com
@@ -2318,6 +2324,7 @@
     lang: en
   groups: [ "kids" ]
   sources:
+  - dnes.bg
   - tv.dir.bg
   
 - id: disneychannel.bg
@@ -2327,6 +2334,7 @@
     lang: en
   groups: [ "kids" ]
   sources:
+  - dnes.bg
   - tv.dir.bg
   
 - id: karusel.ru
