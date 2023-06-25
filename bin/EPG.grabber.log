@@ -1,0 +1,86 @@
+2023-06-25 16:30:37.371 00001 [INF] **************************************************************************
+2023-06-25 16:30:37.389 00001 [INF] 
+2023-06-25 16:30:37.395 00001 [INF]                        EPG.grabber  1.2022.224.0
+2023-06-25 16:30:37.397 00001 [INF] 
+2023-06-25 16:30:37.397 00001 [INF] **************************************************************************
+2023-06-25 16:30:37.398 00001 [INF] Start time: "2023-06-25T16:30:37.3984929+03:00"
+2023-06-25 16:30:37.400 00001 [INF] Command line arguments: grab -f C:\Git\EPG\config -o C:\Git\EPG -l 2
+2023-06-25 16:30:37.498 00001 [INF] Loading config from file C:\Git\EPG\config\config.yaml
+2023-06-25 16:30:37.594 00001 [VRB] Created config folder C:\Git\EPG\config
+2023-06-25 16:30:37.594 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
+2023-06-25 16:30:37.594 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
+2023-06-25 16:30:37.595 00001 [VRB] Created output folder C:\Git\EPG
+2023-06-25 16:30:37.595 00001 [DBG] Using configuration:
+2023-06-25 16:30:37.595 00001 [DBG] Grabbing for days ahead: 4
+2023-06-25 16:30:37.595 00001 [DBG] Grabbing for days behind: 7
+2023-06-25 16:30:37.595 00001 [DBG] Using templates folder: C:\Git\EPG\config\templates
+2023-06-25 16:30:37.595 00001 [DBG] Number of parallel grabbing threads: 1
+2023-06-25 16:30:37.716 00001 [INF] Loaded 248 channels from config file
+2023-06-25 16:30:37.718 00001 [INF] Calculating and setting channels' grabbing start and end times
+2023-06-25 16:30:37.720 00001 [INF] Creating grabbing groups for round #1
+2023-06-25 16:30:37.723 00001 [INF] Created 31 grabber groups
+2023-06-25 16:30:37.748 00005 [INF] Loading template from file: C:\Git\EPG\config\templates\bnt.bg.template.yaml
+2023-06-25 16:30:37.766 00005 [INF] BNT.BG |Starting grabbing programs for 4 channels
+2023-06-25 16:30:37.823 00007 [INF] BNT.BG |БНТ 1 |1|25|0| Added valid 284 programs from cache "2023-06-18T01:00:00.0000000+03:00" -> "2023-06-28T23:25:00.0000000+03:00"
+2023-06-25 16:30:37.891 00007 [INF] BNT.BG |БНТ 1 |1|25|0| All programs grabbed for channel bnt1.bg
+2023-06-25 16:30:37.897 00007 [INF] BNT.BG |БНТ 2 |1|25|0| Added valid 396 programs from cache "2023-06-18T00:15:00.0000000+03:00" -> "2023-06-28T23:55:00.0000000+03:00"
+2023-06-25 16:30:38.014 00007 [INF] BNT.BG |БНТ 2 |1|25|0| All programs grabbed for channel bnt2.bg
+2023-06-25 16:30:38.019 00009 [INF] BNT.BG |БНТ 3 |1|25|0| Added valid 207 programs from cache "2023-06-18T00:00:00.0000000+03:00" -> "2023-06-28T22:40:00.0000000+03:00"
+2023-06-25 16:30:38.052 00009 [INF] BNT.BG |БНТ 3 |1|25|0| All programs grabbed for channel bnt3.bg
+2023-06-25 16:30:38.058 00005 [INF] BNT.BG |БНТ 4 |1|25|0| Added valid 292 programs from cache "2023-06-18T00:35:00.0000000+03:00" -> "2023-06-28T23:35:00.0000000+03:00"
+2023-06-25 16:30:38.118 00005 [INF] BNT.BG |БНТ 4 |1|25|0| All programs grabbed for channel bnt4.bg
+2023-06-25 16:30:38.123 00005 [INF] Loading template from file: C:\Git\EPG\config\templates\btv.bg.template.yaml
+2023-06-25 16:30:38.127 00005 [INF] BTV.BG |Starting grabbing programs for 6 channels
+2023-06-25 16:30:38.132 00009 [INF] BTV.BG |БТВ |1|25|0| Added valid 231 programs from cache "2023-06-18T00:45:00.0000000+03:00" -> "2023-06-28T23:30:00.0000000+03:00"
+2023-06-25 16:30:38.168 00009 [INF] BTV.BG |БТВ |1|25|0| All programs grabbed for channel btv.bg
+2023-06-25 16:30:38.174 00007 [INF] BTV.BG |БТВ Екшън |1|25|0| Added valid 212 programs from cache "2023-06-18T00:15:00.0000000+03:00" -> "2023-06-28T22:00:00.0000000+03:00"
+2023-06-25 16:30:38.204 00007 [INF] BTV.BG |БТВ Екшън |1|25|0| All programs grabbed for channel btvaction.bg
+2023-06-25 16:30:38.208 00009 [INF] BTV.BG |БТВ Лейди |1|25|0| Added valid 245 programs from cache "2023-06-18T01:20:00.0000000+03:00" -> "2023-06-28T23:00:00.0000000+03:00"
+2023-06-25 16:30:38.250 00009 [INF] BTV.BG |БТВ Лейди |1|25|0| All programs grabbed for channel btvlady.bg
+2023-06-25 16:30:38.255 00005 [INF] BTV.BG |БТВ Синема |1|25|0| Added valid 119 programs from cache "2023-06-18T01:15:00.0000000+03:00" -> "2023-06-28T23:00:00.0000000+03:00"
+2023-06-25 16:30:38.266 00005 [INF] BTV.BG |БТВ Синема |1|25|0| All programs grabbed for channel btvcinema.bg
+2023-06-25 16:30:38.272 00009 [INF] BTV.BG |БТВ Комеди |1|25|0| Added valid 210 programs from cache "2023-06-18T01:30:00.0000000+03:00" -> "2023-06-28T23:00:00.0000000+03:00"
+2023-06-25 16:30:38.302 00009 [INF] BTV.BG |БТВ Комеди |1|25|0| All programs grabbed for channel btvcomedy.bg
+2023-06-25 16:30:38.305 00005 [INF] BTV.BG |Ринг |1|25|0| Added valid 137 programs from cache "2023-06-18T03:00:00.0000000+03:00" -> "2023-06-28T22:00:00.0000000+03:00"
+2023-06-25 16:30:38.320 00005 [INF] BTV.BG |Ринг |1|25|0| All programs grabbed for channel ring.bg
+2023-06-25 16:30:38.322 00005 [INF] Loading template from file: C:\Git\EPG\config\templates\nova.bg.template.yaml
+2023-06-25 16:30:38.325 00005 [INF] NOVA.BG |Starting grabbing programs for 6 channels
+2023-06-25 16:30:38.328 00007 [INF] NOVA.BG |Нова |1|25|0| Added valid 180 programs from cache "2023-06-18T00:15:00.0000000+03:00" -> "2023-06-28T23:30:00.0000000+03:00"
+2023-06-25 16:30:38.353 00007 [INF] NOVA.BG |Нова |1|25|0| All programs grabbed for channel nova.bg
+2023-06-25 16:30:38.357 00005 [INF] NOVA.BG |Диема |1|25|0| Added valid 130 programs from cache "2023-06-18T01:00:00.0000000+03:00" -> "2023-06-28T22:00:00.0000000+03:00"
+2023-06-25 16:30:38.369 00005 [INF] NOVA.BG |Диема |1|25|0| All programs grabbed for channel diema.bg
+2023-06-25 16:30:38.373 00007 [INF] NOVA.BG |Диема Фемили |1|25|0| Added valid 160 programs from cache "2023-06-18T00:00:00.0000000+03:00" -> "2023-06-28T23:00:00.0000000+03:00"
+2023-06-25 16:30:38.394 00007 [INF] NOVA.BG |Диема Фемили |1|25|0| All programs grabbed for channel diemafamily.bg
+2023-06-25 16:30:38.397 00005 [INF] NOVA.BG |КиноНова |1|25|0| Added valid 110 programs from cache "2023-06-18T00:20:00.0000000+03:00" -> "2023-06-28T23:35:00.0000000+03:00"
+2023-06-25 16:30:38.408 00005 [INF] NOVA.BG |КиноНова |1|25|0| All programs grabbed for channel kinonova.bg
+2023-06-25 16:30:38.412 00007 [INF] NOVA.BG |Нова Спорт |1|25|0| Added valid 131 programs from cache "2023-06-18T00:15:00.0000000+03:00" -> "2023-06-28T23:30:00.0000000+03:00"
+2023-06-25 16:30:38.425 00007 [INF] NOVA.BG |Нова Спорт |1|25|0| All programs grabbed for channel novasport.bg
+2023-06-25 16:30:38.430 00009 [INF] NOVA.BG |Нова Нюз |1|25|0| Added valid 357 programs from cache "2023-06-18T01:10:00.0000000+03:00" -> "2023-06-28T23:25:00.0000000+03:00"
+2023-06-25 16:30:38.514 00009 [INF] NOVA.BG |Нова Нюз |1|25|0| All programs grabbed for channel news.nova.bg
+2023-06-25 16:30:38.518 00009 [INF] Loading template from file: C:\Git\EPG\config\templates\dnes.bg.template.yaml
+2023-06-25 16:30:38.524 00009 [INF] DNES.BG |Starting grabbing programs for 48 channels
+2023-06-25 16:30:38.528 00005 [INF] DNES.BG |Bloomberg BG |1|25|0| Added valid 287 programs from cache "2023-06-18T00:00:00.0000000+03:00" -> "2023-06-28T22:00:00.0000000+03:00"
+2023-06-25 16:30:38.582 00005 [INF] DNES.BG |Bloomberg BG |1|25|0| All programs grabbed for channel bloombergtv.bg
+2023-06-25 16:30:38.586 00007 [INF] DNES.BG |България Он Еър |1|25|0| Added valid 324 programs from cache "2023-06-18T00:00:00.0000000+03:00" -> "2023-06-28T23:35:00.0000000+03:00"
+2023-06-25 16:30:38.657 00007 [INF] DNES.BG |България Он Еър |1|25|0| All programs grabbed for channel bgonair.bg
+2023-06-25 16:30:38.663 00009 [INF] DNES.BG |Evrokom |1|25|0| Added valid 208 programs from cache "2023-06-18T01:30:00.0000000+03:00" -> "2023-06-28T23:30:00.0000000+03:00"
+2023-06-25 16:30:38.692 00009 [INF] DNES.BG |Evrokom |1|25|0| All programs grabbed for channel evrokom.bg
+2023-06-25 16:30:38.696 00007 [INF] DNES.BG |Алфа |1|25|0| Added valid 453 programs from cache "2023-06-18T00:00:00.0000000+03:00" -> "2023-06-28T23:30:00.0000000+03:00"
+2023-06-25 16:30:38.821 00007 [INF] DNES.BG |Алфа |1|25|0| All programs grabbed for channel alfatv.bg
+2023-06-25 16:30:38.844 00005 [INF] DNES.BG |Агро ТВ |1|25|0| Added valid 1082 programs from cache "2023-06-18T05:55:00.0000000+03:00" -> "2023-06-28T23:55:00.0000000+03:00"
+2023-06-25 16:30:39.526 00005 [INF] DNES.BG |Агро ТВ |1|25|0| All programs grabbed for channel agrotv.bg
+2023-06-25 16:30:39.547 00005 [INF] DNES.BG |ТВ1 |1|25|0| Added valid 255 programs from cache "2023-06-18T00:00:00.0000000+03:00" -> "2023-06-28T23:30:00.0000000+03:00"
+2023-06-25 16:30:39.589 00005 [INF] DNES.BG |ТВ1 |1|25|0| All programs grabbed for channel tv1.bg
+2023-06-25 16:30:39.599 00007 [INF] DNES.BG |AXN White |1|25|0| Added valid 165 programs from cache "2023-06-18T00:10:00.0000000+03:00" -> "2023-06-28T23:30:00.0000000+03:00"
+2023-06-25 16:30:39.618 00007 [INF] DNES.BG |AXN White |1|25|0| All programs grabbed for channel axnwhite.bg
+2023-06-25 16:30:39.627 00005 [INF] DNES.BG |AXN Black |1|25|0| Added valid 196 programs from cache "2023-06-18T00:55:00.0000000+03:00" -> "2023-06-28T23:00:00.0000000+03:00"
+2023-06-25 16:30:39.652 00005 [INF] DNES.BG |AXN Black |1|25|0| All programs grabbed for channel axnblack.bg
+2023-06-25 16:30:39.660 00005 [INF] DNES.BG |Max Sport 1 |1|25|0| Added valid 120 programs from cache "2023-06-18T01:00:00.0000000+03:00" -> "2023-06-28T23:00:00.0000000+03:00"
+2023-06-25 16:30:39.672 00005 [INF] DNES.BG |Max Sport 1 |1|25|0| All programs grabbed for channel maxsport1.bg
+2023-06-25 16:30:39.682 00005 [INF] DNES.BG |Max Sport 2 |1|25|0| Added valid 149 programs from cache "2023-06-18T01:00:00.0000000+03:00" -> "2023-06-28T21:00:00.0000000+03:00"
+2023-06-25 16:30:39.699 00005 [INF] DNES.BG |Max Sport 2 |1|25|0| All programs grabbed for channel maxsport2.bg
+2023-06-25 16:30:39.707 00009 [INF] DNES.BG |Max Sport 3 |1|25|0| Added valid 113 programs from cache "2023-06-18T00:15:00.0000000+03:00" -> "2023-06-28T23:30:00.0000000+03:00"
+2023-06-25 16:30:39.717 00009 [INF] DNES.BG |Max Sport 3 |1|25|0| All programs grabbed for channel maxsport3.bg
+2023-06-25 16:30:39.727 00009 [INF] DNES.BG |Max Sport 4 |1|25|0| Added valid 141 programs from cache "2023-06-18T00:00:00.0000000+03:00" -> "2023-06-28T22:30:00.0000000+03:00"
+2023-06-25 16:30:39.740 00009 [INF] DNES.BG |Max Sport 4 |1|25|0| All programs grabbed for channel maxsport4.bg
+2023-06-25 16:30:39.749 00009 [INF] DNES.BG |EDGE Sport |1|25|0| Added valid 174 programs from cache "2023-06-18T00:00:00.0000000+03:00" -> "2023-06-28T14:45:00.0000000+03:00"
