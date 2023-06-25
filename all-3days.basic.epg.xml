@@ -8295,7 +8295,7 @@
   <programme start="20230627211000 +0300" stop="20230627230000 +0300" channel="amc.bg">
     <title lang="bg">"Пияният майстор" - екшън/ комедия, Хонконг,1978, с Джеки Чан и Сю Тин Юен.</title>
   </programme>
-  <programme start="20230627230000 +0300" channel="amc.bg">
+  <programme start="20230627230000 +0300" stop="20230628072500 +0300" channel="amc.bg">
     <title lang="bg">"Спайдър" (2002) - психологически трилър, копродукция, 2002, с Ралф Файнс, Миранда Ричардсън, Гейбриъл Бърн и др.</title>
   </programme>
   <programme start="20230625000000 +0300" stop="20230625020000 +0300" channel="nostalgia.bg">
@@ -8640,20 +8640,20 @@
   <programme start="20230626140000 +0300" stop="20230626160000 +0300" channel="diemasport2.bg">
     <title>Футбол: Нюкасъл Юнайтед - Саутхямптън, Карабао Къп (2022-23), полуфинал, реванш, /п/</title>
   </programme>
-  <programme start="20230626160000 +0300" stop="20230626163000 +0300" channel="diemasport2.bg">
-    <title>"Истории от Висшата лига", 48 епизод, предаване за английски футбол (2022-23), /п/</title>
+  <programme start="20230626160000 +0300" stop="20230626180000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Манчестър Сити - Ливърпул, 29 кръг, Висша лига (2022-23), /п/</title>
   </programme>
-  <programme start="20230626163000 +0300" stop="20230626170000 +0300" channel="diemasport2.bg">
+  <programme start="20230626180000 +0300" stop="20230626183000 +0300" channel="diemasport2.bg">
     <title>Студио "Футбол", директно</title>
   </programme>
-  <programme start="20230626170000 +0300" stop="20230626185500 +0300" channel="diemasport2.bg">
+  <programme start="20230626183000 +0300" stop="20230626202500 +0300" channel="diemasport2.bg">
     <title>Футбол: ЦСКА 1948 - Марибор, приятелски мач, директно</title>
   </programme>
-  <programme start="20230626185500 +0300" stop="20230626193000 +0300" channel="diemasport2.bg">
+  <programme start="20230626202500 +0300" stop="20230626210000 +0300" channel="diemasport2.bg">
     <title>Студио "Футбол", директно</title>
   </programme>
-  <programme start="20230626193000 +0300" stop="20230626213000 +0300" channel="diemasport2.bg">
-    <title>Футбол: Манчестър Сити - Ливърпул, 29 кръг, Висша лига (2022-23), /п/</title>
+  <programme start="20230626210000 +0300" stop="20230626213000 +0300" channel="diemasport2.bg">
+    <title>"Истории от Висшата лига", 48 епизод, предаване за английски футбол (2022-23), /п/</title>
   </programme>
   <programme start="20230626213000 +0300" stop="20230626233000 +0300" channel="diemasport2.bg">
     <title>Футбол: Евертън - Тотнъм Хотспър, 29 кръг, Висша лига (2022-23), /п/</title>
@@ -8679,17 +8679,17 @@
   <programme start="20230627160000 +0300" stop="20230627163000 +0300" channel="diemasport2.bg">
     <title>Футбол: Манчестър Сити - Куинс Парк Рейнджърс, класика от Висшата лига (2011-12), /п/</title>
   </programme>
-  <programme start="20230627163000 +0300" stop="20230627170000 +0300" channel="diemasport2.bg">
+  <programme start="20230627163000 +0300" stop="20230627183000 +0300" channel="diemasport2.bg">
+    <title>Футбол: Ливърпул - Манчестър Юнайтед, 26 кръг, Висша лига (2022-23), /п/</title>
+  </programme>
+  <programme start="20230627183000 +0300" stop="20230627190000 +0300" channel="diemasport2.bg">
     <title>Студио "Футбол", директно</title>
   </programme>
-  <programme start="20230627170000 +0300" stop="20230627185500 +0300" channel="diemasport2.bg">
+  <programme start="20230627190000 +0300" stop="20230627205500 +0300" channel="diemasport2.bg">
     <title>Футбол: ЦСКА - Ботошани, приятелски мач, директно</title>
   </programme>
-  <programme start="20230627185500 +0300" stop="20230627193000 +0300" channel="diemasport2.bg">
+  <programme start="20230627205500 +0300" stop="20230627213000 +0300" channel="diemasport2.bg">
     <title>Студио "Футбол", директно</title>
-  </programme>
-  <programme start="20230627193000 +0300" stop="20230627213000 +0300" channel="diemasport2.bg">
-    <title>Футбол: Ливърпул - Манчестър Юнайтед, 26 кръг, Висша лига (2022-23), /п/</title>
   </programme>
   <programme start="20230627213000 +0300" stop="20230627233000 +0300" channel="diemasport2.bg">
     <title>Футбол: Арсенал - Борнемут, 26 кръг, Висша лига (2022-23), /п/</title>
@@ -8710,13 +8710,13 @@
     <title>Баскетбол: Белгия - Франция, Европейско първенство по баскетбол за жени 2023, полуфинал, /п/</title>
   </programme>
   <programme start="20230625151500 +0300" stop="20230625171500 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, директно</title>
+    <title>Баскетбол: Германия - Сърбия, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, директно</title>
   </programme>
   <programme start="20230625171500 +0300" stop="20230625180000 +0300" channel="diemasport3.bg">
     <title>Головете на сезона в Бундеслига, предаване за германски футбол (2022-23), /п/</title>
   </programme>
   <programme start="20230625180000 +0300" stop="20230625200000 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Мач 2, Европейско първенство по баскетбол за жени 2023, мач за 3/4 място, директно</title>
+    <title>Баскетбол: Унгария - Франция, Европейско първенство по баскетбол за жени 2023, мач за 3/4 място, директно</title>
   </programme>
   <programme start="20230625200000 +0300" stop="20230625203000 +0300" channel="diemasport3.bg">
     <title>"Поверително от Формула 1", 10 епизод, предаване за Формула 1 (2023), /п/</title>
@@ -8725,7 +8725,7 @@
     <title>Студио "Баскетбол", директно</title>
   </programme>
   <programme start="20230625210000 +0300" stop="20230625230000 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Финал, Европейско първенство по баскетбол за жени 2023, финал, директно</title>
+    <title>Баскетбол: Испания - Белгия, Европейско първенство по баскетбол за жени 2023, финал, директно</title>
   </programme>
   <programme start="20230625230000 +0300" stop="20230625233000 +0300" channel="diemasport3.bg">
     <title>Студио "Баскетбол", директно</title>
@@ -8740,13 +8740,13 @@
     <title>Баскетбол: Мач 1, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
   </programme>
   <programme start="20230626080000 +0300" stop="20230626100000 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Мач 5-6, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
+    <title>Баскетбол: Германия - Сърбия, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
   </programme>
   <programme start="20230626100000 +0300" stop="20230626120000 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Мач 3/4, Европейско първенство по баскетбол за жени 2023, мач за 3/4 място, /п/</title>
+    <title>Баскетбол: Унгария - Франция, Европейско първенство по баскетбол за жени 2023, мач за 3/4 място, /п/</title>
   </programme>
   <programme start="20230626120000 +0300" stop="20230626140000 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Финал, Европейско първенство по баскетбол за жени 2023, финал, /п/</title>
+    <title>Баскетбол: Испания - Белгия, Европейско първенство по баскетбол за жени 2023, финал, /п/</title>
   </programme>
   <programme start="20230626140000 +0300" stop="20230626160000 +0300" channel="diemasport3.bg">
     <title>Футбол: Нидерландия - Италия, УЕФА Лига на нациите (2022-23), мач за 3/4 място, /п/</title>
@@ -8779,13 +8779,13 @@
     <title>Футбол: Фрайбург - Шалке 04, 29 кръг, Бундеслига (2022-23), /п/</title>
   </programme>
   <programme start="20230627150000 +0300" stop="20230627170000 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Мач 5-6, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
+    <title>Баскетбол: Германия - Сърбия, Европейско първенство по баскетбол за жени 2023, мач за 5/6 място, /п/</title>
   </programme>
   <programme start="20230627170000 +0300" stop="20230627190000 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Мач 3/4, Европейско първенство по баскетбол за жени 2023, мач за 3/4 място, /п/</title>
+    <title>Баскетбол: Унгария - Франция, Европейско първенство по баскетбол за жени 2023, мач за 3/4 място, /п/</title>
   </programme>
   <programme start="20230627190000 +0300" stop="20230627210000 +0300" channel="diemasport3.bg">
-    <title>Баскетбол: Финал, Европейско първенство по баскетбол за жени 2023, финал, /п/</title>
+    <title>Баскетбол: Испания - Белгия, Европейско първенство по баскетбол за жени 2023, финал, /п/</title>
   </programme>
   <programme start="20230627210000 +0300" stop="20230627230000 +0300" channel="diemasport3.bg">
     <title>Футбол: Майнц - Байерн Мюнхен, 29 кръг, Бундеслига (2022-23), /п/</title>
@@ -32031,7 +32031,7 @@
   <programme start="20230627220000 +0300" stop="20230627230000 +0300" channel="hgtv.bg">
     <title lang="bg">Преобразяване на родния град (Series 2): Парти за добре дошли (Episode 4)</title>
   </programme>
-  <programme start="20230627230000 +0300" channel="hgtv.bg">
+  <programme start="20230627230000 +0300" stop="20230628054500 +0300" channel="hgtv.bg">
     <title lang="bg">Дом на момента с Гейли Аликс (Series 1): Епизод 1 (Episode 1)</title>
   </programme>
   <programme start="20230625000000 +0300" stop="20230625010000 +0300" channel="tlc.bg">
@@ -32439,7 +32439,7 @@
   <programme start="20230627230000 +0300" stop="20230627234500 +0300" channel="crimeinvestigation.bg">
     <title lang="bg">Премиера Несъвършено убийство: Хърн Словър</title>
   </programme>
-  <programme start="20230627234500 +0300" channel="crimeinvestigation.bg">
+  <programme start="20230627234500 +0300" stop="20230628060500 +0300" channel="crimeinvestigation.bg">
     <title lang="bg">Деца убийци: Дяволската красавица от Юга/Момичето на най-добрия ми приятел</title>
   </programme>
   <programme start="20230625005500 +0300" stop="20230625020000 +0300" channel="history.viasat.bg">
@@ -35919,7 +35919,7 @@
   <programme start="20230627224500 +0300" stop="20230627233000 +0300" channel="historytv.com">
     <title lang="bg">Премиера Проклятието на остров Оук: Епизод 24</title>
   </programme>
-  <programme start="20230627233000 +0300" channel="historytv.com">
+  <programme start="20230627233000 +0300" stop="20230628061500 +0300" channel="historytv.com">
     <title lang="bg">Премиера Най-мистериозните съкровища в света: Завръщане на остров Повърти</title>
   </programme>
   <programme start="20230625001000 +0300" stop="20230625010500 +0300" channel="tv.lovenature.com">
@@ -40323,7 +40323,7 @@
   <programme start="20230627233500 +0300" stop="20230627235500 +0300" channel="cartoonnetwork.tv">
     <title lang="bg">Невероятният свят на Гъмбол</title>
   </programme>
-  <programme start="20230627235500 +0300" channel="cartoonnetwork.tv">
+  <programme start="20230627235500 +0300" stop="20230628051500 +0300" channel="cartoonnetwork.tv">
     <title lang="bg">Невероятният свят на Гъмбол</title>
   </programme>
   <programme start="20230625001500 +0300" stop="20230625003500 +0300" channel="disneychannel.bg">
