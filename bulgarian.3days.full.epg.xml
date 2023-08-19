@@ -81,139 +81,6 @@
   <channel id="vtk.bg">
     <display-name lang="bg">ВТК</display-name>
   </channel>
-  <programme start="20230818055500 +0300" stop="20230818065500 +0300" channel="bnt1.bg">
-    <title lang="bg">Това го знам</title>
-    <icon src="https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png" />
-  </programme>
-  <programme start="20230818065500 +0300" stop="20230818092000 +0300" channel="bnt1.bg">
-    <title lang="bg">Денят започва</title>
-    <icon src="https://bnt.bg/f/news/m/197/40ddf7e8562c7e14501180dac1778f44.jpeg" />
-    <desc>Сутрешният блок на БНТ е актуално-информационно предаване. Всеки делничен ден зрителите научават първи най-важните новини от България и чужбина в информационните емисии през 30 минути, както и проблемите и решенията по всички обществено интересни казуси.</desc>
-  </programme>
-  <programme start="20230818092000 +0300" stop="20230818094500 +0300" channel="bnt1.bg">
-    <title lang="bg">Благуните</title>
-    <icon src="https://p.bnt.bg/3/1/310-2321-810x0.jpg" />
-    <desc>Забавните истории на плюшените кукли са изпълнени с много хумор, музика и образователни игри.</desc>
-  </programme>
-  <programme start="20230818094500 +0300" stop="20230818100000 +0300" channel="bnt1.bg">
-    <title lang="bg">Спилитим и Рашо</title>
-    <icon src="https://bnt.bg/f/news/m/0/f9bba46296a3b3b2a24441a2864c2af2.jpeg" />
-    <desc>Спи ли Тим? Спи. И приказката започва от... морето на живота</desc>
-  </programme>
-  <programme start="20230818100000 +0300" stop="20230818100500 +0300" channel="bnt1.bg">
-    <title lang="bg">Рошко</title>
-    <icon src="https://bnt.bg/f/news/m/320/402e34f7e8f1c17d2fa6a2f6baa9000e.jpeg" />
-    <desc>Уроци по обноски и култура с преживяванията на Рошко</desc>
-  </programme>
-  <programme start="20230818100500 +0300" stop="20230818110000 +0300" channel="bnt1.bg">
-    <title lang="bg">Ваканцията на Лили</title>
-    <icon src="https://p.bnt.bg/v/a/vakanciata-na-lilly-8-205473-810x0.jpg" />
-    <desc>Детската изобретателност е ненадмината, когато трябва да се сбъдне най-искрената мечта...</desc>
-  </programme>
-  <programme start="20230818110000 +0300" stop="20230818120000 +0300" channel="bnt1.bg">
-    <title lang="bg">Това го знам</title>
-    <icon src="https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png" />
-  </programme>
-  <programme start="20230818120000 +0300" stop="20230818122500 +0300" channel="bnt1.bg">
-    <title lang="bg">По света и у нас</title>
-    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
-    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
-  </programme>
-  <programme start="20230818122500 +0300" stop="20230818123500 +0300" channel="bnt1.bg">
-    <title lang="bg">Новини на турски език</title>
-    <icon src="https://p.bnt.bg/v/l/vlcsnap-2020-01-15-10h45m54s222-427328-810x0.png" />
-  </programme>
-  <programme start="20230818123500 +0300" stop="20230818124500 +0300" channel="bnt1.bg">
-    <title lang="bg">Малки истории</title>
-    <icon src="https://bnt.bg/f/news/m/0/006b6d46e975c22d38df6d9e92534608.jpeg" />
-    <desc>Социален слот на БНТ1, стартирал в ефира на Националната телевизия на 6 декември 2011 година. Понеделник, вторник, сряда и четвъртък от 12:35 часа се излъчва кратка документална форма с времетраене 10 минути, а в петък едночасовото публицистично социално ток шоу започва в 14:00 часа, където се търсят решенията.</desc>
-  </programme>
-  <programme start="20230818124500 +0300" stop="20230818130000 +0300" channel="bnt1.bg">
-    <title lang="bg">Телепазарен прозорец</title>
-    <icon src="https://p.bnt.bg/s/h/shop-208495-810x0.png" />
-  </programme>
-  <programme start="20230818130000 +0300" stop="20230818140000 +0300" channel="bnt1.bg">
-    <title lang="bg">Пътят към върха</title>
-    <icon src="https://p.bnt.bg/p/u/putyat-kam-vurha-10-368256-810x0.jpg" />
-    <desc>Легендата разказва: "Който покори върха, ще живее сто години..."</desc>
-  </programme>
-  <programme start="20230818140000 +0300" stop="20230818150000 +0300" channel="bnt1.bg">
-    <title lang="bg">Малки истории</title>
-    <icon src="https://bnt.bg/f/news/m/0/006b6d46e975c22d38df6d9e92534608.jpeg" />
-    <desc>Социален слот на БНТ1, стартирал в ефира на Националната телевизия на 6 декември 2011 година. Понеделник, вторник, сряда и четвъртък от 12:35 часа се излъчва кратка документална форма с времетраене 10 минути, а в петък едночасовото публицистично социално ток шоу започва в 14:00 часа, където се търсят решенията.</desc>
-  </programme>
-  <programme start="20230818150000 +0300" stop="20230818151500 +0300" channel="bnt1.bg">
-    <title lang="bg">Мили Бате...Писма на един дакел</title>
-    <icon src="https://bnt.bg/f/news/m/179/2297d4ab6e972fb9118ccc8ac63d9088.jpeg" />
-    <desc>Джери пише на Мишо...</desc>
-  </programme>
-  <programme start="20230818151500 +0300" stop="20230818154500 +0300" channel="bnt1.bg">
-    <title lang="bg">Да живеят рицарите</title>
-    <icon src="https://bnt.bg/f/news/m/315/a2006c6782f34d3d870106eb5a194f3d.jpeg" />
-    <desc>Дали силата в битки се крепи на оръжията или на мисълта...</desc>
-  </programme>
-  <programme start="20230818154500 +0300" stop="20230818160000 +0300" channel="bnt1.bg">
-    <title lang="bg">Телепазарен прозорец</title>
-    <icon src="https://p.bnt.bg/s/h/shop-208495-810x0.png" />
-  </programme>
-  <programme start="20230818160000 +0300" stop="20230818163000 +0300" channel="bnt1.bg">
-    <title lang="bg">Бързо, лесно, вкусно</title>
-    <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
-    <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
-  </programme>
-  <programme start="20230818163000 +0300" stop="20230818174500 +0300" channel="bnt1.bg">
-    <title lang="bg">Капитан Петко войвода</title>
-    <icon src="https://p.bnt.bg/k/a/kapitan-petko-voyvoda-15-307369-810x0.jpg" />
-    <desc>Живот-борба в името на идеал, погребан с последен предсмъртен протест към властта: "Те погребаха България!"....</desc>
-  </programme>
-  <programme start="20230818174500 +0300" stop="20230818180000 +0300" channel="bnt1.bg">
-    <title lang="bg">Пристанищата на света</title>
-    <icon src="https://p.bnt.bg/t/a/taranto-italy-2-463884-810x0.jpg" />
-    <desc>Красиви оживени места за почивка, търговия, бизнес, носталгия и... други особености в историята на пристанищата</desc>
-  </programme>
-  <programme start="20230818180000 +0300" stop="20230818183000 +0300" channel="bnt1.bg">
-    <title lang="bg">По света и у нас</title>
-    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
-    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
-  </programme>
-  <programme start="20230818183000 +0300" stop="20230818190000 +0300" channel="bnt1.bg">
-    <title lang="bg">Тайни и загадки</title>
-    <icon src="https://bnt.bg/f/news/m/317/cae50827683080397f93f5d361333819.jpeg" />
-    <desc>Топ 10 на липсващите отговори в загадъчната историята на света</desc>
-  </programme>
-  <programme start="20230818190000 +0300" stop="20230818200000 +0300" channel="bnt1.bg">
-    <title lang="bg">БНТ представя</title>
-    <icon src="https://bnt.bg/f/news/m/284/30c0dec0f801a75505fc08ac5343527a.png" />
-  </programme>
-  <programme start="20230818200000 +0300" stop="20230818204500 +0300" channel="bnt1.bg">
-    <title lang="bg">По света и у нас</title>
-    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
-    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
-  </programme>
-  <programme start="20230818204500 +0300" stop="20230818210000 +0300" channel="bnt1.bg">
-    <title lang="bg">Спортни новини</title>
-    <icon src="https://p.bnt.bg/s/p/sportni-novini-311001-810x0.png" />
-  </programme>
-  <programme start="20230818210000 +0300" stop="20230818220000 +0300" channel="bnt1.bg">
-    <title lang="bg">Аз и моите жени</title>
-    <icon src="https://bnt.bg/f/news/m/302/e66f35fe72004bfd38cf8be93bbc4236.jpeg" />
-    <desc>Срок няма, избор има - за един мъж с различни желания и две жени с чувства...Любовта винаги е свободна, ако се изключи честността.</desc>
-  </programme>
-  <programme start="20230818220000 +0300" stop="20230818230000 +0300" channel="bnt1.bg">
-    <title lang="bg">Внедрени</title>
-    <icon src="https://bnt.bg/f/news/m/313/85bde3572106a35fbf1cbc50229b799e.jpeg" />
-    <desc>Как най-големите печалби се получават от екстази - в Белгия...</desc>
-  </programme>
-  <programme start="20230818230000 +0300" stop="20230818232500 +0300" channel="bnt1.bg">
-    <title lang="bg">По света и у нас</title>
-    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
-    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
-  </programme>
-  <programme start="20230818232500 +0300" stop="20230819060000 +0300" channel="bnt1.bg">
-    <title lang="bg">Три цвята: Синьо</title>
-    <icon src="https://bnt.bg/f/news/m/258/b9d4047b826c1d4c89a219e16e0b4849.jpeg" />
-    <desc>Свобода и Тъга в Синьо</desc>
-  </programme>
   <programme start="20230819060000 +0300" stop="20230819062000 +0300" channel="bnt1.bg">
     <title lang="bg">Луана - футболното чудо</title>
     <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
@@ -549,168 +416,136 @@
     <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
     <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230821232500 +0300" channel="bnt1.bg">
+  <programme start="20230821232500 +0300" stop="20230822055500 +0300" channel="bnt1.bg">
     <title lang="bg">Под прикритие</title>
     <icon src="https://p.bnt.bg/p/o/pod-prikritie-1-215945-810x0.jpg" />
     <desc>"Той трябва да излъже всички, за да оцелее "...</desc>
   </programme>
-  <programme start="20230818060000 +0300" stop="20230818063000 +0300" channel="bnt2.bg">
-    <title lang="bg">Линия Култура</title>
-    <icon src="https://bnt.bg/f/news/m/199/1c73479d4756b6c7c7f1889c2613ffcd.jpeg" />
-    <desc>Актуално информационно предаване за културния живот в България</desc>
-  </programme>
-  <programme start="20230818063000 +0300" stop="20230818070000 +0300" channel="bnt2.bg">
-    <title lang="bg">Български уроци – народни танци, песни и обичаи</title>
-    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
-  </programme>
-  <programme start="20230818070000 +0300" stop="20230818073000 +0300" channel="bnt2.bg">
-    <title lang="bg">Джинс</title>
-    <icon src="https://bnt.bg/f/news/m/212/b873b4e9d0542d9d95a46b4866b22bf3.jpeg" />
-    <desc>“Джинс” - уникално по рода си предаване за генеалогия и родова памет</desc>
-  </programme>
-  <programme start="20230818073000 +0300" stop="20230818080000 +0300" channel="bnt2.bg">
-    <title lang="bg">Бързо, лесно, вкусно</title>
-    <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
-    <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
-  </programme>
-  <programme start="20230818080000 +0300" stop="20230818081000 +0300" channel="bnt2.bg">
-    <title lang="bg">10 000 крачки</title>
-    <icon src="https://bnt.bg/f/news/m/199/ccda09591fb51d857ada3d0967a3f85c.jpeg" />
-    <desc>Предаване за градски забележителности и забравени истории</desc>
-  </programme>
-  <programme start="20230818081000 +0300" stop="20230818083500 +0300" channel="bnt2.bg">
-    <title lang="bg">Отдаден на вечността</title>
-    <icon src="https://p.bnt.bg/a/s/assen-vassiliev-mk-196183-810x0.jpg" />
-    <desc>В памет на проф. Асен ВасилиевДокументален филм</desc>
-  </programme>
-  <programme start="20230818083500 +0300" stop="20230818090000 +0300" channel="bnt2.bg">
-    <title lang="bg">Поглед към бъдещето</title>
-    <icon src="https://bnt.bg/f/news/m/317/5b57d4cd0ab37947b21ca22af1bb9ab0.jpeg" />
-    <desc>Популярни практики и тенденции за здравето и бъдещето на света</desc>
-  </programme>
-  <programme start="20230818090000 +0300" stop="20230818093000 +0300" channel="bnt2.bg">
-    <title lang="bg">До Европа и напред</title>
-    <icon src="https://bnt.bg/f/news/m/216/51f432fa507626fb0c21e7cb9b092bb6.jpeg" />
-    <desc>Безпристрастно представяне на събитията и фактите от най-новата история на света след Вторатасветовна война</desc>
-  </programme>
-  <programme start="20230818093000 +0300" stop="20230818094000 +0300" channel="bnt2.bg">
-    <title lang="bg">Имало едно време</title>
-    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
-  </programme>
-  <programme start="20230818094000 +0300" stop="20230818103500 +0300" channel="bnt2.bg">
+  <programme start="20230822055500 +0300" stop="20230822065500 +0300" channel="bnt1.bg">
     <title lang="bg">Това го знам</title>
     <icon src="https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png" />
   </programme>
-  <programme start="20230818103500 +0300" stop="20230818110000 +0300" channel="bnt2.bg">
+  <programme start="20230822065500 +0300" stop="20230822092000 +0300" channel="bnt1.bg">
+    <title lang="bg">Денят започва</title>
+    <icon src="https://bnt.bg/f/news/m/197/40ddf7e8562c7e14501180dac1778f44.jpeg" />
+    <desc>Сутрешният блок на БНТ е актуално-информационно предаване. Всеки делничен ден зрителите научават първи най-важните новини от България и чужбина в информационните емисии през 30 минути, както и проблемите и решенията по всички обществено интересни казуси.</desc>
+  </programme>
+  <programme start="20230822092000 +0300" stop="20230822094500 +0300" channel="bnt1.bg">
     <title lang="bg">Благуните</title>
     <icon src="https://p.bnt.bg/3/1/310-2321-810x0.jpg" />
     <desc>Забавните истории на плюшените кукли са изпълнени с много хумор, музика и образователни игри.</desc>
   </programme>
-  <programme start="20230818110000 +0300" stop="20230818113000 +0300" channel="bnt2.bg">
-    <title lang="bg">Бисери от Македония</title>
-    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
+  <programme start="20230822094500 +0300" stop="20230822100000 +0300" channel="bnt1.bg">
+    <title lang="bg">Спилитим и Рашо</title>
+    <icon src="https://bnt.bg/f/news/m/0/f9bba46296a3b3b2a24441a2864c2af2.jpeg" />
+    <desc>Спи ли Тим? Спи. И приказката започва от... морето на живота</desc>
   </programme>
-  <programme start="20230818113000 +0300" stop="20230818120000 +0300" channel="bnt2.bg">
-    <title lang="bg">10 000 крачки</title>
-    <icon src="https://bnt.bg/f/news/m/199/ccda09591fb51d857ada3d0967a3f85c.jpeg" />
-    <desc>Предаване за градски забележителности и забравени истории</desc>
+  <programme start="20230822100000 +0300" stop="20230822100500 +0300" channel="bnt1.bg">
+    <title lang="bg">Рошко</title>
+    <icon src="https://bnt.bg/f/news/m/320/402e34f7e8f1c17d2fa6a2f6baa9000e.jpeg" />
+    <desc>Уроци по обноски и култура с преживяванията на Рошко</desc>
   </programme>
-  <programme start="20230818120000 +0300" stop="20230818122500 +0300" channel="bnt2.bg">
+  <programme start="20230822100500 +0300" stop="20230822110000 +0300" channel="bnt1.bg">
+    <title lang="bg">Ваканцията на Лили</title>
+    <icon src="https://p.bnt.bg/v/a/vakanciata-na-lilly-8-205473-810x0.jpg" />
+    <desc>Детската изобретателност е ненадмината, когато трябва да се сбъдне най-искрената мечта...</desc>
+  </programme>
+  <programme start="20230822110000 +0300" stop="20230822120000 +0300" channel="bnt1.bg">
+    <title lang="bg">Това го знам</title>
+    <icon src="https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png" />
+  </programme>
+  <programme start="20230822120000 +0300" stop="20230822122500 +0300" channel="bnt1.bg">
     <title lang="bg">По света и у нас</title>
     <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
     <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230818122500 +0300" stop="20230818132500 +0300" channel="bnt2.bg">
-    <title lang="bg">С БНТ завинаги</title>
-    <icon src="https://bnt.bg/f/news/m/309/ffa262f40e9ae2f57a9ee81988862800.jpeg" />
-    <desc>Предаване за големите личности на българската музикална, филмова, театрална и културна сцена</desc>
+  <programme start="20230822122500 +0300" stop="20230822123500 +0300" channel="bnt1.bg">
+    <title lang="bg">Новини на турски език</title>
+    <icon src="https://p.bnt.bg/v/l/vlcsnap-2020-01-15-10h45m54s222-427328-810x0.png" />
   </programme>
-  <programme start="20230818132500 +0300" stop="20230818135500 +0300" channel="bnt2.bg">
-    <title lang="bg">Натисни F1</title>
-    <icon src="https://bnt.bg/f/news/m/199/2bdeab93c8ae8022d08516dc01780dff.jpeg" />
+  <programme start="20230822123500 +0300" stop="20230822124500 +0300" channel="bnt1.bg">
+    <title lang="bg">Малки истории</title>
+    <icon src="https://bnt.bg/f/news/m/0/006b6d46e975c22d38df6d9e92534608.jpeg" />
+    <desc>Социален слот на БНТ1, стартирал в ефира на Националната телевизия на 6 декември 2011 година. Понеделник, вторник, сряда и четвъртък от 12:35 часа се излъчва кратка документална форма с времетраене 10 минути, а в петък едночасовото публицистично социално ток шоу започва в 14:00 часа, където се търсят решенията.</desc>
   </programme>
-  <programme start="20230818135500 +0300" stop="20230818140000 +0300" channel="bnt2.bg">
-    <title lang="bg">Препрочитаме Щастливеца</title>
-    <icon src="https://bnt.bg/f/news/m/313/61414a43579b0349a73619f9899ac7e6.jpeg" />
+  <programme start="20230822124500 +0300" stop="20230822130000 +0300" channel="bnt1.bg">
+    <title lang="bg">Телепазарен прозорец</title>
+    <icon src="https://p.bnt.bg/s/h/shop-208495-810x0.png" />
   </programme>
-  <programme start="20230818140000 +0300" stop="20230818143000 +0300" channel="bnt2.bg">
-    <title lang="bg">Туризъм.бг</title>
-    <icon src="https://bnt.bg/f/news/m/200/f1819e83120b81277dd0c37e49d7269f.jpeg" />
-    <desc>Седмично телевизионно предаване, посветено на българския туризъм</desc>
+  <programme start="20230822130000 +0300" stop="20230822140000 +0300" channel="bnt1.bg">
+    <title lang="bg">Английският съсед</title>
+    <icon src="https://p.bnt.bg/8/5/8563-140051-810x0.png" />
+    <desc>Защо в България трудно се живее "по английски"...</desc>
   </programme>
-  <programme start="20230818143000 +0300" stop="20230818150000 +0300" channel="bnt2.bg">
+  <programme start="20230822140000 +0300" stop="20230822141500 +0300" channel="bnt1.bg">
+    <title lang="bg">Телепазарен прозорец</title>
+    <icon src="https://p.bnt.bg/s/h/shop-208495-810x0.png" />
+  </programme>
+  <programme start="20230822141500 +0300" stop="20230822144500 +0300" channel="bnt1.bg">
+    <title lang="bg">Тренк, малкият рицар</title>
+    <icon src="https://bnt.bg/f/news/m/308/9b416145e6a548260d7435365ee46df0.jpeg" />
+    <desc>Може ли робът с мечта да стане рицар....</desc>
+  </programme>
+  <programme start="20230822144500 +0300" stop="20230822151500 +0300" channel="bnt1.bg">
+    <title lang="bg">Семейството на джиновете, 2020</title>
+    <icon src="https://bnt.bg/f/news/m/313/1b76da8a7d9b40dd8e27cbbe2a1da7df.jpeg" />
+    <desc>Вълшебният дух посещава тези, които още не са изгубили мечтите си...</desc>
+  </programme>
+  <programme start="20230822151500 +0300" stop="20230822154500 +0300" channel="bnt1.bg">
+    <title lang="bg">Криминалните случаи на пети "В"</title>
+    <icon src="https://bnt.bg/f/news/m/317/1f92e26b3c7c8013c50b5eb7bb84fcb0.jpeg" />
+    <desc>Малки находки водят до големи разкрития за група съобразителни деца с отговорност към природата</desc>
+  </programme>
+  <programme start="20230822154500 +0300" stop="20230822160000 +0300" channel="bnt1.bg">
+    <title lang="bg">Телепазарен прозорец</title>
+    <icon src="https://p.bnt.bg/s/h/shop-208495-810x0.png" />
+  </programme>
+  <programme start="20230822160000 +0300" stop="20230822163000 +0300" channel="bnt1.bg">
     <title lang="bg">Бързо, лесно, вкусно</title>
     <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
     <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
   </programme>
-  <programme start="20230818150000 +0300" stop="20230818160000 +0300" channel="bnt2.bg">
-    <title lang="bg">История.bg</title>
-    <icon src="https://bnt.bg/f/news/m/0/0eafb8a0431028cb16bd862073224340.jpeg" />
-    <desc>ИСТОРИЯ.BG е проект на БНТ1, посветен на значимите събития и личности от историята на България.</desc>
+  <programme start="20230822163000 +0300" stop="20230822180000 +0300" channel="bnt1.bg">
+    <title lang="bg">Капитан Петко войвода</title>
+    <icon src="https://p.bnt.bg/k/a/kapitan-petko-voyvoda-15-307369-810x0.jpg" />
+    <desc>Живот-борба в името на идеал, погребан с последен предсмъртен протест към властта: "Те погребаха България!"....</desc>
   </programme>
-  <programme start="20230818160000 +0300" stop="20230818163000 +0300" channel="bnt2.bg">
-    <title lang="bg">Джинс</title>
-    <icon src="https://bnt.bg/f/news/m/212/b873b4e9d0542d9d95a46b4866b22bf3.jpeg" />
-    <desc>“Джинс” - уникално по рода си предаване за генеалогия и родова памет</desc>
-  </programme>
-  <programme start="20230818163000 +0300" stop="20230818175000 +0300" channel="bnt2.bg">
-    <title lang="bg">Бразилска мелодия</title>
-    <icon src="https://bnt.bg/f/news/m/269/a0ea55830002fbf73ca4d5081bab8b53.jpeg" />
-    <desc>Убийство между приятели в международен трафик...</desc>
-  </programme>
-  <programme start="20230818175000 +0300" stop="20230818180000 +0300" channel="bnt2.bg">
-    <title lang="bg">10 000 крачки</title>
-    <icon src="https://bnt.bg/f/news/m/199/ccda09591fb51d857ada3d0967a3f85c.jpeg" />
-    <desc>Предаване за градски забележителности и забравени истории</desc>
-  </programme>
-  <programme start="20230818180000 +0300" stop="20230818183000 +0300" channel="bnt2.bg">
+  <programme start="20230822180000 +0300" stop="20230822183000 +0300" channel="bnt1.bg">
     <title lang="bg">По света и у нас</title>
     <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
     <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230818183000 +0300" stop="20230818190000 +0300" channel="bnt2.bg">
-    <title lang="bg">Линия Култура</title>
-    <icon src="https://bnt.bg/f/news/m/199/1c73479d4756b6c7c7f1889c2613ffcd.jpeg" />
-    <desc>Актуално информационно предаване за културния живот в България</desc>
+  <programme start="20230822183000 +0300" stop="20230822190000 +0300" channel="bnt1.bg">
+    <title lang="bg">Тайни и загадки</title>
+    <icon src="https://bnt.bg/f/news/m/317/cae50827683080397f93f5d361333819.jpeg" />
+    <desc>Топ 10 на липсващите отговори в загадъчната историята на света</desc>
   </programme>
-  <programme start="20230818190000 +0300" stop="20230818195000 +0300" channel="bnt2.bg">
-    <title lang="bg">Десницата на Свети Иван</title>
-    <icon src="https://p.bnt.bg/d/e/desnicata-na-st-joan-rilsky_1-159387-810x0.jpg" />
-    <desc>Филм за Десницата на Св. Иван Рилски - отделена от мощите му и пренесена на гръцкия остров Тинос</desc>
-  </programme>
-  <programme start="20230818195000 +0300" stop="20230818200000 +0300" channel="bnt2.bg">
-    <title lang="bg">Лека нощ, деца!</title>
-    <icon src="https://bnt.bg/f/news/m/0/d55aca89406e4f8490556ca9f3034346.jpeg" />
-    <desc>Рубриката е за децата от 3 до 63 години. В нея всеки може да види любимите си български герои и сюжети, измислени от най-добрите наши писатели и поети, и изиграни от най-известните български драматични и куклени актьори.</desc>
-  </programme>
-  <programme start="20230818200000 +0300" stop="20230818203000 +0300" channel="bnt2.bg">
-    <title lang="bg">10 000 крачки</title>
-    <icon src="https://bnt.bg/f/news/m/199/ccda09591fb51d857ada3d0967a3f85c.jpeg" />
-    <desc>Предаване за градски забележителности и забравени истории</desc>
-  </programme>
-  <programme start="20230818203000 +0300" stop="20230818220000 +0300" channel="bnt2.bg">
-    <title lang="bg">Ранчото "Хартленд"</title>
-    <icon src="https://bnt.bg/f/news/m/303/76efa4773c4701364dac702f8dd9f7c2.jpeg" />
-    <desc>Щастието е мечта и пътят е стръмен, но не и невъзможeн, с най-красивите герои в Хартленд - Конете!</desc>
-  </programme>
-  <programme start="20230818220000 +0300" stop="20230818230000 +0300" channel="bnt2.bg">
+  <programme start="20230822190000 +0300" stop="20230822200000 +0300" channel="bnt1.bg">
     <title lang="bg">БНТ представя</title>
     <icon src="https://bnt.bg/f/news/m/284/30c0dec0f801a75505fc08ac5343527a.png" />
   </programme>
-  <programme start="20230818230000 +0300" stop="20230818232500 +0300" channel="bnt2.bg">
+  <programme start="20230822200000 +0300" stop="20230822204500 +0300" channel="bnt1.bg">
     <title lang="bg">По света и у нас</title>
     <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
     <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230818232500 +0300" stop="20230818235500 +0300" channel="bnt2.bg">
-    <title lang="bg">Новото познание</title>
-    <icon src="https://bnt.bg/f/news/m/213/36aed60f82f72d53166502382eed2f5c.jpeg" />
-    <desc>"Новото познание" е предаване за мистика, наука и конспиративни теории.</desc>
+  <programme start="20230822204500 +0300" stop="20230822210000 +0300" channel="bnt1.bg">
+    <title lang="bg">Спортни новини</title>
+    <icon src="https://p.bnt.bg/s/p/sportni-novini-311001-810x0.png" />
   </programme>
-  <programme start="20230818235500 +0300" stop="20230819060000 +0300" channel="bnt2.bg">
-    <title lang="bg">Опера на открито</title>
-    <icon src="https://bnt.bg/f/news/m/223/ee373cfc808139371220946bebc3d0ea.jpeg" />
-    <desc>Документална поредица на БНТ Варна, която представя оперни спектакли и концерти отфестивала „Опера на открито“ в Морската столица</desc>
+  <programme start="20230822210000 +0300" stop="20230822230000 +0300" channel="bnt1.bg">
+    <title lang="bg">Световно първенство по лека атлетика /финали/</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
+  </programme>
+  <programme start="20230822230000 +0300" stop="20230822232500 +0300" channel="bnt1.bg">
+    <title lang="bg">По света и у нас</title>
+    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
+    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
+  </programme>
+  <programme start="20230822232500 +0300" channel="bnt1.bg">
+    <title lang="bg">Под прикритие</title>
+    <icon src="https://p.bnt.bg/p/o/pod-prikritie-1-215945-810x0.jpg" />
+    <desc>"Той трябва да излъже всички, за да оцелее "...</desc>
   </programme>
   <programme start="20230819060000 +0300" stop="20230819070500 +0300" channel="bnt2.bg">
     <title lang="bg">Рецепта за култура</title>
@@ -1105,74 +940,174 @@
     <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
     <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230821232500 +0300" channel="bnt2.bg">
+  <programme start="20230821232500 +0300" stop="20230822060000 +0300" channel="bnt2.bg">
     <title lang="bg">Неделни нюанси с водещ Симона Пейчева</title>
     <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818060000 +0300" stop="20230818090000 +0300" channel="bnt3.bg">
-    <title lang="bg">Европейско първенство по лека атлетика за юноши и девойки</title>
+  <programme start="20230822060000 +0300" stop="20230822063000 +0300" channel="bnt2.bg">
+    <title lang="bg">Линия Култура</title>
+    <icon src="https://bnt.bg/f/news/m/199/1c73479d4756b6c7c7f1889c2613ffcd.jpeg" />
+    <desc>Актуално информационно предаване за културния живот в България</desc>
+  </programme>
+  <programme start="20230822063000 +0300" stop="20230822070000 +0300" channel="bnt2.bg">
+    <title lang="bg">Откакто свят светува</title>
+    <icon src="https://bnt.bg/f/news/m/201/7a31751c18be94b32ef66b9514e553da.jpeg" />
+    <desc>Предаването представя многоцветието на българския фолклор и богатството на националните традиции. Екипът среща зрителите с различни обичаи и обреди, преминали през времето до наши дни и разкрива техния смисъл и символна сила.</desc>
+  </programme>
+  <programme start="20230822070000 +0300" stop="20230822073000 +0300" channel="bnt2.bg">
+    <title lang="bg">Джинс</title>
+    <icon src="https://bnt.bg/f/news/m/212/b873b4e9d0542d9d95a46b4866b22bf3.jpeg" />
+    <desc>“Джинс” - уникално по рода си предаване за генеалогия и родова памет</desc>
+  </programme>
+  <programme start="20230822073000 +0300" stop="20230822075500 +0300" channel="bnt2.bg">
+    <title lang="bg">Бързо, лесно, вкусно</title>
+    <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
+    <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
+  </programme>
+  <programme start="20230822075500 +0300" stop="20230822080500 +0300" channel="bnt2.bg">
+    <title lang="bg">10 000 крачки</title>
+    <icon src="https://bnt.bg/f/news/m/199/ccda09591fb51d857ada3d0967a3f85c.jpeg" />
+    <desc>Предаване за градски забележителности и забравени истории</desc>
+  </programme>
+  <programme start="20230822080500 +0300" stop="20230822083500 +0300" channel="bnt2.bg">
+    <title lang="bg">Един ден в Добърско</title>
+    <icon src="https://bnt.bg/f/news/m/320/bd156f2115ca915447802f0badb5fd58.jpeg" />
+    <desc>Каква е тайнствената привлекателност на една малко българско село, заобиколено от три планини</desc>
+  </programme>
+  <programme start="20230822083500 +0300" stop="20230822090000 +0300" channel="bnt2.bg">
+    <title lang="bg">Поглед към бъдещето</title>
+    <icon src="https://bnt.bg/f/news/m/317/5b57d4cd0ab37947b21ca22af1bb9ab0.jpeg" />
+    <desc>Популярни практики и тенденции за здравето и бъдещето на света</desc>
+  </programme>
+  <programme start="20230822090000 +0300" stop="20230822093000 +0300" channel="bnt2.bg">
+    <title lang="bg">Натисни F1</title>
+    <icon src="https://bnt.bg/f/news/m/199/2bdeab93c8ae8022d08516dc01780dff.jpeg" />
+  </programme>
+  <programme start="20230822093000 +0300" stop="20230822094000 +0300" channel="bnt2.bg">
+    <title lang="bg">Имало едно време</title>
     <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818090000 +0300" stop="20230818094500 +0300" channel="bnt3.bg">
-    <title lang="bg">Кралете на дивото</title>
-    <icon src="https://bnt.bg/f/news/m/302/cc2945249d0bc9f4b2c5ccfa7bf5c170.jpeg" />
-    <desc>Как гладът стимулира способностите за хранeне сред дивата природа, дори и в... Родопите</desc>
+  <programme start="20230822094000 +0300" stop="20230822103500 +0300" channel="bnt2.bg">
+    <title lang="bg">Това го знам</title>
+    <icon src="https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png" />
   </programme>
-  <programme start="20230818094500 +0300" stop="20230818100000 +0300" channel="bnt3.bg">
-    <title lang="bg">Зала на славата: Ива Пранджева</title>
+  <programme start="20230822103500 +0300" stop="20230822110000 +0300" channel="bnt2.bg">
+    <title lang="bg">Най-доброто от...</title>
+    <icon src="https://p.bnt.bg/n/a/nai_dobroto_ot_020615_ab_na_choveshkite_prava_x264-182889-810x0.jpg" />
+  </programme>
+  <programme start="20230822110000 +0300" stop="20230822113000 +0300" channel="bnt2.bg">
+    <title lang="bg">Пазители на традициите</title>
+    <icon src="https://bnt.bg/f/news/m/201/5aad1134ba7396bc4306010001115a33.jpeg" />
+    <desc>Предаването представя автентични образци на изворния фолклор, съхранявани от самодейни състави и родолюбиви читалищни ентусиасти.</desc>
+  </programme>
+  <programme start="20230822113000 +0300" stop="20230822120000 +0300" channel="bnt2.bg">
+    <title lang="bg">Туризъм.бг</title>
+    <icon src="https://bnt.bg/f/news/m/200/f1819e83120b81277dd0c37e49d7269f.jpeg" />
+    <desc>Седмично телевизионно предаване, посветено на българския туризъм</desc>
+  </programme>
+  <programme start="20230822120000 +0300" stop="20230822122500 +0300" channel="bnt2.bg">
+    <title lang="bg">По света и у нас</title>
+    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
+    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
+  </programme>
+  <programme start="20230822122500 +0300" stop="20230822132500 +0300" channel="bnt2.bg">
+    <title lang="bg">Иде нашенската музика</title>
+    <icon src="https://bnt.bg/f/news/m/0/0459349044603e95ed4bc3b738819b74.jpeg" />
+  </programme>
+  <programme start="20230822132500 +0300" stop="20230822135500 +0300" channel="bnt2.bg">
+    <title lang="bg">До Европа и напред</title>
+    <icon src="https://bnt.bg/f/news/m/216/51f432fa507626fb0c21e7cb9b092bb6.jpeg" />
+    <desc>Безпристрастно представяне на събитията и фактите от най-новата история на света след Вторатасветовна война</desc>
+  </programme>
+  <programme start="20230822135500 +0300" stop="20230822140000 +0300" channel="bnt2.bg">
+    <title lang="bg">Препрочитаме Щастливеца</title>
+    <icon src="https://bnt.bg/f/news/m/313/61414a43579b0349a73619f9899ac7e6.jpeg" />
+  </programme>
+  <programme start="20230822140000 +0300" stop="20230822143000 +0300" channel="bnt2.bg">
+    <title lang="bg">Туризъм.бг</title>
+    <icon src="https://bnt.bg/f/news/m/200/f1819e83120b81277dd0c37e49d7269f.jpeg" />
+    <desc>Седмично телевизионно предаване, посветено на българския туризъм</desc>
+  </programme>
+  <programme start="20230822143000 +0300" stop="20230822150000 +0300" channel="bnt2.bg">
+    <title lang="bg">Бързо, лесно, вкусно</title>
+    <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
+    <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
+  </programme>
+  <programme start="20230822150000 +0300" stop="20230822153000 +0300" channel="bnt2.bg">
+    <title lang="bg">България от край до край 8</title>
     <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818100000 +0300" stop="20230818135500 +0300" channel="bnt3.bg">
-    <title lang="bg">Европейско първенство по лека атлетика за юноши и девойки</title>
+  <programme start="20230822153000 +0300" stop="20230822160000 +0300" channel="bnt2.bg">
+    <title lang="bg">Библиотеката</title>
+    <icon src="https://bnt.bg/f/news/m/0/0bd7728f7ffb3d1573fe5e8fa62e66da.jpeg" />
+  </programme>
+  <programme start="20230822160000 +0300" stop="20230822163000 +0300" channel="bnt2.bg">
+    <title lang="bg">Джинс</title>
+    <icon src="https://bnt.bg/f/news/m/212/b873b4e9d0542d9d95a46b4866b22bf3.jpeg" />
+    <desc>“Джинс” - уникално по рода си предаване за генеалогия и родова памет</desc>
+  </programme>
+  <programme start="20230822163000 +0300" stop="20230822175000 +0300" channel="bnt2.bg">
+    <title lang="bg">Издирва се: "Наследницата"</title>
+    <icon src="https://bnt.bg/f/news/m/3/05008783fb975f0c2da54534a70f219b.jpeg" />
+    <desc>Как грехът се убива с друг грях...</desc>
+  </programme>
+  <programme start="20230822175000 +0300" stop="20230822180000 +0300" channel="bnt2.bg">
+    <title lang="bg">10 000 крачки</title>
+    <icon src="https://bnt.bg/f/news/m/199/ccda09591fb51d857ada3d0967a3f85c.jpeg" />
+    <desc>Предаване за градски забележителности и забравени истории</desc>
+  </programme>
+  <programme start="20230822180000 +0300" stop="20230822183000 +0300" channel="bnt2.bg">
+    <title lang="bg">По света и у нас</title>
+    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
+    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
+  </programme>
+  <programme start="20230822183000 +0300" stop="20230822190000 +0300" channel="bnt2.bg">
+    <title lang="bg">Линия Култура</title>
+    <icon src="https://bnt.bg/f/news/m/199/1c73479d4756b6c7c7f1889c2613ffcd.jpeg" />
+    <desc>Актуално информационно предаване за културния живот в България</desc>
+  </programme>
+  <programme start="20230822190000 +0300" stop="20230822192500 +0300" channel="bnt2.bg">
+    <title lang="bg">Линия Пътешествие: "Озареният от Хиос"</title>
     <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818135500 +0300" stop="20230818140000 +0300" channel="bnt3.bg">
-    <title lang="bg">Спортни новини</title>
-    <icon src="https://p.bnt.bg/s/p/sportni-novini-311001-810x0.png" />
+  <programme start="20230822192500 +0300" stop="20230822195000 +0300" channel="bnt2.bg">
+    <title lang="bg">Поглед към бъдещето</title>
+    <icon src="https://bnt.bg/f/news/m/317/5b57d4cd0ab37947b21ca22af1bb9ab0.jpeg" />
+    <desc>Популярни практики и тенденции за здравето и бъдещето на света</desc>
   </programme>
-  <programme start="20230818140000 +0300" stop="20230818143000 +0300" channel="bnt3.bg">
-    <title lang="bg">Рали Табук - Неом</title>
-    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
+  <programme start="20230822195000 +0300" stop="20230822200000 +0300" channel="bnt2.bg">
+    <title lang="bg">Лека нощ, деца!</title>
+    <icon src="https://bnt.bg/f/news/m/0/d55aca89406e4f8490556ca9f3034346.jpeg" />
+    <desc>Рубриката е за децата от 3 до 63 години. В нея всеки може да види любимите си български герои и сюжети, измислени от най-добрите наши писатели и поети, и изиграни от най-известните български драматични и куклени актьори.</desc>
   </programme>
-  <programme start="20230818143000 +0300" stop="20230818150000 +0300" channel="bnt3.bg">
-    <title lang="bg">Време за губене</title>
-    <icon src="https://bnt.bg/f/news/m/0/84e9169e4a77ee49758ebe9f3121bbcc.png" />
-    <desc>Предаване за лов, риболов и кинология</desc>
+  <programme start="20230822200000 +0300" stop="20230822203000 +0300" channel="bnt2.bg">
+    <title lang="bg">Пътувай с БНТ 2</title>
+    <icon src="https://p.bnt.bg/6/2/62815_573791662640133_269835771_n-1307-810x0.jpg" />
+    <desc>Човекът е човек тогава, когато е на път! „Пътувай с БНТ2” е туристическо предаване, което се излъчва всяка неделя от 17:00 часа. Автори са различни журналисти от четирите регионални центрове в Благоевград, Варна, Пловдив и Русе.</desc>
   </programme>
-  <programme start="20230818150000 +0300" stop="20230818165000 +0300" channel="bnt3.bg">
-    <title lang="bg">ФИФА Световно първенство за жени: Испания - Швеция, полуфинална среща</title>
-    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
+  <programme start="20230822203000 +0300" stop="20230822211500 +0300" channel="bnt2.bg">
+    <title lang="bg">Ранчото "Хартленд"</title>
+    <icon src="https://bnt.bg/f/news/m/303/76efa4773c4701364dac702f8dd9f7c2.jpeg" />
+    <desc>Щастието е мечта и пътят е стръмен, но не и невъзможeн, с най-красивите герои в Хартленд - Конете!</desc>
   </programme>
-  <programme start="20230818165000 +0300" stop="20230818170500 +0300" channel="bnt3.bg">
-    <title lang="bg">Телепазарен прозорец</title>
-    <icon src="https://p.bnt.bg/s/h/shop-208495-810x0.png" />
+  <programme start="20230822211500 +0300" stop="20230822220000 +0300" channel="bnt2.bg">
+    <title lang="bg">Ранчото "Хартленд" 2</title>
+    <icon src="https://bnt.bg/f/news/m/303/76efa4773c4701364dac702f8dd9f7c2.jpeg" />
+    <desc>Щастието е мечта и пътят е стръмен, но не и невъзможeн, с най-красивите герои в Хартленд - Конете!</desc>
   </programme>
-  <programme start="20230818170500 +0300" stop="20230818175000 +0300" channel="bnt3.bg">
-    <title lang="bg">Кралете на дивото</title>
-    <icon src="https://bnt.bg/f/news/m/302/cc2945249d0bc9f4b2c5ccfa7bf5c170.jpeg" />
-    <desc>Как гладът стимулира способностите за хранeне сред дивата природа, дори и в... Родопите</desc>
+  <programme start="20230822220000 +0300" stop="20230822230000 +0300" channel="bnt2.bg">
+    <title lang="bg">БНТ представя</title>
+    <icon src="https://bnt.bg/f/news/m/284/30c0dec0f801a75505fc08ac5343527a.png" />
   </programme>
-  <programme start="20230818175000 +0300" stop="20230818194000 +0300" channel="bnt3.bg">
-    <title lang="bg">ФИФА Световно първенство за жени: Австралия - Англия, полуфинална среща</title>
-    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
+  <programme start="20230822230000 +0300" stop="20230822232500 +0300" channel="bnt2.bg">
+    <title lang="bg">По света и у нас</title>
+    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
+    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230818194000 +0300" stop="20230818210000 +0300" channel="bnt3.bg">
-    <title lang="bg">Историята на жена ми</title>
-    <icon src="https://bnt.bg/f/news/m/305/bdce72a4ab5b28a1033b362075aa947c.jpeg" />
-    <desc>По едноименния роман на Милан Фющ</desc>
-  </programme>
-  <programme start="20230818210000 +0300" stop="20230818223000 +0300" channel="bnt3.bg">
-    <title lang="bg">Историята на жена ми</title>
-    <icon src="https://bnt.bg/f/news/m/305/bdce72a4ab5b28a1033b362075aa947c.jpeg" />
-    <desc>По едноименния роман на Милан Фющ</desc>
-  </programme>
-  <programme start="20230818223000 +0300" stop="20230818224000 +0300" channel="bnt3.bg">
-    <title lang="bg">Спортни новини</title>
-    <icon src="https://p.bnt.bg/s/p/sportni-novini-311001-810x0.png" />
-  </programme>
-  <programme start="20230818224000 +0300" stop="20230819060000 +0300" channel="bnt3.bg">
-    <title lang="bg">ФИФА Световно първенство за жени: Испания - Швеция, полуфинална среща</title>
-    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
+  <programme start="20230822232500 +0300" channel="bnt2.bg">
+    <title lang="bg">История.bg</title>
+    <icon src="https://bnt.bg/f/news/m/0/0eafb8a0431028cb16bd862073224340.jpeg" />
+    <desc>ИСТОРИЯ.BG е проект на БНТ1, посветен на значимите събития и личности от историята на България.</desc>
   </programme>
   <programme start="20230819060000 +0300" stop="20230819075000 +0300" channel="bnt3.bg">
     <title lang="bg">ФИФА Световно първенство за жени: Испания - Швеция, полуфинална среща</title>
@@ -1408,144 +1343,77 @@
     <title lang="bg">Световно първенство по лека атлетика /финали/</title>
     <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230821230000 +0300" channel="bnt3.bg">
+  <programme start="20230821230000 +0300" stop="20230822060000 +0300" channel="bnt3.bg">
     <title lang="bg">ФИФА Световно първенство за жени:  финал</title>
     <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818055500 +0300" stop="20230818062500 +0300" channel="bnt4.bg">
-    <title lang="bg">Раздвижи се с БНТ 2</title>
-    <icon src="https://p.bnt.bg/r/a/razdviji_se_s_bnt2_010214_x264-54119-810x0.jpg" />
+  <programme start="20230822060000 +0300" stop="20230822061000 +0300" channel="bnt3.bg">
+    <title lang="bg">Аз съм...</title>
+    <icon src="https://bnt.bg/f/news/m/0/8576d10e6622cfb78d5e26cd7bbe512b.jpeg" />
+    <desc>„Аз съм“ е кратка портретна форма, която представя интересни и талантливи млади хора, изявяващи се в различни области – спортисти, артисти, художници, певци. Целта на рубриката е да популяризира постиженията на младата и активна част от нашето общество.</desc>
   </programme>
-  <programme start="20230818062500 +0300" stop="20230818065500 +0300" channel="bnt4.bg">
-    <title lang="bg">Пътувай с БНТ 2</title>
-    <icon src="https://p.bnt.bg/6/2/62815_573791662640133_269835771_n-1307-810x0.jpg" />
-    <desc>Човекът е човек тогава, когато е на път! „Пътувай с БНТ2” е туристическо предаване, което се излъчва всяка неделя от 17:00 часа. Автори са различни журналисти от четирите регионални центрове в Благоевград, Варна, Пловдив и Русе.</desc>
-  </programme>
-  <programme start="20230818065500 +0300" stop="20230818092000 +0300" channel="bnt4.bg">
-    <title lang="bg">Денят започва</title>
-    <icon src="https://bnt.bg/f/news/m/197/40ddf7e8562c7e14501180dac1778f44.jpeg" />
-    <desc>Сутрешният блок на БНТ е актуално-информационно предаване. Всеки делничен ден зрителите научават първи най-важните новини от България и чужбина в информационните емисии през 30 минути, както и проблемите и решенията по всички обществено интересни казуси.</desc>
-  </programme>
-  <programme start="20230818092000 +0300" stop="20230818110000 +0300" channel="bnt4.bg">
-    <title lang="bg">100% будни</title>
-    <icon src="https://bnt.bg/f/news/m/197/263fd7875c7a1d0f112cf529552f12a3.jpeg" />
-    <desc>„100% будни“ - сутрешно ток шоу с водещи Стефан А. Щерев и Надя Иванова</desc>
-  </programme>
-  <programme start="20230818110000 +0300" stop="20230818113000 +0300" channel="bnt4.bg">
-    <title lang="bg">Джинс</title>
-    <icon src="https://bnt.bg/f/news/m/212/b873b4e9d0542d9d95a46b4866b22bf3.jpeg" />
-    <desc>“Джинс” - уникално по рода си предаване за генеалогия и родова памет</desc>
-  </programme>
-  <programme start="20230818113000 +0300" stop="20230818120000 +0300" channel="bnt4.bg">
-    <title lang="bg">Бързо, лесно, вкусно</title>
-    <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
-    <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
-  </programme>
-  <programme start="20230818120000 +0300" stop="20230818122500 +0300" channel="bnt4.bg">
-    <title lang="bg">По света и у нас</title>
-    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
-    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
-  </programme>
-  <programme start="20230818122500 +0300" stop="20230818132000 +0300" channel="bnt4.bg">
-    <title lang="bg">Отблизо</title>
-    <icon src="https://bnt.bg/f/news/m/0/89dd472b7eb31e1d0a17f128eca16648.png" />
-    <desc>Предаването продължава да показва изумителните човешки взаимоотношения, да вади на преден план духовността и да представя изконните български традиции и обичаи</desc>
-  </programme>
-  <programme start="20230818132000 +0300" stop="20230818133000 +0300" channel="bnt4.bg">
-    <title lang="bg">10 000 крачки</title>
-    <icon src="https://bnt.bg/f/news/m/199/ccda09591fb51d857ada3d0967a3f85c.jpeg" />
-    <desc>Предаване за градски забележителности и забравени истории</desc>
-  </programme>
-  <programme start="20230818133000 +0300" stop="20230818140000 +0300" channel="bnt4.bg">
-    <title lang="bg">Линия Култура</title>
-    <icon src="https://bnt.bg/f/news/m/199/1c73479d4756b6c7c7f1889c2613ffcd.jpeg" />
-    <desc>Актуално информационно предаване за културния живот в България</desc>
-  </programme>
-  <programme start="20230818140000 +0300" stop="20230818150000 +0300" channel="bnt4.bg">
-    <title lang="bg">Моят плейлист</title>
-    <icon src="https://bnt.bg/f/news/m/253/d93b907208a5bac797a1264038344a8b.jpeg" />
-    <desc>„Кажи ни каква музика слушаш, за да разберем по-добре какъв си!“. Това е основният принцип на "Моят плейлист" - новото музикално шоу на Българската национална телевизия.</desc>
-  </programme>
-  <programme start="20230818150000 +0300" stop="20230818153000 +0300" channel="bnt4.bg">
-    <title lang="bg">Туризъм.бг</title>
-    <icon src="https://bnt.bg/f/news/m/200/f1819e83120b81277dd0c37e49d7269f.jpeg" />
-    <desc>Седмично телевизионно предаване, посветено на българския туризъм</desc>
-  </programme>
-  <programme start="20230818153000 +0300" stop="20230818162000 +0300" channel="bnt4.bg">
-    <title lang="bg">Това го знам</title>
-    <icon src="https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png" />
-  </programme>
-  <programme start="20230818162000 +0300" stop="20230818164000 +0300" channel="bnt4.bg">
-    <title lang="bg">Зомбриела</title>
+  <programme start="20230822061000 +0300" stop="20230822080500 +0300" channel="bnt3.bg">
+    <title lang="bg">ФИФА Световно първенство за жени: Испания - Швеция, полуфинална среща</title>
     <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818164000 +0300" stop="20230818172500 +0300" channel="bnt4.bg">
-    <title lang="bg">Ретро следобед</title>
-    <icon src="https://p.bnt.bg/r/e/retro-sledobed-400x225-3041-810x0.png" />
-    <desc>Предаване, което използва неповторимия архив на Българската национална телевизия, като изцяло се ръководи и съобразява с желанията на зрителите, които пожелаха да гледат свои любими развлекателни предавания, с които са израснали поколения и които по своята стойност остават ненадминати.</desc>
+  <programme start="20230822080500 +0300" stop="20230822090000 +0300" channel="bnt3.bg">
+    <title lang="bg">Ветроходство, Пътят на Рум: Дестинация Гваделупа</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818172500 +0300" stop="20230818180000 +0300" channel="bnt4.bg">
-    <title lang="bg">Рилският светител</title>
-    <icon src="https://bnt.bg/f/news/m/320/92d5b1cb609c0ed4bcdbbe03a8d3a0f2.jpeg" />
-    <desc>Какви са силата, чудесата и Заветът на Иван Рилски</desc>
+  <programme start="20230822090000 +0300" stop="20230822094500 +0300" channel="bnt3.bg">
+    <title lang="bg">Кралете на дивото</title>
+    <icon src="https://bnt.bg/f/news/m/302/cc2945249d0bc9f4b2c5ccfa7bf5c170.jpeg" />
+    <desc>Как гладът стимулира способностите за хранeне сред дивата природа, дори и в... Родопите</desc>
   </programme>
-  <programme start="20230818180000 +0300" stop="20230818183000 +0300" channel="bnt4.bg">
-    <title lang="bg">По света и у нас</title>
-    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
-    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
+  <programme start="20230822094500 +0300" stop="20230822111500 +0300" channel="bnt3.bg">
+    <title lang="bg">Световно първенство по плувни спортове: Гърция - Унгария, финал на турнира по водна топка /мъже/</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818183000 +0300" stop="20230818190000 +0300" channel="bnt4.bg">
-    <title lang="bg">Камера! Завеса!</title>
-    <icon src="https://bnt.bg/f/news/m/2/34267b50afb16becefae75df11aebeb6.jpeg" />
-    <desc>"Снима се сапунена опера!"</desc>
+  <programme start="20230822111500 +0300" stop="20230822113500 +0300" channel="bnt3.bg">
+    <title lang="bg">Зала на славата: Пламен Марков</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818190000 +0300" stop="20230818193000 +0300" channel="bnt4.bg">
-    <title lang="bg">Фарът</title>
-    <icon src="https://bnt.bg/f/news/m/157/c70ed99810278f0639723d77961fc7d5.jpeg" />
-    <desc>За най-стария фар на Българското черноморие разказват неговите пазачи</desc>
+  <programme start="20230822113500 +0300" stop="20230822133000 +0300" channel="bnt3.bg">
+    <title lang="bg">ФИФА Световно първенство за жени: Австралия - Англия, полуфинална среща</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818193000 +0300" stop="20230818200000 +0300" channel="bnt4.bg">
-    <title lang="bg">Бързо, лесно, вкусно</title>
-    <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
-    <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
-  </programme>
-  <programme start="20230818200000 +0300" stop="20230818204500 +0300" channel="bnt4.bg">
-    <title lang="bg">По света и у нас</title>
-    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
-    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
-  </programme>
-  <programme start="20230818204500 +0300" stop="20230818210000 +0300" channel="bnt4.bg">
+  <programme start="20230822133000 +0300" stop="20230822133500 +0300" channel="bnt3.bg">
     <title lang="bg">Спортни новини</title>
     <icon src="https://p.bnt.bg/s/p/sportni-novini-311001-810x0.png" />
   </programme>
-  <programme start="20230818210000 +0300" stop="20230818220000 +0300" channel="bnt4.bg">
-    <title lang="bg">Музика безкрай</title>
-    <icon src="https://bnt.bg/f/news/m/297/8143234525316f67d2500bd217e045b7.jpeg" />
-    <desc>Музикалните предложения на телевизионния концерт ще бъдат поднесени от Богдан Томов</desc>
+  <programme start="20230822133500 +0300" stop="20230822165500 +0300" channel="bnt3.bg">
+    <title lang="bg">Световно първенство по лека атлетика /финали/</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818220000 +0300" stop="20230818223000 +0300" channel="bnt4.bg">
-    <title lang="bg">Извън играта</title>
-    <icon src="https://bnt.bg/f/news/m/0/9c730b8e44a92fb0a706fefc67f25862.jpeg" />
-    <desc>„Извън играта” е предаване за живота извън… сцената, спорта, екрана. Показва популярните личности в необичайна и непозната светлина. Гости на водещата Люба Пашова са популярни лица от различни обществени сфери – спортисти, актьори, музиканти, журналисти. Предаването опитва да надникне зад завесите, да изведе на преден план това, което не знаем за популярните личности.</desc>
+  <programme start="20230822165500 +0300" stop="20230822171000 +0300" channel="bnt3.bg">
+    <title lang="bg">Телепазарен прозорец</title>
+    <icon src="https://p.bnt.bg/s/h/shop-208495-810x0.png" />
   </programme>
-  <programme start="20230818223000 +0300" stop="20230818230000 +0300" channel="bnt4.bg">
-    <title lang="bg">Иновативно</title>
-    <icon src="https://bnt.bg/f/news/m/249/e060301929d5a843e6af3d4bc1245b69.jpeg" />
-    <desc>Предаване за новостите в науката, технологиите и бизнеса</desc>
+  <programme start="20230822171000 +0300" stop="20230822175500 +0300" channel="bnt3.bg">
+    <title lang="bg">Кралете на дивото</title>
+    <icon src="https://bnt.bg/f/news/m/302/cc2945249d0bc9f4b2c5ccfa7bf5c170.jpeg" />
+    <desc>Как гладът стимулира способностите за хранeне сред дивата природа, дори и в... Родопите</desc>
   </programme>
-  <programme start="20230818230000 +0300" stop="20230818232500 +0300" channel="bnt4.bg">
-    <title lang="bg">По света и у нас</title>
-    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
-    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
+  <programme start="20230822175500 +0300" stop="20230822182000 +0300" channel="bnt3.bg">
+    <title lang="bg">Шахмат: Световни "Армагедон" серии</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818232500 +0300" stop="20230818233500 +0300" channel="bnt4.bg">
-    <title lang="bg">Малки истории</title>
-    <icon src="https://bnt.bg/f/news/m/0/006b6d46e975c22d38df6d9e92534608.jpeg" />
-    <desc>Социален слот на БНТ1, стартирал в ефира на Националната телевизия на 6 декември 2011 година. Понеделник, вторник, сряда и четвъртък от 12:35 часа се излъчва кратка документална форма с времетраене 10 минути, а в петък едночасовото публицистично социално ток шоу започва в 14:00 часа, където се търсят решенията.</desc>
+  <programme start="20230822182000 +0300" stop="20230822191500 +0300" channel="bnt3.bg">
+    <title lang="bg">Лига на нациите</title>
+    <icon src="https://bnt.bg/f/news/m/309/263efc39aac91aca72215822e34372e1.jpeg" />
+    <desc>БНТ 3 ще излъчи мача България-Гибралтар на 23 септември от 21:45 ч. и на 26 септември двубоя между България и Северна Македония от 21:45 ч. по БНТ1</desc>
   </programme>
-  <programme start="20230818233500 +0300" stop="20230819060000 +0300" channel="bnt4.bg">
-    <title lang="bg">БНТ представя</title>
-    <icon src="https://bnt.bg/f/news/m/284/30c0dec0f801a75505fc08ac5343527a.png" />
+  <programme start="20230822191500 +0300" stop="20230822193500 +0300" channel="bnt3.bg">
+    <title lang="bg">Зала на славата: Светла Златева и Николина Щерева</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
+  </programme>
+  <programme start="20230822193500 +0300" stop="20230822230000 +0300" channel="bnt3.bg">
+    <title lang="bg">Световно първенство по лека атлетика /финали/</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
+  </programme>
+  <programme start="20230822230000 +0300" channel="bnt3.bg">
+    <title lang="bg">Европейско първенство по футбол за младежи: Англия - Испания, финал</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
   <programme start="20230819060000 +0300" stop="20230819070000 +0300" channel="bnt4.bg">
     <title lang="bg">Иде нашенската музика</title>
@@ -1961,84 +1829,134 @@
     <icon src="https://bnt.bg/f/news/m/0/006b6d46e975c22d38df6d9e92534608.jpeg" />
     <desc>Социален слот на БНТ1, стартирал в ефира на Националната телевизия на 6 декември 2011 година. Понеделник, вторник, сряда и четвъртък от 12:35 часа се излъчва кратка документална форма с времетраене 10 минути, а в петък едночасовото публицистично социално ток шоу започва в 14:00 часа, където се търсят решенията.</desc>
   </programme>
-  <programme start="20230821233500 +0300" channel="bnt4.bg">
+  <programme start="20230821233500 +0300" stop="20230822055500 +0300" channel="bnt4.bg">
     <title lang="bg">БНТ представя</title>
     <icon src="https://bnt.bg/f/news/m/284/30c0dec0f801a75505fc08ac5343527a.png" />
   </programme>
-  <programme start="20230818003000 +0300" stop="20230818013000 +0300" channel="btv.bg">
-    <title>Столичани в повече</title>
+  <programme start="20230822055500 +0300" stop="20230822062500 +0300" channel="bnt4.bg">
+    <title lang="bg">Раздвижи се с БНТ 2</title>
+    <icon src="https://p.bnt.bg/r/a/razdviji_se_s_bnt2_010214_x264-54119-810x0.jpg" />
   </programme>
-  <programme start="20230818013000 +0300" stop="20230818020000 +0300" channel="btv.bg">
-    <title>Наръчник за женени</title>
+  <programme start="20230822062500 +0300" stop="20230822065500 +0300" channel="bnt4.bg">
+    <title lang="bg">Туризъм.бг</title>
+    <icon src="https://bnt.bg/f/news/m/200/f1819e83120b81277dd0c37e49d7269f.jpeg" />
+    <desc>Седмично телевизионно предаване, посветено на българския туризъм</desc>
   </programme>
-  <programme start="20230818020000 +0300" stop="20230818024000 +0300" channel="btv.bg">
-    <title>– bTV Новините /п./</title>
+  <programme start="20230822065500 +0300" stop="20230822092000 +0300" channel="bnt4.bg">
+    <title lang="bg">Денят започва</title>
+    <icon src="https://bnt.bg/f/news/m/197/40ddf7e8562c7e14501180dac1778f44.jpeg" />
+    <desc>Сутрешният блок на БНТ е актуално-информационно предаване. Всеки делничен ден зрителите научават първи най-важните новини от България и чужбина в информационните емисии през 30 минути, както и проблемите и решенията по всички обществено интересни казуси.</desc>
   </programme>
-  <programme start="20230818024000 +0300" stop="20230818043000 +0300" channel="btv.bg">
-    <title>Преди обед</title>
+  <programme start="20230822092000 +0300" stop="20230822110000 +0300" channel="bnt4.bg">
+    <title lang="bg">100% будни</title>
+    <icon src="https://bnt.bg/f/news/m/197/263fd7875c7a1d0f112cf529552f12a3.jpeg" />
+    <desc>„100% будни“ - сутрешно ток шоу с водещи Стефан А. Щерев и Надя Иванова</desc>
   </programme>
-  <programme start="20230818043000 +0300" stop="20230818050000 +0300" channel="btv.bg">
-    <title>Наръчник за женени</title>
+  <programme start="20230822110000 +0300" stop="20230822113000 +0300" channel="bnt4.bg">
+    <title lang="bg">Джинс</title>
+    <icon src="https://bnt.bg/f/news/m/212/b873b4e9d0542d9d95a46b4866b22bf3.jpeg" />
+    <desc>“Джинс” - уникално по рода си предаване за генеалогия и родова памет</desc>
   </programme>
-  <programme start="20230818050000 +0300" stop="20230818053000 +0300" channel="btv.bg">
-    <title>Тролстопия</title>
+  <programme start="20230822113000 +0300" stop="20230822120000 +0300" channel="bnt4.bg">
+    <title lang="bg">Бързо, лесно, вкусно</title>
+    <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
+    <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
   </programme>
-  <programme start="20230818053000 +0300" stop="20230818060000 +0300" channel="btv.bg">
-    <title>Турбо</title>
+  <programme start="20230822120000 +0300" stop="20230822122500 +0300" channel="bnt4.bg">
+    <title lang="bg">По света и у нас</title>
+    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
+    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230818060000 +0300" stop="20230818063000 +0300" channel="btv.bg">
-    <title>Трансформърс: Академия Рескю Ботс</title>
+  <programme start="20230822122500 +0300" stop="20230822132500 +0300" channel="bnt4.bg">
+    <title lang="bg">История.bg</title>
+    <icon src="https://bnt.bg/f/news/m/0/0eafb8a0431028cb16bd862073224340.jpeg" />
+    <desc>ИСТОРИЯ.BG е проект на БНТ1, посветен на значимите събития и личности от историята на България.</desc>
   </programme>
-  <programme start="20230818063000 +0300" stop="20230818070000 +0300" channel="btv.bg">
-    <title>Животът на Жоро</title>
+  <programme start="20230822132500 +0300" stop="20230822135500 +0300" channel="bnt4.bg">
+    <title lang="bg">Линия Култура</title>
+    <icon src="https://bnt.bg/f/news/m/199/1c73479d4756b6c7c7f1889c2613ffcd.jpeg" />
+    <desc>Актуално информационно предаване за културния живот в България</desc>
   </programme>
-  <programme start="20230818070000 +0300" stop="20230818093000 +0300" channel="btv.bg">
-    <title>Тази сутрин</title>
+  <programme start="20230822135500 +0300" stop="20230822150500 +0300" channel="bnt4.bg">
+    <title lang="bg">Музика за сърцето</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818093000 +0300" stop="20230818120000 +0300" channel="btv.bg">
-    <title>Преди обед</title>
+  <programme start="20230822150500 +0300" stop="20230822153000 +0300" channel="bnt4.bg">
+    <title lang="bg">№1 Туризмът: България - любимата им дестинация</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818120000 +0300" stop="20230818123000 +0300" channel="btv.bg">
-    <title>– bTV Новините – обедна емисия</title>
+  <programme start="20230822153000 +0300" stop="20230822163000 +0300" channel="bnt4.bg">
+    <title lang="bg">Това го знам</title>
+    <icon src="https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png" />
   </programme>
-  <programme start="20230818123000 +0300" stop="20230818133000 +0300" channel="btv.bg">
-    <title>Комиците и приятели</title>
+  <programme start="20230822163000 +0300" stop="20230822173000 +0300" channel="bnt4.bg">
+    <title lang="bg">С БНТ завинаги</title>
+    <icon src="https://bnt.bg/f/news/m/309/ffa262f40e9ae2f57a9ee81988862800.jpeg" />
+    <desc>Предаване за големите личности на българската музикална, филмова, театрална и културна сцена</desc>
   </programme>
-  <programme start="20230818133000 +0300" stop="20230818143000 +0300" channel="btv.bg">
-    <title>Стани богат</title>
+  <programme start="20230822173000 +0300" stop="20230822180000 +0300" channel="bnt4.bg">
+    <title lang="bg">Европа без граници: "Вратата Маказа"</title>
+    <icon src="https://bnt.bg/f/news/m/3/0cd893d0a47f78ce972b11fad1ebc55e.jpeg" />
+    <desc>За музиката няма граници в общия живот от двете страни на Маказа-Нимфея</desc>
   </programme>
-  <programme start="20230818143000 +0300" stop="20230818153000 +0300" channel="btv.bg">
-    <title>Скъпи наследници</title>
+  <programme start="20230822180000 +0300" stop="20230822183000 +0300" channel="bnt4.bg">
+    <title lang="bg">По света и у нас</title>
+    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
+    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230818153000 +0300" stop="20230818170000 +0300" channel="btv.bg">
-    <title>Почукай на вратата ми</title>
+  <programme start="20230822183000 +0300" stop="20230822190000 +0300" channel="bnt4.bg">
+    <title lang="bg">Едно дете в повече</title>
+    <icon src="https://bnt.bg/f/news/m/2/9a923d3f5425c1845ca9da4a5d70bcd5.jpeg" />
+    <desc>Любов и красота в игра на секс и пари...</desc>
   </programme>
-  <programme start="20230818170000 +0300" stop="20230818173000 +0300" channel="btv.bg">
-    <title>– bTV Новините</title>
+  <programme start="20230822190000 +0300" stop="20230822193000 +0300" channel="bnt4.bg">
+    <title lang="bg">България от край до край 8</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818173000 +0300" stop="20230818180000 +0300" channel="btv.bg">
-    <title>Помощ 112</title>
+  <programme start="20230822193000 +0300" stop="20230822200000 +0300" channel="bnt4.bg">
+    <title lang="bg">Бързо, лесно, вкусно</title>
+    <icon src="https://bnt.bg/f/news/m/0/35c37c7e736cc9516a29bb8feb335036.jpeg" />
+    <desc>„Бързо, лесно, вкусно!” е ежедневно кулинарно предаване, чиято цел е да представя на зрителите интересни и практични рецепти, приложими в забързаното ежедневие.</desc>
   </programme>
-  <programme start="20230818180000 +0300" stop="20230818190000 +0300" channel="btv.bg">
-    <title>Стани богат</title>
+  <programme start="20230822200000 +0300" stop="20230822204500 +0300" channel="bnt4.bg">
+    <title lang="bg">По света и у нас</title>
+    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
+    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
   </programme>
-  <programme start="20230818190000 +0300" stop="20230818200000 +0300" channel="btv.bg">
-    <title>– bTV Новините – централна емисия</title>
+  <programme start="20230822204500 +0300" stop="20230822210000 +0300" channel="bnt4.bg">
+    <title lang="bg">Спортни новини</title>
+    <icon src="https://p.bnt.bg/s/p/sportni-novini-311001-810x0.png" />
   </programme>
-  <programme start="20230818200000 +0300" stop="20230818210000 +0300" channel="btv.bg">
-    <title>Опасно изкушение</title>
+  <programme start="20230822210000 +0300" stop="20230822214500 +0300" channel="bnt4.bg">
+    <title lang="bg">БГ версия</title>
+    <icon src="https://bnt.bg/f/news/m/0/c02615abd80bee6d79ea51f97ad342ab.png" />
   </programme>
-  <programme start="20230818210000 +0300" stop="20230818220000 +0300" channel="btv.bg">
-    <title>Животът на Жоро</title>
+  <programme start="20230822214500 +0300" stop="20230822220000 +0300" channel="bnt4.bg">
+    <title lang="bg">Европейци - истории за успеха</title>
+    <icon src="https://bnt.bg/box/img/noimage_m.jpg" />
   </programme>
-  <programme start="20230818220000 +0300" stop="20230818223000 +0300" channel="btv.bg">
-    <title>– bTV Новините – късна емисия</title>
+  <programme start="20230822220000 +0300" stop="20230822223000 +0300" channel="bnt4.bg">
+    <title lang="bg">До Европа и напред</title>
+    <icon src="https://bnt.bg/f/news/m/216/51f432fa507626fb0c21e7cb9b092bb6.jpeg" />
+    <desc>Безпристрастно представяне на събитията и фактите от най-новата история на света след Вторатасветовна война</desc>
   </programme>
-  <programme start="20230818223000 +0300" stop="20230818233000 +0300" channel="btv.bg">
-    <title>Белези</title>
+  <programme start="20230822223000 +0300" stop="20230822230000 +0300" channel="bnt4.bg">
+    <title lang="bg">Библиотеката</title>
+    <icon src="https://bnt.bg/f/news/m/0/0bd7728f7ffb3d1573fe5e8fa62e66da.jpeg" />
   </programme>
-  <programme start="20230818233000 +0300" stop="20230819003000 +0300" channel="btv.bg">
-    <title>Изгубеното пиратско кралство</title>
+  <programme start="20230822230000 +0300" stop="20230822232500 +0300" channel="bnt4.bg">
+    <title lang="bg">По света и у нас</title>
+    <icon src="https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png" />
+    <desc>Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.</desc>
+  </programme>
+  <programme start="20230822232500 +0300" stop="20230822233500 +0300" channel="bnt4.bg">
+    <title lang="bg">Малки истории</title>
+    <icon src="https://bnt.bg/f/news/m/0/006b6d46e975c22d38df6d9e92534608.jpeg" />
+    <desc>Социален слот на БНТ1, стартирал в ефира на Националната телевизия на 6 декември 2011 година. Понеделник, вторник, сряда и четвъртък от 12:35 часа се излъчва кратка документална форма с времетраене 10 минути, а в петък едночасовото публицистично социално ток шоу започва в 14:00 часа, където се търсят решенията.</desc>
+  </programme>
+  <programme start="20230822233500 +0300" channel="bnt4.bg">
+    <title lang="bg">БНТ представя</title>
+    <icon src="https://bnt.bg/f/news/m/284/30c0dec0f801a75505fc08ac5343527a.png" />
   </programme>
   <programme start="20230819003000 +0300" stop="20230819013000 +0300" channel="btv.bg">
     <title>Столичани в повече</title>
@@ -2223,77 +2141,83 @@
   <programme start="20230821223000 +0300" stop="20230821233000 +0300" channel="btv.bg">
     <title>Белези</title>
   </programme>
-  <programme start="20230821233000 +0300" channel="btv.bg">
+  <programme start="20230821233000 +0300" stop="20230822003000 +0300" channel="btv.bg">
     <title>Изгубеното пиратско кралство</title>
   </programme>
-  <programme start="20230818004500 +0300" stop="20230818014500 +0300" channel="btvaction.bg">
-    <title>Кобра</title>
+  <programme start="20230822003000 +0300" stop="20230822013000 +0300" channel="btv.bg">
+    <title>Столичани в повече</title>
   </programme>
-  <programme start="20230818014500 +0300" stop="20230818024500 +0300" channel="btvaction.bg">
-    <title>Опасни улици</title>
+  <programme start="20230822013000 +0300" stop="20230822020000 +0300" channel="btv.bg">
+    <title>Наръчник за женени</title>
   </programme>
-  <programme start="20230818024500 +0300" stop="20230818034500 +0300" channel="btvaction.bg">
-    <title>Монк</title>
-    <desc>Главен герой е детективът Ейдриън Монк (Тони Шалуб), който е много добър и уважаван професионалист в работата си, но всичко се променя, след като неговата съпруга Труди загива след експлозия. Монк не може да си прости, защото смята, че бомбата е била предназначена за него. Чувството му за вина и отказът му да комуникира с други хора след инцидента му докарват сериозни проблеми с нервите. В продължение на цели 3 години Монк отказва да напусне дома си, но с помощта на практикуващата медицинска сестра Шарона Флеминг (в ролята Бити Шрам) най-накрая добива смелост. Той започва работа като консултант на полицията в трудните случаи. Поради самоналожената си изолация, Монк бива уволнен от разследващата си позиция и сега вече работи като частен детектив и консултант при по-заплетени случаи. Неговото „самозаточение” обаче не остава без последици – в резултат на проблемите с нервите си, Монк страда от най-различни фобии – от високо, от микроби, от големи тълпи, от тъмнината, от паяци, дори от зъболекари. Почти всеки епизод разкрива на зрителите поредната нова фобия, от която страда Монк, а списъкът изглежда неизчерпаем. Тези фобии и страхове на детектива редовно стават причина за много смях и разнообразяват атмосферата на сериозните и много заплетени случаи, които той разследва. Въпреки странностите си, които нерядко предизвикват гняв у хората, с които работи, никой не поставя под съмнение професионалните качества на Монк. Още от малък той е свикнал да отдава голямо внимание на малките детайли и това е довело до неговата „професнионална деформация” сега – да забелязва и най-незначителните на пръв поглед подробности, които обаче се оказват решаващи за разрешаване и на най-сложните мистерии. Случаите, които Монк поема, са най-разнообразни – от отвличания, през изневери и банкови измами, до крупни кражби, изнудвания и убийства.</desc>
+  <programme start="20230822020000 +0300" stop="20230822024000 +0300" channel="btv.bg">
+    <title>– bTV Новините /п./</title>
   </programme>
-  <programme start="20230818034500 +0300" stop="20230818044500 +0300" channel="btvaction.bg">
-    <title>Връзка с отвъдното</title>
+  <programme start="20230822024000 +0300" stop="20230822043000 +0300" channel="btv.bg">
+    <title>Преди обед</title>
   </programme>
-  <programme start="20230818044500 +0300" stop="20230818051500 +0300" channel="btvaction.bg">
-    <title>Поглед в бъдещето</title>
+  <programme start="20230822043000 +0300" stop="20230822050000 +0300" channel="btv.bg">
+    <title>Наръчник за женени</title>
   </programme>
-  <programme start="20230818051500 +0300" stop="20230818060000 +0300" channel="btvaction.bg">
-    <title>Под станция „Темпъл</title>
+  <programme start="20230822050000 +0300" stop="20230822053000 +0300" channel="btv.bg">
+    <title>Тролстопия</title>
   </programme>
-  <programme start="20230818060000 +0300" stop="20230818070000 +0300" channel="btvaction.bg">
-    <title>Дракони: Защитниците на Бърк</title>
+  <programme start="20230822053000 +0300" stop="20230822060000 +0300" channel="btv.bg">
+    <title>Турбо</title>
   </programme>
-  <programme start="20230818070000 +0300" stop="20230818080000 +0300" channel="btvaction.bg">
-    <title>Дракони: Защитниците на Бърк</title>
+  <programme start="20230822060000 +0300" stop="20230822063000 +0300" channel="btv.bg">
+    <title>Трансформърс: Академия Рескю Ботс</title>
   </programme>
-  <programme start="20230818080000 +0300" stop="20230818090000 +0300" channel="btvaction.bg">
-    <title>Под станция „Темпъл</title>
+  <programme start="20230822063000 +0300" stop="20230822070000 +0300" channel="btv.bg">
+    <title>Домашен арест</title>
   </programme>
-  <programme start="20230818090000 +0300" stop="20230818100000 +0300" channel="btvaction.bg">
-    <title>Връзка с отвъдното</title>
+  <programme start="20230822070000 +0300" stop="20230822093000 +0300" channel="btv.bg">
+    <title>Тази сутрин</title>
   </programme>
-  <programme start="20230818100000 +0300" stop="20230818110000 +0300" channel="btvaction.bg">
-    <title>Монк</title>
-    <desc>Главен герой е детективът Ейдриън Монк (Тони Шалуб), който е много добър и уважаван професионалист в работата си, но всичко се променя, след като неговата съпруга Труди загива след експлозия. Монк не може да си прости, защото смята, че бомбата е била предназначена за него. Чувството му за вина и отказът му да комуникира с други хора след инцидента му докарват сериозни проблеми с нервите. В продължение на цели 3 години Монк отказва да напусне дома си, но с помощта на практикуващата медицинска сестра Шарона Флеминг (в ролята Бити Шрам) най-накрая добива смелост. Той започва работа като консултант на полицията в трудните случаи. Поради самоналожената си изолация, Монк бива уволнен от разследващата си позиция и сега вече работи като частен детектив и консултант при по-заплетени случаи. Неговото „самозаточение” обаче не остава без последици – в резултат на проблемите с нервите си, Монк страда от най-различни фобии – от високо, от микроби, от големи тълпи, от тъмнината, от паяци, дори от зъболекари. Почти всеки епизод разкрива на зрителите поредната нова фобия, от която страда Монк, а списъкът изглежда неизчерпаем. Тези фобии и страхове на детектива редовно стават причина за много смях и разнообразяват атмосферата на сериозните и много заплетени случаи, които той разследва. Въпреки странностите си, които нерядко предизвикват гняв у хората, с които работи, никой не поставя под съмнение професионалните качества на Монк. Още от малък той е свикнал да отдава голямо внимание на малките детайли и това е довело до неговата „професнионална деформация” сега – да забелязва и най-незначителните на пръв поглед подробности, които обаче се оказват решаващи за разрешаване и на най-сложните мистерии. Случаите, които Монк поема, са най-разнообразни – от отвличания, през изневери и банкови измами, до крупни кражби, изнудвания и убийства.</desc>
+  <programme start="20230822093000 +0300" stop="20230822120000 +0300" channel="btv.bg">
+    <title>Преди обед</title>
   </programme>
-  <programme start="20230818110000 +0300" stop="20230818120000 +0300" channel="btvaction.bg">
-    <title>Кобра</title>
+  <programme start="20230822120000 +0300" stop="20230822123000 +0300" channel="btv.bg">
+    <title>– bTV Новините – обедна емисия</title>
   </programme>
-  <programme start="20230818120000 +0300" stop="20230818130000 +0300" channel="btvaction.bg">
-    <title>Опасни улици</title>
+  <programme start="20230822123000 +0300" stop="20230822133000 +0300" channel="btv.bg">
+    <title>Комиците и приятели</title>
   </programme>
-  <programme start="20230818130000 +0300" stop="20230818150000 +0300" channel="btvaction.bg">
-    <title>Тайните на сестринството</title>
+  <programme start="20230822133000 +0300" stop="20230822143000 +0300" channel="btv.bg">
+    <title>Стани богат</title>
   </programme>
-  <programme start="20230818150000 +0300" stop="20230818160000 +0300" channel="btvaction.bg">
-    <title>Под станция „Темпъл</title>
+  <programme start="20230822143000 +0300" stop="20230822153000 +0300" channel="btv.bg">
+    <title>Скъпи наследници</title>
   </programme>
-  <programme start="20230818160000 +0300" stop="20230818170000 +0300" channel="btvaction.bg">
-    <title>Връзка с отвъдното</title>
+  <programme start="20230822153000 +0300" stop="20230822170000 +0300" channel="btv.bg">
+    <title>Почукай на вратата ми</title>
   </programme>
-  <programme start="20230818170000 +0300" stop="20230818180000 +0300" channel="btvaction.bg">
-    <title>Опасни улици</title>
+  <programme start="20230822170000 +0300" stop="20230822173000 +0300" channel="btv.bg">
+    <title>– bTV Новините</title>
   </programme>
-  <programme start="20230818180000 +0300" stop="20230818190000 +0300" channel="btvaction.bg">
-    <title>Кобра</title>
+  <programme start="20230822173000 +0300" stop="20230822180000 +0300" channel="btv.bg">
+    <title>Помощ 112</title>
   </programme>
-  <programme start="20230818190000 +0300" stop="20230818200000 +0300" channel="btvaction.bg">
-    <title>Монк</title>
-    <desc>Главен герой е детективът Ейдриън Монк (Тони Шалуб), който е много добър и уважаван професионалист в работата си, но всичко се променя, след като неговата съпруга Труди загива след експлозия. Монк не може да си прости, защото смята, че бомбата е била предназначена за него. Чувството му за вина и отказът му да комуникира с други хора след инцидента му докарват сериозни проблеми с нервите. В продължение на цели 3 години Монк отказва да напусне дома си, но с помощта на практикуващата медицинска сестра Шарона Флеминг (в ролята Бити Шрам) най-накрая добива смелост. Той започва работа като консултант на полицията в трудните случаи. Поради самоналожената си изолация, Монк бива уволнен от разследващата си позиция и сега вече работи като частен детектив и консултант при по-заплетени случаи. Неговото „самозаточение” обаче не остава без последици – в резултат на проблемите с нервите си, Монк страда от най-различни фобии – от високо, от микроби, от големи тълпи, от тъмнината, от паяци, дори от зъболекари. Почти всеки епизод разкрива на зрителите поредната нова фобия, от която страда Монк, а списъкът изглежда неизчерпаем. Тези фобии и страхове на детектива редовно стават причина за много смях и разнообразяват атмосферата на сериозните и много заплетени случаи, които той разследва. Въпреки странностите си, които нерядко предизвикват гняв у хората, с които работи, никой не поставя под съмнение професионалните качества на Монк. Още от малък той е свикнал да отдава голямо внимание на малките детайли и това е довело до неговата „професнионална деформация” сега – да забелязва и най-незначителните на пръв поглед подробности, които обаче се оказват решаващи за разрешаване и на най-сложните мистерии. Случаите, които Монк поема, са най-разнообразни – от отвличания, през изневери и банкови измами, до крупни кражби, изнудвания и убийства.</desc>
+  <programme start="20230822180000 +0300" stop="20230822190000 +0300" channel="btv.bg">
+    <title>Стани богат</title>
   </programme>
-  <programme start="20230818200000 +0300" stop="20230818210000 +0300" channel="btvaction.bg">
-    <title>Кланът</title>
+  <programme start="20230822190000 +0300" stop="20230822200000 +0300" channel="btv.bg">
+    <title>– bTV Новините – централна емисия</title>
   </programme>
-  <programme start="20230818210000 +0300" stop="20230818220000 +0300" channel="btvaction.bg">
-    <title>Наркос</title>
+  <programme start="20230822200000 +0300" stop="20230822210000 +0300" channel="btv.bg">
+    <title>Опасно изкушение</title>
   </programme>
-  <programme start="20230818220000 +0300" stop="20230819010000 +0300" channel="btvaction.bg">
-    <title>Тъмната страна на Бруклин</title>
+  <programme start="20230822210000 +0300" stop="20230822220000 +0300" channel="btv.bg">
+    <title>Хари Уайлд</title>
+  </programme>
+  <programme start="20230822220000 +0300" stop="20230822223000 +0300" channel="btv.bg">
+    <title>– bTV Новините – късна емисия</title>
+  </programme>
+  <programme start="20230822223000 +0300" stop="20230822233000 +0300" channel="btv.bg">
+    <title>Белези</title>
+  </programme>
+  <programme start="20230822233000 +0300" channel="btv.bg">
+    <title>Столичани в повече</title>
   </programme>
   <programme start="20230819010000 +0300" stop="20230819020000 +0300" channel="btvaction.bg">
     <title>Наркос</title>
@@ -2447,86 +2371,77 @@
   <programme start="20230821210000 +0300" stop="20230821220000 +0300" channel="btvaction.bg">
     <title>Наркос</title>
   </programme>
-  <programme start="20230821220000 +0300" channel="btvaction.bg">
+  <programme start="20230821220000 +0300" stop="20230822001500 +0300" channel="btvaction.bg">
     <title>Море от любов</title>
   </programme>
-  <programme start="20230818000000 +0300" stop="20230818010000 +0300" channel="btvlady.bg">
-    <title>Ослепително слънце</title>
+  <programme start="20230822001500 +0300" stop="20230822011500 +0300" channel="btvaction.bg">
+    <title>Наркос</title>
   </programme>
-  <programme start="20230818010000 +0300" stop="20230818015000 +0300" channel="btvlady.bg">
-    <title>Малко твой</title>
+  <programme start="20230822011500 +0300" stop="20230822021500 +0300" channel="btvaction.bg">
+    <title>Кобра</title>
   </programme>
-  <programme start="20230818015000 +0300" stop="20230818024000 +0300" channel="btvlady.bg">
-    <title>Мрежа от лъжи</title>
+  <programme start="20230822021500 +0300" stop="20230822031500 +0300" channel="btvaction.bg">
+    <title>Опасни улици</title>
   </programme>
-  <programme start="20230818024000 +0300" stop="20230818033000 +0300" channel="btvlady.bg">
-    <title>Безмилостен град</title>
+  <programme start="20230822031500 +0300" stop="20230822041500 +0300" channel="btvaction.bg">
+    <title>Монк</title>
+    <desc>Главен герой е детективът Ейдриън Монк (Тони Шалуб), който е много добър и уважаван професионалист в работата си, но всичко се променя, след като неговата съпруга Труди загива след експлозия. Монк не може да си прости, защото смята, че бомбата е била предназначена за него. Чувството му за вина и отказът му да комуникира с други хора след инцидента му докарват сериозни проблеми с нервите. В продължение на цели 3 години Монк отказва да напусне дома си, но с помощта на практикуващата медицинска сестра Шарона Флеминг (в ролята Бити Шрам) най-накрая добива смелост. Той започва работа като консултант на полицията в трудните случаи. Поради самоналожената си изолация, Монк бива уволнен от разследващата си позиция и сега вече работи като частен детектив и консултант при по-заплетени случаи. Неговото „самозаточение” обаче не остава без последици – в резултат на проблемите с нервите си, Монк страда от най-различни фобии – от високо, от микроби, от големи тълпи, от тъмнината, от паяци, дори от зъболекари. Почти всеки епизод разкрива на зрителите поредната нова фобия, от която страда Монк, а списъкът изглежда неизчерпаем. Тези фобии и страхове на детектива редовно стават причина за много смях и разнообразяват атмосферата на сериозните и много заплетени случаи, които той разследва. Въпреки странностите си, които нерядко предизвикват гняв у хората, с които работи, никой не поставя под съмнение професионалните качества на Монк. Още от малък той е свикнал да отдава голямо внимание на малките детайли и това е довело до неговата „професнионална деформация” сега – да забелязва и най-незначителните на пръв поглед подробности, които обаче се оказват решаващи за разрешаване и на най-сложните мистерии. Случаите, които Монк поема, са най-разнообразни – от отвличания, през изневери и банкови измами, до крупни кражби, изнудвания и убийства.</desc>
   </programme>
-  <programme start="20230818033000 +0300" stop="20230818042000 +0300" channel="btvlady.bg">
-    <title>Лекар в планината</title>
+  <programme start="20230822041500 +0300" stop="20230822051500 +0300" channel="btvaction.bg">
+    <title>– „Супергърл – сериал /п./</title>
   </programme>
-  <programme start="20230818042000 +0300" stop="20230818050000 +0300" channel="btvlady.bg">
-    <title>Ослепително слънце</title>
+  <programme start="20230822051500 +0300" stop="20230822060000 +0300" channel="btvaction.bg">
+    <title>Под станция „Темпъл</title>
   </programme>
-  <programme start="20230818050000 +0300" stop="20230818060000 +0300" channel="btvlady.bg">
-    <title>Успех</title>
+  <programme start="20230822060000 +0300" stop="20230822070000 +0300" channel="btvaction.bg">
+    <title>Дракони: Защитниците на Бърк</title>
   </programme>
-  <programme start="20230818060000 +0300" stop="20230818063000 +0300" channel="btvlady.bg">
-    <title>Кухнята на Звездев</title>
+  <programme start="20230822070000 +0300" stop="20230822080000 +0300" channel="btvaction.bg">
+    <title>Дракони: Защитниците на Бърк</title>
   </programme>
-  <programme start="20230818063000 +0300" stop="20230818070000 +0300" channel="btvlady.bg">
-    <title>Без багаж</title>
+  <programme start="20230822080000 +0300" stop="20230822090000 +0300" channel="btvaction.bg">
+    <title>Под станция „Темпъл</title>
   </programme>
-  <programme start="20230818070000 +0300" stop="20230818073000 +0300" channel="btvlady.bg">
-    <title>Добре дошли във фермата</title>
+  <programme start="20230822090000 +0300" stop="20230822100000 +0300" channel="btvaction.bg">
+    <title>– „Супергърл – сериал /п./</title>
   </programme>
-  <programme start="20230818073000 +0300" stop="20230818090000 +0300" channel="btvlady.bg">
-    <title>Обещание</title>
+  <programme start="20230822100000 +0300" stop="20230822110000 +0300" channel="btvaction.bg">
+    <title>Монк</title>
+    <desc>Главен герой е детективът Ейдриън Монк (Тони Шалуб), който е много добър и уважаван професионалист в работата си, но всичко се променя, след като неговата съпруга Труди загива след експлозия. Монк не може да си прости, защото смята, че бомбата е била предназначена за него. Чувството му за вина и отказът му да комуникира с други хора след инцидента му докарват сериозни проблеми с нервите. В продължение на цели 3 години Монк отказва да напусне дома си, но с помощта на практикуващата медицинска сестра Шарона Флеминг (в ролята Бити Шрам) най-накрая добива смелост. Той започва работа като консултант на полицията в трудните случаи. Поради самоналожената си изолация, Монк бива уволнен от разследващата си позиция и сега вече работи като частен детектив и консултант при по-заплетени случаи. Неговото „самозаточение” обаче не остава без последици – в резултат на проблемите с нервите си, Монк страда от най-различни фобии – от високо, от микроби, от големи тълпи, от тъмнината, от паяци, дори от зъболекари. Почти всеки епизод разкрива на зрителите поредната нова фобия, от която страда Монк, а списъкът изглежда неизчерпаем. Тези фобии и страхове на детектива редовно стават причина за много смях и разнообразяват атмосферата на сериозните и много заплетени случаи, които той разследва. Въпреки странностите си, които нерядко предизвикват гняв у хората, с които работи, никой не поставя под съмнение професионалните качества на Монк. Още от малък той е свикнал да отдава голямо внимание на малките детайли и това е довело до неговата „професнионална деформация” сега – да забелязва и най-незначителните на пръв поглед подробности, които обаче се оказват решаващи за разрешаване и на най-сложните мистерии. Случаите, които Монк поема, са най-разнообразни – от отвличания, през изневери и банкови измами, до крупни кражби, изнудвания и убийства.</desc>
   </programme>
-  <programme start="20230818090000 +0300" stop="20230818100000 +0300" channel="btvlady.bg">
-    <title>Трима братя, три сестри</title>
+  <programme start="20230822110000 +0300" stop="20230822120000 +0300" channel="btvaction.bg">
+    <title>Кобра</title>
   </programme>
-  <programme start="20230818100000 +0300" stop="20230818113000 +0300" channel="btvlady.bg">
-    <title>Полицейската академия</title>
+  <programme start="20230822120000 +0300" stop="20230822130000 +0300" channel="btvaction.bg">
+    <title>Опасни улици</title>
   </programme>
-  <programme start="20230818113000 +0300" stop="20230818123000 +0300" channel="btvlady.bg">
-    <title>Успех</title>
+  <programme start="20230822130000 +0300" stop="20230822150000 +0300" channel="btvaction.bg">
+    <title>Море от любов</title>
   </programme>
-  <programme start="20230818123000 +0300" stop="20230818133000 +0300" channel="btvlady.bg">
-    <title>Малко твой</title>
+  <programme start="20230822150000 +0300" stop="20230822160000 +0300" channel="btvaction.bg">
+    <title>Под станция „Темпъл</title>
   </programme>
-  <programme start="20230818133000 +0300" stop="20230818143000 +0300" channel="btvlady.bg">
-    <title>Лекар в планината</title>
+  <programme start="20230822160000 +0300" stop="20230822170000 +0300" channel="btvaction.bg">
+    <title>– „Супергърл – сериал, с.6, еп.2</title>
   </programme>
-  <programme start="20230818143000 +0300" stop="20230818150000 +0300" channel="btvlady.bg">
-    <title>Добре дошли във фермата</title>
+  <programme start="20230822170000 +0300" stop="20230822180000 +0300" channel="btvaction.bg">
+    <title>Опасни улици</title>
   </programme>
-  <programme start="20230818150000 +0300" stop="20230818153000 +0300" channel="btvlady.bg">
-    <title>Много вкусно</title>
+  <programme start="20230822180000 +0300" stop="20230822190000 +0300" channel="btvaction.bg">
+    <title>Кобра</title>
   </programme>
-  <programme start="20230818153000 +0300" stop="20230818163000 +0300" channel="btvlady.bg">
-    <title>Ослепително слънце</title>
+  <programme start="20230822190000 +0300" stop="20230822200000 +0300" channel="btvaction.bg">
+    <title>Монк</title>
+    <desc>Главен герой е детективът Ейдриън Монк (Тони Шалуб), който е много добър и уважаван професионалист в работата си, но всичко се променя, след като неговата съпруга Труди загива след експлозия. Монк не може да си прости, защото смята, че бомбата е била предназначена за него. Чувството му за вина и отказът му да комуникира с други хора след инцидента му докарват сериозни проблеми с нервите. В продължение на цели 3 години Монк отказва да напусне дома си, но с помощта на практикуващата медицинска сестра Шарона Флеминг (в ролята Бити Шрам) най-накрая добива смелост. Той започва работа като консултант на полицията в трудните случаи. Поради самоналожената си изолация, Монк бива уволнен от разследващата си позиция и сега вече работи като частен детектив и консултант при по-заплетени случаи. Неговото „самозаточение” обаче не остава без последици – в резултат на проблемите с нервите си, Монк страда от най-различни фобии – от високо, от микроби, от големи тълпи, от тъмнината, от паяци, дори от зъболекари. Почти всеки епизод разкрива на зрителите поредната нова фобия, от която страда Монк, а списъкът изглежда неизчерпаем. Тези фобии и страхове на детектива редовно стават причина за много смях и разнообразяват атмосферата на сериозните и много заплетени случаи, които той разследва. Въпреки странностите си, които нерядко предизвикват гняв у хората, с които работи, никой не поставя под съмнение професионалните качества на Монк. Още от малък той е свикнал да отдава голямо внимание на малките детайли и това е довело до неговата „професнионална деформация” сега – да забелязва и най-незначителните на пръв поглед подробности, които обаче се оказват решаващи за разрешаване и на най-сложните мистерии. Случаите, които Монк поема, са най-разнообразни – от отвличания, през изневери и банкови измами, до крупни кражби, изнудвания и убийства.</desc>
   </programme>
-  <programme start="20230818163000 +0300" stop="20230818173000 +0300" channel="btvlady.bg">
-    <title>Лекар в планината</title>
+  <programme start="20230822200000 +0300" stop="20230822210000 +0300" channel="btvaction.bg">
+    <title>Кланът</title>
   </programme>
-  <programme start="20230818173000 +0300" stop="20230818183000 +0300" channel="btvlady.bg">
-    <title>Успех</title>
+  <programme start="20230822210000 +0300" stop="20230822220000 +0300" channel="btvaction.bg">
+    <title>Наркос</title>
   </programme>
-  <programme start="20230818183000 +0300" stop="20230818193000 +0300" channel="btvlady.bg">
-    <title>Малко твой</title>
-  </programme>
-  <programme start="20230818193000 +0300" stop="20230818210000 +0300" channel="btvlady.bg">
-    <title>Полицейската академия</title>
-  </programme>
-  <programme start="20230818210000 +0300" stop="20230818220000 +0300" channel="btvlady.bg">
-    <title>Мрежа от лъжи</title>
-  </programme>
-  <programme start="20230818220000 +0300" stop="20230818230000 +0300" channel="btvlady.bg">
-    <title>Трима братя, три сестри</title>
-  </programme>
-  <programme start="20230818230000 +0300" stop="20230819000000 +0300" channel="btvlady.bg">
-    <title>Безмилостен град</title>
+  <programme start="20230822220000 +0300" channel="btvaction.bg">
+    <title>Специалистът</title>
   </programme>
   <programme start="20230819000000 +0300" stop="20230819010000 +0300" channel="btvlady.bg">
     <title>Ослепително слънце</title>
@@ -2693,86 +2608,86 @@
   <programme start="20230821220000 +0300" stop="20230821230000 +0300" channel="btvlady.bg">
     <title>Трима братя, три сестри</title>
   </programme>
-  <programme start="20230821230000 +0300" channel="btvlady.bg">
+  <programme start="20230821230000 +0300" stop="20230822000000 +0300" channel="btvlady.bg">
     <title>Безмилостен град</title>
   </programme>
-  <programme start="20230818060000 +0300" stop="20230818070000 +0300" channel="nova.bg">
-    <title>Хъдсън и Рекс – сериал, сезон 3 /п/</title>
-    <desc>Детектив Чарли Хъдсън от отдел "Тежки престъпления" на полицията в Сейнт Джонс си партнира с необичаен партньор - Рекс, немска овчарка, чиито изострени сетива отвеждат Чарли по следите на заподозрените. Тази динамична двойка, която се бори с престъпността, е неудържима.</desc>
+  <programme start="20230822000000 +0300" stop="20230822010000 +0300" channel="btvlady.bg">
+    <title>Ослепително слънце</title>
   </programme>
-  <programme start="20230818070000 +0300" stop="20230818093000 +0300" channel="nova.bg">
-    <title>Здравей, България – сутрешен блок</title>
-    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1580218604.jpg" />
-    <desc>Сутрешен блок на NOVA с най-актуалните теми, гости, коментари и истории за случващото се по света и у нас.</desc>
+  <programme start="20230822010000 +0300" stop="20230822015000 +0300" channel="btvlady.bg">
+    <title>Малко твой</title>
   </programme>
-  <programme start="20230818093000 +0300" stop="20230818113000 +0300" channel="nova.bg">
-    <title>Розамунде Пилхер: От любов към чая – семеен филм</title>
-    <desc>Животът изправя Ела Морган пред сериозно изпитание – тя губи годеника си при инцидент, докато бъдещето на семейната чаена плантация става все по-несигурно.</desc>
+  <programme start="20230822015000 +0300" stop="20230822024000 +0300" channel="btvlady.bg">
+    <title>Мрежа от лъжи</title>
   </programme>
-  <programme start="20230818113000 +0300" stop="20230818120000 +0300" channel="nova.bg">
-    <title>Бон Апети – кулинарно предаване</title>
-    <desc>Чаровният кулинарен тандем Лора и Стоян предлагат на зрителите и ценителите-кулинари пътешествие в света на готвенето с щипка експеримент, креативност и добро настроение.</desc>
+  <programme start="20230822024000 +0300" stop="20230822033000 +0300" channel="btvlady.bg">
+    <title>Безмилостен град</title>
   </programme>
-  <programme start="20230818120000 +0300" stop="20230818123000 +0300" channel="nova.bg">
-    <title>Новините на NOVA</title>
-    <desc>Обедна информационна емисия на NOVA</desc>
+  <programme start="20230822033000 +0300" stop="20230822042000 +0300" channel="btvlady.bg">
+    <title>Лекар в планината</title>
   </programme>
-  <programme start="20230818123000 +0300" stop="20230818133000 +0300" channel="nova.bg">
-    <title>Наследство (премиера) – сериен филм</title>
-    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1678447814.jpg" />
-    <desc>Пленяваща история за младата и красива Шехер и могъщия бизнесмен Яман, които се влюбват един в друг, докато се грижат за своя 5-годишен племенник.</desc>
+  <programme start="20230822042000 +0300" stop="20230822050000 +0300" channel="btvlady.bg">
+    <title>Ослепително слънце</title>
   </programme>
-  <programme start="20230818133000 +0300" stop="20230818150000 +0300" channel="nova.bg">
-    <title>Остани с мен: Безкрай (премиера) – сериал</title>
-    <desc>Гопика започва нов живот като по-голямата снаха на семейство Моди. Историята проследява съдбоносните перипетии, през които трябва да премине, за да докаже, че е достойна.</desc>
+  <programme start="20230822050000 +0300" stop="20230822060000 +0300" channel="btvlady.bg">
+    <title>Успех</title>
   </programme>
-  <programme start="20230818150000 +0300" stop="20230818160000 +0300" channel="nova.bg">
-    <title>Не ме оставяй (премиера) – сериен филм</title>
-    <desc>Животът на едно от най-заможните семейства в Анкара се преобръща, след като големият син се влюбва лудо в обикновена студентка.</desc>
+  <programme start="20230822060000 +0300" stop="20230822063000 +0300" channel="btvlady.bg">
+    <title>Кухнята на Звездев</title>
   </programme>
-  <programme start="20230818160000 +0300" stop="20230818163000 +0300" channel="nova.bg">
-    <title>Новините на NOVA</title>
-    <desc>Следобедна информационна емисия на NOVA</desc>
+  <programme start="20230822063000 +0300" stop="20230822070000 +0300" channel="btvlady.bg">
+    <title>Без багаж</title>
   </programme>
-  <programme start="20230818163000 +0300" stop="20230818170000 +0300" channel="nova.bg">
-    <title>Да хванеш гората – документална поредица на Галя Щърбева</title>
-    <desc>Авторският формат разказва всяка седмица вдъхновяващи истории за решението да се загърби напрегнатият градски живот и да се намери нов път към щастието.</desc>
+  <programme start="20230822070000 +0300" stop="20230822073000 +0300" channel="btvlady.bg">
+    <title>Добре дошли във фермата</title>
   </programme>
-  <programme start="20230818170000 +0300" stop="20230818180000 +0300" channel="nova.bg">
-    <title>Семейни войни – телевизионна игра</title>
-    <desc>Във всеки епизод с много чувство за хумор се състезават две семейства, опитвайки се да отгатнат най-популярните отговори на въпроси, които са били зададени предварително на минимум 100 човека.</desc>
+  <programme start="20230822073000 +0300" stop="20230822090000 +0300" channel="btvlady.bg">
+    <title>Обещание</title>
   </programme>
-  <programme start="20230818180000 +0300" stop="20230818190000 +0300" channel="nova.bg">
-    <title>Голямото преследване – телевизионна игра</title>
-    <desc>Емблематичният водещ Ники Кънчев предизвиква най-големите умове в България в брилянтно замислената телевизионна игра „Голямото преследване“, в която петима „преследвачи“ ще опитват да спрат участниците по пътя към победата.</desc>
+  <programme start="20230822090000 +0300" stop="20230822100000 +0300" channel="btvlady.bg">
+    <title>Трима братя, три сестри</title>
   </programme>
-  <programme start="20230818190000 +0300" stop="20230818200000 +0300" channel="nova.bg">
-    <title>Новините на NOVA – централна емисия</title>
-    <desc>Централна информационна емисия на NOVA</desc>
+  <programme start="20230822100000 +0300" stop="20230822113000 +0300" channel="btvlady.bg">
+    <title>Полицейската академия</title>
   </programme>
-  <programme start="20230818200000 +0300" stop="20230818210000 +0300" channel="nova.bg">
-    <title>Черешката на тортата – риалити</title>
-    <icon src="https://nstatic.nova.bg/public/pics/anysize/1496842671.jpg" />
-    <desc>Добро настроение, ароматни кулинарни шедьоври, приготвени по оригинален начин и поднесени атрактивно от любими звездни имена, очакват зрителите в „Черешката на тортата“.</desc>
+  <programme start="20230822113000 +0300" stop="20230822123000 +0300" channel="btvlady.bg">
+    <title>Успех</title>
   </programme>
-  <programme start="20230818210000 +0300" stop="20230818220000 +0300" channel="nova.bg">
-    <title>Новобранецът (премиера) – сериал, сезон 2</title>
-    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1688124736.jpg" />
-    <desc>Шест месеца след началото на своя нов вълнуващ живот най-възрастният новобранец Джон Нолан (Нейтън Филиън) ще бъде подложен на изпитание от множество нови предизвикателства, романтични връзки и смъртоносни престъпници.</desc>
+  <programme start="20230822123000 +0300" stop="20230822133000 +0300" channel="btvlady.bg">
+    <title>Малко твой</title>
   </programme>
-  <programme start="20230818220000 +0300" stop="20230818223000 +0300" channel="nova.bg">
-    <title>Новините на NOVA</title>
-    <desc>Късна информационна емисия на NOVA</desc>
+  <programme start="20230822133000 +0300" stop="20230822143000 +0300" channel="btvlady.bg">
+    <title>Лекар в планината</title>
   </programme>
-  <programme start="20230818223000 +0300" stop="20230818233000 +0300" channel="nova.bg">
-    <title>Хъдсън и Рекс – сериал, сезон 3</title>
-    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1690899022.jpg" />
-    <desc>Детектив Чарли Хъдсън от отдел "Тежки престъпления" на полицията в Сейнт Джонс си партнира с необичаен партньор - Рекс, немска овчарка, чиито изострени сетива отвеждат Чарли по следите на заподозрените. Тази динамична двойка, която се бори с престъпността, е неудържима.</desc>
+  <programme start="20230822143000 +0300" stop="20230822150000 +0300" channel="btvlady.bg">
+    <title>Добре дошли във фермата</title>
   </programme>
-  <programme start="20230818233000 +0300" stop="20230819060000 +0300" channel="nova.bg">
-    <title>Твърде лично – сериал, сезон 1</title>
-    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1690798834.jpg" />
-    <desc>Сериалът среща зрителите с младия Брайън Милс. Той е бивша зелена барета, която става част от специализиран отряд агенти на ЦРУ. Наред със заплетените случаи, които ще трябва да разреши, героят ще търси отмъщение за своя лична трагедия от миналото.</desc>
+  <programme start="20230822150000 +0300" stop="20230822153000 +0300" channel="btvlady.bg">
+    <title>Много вкусно</title>
+  </programme>
+  <programme start="20230822153000 +0300" stop="20230822163000 +0300" channel="btvlady.bg">
+    <title>Ослепително слънце</title>
+  </programme>
+  <programme start="20230822163000 +0300" stop="20230822173000 +0300" channel="btvlady.bg">
+    <title>Лекар в планината</title>
+  </programme>
+  <programme start="20230822173000 +0300" stop="20230822183000 +0300" channel="btvlady.bg">
+    <title>Успех</title>
+  </programme>
+  <programme start="20230822183000 +0300" stop="20230822193000 +0300" channel="btvlady.bg">
+    <title>Малко твой</title>
+  </programme>
+  <programme start="20230822193000 +0300" stop="20230822210000 +0300" channel="btvlady.bg">
+    <title>Полицейската академия</title>
+  </programme>
+  <programme start="20230822210000 +0300" stop="20230822220000 +0300" channel="btvlady.bg">
+    <title>Мрежа от лъжи</title>
+  </programme>
+  <programme start="20230822220000 +0300" stop="20230822230000 +0300" channel="btvlady.bg">
+    <title>Трима братя, три сестри</title>
+  </programme>
+  <programme start="20230822230000 +0300" channel="btvlady.bg">
+    <title>Безмилостен град</title>
   </programme>
   <programme start="20230819060000 +0300" stop="20230819065000 +0300" channel="nova.bg">
     <title>Не ме оставяй – сериен филм /п/</title>
@@ -2981,99 +2896,87 @@
     <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1690899022.jpg" />
     <desc>Детектив Чарли Хъдсън от отдел "Тежки престъпления" на полицията в Сейнт Джонс си партнира с необичаен партньор - Рекс, немска овчарка, чиито изострени сетива отвеждат Чарли по следите на заподозрените. Тази динамична двойка, която се бори с престъпността, е неудържима.</desc>
   </programme>
-  <programme start="20230821233000 +0300" channel="nova.bg">
+  <programme start="20230821233000 +0300" stop="20230822060000 +0300" channel="nova.bg">
     <title>Твърде лично – сериал, сезон 2</title>
     <desc>Сериалът среща зрителите с младия Брайън Милс. Той е бивша зелена барета, която става част от специализиран отряд агенти на ЦРУ. Наред със заплетените случаи, които ще трябва да разреши, героят ще търси отмъщение за своя лична трагедия от миналото.</desc>
   </programme>
-  <programme start="20230818053000 +0300" stop="20230818060000 +0300" channel="bgonair.bg">
-    <title>Авиошоу /п./</title>
+  <programme start="20230822060000 +0300" stop="20230822070000 +0300" channel="nova.bg">
+    <title>Хъдсън и Рекс – сериал, сезон 3 /п/</title>
+    <desc>Детектив Чарли Хъдсън от отдел "Тежки престъпления" на полицията в Сейнт Джонс си партнира с необичаен партньор - Рекс, немска овчарка, чиито изострени сетива отвеждат Чарли по следите на заподозрените. Тази динамична двойка, която се бори с престъпността, е неудържима.</desc>
   </programme>
-  <programme start="20230818060000 +0300" stop="20230818063000 +0300" channel="bgonair.bg">
-    <title>Операция История: Тяхната история - предаване с Росен Петров /п./</title>
+  <programme start="20230822070000 +0300" stop="20230822093000 +0300" channel="nova.bg">
+    <title>Здравей, България – сутрешен блок</title>
+    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1580218604.jpg" />
+    <desc>Сутрешен блок на NOVA с най-актуалните теми, гости, коментари и истории за случващото се по света и у нас.</desc>
   </programme>
-  <programme start="20230818063000 +0300" stop="20230818070000 +0300" channel="bgonair.bg">
-    <title>Йога - Сутрешна практика по йога</title>
+  <programme start="20230822093000 +0300" stop="20230822113000 +0300" channel="nova.bg">
+    <title>Розамунде Пилхер: Омагьосани – семеен филм</title>
+    <desc>Себастиан е този, на когото Грейс наистина може да разчита, когато брат му Робърт силно я разочарова. Заедно те ще се опитат да разкрият дълбоко пазена тайна, да сложат в ред живота на бащата на Грейс, а по този начин и своя собствен.</desc>
   </programme>
-  <programme start="20230818070000 +0300" stop="20230818090000 +0300" channel="bgonair.bg">
-    <title>България сутрин - важните неща рано сутрин с Мария Константинова и Виктор Дремсизов</title>
+  <programme start="20230822113000 +0300" stop="20230822120000 +0300" channel="nova.bg">
+    <title>Бон Апети – кулинарно предаване</title>
+    <desc>Чаровният кулинарен тандем Лора и Стоян предлагат на зрителите и ценителите-кулинари пътешествие в света на готвенето с щипка експеримент, креативност и добро настроение.</desc>
   </programme>
-  <programme start="20230818090000 +0300" stop="20230818093000 +0300" channel="bgonair.bg">
-    <title>Пътешествия във времето с Тони Робинсън - док. филм</title>
+  <programme start="20230822120000 +0300" stop="20230822123000 +0300" channel="nova.bg">
+    <title>Новините на NOVA</title>
+    <desc>Обедна информационна емисия на NOVA</desc>
   </programme>
-  <programme start="20230818093000 +0300" stop="20230818094500 +0300" channel="bgonair.bg">
-    <title>Телепазарен прозорец</title>
+  <programme start="20230822123000 +0300" stop="20230822133000 +0300" channel="nova.bg">
+    <title>Наследство (премиера) – сериен филм</title>
+    <desc>Пленяваща история за младата и красива Шехер и могъщия бизнесмен Яман, които се влюбват един в друг, докато се грижат за своя 5-годишен племенник.</desc>
   </programme>
-  <programme start="20230818094500 +0300" stop="20230818101500 +0300" channel="bgonair.bg">
-    <title>Директно - актуално ток шоу с Димитър Абрашев /п./</title>
+  <programme start="20230822133000 +0300" stop="20230822150000 +0300" channel="nova.bg">
+    <title>Остани с мен: Безкрай (премиера) – сериал</title>
+    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1689241506.jpg" />
+    <desc>Гопика започва нов живот като по-голямата снаха на семейство Моди. Историята проследява съдбоносните перипетии, през които трябва да премине, за да докаже, че е достойна.</desc>
   </programme>
-  <programme start="20230818101500 +0300" stop="20230818103000 +0300" channel="bgonair.bg">
-    <title>Телепазарен прозорец</title>
+  <programme start="20230822150000 +0300" stop="20230822160000 +0300" channel="nova.bg">
+    <title>Не ме оставяй (премиера) – сериен филм</title>
+    <desc>Животът на едно от най-заможните семейства в Анкара се преобръща, след като големият син се влюбва лудо в обикновена студентка.</desc>
   </programme>
-  <programme start="20230818103000 +0300" stop="20230818113000 +0300" channel="bgonair.bg">
-    <title>Историите ON AIR с Миглена Георгиева /п./</title>
+  <programme start="20230822160000 +0300" stop="20230822163000 +0300" channel="nova.bg">
+    <title>Новините на NOVA</title>
+    <desc>Следобедна информационна емисия на NOVA</desc>
   </programme>
-  <programme start="20230818113000 +0300" stop="20230818114500 +0300" channel="bgonair.bg">
-    <title>Телепазарен прозорец</title>
+  <programme start="20230822163000 +0300" stop="20230822170000 +0300" channel="nova.bg">
+    <title>Да хванеш гората – документална поредица на Галя Щърбева</title>
+    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1631283713.jpg" />
+    <desc>Авторският формат разказва всяка седмица вдъхновяващи истории за решението да се загърби напрегнатият градски живот и да се намери нов път към щастието.</desc>
   </programme>
-  <programme start="20230818114500 +0300" stop="20230818121500 +0300" channel="bgonair.bg">
-    <title>Дивият свят на Тим Фолкнър - док.филм</title>
+  <programme start="20230822170000 +0300" stop="20230822180000 +0300" channel="nova.bg">
+    <title>Семейни войни – телевизионна игра</title>
+    <desc>Във всеки епизод с много чувство за хумор се състезават две семейства, опитвайки се да отгатнат най-популярните отговори на въпроси, които са били зададени предварително на минимум 100 човека.</desc>
   </programme>
-  <programme start="20230818121500 +0300" stop="20230818123000 +0300" channel="bgonair.bg">
-    <title>Телепазарен прозорец</title>
+  <programme start="20230822180000 +0300" stop="20230822190000 +0300" channel="nova.bg">
+    <title>Голямото преследване – телевизионна игра</title>
+    <desc>Емблематичният водещ Ники Кънчев предизвиква най-големите умове в България в брилянтно замислената телевизионна игра „Голямото преследване“, в която петима „преследвачи“ ще опитват да спрат участниците по пътя към победата.</desc>
   </programme>
-  <programme start="20230818123000 +0300" stop="20230818133000 +0300" channel="bgonair.bg">
-    <title>Порочно правосъдие - криминален сериал /п./</title>
+  <programme start="20230822190000 +0300" stop="20230822200000 +0300" channel="nova.bg">
+    <title>Новините на NOVA – централна емисия</title>
+    <desc>Централна информационна емисия на NOVA</desc>
   </programme>
-  <programme start="20230818133000 +0300" stop="20230818140000 +0300" channel="bgonair.bg">
-    <title>Новините ON AIR</title>
+  <programme start="20230822200000 +0300" stop="20230822210000 +0300" channel="nova.bg">
+    <title>Черешката на тортата – риалити</title>
+    <icon src="https://nstatic.nova.bg/public/pics/anysize/1496842671.jpg" />
+    <desc>Добро настроение, ароматни кулинарни шедьоври, приготвени по оригинален начин и поднесени атрактивно от любими звездни имена, очакват зрителите в „Черешката на тортата“.</desc>
   </programme>
-  <programme start="20230818140000 +0300" stop="20230818141500 +0300" channel="bgonair.bg">
-    <title>Телепазарен прозорец</title>
+  <programme start="20230822210000 +0300" stop="20230822220000 +0300" channel="nova.bg">
+    <title>Престъпен рай (премиера) – сериал, сезон 2</title>
+    <icon src="https://nstatic.nova.bg/public/pics/nova/production/img16x9_1688129164.jpg" />
+    <desc>Ексклузивно за българските зрители NOVA ще излъчи втори сезон непосредствено след премиерата му в САЩ. Епизодите на пожъналата успех поредица ще разкрият новите екшън приключения на бившия агент Алекс Уокър, който се впуска в разкриването на загадъчни случаи във Филипините.</desc>
   </programme>
-  <programme start="20230818141500 +0300" stop="20230818144500 +0300" channel="bgonair.bg">
-    <title>Златните /п./</title>
+  <programme start="20230822220000 +0300" stop="20230822223000 +0300" channel="nova.bg">
+    <title>Новините на NOVA</title>
+    <icon src="https://nstatic.nova.bg/public/pics/novatv/production/img16x9_1501773976.jpg" />
+    <desc>Късна информационна емисия на NOVA</desc>
   </programme>
-  <programme start="20230818144500 +0300" stop="20230818151500 +0300" channel="bgonair.bg">
-    <title>Авиошоу /п./</title>
+  <programme start="20230822223000 +0300" stop="20230822233000 +0300" channel="nova.bg">
+    <title>Хъдсън и Рекс – сериал, сезон 3</title>
+    <desc>Детектив Чарли Хъдсън от отдел "Тежки престъпления" на полицията в Сейнт Джонс си партнира с необичаен партньор - Рекс, немска овчарка, чиито изострени сетива отвеждат Чарли по следите на заподозрените. Тази динамична двойка, която се бори с престъпността, е неудържима.</desc>
   </programme>
-  <programme start="20230818151500 +0300" stop="20230818153000 +0300" channel="bgonair.bg">
-    <title>Телепазарен прозорец</title>
-  </programme>
-  <programme start="20230818153000 +0300" stop="20230818154500 +0300" channel="bgonair.bg">
-    <title>Новините ON AIR</title>
-  </programme>
-  <programme start="20230818154500 +0300" stop="20230818160000 +0300" channel="bgonair.bg">
-    <title>Телепазарен прозорец</title>
-  </programme>
-  <programme start="20230818160000 +0300" stop="20230818162500 +0300" channel="bgonair.bg">
-    <title>Check In - док. филм</title>
-  </programme>
-  <programme start="20230818162500 +0300" stop="20230818165000 +0300" channel="bgonair.bg">
-    <title>Пътешественикът с Джош Гарсия - док.филм</title>
-  </programme>
-  <programme start="20230818165000 +0300" stop="20230818175000 +0300" channel="bgonair.bg">
-    <title>Операция История - предаване с Росен Петров /п./</title>
-  </programme>
-  <programme start="20230818175000 +0300" stop="20230818183000 +0300" channel="bgonair.bg">
-    <title>Директно - актуално ток шоу с Димитър Абрашев</title>
-  </programme>
-  <programme start="20230818183000 +0300" stop="20230818193000 +0300" channel="bgonair.bg">
-    <title>Новините ON AIR</title>
-  </programme>
-  <programme start="20230818193000 +0300" stop="20230818203000 +0300" channel="bgonair.bg">
-    <title>Денят ON AIR - новините с коментар с Ганиела Ангелова</title>
-  </programme>
-  <programme start="20230818203000 +0300" stop="20230818213000 +0300" channel="bgonair.bg">
-    <title>Порочно правосъдие - криминален сериал</title>
-  </programme>
-  <programme start="20230818213000 +0300" stop="20230818221500 +0300" channel="bgonair.bg">
-    <title>Новините ON AIR</title>
-  </programme>
-  <programme start="20230818221500 +0300" stop="20230818231500 +0300" channel="bgonair.bg">
-    <title>Money.bg - икономиката, която ни засяга с Георги Минев /п./</title>
-  </programme>
-  <programme start="20230818231500 +0300" stop="20230819053000 +0300" channel="bgonair.bg">
-    <title>Тялом и духом - криминален сериал</title>
+  <programme start="20230822233000 +0300" channel="nova.bg">
+    <title>Твърде лично – сериал, сезон 2</title>
+    <desc>Сериалът среща зрителите с младия Брайън Милс. Той е бивша зелена барета, която става част от специализиран отряд агенти на ЦРУ. Наред със заплетените случаи, които ще трябва да разреши, героят ще търси отмъщение за своя лична трагедия от миналото.</desc>
   </programme>
   <programme start="20230819053000 +0300" stop="20230819060000 +0300" channel="bgonair.bg">
     <title>Директно - актуално ток шоу с Димитър Абрашев /п./</title>
@@ -3330,50 +3233,95 @@
   <programme start="20230821221500 +0300" stop="20230821231500 +0300" channel="bgonair.bg">
     <title>Опорни хора - изповедите на значимите за обществото пред Ганиела Ангелова /п./</title>
   </programme>
-  <programme start="20230821231500 +0300" channel="bgonair.bg">
+  <programme start="20230821231500 +0300" stop="20230822053000 +0300" channel="bgonair.bg">
     <title>Тялом и духом - криминален сериал</title>
   </programme>
-  <programme start="20230818063000 +0300" stop="20230818100000 +0300" channel="evrokom.bg">
-    <title>Делници - с Николай Колев</title>
+  <programme start="20230822053000 +0300" stop="20230822060000 +0300" channel="bgonair.bg">
+    <title>Колела /п./</title>
   </programme>
-  <programme start="20230818100000 +0300" stop="20230818110000 +0300" channel="evrokom.bg">
-    <title>Училище за родители - със Стойка Стефанова и Божана Дудева</title>
+  <programme start="20230822060000 +0300" stop="20230822063000 +0300" channel="bgonair.bg">
+    <title>Историите ON AIR с Миглена Георгиева /п./</title>
   </programme>
-  <programme start="20230818110000 +0300" stop="20230818113000 +0300" channel="evrokom.bg">
-    <title>EuroTV Shop</title>
+  <programme start="20230822063000 +0300" stop="20230822070000 +0300" channel="bgonair.bg">
+    <title>Йога - Сутрешна практика по йога</title>
   </programme>
-  <programme start="20230818113000 +0300" stop="20230818123000 +0300" channel="evrokom.bg">
-    <title>Светът и всичко в него - със Симеон Идакиев</title>
+  <programme start="20230822070000 +0300" stop="20230822090000 +0300" channel="bgonair.bg">
+    <title>България сутрин - важните неща рано сутрин с Мария Константинова и Виктор Дремсизов</title>
   </programme>
-  <programme start="20230818123000 +0300" stop="20230818130000 +0300" channel="evrokom.bg">
-    <title>EuroTV Shop</title>
+  <programme start="20230822090000 +0300" stop="20230822093000 +0300" channel="bgonair.bg">
+    <title>Пътешествия във времето с Тони Робинсън - док. филм</title>
   </programme>
-  <programme start="20230818130000 +0300" stop="20230818133000 +0300" channel="evrokom.bg">
-    <title>България, която съградихме - документален филм</title>
+  <programme start="20230822093000 +0300" stop="20230822094500 +0300" channel="bgonair.bg">
+    <title>Телепазарен прозорец</title>
   </programme>
-  <programme start="20230818133000 +0300" stop="20230818143000 +0300" channel="evrokom.bg">
-    <title>Политика и спорт - с Иван Търпоманов</title>
+  <programme start="20230822094500 +0300" stop="20230822103000 +0300" channel="bgonair.bg">
+    <title>Директно - актуално ток шоу с Димитър Абрашев /п./</title>
   </programme>
-  <programme start="20230818143000 +0300" stop="20230818153000 +0300" channel="evrokom.bg">
-    <title>Часът на избора - с Боряна Райчева</title>
+  <programme start="20230822103000 +0300" stop="20230822113000 +0300" channel="bgonair.bg">
+    <title>Брюксел 1 - предаване за българските теми в европейския дневен ред с Милена Милотинова/п./</title>
   </programme>
-  <programme start="20230818153000 +0300" stop="20230818160000 +0300" channel="evrokom.bg">
-    <title>EuroTV Shop</title>
+  <programme start="20230822113000 +0300" stop="20230822114500 +0300" channel="bgonair.bg">
+    <title>Телепазарен прозорец</title>
   </programme>
-  <programme start="20230818160000 +0300" stop="20230818193000 +0300" channel="evrokom.bg">
-    <title>Делници - с Николай Колев</title>
+  <programme start="20230822114500 +0300" stop="20230822121500 +0300" channel="bgonair.bg">
+    <title>Дивият свят на Тим Фолкнър - док.филм</title>
   </programme>
-  <programme start="20230818193000 +0300" stop="20230818200000 +0300" channel="evrokom.bg">
-    <title>Новини</title>
+  <programme start="20230822121500 +0300" stop="20230822123000 +0300" channel="bgonair.bg">
+    <title>Телепазарен прозорец</title>
   </programme>
-  <programme start="20230818200000 +0300" stop="20230818230000 +0300" channel="evrokom.bg">
-    <title>ЕвроДикоФ - със Сашо Диков</title>
+  <programme start="20230822123000 +0300" stop="20230822133000 +0300" channel="bgonair.bg">
+    <title>Порочно правосъдие - криминален сериал /п./</title>
   </programme>
-  <programme start="20230818230000 +0300" stop="20230818233000 +0300" channel="evrokom.bg">
-    <title>Новини</title>
+  <programme start="20230822133000 +0300" stop="20230822140000 +0300" channel="bgonair.bg">
+    <title>Новините ON AIR</title>
   </programme>
-  <programme start="20230818233000 +0300" stop="20230819073000 +0300" channel="evrokom.bg">
-    <title>Интересно със Славчо Тошев - със Славчо Тошев</title>
+  <programme start="20230822140000 +0300" stop="20230822141500 +0300" channel="bgonair.bg">
+    <title>Телепазарен прозорец</title>
+  </programme>
+  <programme start="20230822141500 +0300" stop="20230822144500 +0300" channel="bgonair.bg">
+    <title>Операция История: Тяхната история - предаване с Росен Петров /п./</title>
+  </programme>
+  <programme start="20230822144500 +0300" stop="20230822151500 +0300" channel="bgonair.bg">
+    <title>Историите ON AIR с Миглена Георгиева /п./</title>
+  </programme>
+  <programme start="20230822151500 +0300" stop="20230822153000 +0300" channel="bgonair.bg">
+    <title>Телепазарен прозорец</title>
+  </programme>
+  <programme start="20230822153000 +0300" stop="20230822154500 +0300" channel="bgonair.bg">
+    <title>Новините ON AIR</title>
+  </programme>
+  <programme start="20230822154500 +0300" stop="20230822160000 +0300" channel="bgonair.bg">
+    <title>Телепазарен прозорец</title>
+  </programme>
+  <programme start="20230822160000 +0300" stop="20230822162500 +0300" channel="bgonair.bg">
+    <title>Check In - док. филм</title>
+  </programme>
+  <programme start="20230822162500 +0300" stop="20230822165000 +0300" channel="bgonair.bg">
+    <title>Пътешественикът с Джош Гарсия - док.филм</title>
+  </programme>
+  <programme start="20230822165000 +0300" stop="20230822175000 +0300" channel="bgonair.bg">
+    <title>Money.bg- икономиката, която ни засяга с Георги Минев /п./</title>
+  </programme>
+  <programme start="20230822175000 +0300" stop="20230822183000 +0300" channel="bgonair.bg">
+    <title>Директно - актуално ток шоу с Димитър Абрашев</title>
+  </programme>
+  <programme start="20230822183000 +0300" stop="20230822193000 +0300" channel="bgonair.bg">
+    <title>Новините ON AIR</title>
+  </programme>
+  <programme start="20230822193000 +0300" stop="20230822203000 +0300" channel="bgonair.bg">
+    <title>Денят ON AIR - новините с коментар с Ганиела Ангелова</title>
+  </programme>
+  <programme start="20230822203000 +0300" stop="20230822213000 +0300" channel="bgonair.bg">
+    <title>Порочно правосъдие - криминален сериал</title>
+  </programme>
+  <programme start="20230822213000 +0300" stop="20230822221500 +0300" channel="bgonair.bg">
+    <title>Новините ON AIR</title>
+  </programme>
+  <programme start="20230822221500 +0300" stop="20230822231500 +0300" channel="bgonair.bg">
+    <title>Операция История - предаване с Росен Петров /п./</title>
+  </programme>
+  <programme start="20230822231500 +0300" channel="bgonair.bg">
+    <title>Одисей - сериал, драма</title>
   </programme>
   <programme start="20230819073000 +0300" stop="20230819080000 +0300" channel="evrokom.bg">
     <title>Арт дъга - детска образователна поредица</title>
@@ -3570,7 +3518,52 @@
   <programme start="20230821230000 +0300" stop="20230821233000 +0300" channel="evrokom.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230821233000 +0300" channel="evrokom.bg">
+  <programme start="20230821233000 +0300" stop="20230822063000 +0300" channel="evrokom.bg">
+    <title>Вечните песни на България - с Владислав Славов</title>
+  </programme>
+  <programme start="20230822063000 +0300" stop="20230822100000 +0300" channel="evrokom.bg">
+    <title>Делници - с Николай Колев</title>
+  </programme>
+  <programme start="20230822100000 +0300" stop="20230822110000 +0300" channel="evrokom.bg">
+    <title>Академия Здравитал - с проф. д-р Христо Деянов, дм</title>
+  </programme>
+  <programme start="20230822110000 +0300" stop="20230822113000 +0300" channel="evrokom.bg">
+    <title>EuroTV Shop</title>
+  </programme>
+  <programme start="20230822113000 +0300" stop="20230822123000 +0300" channel="evrokom.bg">
+    <title>Психологически портрет - с Рени Анастасова</title>
+  </programme>
+  <programme start="20230822123000 +0300" stop="20230822130000 +0300" channel="evrokom.bg">
+    <title>EuroTV Shop</title>
+  </programme>
+  <programme start="20230822130000 +0300" stop="20230822133000 +0300" channel="evrokom.bg">
+    <title>Интересно със Славчо Тошев - със Славчо Тошев</title>
+  </programme>
+  <programme start="20230822133000 +0300" stop="20230822153000 +0300" channel="evrokom.bg">
+    <title>Честно казано - с Люба Кулезич</title>
+  </programme>
+  <programme start="20230822153000 +0300" stop="20230822160000 +0300" channel="evrokom.bg">
+    <title>EuroTV Shop</title>
+  </programme>
+  <programme start="20230822160000 +0300" stop="20230822193000 +0300" channel="evrokom.bg">
+    <title>Делници - с Николай Колев</title>
+  </programme>
+  <programme start="20230822193000 +0300" stop="20230822200000 +0300" channel="evrokom.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822200000 +0300" stop="20230822210000 +0300" channel="evrokom.bg">
+    <title>Часът на избора - с Боряна Райчева</title>
+  </programme>
+  <programme start="20230822210000 +0300" stop="20230822220000 +0300" channel="evrokom.bg">
+    <title>Разследването на Валя Ахчиева - с Валя Ахчиева</title>
+  </programme>
+  <programme start="20230822220000 +0300" stop="20230822230000 +0300" channel="evrokom.bg">
+    <title>Седмичник с Владо Береану - с Владо Береану</title>
+  </programme>
+  <programme start="20230822230000 +0300" stop="20230822233000 +0300" channel="evrokom.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822233000 +0300" channel="evrokom.bg">
     <title>Вечните песни на България - с Владислав Славов</title>
   </programme>
   <programme start="20230819064000 +0300" stop="20230819070000 +0300" channel="codehealth.bg">
@@ -3704,66 +3697,6 @@
   </programme>
   <programme start="20230820234000 +0300" channel="codehealth.bg">
     <title>История на Медицината: Древен Рим - 1 част- поредица (повторение)</title>
-  </programme>
-  <programme start="20230818073000 +0300" stop="20230818080000 +0300" channel="skat.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818080000 +0300" stop="20230818090000 +0300" channel="skat.bg">
-    <title>Дискусионно студио със Стоян Иванов /повторение/</title>
-  </programme>
-  <programme start="20230818090000 +0300" stop="20230818100000 +0300" channel="skat.bg">
-    <title>Ранни вести / избрани предавания/</title>
-  </programme>
-  <programme start="20230818100000 +0300" stop="20230818111500 +0300" channel="skat.bg">
-    <title>"Здравословно" с водещ Христо Деянов / избрани предавания/</title>
-  </programme>
-  <programme start="20230818111500 +0300" stop="20230818120000 +0300" channel="skat.bg">
-    <title>"Старият албум" - разказите на Михаил Топалов</title>
-  </programme>
-  <programme start="20230818120000 +0300" stop="20230818123000 +0300" channel="skat.bg">
-    <title>"Разбулване" с водещ Николай Панков 1 част - /повторение/</title>
-  </programme>
-  <programme start="20230818123000 +0300" stop="20230818124000 +0300" channel="skat.bg">
-    <title>НОВИНИ - обедна емисия</title>
-  </programme>
-  <programme start="20230818124000 +0300" stop="20230818130000 +0300" channel="skat.bg">
-    <title>"Разбулване " с водещ Николай Панков 2 част - /повторение/</title>
-  </programme>
-  <programme start="20230818130000 +0300" stop="20230818140000 +0300" channel="skat.bg">
-    <title>"Дискусионно студио" /повторение /</title>
-  </programme>
-  <programme start="20230818140000 +0300" stop="20230818150000 +0300" channel="skat.bg">
-    <title>"Нови хоризонти" - с водещ Петър Петров /повторение/</title>
-  </programme>
-  <programme start="20230818150000 +0300" stop="20230818160000 +0300" channel="skat.bg">
-    <title>Документална поредица на Дискавъри</title>
-  </programme>
-  <programme start="20230818160000 +0300" stop="20230818170000 +0300" channel="skat.bg">
-    <title>"Църквата на мълчанието с водещ Венцеслав Илиев /повторение/</title>
-  </programme>
-  <programme start="20230818170000 +0300" stop="20230818183000 +0300" channel="skat.bg">
-    <title>Фолклорни ритми</title>
-  </programme>
-  <programme start="20230818183000 +0300" stop="20230818190000 +0300" channel="skat.bg">
-    <title>Новини - централна информационна емисия на ТВ "СКАТ"</title>
-  </programme>
-  <programme start="20230818190000 +0300" stop="20230818194500 +0300" channel="skat.bg">
-    <title>"Разбулване" с водещ Николай Панков /повторение/</title>
-  </programme>
-  <programme start="20230818194500 +0300" stop="20230818203000 +0300" channel="skat.bg">
-    <title>"Чист живот" - предаване за зависимости</title>
-  </programme>
-  <programme start="20230818203000 +0300" stop="20230818213000 +0300" channel="skat.bg">
-    <title>"Дискусионно студио" - публицистично предаване с водещ Стоян Иванов</title>
-  </programme>
-  <programme start="20230818213000 +0300" stop="20230818223000 +0300" channel="skat.bg">
-    <title>"Час по България" с водещ проф.Пламен Павлов</title>
-  </programme>
-  <programme start="20230818223000 +0300" stop="20230818230000 +0300" channel="skat.bg">
-    <title>Късна емисия Новини</title>
-  </programme>
-  <programme start="20230818230000 +0300" stop="20230819053000 +0300" channel="skat.bg">
-    <title>"Прокудени от бащин край" - с водещ Стоян Райчевски /повторение/</title>
   </programme>
   <programme start="20230819053000 +0300" stop="20230819063000 +0300" channel="skat.bg">
     <title>"Здравословно" с водещ Христо Деянов /повторение/</title>
@@ -3957,119 +3890,68 @@
   <programme start="20230821230000 +0300" stop="20230821233000 +0300" channel="skat.bg">
     <title>Съгласен ли си? с Пело Кръстев / повторение /</title>
   </programme>
-  <programme start="20230821233000 +0300" channel="skat.bg">
+  <programme start="20230821233000 +0300" stop="20230822063000 +0300" channel="skat.bg">
     <title>Джон Лоутън представя... - документална поредица на СКАТ / повторение/</title>
   </programme>
-  <programme start="20230818061500 +0300" stop="20230818070000 +0300" channel="alfatv.bg">
-    <title>"Часът на пенсионера"</title>
+  <programme start="20230822063000 +0300" stop="20230822073000 +0300" channel="skat.bg">
+    <title>Документална поредица на Дискавъри / повторение /</title>
   </programme>
-  <programme start="20230818070000 +0300" stop="20230818073000 +0300" channel="alfatv.bg">
+  <programme start="20230822073000 +0300" stop="20230822080000 +0300" channel="skat.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818073000 +0300" stop="20230818080000 +0300" channel="alfatv.bg">
-    <title>Документален филм</title>
+  <programme start="20230822080000 +0300" stop="20230822090000 +0300" channel="skat.bg">
+    <title>Дискусионно студио / повторение/</title>
   </programme>
-  <programme start="20230818080000 +0300" stop="20230818083000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
+  <programme start="20230822090000 +0300" stop="20230822100000 +0300" channel="skat.bg">
+    <title>Ранни вести / избрани предавания/</title>
   </programme>
-  <programme start="20230818083000 +0300" stop="20230818090000 +0300" channel="alfatv.bg">
-    <title>Архивите на Алфа</title>
+  <programme start="20230822100000 +0300" stop="20230822111500 +0300" channel="skat.bg">
+    <title>"Чист живот" - предаване за зависимости /повторение/</title>
   </programme>
-  <programme start="20230818090000 +0300" stop="20230818104500 +0300" channel="alfatv.bg">
-    <title>"Добро утро, българи"</title>
+  <programme start="20230822111500 +0300" stop="20230822120000 +0300" channel="skat.bg">
+    <title>Старият албум - разказите на Михаил Топалов</title>
   </programme>
-  <programme start="20230818104500 +0300" stop="20230818110000 +0300" channel="alfatv.bg">
-    <title>Телепазар</title>
+  <programme start="20230822120000 +0300" stop="20230822123000 +0300" channel="skat.bg">
+    <title>Край Босфора с водещ Любомир Желев - 1 част /повторение/</title>
   </programme>
-  <programme start="20230818110000 +0300" stop="20230818113000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
+  <programme start="20230822123000 +0300" stop="20230822124000 +0300" channel="skat.bg">
+    <title>НОВИНИ - обедна емисия</title>
   </programme>
-  <programme start="20230818113000 +0300" stop="20230818114500 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
+  <programme start="20230822124000 +0300" stop="20230822130000 +0300" channel="skat.bg">
+    <title>Край Босфора с водещ Любомир Желев - 2 част / повторение/</title>
   </programme>
-  <programme start="20230818114500 +0300" stop="20230818120000 +0300" channel="alfatv.bg">
-    <title>Телепазар</title>
+  <programme start="20230822130000 +0300" stop="20230822140000 +0300" channel="skat.bg">
+    <title>Дискусионно студио"/ повторение/</title>
   </programme>
-  <programme start="20230818120000 +0300" stop="20230818124500 +0300" channel="alfatv.bg">
-    <title>"Новините в 12"</title>
+  <programme start="20230822140000 +0300" stop="20230822153000 +0300" channel="skat.bg">
+    <title>"Извън шаблона" / повторение /</title>
   </programme>
-  <programme start="20230818124500 +0300" stop="20230818130000 +0300" channel="alfatv.bg">
-    <title>Телепазар</title>
+  <programme start="20230822153000 +0300" stop="20230822170000 +0300" channel="skat.bg">
+    <title>"Политиката на прицел" с водещ Венцислав Тоцев / повторение/</title>
   </programme>
-  <programme start="20230818130000 +0300" stop="20230818133000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
+  <programme start="20230822170000 +0300" stop="20230822183000 +0300" channel="skat.bg">
+    <title>Фолклорни ритми</title>
   </programme>
-  <programme start="20230818133000 +0300" stop="20230818134500 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
+  <programme start="20230822183000 +0300" stop="20230822190000 +0300" channel="skat.bg">
+    <title>Новини - централна информационна емисия на ТВ "СКАТ"</title>
   </programme>
-  <programme start="20230818134500 +0300" stop="20230818140000 +0300" channel="alfatv.bg">
-    <title>Телепазар</title>
+  <programme start="20230822190000 +0300" stop="20230822194500 +0300" channel="skat.bg">
+    <title>Край Босфора с Любомир Желев / повторение /</title>
   </programme>
-  <programme start="20230818140000 +0300" stop="20230818143000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
+  <programme start="20230822194500 +0300" stop="20230822203000 +0300" channel="skat.bg">
+    <title>Документална поредица на Дискавъри</title>
   </programme>
-  <programme start="20230818143000 +0300" stop="20230818150000 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
+  <programme start="20230822203000 +0300" stop="20230822213000 +0300" channel="skat.bg">
+    <title>"Дискусионно студио" - публицистично предаване с водещ Стоян Иванов</title>
   </programme>
-  <programme start="20230818150000 +0300" stop="20230818153000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
+  <programme start="20230822213000 +0300" stop="20230822223000 +0300" channel="skat.bg">
+    <title>"Прокудени от бащин край" с водещ Стоян Райчевски</title>
   </programme>
-  <programme start="20230818153000 +0300" stop="20230818154500 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
+  <programme start="20230822223000 +0300" stop="20230822230000 +0300" channel="skat.bg">
+    <title>Късна емисия Новини</title>
   </programme>
-  <programme start="20230818154500 +0300" stop="20230818160000 +0300" channel="alfatv.bg">
-    <title>Телепазар</title>
-  </programme>
-  <programme start="20230818160000 +0300" stop="20230818163000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818163000 +0300" stop="20230818170000 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
-  </programme>
-  <programme start="20230818170000 +0300" stop="20230818171000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818171000 +0300" stop="20230818172500 +0300" channel="alfatv.bg">
-    <title>Телепазар</title>
-  </programme>
-  <programme start="20230818172500 +0300" stop="20230818180000 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
-  </programme>
-  <programme start="20230818180000 +0300" stop="20230818183000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818183000 +0300" stop="20230818190000 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
-  </programme>
-  <programme start="20230818190000 +0300" stop="20230818193000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818193000 +0300" stop="20230818200000 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
-  </programme>
-  <programme start="20230818200000 +0300" stop="20230818203000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818203000 +0300" stop="20230818210000 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
-  </programme>
-  <programme start="20230818210000 +0300" stop="20230818213000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818213000 +0300" stop="20230818220000 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
-  </programme>
-  <programme start="20230818220000 +0300" stop="20230818223000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818223000 +0300" stop="20230818230000 +0300" channel="alfatv.bg">
-    <title>Актуално</title>
-  </programme>
-  <programme start="20230818230000 +0300" stop="20230818233000 +0300" channel="alfatv.bg">
-    <title>Новини</title>
-  </programme>
-  <programme start="20230818233000 +0300" stop="20230819061500 +0300" channel="alfatv.bg">
-    <title>Архивите на Алфа</title>
+  <programme start="20230822230000 +0300" channel="skat.bg">
+    <title>"Нови хоризонти" - с Петър Петров / повторение /</title>
   </programme>
   <programme start="20230819061500 +0300" stop="20230819070000 +0300" channel="alfatv.bg">
     <title>"Часът на пенсионера"</title>
@@ -4461,296 +4343,125 @@
   <programme start="20230821230000 +0300" stop="20230821233000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230821233000 +0300" channel="alfatv.bg">
+  <programme start="20230821233000 +0300" stop="20230822061500 +0300" channel="alfatv.bg">
     <title>Актуално</title>
   </programme>
-  <programme start="20230818055500 +0300" stop="20230818060000 +0300" channel="agrotv.bg">
-    <title>ч.- Прогноза за времето и агропрогноза</title>
+  <programme start="20230822061500 +0300" stop="20230822070000 +0300" channel="alfatv.bg">
+    <title>"Часът на пенсионера"</title>
   </programme>
-  <programme start="20230818060000 +0300" stop="20230818061500 +0300" channel="agrotv.bg">
+  <programme start="20230822070000 +0300" stop="20230822073000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818061500 +0300" stop="20230818062500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822073000 +0300" stop="20230822080000 +0300" channel="alfatv.bg">
+    <title>Документален филм</title>
   </programme>
-  <programme start="20230818062500 +0300" stop="20230818063000 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
-  </programme>
-  <programme start="20230818063000 +0300" stop="20230818063500 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818063500 +0300" stop="20230818065000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818065000 +0300" stop="20230818065500 +0300" channel="agrotv.bg">
-    <title>История на храните - повт.</title>
-  </programme>
-  <programme start="20230818065500 +0300" stop="20230818070000 +0300" channel="agrotv.bg">
-    <title>Музикална пауза</title>
-  </programme>
-  <programme start="20230818070000 +0300" stop="20230818071000 +0300" channel="agrotv.bg">
+  <programme start="20230822080000 +0300" stop="20230822081000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818071000 +0300" stop="20230818071500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822081000 +0300" stop="20230822090000 +0300" channel="alfatv.bg">
+    <title>Архивите на Алфа</title>
   </programme>
-  <programme start="20230818071500 +0300" stop="20230818072000 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
+  <programme start="20230822090000 +0300" stop="20230822100000 +0300" channel="alfatv.bg">
+    <title>"Добро утро, българи"</title>
   </programme>
-  <programme start="20230818072000 +0300" stop="20230818073000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818073000 +0300" stop="20230818080000 +0300" channel="agrotv.bg">
-    <title>Ключът към успеха - Агрозона - повт.</title>
-  </programme>
-  <programme start="20230818080000 +0300" stop="20230818081500 +0300" channel="agrotv.bg">
+  <programme start="20230822100000 +0300" stop="20230822103000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818081500 +0300" stop="20230818082500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822103000 +0300" stop="20230822104500 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818082500 +0300" stop="20230818083000 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
+  <programme start="20230822104500 +0300" stop="20230822110000 +0300" channel="alfatv.bg">
+    <title>Телепазар</title>
   </programme>
-  <programme start="20230818083000 +0300" stop="20230818083500 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818083500 +0300" stop="20230818084500 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818084500 +0300" stop="20230818085000 +0300" channel="agrotv.bg">
-    <title>История на храните - повт.</title>
-  </programme>
-  <programme start="20230818085000 +0300" stop="20230818090000 +0300" channel="agrotv.bg">
-    <title>Музикална пауза</title>
-  </programme>
-  <programme start="20230818090000 +0300" stop="20230818091500 +0300" channel="agrotv.bg">
+  <programme start="20230822110000 +0300" stop="20230822113000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818091500 +0300" stop="20230818092000 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822113000 +0300" stop="20230822114500 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818092000 +0300" stop="20230818092500 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
+  <programme start="20230822114500 +0300" stop="20230822120000 +0300" channel="alfatv.bg">
+    <title>Телепазар</title>
   </programme>
-  <programme start="20230818092500 +0300" stop="20230818093000 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
+  <programme start="20230822120000 +0300" stop="20230822124500 +0300" channel="alfatv.bg">
+    <title>"Новините в 12"</title>
   </programme>
-  <programme start="20230818093000 +0300" stop="20230818094000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
+  <programme start="20230822124500 +0300" stop="20230822130000 +0300" channel="alfatv.bg">
+    <title>Телепазар</title>
   </programme>
-  <programme start="20230818094000 +0300" stop="20230818100000 +0300" channel="agrotv.bg">
-    <title>Агромаркет</title>
-  </programme>
-  <programme start="20230818100000 +0300" stop="20230818101000 +0300" channel="agrotv.bg">
+  <programme start="20230822130000 +0300" stop="20230822133000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818101000 +0300" stop="20230818101500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822133000 +0300" stop="20230822134500 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818101500 +0300" stop="20230818102000 +0300" channel="agrotv.bg">
-    <title>История на храните - повт.</title>
+  <programme start="20230822134500 +0300" stop="20230822140000 +0300" channel="alfatv.bg">
+    <title>Телепазар</title>
   </programme>
-  <programme start="20230818102000 +0300" stop="20230818103000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818103000 +0300" stop="20230818110000 +0300" channel="agrotv.bg">
-    <title>Агрофорум - повт.</title>
-  </programme>
-  <programme start="20230818110000 +0300" stop="20230818111500 +0300" channel="agrotv.bg">
+  <programme start="20230822140000 +0300" stop="20230822143000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818111500 +0300" stop="20230818112500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822143000 +0300" stop="20230822150000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818112500 +0300" stop="20230818113000 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
-  </programme>
-  <programme start="20230818113000 +0300" stop="20230818113500 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818113500 +0300" stop="20230818114500 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818114500 +0300" stop="20230818115000 +0300" channel="agrotv.bg">
-    <title>История на храните - повт.</title>
-  </programme>
-  <programme start="20230818115000 +0300" stop="20230818120000 +0300" channel="agrotv.bg">
-    <title>Музикална пауза</title>
-  </programme>
-  <programme start="20230818120000 +0300" stop="20230818121500 +0300" channel="agrotv.bg">
+  <programme start="20230822150000 +0300" stop="20230822153000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818121500 +0300" stop="20230818122500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822153000 +0300" stop="20230822154500 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818122500 +0300" stop="20230818123000 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
+  <programme start="20230822154500 +0300" stop="20230822160000 +0300" channel="alfatv.bg">
+    <title>Телепазар</title>
   </programme>
-  <programme start="20230818123000 +0300" stop="20230818123500 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818123500 +0300" stop="20230818124500 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818124500 +0300" stop="20230818125000 +0300" channel="agrotv.bg">
-    <title>История на храните - повт.</title>
-  </programme>
-  <programme start="20230818125000 +0300" stop="20230818130000 +0300" channel="agrotv.bg">
-    <title>Музикална пауза</title>
-  </programme>
-  <programme start="20230818130000 +0300" stop="20230818131500 +0300" channel="agrotv.bg">
+  <programme start="20230822160000 +0300" stop="20230822163000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818131500 +0300" stop="20230818132500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822163000 +0300" stop="20230822170000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818132500 +0300" stop="20230818133000 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
-  </programme>
-  <programme start="20230818133000 +0300" stop="20230818133500 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818133500 +0300" stop="20230818134500 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818134500 +0300" stop="20230818135000 +0300" channel="agrotv.bg">
-    <title>История на храните - повт.</title>
-  </programme>
-  <programme start="20230818135000 +0300" stop="20230818140000 +0300" channel="agrotv.bg">
-    <title>Музикална пауза</title>
-  </programme>
-  <programme start="20230818140000 +0300" stop="20230818141500 +0300" channel="agrotv.bg">
+  <programme start="20230822170000 +0300" stop="20230822171000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818141500 +0300" stop="20230818142500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822171000 +0300" stop="20230822172500 +0300" channel="alfatv.bg">
+    <title>Телепазар</title>
   </programme>
-  <programme start="20230818142500 +0300" stop="20230818143000 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
+  <programme start="20230822172500 +0300" stop="20230822180000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818143000 +0300" stop="20230818143500 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818143500 +0300" stop="20230818145000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818145000 +0300" stop="20230818145500 +0300" channel="agrotv.bg">
-    <title>История на храните - повт.</title>
-  </programme>
-  <programme start="20230818145500 +0300" stop="20230818150000 +0300" channel="agrotv.bg">
-    <title>Музикална пауза</title>
-  </programme>
-  <programme start="20230818150000 +0300" stop="20230818160000 +0300" channel="agrotv.bg">
-    <title>Говори България - повторение</title>
-  </programme>
-  <programme start="20230818160000 +0300" stop="20230818161000 +0300" channel="agrotv.bg">
+  <programme start="20230822180000 +0300" stop="20230822183000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818161000 +0300" stop="20230818161500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822183000 +0300" stop="20230822190000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818161500 +0300" stop="20230818162000 +0300" channel="agrotv.bg">
-    <title>История на храните - повт.</title>
-  </programme>
-  <programme start="20230818162000 +0300" stop="20230818163000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818163000 +0300" stop="20230818170000 +0300" channel="agrotv.bg">
-    <title>Агрофорум - повт.</title>
-  </programme>
-  <programme start="20230818170000 +0300" stop="20230818171000 +0300" channel="agrotv.bg">
+  <programme start="20230822190000 +0300" stop="20230822193000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818171000 +0300" stop="20230818173500 +0300" channel="agrotv.bg">
-    <title>Флора и фауна - повт.</title>
+  <programme start="20230822193000 +0300" stop="20230822200000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818173500 +0300" stop="20230818174000 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
-  </programme>
-  <programme start="20230818174000 +0300" stop="20230818180000 +0300" channel="agrotv.bg">
-    <title>Агромаркет</title>
-  </programme>
-  <programme start="20230818180000 +0300" stop="20230818182500 +0300" channel="agrotv.bg">
-    <title>Ранна емисия новини</title>
-  </programme>
-  <programme start="20230818182500 +0300" stop="20230818183500 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
-  </programme>
-  <programme start="20230818183500 +0300" stop="20230818184000 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
-  </programme>
-  <programme start="20230818184000 +0300" stop="20230818184500 +0300" channel="agrotv.bg">
-    <title>Динамика на основните 5 - повт.</title>
-  </programme>
-  <programme start="20230818184500 +0300" stop="20230818185000 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818185000 +0300" stop="20230818190000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818190000 +0300" stop="20230818194000 +0300" channel="agrotv.bg">
-    <title>Документален филм - повторение</title>
-  </programme>
-  <programme start="20230818194000 +0300" stop="20230818200000 +0300" channel="agrotv.bg">
-    <title>Агромаркет</title>
-  </programme>
-  <programme start="20230818200000 +0300" stop="20230818203000 +0300" channel="agrotv.bg">
-    <title>Те победиха - повт.</title>
-  </programme>
-  <programme start="20230818203000 +0300" stop="20230818210000 +0300" channel="agrotv.bg">
-    <title>Централна емисия новини</title>
-  </programme>
-  <programme start="20230818210000 +0300" stop="20230818211000 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
-  </programme>
-  <programme start="20230818211000 +0300" stop="20230818211500 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
-  </programme>
-  <programme start="20230818211500 +0300" stop="20230818212000 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818212000 +0300" stop="20230818213000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818213000 +0300" stop="20230818215000 +0300" channel="agrotv.bg">
-    <title>Телепазарен прозорец - Бизнес новини</title>
-  </programme>
-  <programme start="20230818215000 +0300" stop="20230818220000 +0300" channel="agrotv.bg">
-    <title>История на храните</title>
-  </programme>
-  <programme start="20230818220000 +0300" stop="20230818220500 +0300" channel="agrotv.bg">
+  <programme start="20230822200000 +0300" stop="20230822203000 +0300" channel="alfatv.bg">
     <title>Новини</title>
   </programme>
-  <programme start="20230818220500 +0300" stop="20230818221000 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822203000 +0300" stop="20230822210000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818221000 +0300" stop="20230818221500 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
+  <programme start="20230822210000 +0300" stop="20230822213000 +0300" channel="alfatv.bg">
+    <title>Новини</title>
   </programme>
-  <programme start="20230818221500 +0300" stop="20230818223000 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
+  <programme start="20230822213000 +0300" stop="20230822220000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818223000 +0300" stop="20230818230000 +0300" channel="agrotv.bg">
-    <title>Късна емисия новини</title>
+  <programme start="20230822220000 +0300" stop="20230822223000 +0300" channel="alfatv.bg">
+    <title>Новини</title>
   </programme>
-  <programme start="20230818230000 +0300" stop="20230818231000 +0300" channel="agrotv.bg">
-    <title>Прогноза за времето и агропрогноза</title>
+  <programme start="20230822223000 +0300" stop="20230822230000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
-  <programme start="20230818231000 +0300" stop="20230818231500 +0300" channel="agrotv.bg">
-    <title>Борсова информация</title>
+  <programme start="20230822230000 +0300" stop="20230822233000 +0300" channel="alfatv.bg">
+    <title>Новини</title>
   </programme>
-  <programme start="20230818231500 +0300" stop="20230818232000 +0300" channel="agrotv.bg">
-    <title>Агрокоментар</title>
-  </programme>
-  <programme start="20230818232000 +0300" stop="20230818233500 +0300" channel="agrotv.bg">
-    <title>Агротема</title>
-  </programme>
-  <programme start="20230818233500 +0300" stop="20230818235500 +0300" channel="agrotv.bg">
-    <title>Агромаркет</title>
-  </programme>
-  <programme start="20230818235500 +0300" stop="20230819055500 +0300" channel="agrotv.bg">
-    <title>Музикална пауза</title>
+  <programme start="20230822233000 +0300" channel="alfatv.bg">
+    <title>Актуално</title>
   </programme>
   <programme start="20230819055500 +0300" stop="20230819060000 +0300" channel="agrotv.bg">
     <title>ч.- Прогноза за времето и агропрогноза</title>
@@ -5625,74 +5336,335 @@
   <programme start="20230821233500 +0300" stop="20230821235500 +0300" channel="agrotv.bg">
     <title>Агромаркет</title>
   </programme>
-  <programme start="20230821235500 +0300" channel="agrotv.bg">
+  <programme start="20230821235500 +0300" stop="20230822051500 +0300" channel="agrotv.bg">
     <title>Музикална пауза</title>
   </programme>
-  <programme start="20230818063000 +0300" stop="20230818064500 +0300" channel="tv1.bg">
-    <title>"Пътят към щастието със Сана" - предаване за йога</title>
+  <programme start="20230822051500 +0300" stop="20230822052500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
   </programme>
-  <programme start="20230818064500 +0300" stop="20230818071500 +0300" channel="tv1.bg">
-    <title>"10 дни дихателни техники с Константин Драгов"</title>
+  <programme start="20230822052500 +0300" stop="20230822053000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
   </programme>
-  <programme start="20230818071500 +0300" stop="20230818080000 +0300" channel="tv1.bg">
-    <title>"Събуди се с усмивка"</title>
+  <programme start="20230822053000 +0300" stop="20230822053500 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
   </programme>
-  <programme start="20230818080000 +0300" stop="20230818083000 +0300" channel="tv1.bg">
-    <title>"Viva la Musica!"</title>
+  <programme start="20230822053500 +0300" stop="20230822054500 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
   </programme>
-  <programme start="20230818083000 +0300" stop="20230818093000 +0300" channel="tv1.bg">
-    <title>"Въпросите" - повторение</title>
+  <programme start="20230822054500 +0300" stop="20230822055000 +0300" channel="agrotv.bg">
+    <title>История на храните - п.</title>
   </programme>
-  <programme start="20230818093000 +0300" stop="20230818100000 +0300" channel="tv1.bg">
-    <title>"Петолиния" - музикален микс</title>
+  <programme start="20230822055000 +0300" stop="20230822060000 +0300" channel="agrotv.bg">
+    <title>Музикална пауза</title>
   </programme>
-  <programme start="20230818100000 +0300" stop="20230818121500 +0300" channel="tv1.bg">
-    <title>"Viva la Musica!"</title>
+  <programme start="20230822060000 +0300" stop="20230822061000 +0300" channel="agrotv.bg">
+    <title>Новини</title>
   </programme>
-  <programme start="20230818121500 +0300" stop="20230818123000 +0300" channel="tv1.bg">
-    <title>Телепазарен прозорец</title>
+  <programme start="20230822061000 +0300" stop="20230822064000 +0300" channel="agrotv.bg">
+    <title>Зоологика - п</title>
   </programme>
-  <programme start="20230818123000 +0300" stop="20230818133000 +0300" channel="tv1.bg">
-    <title>"ДЕМОКРАЦИЯТА" (п.)</title>
+  <programme start="20230822064000 +0300" stop="20230822064500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето</title>
   </programme>
-  <programme start="20230818133000 +0300" stop="20230818143000 +0300" channel="tv1.bg">
-    <title>Спорт по ТВ1 (п.)</title>
+  <programme start="20230822064500 +0300" stop="20230822065000 +0300" channel="agrotv.bg">
+    <title>История на храните</title>
   </programme>
-  <programme start="20230818143000 +0300" stop="20230818160000 +0300" channel="tv1.bg">
-    <title>"Музикална академия"</title>
+  <programme start="20230822065000 +0300" stop="20230822070000 +0300" channel="agrotv.bg">
+    <title>Музикална пауза</title>
   </programme>
-  <programme start="20230818160000 +0300" stop="20230818163000 +0300" channel="tv1.bg">
-    <title>"10 дни дихателни техники с Константин Драгов"</title>
+  <programme start="20230822070000 +0300" stop="20230822071000 +0300" channel="agrotv.bg">
+    <title>Новини</title>
   </programme>
-  <programme start="20230818163000 +0300" stop="20230818174500 +0300" channel="tv1.bg">
-    <title>Документален филм</title>
+  <programme start="20230822071000 +0300" stop="20230822071500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
   </programme>
-  <programme start="20230818174500 +0300" stop="20230818180000 +0300" channel="tv1.bg">
-    <title>"Петолиния" - музикален микс</title>
+  <programme start="20230822071500 +0300" stop="20230822072000 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
   </programme>
-  <programme start="20230818180000 +0300" stop="20230818190000 +0300" channel="tv1.bg">
-    <title>"Въпросите" - публицистично предаване на живо от студиото на ТВ1</title>
+  <programme start="20230822072000 +0300" stop="20230822073000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
   </programme>
-  <programme start="20230818190000 +0300" stop="20230818193000 +0300" channel="tv1.bg">
-    <title>"Петолиния" - музикален микс</title>
+  <programme start="20230822073000 +0300" stop="20230822080000 +0300" channel="agrotv.bg">
+    <title>Агрофорум - повт.</title>
   </programme>
-  <programme start="20230818193000 +0300" stop="20230818200000 +0300" channel="tv1.bg">
-    <title>"Брандовете на България" с водещ Мария Василева (премиера)</title>
+  <programme start="20230822080000 +0300" stop="20230822081000 +0300" channel="agrotv.bg">
+    <title>Новини</title>
   </programme>
-  <programme start="20230818200000 +0300" stop="20230818210000 +0300" channel="tv1.bg">
-    <title>"Денят с Веселин Дремджиев"</title>
+  <programme start="20230822081000 +0300" stop="20230822081500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
   </programme>
-  <programme start="20230818210000 +0300" stop="20230818220000 +0300" channel="tv1.bg">
-    <title>"Шоуто на Боби Ваклинов" (премиера)</title>
+  <programme start="20230822081500 +0300" stop="20230822082000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
   </programme>
-  <programme start="20230818220000 +0300" stop="20230818223000 +0300" channel="tv1.bg">
-    <title>"Петолиния" - музикален микс</title>
+  <programme start="20230822082000 +0300" stop="20230822083000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
   </programme>
-  <programme start="20230818223000 +0300" stop="20230818233000 +0300" channel="tv1.bg">
-    <title>"Пътят" - авторско предаване на ТВ1 (премиера)</title>
+  <programme start="20230822083000 +0300" stop="20230822090000 +0300" channel="agrotv.bg">
+    <title>Ключът към успеха - Агрозона - повт.</title>
   </programme>
-  <programme start="20230818233000 +0300" stop="20230819043000 +0300" channel="tv1.bg">
-    <title>"Петолиния" - музикален микс</title>
+  <programme start="20230822090000 +0300" stop="20230822091500 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822091500 +0300" stop="20230822092000 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822092000 +0300" stop="20230822092500 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822092500 +0300" stop="20230822093500 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822093500 +0300" stop="20230822094000 +0300" channel="agrotv.bg">
+    <title>История на храните - повт.</title>
+  </programme>
+  <programme start="20230822094000 +0300" stop="20230822100000 +0300" channel="agrotv.bg">
+    <title>Агромаркет</title>
+  </programme>
+  <programme start="20230822100000 +0300" stop="20230822101000 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822101000 +0300" stop="20230822101500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822101500 +0300" stop="20230822102000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822102000 +0300" stop="20230822103000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822103000 +0300" stop="20230822110000 +0300" channel="agrotv.bg">
+    <title>Агрофорум - повт.</title>
+  </programme>
+  <programme start="20230822110000 +0300" stop="20230822111500 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822111500 +0300" stop="20230822112500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822112500 +0300" stop="20230822113000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822113000 +0300" stop="20230822113500 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822113500 +0300" stop="20230822115000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822115000 +0300" stop="20230822115500 +0300" channel="agrotv.bg">
+    <title>История на храните - повт.</title>
+  </programme>
+  <programme start="20230822115500 +0300" stop="20230822120000 +0300" channel="agrotv.bg">
+    <title>Музикална пауза</title>
+  </programme>
+  <programme start="20230822120000 +0300" stop="20230822121500 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822121500 +0300" stop="20230822122500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822122500 +0300" stop="20230822123000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822123000 +0300" stop="20230822123500 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822123500 +0300" stop="20230822124500 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822124500 +0300" stop="20230822125000 +0300" channel="agrotv.bg">
+    <title>История на храните - повт.</title>
+  </programme>
+  <programme start="20230822125000 +0300" stop="20230822130000 +0300" channel="agrotv.bg">
+    <title>Музикална пауза</title>
+  </programme>
+  <programme start="20230822130000 +0300" stop="20230822131500 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822131500 +0300" stop="20230822132500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822132500 +0300" stop="20230822133000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822133000 +0300" stop="20230822133500 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822133500 +0300" stop="20230822134500 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822134500 +0300" stop="20230822135000 +0300" channel="agrotv.bg">
+    <title>История на храните - повт.</title>
+  </programme>
+  <programme start="20230822135000 +0300" stop="20230822140000 +0300" channel="agrotv.bg">
+    <title>Музикална пауза</title>
+  </programme>
+  <programme start="20230822140000 +0300" stop="20230822141500 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822141500 +0300" stop="20230822142500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822142500 +0300" stop="20230822143000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822143000 +0300" stop="20230822143500 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822143500 +0300" stop="20230822145000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822145000 +0300" stop="20230822145500 +0300" channel="agrotv.bg">
+    <title>История на храните - повт.</title>
+  </programme>
+  <programme start="20230822145500 +0300" stop="20230822150000 +0300" channel="agrotv.bg">
+    <title>Музикална пауза</title>
+  </programme>
+  <programme start="20230822150000 +0300" stop="20230822151000 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822151000 +0300" stop="20230822155000 +0300" channel="agrotv.bg">
+    <title>БРЮКСЕЛ В ПРЕВОД - повторение</title>
+  </programme>
+  <programme start="20230822155000 +0300" stop="20230822155500 +0300" channel="agrotv.bg">
+    <title>История на храните - повт.</title>
+  </programme>
+  <programme start="20230822155500 +0300" stop="20230822160000 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822160000 +0300" stop="20230822161000 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822161000 +0300" stop="20230822161500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822161500 +0300" stop="20230822162000 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822162000 +0300" stop="20230822163000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822163000 +0300" stop="20230822170000 +0300" channel="agrotv.bg">
+    <title>Агрофорум - повт.</title>
+  </programme>
+  <programme start="20230822170000 +0300" stop="20230822171000 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822171000 +0300" stop="20230822171500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822171500 +0300" stop="20230822172000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822172000 +0300" stop="20230822173000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822173000 +0300" stop="20230822173500 +0300" channel="agrotv.bg">
+    <title>История на храните - повт.</title>
+  </programme>
+  <programme start="20230822173500 +0300" stop="20230822180000 +0300" channel="agrotv.bg">
+    <title>Агромаркет</title>
+  </programme>
+  <programme start="20230822180000 +0300" stop="20230822182500 +0300" channel="agrotv.bg">
+    <title>Ранна емисия новини</title>
+  </programme>
+  <programme start="20230822182500 +0300" stop="20230822183500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822183500 +0300" stop="20230822184000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822184000 +0300" stop="20230822184500 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822184500 +0300" stop="20230822185500 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822185500 +0300" stop="20230822190000 +0300" channel="agrotv.bg">
+    <title>История на храните - повт.</title>
+  </programme>
+  <programme start="20230822190000 +0300" stop="20230822191000 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822191000 +0300" stop="20230822191500 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822191500 +0300" stop="20230822192000 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822192000 +0300" stop="20230822192500 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822192500 +0300" stop="20230822194000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822194000 +0300" stop="20230822200000 +0300" channel="agrotv.bg">
+    <title>Агромаркет</title>
+  </programme>
+  <programme start="20230822200000 +0300" stop="20230822200500 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822200500 +0300" stop="20230822201000 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822201000 +0300" stop="20230822201500 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822201500 +0300" stop="20230822203000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822203000 +0300" stop="20230822210000 +0300" channel="agrotv.bg">
+    <title>Централна емисия новини</title>
+  </programme>
+  <programme start="20230822210000 +0300" stop="20230822211000 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822211000 +0300" stop="20230822211500 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822211500 +0300" stop="20230822212000 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822212000 +0300" stop="20230822213000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822213000 +0300" stop="20230822215000 +0300" channel="agrotv.bg">
+    <title>Телепазарен прозорец - Бизнес новини</title>
+  </programme>
+  <programme start="20230822215000 +0300" stop="20230822220000 +0300" channel="agrotv.bg">
+    <title>История на храните</title>
+  </programme>
+  <programme start="20230822220000 +0300" stop="20230822220500 +0300" channel="agrotv.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822220500 +0300" stop="20230822221000 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822221000 +0300" stop="20230822221500 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822221500 +0300" stop="20230822223000 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822223000 +0300" stop="20230822230000 +0300" channel="agrotv.bg">
+    <title>Късна емисия новини</title>
+  </programme>
+  <programme start="20230822230000 +0300" stop="20230822231000 +0300" channel="agrotv.bg">
+    <title>Прогноза за времето и агропрогноза</title>
+  </programme>
+  <programme start="20230822231000 +0300" stop="20230822231500 +0300" channel="agrotv.bg">
+    <title>Борсова информация</title>
+  </programme>
+  <programme start="20230822231500 +0300" stop="20230822232000 +0300" channel="agrotv.bg">
+    <title>Агрокоментар</title>
+  </programme>
+  <programme start="20230822232000 +0300" stop="20230822233500 +0300" channel="agrotv.bg">
+    <title>Агротема</title>
+  </programme>
+  <programme start="20230822233500 +0300" stop="20230822235500 +0300" channel="agrotv.bg">
+    <title>Агромаркет</title>
+  </programme>
+  <programme start="20230822235500 +0300" channel="agrotv.bg">
+    <title>Музикална пауза</title>
   </programme>
   <programme start="20230819043000 +0300" stop="20230819060000 +0300" channel="tv1.bg">
     <title>"Съботно настроение" - музикално развлекателен блок</title>
@@ -5901,59 +5873,71 @@
   <programme start="20230821212000 +0300" stop="20230821223000 +0300" channel="tv1.bg">
     <title>Българска популярна музика</title>
   </programme>
-  <programme start="20230821223000 +0300" channel="tv1.bg">
+  <programme start="20230821223000 +0300" stop="20230822063000 +0300" channel="tv1.bg">
     <title>"Viva la Musica!"</title>
   </programme>
-  <programme start="20230818071000 +0300" stop="20230818080000 +0300" channel="sedemosmi.tv">
-    <title>Шоуто на сценаристите (П)</title>
+  <programme start="20230822063000 +0300" stop="20230822064500 +0300" channel="tv1.bg">
+    <title>"Пътят към щастието със Сана" - предаване за йога</title>
   </programme>
-  <programme start="20230818080000 +0300" stop="20230818090000 +0300" channel="sedemosmi.tv">
-    <title>Крум Савов LIVE (П)</title>
+  <programme start="20230822064500 +0300" stop="20230822071500 +0300" channel="tv1.bg">
+    <title>"21 тайни за медитация с Константин Драгов"</title>
   </programme>
-  <programme start="20230818090000 +0300" stop="20230818095500 +0300" channel="sedemosmi.tv">
-    <title>Tonight with Шкумбата (П)</title>
+  <programme start="20230822071500 +0300" stop="20230822080000 +0300" channel="tv1.bg">
+    <title>"Събуди се с усмивка"</title>
   </programme>
-  <programme start="20230818095500 +0300" stop="20230818105000 +0300" channel="sedemosmi.tv">
-    <title>Вечерното шоу на Слави Трифонов (П)</title>
+  <programme start="20230822080000 +0300" stop="20230822100000 +0300" channel="tv1.bg">
+    <title>"Viva la Musica!"</title>
   </programme>
-  <programme start="20230818105000 +0300" stop="20230818122500 +0300" channel="sedemosmi.tv">
-    <title>Шоуто на сценаристите (П)</title>
+  <programme start="20230822100000 +0300" stop="20230822103000 +0300" channel="tv1.bg">
+    <title>Документален филм</title>
   </programme>
-  <programme start="20230818122500 +0300" stop="20230818125500 +0300" channel="sedemosmi.tv">
-    <title>Да готвим с Ради (П)</title>
+  <programme start="20230822103000 +0300" stop="20230822113000 +0300" channel="tv1.bg">
+    <title>"Златен кукер"</title>
   </programme>
-  <programme start="20230818125500 +0300" stop="20230818140000 +0300" channel="sedemosmi.tv">
-    <title>4+ (П)</title>
+  <programme start="20230822113000 +0300" stop="20230822130000 +0300" channel="tv1.bg">
+    <title>"Viva la Musica!"</title>
   </programme>
-  <programme start="20230818140000 +0300" stop="20230818150000 +0300" channel="sedemosmi.tv">
-    <title>Крум Савов LIVE (П)</title>
+  <programme start="20230822130000 +0300" stop="20230822133000 +0300" channel="tv1.bg">
+    <title>"Брандовете на България" - избрано от изминалия сезон</title>
   </programme>
-  <programme start="20230818150000 +0300" stop="20230818160000 +0300" channel="sedemosmi.tv">
-    <title>Вечерта на Иван Кулеков (П)</title>
+  <programme start="20230822133000 +0300" stop="20230822134500 +0300" channel="tv1.bg">
+    <title>"Моята улица" - документална поредица на ТВ1 (от архива)</title>
   </programme>
-  <programme start="20230818160000 +0300" stop="20230818170000 +0300" channel="sedemosmi.tv">
-    <title>Вечерното шоу на Слави Трифонов (П)</title>
+  <programme start="20230822134500 +0300" stop="20230822160000 +0300" channel="tv1.bg">
+    <title>"Музикална академия"</title>
   </programme>
-  <programme start="20230818170000 +0300" stop="20230818183000 +0300" channel="sedemosmi.tv">
-    <title>Шоуто на сценаристите (П)</title>
+  <programme start="20230822160000 +0300" stop="20230822163000 +0300" channel="tv1.bg">
+    <title>"21 тайни за медитация с Константин Драгов"</title>
   </programme>
-  <programme start="20230818183000 +0300" stop="20230818190000 +0300" channel="sedemosmi.tv">
-    <title>Да готвим с Ради - кулинарно предаване с шеф Ради Стамболов</title>
+  <programme start="20230822163000 +0300" stop="20230822164500 +0300" channel="tv1.bg">
+    <title>Телепазарен прозорец</title>
   </programme>
-  <programme start="20230818190000 +0300" stop="20230818200000 +0300" channel="sedemosmi.tv">
-    <title>Вечерта на Ку-Ку Бенд (П)</title>
+  <programme start="20230822164500 +0300" stop="20230822174500 +0300" channel="tv1.bg">
+    <title>Документален филм</title>
   </programme>
-  <programme start="20230818200000 +0300" stop="20230818210000 +0300" channel="sedemosmi.tv">
-    <title>Крум Савов LIVE - токшоу</title>
+  <programme start="20230822174500 +0300" stop="20230822180000 +0300" channel="tv1.bg">
+    <title>"Петолиния" - музикален микс</title>
   </programme>
-  <programme start="20230818210000 +0300" stop="20230818220000 +0300" channel="sedemosmi.tv">
-    <title>Вечерта на Северозапада - избрано от сезона</title>
+  <programme start="20230822180000 +0300" stop="20230822193000 +0300" channel="tv1.bg">
+    <title>"Viva La Musica!"</title>
   </programme>
-  <programme start="20230818220000 +0300" stop="20230818230000 +0300" channel="sedemosmi.tv">
-    <title>Вечерното шоу на Слави Трифонов - избрано от сезона</title>
+  <programme start="20230822193000 +0300" stop="20230822200000 +0300" channel="tv1.bg">
+    <title>"Галерия" - в света на изкуството (архив)</title>
   </programme>
-  <programme start="20230818230000 +0300" stop="20230819070000 +0300" channel="sedemosmi.tv">
-    <title>Шоуто на сценаристите - избрано от сезона</title>
+  <programme start="20230822200000 +0300" stop="20230822213000 +0300" channel="tv1.bg">
+    <title>"Лято с ТВ1"</title>
+  </programme>
+  <programme start="20230822213000 +0300" stop="20230822220000 +0300" channel="tv1.bg">
+    <title>Документален филм</title>
+  </programme>
+  <programme start="20230822220000 +0300" stop="20230822223000 +0300" channel="tv1.bg">
+    <title>"Петолиния" - музикален микс</title>
+  </programme>
+  <programme start="20230822223000 +0300" stop="20230822233000 +0300" channel="tv1.bg">
+    <title>"Шоуто на Боби Ваклинов" - избрано от сезона</title>
+  </programme>
+  <programme start="20230822233000 +0300" channel="tv1.bg">
+    <title>"Viva la Musica!"</title>
   </programme>
   <programme start="20230819070000 +0300" stop="20230819073000 +0300" channel="sedemosmi.tv">
     <title>Шоуто на сценаристите (П)</title>
@@ -6111,7 +6095,58 @@
   <programme start="20230821220000 +0300" stop="20230821230000 +0300" channel="sedemosmi.tv">
     <title>Вечерното шоу на Слави Трифонов - избрано от сезона</title>
   </programme>
-  <programme start="20230821230000 +0300" channel="sedemosmi.tv">
+  <programme start="20230821230000 +0300" stop="20230822071000 +0300" channel="sedemosmi.tv">
+    <title>Шоуто на сценаристите - избрано от сезона</title>
+  </programme>
+  <programme start="20230822071000 +0300" stop="20230822080000 +0300" channel="sedemosmi.tv">
+    <title>Шоуто на сценаристите (П)</title>
+  </programme>
+  <programme start="20230822080000 +0300" stop="20230822090000 +0300" channel="sedemosmi.tv">
+    <title>Студио Хъ (П)</title>
+  </programme>
+  <programme start="20230822090000 +0300" stop="20230822100000 +0300" channel="sedemosmi.tv">
+    <title>Вечерта на Ку-Ку Бенд (П)</title>
+  </programme>
+  <programme start="20230822100000 +0300" stop="20230822110000 +0300" channel="sedemosmi.tv">
+    <title>Вечерното шоу на Слави Трифонов (П)</title>
+  </programme>
+  <programme start="20230822110000 +0300" stop="20230822123000 +0300" channel="sedemosmi.tv">
+    <title>Шоуто на сценаристите (П)</title>
+  </programme>
+  <programme start="20230822123000 +0300" stop="20230822130000 +0300" channel="sedemosmi.tv">
+    <title>Да готвим с Ради (П)</title>
+  </programme>
+  <programme start="20230822130000 +0300" stop="20230822140000 +0300" channel="sedemosmi.tv">
+    <title>Вечерта на Иван Кулеков (П)</title>
+  </programme>
+  <programme start="20230822140000 +0300" stop="20230822150000 +0300" channel="sedemosmi.tv">
+    <title>Студио Хъ (П)</title>
+  </programme>
+  <programme start="20230822150000 +0300" stop="20230822155500 +0300" channel="sedemosmi.tv">
+    <title>Вечерта на… (П)</title>
+  </programme>
+  <programme start="20230822155500 +0300" stop="20230822165000 +0300" channel="sedemosmi.tv">
+    <title>Вечерното шоу на Слави Трифонов (П)</title>
+  </programme>
+  <programme start="20230822165000 +0300" stop="20230822183000 +0300" channel="sedemosmi.tv">
+    <title>Шоуто на сценаристите (П)</title>
+  </programme>
+  <programme start="20230822183000 +0300" stop="20230822190000 +0300" channel="sedemosmi.tv">
+    <title>Да готвим с Ради - кулинарно предаване с шеф Ради Стамболов</title>
+  </programme>
+  <programme start="20230822190000 +0300" stop="20230822200000 +0300" channel="sedemosmi.tv">
+    <title>Tonight with Шкумбата (П)</title>
+  </programme>
+  <programme start="20230822200000 +0300" stop="20230822210000 +0300" channel="sedemosmi.tv">
+    <title>Студио Хъ - публицистично предаване</title>
+  </programme>
+  <programme start="20230822210000 +0300" stop="20230822220000 +0300" channel="sedemosmi.tv">
+    <title>Вечерта на Иван Кулеков - избрано от сезона</title>
+  </programme>
+  <programme start="20230822220000 +0300" stop="20230822230000 +0300" channel="sedemosmi.tv">
+    <title>Вечерното шоу на Слави Трифонов - избрано от сезона</title>
+  </programme>
+  <programme start="20230822230000 +0300" channel="sedemosmi.tv">
     <title>Шоуто на сценаристите - избрано от сезона</title>
   </programme>
   <programme start="20230819070000 +0300" stop="20230819073600 +0300" channel="vtk.bg">
@@ -6291,7 +6326,73 @@
   <programme start="20230821230000 +0300" stop="20230821233000 +0300" channel="vtk.bg">
     <title>Новини П</title>
   </programme>
-  <programme start="20230821233000 +0300" channel="vtk.bg">
+  <programme start="20230821233000 +0300" stop="20230822070000 +0300" channel="vtk.bg">
     <title>Пресечна точка с Евгени Кръстев П</title>
+  </programme>
+  <programme start="20230822070000 +0300" stop="20230822073000 +0300" channel="vtk.bg">
+    <title>Холивудски знаменитости: Вал Килмър</title>
+  </programme>
+  <programme start="20230822073000 +0300" stop="20230822080000 +0300" channel="vtk.bg">
+    <title>Курс по английски език</title>
+  </programme>
+  <programme start="20230822080000 +0300" stop="20230822090000 +0300" channel="vtk.bg">
+    <title>Мистериите на Лисабон / 4 еп./ - сериал /Португалия/</title>
+  </programme>
+  <programme start="20230822090000 +0300" stop="20230822093000 +0300" channel="vtk.bg">
+    <title>Мини Мис и Мини Мистър с Илиана Балийска П</title>
+  </programme>
+  <programme start="20230822093000 +0300" stop="20230822100000 +0300" channel="vtk.bg">
+    <title>Пресечна точка с Евгени Кръстев П</title>
+  </programme>
+  <programme start="20230822100000 +0300" stop="20230822120000 +0300" channel="vtk.bg">
+    <title>Луково поле - игр. филм /САЩ/</title>
+  </programme>
+  <programme start="20230822120000 +0300" stop="20230822130000 +0300" channel="vtk.bg">
+    <title>Съвременни шпиони / 1 еп./ - док. филм</title>
+  </programme>
+  <programme start="20230822130000 +0300" stop="20230822133000 +0300" channel="vtk.bg">
+    <title>Военните репортери: 70 години Безмер П</title>
+  </programme>
+  <programme start="20230822133000 +0300" stop="20230822140000 +0300" channel="vtk.bg">
+    <title>Планетата Земя /30 еп./ - док. филм</title>
+  </programme>
+  <programme start="20230822140000 +0300" stop="20230822143000 +0300" channel="vtk.bg">
+    <title>Курс по английски език</title>
+  </programme>
+  <programme start="20230822143000 +0300" stop="20230822153000 +0300" channel="vtk.bg">
+    <title>Ченгета / 5 еп./ - сериал /Нидерландия/</title>
+  </programme>
+  <programme start="20230822153000 +0300" stop="20230822160000 +0300" channel="vtk.bg">
+    <title>Около света /11 еп./ - док. филм</title>
+  </programme>
+  <programme start="20230822160000 +0300" stop="20230822170000 +0300" channel="vtk.bg">
+    <title>Мистериите на Лисабон / 5 еп./ - сериал /Португалия/</title>
+  </programme>
+  <programme start="20230822170000 +0300" stop="20230822173000 +0300" channel="vtk.bg">
+    <title>Легендата за Зоро /15 еп./ - за децата</title>
+  </programme>
+  <programme start="20230822173000 +0300" stop="20230822180000 +0300" channel="vtk.bg">
+    <title>Войнишки разкази: Рейнджър П</title>
+  </programme>
+  <programme start="20230822180000 +0300" stop="20230822183000 +0300" channel="vtk.bg">
+    <title>Гигантската панда / 2 еп./ - док. филм</title>
+  </programme>
+  <programme start="20230822183000 +0300" stop="20230822190000 +0300" channel="vtk.bg">
+    <title>Новини</title>
+  </programme>
+  <programme start="20230822190000 +0300" stop="20230822200000 +0300" channel="vtk.bg">
+    <title>Съ Нами Богъ - тв филм 1 ч.</title>
+  </programme>
+  <programme start="20230822200000 +0300" stop="20230822210000 +0300" channel="vtk.bg">
+    <title>Ченгета / 6 еп./ - сериал /Нидерландия/</title>
+  </programme>
+  <programme start="20230822210000 +0300" stop="20230822230000 +0300" channel="vtk.bg">
+    <title>Парфюмите - игр. филм /Франция/</title>
+  </programme>
+  <programme start="20230822230000 +0300" stop="20230822233000 +0300" channel="vtk.bg">
+    <title>Новини П</title>
+  </programme>
+  <programme start="20230822233000 +0300" channel="vtk.bg">
+    <title>Военните репортери: 70 години Безмер П</title>
   </programme>
 </tv>
