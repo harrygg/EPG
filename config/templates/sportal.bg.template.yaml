@@ -1,13 +1,10 @@
 ---
-id: sportal.bg
-enabled: true
-version: 1.0
 author: Hristo Genev
 culture: bg-BG
+date-format: dd
 
 request:
   url: https://sportal.bg/tv-schedule?view=tv
-  date-format: dd
 
 programs:
   locator: .tv-program__row

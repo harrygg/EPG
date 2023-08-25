@@ -1,10 +1,9 @@
-id: waltdisney.bg
 author: Hristo Genev
 culture: bg-BG
+date-format: yyyyMMdd
 
 request:
   url: https://${host}/${channel}/${date}
-  date-format: yyyyMMdd
 
 programs:
   locator: li[data-datetime-date='${date.format(yyyy-MM-dd)}']

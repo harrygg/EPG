@@ -1,18 +1,19 @@
 ---
-id: moviestar.bg
-version: 1.0
 author: Hristo Genev
 culture: bg-BG
+locator-strategy: jsonpath
+date-format: unix
 
 request:
+  debug: true
   url: http://moviestar.bg/?rhc_action=get_calendar_events&post_type[]=events&start=${date}&end=${date.addDays(1).format(unix)}&rhc_shrink=0&view=agendaDay
   cache-priority: 3
   encoding: utf-8
-  date-format: unix
+  headers: 
+    referer: http://moviestar.bg
   
 programs:
   ordered: false
-  locator-strategy: jsonpath
   locator: $.EVENTS[?(@.fc_rdate =~ /${date.format(yyyyMMdd)}/)]
   
 elements:
@@ -22,17 +23,19 @@ elements:
   - name: start
     locator: fc_rdate
     time-format: yyyyMMddTHHmm
+    debug: false
     operations: 
     - name: regex-extract
-      debug: true
-      hook: after-extract
+      hook: after
       arguments: 
         - .*?(${date.format(yyyyMMdd)}T\d\d\d\d)
 
   - name: desc
     ignore-previous-parsing: true
-    language: bg
     locator: description
+    operations: 
+      - name: beautify
+        hook: after
 
   - name: icon
     locator: image[0]

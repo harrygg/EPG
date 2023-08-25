@@ -250,7 +250,7 @@
   - tv.dir.bg
   
 - id: trakia.potv.eu
-  enabled: false
+  enabled: true
   names:
   - name: ПОТВ Тракия
     lang: bg
@@ -2171,7 +2171,7 @@
   - tv.dir.bg
   
 - id: tvt.bg
-  enabled: false
+  enabled: true
   names:
   - name: TVT Tourism
     lang: en

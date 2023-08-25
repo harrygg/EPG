@@ -1,11 +1,9 @@
-id: tv-programa.bg
-version: 1.0
 author: Hristo Genev
 culture: bg-BG
 
 request:
+  debug: true
   url: https://www.xn----8sbafg9clhjcp.bg/tv/${channelId}/${date.format(dddd).capitalize()}
-  date-format: dddd
 
 programs:
   locator: .programTable > tbody > tr
@@ -25,7 +23,7 @@ elements:
         hook: after
 
   - name: detailsUrl
-    debug: true
+    debug: false
     locator: td > a
     attribute: href
 
@@ -76,12 +74,11 @@ channel-parameters:
   docubox.spiintl.com:
     channelId: docubox
 
-
-channel-extract-rules:
-  url: https://www.xn----8sbafg9clhjcp.bg/
-  channel-name: 
-    locator: .dropDownColumn a span
-    property: 
-  channel-param:
-    locator: .dropDownColumn a
-    attribute: href
+#channel-extract-rules:
+#  url: https://www.xn----8sbafg9clhjcp.bg/
+#  channel-name: 
+#    locator: .dropDownColumn a span
+#    property: 
+#  channel-param:
+#    locator: .dropDownColumn a
+#    attribute: href

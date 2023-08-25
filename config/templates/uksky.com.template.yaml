@@ -1,24 +1,25 @@
 ---
-id: uksky.com
-enabled: true
-version: 1.0
 author: Hristo Genev
 timezone: utc
+locator-strategy: jsonpath
+date-format: yyyyMMdd
 
 request:
-  url: https://awk.epgsky.com/hawk/linear/schedule/${date}/${channelId}
-  date-format: yyyyMMdd
+  url: https://awk.epgsky.com/hawk/linear/schedule/${date}/${channelId}  
     
 programs:
-  locator-strategy: jsonpath
+  debug: true
   locator: $.schedule[0].events[:]
 
 elements:
   - name: start
-    time-format: epoch
+    debug: false
     locator: st
+    time-format: epoch
+
   - name: title  
     locator: t
+  
   - name: desc
     locator: sy
       

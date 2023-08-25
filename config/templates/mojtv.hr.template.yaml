@@ -5,10 +5,10 @@ version: 1.0
 author: Hristo Genev
 culture: hr-HR
 timezone: Europe/Zagreb
+date-format: d.M.yyyy
 
 request:
   url: https://mojtv.hr/m2/tv-program/kanal.aspx?datum=${date}&id=${channelId}
-  date-format: d.M.yyyy
 
 programs:
   locator: .ui-body-b > ul > li
