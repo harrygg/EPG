@@ -11,4 +11,5 @@ config/siteini.user/
 bin/channels.json
 bin/wgmulti.log.txt
 output.txt
+*.xml
 DS_Store
