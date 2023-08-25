@@ -1,11 +1,10 @@
-id: viasat.bg
-version: 1.0
-author: Hristo Genev
+---
+uthor: Hristo Genev
 culture: bg-BG
+date-format: yyyy-MM-d
 
 request:
   url: https://${host}/?date=${date}
-  date-format: yyyy-MM-d
 
 programs:
   locator: .list-unstyled,.accordian-inner-items li

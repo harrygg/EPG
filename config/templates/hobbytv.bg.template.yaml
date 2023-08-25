@@ -1,13 +1,10 @@
 ---
-id: hobbytv.bg
-enabled: true
-version: 1.0
 author: Hristo Genev
 culture: bg-BG
+date-format: epoch
 
 request:
   url: http://hobbytv.bg/index.php?p=program&channel=${channelId}&day=${date}
-  date-format: epoch
     
 programs:
   locator: .dayselect table:nth-of-type(2) tr

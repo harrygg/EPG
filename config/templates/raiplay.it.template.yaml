@@ -3,13 +3,13 @@ id: raiplay.it
 enabled: true
 version: 1.0
 author: Hristo Genev
+locator-strategy: jsonpath
+date-format: dd-MM-yyyy
 
 request:
   url: https://www.raiplay.it/palinsesto/app/${channelId}/${date}.json
-  date-format: dd-MM-yyyy
     
 programs:
-  locator-strategy: jsonpath
   locator: events[:]
 
 elements:

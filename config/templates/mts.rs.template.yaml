@@ -1,20 +1,18 @@
 ---
-id: mts.rs
-enabled: true
 version: 1.0
 author: Hristo Genev
 culture: sr-Latn-RS
 timezone: UTC
+locator-strategy: jsonpath
+date-format: yyyy-MM-dd
 
 request:
   url: https://mts.rs/oec/epg/program?date=${date}&position=${channelId}
-  date-format: yyyy-MM-dd
   headers:
     X-Requested-With: XMLHttpRequest
     Referer: https://mts.rs/oec/epg
 
 programs:
-  locator-strategy: jsonpath
   locator: $.channels[0].items[:]
 
 elements:
@@ -39,18 +37,18 @@ elements:
   - name: icon
     locator: image
 
-channel-extract-rules:
-  url: https://mts.rs/oec/epg/channel
-  headers:
-    X-Requested-With: XMLHttpRequest
-    Referer: https://mts.rs/oec/epg
+#channel-extract-rules:
+#  url: https://mts.rs/oec/epg/channel
+#  headers:
+#    X-Requested-With: XMLHttpRequest
+#    Referer: https://mts.rs/oec/epg
     
-  locator-strategy: jsonpath
-  channel-name:
-    locator: $.*.name
+#  locator-strategy: jsonpath
+#  channel-name:
+#    locator: $.*.name
     
-  channel-param: 
-    locator: $.*.position
+#  channel-param: 
+#    locator: $.*.position
 
 channel-parameters:
   rts1.rs:

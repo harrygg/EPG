@@ -1,12 +1,9 @@
 ---
-id: nova.bg
-enabled: true
-version: 1.0
 author: Hristo Genev
+date-format: yyyy/MM/dd
 
 request:
   url: https://nova.bg/schedule/index/${channelId}/${date}
-  date-format: yyyy/MM/dd
   
 programs:
   locator: ol[data-date='${date.format(yyyy-MM-dd)}'] li

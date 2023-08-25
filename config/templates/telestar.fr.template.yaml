@@ -1,31 +1,33 @@
 ---
-id: telestar.fr
-enabled: true
 version: 1.0
 author: Hristo Genev
 culture: fr-FR
 timezone: Europe/Paris
+date-format: list
+date-list: [1,2,3,4,5,6,7]
 
 request:
+  debug: false
   url: https://www.telestar.fr/programme-tv/grille-chaine/${channelId}
-  date-format: list
-  list: [ 1, 2, 3, 4, 5, 6, 7 ]
 
 programs:
+  debug: true
   locator: .channel:nth-of-type(${date}) .program
     
 elements:
   - name: start
     time-format: "HH'h'mm" 
-    locator: .time
+    #locator: .time
+    locator: time">(\d\dh\d\d)\s+ 
+    locator-strategy: regex
     debug: true
-    operations:
-    - name: regex-remove
-      arguments: [ '\s*-.*?\)' ]
-      hook: after-extract
+    #operations:
+    #- name: regex-remove
+    #  arguments: [ '\s*-.*?\)' ]
+    #  hook: after
 
   - name: title
-    lang: fr
+    language: fr
     locator: .title
 
   - name: category

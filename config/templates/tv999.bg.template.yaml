@@ -1,6 +1,4 @@
 ---
-id: tv999.bg
-enabled: true
 version: 1.0
 author: Hristo Genev
 culture: bg-BG
@@ -16,7 +14,7 @@ elements:
     locator: .item_published
     operations: 
       - name: regex-extract
-        hook: after-extract
+        hook: after
         arguments: [ '(\d\d:\d\d)' ]
 
   - name: stop

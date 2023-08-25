@@ -9,7 +9,6 @@ request:
   url: https://www.tvguide.co.uk/mobile/channellisting.asp?ch=${channelId}
 
 programs:
-  locator-strategy: csspath
   locator: div#channel-listings tr
 
 elements:

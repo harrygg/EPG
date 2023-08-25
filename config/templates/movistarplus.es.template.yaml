@@ -1,16 +1,14 @@
 ---
-id: moviestarplus.es
-enabled: true
 version: 1.0
 author: Hristo Genev
 timezone: Europe/Madrid
+locator-strategy: jsonpath
+date-format: yyyy-MM-dd
 
 request:
   url: https://www.movistarplus.es/programacion-tv/${date}?v=json
-  date-format: yyyy-MM-dd
     
 programs:
-  locator-strategy: jsonpath
   locator: $.data.${channelId}.PROGRAMAS[:]
 
 elements:
@@ -35,10 +33,10 @@ channel-parameters:
   telesur.es:
     channelId: TLESUR-CODE
 
-channel-extract-rules:
-  url: https://www.movistarplus.es/programacion-tv/?v=json  
-  locator-strategy: jsonpath
-  channel-name:
-    locator: $.data.*~
-  channel-param:
-    locator: $.data.*.DATOS_CADENA.NOMBRE
+#channel-extract-rules:
+#  url: https://www.movistarplus.es/programacion-tv/?v=json  
+#  locator-strategy: jsonpath
+#  channel-name:
+#    locator: $.data.*~
+#  channel-param:
+#    locator: $.data.*.DATOS_CADENA.NOMBRE

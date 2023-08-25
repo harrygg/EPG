@@ -1,24 +1,23 @@
-id: tvtoday.de
-version: 1.0
+---
 author: Hristo Genev
 culture: DE-de
 timezone: UTC
+date-format: yyMMdd
 
 request:
   url: https://m.tvtoday.de/programm/standard/sender/${channelId}.html?date=${date}
-  date-format: yyMMdd
 
 programs:
   locator: li.time-listing
 
-elements: 
-  - name: title
-    locator: .tv-tip-heading
-  
+elements:
   - name: start
-    locator: 
+    debug: false
     attribute: data-start-time
     time-format: unix
+
+  - name: title
+    locator: .tv-tip-heading
 
   #- name: stop
   #  locator: li
@@ -429,14 +428,14 @@ channel-parameters:
   Bergblick:
     channelId: berg
 
-channel-extract-rules:
-  url: https://m.tvtoday.de/tv-programm/?time=now&hptime=0&show-index=0&limit=999&category=
+#channel-extract-rules:
+#  url: https://m.tvtoday.de/tv-programm/?time=now&hptime=0&show-index=0&limit=999&category=
 
-  channel-name:
-    locator: li.tv-tip > a.icon-wrap
-    attribute: title
-  channel-param:
-    locator: li.tv-tip > a.icon-wrap
-    attribute: href
+#  channel-name:
+#    locator: li.tv-tip > a.icon-wrap
+#    attribute: title
+#  channel-param:
+#    locator: li.tv-tip > a.icon-wrap
+#    attribute: href
 
 

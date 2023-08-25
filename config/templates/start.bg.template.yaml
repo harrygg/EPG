@@ -1,13 +1,10 @@
 ---
-id: start.bg
-enabled: true
-version: 1.0
 author: Hristo Genev
 culture: bg-BG
+date-format: yyyy-MM-dd
 
 request:
   url: https://www.start.bg/lenta/tv-programa//tv/show/channel/${channelId}/${date}/0
-  date-format: yyyy-MM-dd
 
 programs:
   locator: .tv-dlist > li
@@ -17,7 +14,7 @@ elements:
     locator: .time
 
   - name: title
-    lang: bg
+    language: bg
     locator: .title
 
 channel-parameters:    
@@ -298,11 +295,11 @@ channel-parameters:
   'Diema Sport 3':
     channelId: 249    
 
-channel-extract-rules:
-  url: https://www.start.bg/lenta/tv-programa//tv/show/channel/11
-  channel-name:
-    locator: select.tv option
-    attribute: text
-  channel-param: 
-    locator: select.tv option
-    property: value
+#channel-extract-rules:
+#  url: https://www.start.bg/lenta/tv-programa//tv/show/channel/11
+#  channel-name:
+#    locator: select.tv option
+#    attribute: text
+#  channel-param: 
+#    locator: select.tv option
+#    property: value

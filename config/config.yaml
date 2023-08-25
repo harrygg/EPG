@@ -92,7 +92,7 @@ output-files:
     # 3 - include all available details
     details-level: 3
     
-  - name: epg.xml
+  - name: epg.xml.gz
     days-ahead: 4
     days-behind: 0
     compression: gzip
@@ -102,12 +102,12 @@ output-files:
     days-behind: 0
     compression: none
 
-  - name: all-4days.full.epg.xml
+  - name: all-4days.full.epg.xml.gz
     days-ahead: 4
     days-behind: 0
     compression: gzip
 
-  - name: all-4days.details.epg.xml
+  - name: all-4days.details.epg.xml.gz
     days-ahead: 4
     days-behind: 0
     compression: gzip  
@@ -117,7 +117,7 @@ output-files:
     days-behind: 0
     compression: none  
 
-  - name: all-4days.basic.epg.xml
+  - name: all-4days.basic.epg.xml.gz
     days-ahead: 4
     days-behind: 0
     compression: gzip 
@@ -133,7 +133,7 @@ output-files:
     details-level: 1
     compression: none
     
-  - name: all-3days.basic.epg.xml
+  - name: all-3days.basic.epg.xml.gz
     days-ahead: 3
     days-behind: 0
     details-level: 1
@@ -145,13 +145,13 @@ output-files:
     details-level: 2
     compression: none
     
-  - name: all-3days.details.epg.xml
+  - name: all-3days.details.epg.xml.gz
     days-ahead: 3
     days-behind: 0
     details-level: 2
     compression: gzip
     
-  - name: all-3days.details.epg.xml
+  - name: all-3days.details.epg.xml.gz
     days-ahead: 3
     days-behind: 0
     details-level: 2
@@ -162,12 +162,12 @@ output-files:
     days-behind: 0
     compression: none
     
-  - name: all-3days.full.epg.xml
+  - name: all-3days.full.epg.xml.gz
     days-ahead: 3
     days-behind: 0
     compression: gzip
     
-  - name: all-2days.full.epg.xml
+  - name: all-2days.full.epg.xml.gz
     days-ahead: 2
     days-behind: 0
     compression: gzip
@@ -183,7 +183,7 @@ output-files:
     details-level: 2
     compression: none
     
-  - name: all-2days.details.epg.xml
+  - name: all-2days.details.epg.xml.gz
     days-ahead: 2
     days-behind: 0
     details-level: 2
@@ -195,13 +195,13 @@ output-files:
     details-level: 1
     compression: none
     
-  - name: all-2days.basic.epg.xml
+  - name: all-2days.basic.epg.xml.gz
     days-ahead: 2
     days-behind: 0
     details-level: 1
     compression: gzip
     
-  - name: bulgarian.3days.full.epg.xml
+  - name: bulgarian.3days.full.epg.xml.gz
     days-ahead: 4
     days-behind: 0
     groups: ["bg"]

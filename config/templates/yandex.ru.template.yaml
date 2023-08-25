@@ -1,9 +1,7 @@
 ---
-id: tv.yandex.ru
-enabled: true
-version: 1.0
 author: Hristo Genev
 culture: Ru-ru
+date-format: yyyy-MM-dd
 
 init-page:
   request:
@@ -21,7 +19,6 @@ init-page:
 
 request:
   url: https://tv.yandex.ru/api/10379/channel/${channelId}/schedule?selectedDay=${date}
-  date-format: yyyy-MM-dd
   headers:
     Referer: https://tv.yandex.ru/
     X-Requested-With: XMLHttpRequest
@@ -61,12 +58,12 @@ channel-parameters:
 
 
 # Used for extracting channel names and params from a page containing the list of available channels
-channel-extract-rules: 
-  url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=now&tz=0&search=&channel=&offset=0
-  channel-name: 
-    locator: .channel-header--title a
-    property: text
+#channel-extract-rules: 
+#  url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=now&tz=0&search=&channel=&offset=0
+#  channel-name: 
+#    locator: .channel-header--title a
+#    property: text
     
-  channel-param: 
-    locator: .channel-header--title a
-    attribute: href
+#  channel-param: 
+#    locator: .channel-header--title a
+#    attribute: href
