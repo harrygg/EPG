@@ -1,0 +1,46 @@
+
+C:\WINDOWS\system32>cd "C:\Git\EPG" 
+
+C:\Git\EPG>bin\app.exe grab -f "C:\Git\EPG\config" -o "C:\Git\EPG" -l 2 
+
+C:\Git\EPG>git pull 
+Updating fe763fe..18eaa3b
+Fast-forward
+ EPG.grabber.log                 | 25304 --------------------------------------
+ all-2days.basic.epg.xml.gz      |   Bin 197190 -> 153510 bytes
+ all-2days.details.epg.xml.gz    |   Bin 426152 -> 315036 bytes
+ all-2days.full.epg.xml.gz       |   Bin 431885 -> 319240 bytes
+ all-3days.basic.epg.xml.gz      |   Bin 282319 -> 212339 bytes
+ all-3days.details.epg.xml.gz    |   Bin 604020 -> 446131 bytes
+ all-3days.full.epg.xml.gz       |   Bin 613416 -> 453702 bytes
+ all-4days.basic.epg.xml.gz      |   Bin 789280 -> 612491 bytes
+ all-4days.details.epg.xml.gz    |   Bin 789280 -> 612491 bytes
+ all-4days.full.epg.xml.gz       |   Bin 789280 -> 612491 bytes
+ bin/EPG.grabber.log             |     9 -
+ bulgarian.3days.full.epg.xml.gz |   Bin 52649 -> 40630 bytes
+ epg.xml.gz                      |   Bin 789280 -> 612491 bytes
+ run.sh                          |     2 +-
+ 14 files changed, 1 insertion(+), 25314 deletions(-)
+ delete mode 100644 EPG.grabber.log
+ delete mode 100644 bin/EPG.grabber.log
+
+C:\Git\EPG>git statuss 
+
+C:\Git\EPG>git add -A 
+
+C:\Git\EPG>git commit -m "Manual update" 
+[arm64 6d18d4e] Manual update
+ 1 file changed, 32137 deletions(-)
+
+C:\Git\EPG>git push 
+
+C:\Git\EPG>git status 
+On branch arm64
+Your branch is up to date with 'origin/arm64'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   run.console.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
