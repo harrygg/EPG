@@ -1,6 +1,4 @@
 ---
-id: city.bg
-enabled: true
 version: 1.0
 author: Hristo Genev
 culture: bg-BG
@@ -17,7 +15,7 @@ elements:
     time-format: HH.mm
             
   - name: title
-    lang: bg
+    language: bg
     locator: .show-name
 
   - name: detailsUrl
@@ -30,4 +28,7 @@ program-details:
 
   elements:
     - name: desc
-      locator: .show-article p
+      locator: .show-article
+      operations:
+        - name: beautify
+          hook: after

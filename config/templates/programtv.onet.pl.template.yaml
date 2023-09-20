@@ -4,11 +4,11 @@ enabled: true
 version: 1.0
 author: Hristo Genev
 timezone: Europe/Warsaw
+date-format: list
+date-list: [ 0, 1, 2, 3, 4, 5, 6]
 
 request:
   url: http://programtv.onet.pl/program-tv/${url}?dzien=${date}
-  date-format: list
-  list: [ 0, 1, 2, 3, 4, 5, 6]
 
 programs:
   debug: false

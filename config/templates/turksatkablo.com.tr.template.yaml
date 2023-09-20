@@ -3,13 +3,13 @@ id: turksatkablo.com.tr
 enabled: true
 version: 1.0
 author: Hristo Genev
+locator-strategy: jsonpath
+date-format: epoch
 
 request:
   url: https://www.turksatkablo.com.tr/userUpload/EPG/b.json?_=${date} 
-  date-format: epoch
     
 programs:
-  locator-strategy: jsonpath
   locator: $.k[?(@.n=='${channelId}')].p[:]
 
 elements:

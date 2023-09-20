@@ -1,11 +1,10 @@
-id: tv.dir.bg
-version: 1.0
+---
 author: Hristo Genev
+date-format: dd.MM
 
 request:
   cache-priority: 2
   url: https://tv.dir.bg/tv_channel.php?id=${channelId}&dd=${date}
-  date-format: dd.MM
 
 programs:
   locator: '#events li'
@@ -275,11 +274,11 @@ channel-parameters:
 
 # Used for extracting channel names and params from a page 
 # containing the list of available channels
-channel-extract-rules:
-  url: https://tv.dir.bg/
-  channel-name: 
-    locator: "#tab3-1 a,#tab3-2 a"
-    property: text
-  channel-param:
-    locator: "#tab3-1 a,#tab3-2 a"
-    attribute: href
+#channel-extract-rules:
+#  url: https://tv.dir.bg/
+#  channel-name: 
+#    locator: "#tab3-1 a,#tab3-2 a"
+#    property: text
+#  channel-param:
+#    locator: "#tab3-1 a,#tab3-2 a"
+#    attribute: href

@@ -1,11 +1,11 @@
 ---
 version: 1.0
+enabled: false
 author: Hristo Genev
 culture: bg-BG
-date-format: yyyy-MM-dd
 
 request:
-  url: https://www.dnes.bg/tv.php?tv=${channelId}&date=${date}
+  url: https://see.bg/tv-programa
   
 programs:
   exclude-first: 1

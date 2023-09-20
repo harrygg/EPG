@@ -1,14 +1,12 @@
 ---
-id: ohotarybalka.tv
-version: 1.0
 author: Hristo Genev
+locator-strategy: jsonpath
+date-format: epoch
 
 request:
   url: http://core.ohotarybalka.tv/uiapi/schedule/week/${date}
-  date-format: epoch
     
 programs:
-  locator-strategy: jsonpath
   locator: items[:]
 
 elements:

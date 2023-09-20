@@ -1,38 +1,34 @@
----
-id: arenasport.com
-enabled: true
-version: 1.0
 author: Hristo Genev
 culture: sr-Latn-RS
-timezone: utc
+timezone: Europe/Belgrade
+locator-strategy: csspath
+date-format: yyyy-MM-dd
 
 request:
-  url: https://www.tvarenasport.${topdomain}/api/schedule?date=&date=${date}
-  date-format: d-MM-yyyy
-    
+  url: https://www.tvarenasport.${topdomain}/tv-scheme/${date}
+  debug: false
+
 programs:
-  locator-strategy: jsonpath
-  locator: $.items[?(@.group =~ /${channelId}/)]
+  locator: .tv-scheme-slider-item:nth-of-type(${channelId}) .slider-content
+  debug: true
 
 elements:
   - name: start
-    time-format: o
-    locator: start
+    locator: div.slider-content-header > span:nth-child(1)
+    debug: true
 
   - name: sportType
-    locator: sport
+    debug: true
+    locator: div.slider-content-header > span:nth-child(2)
     operations:
       - name: append
         hook: after
         arguments: [ ": " ]
         conditions: [ value-not-empty ]
-
-  - name: category
-    enabled: false
-    locator: league
-
+    
   - name: title  
-    locator: title
+    debug: true
+    locator: p
     language: sr
     operations:
       - name: prepend
@@ -42,41 +38,52 @@ elements:
           - argument-not-empty
           - argument-not-contain-value
 
+  - name: category
+    enabled: true
+    locator: .category
+
       
 channel-parameters:
+  arenasportpremium1.sr:
+    topdomain: com 
+    channelId: 1
+  arenasportpremium2.sr:
+    topdomain: com 
+    channelId: 2
+  arenasportpremium3.sr:
+    topdomain: com
+    channelId: 3
   arenasport1.sr:
     topdomain: com 
-    channelId: 380
+    channelId: 4
   arenasport2.sr:
     topdomain: com 
-    channelId: 381
+    channelId: 5
   arenasport3.sr:
     topdomain: com
-    channelId: 382
+    channelId: 6
   arenasport4.sr:
     topdomain: com
-    channelId: 383
+    channelId: 7
   arenasport5.sr:
     topdomain: com
-    channelId: 384
+    channelId: 8
   arenasport6.sr:
     topdomain: com
-    channelId: 5594
+    channelId: 9
   arenasport7.sr:
     topdomain: com
-    channelId: 5595
+    channelId: 10
   arenasport8.sr:
     topdomain: com
-    channelId: 5596
-  arenapremium1.sr:
+    channelId: 11
+  arenasport9.sr:
     topdomain: com
-    channelId: 5710
-  arenapremium2.sr:
+    channelId: 12
+  arenasport10.sr:
     topdomain: com
-    channelId: 5711
-  arenapremium3.sr:
-    topdomain: com
-    channelId: 5712
+    channelId: 13
+
   arenasport1.hr:
     topdomain: hr
     channelId: 380

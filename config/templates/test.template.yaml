@@ -1,18 +1,15 @@
 ﻿---
-enabled: true
 author: Hristo Genev
-version: 0.2
+date-format: YYYYMMdd
 
 request:
   method: POST
   url: https://localhost.home/${date}
-  date-format: YYYYMMdd
   headers:
     user-agent: EPG.Grabber
 
 programs:
   debug: true
-  locator-strategy: csspath
   locator: ${locator}
   exclude-first-blocks: 1
 

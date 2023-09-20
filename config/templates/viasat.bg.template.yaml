@@ -27,6 +27,7 @@ elements:
 
   - name: desc
     locator: .description > p
+    type: InnerText
     operations:
       - name: beautify
         hook: after

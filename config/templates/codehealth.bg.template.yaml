@@ -1,29 +1,36 @@
 ---
-id: codehealth.bg
-version: 1.0
 author: Hristo Genev
 culture: bg-BG
+date-format: epoch
+locator-strategy: csspath
 
 request:
-  url: https://codehealth.bg/wp-admin/admin-ajax.php
+  debug: true
+  url: https://codehealthplay.bg/wp-admin/admin-ajax.php
   cache-lifetime: 0
-  date-format: unix
   http-method: POST
-  body: action=extvs_get_schedule_simple&param_shortcode={"style":"2","fullcontent_in":"collapse","show_image":"show","channel":"","slidesshow":"","slidesscroll":"","start_on":"","before_today":"0","after_today":"5","order":"DESC","orderby":"date","meta_key":"","meta_value":"","ID":"ex-6275"}&date=${date}&chanel=code-health
   headers:
     content-type: application/x-www-form-urlencoded
+  #body: action=extvs_get_schedule_simple&param_shortcode=%7B%22style%22%3A%222%22%2C%22fullcontent_in%22%3A%22collapse%22%2C%22show_image%22%3A%22show%22%2C%22channel%22%3A%22code-health%22%2C%22slidesshow%22%3A%22%22%2C%22slidesscroll%22%3A%22%22%2C%22start_on%22%3A%22%22%2C%22before_today%22%3A%22%22%2C%22after_today%22%3A%22%22%2C%22order%22%3A%22DESC%22%2C%22orderby%22%3A%22date%22%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22ID%22%3A%22ex-4305%22%7D&date=1679011200&chanel=code-health
+  body-params: 
+    action: extvs_get_schedule_simple
+    param_shortcode: '{"style":"2","fullcontent_in":"collapse","show_image":"show","channel":"code-health","slidesshow":"","slidesscroll":"","start_on":"","before_today":"","after_today":"","order":"DESC","orderby":"date","meta_key":"","meta_value":"","ID":"ex-4305"}'
+    date: ${date.from(utc)}
+    chanel: code-health
+
   operations:
     - name: regex-unescape
       hook: after
+      debug: false
     - name: remove-before
       hook: after
       arguments: [ '{"html":"', true ]
     - name: remove-after
       hook: after
       arguments: [ '","current_day', true ]
+      debug: false
   
 programs:
-  locator-strategy: csspath
   locator: tr
 
 elements:

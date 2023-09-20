@@ -1,13 +1,11 @@
 ---
-id: axn.bg
-enabled: true
-version: 1.0
 author: Hristo Genev
 culture: bg-BG
+date-format: yyyy/MM/dd
 
 request:
+  debug: true
   url: https://www.axn-bulgaria.com/programa/ajax/axnbg/data/listings/true/${date}
-  date-format: yyyy/MM/dd
     
 programs:
   locator: li.listing
@@ -15,10 +13,12 @@ programs:
 elements:
   - name: start
     locator: .date
+
   - name: _meta
     locator: .meta
+
   - name: title
-    lang: bg
+    language: bg
     locator: .title
     operations:
       - name: beautify
@@ -28,11 +28,13 @@ elements:
         arguments: [ ", ${_meta}" ]
         conditions: [ value-not-empty ]
   - name: category
-    lang: en
+    language: en
     locator: .genre
+
   - name: icon
     locator: img
     attribute: src
+
   - name: _detailsurl
     locator: .title a
     attribute: href

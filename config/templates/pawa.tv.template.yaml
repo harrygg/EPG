@@ -1,14 +1,11 @@
 ---
-id: pawa.tv
-enabled: true
-version: 1.0
 author: Hristo Genev
 culture: bg-BG
+date-format: yyyy-MM
 
 request: 
-  url: http://exports.pawa.tv/viasat/${channelNameEncoded}/Bulgarian/${date}-${channelName}-EET.xml
-  use-cache: true
-  date-format: yyyy-MM
+  url: http://exports.pawa.tv/viasat/${channelNameEncoded}/Bulgarian/${date}-${channelNameEncoded}-EET.xml
+  cache-lifetime: 3
     
 programs: 
   locator: day[date='${date.format(yyyy-MM-dd)}'] > program
@@ -44,9 +41,8 @@ elements:
     operations:   
       - name: prepend
         hook: after
-        arguments: 
-          - В този епизод:
-        conditions:  ['value-not-empty']
+        arguments: [В този епизод:]
+        conditions: ['value-not-empty']
           
   - name: bline
     locator: bline
@@ -86,12 +82,12 @@ elements:
     attribute: src
 
 channel-parameters: 
-  epicdrama.bg:
-    channelNameEncoded: Epic%20Drama%20(CEE)
-    channelName: EpicDrama(CEE)
   tv1000.bg:
     channelNameEncoded: TV1000%20Balkan
     channelName: TV1000Balkan
+  epicdrama.bg:
+    channelNameEncoded: Epic%20Drama%20(CEE)
+    channelName: EpicDrama(CEE)
   explore.viasat.bg:
     channelNameEncoded: Viasat%20Explore%20CEE
     channelName: ViasatExploreCEE

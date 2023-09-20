@@ -1,17 +1,13 @@
----
-id: bnt.bg
-enabled: true
-version: 1.0
 author: Hristo Genev
-content-culture: bg-BG
+culture: bg-BG
+date-format: yyyyMMdd
 
 request:
-  url: https://bnt.bg/program/${urlParam}/${date}
-  date-format: yyyyMMdd
+  url: https://bnt.bg/program/${channelId}
 
 programs:
   locator: .tab-holder-${date} a
-
+    
 elements:
   - name: title
     locator: .name
@@ -40,12 +36,12 @@ program-details:
 
 channel-parameters:
   bnt1.bg:
-    urlParam: bnt1
+    channelId: bnt1
   bnt2.bg:
-    urlParam: bnt2
+    channelId: bnt2
   bnt3.bg:
-    urlParam: bnt3
+    channelId: bnt3
   bnt4.bg:
-    urlParam: bnt4
+    channelId: bnt4
 
 delay-between-requests: 500

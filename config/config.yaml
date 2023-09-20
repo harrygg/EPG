@@ -6,7 +6,7 @@ log-level: verbose
 days-ahead: 4
 
 # The number of days in the past a program will be kept for.
-days-behind: 7
+days-behind: 1
 
 # The number of threads that will be run in parallel. 
 # Each thread will start a grabber for a website template.
