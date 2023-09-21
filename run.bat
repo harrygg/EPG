@@ -1,6 +1,6 @@
 cd "C:\Git\EPG"
 
-bin\app.exe grab -f "C:\Git\EPG\config" -o "C:\Git\EPG" -l 2
+bin\app.exe grab -f "C:\Git\EPG\config" -o "C:\Git\EPG" -l 0
 
 git pull
 git status

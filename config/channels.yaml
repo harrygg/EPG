@@ -1839,7 +1839,7 @@
   - name: RT News HD
     lang: en
   sources:
-  - tv.yandex.ru
+  - yandex.ru
   - uksky.com
   - programtv.onet.pl
   
@@ -1850,7 +1850,7 @@
   - name: RT Docu
   - name: RT Docu HD
   sources:
-  - tv.yandex.ru
+  - yandex.ru
   
 - id: nhkworld.com
   enabled: true
@@ -2089,7 +2089,6 @@
   - name: Хоби ТВ
     lang: bg
   sources:
-  - hobbytv.bg
   - dnes.bg
   - tv.dir.bg
   - tv-programa.bg
@@ -2112,7 +2111,7 @@
   - name: Ohota Rybalka
     lang: en
   sources:
-  - tv.yandex.ru
+  - yandex.ru
   - ntvplus.ru
   - dnes.bg
   - ohotarybalka.tv
@@ -2241,7 +2240,7 @@
   - name: Живая природа HD
   - name: Jivaya Priroda
   sources:
-  - tv.yandex.ru
+  - yandex.ru
 
   
 - id: wnesstv.com
