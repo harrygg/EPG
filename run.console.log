@@ -20663,3 +20663,21 @@ Changes not staged for commit:
 	modified:   sport.epg.xml
 
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 9ffe8ce] Scheduled update
+ 13 files changed, 302225 insertions(+), 238468 deletions(-)
+ rewrite all-2days.basic.epg.xml (98%)
+ rewrite all-2days.details.epg.xml (96%)
+ rewrite all-3days.basic.epg.xml (98%)
+ rewrite all-3days.details.epg.xml (95%)
+ rewrite all-3days.full.epg.xml (95%)
+ rewrite all-4days.full.epg.xml (93%)
+ rewrite run.console.log (67%)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   run.console.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
