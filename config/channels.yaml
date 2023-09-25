@@ -206,8 +206,8 @@
     lang: en
   groups: ["bg"]
   sources:
-  - start.bg
   - dnes.bg
+  - start.bg
   - tv.dir.bg
   
 - id: bulgaria24.bg
@@ -1832,7 +1832,7 @@
   sources:
   
 - id: russiatoday.com
-  enabled: true
+  enabled: false
   names:
   - name: Russia Today
     lang: en
@@ -1844,7 +1844,7 @@
   - programtv.onet.pl
   
 - id: rtdoc.com
-  enabled: true
+  enabled: false
   names:
   - name: RT Doc
   - name: RT Docu

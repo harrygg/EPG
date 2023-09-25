@@ -8,7 +8,7 @@ request:
   url: https://awk.epgsky.com/hawk/linear/schedule/${date}/${channelId}  
     
 programs:
-  debug: true
+  debug: false
   locator: $.schedule[0].events[:]
 
 elements:
