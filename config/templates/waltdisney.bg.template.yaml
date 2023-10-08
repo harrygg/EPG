@@ -24,16 +24,16 @@ elements:
 
 channel-parameters:
   fox.bg:
-    host: www.foxtv.bg/schedule
-    channel: fox
+    host: www.starchannel-bg.com/schedule
+    channel: star
 
   foxlife.bg:
-    host: www.foxtv.bg/schedule
-    channel: foxlife
+    host: www.starchannel-bg.com/schedule
+    channel: starlife
     
   foxcrime.bg:
-    host: www.foxtv.bg/schedule
-    channel: foxcrime
+    host: www.starchannel-bg.com/schedule
+    channel: starcrime
 
   natgeo.bg:
     host: www.natgeotv.com/bg/schedule

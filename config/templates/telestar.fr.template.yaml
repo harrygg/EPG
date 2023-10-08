@@ -11,7 +11,7 @@ request:
   url: https://www.telestar.fr/programme-tv/grille-chaine/${channelId}
 
 programs:
-  debug: true
+  debug: false
   locator: .channel:nth-of-type(${date}) .program
     
 elements:
@@ -20,7 +20,7 @@ elements:
     #locator: .time
     locator: time">(\d\dh\d\d)\s+ 
     locator-strategy: regex
-    debug: true
+    debug: false
     #operations:
     #- name: regex-remove
     #  arguments: [ '\s*-.*?\)' ]

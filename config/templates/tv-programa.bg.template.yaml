@@ -2,7 +2,7 @@ author: Hristo Genev
 culture: bg-BG
 
 request:
-  debug: true
+  debug: false
   url: https://www.xn----8sbafg9clhjcp.bg/tv/${channelId}/${date.format(dddd).capitalize()}
 
 programs:
@@ -35,7 +35,7 @@ program-details:
   elements:
     - name: desc
       locator: .filmInfo
-      debug: true
+      debug: false
       operations:
       - name: beautify
         hook: after
