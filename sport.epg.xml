@@ -196,9 +196,6 @@
     <display-name lang="es">M+ Deportes</display-name>
     <display-name lang="es">Movistar Deportes 1 HD</display-name>
   </channel>
-  <programme start="20231009010000 +0300" stop="20231010090000 +0300" channel="novasport.bg">
-    <title>Еротичен Телепазар</title>
-  </programme>
   <programme start="20231010090000 +0300" stop="20231010110000 +0300" channel="novasport.bg">
     <title>Ланс - Лил</title>
     <desc>8 кръг, Футбол: Лига 1 на Франция 2023/2024, /n/</desc>
@@ -289,42 +286,6 @@
   <programme start="20231011230000 +0300" channel="novasport.bg">
     <title>Фортуна Дюселдорф - Оснабрюк</title>
     <desc>9 кръг, Футбол: Втора Бундеслига 2023/2024, /n/</desc>
-  </programme>
-  <programme start="20231009070000 +0300" stop="20231009090000 +0300" channel="diemasport.bg">
-    <title>Етър - Хебър, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
-  </programme>
-  <programme start="20231009090000 +0300" stop="20231009110000 +0300" channel="diemasport.bg">
-    <title>ЦСКА 1948 - Ботев Пловдив, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
-  </programme>
-  <programme start="20231009110000 +0300" stop="20231009130000 +0300" channel="diemasport.bg">
-    <title>Лудогорец - Пирин, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
-  </programme>
-  <programme start="20231009130000 +0300" stop="20231009150000 +0300" channel="diemasport.bg">
-    <title>Славия - Арда, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
-  </programme>
-  <programme start="20231009150000 +0300" stop="20231009170000 +0300" channel="diemasport.bg">
-    <title>ЦСКА - Левски, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
-  </programme>
-  <programme start="20231009170000 +0300" stop="20231009173000 +0300" channel="diemasport.bg">
-    <title>Студио "Втора професионална лига", директно</title>
-  </programme>
-  <programme start="20231009173000 +0300" stop="20231009192500 +0300" channel="diemasport.bg">
-    <title>Монтана - Спартак Варна, 13 кръг, Футбол: Втора професионална лига 2023/2024, директно</title>
-  </programme>
-  <programme start="20231009192500 +0300" stop="20231009200000 +0300" channel="diemasport.bg">
-    <title>Студио "Втора професионална лига", директно</title>
-  </programme>
-  <programme start="20231009200000 +0300" stop="20231009210000 +0300" channel="diemasport.bg">
-    <title>efbet Лига: Обзор на кръга, 13 епизод, предаване за български футбол 2023/2024, директно</title>
-  </programme>
-  <programme start="20231009210000 +0300" stop="20231009230000 +0300" channel="diemasport.bg">
-    <title>Черно Море - Локомотив Пловдив, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
-  </programme>
-  <programme start="20231009230000 +0300" stop="20231010010000 +0300" channel="diemasport.bg">
-    <title>Крумовград - Ботев Враца, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
-  </programme>
-  <programme start="20231010010000 +0300" stop="20231010030000 +0300" channel="diemasport.bg">
-    <title>Берое - Локомотив София, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
   </programme>
   <programme start="20231010030000 +0300" stop="20231010040000 +0300" channel="diemasport.bg">
     <title>efbet Лига: Обзор на кръга, 13 епизод, предаване за български футбол 2023/2024, /п/</title>
@@ -422,77 +383,86 @@
   <programme start="20231012020000 +0300" stop="20231012030000 +0300" channel="diemasport.bg">
     <title>Домът на футбола, 14 епизод, предаване за български футбол 2023/2024, /п/</title>
   </programme>
-  <programme start="20231012030000 +0300" stop="20231012080000 +0300" channel="diemasport.bg">
+  <programme start="20231012030000 +0300" stop="20231012073000 +0300" channel="diemasport.bg">
     <title>Програмна пауза${_desc}</title>
   </programme>
-  <programme start="20231012080000 +0300" stop="20231012100000 +0300" channel="diemasport.bg">
+  <programme start="20231012073000 +0300" stop="20231012093000 +0300" channel="diemasport.bg">
     <title>Етър - Хебър, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231012100000 +0300" stop="20231012120000 +0300" channel="diemasport.bg">
+  <programme start="20231012093000 +0300" stop="20231012113000 +0300" channel="diemasport.bg">
     <title>Монтана - Спартак Варна, 13 кръг, Футбол: Втора професионална лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231012120000 +0300" stop="20231012130000 +0300" channel="diemasport.bg">
+  <programme start="20231012113000 +0300" stop="20231012123000 +0300" channel="diemasport.bg">
     <title>efbet Лига: Обзор на кръга, 13 епизод, предаване за български футбол 2023/2024, /п/</title>
   </programme>
-  <programme start="20231012130000 +0300" stop="20231012140000 +0300" channel="diemasport.bg">
+  <programme start="20231012123000 +0300" stop="20231012133000 +0300" channel="diemasport.bg">
     <title>Втора професионална лига: Обзор на кръга, 13 епизод, предаване за български футбол 2023/2024, /n/</title>
   </programme>
-  <programme start="20231012140000 +0300" stop="20231012150000 +0300" channel="diemasport.bg">
+  <programme start="20231012133000 +0300" stop="20231012143000 +0300" channel="diemasport.bg">
     <title>Домът на футбола, 14 епизод, предаване за български футбол 2023/2024, /п/</title>
   </programme>
-  <programme start="20231012150000 +0300" stop="20231012170000 +0300" channel="diemasport.bg">
+  <programme start="20231012143000 +0300" stop="20231012163000 +0300" channel="diemasport.bg">
     <title>Черно Море - Локомотив Пловдив, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231012170000 +0300" stop="20231012190000 +0300" channel="diemasport.bg">
-    <title>Лудогорец - Пирин, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
+  <programme start="20231012163000 +0300" stop="20231012183000 +0300" channel="diemasport.bg">
+    <title>ЦСКА - Левски, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
+  </programme>
+  <programme start="20231012183000 +0300" stop="20231012190000 +0300" channel="diemasport.bg">
+    <title>Студио "Европейски квалификации", директно</title>
   </programme>
   <programme start="20231012190000 +0300" stop="20231012205500 +0300" channel="diemasport.bg">
-    <title>ЦСКА - Левски, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
+    <title>Черна гора - Ливан, Футбол: Международен приятелски мач, директно</title>
   </programme>
   <programme start="20231012205500 +0300" stop="20231012214500 +0300" channel="diemasport.bg">
     <title>Студио "Европейски квалификации", директно</title>
   </programme>
   <programme start="20231012214500 +0300" stop="20231012234000 +0300" channel="diemasport.bg">
-    <title>Израел - Швейцария, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, група I, директно</title>
+    <title>Кипър - Норвегия, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, група A, директно</title>
   </programme>
-  <programme start="20231012234000 +0300" channel="diemasport.bg">
+  <programme start="20231012234000 +0300" stop="20231013001500 +0300" channel="diemasport.bg">
     <title>Студио "Европейски квалификации", директно</title>
   </programme>
-  <programme start="20231009040000 +0300" stop="20231009063000 +0300" channel="diemasport2.bg">
+  <programme start="20231013001500 +0300" stop="20231013021500 +0300" channel="diemasport.bg">
+    <title>Лудогорец - Пирин, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
+  </programme>
+  <programme start="20231013021500 +0300" stop="20231013073000 +0300" channel="diemasport.bg">
     <title>Програмна пауза${_desc}</title>
   </programme>
-  <programme start="20231009063000 +0300" stop="20231009083000 +0300" channel="diemasport2.bg">
-    <title>Уест Хям Юнайтед - Нюкасъл Юнайтед, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
+  <programme start="20231013073000 +0300" stop="20231013093000 +0300" channel="diemasport.bg">
+    <title>Славия - Арда, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009083000 +0300" stop="20231009103000 +0300" channel="diemasport2.bg">
-    <title>Уулвърхямптън Уондърърс - Астън Вила, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
+  <programme start="20231013093000 +0300" stop="20231013113000 +0300" channel="diemasport.bg">
+    <title>Лудогорец - Пирин, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009103000 +0300" stop="20231009123000 +0300" channel="diemasport2.bg">
-    <title>Арсенал - Манчестър Сити, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
+  <programme start="20231013113000 +0300" stop="20231013133000 +0300" channel="diemasport.bg">
+    <title>Черно Море - Локомотив Пловдив, 13 кръг, Футбол: efbet Лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009123000 +0300" stop="20231009143000 +0300" channel="diemasport2.bg">
-    <title>Брайтън &amp; Хоув Албиън - Ливърпул, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
+  <programme start="20231013133000 +0300" stop="20231013153000 +0300" channel="diemasport.bg">
+    <title>Черна гора - Ливан, Футбол: Международен приятелски мач, /n/</title>
   </programme>
-  <programme start="20231009143000 +0300" stop="20231009163000 +0300" channel="diemasport2.bg">
-    <title>Евертън - Борнемут, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
+  <programme start="20231013153000 +0300" stop="20231013173000 +0300" channel="diemasport.bg">
+    <title>Кипър - Норвегия, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, група A, /п/</title>
   </programme>
-  <programme start="20231009163000 +0300" stop="20231009183000 +0300" channel="diemasport2.bg">
-    <title>Рен - Пари Сен Жермен, 8 кръг, Футбол: Лига 1 на Франция 2023/2024, /n/</title>
+  <programme start="20231013173000 +0300" stop="20231013180000 +0300" channel="diemasport.bg">
+    <title>Головете на кръга, 13 епизод, предаване за български футбол 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009183000 +0300" stop="20231009203000 +0300" channel="diemasport2.bg">
-    <title>Фулъм - Шефилд Юнайтед, 8 кръг, Футбол: Висша лига 2023/2024, запис</title>
+  <programme start="20231013180000 +0300" stop="20231013184500 +0300" channel="diemasport.bg">
+    <title>Героите на кръга, 13 епизод, предаване за български футбол 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009203000 +0300" stop="20231009213000 +0300" channel="diemasport2.bg">
-    <title>Обзор на кръга в английската Висша Лига, 8 епизод, предаване за английски футбол 2023/2024</title>
+  <programme start="20231013184500 +0300" stop="20231013191500 +0300" channel="diemasport.bg">
+    <title>Студио "Футбол", директно</title>
   </programme>
-  <programme start="20231009213000 +0300" stop="20231010000000 +0300" channel="diemasport2.bg">
-    <title>Минесота Тимбъруулвс - Далас Маверикс, Баскетбол: Предсезонна подготовка за НБА 2023/2024, /n/</title>
+  <programme start="20231013191500 +0300" stop="20231013211000 +0300" channel="diemasport.bg">
+    <title>България U21 - Германия U21, 3 кръг, Футбол: Квалификации за Евро 2025 за младежи, директно</title>
   </programme>
-  <programme start="20231010000000 +0300" stop="20231010020000 +0300" channel="diemasport2.bg">
-    <title>Реймс - Монако, 8 кръг, Футбол: Лига 1 на Франция 2023/2024, /n/</title>
+  <programme start="20231013211000 +0300" stop="20231013214500 +0300" channel="diemasport.bg">
+    <title>Студио "Футбол", директно</title>
   </programme>
-  <programme start="20231010020000 +0300" stop="20231010040000 +0300" channel="diemasport2.bg">
-    <title>Страсбург - Нант, 8 кръг, Футбол: Лига 1 на Франция 2023/2024, /n/</title>
+  <programme start="20231013214500 +0300" stop="20231013234000 +0300" channel="diemasport.bg">
+    <title>Португалия - Словакия, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, група J, директно</title>
+  </programme>
+  <programme start="20231013234000 +0300" channel="diemasport.bg">
+    <title>Студио "Европейски квалификации", директно</title>
   </programme>
   <programme start="20231010040000 +0300" stop="20231010070000 +0300" channel="diemasport2.bg">
     <title>Програмна пауза${_desc}</title>
@@ -599,50 +569,53 @@
   <programme start="20231012214500 +0300" stop="20231012234000 +0300" channel="diemasport2.bg">
     <title>Хърватия - Турция, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, директно</title>
   </programme>
-  <programme start="20231012234000 +0300" channel="diemasport2.bg">
+  <programme start="20231012234000 +0300" stop="20231013001500 +0300" channel="diemasport2.bg">
     <title>Студио "Европейски кавлификации", директно</title>
   </programme>
-  <programme start="20231009043000 +0300" stop="20231009080000 +0300" channel="diemasport3.bg">
-    <title>Програмна пауза, Програмна пауза</title>
+  <programme start="20231013001500 +0300" stop="20231013024500 +0300" channel="diemasport2.bg">
+    <title>Минесота Тимбъруулвс - Далас Маверикс, Баскетбол: Предсезонна подготовка за НБА 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009080000 +0300" stop="20231009103000 +0300" channel="diemasport3.bg">
-    <title>Минесота Тимбъруулвс - Далас Маверикс, Баскетбол: Предсезонна подготовка за НБА 2023/2024, /п/</title>
+  <programme start="20231013024500 +0300" stop="20231013063000 +0300" channel="diemasport2.bg">
+    <title>Програмна пауза${_desc}</title>
   </programme>
-  <programme start="20231009103000 +0300" stop="20231009123000 +0300" channel="diemasport3.bg">
-    <title>Байер Леверкузен - Кьолн, 7 кръг, Футбол: Бундеслига 2023/2024, /п/</title>
+  <programme start="20231013063000 +0300" stop="20231013090000 +0300" channel="diemasport2.bg">
+    <title>Реал Мадрид - Далас Маверикс, Баскетбол: Предсезонна подготовка за НБА 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009123000 +0300" stop="20231009143000 +0300" channel="diemasport3.bg">
-    <title>Състезание Голяма награда на Катар, 18 кръг, Формула 1 2023, /п/</title>
+  <programme start="20231013090000 +0300" stop="20231013100000 +0300" channel="diemasport2.bg">
+    <title>NBA Екшън, 1 епизод, предаване за американски баскетбол 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009143000 +0300" stop="20231009163000 +0300" channel="diemasport3.bg">
-    <title>Щутгарт - Волфсбург, 7 кръг, Футбол: Бундеслига 2023/2024, /п/</title>
+  <programme start="20231013100000 +0300" stop="20231013110000 +0300" channel="diemasport2.bg">
+    <title>Обзор на кръга в английската Висша Лига, 8 епизод, предаване за английски футбол 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009163000 +0300" stop="20231009183000 +0300" channel="diemasport3.bg">
-    <title>Аугсбург - Дармщат, 7 кръг, Футбол: Бундеслига 2023/2024, /п/</title>
+  <programme start="20231013110000 +0300" stop="20231013130000 +0300" channel="diemasport2.bg">
+    <title>Уест Хям Юнайтед - Нюкасъл Юнайтед, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009183000 +0300" stop="20231009193000 +0300" channel="diemasport3.bg">
-    <title>Бундеслига: Обзор на кръга, 7 епизод, предаване за германски футбол 2023/2024</title>
+  <programme start="20231013130000 +0300" stop="20231013150000 +0300" channel="diemasport2.bg">
+    <title>Брайтън &amp; Хоув Албиън - Ливърпул, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009193000 +0300" stop="20231009203000 +0300" channel="diemasport3.bg">
-    <title>Лига 1: Обзор на кръга, 8 епизод, предаване за френски футбол 2023/2024</title>
+  <programme start="20231013150000 +0300" stop="20231013170000 +0300" channel="diemasport2.bg">
+    <title>Манчестър Юнайтед - Брентфорд, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009203000 +0300" stop="20231009210000 +0300" channel="diemasport3.bg">
-    <title>Формула 1: Обзор, 18 епизод, предаване за Формула 1 2023</title>
+  <programme start="20231013170000 +0300" stop="20231013173000 +0300" channel="diemasport2.bg">
+    <title>Да скъсаш мрежата, 8 епизод, предаване за английски футбол 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009210000 +0300" stop="20231009213000 +0300" channel="diemasport3.bg">
-    <title>Специално от Бундеслигата, 7 епизод, предаване за германски футбол 2023/2024, /п/</title>
+  <programme start="20231013173000 +0300" stop="20231013183000 +0300" channel="diemasport2.bg">
+    <title>Премиър Лийг Токшоу, 9 епизод, предаване за английски футбол 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009213000 +0300" stop="20231009220000 +0300" channel="diemasport3.bg">
-    <title>Европейски квалификации: Преди кръга, 4 епизод, предаване за Европейски футбол 2023/2024</title>
+  <programme start="20231013183000 +0300" stop="20231013190000 +0300" channel="diemasport2.bg">
+    <title>Висша лига: Голямото интервю, 10 епизод, предаване за английски футбол 2023/2024, /n/</title>
   </programme>
-  <programme start="20231009220000 +0300" stop="20231010000000 +0300" channel="diemasport3.bg">
-    <title>Вердер Бремен - Хофенхайм, 7 кръг, Футбол: Бундеслига 2023/2024, /п/</title>
+  <programme start="20231013190000 +0300" stop="20231013205500 +0300" channel="diemasport2.bg">
+    <title>Арсенал - Манчестър Сити, 8 кръг, Футбол: Висша лига 2023/2024, /n/</title>
   </programme>
-  <programme start="20231010000000 +0300" stop="20231010020000 +0300" channel="diemasport3.bg">
-    <title>Рб Лайпциг - Бохум, 7 кръг, Футбол: Бундеслига 2023/2024, /п/</title>
+  <programme start="20231013205500 +0300" stop="20231013214500 +0300" channel="diemasport2.bg">
+    <title>Студио "Европейски кавлификации", директно</title>
   </programme>
-  <programme start="20231010020000 +0300" stop="20231010040000 +0300" channel="diemasport3.bg">
-    <title>Фортуна Дюселдорф - Оснабрюк, 9 кръг, Футбол: Втора Бундеслига 2023/2024, /п/</title>
+  <programme start="20231013214500 +0300" stop="20231013234000 +0300" channel="diemasport2.bg">
+    <title>Англия - Австралия, Футбол: Международен приятелски мач, директно</title>
+  </programme>
+  <programme start="20231013234000 +0300" channel="diemasport2.bg">
+    <title>Студио "Европейски кавлификации", директно</title>
   </programme>
   <programme start="20231010040000 +0300" stop="20231010073000 +0300" channel="diemasport3.bg">
     <title>Програмна пауза, Програмна пауза</title>
@@ -773,7 +746,58 @@
   <programme start="20231012214500 +0300" stop="20231012234000 +0300" channel="diemasport3.bg">
     <title>Испания - Шотландия, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, директно</title>
   </programme>
-  <programme start="20231012234000 +0300" channel="diemasport3.bg">
+  <programme start="20231012234000 +0300" stop="20231013001500 +0300" channel="diemasport3.bg">
+    <title>Студио "Европейски квалификации", директно</title>
+  </programme>
+  <programme start="20231013001500 +0300" stop="20231013004500 +0300" channel="diemasport3.bg">
+    <title>Дневник: Квалификации за UEFA Евро 2024, 17 епизод, предаване за международен футбол 2023/2024</title>
+  </programme>
+  <programme start="20231013004500 +0300" stop="20231013024500 +0300" channel="diemasport3.bg">
+    <title>Рб Лайпциг - Бохум, 7 кръг, Футбол: Бундеслига 2023/2024, /п/</title>
+  </programme>
+  <programme start="20231013024500 +0300" stop="20231013044500 +0300" channel="diemasport3.bg">
+    <title>Кайзерслаутерн - Хановер, 9 кръг, Футбол: Втора Бундеслига 2023/2024, /п/</title>
+  </programme>
+  <programme start="20231013044500 +0300" stop="20231013073000 +0300" channel="diemasport3.bg">
+    <title>Програмна пауза, Програмна пауза</title>
+  </programme>
+  <programme start="20231013073000 +0300" stop="20231013083000 +0300" channel="diemasport3.bg">
+    <title>Формула 1: Екстра 2023, 18 епизод, предаване за Формула 1 2023, /п/</title>
+  </programme>
+  <programme start="20231013083000 +0300" stop="20231013103000 +0300" channel="diemasport3.bg">
+    <title>Байер Леверкузен - Кьолн, 7 кръг, Футбол: Бундеслига 2023/2024, /п/</title>
+  </programme>
+  <programme start="20231013103000 +0300" stop="20231013113000 +0300" channel="diemasport3.bg">
+    <title>Бундеслига Токшоу, 9 епизод, предаване за германски футбол  2023/2024, /п/</title>
+  </programme>
+  <programme start="20231013113000 +0300" stop="20231013120000 +0300" channel="diemasport3.bg">
+    <title>Формула 1: Обзор, 18 епизод, предаване за Формула 1 2023, /п/</title>
+  </programme>
+  <programme start="20231013120000 +0300" stop="20231013123000 +0300" channel="diemasport3.bg">
+    <title>Дневник: Квалификации за UEFA Евро 2024, 17 епизод, предаване за международен футбол 2023/2024, /п/</title>
+  </programme>
+  <programme start="20231013123000 +0300" stop="20231013143000 +0300" channel="diemasport3.bg">
+    <title>Хърватия - Турция, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, /п/</title>
+  </programme>
+  <programme start="20231013143000 +0300" stop="20231013163000 +0300" channel="diemasport3.bg">
+    <title>Латвия - Армения, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, /п/</title>
+  </programme>
+  <programme start="20231013163000 +0300" stop="20231013183000 +0300" channel="diemasport3.bg">
+    <title>Испания - Шотландия, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, /п/</title>
+  </programme>
+  <programme start="20231013183000 +0300" stop="20231013190000 +0300" channel="diemasport3.bg">
+    <title>Студио "Европейски квалификации", директно</title>
+  </programme>
+  <programme start="20231013190000 +0300" stop="20231013205500 +0300" channel="diemasport3.bg">
+    <title>Естония - Азербайджан, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, директно</title>
+  </programme>
+  <programme start="20231013205500 +0300" stop="20231013214500 +0300" channel="diemasport3.bg">
+    <title>Студио "Европейски квалификации", директно</title>
+  </programme>
+  <programme start="20231013214500 +0300" stop="20231013234000 +0300" channel="diemasport3.bg">
+    <title>Нидерландия - Франция, 7 кръг, Футбол: Квалификации за UEFA Евро 2024, директно</title>
+  </programme>
+  <programme start="20231013234000 +0300" channel="diemasport3.bg">
     <title>Студио "Европейски квалификации", директно</title>
   </programme>
   <programme start="20231010000000 +0300" stop="20231010040000 +0300" channel="ring.bg">
@@ -860,12 +884,6 @@
   <programme start="20231011220000 +0300" channel="ring.bg">
     <title>– Бойни вечери: Enfusion</title>
   </programme>
-  <programme start="20231009010000 +0300" stop="20231009030000 +0300" channel="maxsport1.bg">
-    <title>ATP 1000: Шанхай</title>
-  </programme>
-  <programme start="20231009030000 +0300" stop="20231010070000 +0300" channel="maxsport1.bg">
-    <title>ATP 1000: Шанхай</title>
-  </programme>
   <programme start="20231010070000 +0300" stop="20231010073000 +0300" channel="maxsport1.bg">
     <title>Евролига: Обзор на 1 кръг Обзор</title>
   </programme>
@@ -947,12 +965,6 @@
   <programme start="20231011220000 +0300" channel="maxsport1.bg">
     <title>ATP 1000: Шанхай</title>
   </programme>
-  <programme start="20231009023000 +0300" stop="20231009043000 +0300" channel="maxsport2.bg">
-    <title>Евролига: Панатинайкос - Олимпиакос Панатинайкос - Олимпиакос</title>
-  </programme>
-  <programme start="20231009043000 +0300" stop="20231010080000 +0300" channel="maxsport2.bg">
-    <title>Trans World Sport</title>
-  </programme>
   <programme start="20231010080000 +0300" stop="20231010110000 +0300" channel="maxsport2.bg">
     <title>NFL: Питсбърг Стийлърс - Балтимор Рейвънс Питсбърг Стийлърс - Балтимор Рейвънс</title>
   </programme>
@@ -1009,15 +1021,6 @@
   </programme>
   <programme start="20231011220000 +0300" channel="maxsport2.bg">
     <title>ПРЯКО, Еврокупа: Гран Канария - Улм Гран Канария - Улм</title>
-  </programme>
-  <programme start="20231009000000 +0300" stop="20231009020000 +0300" channel="maxsport3.bg">
-    <title>УЕФА Лига Европа: Ливърпул - Юнион Сен Жилоа Втора среща от груповата фаза</title>
-  </programme>
-  <programme start="20231009020000 +0300" stop="20231009040000 +0300" channel="maxsport3.bg">
-    <title>Копа Судамерикана: Форталеза - Коринтианс Втори полуфинал</title>
-  </programme>
-  <programme start="20231009040000 +0300" stop="20231010080000 +0300" channel="maxsport3.bg">
-    <title>Серия А: Наполи - Фиорентина</title>
   </programme>
   <programme start="20231010080000 +0300" stop="20231010100000 +0300" channel="maxsport3.bg">
     <title>Копа Судамерикана: Форталеза - Коринтианс Втори полуфинал</title>
@@ -1087,18 +1090,6 @@
   </programme>
   <programme start="20231011230000 +0300" channel="maxsport3.bg">
     <title>УЕФА Шампионска лига: Залцбург - Реал Сосиедад Втора среща от груповата фаза</title>
-  </programme>
-  <programme start="20231009000000 +0300" stop="20231009001500 +0300" channel="maxsport4.bg">
-    <title>ПРЯКО, Студио "Футбол"</title>
-  </programme>
-  <programme start="20231009001500 +0300" stop="20231009021500 +0300" channel="maxsport4.bg">
-    <title>Ла Лига: Атлетико Мадрид - Реал Сосиедад</title>
-  </programme>
-  <programme start="20231009021500 +0300" stop="20231009041500 +0300" channel="maxsport4.bg">
-    <title>Ла Лига: Севиля - Райо Валекано</title>
-  </programme>
-  <programme start="20231009041500 +0300" stop="20231010070000 +0300" channel="maxsport4.bg">
-    <title>Ла Лига: Виляреал - Лас Палмас</title>
   </programme>
   <programme start="20231010070000 +0300" stop="20231010080000 +0300" channel="maxsport4.bg">
     <title>Ла Лига 2: Обзор 10 кръг Обзор</title>
@@ -1171,72 +1162,6 @@
   </programme>
   <programme start="20231011233000 +0300" channel="maxsport4.bg">
     <title>Ла Лига: Осасуна - Севиля</title>
-  </programme>
-  <programme start="20231009000000 +0300" stop="20231009010000 +0300" channel="sportal.bg">
-    <title>„Подкастът на Sportal.bg“ с гост Георги Иванов – Гонзо /повторение/</title>
-  </programme>
-  <programme start="20231009010000 +0300" stop="20231009030000 +0300" channel="sportal.bg">
-    <title>Югоизточна трета лига: Гигант (Съединение) – Несебър /повторение/</title>
-  </programme>
-  <programme start="20231009030000 +0300" stop="20231009040000 +0300" channel="sportal.bg">
-    <title>„Контра“ /повторение/</title>
-  </programme>
-  <programme start="20231009040000 +0300" stop="20231009050000 +0300" channel="sportal.bg">
-    <title>„efbet Лига live“ с гост Ради Здравков /повторение/</title>
-  </programme>
-  <programme start="20231009050000 +0300" stop="20231009080000 +0300" channel="sportal.bg">
-    <title>Писта „София“ 2023 /повторение/</title>
-  </programme>
-  <programme start="20231009080000 +0300" stop="20231009083000 +0300" channel="sportal.bg">
-    <title>Новини от България</title>
-  </programme>
-  <programme start="20231009083000 +0300" stop="20231009090000 +0300" channel="sportal.bg">
-    <title>Новини от света</title>
-  </programme>
-  <programme start="20231009090000 +0300" stop="20231009110000 +0300" channel="sportal.bg">
-    <title>Югоизточна трета лига: Розова долина (Казанлък) – Родопа (Смолян) /повторение/</title>
-  </programme>
-  <programme start="20231009110000 +0300" stop="20231009120000 +0300" channel="sportal.bg">
-    <title>„Контра“ /повторение/</title>
-  </programme>
-  <programme start="20231009120000 +0300" stop="20231009123000 +0300" channel="sportal.bg">
-    <title>Новини от България</title>
-  </programme>
-  <programme start="20231009123000 +0300" stop="20231009130000 +0300" channel="sportal.bg">
-    <title>Новини от света</title>
-  </programme>
-  <programme start="20231009130000 +0300" stop="20231009140000 +0300" channel="sportal.bg">
-    <title>„Английското шоу на winbet“ /премиера/</title>
-  </programme>
-  <programme start="20231009140000 +0300" stop="20231009150000 +0300" channel="sportal.bg">
-    <title>„Лигата на талантите“ /повторение/</title>
-  </programme>
-  <programme start="20231009150000 +0300" stop="20231009153000 +0300" channel="sportal.bg">
-    <title>Новини от България</title>
-  </programme>
-  <programme start="20231009153000 +0300" stop="20231009160000 +0300" channel="sportal.bg">
-    <title>Новини от света</title>
-  </programme>
-  <programme start="20231009160000 +0300" stop="20231009170000 +0300" channel="sportal.bg">
-    <title>„Часът на Трета лига“ /повторение/</title>
-  </programme>
-  <programme start="20231009170000 +0300" stop="20231009173000 +0300" channel="sportal.bg">
-    <title>Новини от България</title>
-  </programme>
-  <programme start="20231009173000 +0300" stop="20231009180000 +0300" channel="sportal.bg">
-    <title>Новини от света</title>
-  </programme>
-  <programme start="20231009180000 +0300" stop="20231009200000 +0300" channel="sportal.bg">
-    <title>Югоизточна трета лига: Спартак (Пд) – Ямбол /повторение/</title>
-  </programme>
-  <programme start="20231009200000 +0300" stop="20231009203000 +0300" channel="sportal.bg">
-    <title>Новини от България</title>
-  </programme>
-  <programme start="20231009203000 +0300" stop="20231009210000 +0300" channel="sportal.bg">
-    <title>Новини от света</title>
-  </programme>
-  <programme start="20231009210000 +0300" stop="20231010000000 +0300" channel="sportal.bg">
-    <title>Американски футбол: България – Bucharest rebels /повторение/</title>
   </programme>
   <programme start="20231010000000 +0300" stop="20231010020000 +0300" channel="sportal.bg">
     <title>Югозападна Трета лига: Ботев (Ихтиман) – Сливнишки герой /повторение/</title>
@@ -1430,41 +1355,71 @@
   <programme start="20231012203000 +0300" stop="20231012210000 +0300" channel="sportal.bg">
     <title>Новини от света</title>
   </programme>
-  <programme start="20231012210000 +0300" channel="sportal.bg">
+  <programme start="20231012210000 +0300" stop="20231013000000 +0300" channel="sportal.bg">
     <title>Предварителни битки на MAX FIGHT 53 /повторение/</title>
   </programme>
-  <programme start="20231009000000 +0300" stop="20231009021400 +0300" channel="b1b.tv">
-    <title lang="bg">К-1: Profight 22</title>
+  <programme start="20231013000000 +0300" stop="20231013010000 +0300" channel="sportal.bg">
+    <title>„Часът на Трета лига“ /повторение/</title>
   </programme>
-  <programme start="20231009021400 +0300" stop="20231009035700 +0300" channel="b1b.tv">
-    <title lang="bg">Канадска борба: WINBET ARM WRESTLING SHOW</title>
+  <programme start="20231013010000 +0300" stop="20231013030000 +0300" channel="sportal.bg">
+    <title>„Гостът на Sportal.bg“ с Дани Моралес /повторение/</title>
   </programme>
-  <programme start="20231009035700 +0300" stop="20231009050300 +0300" channel="b1b.tv">
-    <title lang="bg">Минифутбол: Шампионска лига Мечките-ТераТрак</title>
+  <programme start="20231013030000 +0300" stop="20231013060000 +0300" channel="sportal.bg">
+    <title>MMA Bushido 88 /повторение/</title>
   </programme>
-  <programme start="20231009050300 +0300" stop="20231009064600 +0300" channel="b1b.tv">
-    <title lang="bg">Хандбал: EHF Champions League Men: SC Magdeburg – Orlen Wisla Plock</title>
+  <programme start="20231013060000 +0300" stop="20231013080000 +0300" channel="sportal.bg">
+    <title>Североизточна Трета лига: Фратрия – Септември (Тервел) /повторение/</title>
   </programme>
-  <programme start="20231009064600 +0300" stop="20231009081300 +0300" channel="b1b.tv">
-    <title lang="bg">Хандбал: EHF Champions League Men Barça – GOG</title>
+  <programme start="20231013080000 +0300" stop="20231013083000 +0300" channel="sportal.bg">
+    <title>Новини от България</title>
   </programme>
-  <programme start="20231009081300 +0300" stop="20231009095700 +0300" channel="b1b.tv">
-    <title lang="bg">Футбол: Футбол Локомотив – НСА /Кръг 22 – жени/</title>
+  <programme start="20231013083000 +0300" stop="20231013090000 +0300" channel="sportal.bg">
+    <title>Новини от света</title>
   </programme>
-  <programme start="20231009095700 +0300" stop="20231009180200 +0300" channel="b1b.tv">
-    <title lang="bg">Ветроходна регата: НА ЖИВО:Ветроходна регата Bora Saling – Бургас</title>
+  <programme start="20231013090000 +0300" stop="20231013100000 +0300" channel="sportal.bg">
+    <title>„Sportal MotorSport“ /премиера/</title>
   </programme>
-  <programme start="20231009180200 +0300" stop="20231009204100 +0300" channel="b1b.tv">
-    <title lang="bg">Худ.гимнастика: Художествена гимнастика Държавно първенство Елит</title>
+  <programme start="20231013100000 +0300" stop="20231013110000 +0300" channel="sportal.bg">
+    <title>Рали „България“ 2023 /повторение/</title>
   </programme>
-  <programme start="20231009204100 +0300" stop="20231009230400 +0300" channel="b1b.tv">
-    <title lang="bg">Волейбол: НВЛ финал: Хебър – Нефтохимик 2010 /мач 4/</title>
+  <programme start="20231013110000 +0300" stop="20231013120000 +0300" channel="sportal.bg">
+    <title>„Контра“ /повторение/</title>
   </programme>
-  <programme start="20231009230400 +0300" stop="20231009233600 +0300" channel="b1b.tv">
-    <title lang="bg">Предаване: Звездите на бъдещето – Български Лъв – част 1</title>
+  <programme start="20231013120000 +0300" stop="20231013123000 +0300" channel="sportal.bg">
+    <title>Новини от България</title>
   </programme>
-  <programme start="20231009233600 +0300" stop="20231010000000 +0300" channel="b1b.tv">
-    <title lang="bg">Предаване: Звездите на бъдещето – Български Лъв – част 2</title>
+  <programme start="20231013123000 +0300" stop="20231013130000 +0300" channel="sportal.bg">
+    <title>Новини от света</title>
+  </programme>
+  <programme start="20231013130000 +0300" stop="20231013150000 +0300" channel="sportal.bg">
+    <title>Югозападна Трета лига: Чавдар (Етрополе) – Миньор (Перник) /повторение/</title>
+  </programme>
+  <programme start="20231013150000 +0300" stop="20231013153000 +0300" channel="sportal.bg">
+    <title>Новини от България</title>
+  </programme>
+  <programme start="20231013153000 +0300" stop="20231013160000 +0300" channel="sportal.bg">
+    <title>Новини от света</title>
+  </programme>
+  <programme start="20231013160000 +0300" stop="20231013170000 +0300" channel="sportal.bg">
+    <title>„Лигата на талантите“ /повторение/</title>
+  </programme>
+  <programme start="20231013170000 +0300" stop="20231013173000 +0300" channel="sportal.bg">
+    <title>Новини от България</title>
+  </programme>
+  <programme start="20231013173000 +0300" stop="20231013180000 +0300" channel="sportal.bg">
+    <title>Новини от света</title>
+  </programme>
+  <programme start="20231013180000 +0300" stop="20231013200000 +0300" channel="sportal.bg">
+    <title>Югоизточна Трета лига: Ботев (Пд) II – Локомотив (Пд) II /повторение/</title>
+  </programme>
+  <programme start="20231013200000 +0300" stop="20231013203000 +0300" channel="sportal.bg">
+    <title>Новини от България</title>
+  </programme>
+  <programme start="20231013203000 +0300" stop="20231013210000 +0300" channel="sportal.bg">
+    <title>Новини от света</title>
+  </programme>
+  <programme start="20231013210000 +0300" channel="sportal.bg">
+    <title>Писта „София“ 2023 /повторение/</title>
   </programme>
   <programme start="20231010000000 +0300" stop="20231010021400 +0300" channel="b1b.tv">
     <title lang="bg">К-1: Profight 22</title>
@@ -1562,20 +1517,41 @@
   <programme start="20231012230400 +0300" stop="20231012233600 +0300" channel="b1b.tv">
     <title lang="bg">Предаване: Звездите на бъдещето – Български Лъв – част 1</title>
   </programme>
-  <programme start="20231012233600 +0300" channel="b1b.tv">
+  <programme start="20231012233600 +0300" stop="20231013000000 +0300" channel="b1b.tv">
     <title lang="bg">Предаване: Звездите на бъдещето – Български Лъв – част 2</title>
   </programme>
-  <programme start="20231009000000 +0300" stop="20231009011500 +0300" channel="edgesport.bg">
-    <title>Marathon de Pari</title>
+  <programme start="20231013000000 +0300" stop="20231013021400 +0300" channel="b1b.tv">
+    <title lang="bg">К-1: Profight 22</title>
   </programme>
-  <programme start="20231009011500 +0300" stop="20231009015500 +0300" channel="edgesport.bg">
-    <title>Hellas Rally Raid</title>
+  <programme start="20231013021400 +0300" stop="20231013035700 +0300" channel="b1b.tv">
+    <title lang="bg">Канадска борба: WINBET ARM WRESTLING SHOW</title>
   </programme>
-  <programme start="20231009015500 +0300" stop="20231009030000 +0300" channel="edgesport.bg">
-    <title>Live Recap Extreme Barcelona</title>
+  <programme start="20231013035700 +0300" stop="20231013050300 +0300" channel="b1b.tv">
+    <title lang="bg">Минифутбол: Шампионска лига Мечките-ТераТрак</title>
   </programme>
-  <programme start="20231009030000 +0300" stop="20231010074000 +0300" channel="edgesport.bg">
-    <title>Freeride World Tour</title>
+  <programme start="20231013050300 +0300" stop="20231013064600 +0300" channel="b1b.tv">
+    <title lang="bg">Хандбал: EHF Champions League Men: SC Magdeburg – Orlen Wisla Plock</title>
+  </programme>
+  <programme start="20231013064600 +0300" stop="20231013081300 +0300" channel="b1b.tv">
+    <title lang="bg">Хандбал: EHF Champions League Men Barça – GOG</title>
+  </programme>
+  <programme start="20231013081300 +0300" stop="20231013095700 +0300" channel="b1b.tv">
+    <title lang="bg">Футбол: Футбол Локомотив – НСА /Кръг 22 – жени/</title>
+  </programme>
+  <programme start="20231013095700 +0300" stop="20231013180200 +0300" channel="b1b.tv">
+    <title lang="bg">Ветроходна регата: НА ЖИВО:Ветроходна регата Bora Saling – Бургас</title>
+  </programme>
+  <programme start="20231013180200 +0300" stop="20231013204100 +0300" channel="b1b.tv">
+    <title lang="bg">Худ.гимнастика: Художествена гимнастика Държавно първенство Елит</title>
+  </programme>
+  <programme start="20231013204100 +0300" stop="20231013230400 +0300" channel="b1b.tv">
+    <title lang="bg">Волейбол: НВЛ финал: Хебър – Нефтохимик 2010 /мач 4/</title>
+  </programme>
+  <programme start="20231013230400 +0300" stop="20231013233600 +0300" channel="b1b.tv">
+    <title lang="bg">Предаване: Звездите на бъдещето – Български Лъв – част 1</title>
+  </programme>
+  <programme start="20231013233600 +0300" channel="b1b.tv">
+    <title lang="bg">Предаване: Звездите на бъдещето – Български Лъв – част 2</title>
   </programme>
   <programme start="20231010074000 +0300" stop="20231010081500 +0300" channel="edgesport.bg">
     <title>FIM Trial GP</title>
@@ -1670,12 +1646,6 @@
   <programme start="20231011234000 +0300" channel="edgesport.bg">
     <title>Racing The World 2</title>
   </programme>
-  <programme start="20231009013000 +0300" stop="20231009023000 +0300" channel="eurosport1.bg">
-    <title>Колоездене: Париж - Тур, мъже, повторение</title>
-  </programme>
-  <programme start="20231009023000 +0300" stop="20231010070000 +0300" channel="eurosport1.bg">
-    <title>Снукър: Инглиш оупън, финал, повторение</title>
-  </programme>
   <programme start="20231010070000 +0300" stop="20231010083000 +0300" channel="eurosport1.bg">
     <title>Маунтинбайк: Световна купа в Монт Сент Ан, олимпийско крос кънтри, повторение</title>
   </programme>
@@ -1759,18 +1729,6 @@
   </programme>
   <programme start="20231011230000 +0300" channel="eurosport1.bg">
     <title>Сърфинг: Световна шампионатна лига в Лоуър Трестълс, повторение</title>
-  </programme>
-  <programme start="20231009020000 +0300" stop="20231009023000 +0300" channel="eurosport2.bg">
-    <title>Мотокрос: Световен шампионат, "Мотокрос на нациите", второ състезание, повторение</title>
-  </programme>
-  <programme start="20231009023000 +0300" stop="20231009030000 +0300" channel="eurosport2.bg">
-    <title>Мотокрос: Световен шампионат, "Мотокрос на нациите", трето състезание, повторение</title>
-  </programme>
-  <programme start="20231009030000 +0300" stop="20231009040000 +0300" channel="eurosport2.bg">
-    <title>Колоездене: Париж - Тур, мъже, повторение</title>
-  </programme>
-  <programme start="20231009040000 +0300" stop="20231010060000 +0300" channel="eurosport2.bg">
-    <title>Колоездене: Обиколка на Ломбардия, мъже, повторение</title>
   </programme>
   <programme start="20231010060000 +0300" stop="20231010083000 +0300" channel="eurosport2.bg">
     <title>Снукър: Открито първенство на Ухан, втори кръг, повторение</title>
@@ -1876,62 +1834,6 @@
   </programme>
   <programme start="20231011230000 +0300" channel="eurosport2.bg">
     <title>Снукър: Открито първенство на Ухан, трети кръг, повторение</title>
-  </programme>
-  <programme start="20231009020000 +0300" stop="20231009040000 +0300" channel="arenasport1.sr">
-    <title lang="sr">ENGLESKA LIGA: Brighton - Liverpool</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009040000 +0300" stop="20231009050000 +0300" channel="arenasport1.sr">
-    <title lang="sr">Neuspjeh prvaka sa Mariom Stanićem - Vedad Ibišević</title>
-  </programme>
-  <programme start="20231009050000 +0300" stop="20231009070000 +0300" channel="arenasport1.sr">
-    <title lang="sr">ENGLESKA LIGA: West Ham - Newcastle</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009070000 +0300" stop="20231009090000 +0300" channel="arenasport1.sr">
-    <title lang="sr">CHAMPIONSHIP: Birmingham - WBA</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009090000 +0300" stop="20231009110000 +0300" channel="arenasport1.sr">
-    <title lang="sr">ENGLESKA LIGA: Wolverhampton - Aston Villa</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009110000 +0300" stop="20231009130000 +0300" channel="arenasport1.sr">
-    <title lang="sr">ENGLESKA LIGA: Burnley - Chelsea</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009130000 +0300" stop="20231009150000 +0300" channel="arenasport1.sr">
-    <title lang="sr">ENGLESKA LIGA: Man. United - Brentford</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009150000 +0300" stop="20231009153000 +0300" channel="arenasport1.sr">
-    <title lang="sr">KLASICI PREMIJER LIGE: Arsenal - Man. City, 2000/01</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009153000 +0300" stop="20231009160000 +0300" channel="arenasport1.sr">
-    <title lang="sr">KLASICI PREMIJER LIGE: Wimbledon - Newcastle, 1995/96</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009160000 +0300" stop="20231009181500 +0300" channel="arenasport1.sr">
-    <title lang="sr">ABA 2. LIGA: Borac WWIN - Šibenka</title>
-    <category>Košarka</category>
-  </programme>
-  <programme start="20231009181500 +0300" stop="20231009184500 +0300" channel="arenasport1.sr">
-    <title lang="sr">Teme do Arene</title>
-  </programme>
-  <programme start="20231009184500 +0300" stop="20231009190000 +0300" channel="arenasport1.sr">
-    <title lang="sr">Sportske igre mladih, ep. 11</title>
-  </programme>
-  <programme start="20231009190000 +0300" stop="20231009210000 +0300" channel="arenasport1.sr">
-    <title lang="sr">ABA LIGA: SC Derby - Zadar</title>
-    <category>Košarka</category>
-  </programme>
-  <programme start="20231009210000 +0300" stop="20231009220000 +0300" channel="arenasport1.sr">
-    <title lang="sr">Neuspjeh prvaka sa Mariom Stanićem - Vedad Ibišević</title>
-  </programme>
-  <programme start="20231009220000 +0300" stop="20231010023000 +0300" channel="arenasport1.sr">
-    <title lang="sr">ŠPANSKA 2. LIGA: Villarreal II - Espanyol</title>
-    <category>Fudbal</category>
   </programme>
   <programme start="20231010023000 +0300" stop="20231010043000 +0300" channel="arenasport1.sr">
     <title lang="sr">ENGLESKA LIGA: Fulham - Sheffield</title>
@@ -2084,93 +1986,54 @@
     <title lang="sr">EURO KVALIFIKACIJE: Izrael - Švajcarska</title>
     <category>Fudbal</category>
   </programme>
-  <programme start="20231012234500 +0300" channel="arenasport1.sr">
+  <programme start="20231012234500 +0300" stop="20231013030000 +0300" channel="arenasport1.sr">
     <title lang="sr">ENGLESKA LIGA: Man. United - Brentford</title>
     <category>Fudbal</category>
   </programme>
-  <programme start="20231009013000 +0300" stop="20231009033000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ŠPANSKA LIGA: Sevilla - Rayo Vallecano</title>
+  <programme start="20231013030000 +0300" stop="20231013050000 +0300" channel="arenasport1.sr">
+    <title lang="sr">CONMEBOL KVALIFIKACIJE: Čile - Peru</title>
     <category>Fudbal</category>
   </programme>
-  <programme start="20231009033000 +0300" stop="20231009040000 +0300" channel="arenasport2.sr">
-    <title lang="sr">Teme do Arene - Alen Smailagić</title>
+  <programme start="20231013050000 +0300" stop="20231013070000 +0300" channel="arenasport1.sr">
+    <title lang="sr">ENGLESKA LIGA: Everton - Bournemouth</title>
+    <category>Fudbal</category>
   </programme>
-  <programme start="20231009040000 +0300" stop="20231009043000 +0300" channel="arenasport2.sr">
+  <programme start="20231013070000 +0300" stop="20231013090000 +0300" channel="arenasport1.sr">
+    <title lang="sr">CHAMPIONSHIP: Birmingham - WBA</title>
+    <category>Fudbal</category>
+  </programme>
+  <programme start="20231013090000 +0300" stop="20231013110000 +0300" channel="arenasport1.sr">
+    <title lang="sr">ENGLESKA LIGA: West Ham - Newcastle</title>
+    <category>Fudbal</category>
+  </programme>
+  <programme start="20231013110000 +0300" stop="20231013130000 +0300" channel="arenasport1.sr">
+    <title lang="sr">ŠKOTSKA LIGA: Rangers - Celtic</title>
+    <category>Fudbal</category>
+  </programme>
+  <programme start="20231013130000 +0300" stop="20231013160000 +0300" channel="arenasport1.sr">
+    <title lang="sr">ENGLESKA LIGA: Chelsea - Liverpool</title>
+    <category>Fudbal</category>
+  </programme>
+  <programme start="20231013160000 +0300" stop="20231013183000 +0300" channel="arenasport1.sr">
+    <title lang="sr">ABA 2. LIGA: Helios - Šenčur</title>
+    <category>Košarka</category>
+  </programme>
+  <programme start="20231013183000 +0300" stop="20231013190000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Arena basket</title>
+  </programme>
+  <programme start="20231013190000 +0300" stop="20231013211500 +0300" channel="arenasport1.sr">
+    <title lang="sr">ABA LIGA: Zadar - Mornar</title>
+    <category>Košarka</category>
+  </programme>
+  <programme start="20231013211500 +0300" stop="20231013214500 +0300" channel="arenasport1.sr">
+    <title lang="sr">Oni žive za fudbal - ep. 93 FK BELO POLJE - Obrenovac</title>
+  </programme>
+  <programme start="20231013214500 +0300" stop="20231013234500 +0300" channel="arenasport1.sr">
+    <title lang="sr">EURO KVALIFIKACIJE: Irska - Grčka</title>
+    <category>Fudbal</category>
+  </programme>
+  <programme start="20231013234500 +0300" channel="arenasport1.sr">
     <title lang="sr">Zona zdravog sporta</title>
-  </programme>
-  <programme start="20231009043000 +0300" stop="20231009063000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ITALIJANSKA LIGA: Inter - Bologna</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009063000 +0300" stop="20231009070000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ŠPANSKA LIGA: La Liga Best</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009070000 +0300" stop="20231009090000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ITALIJANSKA LIGA: Lecce - Sassuolo</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009090000 +0300" stop="20231009110000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ITALIJANSKA LIGA: Treviso - Brescia</title>
-    <category>Košarka</category>
-  </programme>
-  <programme start="20231009110000 +0300" stop="20231009130000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ŠPANSKA IGA: Mallorca - Valencia</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009130000 +0300" stop="20231009133000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ŠPANSKA LIGA: La Liga Legends - Julen Guerrero</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009133000 +0300" stop="20231009140000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ŠPANSKA LIGA: La Liga Fans</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009140000 +0300" stop="20231009160000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ŠKOTSKA LIGA: St. Mirren - Rangers</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009160000 +0300" stop="20231009180000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ITALIJANSKA LIGA: Lazio - Atalanta</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009180000 +0300" stop="20231009200000 +0300" channel="arenasport2.sr">
-    <title lang="sr">FRANCUSKA LIGA: Lens - Lille</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009200000 +0300" stop="20231009021500 +0300" channel="arenasport2.sr">
-    <title lang="sr">NFL: Red Zone</title>
-    <category>Američki fudbal</category>
-  </programme>
-  <programme start="20231009021500 +0300" stop="20231009113000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ITALIJANSKA LIGA: Virtus - Varese</title>
-    <category>Košarka</category>
-  </programme>
-  <programme start="20231009113000 +0300" stop="20231009153000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ITALIJANSKA LIGA: Genoa - Milan</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009153000 +0300" stop="20231009183000 +0300" channel="arenasport2.sr">
-    <title lang="sr">Kviz Soccer šampion</title>
-  </programme>
-  <programme start="20231009183000 +0300" stop="20231009190000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ŠPANSKA LIGA: La Liga Best</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009190000 +0300" stop="20231009210000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ABA 2. LIGA: Vojvodina - Široki</title>
-    <category>Košarka</category>
-  </programme>
-  <programme start="20231009210000 +0300" stop="20231009213000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ŠPANSKA LIGA: La Liga Legends - Mihael Laudrup</title>
-    <category>Fudbal</category>
-  </programme>
-  <programme start="20231009213000 +0300" stop="20231009220000 +0300" channel="arenasport2.sr">
-    <title lang="sr">Teme do Arene</title>
-  </programme>
-  <programme start="20231009220000 +0300" stop="20231010000000 +0300" channel="arenasport2.sr">
-    <title lang="sr">ABA 2. LIGA: TFT - Zlatibor</title>
-    <category>Košarka</category>
   </programme>
   <programme start="20231010000000 +0300" stop="20231010003000 +0300" channel="arenasport2.sr">
     <title lang="sr">Moja Arena</title>
@@ -2287,36 +2150,6 @@
     <title lang="sr">ARGENTINSKI KUP: Talleres - Boca Juniors</title>
     <category>Fudbal</category>
   </programme>
-  <programme start="20231009080000 +0300" stop="20231009093000 +0300" channel="arenasport1.hr">
-    <title>Rukomet: HERNING - KRIM, ehf liga prvakinja</title>
-  </programme>
-  <programme start="20231009093000 +0300" stop="20231009100000 +0300" channel="arenasport1.hr">
-    <title>Emisija: PL STORIES EP. 48, magazin</title>
-  </programme>
-  <programme start="20231009100000 +0300" stop="20231009120000 +0300" channel="arenasport1.hr">
-    <title>Nogomet: RENNES - PSG, francuska liga</title>
-  </programme>
-  <programme start="20231009120000 +0300" stop="20231009130000 +0300" channel="arenasport1.hr">
-    <title>Nogomet: PREGLED 8. KOLA, španjolska liga</title>
-  </programme>
-  <programme start="20231009130000 +0300" stop="20231009150000 +0300" channel="arenasport1.hr">
-    <title>Nogomet: ARSENAL - MANCHESTER CITY, premier league</title>
-  </programme>
-  <programme start="20231009150000 +0300" stop="20231009170000 +0300" channel="arenasport1.hr">
-    <title>Nogomet: LAZIO - ATALANTA, talijanska liga</title>
-  </programme>
-  <programme start="20231009170000 +0300" stop="20231009190000 +0300" channel="arenasport1.hr">
-    <title>Nogomet: OSASUNA - ATLETICO MADRID, španjolska liga</title>
-  </programme>
-  <programme start="20231009190000 +0300" stop="20231009210000 +0300" channel="arenasport1.hr">
-    <title>Košarka: SC DERBY - ZADAR, aba liga (UŽIVO)</title>
-  </programme>
-  <programme start="20231009210000 +0300" stop="20231009220000 +0300" channel="arenasport1.hr">
-    <title>Emisija: (NE)USPJEH PRVAKA S M. STANICEM 14, emisija</title>
-  </programme>
-  <programme start="20231009220000 +0300" stop="20231010080000 +0300" channel="arenasport1.hr">
-    <title>Nogomet: VILLAREAL B - ESPANYOL, segunda (UŽIVO)</title>
-  </programme>
   <programme start="20231010080000 +0300" stop="20231010100000 +0300" channel="arenasport1.hr">
     <title>Rukomet: GYOR - BUDUĆNOST, ehf liga prvakinja</title>
   </programme>
@@ -2413,35 +2246,38 @@
   <programme start="20231012213000 +0300" stop="20231012220000 +0300" channel="arenasport1.hr">
     <title>Emisija: BRASILEIRO, emisija</title>
   </programme>
-  <programme start="20231012220000 +0300" channel="arenasport1.hr">
+  <programme start="20231012220000 +0300" stop="20231013080000 +0300" channel="arenasport1.hr">
     <title>Košarka: CEDEVITA JUNIOR - VOJVODINA, aba2 liga (UŽIVO)</title>
   </programme>
-  <programme start="20231009080000 +0300" stop="20231009103000 +0300" channel="arenasport2.hr">
-    <title>Hokej na ledu: CSKA - SEVERSTAL, khl</title>
+  <programme start="20231013080000 +0300" stop="20231013093000 +0300" channel="arenasport1.hr">
+    <title>Rukomet: RK ZAGREB - AALBORG, ehf liga prvaka</title>
   </programme>
-  <programme start="20231009103000 +0300" stop="20231009130000 +0300" channel="arenasport2.hr">
-    <title>Baseball: DETROIT - CLEVELAND, mlb</title>
+  <programme start="20231013093000 +0300" stop="20231013100000 +0300" channel="arenasport1.hr">
+    <title>Emisija: PL STORIES EP. 52, magazin</title>
   </programme>
-  <programme start="20231009130000 +0300" stop="20231009150000 +0300" channel="arenasport2.hr">
-    <title>Nogomet: GENK - GENT, belgijska liga</title>
+  <programme start="20231013100000 +0300" stop="20231013120000 +0300" channel="arenasport1.hr">
+    <title>Nogomet: REIMS - MONACO, francuska liga</title>
   </programme>
-  <programme start="20231009150000 +0300" stop="20231009160000 +0300" channel="arenasport2.hr">
-    <title>Nogomet: SAŽETAK 8. KOLA, talijanska liga</title>
+  <programme start="20231013120000 +0300" stop="20231013130000 +0300" channel="arenasport1.hr">
+    <title>Emisija: PREGLED 8. KOLA, španjolska liga</title>
   </programme>
-  <programme start="20231009160000 +0300" stop="20231009180000 +0300" channel="arenasport2.hr">
-    <title>Košarka: BORAC - ŠIBENKA, aba 2 liga (UŽIVO)</title>
+  <programme start="20231013130000 +0300" stop="20231013150000 +0300" channel="arenasport1.hr">
+    <title>Nogomet: WEST HAM - NEWCASTLE, premier league</title>
   </programme>
-  <programme start="20231009180000 +0300" stop="20231009190000 +0300" channel="arenasport2.hr">
-    <title>Nogomet: SAŽETAK 8. KOLA, francuska liga</title>
+  <programme start="20231013150000 +0300" stop="20231013170000 +0300" channel="arenasport1.hr">
+    <title>Nogomet: NAPOLI - FIORENTINA, talijanska liga</title>
   </programme>
-  <programme start="20231009190000 +0300" stop="20231009210000 +0300" channel="arenasport2.hr">
-    <title>Košarka: VOJVODINA - ŠIROKI BRIJEG, aba 2 liga (UŽIVO)</title>
+  <programme start="20231013170000 +0300" stop="20231013190000 +0300" channel="arenasport1.hr">
+    <title>Nogomet: REAL MADRID - OSASUNA, španjolska liga</title>
   </programme>
-  <programme start="20231009210000 +0300" stop="20231009230000 +0300" channel="arenasport2.hr">
-    <title>Košarka: CIBONA - FMP, aba liga (UŽIVO)</title>
+  <programme start="20231013190000 +0300" stop="20231013210000 +0300" channel="arenasport1.hr">
+    <title>Košarka: ZADAR - MORNAR, aba liga (UŽIVO)</title>
   </programme>
-  <programme start="20231009230000 +0300" stop="20231010000000 +0300" channel="arenasport2.hr">
-    <title>Nogomet: SAŽETAK 8. KOLA, premier league</title>
+  <programme start="20231013210000 +0300" stop="20231013220000 +0300" channel="arenasport1.hr">
+    <title>Vaterpolo: JUG - JADRAN SPLIT, regionalna liga (UŽIVO)</title>
+  </programme>
+  <programme start="20231013220000 +0300" channel="arenasport1.hr">
+    <title>Nogomet: OVIEDO - ALBACETE, segunda (UŽIVO)</title>
   </programme>
   <programme start="20231010000000 +0300" stop="20231010020000 +0300" channel="arenasport2.hr">
     <title>Boks: CLAVEL - BERMUDEZ, light flyweight world championship</title>
@@ -2517,101 +2353,6 @@
   </programme>
   <programme start="20231011220000 +0300" channel="arenasport2.hr">
     <title>Košarka: ŠIBENKA - ZLATIBOR, aba 2 liga (UŽIVO)</title>
-  </programme>
-  <programme start="20231009060000 +0300" stop="20231009060500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009060500 +0300" stop="20231009080500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. "Кальяри" - "Рома" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>В эфире телеканала высший дивизион итальянской футбольной лиги, который считается одним из самых сильных…</desc>
-  </programme>
-  <programme start="20231009080500 +0300" stop="20231009081000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009081000 +0300" stop="20231009101000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. "Наполи" - "Фиорентина" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>В эфире телеканала высший дивизион итальянской футбольной лиги, который считается одним из самых сильных…</desc>
-  </programme>
-  <programme start="20231009101000 +0300" stop="20231009101500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009101500 +0300" stop="20231009121500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. "Фрозиноне" - "Верона" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>В эфире телеканала высший дивизион итальянской футбольной лиги, который считается одним из самых сильных…</desc>
-  </programme>
-  <programme start="20231009121500 +0300" stop="20231009122000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009122000 +0300" stop="20231009142000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. "Монца" - "Салернитана" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>В эфире телеканала высший дивизион итальянской футбольной лиги, который считается одним из самых сильных…</desc>
-  </programme>
-  <programme start="20231009142000 +0300" stop="20231009142500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009142500 +0300" stop="20231009162500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. "Лацио" - "Аталанта" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>В эфире телеканала высший дивизион итальянской футбольной лиги, который считается одним из самых сильных…</desc>
-  </programme>
-  <programme start="20231009162500 +0300" stop="20231009163000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009163000 +0300" stop="20231009183000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. "Кальяри" - "Рома" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>В эфире телеканала высший дивизион итальянской футбольной лиги, который считается одним из самых сильных…</desc>
-  </programme>
-  <programme start="20231009183000 +0300" stop="20231009183500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009183500 +0300" stop="20231009203500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. "Наполи" - "Фиорентина" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>В эфире телеканала высший дивизион итальянской футбольной лиги, который считается одним из самых сильных…</desc>
-  </programme>
-  <programme start="20231009203500 +0300" stop="20231009204000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009204000 +0300" stop="20231009212500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. Обзор тура (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>Обзор высшего дивизиона итальянской футбольной лиги, который считается одним из самых сильных футбольных…</desc>
-  </programme>
-  <programme start="20231009212500 +0300" stop="20231009215500 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Журнал Лиги чемпионов (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/9/3e/97/69/3/93e97693372ce210612a95758bb40719faa8415b423149dc218ccd4f29703f64.jpg" />
-    <desc>Программа подводит итоги очередной кубковой недели в рамках Лиги Чемпионов УЕФА - самого престижного…</desc>
-  </programme>
-  <programme start="20231009215500 +0300" stop="20231009220000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009220000 +0300" stop="20231010060000 +0300" channel="matchfutbol1.ru">
-    <title lang="ru">Чемпионат Италии. "Ювентус" - "Торино" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/f/7e/86/44/5/f7e864456c1a9182a1d6ef0a89844ddc65572731ed8a1ac958d164929edc7d71.jpg" />
-    <desc>В эфире телеканала высший дивизион итальянской футбольной лиги, который считается одним из самых сильных…</desc>
   </programme>
   <programme start="20231010060000 +0300" stop="20231010060500 +0300" channel="matchfutbol1.ru">
     <title lang="ru">Новости футбола (0+)</title>
@@ -2868,65 +2609,100 @@
     <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
     <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
   </programme>
-  <programme start="20231012235000 +0300" channel="matchfutbol1.ru">
+  <programme start="20231012235000 +0300" stop="20231013060000 +0300" channel="matchfutbol1.ru">
     <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Албания - Чехия (6+)</title>
     <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
     <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
   </programme>
-  <programme start="20231009060000 +0300" stop="20231009080500 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Коринтианс" - "Фламенго" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
-  </programme>
-  <programme start="20231009080500 +0300" stop="20231009101000 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Атлетико Паранаэнсе" - "Брагантино" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
-  </programme>
-  <programme start="20231009101000 +0300" stop="20231009121500 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Флуминенсе" - "Ботафого" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
-  </programme>
-  <programme start="20231009121500 +0300" stop="20231009142000 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Гояс" - "Баия" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
-  </programme>
-  <programme start="20231009142000 +0300" stop="20231009162500 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Атлетико Паранаэнсе" - "Брагантино" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
-  </programme>
-  <programme start="20231009162500 +0300" stop="20231009183000 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Флуминенсе" - "Ботафого" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
-  </programme>
-  <programme start="20231009183000 +0300" stop="20231009203500 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Васко да Гама" - "Сан-Паулу" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
-  </programme>
-  <programme start="20231009203500 +0300" stop="20231009204000 +0300" channel="matchfutbol2.ru">
+  <programme start="20231013060000 +0300" stop="20231013060500 +0300" channel="matchfutbol1.ru">
     <title lang="ru">Новости футбола (0+)</title>
     <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
     <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
   </programme>
-  <programme start="20231009204000 +0300" stop="20231009214000 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Лига чемпионов. Обзор матчей (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/9/3e/97/69/3/93e97693372ce210612a95758bb40719faa8415b423149dc218ccd4f29703f64.jpg" />
-    <desc>Лига чемпионов - самый престижный европейский клубный футбольный турнир, ежегодно проводимый под эгидой…</desc>
+  <programme start="20231013060500 +0300" stop="20231013080000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Латвия - Армения (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
   </programme>
-  <programme start="20231009214000 +0300" stop="20231009234500 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Атлетико Паранаэнсе" - "Брагантино" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
+  <programme start="20231013080000 +0300" stop="20231013080500 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Новости футбола (0+)</title>
+    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
+    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
   </programme>
-  <programme start="20231009234500 +0300" stop="20231010015000 +0300" channel="matchfutbol2.ru">
-    <title lang="ru">Чемпионат Бразилии. "Флуминенсе" - "Ботафого" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
-    <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
+  <programme start="20231013080500 +0300" stop="20231013100000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Испания - Шотландия (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
+  </programme>
+  <programme start="20231013100000 +0300" stop="20231013100500 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Новости футбола (0+)</title>
+    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
+    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
+  </programme>
+  <programme start="20231013100500 +0300" stop="20231013120500 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Албания - Чехия (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
+  </programme>
+  <programme start="20231013120500 +0300" stop="20231013121000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Новости футбола (0+)</title>
+    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
+    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
+  </programme>
+  <programme start="20231013121000 +0300" stop="20231013141000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Белоруссия - Румыния (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
+  </programme>
+  <programme start="20231013141000 +0300" stop="20231013141500 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Новости футбола (0+)</title>
+    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
+    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
+  </programme>
+  <programme start="20231013141500 +0300" stop="20231013161500 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Хорватия - Турция (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
+  </programme>
+  <programme start="20231013161500 +0300" stop="20231013162000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Новости футбола (0+)</title>
+    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
+    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
+  </programme>
+  <programme start="20231013162000 +0300" stop="20231013172000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочные матчи. Обзор (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
+  </programme>
+  <programme start="20231013172000 +0300" stop="20231013192500 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Латвия - Армения (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
+  </programme>
+  <programme start="20231013192500 +0300" stop="20231013213000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Испания - Шотландия (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
+  </programme>
+  <programme start="20231013213000 +0300" stop="20231013213500 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Новости футбола (0+)</title>
+    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
+    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
+  </programme>
+  <programme start="20231013213500 +0300" stop="20231013234500 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. On-line. Прямая трансляция</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
+  </programme>
+  <programme start="20231013234500 +0300" stop="20231013235000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Новости футбола (0+)</title>
+    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
+    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
+  </programme>
+  <programme start="20231013235000 +0300" channel="matchfutbol1.ru">
+    <title lang="ru">Чемпионат Европы-2024. Отборочный турнир. Австрия - Бельгия (6+)</title>
+    <icon src="https://ntvplus.ru//files/stv/d/48/9d/74/2/d489d7429f52419437e1421c24dd02da100d7d2df0f14c0a61178f9caf6f8b5b.jpg" />
+    <desc>Чемпионат Европы по футболу - главное соревнование национальных сборных, проводимое под руководством…</desc>
   </programme>
   <programme start="20231010015000 +0300" stop="20231010035500 +0300" channel="matchfutbol2.ru">
     <title lang="ru">Чемпионат Бразилии. "Коринтианс" - "Фламенго" (6+)</title>
@@ -3057,36 +2833,6 @@
     <title lang="ru">Чемпионат Бразилии. "Гояс" - "Баия" (6+)</title>
     <icon src="https://ntvplus.ru//files/stv/2/13/d5/a6/6/213d5a66dccb6b78ec06fa26cb30fc897d0086a0da7c31af1dea7f0e99213243.jpg" />
     <desc>В чемпионате Бразилии участвуют 20 клубов. В течение сезона (с мая по декабрь) каждый клуб играет с…</desc>
-  </programme>
-  <programme start="20231009002500 +0300" stop="20231009003000 +0300" channel="matchfutbol3.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009003000 +0300" stop="20231009012500 +0300" channel="matchfutbol3.ru">
-    <title lang="ru">Еврокубки. Обзор матчей (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/d/5d/74/44/e/d5d7444e685410d4f49e52fb57e39ce01ba22ba9f40e54ad04c8a0b6495d47ea.jpg" />
-    <desc>Обзор международных клубных турниров по футболу.</desc>
-  </programme>
-  <programme start="20231009012500 +0300" stop="20231009033000 +0300" channel="matchfutbol3.ru">
-    <title lang="ru">Чемпионат Германии. "Байер" - "Кельн" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/c/e2/b4/a1/3/ce2b4a135690074c0c87eb7910c8b9bcdade27d7dee5468755b6f56b16ff2b86.jpg" />
-    <desc>В эфире телеканала профессиональная футбольная лига для немецких футбольных клубов. Является высшим…</desc>
-  </programme>
-  <programme start="20231009033000 +0300" stop="20231009040000 +0300" channel="matchfutbol3.ru">
-    <title lang="ru">Журнал Лиги чемпионов (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/9/3e/97/69/3/93e97693372ce210612a95758bb40719faa8415b423149dc218ccd4f29703f64.jpg" />
-    <desc>Программа подводит итоги очередной кубковой недели в рамках Лиги Чемпионов УЕФА - самого престижного…</desc>
-  </programme>
-  <programme start="20231009040000 +0300" stop="20231009040500 +0300" channel="matchfutbol3.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009040500 +0300" stop="20231010060000 +0300" channel="matchfutbol3.ru">
-    <title lang="ru">Чемпионат Германии. "Бавария" - "Фрайбург" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/c/e2/b4/a1/3/ce2b4a135690074c0c87eb7910c8b9bcdade27d7dee5468755b6f56b16ff2b86.jpg" />
-    <desc>В эфире телеканала профессиональная футбольная лига для немецких футбольных клубов. Является высшим…</desc>
   </programme>
   <programme start="20231010060000 +0300" stop="20231010060500 +0300" channel="matchfutbol3.ru">
     <title lang="ru">Новости футбола (0+)</title>
@@ -3283,26 +3029,6 @@
     <icon src="https://ntvplus.ru//files/stv/c/e2/b4/a1/3/ce2b4a135690074c0c87eb7910c8b9bcdade27d7dee5468755b6f56b16ff2b86.jpg" />
     <desc>Во второй лиге Чемпионата Германии по футболу традиционно выступает 18 команд, которые проводят друг…</desc>
   </programme>
-  <programme start="20231009005500 +0300" stop="20231009025500 +0300" channel="matchigra.ru">
-    <title lang="ru">Регби. PARI Чемпионат России. "Красный Яр" (Красноярск) - "ВВА-Подмосковье" (Монино) (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/f6/e6/6e/6/2f6e66e67de12f2a05e78c2031c0282bfd1b309a07b2b9bf50337889b0508965.jpg" />
-    <desc>"PARI Чемпионат России по регби" 2022-2023 пройдёт в два этапа: регулярный чемпионат - 18 туров и…</desc>
-  </programme>
-  <programme start="20231009025500 +0300" stop="20231009032500 +0300" channel="matchigra.ru">
-    <title lang="ru">Что по спорту?. Владикавказ (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/7/97/38/2b/6/797382b6a66833cc2c2c671e1e3c7dd6d4e19131bd0ed08985f91dab7f383a71.jpg" />
-    <desc>Авторы проекта путешествуют по России и знакомят зрителей со спортивной жизнью разных городов.</desc>
-  </programme>
-  <programme start="20231009032500 +0300" stop="20231009040000 +0300" channel="matchigra.ru">
-    <title lang="ru">7 сторон силы (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/1/b1/f8/f5/f/1b1f8f5fb4a0286639736b782c1ac56ab1d18ae5098adca3cd12c40114403b7e.jpg" />
-    <desc>В эфире телеканала лучшие документальные фильмы.</desc>
-  </programme>
-  <programme start="20231009040000 +0300" stop="20231010060000 +0300" channel="matchigra.ru">
-    <title lang="ru">Волейбол. БЕТСИТИ Кубок столетия. Финал 4-х. Мужчины. Матч за 3-е место. Трансляция из Калининграда (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/b/cd/29/36/4/bcd293648cabcdd8615718b9315ad5f64005b3b8299bed102a45de6d80ddd80f.jpg" />
-    <desc>Волейбол - вид спорта, командная спортивная игра, в процессе которой две команды соревнуются на…</desc>
-  </programme>
   <programme start="20231010060000 +0300" stop="20231010070500 +0300" channel="matchigra.ru">
     <title lang="ru">Лев Яшин - номер один (12+)</title>
     <icon src="https://ntvplus.ru//files/stv/8/99/0b/96/9/8990b9698cae071e42048c8395cc220954a3b94ccae979d3a1cf5a1beb11bb6d.jpg" />
@@ -3467,26 +3193,6 @@
     <title lang="ru">Спортивный век (12+)</title>
     <icon src="https://ntvplus.ru//files/stv/d/d2/82/30/4/dd282304ad76e383819386825be2787c00768d326b30fa8182dcb2e17e7b4d40.jpg" />
     <desc>Все самое интересное и уникальное из мира спорта.</desc>
-  </programme>
-  <programme start="20231009003500 +0300" stop="20231009010000 +0300" channel="matcharena.ru">
-    <title lang="ru">Спортивный век (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/d/d2/82/30/4/dd282304ad76e383819386825be2787c00768d326b30fa8182dcb2e17e7b4d40.jpg" />
-    <desc>Все самое интересное и уникальное из мира спорта.</desc>
-  </programme>
-  <programme start="20231009010000 +0300" stop="20231009044500 +0300" channel="matcharena.ru">
-    <title lang="ru">Спортивная гимнастика. Чемпионат мира. Финалы в отдельных видах. Трансляция из Бельгии (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/0/12/3e/f9/d/0123ef9db857af839adb540ded8f23a89e9114989cc8d83f3508aa6b2c1326b0.jpg" />
-    <desc>Спортивная гимнастика - вид спорта, включающий соревнования на гимнастических снарядах, в вольных…</desc>
-  </programme>
-  <programme start="20231009044500 +0300" stop="20231009050500 +0300" channel="matcharena.ru">
-    <title lang="ru">Небесная грация (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/3/32/81/78/8/3328178844a34a27029332316c37847268484a6b6a89eb5f0e85ae73da55c376.jpg" />
-    <desc>Репортаж об экспериментальном международном турнире по художественной гимнастике "Небесная грация".</desc>
-  </programme>
-  <programme start="20231009050500 +0300" stop="20231010060000 +0300" channel="matcharena.ru">
-    <title lang="ru">Спортивный детектив. Повелитель времени (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/5/7b/78/c4/c/57b78c4c16e04da2c0d233d17faef217f472f0cd88e49ff7ed515ba56ab9aef6.jpg" />
-    <desc>Документальное расследование - самые загадочные и интригующие спортивные драмы.</desc>
   </programme>
   <programme start="20231010060000 +0300" stop="20231010073500 +0300" channel="matcharena.ru">
     <title lang="ru">Дзюдо. Гран-при. Трансляция из Австрии (12+)</title>
@@ -3667,41 +3373,6 @@
     <title lang="ru">Боулинг. Континентальная лига. Про-тур. Трансляция из Омска (0+)</title>
     <icon src="https://ntvplus.ru//files/stv/3/1f/01/cc/b/31f01ccbce050ae245eae74c7126e8a5c962e9053e107df8fb23fdc6c2a711b3.jpg" />
     <desc>Кубок КЛБ - это профессиональные соревнования по боулингу, в которых лучшие российские боулеры и…</desc>
-  </programme>
-  <programme start="20231009000000 +0300" stop="20231009002500 +0300" channel="matchpremier.ru">
-    <title lang="ru">Наши иностранцы (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/7/ea/19/02/5/7ea190255b548d195c0c32752c197cd4ee07bde1d6900ef1af895df33ff14c91.jpg" />
-    <desc>РПЛ давно уже входит в топ-10 лиг Европы, а значит сюда стремятся попасть футболисты из многих чемпионатов…</desc>
-  </programme>
-  <programme start="20231009002500 +0300" stop="20231009005000 +0300" channel="matchpremier.ru">
-    <title lang="ru">Матч! Парад. Лучшие голы (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/99/7d/96/1/2997d961bd63b579f1004952a51967a1c1b9ead91b9810354f94f33b72d933f3.jpg" />
-    <desc>Подборка самых интересных моментов спортивного мира.</desc>
-  </programme>
-  <programme start="20231009005000 +0300" stop="20231009005500 +0300" channel="matchpremier.ru">
-    <title lang="ru">Новости футбола (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/6/5f/34/30/1/65f343019259950b72496bbbba1dc0833ec8d86a947ef4a7159c2a1463d675a3.jpg" />
-    <desc>Последние новости футбола России, Европы и мира на сегодня.</desc>
-  </programme>
-  <programme start="20231009005500 +0300" stop="20231009012500 +0300" channel="matchpremier.ru">
-    <title lang="ru">Кубок наш (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/8/b9/e9/2c/b/8b9e92cbfc06ab21dc3b77cba0e7eca96f7d8b77506495436a3628b7e0d1cc60.jpg" />
-    <desc>Спортивная передача на канале.</desc>
-  </programme>
-  <programme start="20231009012500 +0300" stop="20231009015500 +0300" channel="matchpremier.ru">
-    <title lang="ru">Всё о главном. Вячеслав Даев (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/1/72/66/8f/a/172668fa1625f444d36dfa54eed6435e2f8be67f33569f82c30f1178ed7ef97b.jpg" />
-    <desc>Откровенно о самом главном: эксклюзивные интервью с действующими тренерами, игроками и легендами спорта…</desc>
-  </programme>
-  <programme start="20231009015500 +0300" stop="20231009035500 +0300" channel="matchpremier.ru">
-    <title lang="ru">Футбол. МИР Российская Премьер-Лига. Тур 11. В перерыве - Новости футбола. "Пари НН" - "Крылья Советов" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/b/64/68/8b/5/b64688b5a13d723f5f1e1fbd4a0cbe2a6ec9078c9867144851b51d4d01c04116.jpg" />
-    <desc>Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими…</desc>
-  </programme>
-  <programme start="20231009035500 +0300" stop="20231010060000 +0300" channel="matchpremier.ru">
-    <title lang="ru">Футбол. МИР Российская Премьер-Лига. Тур 11. В перерыве - Новости футбола. "Динамо" - "Факел" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/b/64/68/8b/5/b64688b5a13d723f5f1e1fbd4a0cbe2a6ec9078c9867144851b51d4d01c04116.jpg" />
-    <desc>Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими…</desc>
   </programme>
   <programme start="20231010060000 +0300" stop="20231010080000 +0300" channel="matchpremier.ru">
     <title lang="ru">МЕЛБЕТ-Первая лига. Тур 13. "Химки" - "Алания" (6+)</title>
@@ -3978,31 +3649,6 @@
     <icon src="https://ntvplus.ru//files/stv/b/64/68/8b/5/b64688b5a13d723f5f1e1fbd4a0cbe2a6ec9078c9867144851b51d4d01c04116.jpg" />
     <desc>Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими…</desc>
   </programme>
-  <programme start="20231009002500 +0300" stop="20231009023500 +0300" channel="matchtv.ru">
-    <title lang="ru">Футбол. Чемпионат Бразилии. Прямая трансляция. "Атлетико Паранаэнсе" - "Брагантино"</title>
-    <icon src="https://ntvplus.ru//files/stv/2/3c/71/2f/2/23c712f2849b328f9a0ed1fc0486766b235879af2308c20e629446c0fe003cd8.jpg" />
-    <desc>Чемпионат Бразилии представляет всем поклонникам южноамериканского футбола противостояние "Атлетико…</desc>
-  </programme>
-  <programme start="20231009023500 +0300" stop="20231009025500 +0300" channel="matchtv.ru">
-    <title lang="ru">Лица страны. Евгений Салахов (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/a/68/79/dc/9/a6879dc9210b6d64fdb69023a070c49c97b79b8c497b44400078b50329fa0f89.jpg" />
-    <desc>В эфире телеканала специальный репортаж, посвященный выдающимся спортсменам.</desc>
-  </programme>
-  <programme start="20231009025500 +0300" stop="20231009030000 +0300" channel="matchtv.ru">
-    <title lang="ru">Новости (0+)</title>
-    <icon src="https://ntvplus.ru//files/stv/0/f6/f5/15/5/0f6f51557e15978be7aa2d9a9735ff25abf015c35615a14beeb8815c29b642c3.jpg" />
-    <desc>Спортивные новости, самые свежие события в России и мире. Оперативно и достоверно мы рассказываем о…</desc>
-  </programme>
-  <programme start="20231009030000 +0300" stop="20231009050000 +0300" channel="matchtv.ru">
-    <title lang="ru">Футбол. Чемпионат Германии. "Боруссия" (Дортмунд) - "Унион" (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/c/e2/b4/a1/3/ce2b4a135690074c0c87eb7910c8b9bcdade27d7dee5468755b6f56b16ff2b86.jpg" />
-    <desc>В эфире телеканала профессиональная футбольная лига для немецких футбольных клубов. Является высшим…</desc>
-  </programme>
-  <programme start="20231009050000 +0300" stop="20231010060000 +0300" channel="matchtv.ru">
-    <title lang="ru">Спортивная гимнастика. Чемпионат мира. Трансляция из Бельгии (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/0/12/3e/f9/d/0123ef9db857af839adb540ded8f23a89e9114989cc8d83f3508aa6b2c1326b0.jpg" />
-    <desc>Спортивная гимнастика - вид спорта, включающий соревнования на гимнастических снарядах, в вольных…</desc>
-  </programme>
   <programme start="20231010060000 +0300" stop="20231010063000 +0300" channel="matchtv.ru">
     <title lang="ru">Игра миллионов (12+)</title>
     <icon src="https://ntvplus.ru//files/stv/0/25/b2/e4/c/025b2e4c62ec17d6ce75a91dd1e76a48d755f5cc189684160c0d678f8189d589.jpg" />
@@ -4253,26 +3899,6 @@
     <icon src="https://ntvplus.ru//files/stv/2/af/ae/12/8/2afae128199d1bf8470e9568dca13f72dd1b604c8a6c8f434844df976abb4507.jpg" />
     <desc>24 часа Ле-Мана - автомобильная гонка на выносливость, проходящая ежегодно с 1923 года недалеко от…</desc>
   </programme>
-  <programme start="20231009010500 +0300" stop="20231009014000 +0300" channel="matchboetz.ru">
-    <title lang="ru">Едем дальше!. Казань (16+)</title>
-    <icon src="https://ntvplus.ru//files/stv/e/3f/23/50/4/e3f23504b9ed68188708a5cdf488259b0c89116e0525b00911329ab65688f654.jpg" />
-    <desc>Передача, в которой каждый найдет для себя что-то новое и интересное.</desc>
-  </programme>
-  <programme start="20231009014000 +0300" stop="20231009021000 +0300" channel="matchboetz.ru">
-    <title lang="ru">Матч! Парад. Лучшие иппоны (16+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/99/7d/96/1/2997d961bd63b579f1004952a51967a1c1b9ead91b9810354f94f33b72d933f3.jpg" />
-    <desc>Подборка самых интересных моментов спортивного мира.</desc>
-  </programme>
-  <programme start="20231009021000 +0300" stop="20231009035000 +0300" channel="matchboetz.ru">
-    <title lang="ru">Леннокс Льюис: Нерассказанная история (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/4/59/8b/6a/b/4598b6ab0a8337dcf6b037f1336e911ccd9ee170680ab718a11e1a6b738ef95c.jpg" />
-    <desc>Взгляд изнутри на карьеру Леннокса Льюиса от его грубого воспитания до Олимпийских игр и профессиональных…</desc>
-  </programme>
-  <programme start="20231009035000 +0300" stop="20231010060000 +0300" channel="matchboetz.ru">
-    <title lang="ru">Бокс. BKB 26. Э. Холмс - Ч. Келли. Д. Лервелл - Д. Макграффин (16+)</title>
-    <icon src="https://ntvplus.ru//files/stv/4/e2/b6/be/1/4e2b6be18d39207f3ca2ae20a73128a9dbd347ae5a3efebcdb89fefb42a29b7d.jpg" />
-    <desc>Представляем трансляцию турнира по профессиональному боксу. В эфире самые интересные поединки сильнейших…</desc>
-  </programme>
   <programme start="20231010060000 +0300" stop="20231010063500 +0300" channel="matchboetz.ru">
     <title lang="ru">Едем дальше!. Казань (16+)</title>
     <icon src="https://ntvplus.ru//files/stv/e/3f/23/50/4/e3f23504b9ed68188708a5cdf488259b0c89116e0525b00911329ab65688f654.jpg" />
@@ -4452,31 +4078,6 @@
     <title lang="ru">Смешанные единоборства. UFC Fight Night. Трансляция из США. Г. Доусон - Б. Грин. Д. Пайфер - А.Р. Альхассан (16+)</title>
     <icon src="https://ntvplus.ru//files/stv/5/61/24/e2/1/56124e212c5f5ae263ca0be5371d8ba0ebe48e85058a7482c573e82438f0f74b.jpg" />
     <desc>Лучшие бойцы планеты демонстрируют самые разные приемы и техники из всех видов единоборств, и кто…</desc>
-  </programme>
-  <programme start="20231009003500 +0300" stop="20231009010500 +0300" channel="matchstrana.ru">
-    <title lang="ru">География спорта. Красноярск (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/1f/9b/9d/2/21f9b9d209bfb51b18fb9c5ef34d8b88e6ad2efa0e363aea246036e1873c5c8f.jpg" />
-    <desc>Корреспонденты путешествуют по России и зарубежью, чтобы показать, как и чем живет живет спорт в разных…</desc>
-  </programme>
-  <programme start="20231009010500 +0300" stop="20231009025500 +0300" channel="matchstrana.ru">
-    <title lang="ru">Волейбол. БЕТСИТИ Кубок столетия. Финал 4-х. Мужчины. Матч за 3-е место. Трансляция из Калининграда (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/b/cd/29/36/4/bcd293648cabcdd8615718b9315ad5f64005b3b8299bed102a45de6d80ddd80f.jpg" />
-    <desc>Волейбол - вид спорта, командная спортивная игра, в процессе которой две команды соревнуются на…</desc>
-  </programme>
-  <programme start="20231009025500 +0300" stop="20231009032500 +0300" channel="matchstrana.ru">
-    <title lang="ru">Здоровый образ. Регби (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/4/62/51/82/5/46251825407c6a3d522240d825a35431d8590319ab4ec5ac2780b37dfd0c2ffb.jpg" />
-    <desc>Ведущий с героями программы изучает разные виды спорта, практикует основные приемы и рассказывает о…</desc>
-  </programme>
-  <programme start="20231009032500 +0300" stop="20231009053000 +0300" channel="matchstrana.ru">
-    <title lang="ru">Автоспорт. СМП РСКГ Эндуранс. Кубок России. Трансляция из Грозного (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/1/b9/d4/02/2/1b9d40229d4c551868394c708a784669720889e8b5a59a17b698d2032659d667.jpg" />
-    <desc>СМП РСКГ - с 2014 года это официальное название всероссийских соревнований по кольцевым автомобильным…</desc>
-  </programme>
-  <programme start="20231009053000 +0300" stop="20231010060000 +0300" channel="matchstrana.ru">
-    <title lang="ru">Специальный репортаж. Мы знаем, что они делали этим летом (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/a/0a/bf/5a/0/a0abf5a01689729141897100f966bdf7bff5441e8139c69a06ed9823220784a6.jpg" />
-    <desc>Спорт, герои, события - корреспонденты программы "Специальный репортаж" расскажут обо всем самом важном…</desc>
   </programme>
   <programme start="20231010060000 +0300" stop="20231010075000 +0300" channel="matchstrana.ru">
     <title lang="ru">Регби. PARI Чемпионат России. "Динамо" (Москва) - "Локомотив-Пенза" (12+)</title>
@@ -4778,31 +4379,6 @@
     <icon src="https://ntvplus.ru//files/stv/b/06/c6/fb/8/b06c6fb8f839bd360c4716eeee1292a77eed76e086c404d3a90e4a6d119f4b97.jpg" />
     <desc>SEHA-Газпром Лига (Юго-Восточная Гандбольная Ассоциация) - это ассоциация, включающая в себя гандбольные…</desc>
   </programme>
-  <programme start="20231009000500 +0300" stop="20231009022500 +0300" channel="telekanalkhl.ru">
-    <title lang="ru">Фонбет Чемпионат КХЛ. "Металлург" (Мг) - "Салават Юлаев" (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/a/2a/67/23/8/a2a67238f246f15429d78eeb4a8ad6aa7d76473a7604fd65587e1815b38115bf.jpg" />
-    <desc>КХЛ является сильнейшей лигой в Европе, второй по силе и по престижу в мире после НХЛ. Лига была…</desc>
-  </programme>
-  <programme start="20231009022500 +0300" stop="20231009024000 +0300" channel="telekanalkhl.ru">
-    <title lang="ru">Планета героев (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/e/c1/69/ef/d/ec169efd10ffdef4e352fb96dc64541b30e59b666280531a3cf11e2dcbc52e58.jpg" />
-    <desc>Передача, в которой каждый найдет для себя что-то новое и интересное.</desc>
-  </programme>
-  <programme start="20231009024000 +0300" stop="20231009032500 +0300" channel="telekanalkhl.ru">
-    <title lang="ru">Судейская (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/c/1b/9f/c7/3/c1b9fc73530e46d4c5a7d8355525d670c157c1ea4b70770a7636c96f0ecf509b.jpg" />
-    <desc>Главный арбитр КХЛ Алексей Анисимов разъясняет самые спорные и обсуждаемые моменты в лиге за отчетный…</desc>
-  </programme>
-  <programme start="20231009032500 +0300" stop="20231009054000 +0300" channel="telekanalkhl.ru">
-    <title lang="ru">Фонбет Чемпионат КХЛ. "Нефтехимик" - "Автомобилист" (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/a/2a/67/23/8/a2a67238f246f15429d78eeb4a8ad6aa7d76473a7604fd65587e1815b38115bf.jpg" />
-    <desc>КХЛ является сильнейшей лигой в Европе, второй по силе и по престижу в мире после НХЛ. Лига была…</desc>
-  </programme>
-  <programme start="20231009054000 +0300" stop="20231010060000 +0300" channel="telekanalkhl.ru">
-    <title lang="ru">Хоккейная вертикаль (6+)</title>
-    <icon src="https://ntvplus.ru//files/stv/e/81/af/16/b/e81af16b19287a68ecaeb77b565f44f6f30f6c266f7c962ef6035d5c8be964b9.jpg" />
-    <desc>Репортажная программа о лучших детско-юношеских хоккейных школах страны, их воспитанниках и связи с…</desc>
-  </programme>
   <programme start="20231010060000 +0300" stop="20231010081500 +0300" channel="telekanalkhl.ru">
     <title lang="ru">Фонбет Чемпионат КХЛ. "Северсталь" - "Динамо" (Москва) (12+)</title>
     <icon src="https://ntvplus.ru//files/stv/a/2a/67/23/8/a2a67238f246f15429d78eeb4a8ad6aa7d76473a7604fd65587e1815b38115bf.jpg" />
@@ -5007,26 +4583,6 @@
     <title lang="ru">Фонбет Чемпионат КХЛ. "Нефтехимик" - "Витязь" (12+)</title>
     <icon src="https://ntvplus.ru//files/stv/a/2a/67/23/8/a2a67238f246f15429d78eeb4a8ad6aa7d76473a7604fd65587e1815b38115bf.jpg" />
     <desc>КХЛ является сильнейшей лигой в Европе, второй по силе и по престижу в мире после НХЛ. Лига была…</desc>
-  </programme>
-  <programme start="20231009010500 +0300" stop="20231009031000 +0300" channel="mirbaseketbola.ru">
-    <title lang="ru">АСВ-2022-2023 Чемпионат Испании. Плей-офф. Финал-3. "Реал" - "Барса" (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/7/bb/b7/09/f/7bbb709fee8aebf059b92254ca6ae7becf68cbfb306b37c2e27dbcfac99076b4.jpg" />
-    <desc>Барселона не стала откладывать дело в долгий ящик и в первом же матче в Мадриде решила проблему…</desc>
-  </programme>
-  <programme start="20231009031000 +0300" stop="20231009050500 +0300" channel="mirbaseketbola.ru">
-    <title lang="ru">АСВ-2022-2023 Чемпионат Испании. Плей-офф. 1/2 финала-4. "Ховентуд" - "Реал" (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/7/bb/b7/09/f/7bbb709fee8aebf059b92254ca6ae7becf68cbfb306b37c2e27dbcfac99076b4.jpg" />
-    <desc>Половина четвёртого матча с "Реалом" прошла на равных, но затем "Ховентуд" сдулся окончательно. Гай…</desc>
-  </programme>
-  <programme start="20231009050500 +0300" stop="20231009052000 +0300" channel="mirbaseketbola.ru">
-    <title lang="ru">Турнир по баскетболу среди ветеранов-2023 (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/8/1a/b0/93/0/81ab093018b836444ccb79b81f9e9426ad5df1b6e47af80d2412af08c1e6ec07.jpg" />
-    <desc>Игры традиционного турнира по баскетболу среди ветеранов.</desc>
-  </programme>
-  <programme start="20231009052000 +0300" stop="20231010060000 +0300" channel="mirbaseketbola.ru">
-    <title lang="ru">"Комета "Урал-Грейт" (12+)</title>
-    <icon src="https://ntvplus.ru//files/stv/2/f9/2d/7c/6/2f92d7c6651dbfb95fb82802781f60548b14f16471e58033f83291ad8791812d.jpg" />
-    <desc>О становлении и победах пермской команды "Урал-Грейт" - единственного клуба, который сумел прервать…</desc>
   </programme>
   <programme start="20231010060000 +0300" stop="20231010080000 +0300" channel="mirbaseketbola.ru">
     <title lang="ru">Товарищеский матч. Россия - Беларусь (12+)</title>
@@ -5302,108 +4858,6 @@
     <title lang="ru">PRO_Лошадей. Производители (0+)</title>
     <icon src="https://ntvplus.ru//files/stv/0/56/33/c2/c/05633c2c5bc9137995c787bdd21c10c6f945254dc49a609cc82b990383cc4f07.jpg" />
     <desc>Для любителей лошадей, конного спорта, заводчиков. Увлеченные люди найдут в ней все самое интересное…</desc>
-  </programme>
-  <programme start="20231009044500 +0300" stop="20231009052000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Immortals Fenyx Rising: Mity Wschodniego Królestwa, część 1</title>
-  </programme>
-  <programme start="20231009052000 +0300" stop="20231009055500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Immortals Fenyx Rising: Mity Wschodniego Królestwa, część 2</title>
-  </programme>
-  <programme start="20231009055500 +0300" stop="20231009063000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Immortals Fenyx Rising: Mity Wschodniego Królestwa, część 3</title>
-  </programme>
-  <programme start="20231009063000 +0300" stop="20231009072500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Immortals Fenyx Rising: Mity Wschodniego Królestwa, część 4</title>
-  </programme>
-  <programme start="20231009072500 +0300" stop="20231009080000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Endling: Chronicle of the Fox, część 6</title>
-  </programme>
-  <programme start="20231009080000 +0300" stop="20231009083000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: SpongeBob Squarepants: Battle for Bikini Bottom, część 2</title>
-  </programme>
-  <programme start="20231009083000 +0300" stop="20231009090500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Need For Speed: Unbound, część 1</title>
-  </programme>
-  <programme start="20231009090500 +0300" stop="20231009093500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Stray, część 1</title>
-  </programme>
-  <programme start="20231009093500 +0300" stop="20231009095500 +0300" channel="gametoon.tv">
-    <title>TVGry, odc. 348: Nieznany twórca, który robi NAJDZIWNIEJSZE gry</title>
-  </programme>
-  <programme start="20231009095500 +0300" stop="20231009105000 +0300" channel="gametoon.tv">
-    <title>Brawl Stars Gametoon Arena: Finały, część 3</title>
-  </programme>
-  <programme start="20231009105000 +0300" stop="20231009111000 +0300" channel="gametoon.tv">
-    <title>TVGry, odc. 349: 5 niepozornych zagadek, które mnie ZNISZCZYŁY</title>
-  </programme>
-  <programme start="20231009111000 +0300" stop="20231009114500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Outer Wilds, część 7</title>
-  </programme>
-  <programme start="20231009114500 +0300" stop="20231009122500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Need For Speed: Heat, część 1</title>
-  </programme>
-  <programme start="20231009122500 +0300" stop="20231009130500 +0300" channel="gametoon.tv">
-    <title>World of Tanks Gametoon Arena 2: 3. kwalifikacje, część 2</title>
-  </programme>
-  <programme start="20231009130500 +0300" stop="20231009133000 +0300" channel="gametoon.tv">
-    <title>Let's Replay: Crossout, część 1</title>
-  </programme>
-  <programme start="20231009133000 +0300" stop="20231009140000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: The Artful Escape, część 5</title>
-  </programme>
-  <programme start="20231009140000 +0300" stop="20231009142000 +0300" channel="gametoon.tv">
-    <title>Relacja z CD Action Expo 2023</title>
-  </programme>
-  <programme start="20231009142000 +0300" stop="20231009150000 +0300" channel="gametoon.tv">
-    <title>Gramy z Głową 3</title>
-  </programme>
-  <programme start="20231009150000 +0300" stop="20231009155500 +0300" channel="gametoon.tv">
-    <title>Dynamo - więcej niż magia</title>
-  </programme>
-  <programme start="20231009155500 +0300" stop="20231009163500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Dragon Ball Z: Kakarot, część 6</title>
-  </programme>
-  <programme start="20231009163500 +0300" stop="20231009170500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Lego Gwiezdne Wojny: Saga Skywalkerów, część 2</title>
-  </programme>
-  <programme start="20231009170500 +0300" stop="20231009174000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Kangurek Kao, część 2</title>
-  </programme>
-  <programme start="20231009174000 +0300" stop="20231009175500 +0300" channel="gametoon.tv">
-    <title>Projekt Wywiad: Live Motion Games część 1</title>
-  </programme>
-  <programme start="20231009175500 +0300" stop="20231009183000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Marvel's Guardians of the Galaxy, część 5</title>
-  </programme>
-  <programme start="20231009183000 +0300" stop="20231009185000 +0300" channel="gametoon.tv">
-    <title>Gildia Smaków</title>
-  </programme>
-  <programme start="20231009185000 +0300" stop="20231009191000 +0300" channel="gametoon.tv">
-    <title>Board News</title>
-  </programme>
-  <programme start="20231009191000 +0300" stop="20231009200500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Green Hell, część 9</title>
-  </programme>
-  <programme start="20231009200500 +0300" stop="20231009210000 +0300" channel="gametoon.tv">
-    <title>Tekken 7 Gametoon Arena: Finały, część 1</title>
-  </programme>
-  <programme start="20231009210000 +0300" stop="20231009213500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Starfield, część 13</title>
-  </programme>
-  <programme start="20231009213500 +0300" stop="20231009220500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Monster Hunter: Rise, część 4</title>
-  </programme>
-  <programme start="20231009220500 +0300" stop="20231009224000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Hogwarts Legacy, część 5</title>
-  </programme>
-  <programme start="20231009224000 +0300" stop="20231009225500 +0300" channel="gametoon.tv">
-    <title>Projekt Wywiad: Forestlight Games, część 1</title>
-  </programme>
-  <programme start="20231009225500 +0300" stop="20231009233000 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Uncharted 4, część 4</title>
-  </programme>
-  <programme start="20231009233000 +0300" stop="20231010043500 +0300" channel="gametoon.tv">
-    <title>Stream Nation: Blair Witch, część 4</title>
   </programme>
   <programme start="20231010043500 +0300" stop="20231010051500 +0300" channel="gametoon.tv">
     <title>Stream Nation: Watch Dogs: Legion, część 6</title>
@@ -5732,44 +5186,113 @@
   <programme start="20231012225000 +0300" stop="20231012232500 +0300" channel="gametoon.tv">
     <title>Stream Nation: Uncharted 4, część 6</title>
   </programme>
-  <programme start="20231012232500 +0300" channel="gametoon.tv">
+  <programme start="20231012232500 +0300" stop="20231013043000 +0300" channel="gametoon.tv">
     <title>Stream Nation: Blair Witch, część 6</title>
   </programme>
-  <programme start="20231009000000 +0300" stop="20231009020000 +0300" channel="aspor.tr">
-    <title lang="tr">-</title>
+  <programme start="20231013043000 +0300" stop="20231013051500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Assassin's Creed Valhalla, część 1</title>
   </programme>
-  <programme start="20231009020000 +0300" stop="20231009040000 +0300" channel="aspor.tr">
-    <title lang="tr">Spor Gündemi</title>
+  <programme start="20231013051500 +0300" stop="20231013054500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Dredge, część 5</title>
   </programme>
-  <programme start="20231009040000 +0300" stop="20231009060000 +0300" channel="aspor.tr">
-    <title lang="tr">Spor Merkezi</title>
+  <programme start="20231013054500 +0300" stop="20231013061500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Two Point Campus, część 17</title>
   </programme>
-  <programme start="20231009060000 +0300" stop="20231009070000 +0300" channel="aspor.tr">
-    <title lang="tr">Son Sayfa</title>
+  <programme start="20231013061500 +0300" stop="20231013062500 +0300" channel="gametoon.tv">
+    <title>Sim Racing Challenge 2022</title>
   </programme>
-  <programme start="20231009070000 +0300" stop="20231009100000 +0300" channel="aspor.tr">
-    <title lang="tr">Sabah Sporu</title>
+  <programme start="20231013062500 +0300" stop="20231013072500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Syberia: The World Before, część 15</title>
   </programme>
-  <programme start="20231009100000 +0300" stop="20231009110000 +0300" channel="aspor.tr">
-    <title lang="tr">Avrupa'daki Türk Takımları</title>
+  <programme start="20231013072500 +0300" stop="20231013081000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Endling: Chronicle of the Fox, część 10</title>
   </programme>
-  <programme start="20231009110000 +0300" stop="20231009130000 +0300" channel="aspor.tr">
-    <title lang="tr">Spor Ajansı</title>
+  <programme start="20231013081000 +0300" stop="20231013084000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: SpongeBob Squarepants: Battle For Bikini Bottom, część 6</title>
   </programme>
-  <programme start="20231009130000 +0300" stop="20231009150000 +0300" channel="aspor.tr">
-    <title lang="tr">Gün Ortası</title>
+  <programme start="20231013084000 +0300" stop="20231013091000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Need For Speed: Unbound, część 5</title>
   </programme>
-  <programme start="20231009150000 +0300" stop="20231009180000 +0300" channel="aspor.tr">
-    <title lang="tr">Spor Gündemi</title>
+  <programme start="20231013091000 +0300" stop="20231013094000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Stray, część 5</title>
   </programme>
-  <programme start="20231009180000 +0300" stop="20231009193000 +0300" channel="aspor.tr">
-    <title lang="tr">Ana Haber</title>
+  <programme start="20231013094000 +0300" stop="20231013100000 +0300" channel="gametoon.tv">
+    <title>TVGry, odc. 352: WIDZOWIE odgadują gry po recenzjach ze Steama</title>
   </programme>
-  <programme start="20231009193000 +0300" stop="20231009220000 +0300" channel="aspor.tr">
-    <title lang="tr">Avrupa Gecesi</title>
+  <programme start="20231013100000 +0300" stop="20231013104000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: The Pathless, część 4</title>
   </programme>
-  <programme start="20231009220000 +0300" stop="20231010000000 +0300" channel="aspor.tr">
-    <title lang="tr">Skorbord</title>
+  <programme start="20231013104000 +0300" stop="20231013105500 +0300" channel="gametoon.tv">
+    <title>VR Day</title>
+  </programme>
+  <programme start="20231013105500 +0300" stop="20231013111500 +0300" channel="gametoon.tv">
+    <title>TVGry, odc. 353: ZROBIŁEM GRĘ w 24h (nie umiejąc robić gier)</title>
+  </programme>
+  <programme start="20231013111500 +0300" stop="20231013115000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Life is Strange: True Colors, część 1</title>
+  </programme>
+  <programme start="20231013115000 +0300" stop="20231013123000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Need For Speed: Heat, część 5</title>
+  </programme>
+  <programme start="20231013123000 +0300" stop="20231013133500 +0300" channel="gametoon.tv">
+    <title>World of Tanks Gametoon Arena 2: Finały, część 1</title>
+  </programme>
+  <programme start="20231013133500 +0300" stop="20231013140000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: The Artful Escape, część 9</title>
+  </programme>
+  <programme start="20231013140000 +0300" stop="20231013142000 +0300" channel="gametoon.tv">
+    <title>TVGry, odc. 381: część 381</title>
+  </programme>
+  <programme start="20231013142000 +0300" stop="20231013153500 +0300" channel="gametoon.tv">
+    <title>Robot Wars 3</title>
+  </programme>
+  <programme start="20231013153500 +0300" stop="20231013155000 +0300" channel="gametoon.tv">
+    <title>Sim Racing Challenge 2022</title>
+  </programme>
+  <programme start="20231013155000 +0300" stop="20231013163500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Dragon Ball Z: Kakarot, część 10</title>
+  </programme>
+  <programme start="20231013163500 +0300" stop="20231013170500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Lego Gwiezdne Wojny: Saga Skywalkerów, część 6</title>
+  </programme>
+  <programme start="20231013170500 +0300" stop="20231013173500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Kangurek Kao, część 6</title>
+  </programme>
+  <programme start="20231013173500 +0300" stop="20231013175000 +0300" channel="gametoon.tv">
+    <title>Projekt Wywiad: Movie Games, część 1</title>
+  </programme>
+  <programme start="20231013175000 +0300" stop="20231013182500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Marvel's Guardians of the Galaxy, część 9</title>
+  </programme>
+  <programme start="20231013182500 +0300" stop="20231013184000 +0300" channel="gametoon.tv">
+    <title>Gildia Smaków</title>
+  </programme>
+  <programme start="20231013184000 +0300" stop="20231013190500 +0300" channel="gametoon.tv">
+    <title>Board News</title>
+  </programme>
+  <programme start="20231013190500 +0300" stop="20231013203500 +0300" channel="gametoon.tv">
+    <title>Sol F1 10</title>
+  </programme>
+  <programme start="20231013203500 +0300" stop="20231013210000 +0300" channel="gametoon.tv">
+    <title>Let's Replay: Crossout, część 2</title>
+  </programme>
+  <programme start="20231013210000 +0300" stop="20231013213500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Starfield, część 17</title>
+  </programme>
+  <programme start="20231013213500 +0300" stop="20231013220500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Monster Hunter: Rise, część 8</title>
+  </programme>
+  <programme start="20231013220500 +0300" stop="20231013223500 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Hogwarts Legacy, część 9</title>
+  </programme>
+  <programme start="20231013223500 +0300" stop="20231013225000 +0300" channel="gametoon.tv">
+    <title>Projekt Wywiad: Movie Games, część 2</title>
+  </programme>
+  <programme start="20231013225000 +0300" stop="20231013232000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Uncharted 4, część 7</title>
+  </programme>
+  <programme start="20231013232000 +0300" channel="gametoon.tv">
+    <title>Stream Nation: Blair Witch, część 7</title>
   </programme>
   <programme start="20231010000000 +0300" stop="20231010020000 +0300" channel="aspor.tr">
     <title lang="tr">Avrupa Gecesi</title>
@@ -5891,83 +5414,47 @@
   <programme start="20231012210000 +0300" stop="20231012230000 +0300" channel="aspor.tr">
     <title lang="tr">Artı Futbol</title>
   </programme>
-  <programme start="20231012230000 +0300" channel="aspor.tr">
+  <programme start="20231012230000 +0300" stop="20231013000000 +0300" channel="aspor.tr">
     <title lang="tr">Son Sayfa</title>
   </programme>
-  <programme start="20231009000000 +0300" stop="20231009010000 +0300" channel="trtspor.tr">
+  <programme start="20231013000000 +0300" stop="20231013013000 +0300" channel="aspor.tr">
     <title lang="tr">-</title>
   </programme>
-  <programme start="20231009010000 +0300" stop="20231009020000 +0300" channel="trtspor.tr">
-    <title lang="tr">Spor Artı</title>
+  <programme start="20231013013000 +0300" stop="20231013023000 +0300" channel="aspor.tr">
+    <title lang="tr">90+1</title>
   </programme>
-  <programme start="20231009020000 +0300" stop="20231009033000 +0300" channel="trtspor.tr">
-    <title lang="tr">Stadyum</title>
+  <programme start="20231013023000 +0300" stop="20231013050000 +0300" channel="aspor.tr">
+    <title lang="tr">Bir Zamanlar Futbol</title>
   </programme>
-  <programme start="20231009033000 +0300" stop="20231009034000 +0300" channel="trtspor.tr">
-    <title lang="tr">Trendyol Süper Lig ve 1. Lig Özetler</title>
+  <programme start="20231013050000 +0300" stop="20231013070000 +0300" channel="aspor.tr">
+    <title lang="tr">Son Sayfa</title>
   </programme>
-  <programme start="20231009034000 +0300" stop="20231009035000 +0300" channel="trtspor.tr">
-    <title lang="tr">İskoçya Premiership Özetler</title>
+  <programme start="20231013070000 +0300" stop="20231013100000 +0300" channel="aspor.tr">
+    <title lang="tr">Sabah Sporu</title>
   </programme>
-  <programme start="20231009035000 +0300" stop="20231009040000 +0300" channel="trtspor.tr">
-    <title lang="tr">Temsilcilerimizin Avrupa Maç Özetleri</title>
+  <programme start="20231013100000 +0300" stop="20231013110000 +0300" channel="aspor.tr">
+    <title lang="tr">90+1</title>
   </programme>
-  <programme start="20231009040000 +0300" stop="20231009053000 +0300" channel="trtspor.tr">
-    <title lang="tr">Türkiye - Mısır</title>
+  <programme start="20231013110000 +0300" stop="20231013130000 +0300" channel="aspor.tr">
+    <title lang="tr">Spor Ajansı</title>
   </programme>
-  <programme start="20231009053000 +0300" stop="20231009065800 +0300" channel="trtspor.tr">
-    <title lang="tr">İleri Üçlü</title>
+  <programme start="20231013130000 +0300" stop="20231013150000 +0300" channel="aspor.tr">
+    <title lang="tr">Gün Ortası</title>
   </programme>
-  <programme start="20231009065800 +0300" stop="20231009070000 +0300" channel="trtspor.tr">
-    <title lang="tr">İstiklal Marşı</title>
+  <programme start="20231013150000 +0300" stop="20231013180000 +0300" channel="aspor.tr">
+    <title lang="tr">Spor Gündemi</title>
   </programme>
-  <programme start="20231009070000 +0300" stop="20231009083000 +0300" channel="trtspor.tr">
-    <title lang="tr">Stadyum</title>
+  <programme start="20231013180000 +0300" stop="20231013200000 +0300" channel="aspor.tr">
+    <title lang="tr">Ana Haber</title>
   </programme>
-  <programme start="20231009083000 +0300" stop="20231009084000 +0300" channel="trtspor.tr">
-    <title lang="tr">İskoçya Premiership Özetler</title>
+  <programme start="20231013200000 +0300" stop="20231013210000 +0300" channel="aspor.tr">
+    <title lang="tr">ZTK Finalleri</title>
   </programme>
-  <programme start="20231009084000 +0300" stop="20231009085000 +0300" channel="trtspor.tr">
-    <title lang="tr">Trendyol Süper Lig ve 1. Lig Özetler</title>
+  <programme start="20231013210000 +0300" stop="20231013230000 +0300" channel="aspor.tr">
+    <title lang="tr">Artı Futbol</title>
   </programme>
-  <programme start="20231009085000 +0300" stop="20231009090000 +0300" channel="trtspor.tr">
-    <title lang="tr">Yapabilir misin?</title>
-  </programme>
-  <programme start="20231009090000 +0300" stop="20231009093000 +0300" channel="trtspor.tr">
-    <title lang="tr">Spor Bülteni</title>
-  </programme>
-  <programme start="20231009093000 +0300" stop="20231009100000 +0300" channel="trtspor.tr">
-    <title lang="tr">Orhan Ayhan'la</title>
-  </programme>
-  <programme start="20231009100000 +0300" stop="20231009110000 +0300" channel="trtspor.tr">
-    <title lang="tr">Spor Bülteni</title>
-  </programme>
-  <programme start="20231009110000 +0300" stop="20231009123000 +0300" channel="trtspor.tr">
-    <title lang="tr">Yüz Yüze Futbol</title>
-  </programme>
-  <programme start="20231009123000 +0300" stop="20231009133000 +0300" channel="trtspor.tr">
-    <title lang="tr">Spor Bülteni</title>
-  </programme>
-  <programme start="20231009133000 +0300" stop="20231009153000 +0300" channel="trtspor.tr">
-    <title lang="tr">Manisa FK - Sakaryaspor</title>
-  </programme>
-  <programme start="20231009153000 +0300" stop="20231009160000 +0300" channel="trtspor.tr">
-    <title lang="tr">Spor Bülteni</title>
-  </programme>
-  <programme start="20231009160000 +0300" stop="20231009180000 +0300" channel="trtspor.tr">
-    <title lang="tr">Şanlıurfaspor-Gençlerbirliği</title>
-  </programme>
-  <programme start="20231009180000 +0300" stop="20231009190000 +0300" channel="trtspor.tr">
-    <title lang="tr">Spor Haftasonu</title>
-  </programme>
-  <programme start="20231009190000 +0300" stop="20231009210000 +0300" channel="trtspor.tr">
-    <title lang="tr">Eyüpspor - Bodrum FK</title>
-  </programme>
-  <programme start="20231009210000 +0300" stop="20231009230000 +0300" channel="trtspor.tr">
-    <title lang="tr">Stadyum</title>
-  </programme>
-  <programme start="20231009230000 +0300" stop="20231010000000 +0300" channel="trtspor.tr">
-    <title lang="tr">Teknik Analiz</title>
+  <programme start="20231013230000 +0300" channel="aspor.tr">
+    <title lang="tr">Son Sayfa</title>
   </programme>
   <programme start="20231010000000 +0300" stop="20231010010000 +0300" channel="trtspor.tr">
     <title lang="tr">-</title>
@@ -6191,93 +5678,83 @@
   <programme start="20231012210000 +0300" stop="20231012230000 +0300" channel="trtspor.tr">
     <title lang="tr">Taktik Analiz</title>
   </programme>
-  <programme start="20231012230000 +0300" channel="trtspor.tr">
+  <programme start="20231012230000 +0300" stop="20231013000000 +0300" channel="trtspor.tr">
     <title lang="tr">Teknik Analiz</title>
   </programme>
-  <programme start="20231009010000 +0300" stop="20231009040000 +0300" channel="raisport1.it">
-    <title lang="it">Skateboard</title>
+  <programme start="20231013000000 +0300" stop="20231013010000 +0300" channel="trtspor.tr">
+    <title lang="tr">-</title>
   </programme>
-  <programme start="20231009040000 +0300" stop="20231009044500 +0300" channel="raisport1.it">
-    <title lang="it">Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 1a parte</title>
-    <desc>Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 1a parte</desc>
+  <programme start="20231013010000 +0300" stop="20231013020000 +0300" channel="trtspor.tr">
+    <title lang="tr">Futbol Gecesi</title>
   </programme>
-  <programme start="20231009044500 +0300" stop="20231009054000 +0300" channel="raisport1.it">
-    <title lang="it">Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 2a parte</title>
-    <desc>Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 2a parte</desc>
+  <programme start="20231013020000 +0300" stop="20231013040000 +0300" channel="trtspor.tr">
+    <title lang="tr">Stadyum</title>
   </programme>
-  <programme start="20231009054000 +0300" stop="20231009060000 +0300" channel="raisport1.it">
-    <title lang="it">Ciclismo. Parigi-Tours</title>
-    <desc>Ciclismo. Parigi-Tours</desc>
+  <programme start="20231013040000 +0300" stop="20231013060000 +0300" channel="trtspor.tr">
+    <title lang="tr">Teknik Analiz</title>
   </programme>
-  <programme start="20231009060000 +0300" stop="20231009063500 +0300" channel="raisport1.it">
-    <title lang="it">Ciclismo. Parigi-Tours</title>
-    <desc>Ciclismo. Parigi-Tours</desc>
+  <programme start="20231013060000 +0300" stop="20231013063000 +0300" channel="trtspor.tr">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
   </programme>
-  <programme start="20231009063500 +0300" stop="20231009070000 +0300" channel="raisport1.it">
-    <title lang="it">Ciclismo MTB. C.to Italiano Endurance 6h: Bibione Bike Trophy</title>
-    <desc>Ciclismo MTB. C.to Italiano Endurance 6h: Bibione Bike Trophy</desc>
+  <programme start="20231013063000 +0300" stop="20231013065800 +0300" channel="trtspor.tr">
+    <title lang="tr">Trendyol 1. Lig Özetler</title>
   </programme>
-  <programme start="20231009070000 +0300" stop="20231009073000 +0300" channel="raisport1.it">
-    <title lang="it">TG Sport Mattina</title>
-    <desc>TG Sport Mattina</desc>
+  <programme start="20231013065800 +0300" stop="20231013070000 +0300" channel="trtspor.tr">
+    <title lang="tr">İstiklal Marşı</title>
   </programme>
-  <programme start="20231009073000 +0300" stop="20231009100000 +0300" channel="raisport1.it">
-    <title lang="it">Vela. La Barcolana</title>
-    <desc>Vela. La Barcolana</desc>
+  <programme start="20231013070000 +0300" stop="20231013085500 +0300" channel="trtspor.tr">
+    <title lang="tr">İlk Baskı</title>
   </programme>
-  <programme start="20231009100000 +0300" stop="20231009121000 +0300" channel="raisport1.it">
-    <title lang="it">Rugby. C.to Italiano Elite - 1a giornata: Rovigo-Rugby Lyons</title>
-    <desc>Rugby. C.to Italiano Elite - 1a giornata: Rovigo-Rugby Lyons</desc>
+  <programme start="20231013085500 +0300" stop="20231013090000 +0300" channel="trtspor.tr">
+    <title lang="tr">Spor Takvimi</title>
   </programme>
-  <programme start="20231009121000 +0300" stop="20231009134500 +0300" channel="raisport1.it">
-    <title lang="it">Ciclismo. Mondiale Gravel Treviso</title>
-    <desc>Ciclismo. Mondiale Gravel Treviso</desc>
+  <programme start="20231013090000 +0300" stop="20231013091500 +0300" channel="trtspor.tr">
+    <title lang="tr">İşitme Engelliler Spor Bülteni</title>
   </programme>
-  <programme start="20231009134500 +0300" stop="20231009141500 +0300" channel="raisport1.it">
-    <title lang="it">Diretta Azzurra</title>
+  <programme start="20231013091500 +0300" stop="20231013094500 +0300" channel="trtspor.tr">
+    <title lang="tr">Trendyol 1. Lig Özetler</title>
   </programme>
-  <programme start="20231009141500 +0300" stop="20231009144500 +0300" channel="raisport1.it">
-    <title lang="it">Corsa in montagna. Adamello Ultra Trail</title>
-    <desc>Corsa in montagna. Adamello Ultra Trail</desc>
+  <programme start="20231013094500 +0300" stop="20231013100000 +0300" channel="trtspor.tr">
+    <title lang="tr">Suudi Arabistan Pro Lig Özetler</title>
   </programme>
-  <programme start="20231009144500 +0300" stop="20231009151500 +0300" channel="raisport1.it">
-    <title lang="it">Atletica. Giro al Sas</title>
-    <desc>Atletica. Giro al Sas</desc>
+  <programme start="20231013100000 +0300" stop="20231013105500 +0300" channel="trtspor.tr">
+    <title lang="tr">Spor Bülteni</title>
   </programme>
-  <programme start="20231009151500 +0300" stop="20231009154500 +0300" channel="raisport1.it">
-    <title lang="it">Atletica. Neapolis Marathon</title>
-    <desc>Atletica. Neapolis Marathon</desc>
+  <programme start="20231013105500 +0300" stop="20231013110000 +0300" channel="trtspor.tr">
+    <title lang="tr">Spor Takvimi</title>
   </programme>
-  <programme start="20231009154500 +0300" stop="20231009164500 +0300" channel="raisport1.it">
-    <title lang="it">Motocross. Monster Energy Motocross delle Nazioni Francia: MX2 &amp; Open - gara 2</title>
-    <desc>Motocross. Monster Energy Motocross delle Nazioni Francia: MX2 &amp; Open - gara 2</desc>
+  <programme start="20231013110000 +0300" stop="20231013123000 +0300" channel="trtspor.tr">
+    <title lang="tr">Spor Manşet</title>
   </programme>
-  <programme start="20231009164500 +0300" stop="20231009174500 +0300" channel="raisport1.it">
-    <title lang="it">Motocross. Monster Energy Motocross delle Nazioni Francia: MXGP &amp; Open - gara 3</title>
-    <desc>Motocross. Monster Energy Motocross delle Nazioni Francia: MXGP &amp; Open - gara 3</desc>
+  <programme start="20231013123000 +0300" stop="20231013133000 +0300" channel="trtspor.tr">
+    <title lang="tr">Gün Ortası</title>
   </programme>
-  <programme start="20231009174500 +0300" stop="20231009183000 +0300" channel="raisport1.it">
-    <title lang="it">Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 1a parte</title>
-    <desc>Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 1a parte</desc>
+  <programme start="20231013133000 +0300" stop="20231013140000 +0300" channel="trtspor.tr">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
   </programme>
-  <programme start="20231009183000 +0300" stop="20231009193000 +0300" channel="raisport1.it">
-    <title lang="it">Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 2a parte</title>
-    <desc>Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 2a parte</desc>
+  <programme start="20231013140000 +0300" stop="20231013150000 +0300" channel="trtspor.tr">
+    <title lang="tr">Spor Stüdyosu</title>
   </programme>
-  <programme start="20231009193000 +0300" stop="20231009200000 +0300" channel="raisport1.it">
-    <title lang="it">Diretta Azzurra</title>
+  <programme start="20231013150000 +0300" stop="20231013170000 +0300" channel="trtspor.tr">
+    <title lang="tr">58. Cumhurbaşkanlığı B. Turu 2. Etap</title>
   </programme>
-  <programme start="20231009200000 +0300" stop="20231009201500 +0300" channel="raisport1.it">
-    <title lang="it">Ippica. Derby del Trotto di Capannelle</title>
-    <desc>Ippica. Derby del Trotto di Capannelle</desc>
+  <programme start="20231013170000 +0300" stop="20231013173000 +0300" channel="trtspor.tr">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
   </programme>
-  <programme start="20231009201500 +0300" stop="20231009230000 +0300" channel="raisport1.it">
-    <title lang="it">Calcio. Serie C - 7a giornata: Pro Vercelli-Vicenza</title>
-    <desc>Calcio. Serie C - 7a giornata: Pro Vercelli-Vicenza</desc>
+  <programme start="20231013173000 +0300" stop="20231013180000 +0300" channel="trtspor.tr">
+    <title lang="tr">Dünyadan Spor</title>
   </programme>
-  <programme start="20231009230000 +0300" stop="20231010000000 +0300" channel="raisport1.it">
-    <title lang="it">Calcio Totale</title>
-    <desc>Approfondimento giornalistico di attualità relativo al Campionato di Calcio, con un'analisi dettagliata del posticipo del lunedì. Analisi delle partite e degli episodi più rilevanti.</desc>
+  <programme start="20231013180000 +0300" stop="20231013200000 +0300" channel="trtspor.tr">
+    <title lang="tr">Spor Merkezi</title>
+  </programme>
+  <programme start="20231013200000 +0300" stop="20231013210000 +0300" channel="trtspor.tr">
+    <title lang="tr">Spor Akşamı</title>
+  </programme>
+  <programme start="20231013210000 +0300" stop="20231013230000 +0300" channel="trtspor.tr">
+    <title lang="tr">Taktik Analiz</title>
+  </programme>
+  <programme start="20231013230000 +0300" channel="trtspor.tr">
+    <title lang="tr">Teknik Analiz</title>
   </programme>
   <programme start="20231010000000 +0300" stop="20231010003000 +0300" channel="raisport1.it">
     <title lang="it">Ciclismo MTB. Granfondo Vicenza: La via dei Berici</title>
@@ -6554,161 +6031,102 @@
     <title lang="it">TG Sport Notte</title>
     <desc>TG Sport Notte</desc>
   </programme>
-  <programme start="20231012235000 +0300" channel="raisport1.it">
+  <programme start="20231012235000 +0300" stop="20231013020500 +0300" channel="raisport1.it">
     <title lang="it">Calcio. Qualificazione Euro 2025 U17 femminile: Francia-Italia</title>
     <desc>Calcio. Qualificazione Euro 2025 U17 femminile: Francia-Italia</desc>
   </programme>
-  <programme start="20231009020000 +0300" stop="20231009023000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013020500 +0300" stop="20231013023500 +0300" channel="raisport1.it">
+    <title lang="it">Ciclocross</title>
   </programme>
-  <programme start="20231009023000 +0300" stop="20231009030000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013023500 +0300" stop="20231013030500 +0300" channel="raisport1.it">
+    <title lang="it">Orientamento. Europei Vicenza: 3a prova</title>
+    <desc>Orientamento. Europei Vicenza: 3a prova</desc>
   </programme>
-  <programme start="20231009030000 +0300" stop="20231009033000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013030500 +0300" stop="20231013035500 +0300" channel="raisport1.it">
+    <title lang="it">Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 1a parte</title>
+    <desc>Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 1a parte</desc>
   </programme>
-  <programme start="20231009033000 +0300" stop="20231009040000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013035500 +0300" stop="20231013050000 +0300" channel="raisport1.it">
+    <title lang="it">Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 2a parte</title>
+    <desc>Scherma. Mondiali Paralimpici Terni - Finali 6a giornata - 2a parte</desc>
   </programme>
-  <programme start="20231009040000 +0300" stop="20231009063000 +0300" channel="extremesportschannel.com">
-    <title>NBA Preseason: Indiana Pacers - Memphis Grizzlies</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_f0d764cce99089dd32f2112f957ea7521d23b4fb.jpg" />
-    <category>Basketball</category>
+  <programme start="20231013050000 +0300" stop="20231013060000 +0300" channel="raisport1.it">
+    <title lang="it">Radiocorsa</title>
+    <desc>Uno sguardo sul ciclismo, dalle corse dilettantistiche, alle gare professionistiche delle varie categorie (pista, ciclocross, mountain bike, etc.), fino al ricordo degli eventi storici più importanti.</desc>
   </programme>
-  <programme start="20231009063000 +0300" stop="20231009070000 +0300" channel="extremesportschannel.com">
-    <title>NBA FORECAST</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4108ebe6162841f9518ea0c38ca6a2b8b25dbb8e.jpg" />
-    <desc>The presenters offer a look ahead of the upcoming NBA season, offering all the important team and players information you need to know at the beginning of the season, as well as predictions. </desc>
-    <category>Basketball</category>
+  <programme start="20231013060000 +0300" stop="20231013063000 +0300" channel="raisport1.it">
+    <title lang="it">Atletica</title>
   </programme>
-  <programme start="20231009070000 +0300" stop="20231009080000 +0300" channel="extremesportschannel.com">
-    <title>Playoff Playback</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_18a260f1880000f33f6242645fb4e568e47f1e1a_D080902E4115653E8B5446501332EEDB.jpg" />
-    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
-    <category>Basketball</category>
+  <programme start="20231013063000 +0300" stop="20231013070000 +0300" channel="raisport1.it">
+    <title lang="it">Corsa in montagna. Adamello Ultra Trail</title>
+    <desc>Corsa in montagna. Adamello Ultra Trail</desc>
   </programme>
-  <programme start="20231009080000 +0300" stop="20231009083000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013070000 +0300" stop="20231013073000 +0300" channel="raisport1.it">
+    <title lang="it">TG Sport Mattina</title>
+    <desc>TG Sport Mattina</desc>
   </programme>
-  <programme start="20231009083000 +0300" stop="20231009090000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013073000 +0300" stop="20231013094500 +0300" channel="raisport1.it">
+    <title lang="it">Calcio. Qualificazione Euro 2025 U17 femminile: Francia-Italia</title>
+    <desc>Calcio. Qualificazione Euro 2025 U17 femminile: Francia-Italia</desc>
   </programme>
-  <programme start="20231009090000 +0300" stop="20231009093000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013094500 +0300" stop="20231013111500 +0300" channel="raisport1.it">
+    <title lang="it">Triathlon. World Cup Sprint Roma femminile</title>
+    <desc>Triathlon. World Cup Sprint Roma femminile</desc>
   </programme>
-  <programme start="20231009093000 +0300" stop="20231009100000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013111500 +0300" stop="20231013124500 +0300" channel="raisport1.it">
+    <title lang="it">Ciclismo. Mondiale Gravel Treviso</title>
+    <desc>Ciclismo. Mondiale Gravel Treviso</desc>
   </programme>
-  <programme start="20231009100000 +0300" stop="20231009103000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013124500 +0300" stop="20231013131500 +0300" channel="raisport1.it">
+    <title lang="it">Atletica</title>
   </programme>
-  <programme start="20231009103000 +0300" stop="20231009110000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013131500 +0300" stop="20231013144500 +0300" channel="raisport1.it">
+    <title lang="it">Canottaggio</title>
   </programme>
-  <programme start="20231009110000 +0300" stop="20231009113000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013144500 +0300" stop="20231013151500 +0300" channel="raisport1.it">
+    <title lang="it">Atletica. Neapolis Marathon</title>
+    <desc>Atletica. Neapolis Marathon</desc>
   </programme>
-  <programme start="20231009113000 +0300" stop="20231009120000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013151500 +0300" stop="20231013160000 +0300" channel="raisport1.it">
+    <title lang="it">Tiro con l'Arco. Europei 3D - Cesana-Sansicario</title>
+    <desc>Tiro con l'Arco. Europei 3D - Cesana-Sansicario</desc>
   </programme>
-  <programme start="20231009120000 +0300" stop="20231009140000 +0300" channel="extremesportschannel.com">
-    <title>NBA Preseason: Pacers - Grizzlies</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_f0d764cce99089dd32f2112f957ea7521d23b4fb.jpg" />
-    <category>Basketball</category>
+  <programme start="20231013160000 +0300" stop="20231013163000 +0300" channel="raisport1.it">
+    <title lang="it">Corsa in montagna. Adamello Ultra Trail</title>
+    <desc>Corsa in montagna. Adamello Ultra Trail</desc>
   </programme>
-  <programme start="20231009140000 +0300" stop="20231009143000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013163000 +0300" stop="20231013170500 +0300" channel="raisport1.it">
+    <title lang="it">Orientamento. Europei Vicenza: 3a prova</title>
+    <desc>Orientamento. Europei Vicenza: 3a prova</desc>
   </programme>
-  <programme start="20231009143000 +0300" stop="20231009150000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013170500 +0300" stop="20231013175000 +0300" channel="raisport1.it">
+    <title lang="it">Ciclismo. Parigi-Tours</title>
+    <desc>Ciclismo. Parigi-Tours</desc>
   </programme>
-  <programme start="20231009150000 +0300" stop="20231009153000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013175000 +0300" stop="20231013175500 +0300" channel="raisport1.it">
+    <title lang="it">Gli Imperdibili</title>
   </programme>
-  <programme start="20231009153000 +0300" stop="20231009160000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013175500 +0300" stop="20231013194000 +0300" channel="raisport1.it">
+    <title lang="it">Ciclismo. Presentazione Giro d'Italia 2024</title>
+    <desc>Ciclismo. Presentazione Giro d'Italia 2024</desc>
   </programme>
-  <programme start="20231009160000 +0300" stop="20231009163000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013194000 +0300" stop="20231013201000 +0300" channel="raisport1.it">
+    <title lang="it">Diretta Azzurra</title>
   </programme>
-  <programme start="20231009163000 +0300" stop="20231009170000 +0300" channel="extremesportschannel.com">
-    <title>NBA Gametime</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
-    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
-    <category>Basketball</category>
+  <programme start="20231013201000 +0300" stop="20231013213000 +0300" channel="raisport1.it">
+    <title lang="it">Pallanuoto</title>
   </programme>
-  <programme start="20231009170000 +0300" stop="20231009190000 +0300" channel="extremesportschannel.com">
-    <title>NBA Preseason: Pacers - Grizzlies</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_f0d764cce99089dd32f2112f957ea7521d23b4fb.jpg" />
-    <category>Basketball</category>
+  <programme start="20231013213000 +0300" stop="20231013223000 +0300" channel="raisport1.it">
+    <title lang="it">Radiocorsa</title>
+    <desc>Uno sguardo sul ciclismo, dalle corse dilettantistiche, alle gare professionistiche delle varie categorie (pista, ciclocross, mountain bike, etc.), fino al ricordo degli eventi storici più importanti.</desc>
   </programme>
-  <programme start="20231009190000 +0300" stop="20231009210000 +0300" channel="extremesportschannel.com">
-    <title>Playoff Playback</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_23d062a85f7d4875db5ff2408d01ddf2d9cd295c.jpg" />
-    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
-    <category>Basketball</category>
+  <programme start="20231013223000 +0300" stop="20231013230000 +0300" channel="raisport1.it">
+    <title lang="it">Magazine UEFA. Qualificazioni Euro 2024</title>
+    <desc>Magazine UEFA. Qualificazioni Euro 2024</desc>
   </programme>
-  <programme start="20231009210000 +0300" stop="20231009230000 +0300" channel="extremesportschannel.com">
-    <title>NBA Preseason: Pacers - Grizzlies</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_f0d764cce99089dd32f2112f957ea7521d23b4fb.jpg" />
-    <category>Basketball</category>
-  </programme>
-  <programme start="20231009230000 +0300" stop="20231010010000 +0300" channel="extremesportschannel.com">
-    <title>Playoff Playback</title>
-    <icon src="https://mts.rs/oec/images/epg/40/2_23d062a85f7d4875db5ff2408d01ddf2d9cd295c.jpg" />
-    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
-    <category>Basketball</category>
+  <programme start="20231013230000 +0300" channel="raisport1.it">
+    <title lang="it">Motocross. Monster Energy Motocross delle Nazioni Francia: MX2 &amp; Open - gara 2</title>
+    <desc>Motocross. Monster Energy Motocross delle Nazioni Francia: MX2 &amp; Open - gara 2</desc>
   </programme>
   <programme start="20231010010000 +0300" stop="20231010030000 +0300" channel="extremesportschannel.com">
     <title>Playoff Playback</title>
@@ -7166,92 +6584,145 @@
     <desc>Sports magazine bringing you all the most important news about the Women's National Basketball Association. Join to hear the latest stories and developments as the season goes on, and watch all the top basketball action. </desc>
     <category>Basketball</category>
   </programme>
-  <programme start="20231012233000 +0300" channel="extremesportschannel.com">
+  <programme start="20231012233000 +0300" stop="20231013020000 +0300" channel="extremesportschannel.com">
     <title>High Tops</title>
     <icon src="https://mts.rs/oec/images/epg/40/2_60a1734f900af45996f23643eca9138984add7b7_36172FFE56096A61AFE0020872F49865.jpg" />
     <desc>Sports magazine that brings viewers all the latest news, interesting stories, amazing interviews, and most exciting moments from the world of NBA.</desc>
     <category>Basketball</category>
   </programme>
-  <programme start="20231009050000 +0300" stop="20231009053000 +0300" channel="sport1.de">
-    <title>Sport Clips</title>
+  <programme start="20231013020000 +0300" stop="20231013030000 +0300" channel="extremesportschannel.com">
+    <title>Playoff Playback</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_6ab91dd232ef2ebd43a61fcafce9d0fa8e387679.jpg" />
+    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009053000 +0300" stop="20231009060000 +0300" channel="sport1.de">
-    <title>Sport Clips</title>
+  <programme start="20231013030000 +0300" stop="20231013040000 +0300" channel="extremesportschannel.com">
+    <title>Playoff Playback</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_07fb468bd1f7396baf24e7d9525076e7a5a1fb44.jpg" />
+    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009060000 +0300" stop="20231009070000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013040000 +0300" stop="20231013050000 +0300" channel="extremesportschannel.com">
+    <title>Playoff Playback</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_81608b604d57b1b1df4d57f19cd4380d291680f2_2DD41880BC120360B0D1A80BA9EB943C.jpg" />
+    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009070000 +0300" stop="20231009073000 +0300" channel="sport1.de">
-    <title>Antworten mit Bayless Conley</title>
+  <programme start="20231013050000 +0300" stop="20231013060000 +0300" channel="extremesportschannel.com">
+    <title>Playoff Playback</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_18a260f1880000f33f6242645fb4e568e47f1e1a_D080902E4115653E8B5446501332EEDB.jpg" />
+    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009073000 +0300" stop="20231009080000 +0300" channel="sport1.de">
-    <title>Die ARCHE-Fernsehkanzel</title>
+  <programme start="20231013060000 +0300" stop="20231013083000 +0300" channel="extremesportschannel.com">
+    <title>NBA Preseason: Phoenix Suns - Portland Trail Blazers</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_f0d764cce99089dd32f2112f957ea7521d23b4fb.jpg" />
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009080000 +0300" stop="20231009090000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013083000 +0300" stop="20231013090000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009090000 +0300" stop="20231009100000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013090000 +0300" stop="20231013093000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009100000 +0300" stop="20231009103000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013093000 +0300" stop="20231013100000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009103000 +0300" stop="20231009110000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013100000 +0300" stop="20231013103000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009110000 +0300" stop="20231009113000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013103000 +0300" stop="20231013110000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009113000 +0300" stop="20231009120000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013110000 +0300" stop="20231013130000 +0300" channel="extremesportschannel.com">
+    <title>NBA Preseason: Suns - Blazers</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_f0d764cce99089dd32f2112f957ea7521d23b4fb.jpg" />
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009120000 +0300" stop="20231009130000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013130000 +0300" stop="20231013133000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009130000 +0300" stop="20231009140000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013133000 +0300" stop="20231013140000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009140000 +0300" stop="20231009143000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013140000 +0300" stop="20231013143000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009143000 +0300" stop="20231009153000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013143000 +0300" stop="20231013150000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009153000 +0300" stop="20231009160000 +0300" channel="sport1.de">
-    <title>Teleshopping</title>
+  <programme start="20231013150000 +0300" stop="20231013170000 +0300" channel="extremesportschannel.com">
+    <title>NBA Preseason: Suns - Blazers</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_f0d764cce99089dd32f2112f957ea7521d23b4fb.jpg" />
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009160000 +0300" stop="20231009163000 +0300" channel="sport1.de">
-    <title>Storage Hunters</title>
+  <programme start="20231013170000 +0300" stop="20231013173000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009163000 +0300" stop="20231009170000 +0300" channel="sport1.de">
-    <title>Storage Hunters</title>
+  <programme start="20231013173000 +0300" stop="20231013180000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009170000 +0300" stop="20231009173000 +0300" channel="sport1.de">
-    <title>Pawn Stars – Die Drei vom Pfandhaus</title>
+  <programme start="20231013180000 +0300" stop="20231013183000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009173000 +0300" stop="20231009180000 +0300" channel="sport1.de">
-    <title>Pawn Stars – Die Drei vom Pfandhaus</title>
+  <programme start="20231013183000 +0300" stop="20231013190000 +0300" channel="extremesportschannel.com">
+    <title>NBA Gametime</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_4c903d96cef6a58d9ad615858eb11263132690ce.jpg" />
+    <desc>NBA TV's signature studio show delivering the latest NBA news, highlights, interviews and analysis.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009180000 +0300" stop="20231009183000 +0300" channel="sport1.de">
-    <title>Hardcore Pawn Chicago</title>
+  <programme start="20231013190000 +0300" stop="20231013210000 +0300" channel="extremesportschannel.com">
+    <title>NBA Preseason: Suns - Blazers</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_f0d764cce99089dd32f2112f957ea7521d23b4fb.jpg" />
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009183000 +0300" stop="20231009190000 +0300" channel="sport1.de">
-    <title>SPORT1 News Live</title>
+  <programme start="20231013210000 +0300" stop="20231013230000 +0300" channel="extremesportschannel.com">
+    <title>Playoff Playback</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_07fb468bd1f7396baf24e7d9525076e7a5a1fb44.jpg" />
+    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
+    <category>Basketball</category>
   </programme>
-  <programme start="20231009190000 +0300" stop="20231009193000 +0300" channel="sport1.de">
-    <title>Fußball: Bundesliga der Frauen</title>
-  </programme>
-  <programme start="20231009193000 +0300" stop="20231009213000 +0300" channel="sport1.de">
-    <title>Fußball: Bundesliga der Frauen</title>
-  </programme>
-  <programme start="20231009213000 +0300" stop="20231009214500 +0300" channel="sport1.de">
-    <title>Fußball: Bundesliga der Frauen</title>
-  </programme>
-  <programme start="20231009214500 +0300" stop="20231009230000 +0300" channel="sport1.de">
-    <title>Bundesliga – Best-of Spieltag</title>
-  </programme>
-  <programme start="20231009230000 +0300" stop="20231010050000 +0300" channel="sport1.de">
-    <title>Motorsport – Die Sky Formel 1 Highlights</title>
+  <programme start="20231013230000 +0300" channel="extremesportschannel.com">
+    <title>Playoff Playback</title>
+    <icon src="https://mts.rs/oec/images/epg/41/2_23d062a85f7d4875db5ff2408d01ddf2d9cd295c.jpg" />
+    <desc>The National Basketball Association composes of thirty teams across North America for men who are professional in this specific sport. Due to its popularity, this is one of four major professional sport leagues available in the United States of America and Canada. Furthermore, research suggests that it is widely considered to be the premier men's basketball league in the world. Legends of this particular sport include Kobe Bryant, Michael Jordan and Kareem Abdul-Jabbar.</desc>
+    <category>Basketball</category>
   </programme>
   <programme start="20231010050000 +0300" stop="20231010053000 +0300" channel="sport1.de">
     <title>Sport Clips</title>
@@ -7481,47 +6952,56 @@
   <programme start="20231012230000 +0300" stop="20231012233000 +0300" channel="sport1.de">
     <title>Pawn Stars – Die Drei vom Pfandhaus</title>
   </programme>
-  <programme start="20231012233000 +0300" channel="sport1.de">
+  <programme start="20231012233000 +0300" stop="20231013050000 +0300" channel="sport1.de">
     <title>Pawn Stars – Die Drei vom Pfandhaus</title>
   </programme>
-  <programme start="20231009000000 +0300" stop="20231009000500 +0300" channel="sport1plus.de">
-    <title>SPORT1 News</title>
+  <programme start="20231013050000 +0300" stop="20231013053000 +0300" channel="sport1.de">
+    <title>Sport Clips</title>
   </programme>
-  <programme start="20231009000500 +0300" stop="20231009015000 +0300" channel="sport1plus.de">
-    <title>Fußball: Pro League</title>
+  <programme start="20231013053000 +0300" stop="20231013060000 +0300" channel="sport1.de">
+    <title>Sport Clips</title>
   </programme>
-  <programme start="20231009015000 +0300" stop="20231009015500 +0300" channel="sport1plus.de">
-    <title>SPORT1 News</title>
+  <programme start="20231013060000 +0300" stop="20231013070000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009015500 +0300" stop="20231009045500 +0300" channel="sport1plus.de">
-    <title>Baseball Live – MLB Playoffs</title>
+  <programme start="20231013070000 +0300" stop="20231013080000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009045500 +0300" stop="20231009050000 +0300" channel="sport1plus.de">
-    <title>SPORT1 News</title>
+  <programme start="20231013080000 +0300" stop="20231013090000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009050000 +0300" stop="20231009101500 +0300" channel="sport1plus.de">
-    <title>Motorsport – Australia Supercars Championship</title>
+  <programme start="20231013090000 +0300" stop="20231013100000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009101500 +0300" stop="20231009140000 +0300" channel="sport1plus.de">
-    <title>Motorsport – NASCAR Cup Series</title>
+  <programme start="20231013100000 +0300" stop="20231013103000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009140000 +0300" stop="20231009155500 +0300" channel="sport1plus.de">
-    <title>Eishockey: Svenska Hockeyligan</title>
+  <programme start="20231013103000 +0300" stop="20231013110000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009155500 +0300" stop="20231009174000 +0300" channel="sport1plus.de">
-    <title>Volleyball: Bundesliga der Frauen</title>
+  <programme start="20231013110000 +0300" stop="20231013113000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009174000 +0300" stop="20231009200000 +0300" channel="sport1plus.de">
-    <title>Baseball – MLB Playoffs</title>
+  <programme start="20231013113000 +0300" stop="20231013120000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009200000 +0300" stop="20231009200500 +0300" channel="sport1plus.de">
-    <title>SPORT1 News</title>
+  <programme start="20231013120000 +0300" stop="20231013130000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
   </programme>
-  <programme start="20231009200500 +0300" stop="20231009222000 +0300" channel="sport1plus.de">
-    <title>Baseball – MLB Playoffs</title>
+  <programme start="20231013130000 +0300" stop="20231013170000 +0300" channel="sport1.de">
+    <title>Darts: European Open</title>
   </programme>
-  <programme start="20231009222000 +0300" stop="20231010003500 +0300" channel="sport1plus.de">
-    <title>Baseball – MLB Playoffs</title>
+  <programme start="20231013170000 +0300" stop="20231013180000 +0300" channel="sport1.de">
+    <title>World Series of Poker</title>
+  </programme>
+  <programme start="20231013180000 +0300" stop="20231013190000 +0300" channel="sport1.de">
+    <title>World Series of Poker</title>
+  </programme>
+  <programme start="20231013190000 +0300" stop="20231013230000 +0300" channel="sport1.de">
+    <title>Darts: European Open</title>
+  </programme>
+  <programme start="20231013230000 +0300" channel="sport1.de">
+    <title>World Series of Poker</title>
   </programme>
   <programme start="20231010003500 +0300" stop="20231010022500 +0300" channel="sport1plus.de">
     <title>Fußball: Pro League</title>
@@ -7616,33 +7096,6 @@
   <programme start="20231011234500 +0300" channel="sport1plus.de">
     <title>Fußball: Pro League</title>
   </programme>
-  <programme start="20231009083000 +0300" stop="20231009113000 +0300" channel="eurosport1.de">
-    <title>Snooker: Wuhan Open</title>
-  </programme>
-  <programme start="20231009113000 +0300" stop="20231009133000 +0300" channel="eurosport1.de">
-    <title>Leichtathletik: WM</title>
-  </programme>
-  <programme start="20231009133000 +0300" stop="20231009163000 +0300" channel="eurosport1.de">
-    <title>Snooker: Wuhan Open</title>
-  </programme>
-  <programme start="20231009163000 +0300" stop="20231009180000 +0300" channel="eurosport1.de">
-    <title>Leichtathletik: WM</title>
-  </programme>
-  <programme start="20231009180000 +0300" stop="20231009183000 +0300" channel="eurosport1.de">
-    <title>Teqball Show</title>
-  </programme>
-  <programme start="20231009183000 +0300" stop="20231009200000 +0300" channel="eurosport1.de">
-    <title>Radsport: Türkei-Rundfahrt</title>
-  </programme>
-  <programme start="20231009200000 +0300" stop="20231009203000 +0300" channel="eurosport1.de">
-    <title>Cross-Triathlon</title>
-  </programme>
-  <programme start="20231009203000 +0300" stop="20231009220000 +0300" channel="eurosport1.de">
-    <title>Snooker: Wuhan Open</title>
-  </programme>
-  <programme start="20231009220000 +0300" stop="20231010000000 +0300" channel="eurosport1.de">
-    <title>Rad: Lombardei-Rundfahrt</title>
-  </programme>
   <programme start="20231010000000 +0300" stop="20231010083000 +0300" channel="eurosport1.de">
     <title>Snooker: Wuhan Open</title>
   </programme>
@@ -7711,27 +7164,6 @@
   </programme>
   <programme start="20231011234000 +0300" channel="eurosport1.de">
     <title>Playing Fields</title>
-  </programme>
-  <programme start="20231009000000 +0300" stop="20231009010000 +0300" channel="skysportbundesliga.de">
-    <title>Fußball: 1. Bundesliga Kompakt</title>
-  </programme>
-  <programme start="20231009010000 +0300" stop="20231009020000 +0300" channel="skysportbundesliga.de">
-    <title>Fußball: 2. Bundesliga Kompakt</title>
-  </programme>
-  <programme start="20231009020000 +0300" stop="20231009021500 +0300" channel="skysportbundesliga.de">
-    <title>Fußball: Bundesliga Magazin</title>
-  </programme>
-  <programme start="20231009021500 +0300" stop="20231009023000 +0300" channel="skysportbundesliga.de">
-    <title>2. Liga – 1. Sahne: Dein Rückblick</title>
-  </programme>
-  <programme start="20231009023000 +0300" stop="20231009043000 +0300" channel="skysportbundesliga.de">
-    <title>Fußball: 2. Bundesliga</title>
-  </programme>
-  <programme start="20231009043000 +0300" stop="20231009044500 +0300" channel="skysportbundesliga.de">
-    <title>2. Liga – 1. Sahne: Dein Rückblick</title>
-  </programme>
-  <programme start="20231009044500 +0300" stop="20231010050000 +0300" channel="skysportbundesliga.de">
-    <title>Fußball: Bundesliga Magazin</title>
   </programme>
   <programme start="20231010050000 +0300" stop="20231010053000 +0300" channel="skysportbundesliga.de">
     <title>Fußball: Bundesliga Magazin</title>
@@ -7888,66 +7320,6 @@
   </programme>
   <programme start="20231011220000 +0300" channel="skysportbundesliga.de">
     <title>Fußball: Bundesliga</title>
-  </programme>
-  <programme start="20231009053500 +0300" stop="20231009073000 +0300" channel="ligadecampeones.mplus.es">
-    <title>Serie A Calcio (T23/24): Nápoles - Fiorentina</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009073000 +0300" stop="20231009092500 +0300" channel="ligadecampeones.mplus.es">
-    <title>Bundesliga (T23/24): Borussia Mönchengladbach - Mainz</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009092500 +0300" stop="20231009094000 +0300" channel="ligadecampeones.mplus.es">
-    <title>Bundesliga Clubs (T23/24): Heidenheim</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009094000 +0300" stop="20231009095500 +0300" channel="ligadecampeones.mplus.es">
-    <title>Bundesliga Clubs (T23/24): Eintracht Francfort</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009095500 +0300" stop="20231009102500 +0300" channel="ligadecampeones.mplus.es">
-    <title>Goal! The Bundesliga Magazine (T23/24): Best of September</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009102500 +0300" stop="20231009122000 +0300" channel="ligadecampeones.mplus.es">
-    <title>Serie A Calcio (T23/24): Inter - Bolonia</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009122000 +0300" stop="20231009131500 +0300" channel="ligadecampeones.mplus.es">
-    <title>Universo Valdano (T7): Dani Carvajal</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009131500 +0300" stop="20231009134500 +0300" channel="ligadecampeones.mplus.es">
-    <title>Goal! The Bundesliga Magazine (T23/24): Ultimate nº9 Harry Kane</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009134500 +0300" stop="20231009153000 +0300" channel="ligadecampeones.mplus.es">
-    <title>UEFA Champions League (T23/24): Union Berlín - Sporting Braga</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009153000 +0300" stop="20231009171500 +0300" channel="ligadecampeones.mplus.es">
-    <title>UEFA Champions League (T23/24): Manchester Utd. - Galatasaray</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009171500 +0300" stop="20231009190000 +0300" channel="ligadecampeones.mplus.es">
-    <title>UEFA Champions League (T23/24): Estrella Roja - Young Boys</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009190000 +0300" stop="20231009193000 +0300" channel="ligadecampeones.mplus.es">
-    <title>Magazine Champions League (T23/24): Episodio 5</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009193000 +0300" stop="20231009210000 +0300" channel="ligadecampeones.mplus.es">
-    <title>El tercer tiempo (T23/24): Episodio 4</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009210000 +0300" stop="20231009213000 +0300" channel="ligadecampeones.mplus.es">
-    <title>Magazine Champions League (T23/24): Episodio 5</title>
-    <desc>Deportes</desc>
-  </programme>
-  <programme start="20231009213000 +0300" stop="20231009223000 +0300" channel="ligadecampeones.mplus.es">
-    <title>Resumen Bundesliga (T23/24): Jornada 7</title>
-    <desc>Deportes</desc>
   </programme>
   <programme start="20231010054000 +0300" stop="20231010073000 +0300" channel="ligadecampeones.mplus.es">
     <title>UEFA Europa League (T23/24): Aris Limassol - Rangers</title>
@@ -8125,52 +7497,72 @@
     <title>Bundesliga (T23/24): Leipzig - Bochum</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009070000 +0300" stop="20231009073000 +0300" channel="deportes.mplus.es">
-    <title>World of free sports (T2023): Episodio 40</title>
+  <programme start="20231013054000 +0300" stop="20231013073000 +0300" channel="ligadecampeones.mplus.es">
+    <title>UEFA Europa League (T23/24): Roma - Servette</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009073000 +0300" stop="20231009093000 +0300" channel="deportes.mplus.es">
-    <title>Torneo de Shanghai</title>
+  <programme start="20231013073000 +0300" stop="20231013092500 +0300" channel="ligadecampeones.mplus.es">
+    <title>Clasificatorios Mundial 2026 Conmebol (T23/24): Brasil - Venezuela</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009093000 +0300" stop="20231009113000 +0300" channel="deportes.mplus.es">
-    <title>Torneo de Shanghai</title>
+  <programme start="20231013092500 +0300" stop="20231013094000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Bundesliga Clubs (T23/24): Hoffenheim</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009113000 +0300" stop="20231009124500 +0300" channel="deportes.mplus.es">
-    <title>Carreras de Caballos- Turf (T2023): La Zarzuela</title>
+  <programme start="20231013094000 +0300" stop="20231013095500 +0300" channel="ligadecampeones.mplus.es">
+    <title>Bundesliga Clubs (T23/24): Mainz 05</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009124500 +0300" stop="20231009133000 +0300" channel="deportes.mplus.es">
-    <title>Deporte+ entrevista en exclusiva a Rafa Nadal</title>
+  <programme start="20231013095500 +0300" stop="20231013102500 +0300" channel="ligadecampeones.mplus.es">
+    <title>Bundesliga Weekly (T23/24): Episodio 9</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009133000 +0300" stop="20231009153000 +0300" channel="deportes.mplus.es">
-    <title>Torneo de Shanghai</title>
+  <programme start="20231013102500 +0300" stop="20231013122000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Clasificatorios Mundial 2026 Conmebol (T23/24): Chile - Perú</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009153000 +0300" stop="20231009180000 +0300" channel="deportes.mplus.es">
-    <title>Torneo de Shanghai</title>
+  <programme start="20231013122000 +0300" stop="20231013125000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Full Impact Serie A (T23/24): Episodio 8</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009180000 +0300" stop="20231009183000 +0300" channel="deportes.mplus.es">
-    <title>World of free sports (T2023): Episodio 40</title>
+  <programme start="20231013125000 +0300" stop="20231013132000 +0300" channel="ligadecampeones.mplus.es">
+    <title>W-Sport Football Weekly (T23/24): Episodio 4</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009183000 +0300" stop="20231009193000 +0300" channel="deportes.mplus.es">
-    <title>Overtime (T23/24): Episodio 4</title>
+  <programme start="20231013132000 +0300" stop="20231013135000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Bundesliga Weekly (T23/24): Episodio 9</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009193000 +0300" stop="20231009214500 +0300" channel="deportes.mplus.es">
-    <title>MLB (T2023): Baltimore Orioles - Texas Rangers. Series de División</title>
+  <programme start="20231013135000 +0300" stop="20231013153500 +0300" channel="ligadecampeones.mplus.es">
+    <title>UEFA Champions League (T23/24): Copenhague - Bayern Múnich</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009214500 +0300" stop="20231009233000 +0300" channel="deportes.mplus.es">
-    <title>NBA (T23/24): Memphis Grizzlies - Indiana Pacers</title>
+  <programme start="20231013153500 +0300" stop="20231013172000 +0300" channel="ligadecampeones.mplus.es">
+    <title>UEFA Champions League (T23/24): Oporto - Barcelona</title>
     <desc>Deportes</desc>
   </programme>
-  <programme start="20231009233000 +0300" stop="20231010013000 +0300" channel="deportes.mplus.es">
-    <title>NFL (T23/24): San Francisco 49ers - Dallas Cowboys</title>
+  <programme start="20231013172000 +0300" stop="20231013175000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Full Impact Serie A (T23/24): Episodio 8</title>
+    <desc>Deportes</desc>
+  </programme>
+  <programme start="20231013175000 +0300" stop="20231013182000 +0300" channel="ligadecampeones.mplus.es">
+    <title>W-Sport Football Weekly (T23/24): Episodio 4</title>
+    <desc>Deportes</desc>
+  </programme>
+  <programme start="20231013182000 +0300" stop="20231013192000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Resumen Bundesliga (T23/24): Jornada 7</title>
+    <desc>Deportes</desc>
+  </programme>
+  <programme start="20231013192000 +0300" stop="20231013195000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Bundesliga Weekly (T23/24): Episodio 9</title>
+    <desc>Deportes</desc>
+  </programme>
+  <programme start="20231013195000 +0300" stop="20231013215000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Clasificatorios Mundial 2026 Conmebol (T23/24): Colombia - Uruguay</title>
+    <desc>Deportes</desc>
+  </programme>
+  <programme start="20231013215000 +0300" stop="20231013235000 +0300" channel="ligadecampeones.mplus.es">
+    <title>Clasificatorios Mundial 2026 Conmebol (T23/24): Argentina - Paraguay</title>
     <desc>Deportes</desc>
   </programme>
   <programme start="20231010013000 +0300" stop="20231010023000 +0300" channel="deportes.mplus.es">
