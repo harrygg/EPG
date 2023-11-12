@@ -3464,7 +3464,7 @@
     <title>Попитай Лекаря – 5 епизод, 2 сезон (повторение)</title>
     <desc>Австралийска медицинска продукция, в която лекари отговарят на въпроси за здравето.</desc>
   </programme>
-  <programme start="20231113232500 +0200" channel="codehealth.bg">
+  <programme start="20231113232500 +0200" stop="20231114100500 +0200" channel="codehealth.bg">
     <title>Попитай Лекаря – 6 епизод, 2 сезон (повторение)</title>
     <desc>Австралийска медицинска продукция, в която лекари отговарят на въпроси за здравето.</desc>
   </programme>
@@ -9127,8 +9127,50 @@
   <programme start="20231112185000 +0200" stop="20231112212500 +0200" channel="b1b.tv">
     <title lang="bg">Волейбол: ЕФБЕТ СУПЕРВОЛЕЙ 3-кръг: Добруджа – Нефтохимик Бургас</title>
   </programme>
-  <programme start="20231112212500 +0200" channel="b1b.tv">
+  <programme start="20231112212500 +0200" stop="20231113000000 +0200" channel="b1b.tv">
     <title lang="bg">Кикбокс: Grand Kickboxing Fight Night</title>
+  </programme>
+  <programme start="20231113000000 +0200" stop="20231113020500 +0200" channel="b1b.tv">
+    <title lang="bg">Бокс: Международна боксова галавечер – Свиленград</title>
+  </programme>
+  <programme start="20231113020500 +0200" stop="20231113022500 +0200" channel="b1b.tv">
+    <title lang="bg">Предаване: Лице в лице с шампиона: Борислав Бояджиев</title>
+  </programme>
+  <programme start="20231113022500 +0200" stop="20231113032500 +0200" channel="b1b.tv">
+    <title lang="bg">Билярд: Dynamic Billard Petrich Open: Вълчев – Корнмесер</title>
+  </programme>
+  <programme start="20231113032500 +0200" stop="20231113044500 +0200" channel="b1b.tv">
+    <title lang="bg">Билярд: Dynamic Billard Petrich Open: Регли – Спасов</title>
+  </programme>
+  <programme start="20231113044500 +0200" stop="20231113063500 +0200" channel="b1b.tv">
+    <title lang="bg">Билярд: Dynamic Billard Petrich Open: Алкайде – Георгиев</title>
+  </programme>
+  <programme start="20231113063500 +0200" stop="20231113071000 +0200" channel="b1b.tv">
+    <title lang="bg">Предаване: Начален сигнал – Мария Петрова</title>
+  </programme>
+  <programme start="20231113071000 +0200" stop="20231113084500 +0200" channel="b1b.tv">
+    <title lang="bg">Волейбол: Квалификации за ЕП U17: Словакия – Германия /жени/</title>
+  </programme>
+  <programme start="20231113084500 +0200" stop="20231113102000 +0200" channel="b1b.tv">
+    <title lang="bg">Волейбол: Квалификации за ЕП U17: България – Кипър /жени/</title>
+  </programme>
+  <programme start="20231113102000 +0200" stop="20231113121000 +0200" channel="b1b.tv">
+    <title lang="bg">Баскетбол: НБЛ 1-ви кръг_Черно Море – Левски</title>
+  </programme>
+  <programme start="20231113121000 +0200" stop="20231113143500 +0200" channel="b1b.tv">
+    <title lang="bg">Ветроходна регата: Bora Sailing – Варна 2023 /Ден 2/</title>
+  </programme>
+  <programme start="20231113143500 +0200" stop="20231113171500 +0200" channel="b1b.tv">
+    <title lang="bg">Художествена гимнастика: Държавно първенство Елит /Ден 1/</title>
+  </programme>
+  <programme start="20231113171500 +0200" stop="20231113184500 +0200" channel="b1b.tv">
+    <title lang="bg">Хандбал: Спартак Варна – Осъм Ловеч</title>
+  </programme>
+  <programme start="20231113184500 +0200" stop="20231113211500 +0200" channel="b1b.tv">
+    <title lang="bg">Волейбол: ЕФБЕТ СУПЕРВОЛЕЙ 3-кръг: Добруджа – Нефтохимик Бургас</title>
+  </programme>
+  <programme start="20231113211500 +0200" channel="b1b.tv">
+    <title lang="bg">Кикбокс: Profight 23</title>
   </programme>
   <programme start="20231112000000 +0200" stop="20231112004000 +0200" channel="edgesport.bg">
     <title>Family Routes</title>
@@ -32999,8 +33041,83 @@
   <programme start="20231112230000 +0200" stop="20231112233000 +0200" channel="traveltv.bg">
     <title lang="bg">Легендите оживяват - град Русе</title>
   </programme>
-  <programme start="20231112233000 +0200" channel="traveltv.bg">
+  <programme start="20231112233000 +0200" stop="20231113103000 +0200" channel="traveltv.bg">
     <title lang="bg">Магията на Китай: Янгшоу - глобалното село на Китай</title>
+  </programme>
+  <programme start="20231113103000 +0200" stop="20231113120000 +0200" channel="traveltv.bg">
+    <title>Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20231113120000 +0200" stop="20231113123000 +0200" channel="traveltv.bg">
+    <title>Пътешествия из райската земя - Пътека към Мазалат</title>
+  </programme>
+  <programme start="20231113123000 +0200" stop="20231113130000 +0200" channel="traveltv.bg">
+    <title>Изкуство и култура - Поморие: слънце и бриз</title>
+  </programme>
+  <programme start="20231113130000 +0200" stop="20231113133000 +0200" channel="traveltv.bg">
+    <title>За България - Българска кухня и напитки</title>
+  </programme>
+  <programme start="20231113133000 +0200" stop="20231113140000 +0200" channel="traveltv.bg">
+    <title>Пътеводител на пътешественика - Хаити</title>
+  </programme>
+  <programme start="20231113140000 +0200" stop="20231113143000 +0200" channel="traveltv.bg">
+    <title>Българската история - 10 интересни факта от българската история, част 2</title>
+  </programme>
+  <programme start="20231113143000 +0200" stop="20231113150000 +0200" channel="traveltv.bg">
+    <title>Зелен свят - Натура 2000</title>
+  </programme>
+  <programme start="20231113150000 +0200" stop="20231113153000 +0200" channel="traveltv.bg">
+    <title>Импресии - Габър</title>
+  </programme>
+  <programme start="20231113153000 +0200" stop="20231113160000 +0200" channel="traveltv.bg">
+    <title>Магията на Китай - Да бдим над терасите</title>
+  </programme>
+  <programme start="20231113160000 +0200" stop="20231113163000 +0200" channel="traveltv.bg">
+    <title>Регионите на България - Средновековни църкви</title>
+  </programme>
+  <programme start="20231113163000 +0200" stop="20231113170000 +0200" channel="traveltv.bg">
+    <title>За България - Бургас</title>
+  </programme>
+  <programme start="20231113170000 +0200" stop="20231113173000 +0200" channel="traveltv.bg">
+    <title>Произведено в Япония - Еднодневно пътуване в Токийския залив</title>
+  </programme>
+  <programme start="20231113173000 +0200" stop="20231113180000 +0200" channel="traveltv.bg">
+    <title>Искам да съм там: Стралджа - Когато хората работят заедно</title>
+  </programme>
+  <programme start="20231113180000 +0200" stop="20231113183000 +0200" channel="traveltv.bg">
+    <title>Импресии - Вода в Рила</title>
+  </programme>
+  <programme start="20231113183000 +0200" stop="20231113190000 +0200" channel="traveltv.bg">
+    <title>Професия турист - Бяла,част 2</title>
+  </programme>
+  <programme start="20231113190000 +0200" stop="20231113193000 +0200" channel="traveltv.bg">
+    <title>Пътеводител на пътешественика - Абай Кунанбаев</title>
+  </programme>
+  <programme start="20231113193000 +0200" stop="20231113200000 +0200" channel="traveltv.bg">
+    <title>Пътеводител на пътешественика: Хърватски перли</title>
+  </programme>
+  <programme start="20231113200000 +0200" stop="20231113203000 +0200" channel="traveltv.bg">
+    <title>Българската история - 10 интересни факта от българската история, част 1</title>
+  </programme>
+  <programme start="20231113203000 +0200" stop="20231113210000 +0200" channel="traveltv.bg">
+    <title>Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20231113210000 +0200" stop="20231113213000 +0200" channel="traveltv.bg">
+    <title>За България - Банско</title>
+  </programme>
+  <programme start="20231113213000 +0200" stop="20231113220000 +0200" channel="traveltv.bg">
+    <title>Произведено в Япония</title>
+  </programme>
+  <programme start="20231113220000 +0200" stop="20231113223000 +0200" channel="traveltv.bg">
+    <title>За България - Банско</title>
+  </programme>
+  <programme start="20231113223000 +0200" stop="20231113230000 +0200" channel="traveltv.bg">
+    <title>Регионите на България - Възрожденски църкви</title>
+  </programme>
+  <programme start="20231113230000 +0200" stop="20231113233000 +0200" channel="traveltv.bg">
+    <title>Легендите оживяват - град Русе</title>
+  </programme>
+  <programme start="20231113233000 +0200" stop="20231114103000 +0200" channel="traveltv.bg">
+    <title>Магията на Китай: Янгшоу - глобалното село на Китай</title>
   </programme>
   <programme start="20231112003000 +0200" stop="20231112010000 +0200" channel="docubox.spiintl.com">
     <title lang="bg">Паранормални досиета - Телата им отдавна са станали на прах, но духовете на оригиналните собственици на Белууд остават там и обичат да гонят...</title>
