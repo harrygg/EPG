@@ -34,6 +34,7 @@
   names: 
   - name: БНТ 1
   - name: БНТ 1 HD
+  - name: БНТ 1 LQ
   icon: http://tv.bnt.bg/assets/images/bnt1-home.jpg
   groups: ["bg"]
   sources:
@@ -49,6 +50,7 @@
   - name: БНТ 2 HD
     lang: bg
   - name: BNT 2
+  - name: BNT LQ
     lang: en
   groups: ["bg"]
   sources:
@@ -62,6 +64,7 @@
   - name: БНТ 3
     lang: bg
   - name: БНТ 3 HD
+  - name: БНТ 3 LQ
     lang: bg
   groups: ["bg"]
   sources:
@@ -75,6 +78,7 @@
   - name: БНТ 4
     lang: bg
   - name: БНТ 4 HD
+  - name: БНТ 4 LQ
     lang: bg
   groups: ["bg"]
   sources:
@@ -92,6 +96,7 @@
   - name: bTV
     lang: en
   - name: bTV LQ
+  - name: BTV HD h265 test
     lang: en
   groups: ["bg"]  
   sources:
@@ -122,6 +127,7 @@
   - name: bTV Lady
     lang: en
   - name: bTV Lady HD
+  - name: bTV Lady LQ
     lang: en
   groups: ["bg"]
   sources:
@@ -135,6 +141,7 @@
   - name: Нова
     lang: bg
   - name: Нова HD
+  - name: Nova HD 50p test
     lang: bg
   - name: Nova
     lang: en
@@ -164,6 +171,8 @@
   - name: България Он Еър
     lang: bg
   - name: Bulgaria On Air
+    lang: en
+  - name: Bulgaria On Air HD
     lang: en
   sources:
   - dnes.bg
@@ -336,9 +345,9 @@
     lang: en
   sources:
   # - hbo.bg
+  - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
-  - tv.dir.bg
 
 - id: hbo2.bg
   enabled: true
@@ -349,9 +358,9 @@
     lang: en
   sources:
   # - hbo.bg
+  - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
-  - tv.dir.bg
 
 - id: hbo3.bg
   enabled: true
@@ -361,10 +370,9 @@
   - name: HBO 3 HD
     lang: en
   sources:
-  # - hbo.bg
+  - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
-  - tv.dir.bg
 
 - id: cinemax1.bg
   enabled: true
@@ -374,9 +382,8 @@
   - name: Cinemax HD
     lang: en
   sources:
-  # - hbo.bg
-  - tv-programa.bg
   - tv.dir.bg
+  - tv-programa.bg
   - dnes.bg
 
 - id: cinemax2.bg
@@ -387,10 +394,9 @@
   - name: Cinemax 2 HD
     lang: en
   sources:
-  # - hbo.bg
+  - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
-  - tv.dir.bg
 
 - id: btvcinema.bg
   enabled: true
@@ -468,6 +474,7 @@
   names:
   - name: Диема
     lang: bg
+  - name: Diema HD
   - name: Diema
     lang: en
   - name: Diema LQ
@@ -482,6 +489,8 @@
   - name: Диема Фемили
     lang: bg
   - name: Diema Family
+  - name: Diema Family HD
+  - name: Diema Family LQ
     lang: en
   sources:
   - nova.bg
@@ -540,13 +549,13 @@
 - id: fox.bg
   enabled: true
   names:
-  - name: Fox
+  - name: Star Channel
     lang: en
-  - name: Fox HD
+  - name: Star Channel HD
     lang: en
-  - name: FOX Channel
+  - name: Star Channel
     lang: en
-  - name: FOX LQ
+  - name: Star Channel LQ
     lang: en
   sources:
   - waltdisney.bg
@@ -555,9 +564,10 @@
 - id: foxlife.bg
   enabled: true
   names:
-  - name: Fox Life
+  - name: Star Life
     lang: en
-  - name: Fox Life HD
+  - name: Star Life HD
+  - name: Star Life LQ
     lang: en
   sources:
   - waltdisney.bg
@@ -566,10 +576,9 @@
 - id: foxcrime.bg
   enabled: true
   names:
-  - name: Fox Crime
-    lang: en
-  - name: Fox Crime HD
-    lang: en
+  - name: Star Crime
+  - name: Star Crime HD
+  - name: Star Crime LQ
   sources:
     - waltdisney.bg
     - dnes.bg
@@ -590,8 +599,8 @@
   - name: Nostalgia HD
     lang: en
   sources:
-  - start.bg
   - dnes.bg
+  - start.bg
 
 #############
 ### SPORT ###
@@ -618,6 +627,7 @@
     lang: bg
   - name: Diema Sport
   - name: Diema Sport HD
+  - name: Diema Sport 1 4K
   - name: Diema Sport LQ
   groups: ["sport"]
   sources:
@@ -1122,6 +1132,17 @@
   sources:
   - tvtoday.de
   
+- id: skysports1.com
+  enabled: true
+  names:
+  - name: Sky Sports 1
+    lang: en
+  - name: Sky Sports Main Event
+    lang: en
+  groups: ["sport"]
+  sources:
+    
+  
 - id: skysport1.de
   enabled: true
   names:
@@ -1315,7 +1336,8 @@
   - name: Планета
     lang: bg
   - name: Планета HD
-    lang: bg
+  - name: Planeta LQ
+    lang: en
   sources:
   - dnes.bg
 
@@ -1617,7 +1639,7 @@
 - id: tlc.de
   enabled: true
   names:
-  - name: TLC
+  - name: TLC DE
     lang: de
   sources:
   - tvtoday.de
@@ -1625,7 +1647,7 @@
 - id: disney.de
   enabled: true
   names:
-  - name: Disney
+  - name: Disney DE
     lang: de
   sources:
   - tvtoday.de
@@ -1729,9 +1751,10 @@
 - id: tvevropa.bg
   enabled: true
   names:
-  - name: ТВ Европа
+  - name: Евронюз БГ
     lang: bg
-  - name: TV Evropa
+  - name: Euronews BG
+  - name: Euronews BG M
     lang: en
   sources:
   - dnes.bg
@@ -1899,6 +1922,7 @@
   - name: National Geographic
     lang: en
   - name: NatGeo HD
+  - name: NatGeo LQ
     lang: en
   sources:
   - waltdisney.bg
@@ -1938,14 +1962,18 @@
   enabled: true
   names:
   - name: HDGE
+  - name: HDGE HD
     lang: en
   sources:
+  - dnes.bg
   - tv.dir.bg
   
 - id: tlc.bg
   enabled: true
   names:
   - name: TLC
+  - name: TLC HD
+  - name: TLC LQ
     lang: en
   sources:
   - dnes.bg
@@ -1957,6 +1985,7 @@
   - name: Crime & Investigation
     lang: en
   - name: C&I Networks
+  - name: CI Networks
     lang: en
   sources:
   - dnes.bg
@@ -2004,6 +2033,7 @@
   - name: Discovery Channel
     lang: en
   - name: Discovery HD
+  - name: Discovery LQ
     lang: en
   sources:
   - dnes.bg
@@ -2175,8 +2205,17 @@
   - name: TVT Tourism
     lang: en
   sources:
-  - dnes.bg
   - tv.dir.bg
+  - dnes.bg
+  
+- id: thisisbulgaria.bg
+  enabled: false
+  names:
+  - name: This Is Bulgaria
+  - name: This Is Bulgaria HD
+  sources:
+  - dnes.bg
+
   
 - id: tv.lovenature.com
   enabled: true
@@ -2249,7 +2288,7 @@
   - name: Wness TV
     lang: en
   - name: Wness HD
-    lang: en
+    lang: en    
   sources:
   - wness.com
   
@@ -2261,6 +2300,7 @@
   enabled: true
   names:
   - name: Nickeldeon
+  - name: Nickeldeon LQ
     lang: en
   groups: [ "kids" ]
   sources:
@@ -2320,6 +2360,7 @@
   enabled: true
   names:
   - name: Cartoon Network
+  - name: Cartoon Net LQ
     lang: en
   groups: [ "kids" ]
   sources:
@@ -2330,6 +2371,7 @@
   enabled: true
   names:
   - name: Disney Channel
+  - name: Disney LQ
     lang: en
   groups: [ "kids" ]
   sources:

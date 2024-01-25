@@ -3,26 +3,31 @@
   <channel id="bnt1.bg">
     <display-name>БНТ 1</display-name>
     <display-name>БНТ 1 HD</display-name>
+    <display-name>БНТ 1 LQ</display-name>
     <icon src="http://tv.bnt.bg/assets/images/bnt1-home.jpg" />
   </channel>
   <channel id="bnt2.bg">
     <display-name lang="bg">БНТ 2</display-name>
     <display-name lang="bg">БНТ 2 HD</display-name>
-    <display-name lang="en">BNT 2</display-name>
+    <display-name>BNT 2</display-name>
+    <display-name lang="en">BNT LQ</display-name>
   </channel>
   <channel id="bnt3.bg">
     <display-name lang="bg">БНТ 3</display-name>
-    <display-name lang="bg">БНТ 3 HD</display-name>
+    <display-name>БНТ 3 HD</display-name>
+    <display-name lang="bg">БНТ 3 LQ</display-name>
   </channel>
   <channel id="bnt4.bg">
     <display-name lang="bg">БНТ 4</display-name>
-    <display-name lang="bg">БНТ 4 HD</display-name>
+    <display-name>БНТ 4 HD</display-name>
+    <display-name lang="bg">БНТ 4 LQ</display-name>
   </channel>
   <channel id="btv.bg">
     <display-name lang="bg">БТВ</display-name>
     <display-name lang="en">bTV HD</display-name>
     <display-name lang="en">bTV</display-name>
-    <display-name lang="en">bTV LQ</display-name>
+    <display-name>bTV LQ</display-name>
+    <display-name lang="en">BTV HD h265 test</display-name>
   </channel>
   <channel id="btvaction.bg">
     <display-name lang="bg">БТВ Екшън</display-name>
@@ -32,17 +37,20 @@
   <channel id="btvlady.bg">
     <display-name lang="bg">БТВ Лейди</display-name>
     <display-name lang="en">bTV Lady</display-name>
-    <display-name lang="en">bTV Lady HD</display-name>
+    <display-name>bTV Lady HD</display-name>
+    <display-name lang="en">bTV Lady LQ</display-name>
   </channel>
   <channel id="nova.bg">
     <display-name lang="bg">Нова</display-name>
-    <display-name lang="bg">Нова HD</display-name>
+    <display-name>Нова HD</display-name>
+    <display-name lang="bg">Nova HD 50p test</display-name>
     <display-name lang="en">Nova</display-name>
     <display-name lang="en">Nova LQ</display-name>
   </channel>
   <channel id="bgonair.bg">
     <display-name lang="bg">България Он Еър</display-name>
     <display-name lang="en">Bulgaria On Air</display-name>
+    <display-name lang="en">Bulgaria On Air HD</display-name>
   </channel>
   <channel id="evrokom.bg">
     <display-name lang="en">Evrokom</display-name>

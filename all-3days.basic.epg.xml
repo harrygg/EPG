@@ -3,26 +3,31 @@
   <channel id="bnt1.bg">
     <display-name>БНТ 1</display-name>
     <display-name>БНТ 1 HD</display-name>
+    <display-name>БНТ 1 LQ</display-name>
     <icon src="http://tv.bnt.bg/assets/images/bnt1-home.jpg" />
   </channel>
   <channel id="bnt2.bg">
     <display-name lang="bg">БНТ 2</display-name>
     <display-name lang="bg">БНТ 2 HD</display-name>
-    <display-name lang="en">BNT 2</display-name>
+    <display-name>BNT 2</display-name>
+    <display-name lang="en">BNT LQ</display-name>
   </channel>
   <channel id="bnt3.bg">
     <display-name lang="bg">БНТ 3</display-name>
-    <display-name lang="bg">БНТ 3 HD</display-name>
+    <display-name>БНТ 3 HD</display-name>
+    <display-name lang="bg">БНТ 3 LQ</display-name>
   </channel>
   <channel id="bnt4.bg">
     <display-name lang="bg">БНТ 4</display-name>
-    <display-name lang="bg">БНТ 4 HD</display-name>
+    <display-name>БНТ 4 HD</display-name>
+    <display-name lang="bg">БНТ 4 LQ</display-name>
   </channel>
   <channel id="btv.bg">
     <display-name lang="bg">БТВ</display-name>
     <display-name lang="en">bTV HD</display-name>
     <display-name lang="en">bTV</display-name>
-    <display-name lang="en">bTV LQ</display-name>
+    <display-name>bTV LQ</display-name>
+    <display-name lang="en">BTV HD h265 test</display-name>
   </channel>
   <channel id="btvaction.bg">
     <display-name lang="bg">БТВ Екшън</display-name>
@@ -32,11 +37,13 @@
   <channel id="btvlady.bg">
     <display-name lang="bg">БТВ Лейди</display-name>
     <display-name lang="en">bTV Lady</display-name>
-    <display-name lang="en">bTV Lady HD</display-name>
+    <display-name>bTV Lady HD</display-name>
+    <display-name lang="en">bTV Lady LQ</display-name>
   </channel>
   <channel id="nova.bg">
     <display-name lang="bg">Нова</display-name>
-    <display-name lang="bg">Нова HD</display-name>
+    <display-name>Нова HD</display-name>
+    <display-name lang="bg">Nova HD 50p test</display-name>
     <display-name lang="en">Nova</display-name>
     <display-name lang="en">Nova LQ</display-name>
   </channel>
@@ -47,6 +54,7 @@
   <channel id="bgonair.bg">
     <display-name lang="bg">България Он Еър</display-name>
     <display-name lang="en">Bulgaria On Air</display-name>
+    <display-name lang="en">Bulgaria On Air HD</display-name>
   </channel>
   <channel id="evrokom.bg">
     <display-name lang="en">Evrokom</display-name>
@@ -143,12 +151,15 @@
   </channel>
   <channel id="diema.bg">
     <display-name lang="bg">Диема</display-name>
+    <display-name>Diema HD</display-name>
     <display-name lang="en">Diema</display-name>
     <display-name lang="en">Diema LQ</display-name>
   </channel>
   <channel id="diemafamily.bg">
     <display-name lang="bg">Диема Фемили</display-name>
-    <display-name lang="en">Diema Family</display-name>
+    <display-name>Diema Family</display-name>
+    <display-name>Diema Family HD</display-name>
+    <display-name lang="en">Diema Family LQ</display-name>
   </channel>
   <channel id="kinonova.bg">
     <display-name lang="bg">КиноНова</display-name>
@@ -166,18 +177,20 @@
     <display-name lang="en">AXN Black</display-name>
   </channel>
   <channel id="fox.bg">
-    <display-name lang="en">Fox</display-name>
-    <display-name lang="en">Fox HD</display-name>
-    <display-name lang="en">FOX Channel</display-name>
-    <display-name lang="en">FOX LQ</display-name>
+    <display-name lang="en">Star Channel</display-name>
+    <display-name lang="en">Star Channel HD</display-name>
+    <display-name lang="en">Star Channel</display-name>
+    <display-name lang="en">Star Channel LQ</display-name>
   </channel>
   <channel id="foxlife.bg">
-    <display-name lang="en">Fox Life</display-name>
-    <display-name lang="en">Fox Life HD</display-name>
+    <display-name lang="en">Star Life</display-name>
+    <display-name>Star Life HD</display-name>
+    <display-name lang="en">Star Life LQ</display-name>
   </channel>
   <channel id="foxcrime.bg">
-    <display-name lang="en">Fox Crime</display-name>
-    <display-name lang="en">Fox Crime HD</display-name>
+    <display-name>Star Crime</display-name>
+    <display-name>Star Crime HD</display-name>
+    <display-name>Star Crime LQ</display-name>
   </channel>
   <channel id="amc.bg">
     <display-name lang="en">AMC</display-name>
@@ -196,6 +209,7 @@
     <display-name lang="bg">Диема Спорт</display-name>
     <display-name>Diema Sport</display-name>
     <display-name>Diema Sport HD</display-name>
+    <display-name>Diema Sport 1 4K</display-name>
     <display-name>Diema Sport LQ</display-name>
   </channel>
   <channel id="diemasport2.bg">
@@ -362,6 +376,10 @@
     <display-name lang="de">Eurosport DE HD</display-name>
     <display-name lang="de">Eurosport DE</display-name>
   </channel>
+  <channel id="skysports1.com">
+    <display-name lang="en">Sky Sports 1</display-name>
+    <display-name lang="en">Sky Sports Main Event</display-name>
+  </channel>
   <channel id="skysport1.de">
     <display-name lang="de">Sky Sport 1</display-name>
     <display-name lang="de">Sky Sport 1 HD</display-name>
@@ -423,7 +441,8 @@
   <channel id="planetatv.bg">
     <display-name lang="en">Planeta</display-name>
     <display-name lang="bg">Планета</display-name>
-    <display-name lang="bg">Планета HD</display-name>
+    <display-name>Планета HD</display-name>
+    <display-name lang="en">Planeta LQ</display-name>
   </channel>
   <channel id="planetafolk.bg">
     <display-name lang="en">Planeta Folk</display-name>
@@ -539,10 +558,10 @@
     <display-name lang="de">ORF2 HD</display-name>
   </channel>
   <channel id="tlc.de">
-    <display-name lang="de">TLC</display-name>
+    <display-name lang="de">TLC DE</display-name>
   </channel>
   <channel id="disney.de">
-    <display-name lang="de">Disney</display-name>
+    <display-name lang="de">Disney DE</display-name>
   </channel>
   <channel id="wdr.de">
     <display-name lang="de">WDR</display-name>
@@ -582,8 +601,9 @@
     <display-name lang="de">DMAX DE HD</display-name>
   </channel>
   <channel id="tvevropa.bg">
-    <display-name lang="bg">ТВ Европа</display-name>
-    <display-name lang="en">TV Evropa</display-name>
+    <display-name lang="bg">Евронюз БГ</display-name>
+    <display-name>Euronews BG</display-name>
+    <display-name lang="en">Euronews BG M</display-name>
   </channel>
   <channel id="news.nova.bg">
     <display-name lang="bg">Нова Нюз</display-name>
@@ -628,7 +648,8 @@
   </channel>
   <channel id="natgeo.bg">
     <display-name lang="en">National Geographic</display-name>
-    <display-name lang="en">NatGeo HD</display-name>
+    <display-name>NatGeo HD</display-name>
+    <display-name lang="en">NatGeo LQ</display-name>
   </channel>
   <channel id="natgeowild.bg">
     <display-name lang="en">NatGeo Wild</display-name>
@@ -643,14 +664,18 @@
     <display-name>Kitchen TV HD</display-name>
   </channel>
   <channel id="hgtv.bg">
-    <display-name lang="en">HDGE</display-name>
+    <display-name>HDGE</display-name>
+    <display-name lang="en">HDGE HD</display-name>
   </channel>
   <channel id="tlc.bg">
-    <display-name lang="en">TLC</display-name>
+    <display-name>TLC</display-name>
+    <display-name>TLC HD</display-name>
+    <display-name lang="en">TLC LQ</display-name>
   </channel>
   <channel id="crimeinvestigation.bg">
     <display-name lang="en">Crime &amp; Investigation</display-name>
-    <display-name lang="en">C&amp;I Networks</display-name>
+    <display-name>C&amp;I Networks</display-name>
+    <display-name lang="en">CI Networks</display-name>
   </channel>
   <channel id="history.viasat.bg">
     <display-name lang="en">Viasat History</display-name>
@@ -666,7 +691,8 @@
   </channel>
   <channel id="discoverychannel.bg">
     <display-name lang="en">Discovery Channel</display-name>
-    <display-name lang="en">Discovery HD</display-name>
+    <display-name>Discovery HD</display-name>
+    <display-name lang="en">Discovery LQ</display-name>
   </channel>
   <channel id="discoveryscience.bg">
     <display-name lang="en">Discovery Science</display-name>
@@ -740,7 +766,8 @@
     <display-name>Jivaya Priroda</display-name>
   </channel>
   <channel id="nickelodeon.tv">
-    <display-name lang="en">Nickeldeon</display-name>
+    <display-name>Nickeldeon</display-name>
+    <display-name lang="en">Nickeldeon LQ</display-name>
   </channel>
   <channel id="nick.tv">
     <display-name lang="en">Nick HD</display-name>
@@ -759,10 +786,12 @@
     <display-name lang="en">Boomerang</display-name>
   </channel>
   <channel id="cartoonnetwork.tv">
-    <display-name lang="en">Cartoon Network</display-name>
+    <display-name>Cartoon Network</display-name>
+    <display-name lang="en">Cartoon Net LQ</display-name>
   </channel>
   <channel id="disneychannel.bg">
-    <display-name lang="en">Disney Channel</display-name>
+    <display-name>Disney Channel</display-name>
+    <display-name lang="en">Disney LQ</display-name>
   </channel>
   <channel id="trtcocuk.tr">
     <display-name lang="tr">TRT Cocuk</display-name>
@@ -34757,6 +34786,117 @@
   </programme>
   <programme start="20240127230000 +0200" stop="20240128060000 +0200" channel="travelchannel.bg">
     <title>Призраци в Средния Запад (Series 1): Полудяване (Episode 4)</title>
+  </programme>
+  <programme start="20240127050000 +0200" stop="20240127053000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътешествия из райската земя - Боженци през пролетта</title>
+  </programme>
+  <programme start="20240127053000 +0200" stop="20240127060000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - Човекът и чайките</title>
+  </programme>
+  <programme start="20240127060000 +0200" stop="20240127063000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика: Сайгон, Банкок - Открийте 10-те разлики, част 1</title>
+  </programme>
+  <programme start="20240127063000 +0200" stop="20240127070000 +0200" channel="traveltv.bg">
+    <title lang="bg">Изкуство и култура - Моят Чирпан</title>
+  </programme>
+  <programme start="20240127070000 +0200" stop="20240127073000 +0200" channel="traveltv.bg">
+    <title lang="bg">Искам да съм там: Бургас - Градът, в който се връщаш</title>
+  </programme>
+  <programme start="20240127073000 +0200" stop="20240127080000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Габър</title>
+  </programme>
+  <programme start="20240127080000 +0200" stop="20240127083000 +0200" channel="traveltv.bg">
+    <title lang="bg">Виж България - Берковица</title>
+  </programme>
+  <programme start="20240127083000 +0200" stop="20240127090000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240127090000 +0200" stop="20240127093000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история: Вива история - Александър Батенберг I</title>
+  </programme>
+  <programme start="20240127093000 +0200" stop="20240127103000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240127103000 +0200" stop="20240127110000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240127110000 +0200" stop="20240127113000 +0200" channel="traveltv.bg">
+    <title lang="bg">Балкан фолк</title>
+  </programme>
+  <programme start="20240127113000 +0200" stop="20240127120000 +0200" channel="traveltv.bg">
+    <title lang="bg">Балкан фолк</title>
+  </programme>
+  <programme start="20240127120000 +0200" stop="20240127123000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътешествия из райската земя - Приказка за Балчик</title>
+  </programme>
+  <programme start="20240127123000 +0200" stop="20240127130000 +0200" channel="traveltv.bg">
+    <title lang="bg">Изкуство и култура - Професор Тома Върбанов</title>
+  </programme>
+  <programme start="20240127130000 +0200" stop="20240127133000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Български занаяти</title>
+  </programme>
+  <programme start="20240127133000 +0200" stop="20240127140000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика: Сахара - Забранената цивилизация, част 1</title>
+  </programme>
+  <programme start="20240127140000 +0200" stop="20240127143000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история - Легендите оживяват - с. Орехово, еп. 9</title>
+  </programme>
+  <programme start="20240127143000 +0200" stop="20240127150000 +0200" channel="traveltv.bg">
+    <title lang="bg">Зелен свят - Бяла водна лилия</title>
+  </programme>
+  <programme start="20240127150000 +0200" stop="20240127153000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Рапсодия от дъждове</title>
+  </programme>
+  <programme start="20240127153000 +0200" stop="20240127160000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - На възрастта на императорският дворец</title>
+  </programme>
+  <programme start="20240127160000 +0200" stop="20240127163000 +0200" channel="traveltv.bg">
+    <title lang="bg">Регионите на България - Алфатар: Песни: "Иванчо нива ореше", "Тръгнала е Рада"</title>
+  </programme>
+  <programme start="20240127163000 +0200" stop="20240127170000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Банско</title>
+  </programme>
+  <programme start="20240127170000 +0200" stop="20240127173000 +0200" channel="traveltv.bg">
+    <title lang="bg">Произведено в Япония - Японският туризъм става зелен</title>
+  </programme>
+  <programme start="20240127173000 +0200" stop="20240127180000 +0200" channel="traveltv.bg">
+    <title lang="bg">Искам да съм там - Приказка за нашия дом</title>
+  </programme>
+  <programme start="20240127180000 +0200" stop="20240127183000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Гърция</title>
+  </programme>
+  <programme start="20240127183000 +0200" stop="20240127190000 +0200" channel="traveltv.bg">
+    <title lang="bg">Професия турист - Занзибар</title>
+  </programme>
+  <programme start="20240127190000 +0200" stop="20240127193000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика: Сахара - Забранената цивилизация, част 2</title>
+  </programme>
+  <programme start="20240127193000 +0200" stop="20240127200000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика: Магията на цветовете</title>
+  </programme>
+  <programme start="20240127200000 +0200" stop="20240127203000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история - 10 цитата на полковник Борис Дрангов</title>
+  </programme>
+  <programme start="20240127203000 +0200" stop="20240127210000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240127210000 +0200" stop="20240127213000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Ивановски скални църкви</title>
+  </programme>
+  <programme start="20240127213000 +0200" stop="20240127220000 +0200" channel="traveltv.bg">
+    <title lang="bg">Произведено в Япония - Играчки за всички възрасти</title>
+  </programme>
+  <programme start="20240127220000 +0200" stop="20240127223000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Велико Търново</title>
+  </programme>
+  <programme start="20240127223000 +0200" stop="20240127230000 +0200" channel="traveltv.bg">
+    <title lang="bg">Регионите на България - Алфатар: Хоро "Алфатарски ръченик"</title>
+  </programme>
+  <programme start="20240127230000 +0200" stop="20240127233000 +0200" channel="traveltv.bg">
+    <title lang="bg">Легендите оживяват - Новоселски манастир, с.3 еп.3</title>
+  </programme>
+  <programme start="20240127233000 +0200" stop="20240128000000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - "Новият Китай" в първите си 60 години</title>
   </programme>
   <programme start="20240125010000 +0200" stop="20240125020000 +0200" channel="docubox.spiintl.com">
     <title lang="bg">Камера! Работи! - Филмът показва как изобретяването на киното в никакъв случай не е било неизбежно, а вероятно е станало по случайност. Всичко...</title>
