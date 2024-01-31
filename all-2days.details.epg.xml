@@ -22457,7 +22457,7 @@
   <programme start="20240131020000 +0200" stop="20240201020000 +0200" channel="cgtn.cn">
     <title>Nema informacija o programu</title>
   </programme>
-  <programme start="20240201020000 +0200" channel="cgtn.cn">
+  <programme start="20240201020000 +0200" stop="20240202020000 +0200" channel="cgtn.cn">
     <title>Nema informacija o programu</title>
   </programme>
   <programme start="20240131004000 +0200" stop="20240131010000 +0200" channel="arirang.tv">
@@ -26569,7 +26569,7 @@
   <programme start="20240131020000 +0200" stop="20240201020000 +0200" channel="fashionbox.tv">
     <title>Nema informacija o programu</title>
   </programme>
-  <programme start="20240201020000 +0200" channel="fashionbox.tv">
+  <programme start="20240201020000 +0200" stop="20240202020000 +0200" channel="fashionbox.tv">
     <title>Nema informacija o programu</title>
   </programme>
   <programme start="20240131070500 +0200" stop="20240131073500 +0200" channel="chasseetpeche.fr">
@@ -34471,7 +34471,10 @@
   <programme start="20240201020000 +0200" stop="20240202020000 +0200" channel="rts1.rs">
     <title>Nema informacija o programu</title>
   </programme>
-  <programme start="20240131020000 +0200" channel="rts2.rs">
+  <programme start="20240131020000 +0200" stop="20240201020000 +0200" channel="rts2.rs">
+    <title>Nema informacija o programu</title>
+  </programme>
+  <programme start="20240201020000 +0200" stop="20240202020000 +0200" channel="rts2.rs">
     <title>Nema informacija o programu</title>
   </programme>
   <programme start="20240131001500 +0200" stop="20240131020000 +0200" channel="prva.rs">
@@ -34485,7 +34488,10 @@
   <programme start="20240201020000 +0200" stop="20240202020000 +0200" channel="prva.rs">
     <title>Nema informacija o programu</title>
   </programme>
-  <programme start="20240131020000 +0200" channel="o2.rs">
+  <programme start="20240131020000 +0200" stop="20240201020000 +0200" channel="o2.rs">
+    <title>Nema informacija o programu</title>
+  </programme>
+  <programme start="20240201020000 +0200" stop="20240202020000 +0200" channel="o2.rs">
     <title>Nema informacija o programu</title>
   </programme>
   <programme start="20240131073000 +0200" stop="20240131103000 +0200" channel="france2.fr">
