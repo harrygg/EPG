@@ -1,0 +1,26 @@
+11:21:22 [INF] **************************************************************************
+11:21:22 [INF] 
+11:21:22 [INF]                        EPG.grabber  1.23.9.20
+11:21:22 [INF] 
+11:21:22 [INF] **************************************************************************
+11:21:22 [INF] Start time: 02/11/2024 11:21:22
+11:21:22 [INF] Command line arguments: grab -f C:\Users\HGenev\Git\EPG"\config -o C:\Users\HGenev\Git\EPG" -l 0
+grab:
+  Grabs program for all configured channels
+
+Usage:
+  App grab [options]
+
+Options:
+  -f, --folder <folder>                    Path to the directory containing the configuration file. [default: .]
+  -o, --output-folder <output-folder>      Root path to the output directory where XML files will be exported
+  --cache-folder <cache-folder>            Full path to the cache folder
+  -l, --log-level <log-level>              The log level. 0 = Verbose, 5 = Fatal [default: -1]
+  -c, --channel-ids <channel-ids>          The ids of the channels from the template to grab programs for
+  -g, --channel-groups <channel-groups>    The names of the channel groups
+  -e, --export                             Export EPG to XML files after grabbing
+  -?, -h, --help                           Show help and usage information
+
+11:21:22 [INF] End time 02/11/2024 11:21:22
+11:21:22 [INF] Execution time: 00:00:00.1053834
+Already up to date.
