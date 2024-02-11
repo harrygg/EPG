@@ -1,6 +1,6 @@
-APPDIR="%USERPROFILE%\Git\EPG"
+@echo off
 
-cd %APPDIR%
+set APPDIR="%USERPROFILE%\Git\EPG"
 
 %APPDIR%\bin\app.exe grab -f %APPDIR%\config -o %APPDIR% -l 0
 

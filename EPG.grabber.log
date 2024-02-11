@@ -1,9 +1,576 @@
-2024-02-11 10:05:02.398 00001 [INF] **************************************************************************
-2024-02-11 10:05:02.432 00001 [INF] 
-2024-02-11 10:05:02.436 00001 [INF]                        EPG.grabber  1.23.9.20
-2024-02-11 10:05:02.437 00001 [INF] 
-2024-02-11 10:05:02.437 00001 [INF] **************************************************************************
-2024-02-11 10:05:02.437 00001 [INF] Start time: "2024-02-11T10:05:02.4373265+02:00"
-2024-02-11 10:05:02.438 00001 [INF] Command line arguments: grab -f C:\Users\HGenev\config -o C:\Users\HGenev\Git\EPG -l 0
-2024-02-11 10:05:03.158 00001 [INF] End time "2024-02-11T10:05:03.1582945+02:00"
-2024-02-11 10:05:03.158 00001 [INF] Execution time: "00:00:00.7209680"
+2024-02-11 10:09:14.172 00001 [INF] **************************************************************************
+2024-02-11 10:09:14.188 00001 [INF] 
+2024-02-11 10:09:14.195 00001 [INF]                        EPG.grabber  1.23.9.20
+2024-02-11 10:09:14.197 00001 [INF] 
+2024-02-11 10:09:14.198 00001 [INF] **************************************************************************
+2024-02-11 10:09:14.199 00001 [INF] Start time: "2024-02-11T10:09:14.1991879+02:00"
+2024-02-11 10:09:14.201 00001 [INF] Command line arguments: grab -f C:\Users\HGenev\Git\EPG\config -o C:\Users\HGenev\Git\EPG -l 0
+2024-02-11 10:09:14.552 00001 [INF] Loading config from file C:\Users\HGenev\Git\EPG\config\config.yaml
+2024-02-11 10:09:14.964 00001 [VRB] Created config folder C:\Users\HGenev\Git\EPG\config
+2024-02-11 10:09:14.964 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
+2024-02-11 10:09:14.965 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
+2024-02-11 10:09:14.965 00001 [VRB] Created output folder C:\Users\HGenev\Git\EPG
+2024-02-11 10:09:14.965 00001 [DBG] Using configuration:
+2024-02-11 10:09:14.965 00001 [DBG] Grabbing for days ahead: 4
+2024-02-11 10:09:14.965 00001 [DBG] Keeping days behind: 0
+2024-02-11 10:09:14.965 00001 [DBG] Using templates folder: C:\Users\HGenev\Git\EPG\config\templates
+2024-02-11 10:09:14.965 00001 [DBG] Number of parallel grabbing threads: 1
+2024-02-11 10:09:14.966 00001 [INF] Setting file log level to "Verbose". Console is set to "Information"
+2024-02-11 10:09:15.403 00001 [VRB] Loading channels from file C:\Users\HGenev\Git\EPG\config\channels.yaml
+2024-02-11 10:09:15.443 00001 [INF] Loaded 281 channels
+2024-02-11 10:09:15.446 00001 [INF] Creating grabbing groups for round #1
+2024-02-11 10:09:15.450 00001 [INF] Created 30 grabber groups
+2024-02-11 10:09:15.451 00001 [DBG] bnt.bg, btv.bg, nova.bg, dnes.bg, codehealth.bg, start.bg, bstv.bg, tv.dir.bg, moviestar.bg, tv-programa.bg, pawa.tv, axn.bg, waltdisney.bg, diemaextra.bg, sportal.bg, b1b.tv, tvarenasport.com, mojtv.hr, ntvplus.ru, programtv.onet.pl, turksatkablo.com.tr, trt.net.tr, raiplay.it, mts.rs, tvtoday.de, movistarplus.es, telestar.fr, city.bg, uksky.com, yandex.ru
+2024-02-11 10:09:15.504 00005 [INF] Using template bnt.bg
+2024-02-11 10:09:15.507 00005 [DBG] Loading template from file: C:\Users\HGenev\Git\EPG\config\templates\bnt.bg.template.yaml
+2024-02-11 10:09:15.554 00010 [VRB] Searching for parameters in string: yyyyMMdd
+2024-02-11 10:09:15.555 00010 [VRB] No parameters found
+2024-02-11 10:09:15.555 00010 [VRB] Searching for parameters in string: https://bnt.bg/program/${channelId}
+2024-02-11 10:09:15.558 00010 [VRB] 1 parameters extracted: channelId
+2024-02-11 10:09:15.585 00010 [VRB] Searching for parameters in string: .tab-holder-${date} a
+2024-02-11 10:09:15.587 00010 [VRB] 1 parameters extracted: date
+2024-02-11 10:09:15.588 00010 [VRB] Searching for parameters in string: .name
+2024-02-11 10:09:15.588 00010 [VRB] No parameters found
+2024-02-11 10:09:15.588 00010 [VRB] Searching for parameters in string: .hour
+2024-02-11 10:09:15.588 00010 [VRB] No parameters found
+2024-02-11 10:09:15.589 00010 [VRB] Searching for parameters in string: img
+2024-02-11 10:09:15.589 00010 [VRB] No parameters found
+2024-02-11 10:09:15.589 00010 [VRB] Searching for parameters in string: ${detailsUrl}
+2024-02-11 10:09:15.589 00010 [VRB] 1 parameters extracted: detailsUrl
+2024-02-11 10:09:15.589 00010 [VRB] Searching for parameters in string: .under-head
+2024-02-11 10:09:15.589 00010 [VRB] No parameters found
+2024-02-11 10:09:15.597 00010 [VRB] Created and activated a new parameters storage 'bnt.bg'
+2024-02-11 10:09:15.966 00010 [DBG] Starting grabbing of channel БНТ 1
+2024-02-11 10:09:15.968 00010 [VRB] bnt.bg|БНТ 1|1||| Creating/updating "Channel" parameter channelId=bnt1
+2024-02-11 10:09:15.970 00010 [DBG] bnt.bg|БНТ 1|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\bnt1.bg.json.gz
+2024-02-11 10:09:15.970 00010 [DBG] bnt.bg|БНТ 1|1||| Programs cache file not found!
+2024-02-11 10:09:15.976 00010 [VRB] bnt.bg|БНТ 1|1||| Initializing MainPage object
+2024-02-11 10:09:15.977 00010 [DBG] bnt.bg|БНТ 1|1||| Updating parameterized request data
+2024-02-11 10:09:15.978 00010 [VRB] bnt.bg|БНТ 1|1||| Input before parameters evaluation: https://bnt.bg/program/${channelId}
+2024-02-11 10:09:15.978 00010 [VRB] bnt.bg|БНТ 1|1||| Getting value for parameter channelId
+2024-02-11 10:09:15.978 00010 [VRB] bnt.bg|БНТ 1|1||| Output after evaluation of ${channelId} parameter: https://bnt.bg/program/bnt1
+2024-02-11 10:09:15.985 00010 [DBG] bnt.bg|БНТ 1|1||| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:15.987 00010 [DBG] bnt.bg|БНТ 1|1||| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\bnt.bg_program_bnt1.gz
+2024-02-11 10:09:15.989 00010 [VRB] bnt.bg|БНТ 1|1||| Validated URL for grabbing: https://bnt.bg/program/bnt1
+2024-02-11 10:09:15.998 00010 [DBG] bnt.bg|БНТ 1|1||| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:17.178 00008 [DBG] bnt.bg|БНТ 1|1||| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\bnt.bg_program_bnt1.gz
+2024-02-11 10:09:17.188 00005 [VRB] bnt.bg|БНТ 1|1||| Creating null parser
+2024-02-11 10:09:17.410 00005 [VRB] bnt.bg|БНТ 1|1||| Input before parameters evaluation: .tab-holder-${date} a
+2024-02-11 10:09:17.417 00005 [VRB] bnt.bg|БНТ 1|1||| Output after evaluation of ${date} parameter: .tab-holder-20240211 a
+2024-02-11 10:09:17.417 00005 [DBG] bnt.bg|БНТ 1|1||| Extracting blocks with locator: '.tab-holder-20240211 a'
+2024-02-11 10:09:17.428 00005 [DBG] bnt.bg|БНТ 1|1||| Extracted 31 program blocks
+2024-02-11 10:09:17.431 00005 [VRB] bnt.bg|БНТ 1|1|11|1| Resetting parameters in "Program" storage
+2024-02-11 10:09:17.438 00005 [DBG] bnt.bg|БНТ 1|1|11|1| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:17.438 00005 [VRB] bnt.bg|БНТ 1|1|11|1| title | Returning value from source 'text': 'Ада - пазителката на храна'
+2024-02-11 10:09:17.554 00005 [VRB] bnt.bg|БНТ 1|1|11|1| title | Creating/updating "Program" parameter title-bg=Ада - пазителката на храна
+2024-02-11 10:09:17.554 00005 [DBG] bnt.bg|БНТ 1|1|11|1| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:17.555 00005 [VRB] bnt.bg|БНТ 1|1|11|1| start | Returning value from source 'text': '6:00'
+2024-02-11 10:09:17.557 00005 [VRB] bnt.bg|БНТ 1|1|11|1| start | Creating/updating "Program" parameter start=6:00
+2024-02-11 10:09:17.557 00005 [DBG] bnt.bg|БНТ 1|1|11|1| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:17.559 00005 [VRB] bnt.bg|БНТ 1|1|11|1| icon | Returning value from source 'src': 'https://bnt.bg/box/img/noimage_m.jpg'
+2024-02-11 10:09:17.559 00005 [VRB] bnt.bg|БНТ 1|1|11|1| icon | Creating/updating "Program" parameter icon=https://bnt.bg/box/img/noimage_m.jpg
+2024-02-11 10:09:17.559 00005 [VRB] bnt.bg|БНТ 1|1|11|1| detailsUrl | Returning value from source 'href': 'javascript:void(0);'
+2024-02-11 10:09:17.559 00005 [VRB] bnt.bg|БНТ 1|1|11|1| detailsUrl | Creating/updating "Program" parameter detailsUrl=javascript:void(0);
+2024-02-11 10:09:17.560 00005 [VRB] bnt.bg|БНТ 1|1|11|1| Initializing DetailsPage object
+2024-02-11 10:09:17.560 00005 [DBG] bnt.bg|БНТ 1|1|11|1| Updating parameterized request data
+2024-02-11 10:09:17.560 00005 [VRB] bnt.bg|БНТ 1|1|11|1| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:17.560 00005 [VRB] bnt.bg|БНТ 1|1|11|1| Getting value for parameter detailsUrl
+2024-02-11 10:09:17.560 00005 [VRB] bnt.bg|БНТ 1|1|11|1| Output after evaluation of ${detailsUrl} parameter: javascript:void(0);
+2024-02-11 10:09:17.560 00005 [DBG] bnt.bg|БНТ 1|1|11|1| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:17.560 00005 [DBG] bnt.bg|БНТ 1|1|11|1| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\javascript_void(0);.gz
+2024-02-11 10:09:17.560 00005 [ERR] bnt.bg|БНТ 1|1|11|1| Invalid URL scheme in javascript:void(0);. Only http(s) is currently supported
+2024-02-11 10:09:17.563 00005 [DBG] bnt.bg|БНТ 1|1|11|1| No content downloaded
+2024-02-11 10:09:17.564 00005 [INF] bnt.bg|БНТ 1|1|11|1| Added program 11.02.2024 г. 06:00:00 -> Ада - пазителката на храна
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| Resetting parameters in "Program" storage
+2024-02-11 10:09:17.566 00005 [DBG] bnt.bg|БНТ 1|1|11|2| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| title | Returning value from source 'text': 'Слънце на детството'
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| title | Creating/updating "Program" parameter title-bg=Слънце на детството
+2024-02-11 10:09:17.566 00005 [DBG] bnt.bg|БНТ 1|1|11|2| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| start | Returning value from source 'text': '6:10'
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| start | Creating/updating "Program" parameter start=6:10
+2024-02-11 10:09:17.566 00005 [DBG] bnt.bg|БНТ 1|1|11|2| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| icon | Returning value from source 'src': 'https://p.bnt.bg/s/l/slunce-na-detstvoto-3-388690-810x0.jpg'
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| icon | Creating/updating "Program" parameter icon=https://p.bnt.bg/s/l/slunce-na-detstvoto-3-388690-810x0.jpg
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/sla-ntse-na-detstvoto'
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/sla-ntse-na-detstvoto
+2024-02-11 10:09:17.566 00005 [VRB] bnt.bg|БНТ 1|1|11|2| Initializing DetailsPage object
+2024-02-11 10:09:17.567 00005 [DBG] bnt.bg|БНТ 1|1|11|2| Updating parameterized request data
+2024-02-11 10:09:17.567 00005 [VRB] bnt.bg|БНТ 1|1|11|2| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:17.567 00005 [VRB] bnt.bg|БНТ 1|1|11|2| Getting value for parameter detailsUrl
+2024-02-11 10:09:17.567 00005 [VRB] bnt.bg|БНТ 1|1|11|2| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/sla-ntse-na-detstvoto
+2024-02-11 10:09:17.567 00005 [DBG] bnt.bg|БНТ 1|1|11|2| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:17.567 00005 [DBG] bnt.bg|БНТ 1|1|11|2| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_sla-ntse-na-detstvoto.gz
+2024-02-11 10:09:17.567 00005 [VRB] bnt.bg|БНТ 1|1|11|2| Validated URL for grabbing: https://bnt.bg/bg/a/sla-ntse-na-detstvoto
+2024-02-11 10:09:17.567 00005 [DBG] bnt.bg|БНТ 1|1|11|2| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:17.742 00014 [DBG] bnt.bg|БНТ 1|1|11|2| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_sla-ntse-na-detstvoto.gz
+2024-02-11 10:09:17.744 00014 [VRB] bnt.bg|БНТ 1|1|11|2| Creating null parser
+2024-02-11 10:09:17.750 00014 [DBG] bnt.bg|БНТ 1|1|11|2| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:17.751 00014 [VRB] bnt.bg|БНТ 1|1|11|2| desc | Returning value from source 'text': 'Първите големите мечти започват така...'
+2024-02-11 10:09:17.753 00014 [DBG] bnt.bg|БНТ 1|1|11|2| desc | Executing operation BeautifyOperation
+2024-02-11 10:09:17.754 00014 [VRB] bnt.bg|БНТ 1|1|11|2| desc | Creating/updating "Program" parameter desc=Първите големите мечти започват така...
+2024-02-11 10:09:17.755 00014 [INF] bnt.bg|БНТ 1|1|11|2| Added program 11.02.2024 г. 06:10:00 -> Слънце на детството
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| Resetting parameters in "Program" storage
+2024-02-11 10:09:17.758 00014 [DBG] bnt.bg|БНТ 1|1|11|3| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| title | Returning value from source 'text': 'Домът на вярата'
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| title | Creating/updating "Program" parameter title-bg=Домът на вярата
+2024-02-11 10:09:17.758 00014 [DBG] bnt.bg|БНТ 1|1|11|3| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| start | Returning value from source 'text': '7:15'
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| start | Creating/updating "Program" parameter start=7:15
+2024-02-11 10:09:17.758 00014 [DBG] bnt.bg|БНТ 1|1|11|3| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/201/80c1ce8da02d2cb1f73acc7fa65dada0.jpeg'
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/201/80c1ce8da02d2cb1f73acc7fa65dada0.jpeg
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/domt-na-vyarata'
+2024-02-11 10:09:17.758 00014 [VRB] bnt.bg|БНТ 1|1|11|3| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/domt-na-vyarata
+2024-02-11 10:09:17.759 00014 [VRB] bnt.bg|БНТ 1|1|11|3| Initializing DetailsPage object
+2024-02-11 10:09:17.759 00014 [DBG] bnt.bg|БНТ 1|1|11|3| Updating parameterized request data
+2024-02-11 10:09:17.759 00014 [VRB] bnt.bg|БНТ 1|1|11|3| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:17.759 00014 [VRB] bnt.bg|БНТ 1|1|11|3| Getting value for parameter detailsUrl
+2024-02-11 10:09:17.759 00014 [VRB] bnt.bg|БНТ 1|1|11|3| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/domt-na-vyarata
+2024-02-11 10:09:17.759 00014 [DBG] bnt.bg|БНТ 1|1|11|3| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:17.759 00014 [DBG] bnt.bg|БНТ 1|1|11|3| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_domt-na-vyarata.gz
+2024-02-11 10:09:17.759 00014 [VRB] bnt.bg|БНТ 1|1|11|3| Validated URL for grabbing: https://bnt.bg/bg/a/domt-na-vyarata
+2024-02-11 10:09:17.759 00014 [DBG] bnt.bg|БНТ 1|1|11|3| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:17.783 00014 [DBG] bnt.bg|БНТ 1|1|11|3| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_domt-na-vyarata.gz
+2024-02-11 10:09:17.786 00014 [VRB] bnt.bg|БНТ 1|1|11|3| Creating null parser
+2024-02-11 10:09:17.795 00014 [DBG] bnt.bg|БНТ 1|1|11|3| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:17.796 00014 [DBG] bnt.bg|БНТ 1|1|11|3| desc | No blocks extracted!
+2024-02-11 10:09:17.796 00014 [VRB] bnt.bg|БНТ 1|1|11|3| desc | Creating/updating "Program" parameter desc=null
+2024-02-11 10:09:17.796 00014 [INF] bnt.bg|БНТ 1|1|11|3| Added program 11.02.2024 г. 07:15:00 -> Домът на вярата
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| Resetting parameters in "Program" storage
+2024-02-11 10:09:17.800 00014 [DBG] bnt.bg|БНТ 1|1|11|4| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| title | Returning value from source 'text': 'Телепазарен прозорец'
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| title | Creating/updating "Program" parameter title-bg=Телепазарен прозорец
+2024-02-11 10:09:17.800 00014 [DBG] bnt.bg|БНТ 1|1|11|4| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| start | Returning value from source 'text': '7:45'
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| start | Creating/updating "Program" parameter start=7:45
+2024-02-11 10:09:17.800 00014 [DBG] bnt.bg|БНТ 1|1|11|4| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| icon | Returning value from source 'src': 'https://p.bnt.bg/s/h/shop-208495-810x0.png'
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| icon | Creating/updating "Program" parameter icon=https://p.bnt.bg/s/h/shop-208495-810x0.png
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/telepazaren-prozorets'
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/telepazaren-prozorets
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| Initializing DetailsPage object
+2024-02-11 10:09:17.800 00014 [DBG] bnt.bg|БНТ 1|1|11|4| Updating parameterized request data
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| Getting value for parameter detailsUrl
+2024-02-11 10:09:17.800 00014 [VRB] bnt.bg|БНТ 1|1|11|4| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/telepazaren-prozorets
+2024-02-11 10:09:17.800 00014 [DBG] bnt.bg|БНТ 1|1|11|4| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:17.801 00014 [DBG] bnt.bg|БНТ 1|1|11|4| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_telepazaren-prozorets.gz
+2024-02-11 10:09:17.801 00014 [VRB] bnt.bg|БНТ 1|1|11|4| Validated URL for grabbing: https://bnt.bg/bg/a/telepazaren-prozorets
+2024-02-11 10:09:17.801 00014 [DBG] bnt.bg|БНТ 1|1|11|4| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:17.827 00014 [DBG] bnt.bg|БНТ 1|1|11|4| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_telepazaren-prozorets.gz
+2024-02-11 10:09:17.831 00014 [VRB] bnt.bg|БНТ 1|1|11|4| Creating null parser
+2024-02-11 10:09:17.844 00014 [DBG] bnt.bg|БНТ 1|1|11|4| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:17.861 00014 [DBG] bnt.bg|БНТ 1|1|11|4| desc | No blocks extracted!
+2024-02-11 10:09:17.861 00014 [VRB] bnt.bg|БНТ 1|1|11|4| desc | Creating/updating "Program" parameter desc=null
+2024-02-11 10:09:17.861 00014 [INF] bnt.bg|БНТ 1|1|11|4| Added program 11.02.2024 г. 07:45:00 -> Телепазарен прозорец
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| Resetting parameters in "Program" storage
+2024-02-11 10:09:17.866 00014 [DBG] bnt.bg|БНТ 1|1|11|5| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| title | Returning value from source 'text': 'Денят започва с Георги Любенов'
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| title | Creating/updating "Program" parameter title-bg=Денят започва с Георги Любенов
+2024-02-11 10:09:17.866 00014 [DBG] bnt.bg|БНТ 1|1|11|5| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| start | Returning value from source 'text': '8:00'
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| start | Creating/updating "Program" parameter start=8:00
+2024-02-11 10:09:17.866 00014 [DBG] bnt.bg|БНТ 1|1|11|5| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/0/1f98c3de7b6e56891d4836fb390b85c5.png'
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/0/1f98c3de7b6e56891d4836fb390b85c5.png
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/denyat-zapochva-s-georgi-lyubenov'
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/denyat-zapochva-s-georgi-lyubenov
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| Initializing DetailsPage object
+2024-02-11 10:09:17.866 00014 [DBG] bnt.bg|БНТ 1|1|11|5| Updating parameterized request data
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| Getting value for parameter detailsUrl
+2024-02-11 10:09:17.866 00014 [VRB] bnt.bg|БНТ 1|1|11|5| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/denyat-zapochva-s-georgi-lyubenov
+2024-02-11 10:09:17.866 00014 [DBG] bnt.bg|БНТ 1|1|11|5| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:17.867 00014 [DBG] bnt.bg|БНТ 1|1|11|5| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_denyat-zapochva-s-georgi-lyubenov.gz
+2024-02-11 10:09:17.867 00014 [VRB] bnt.bg|БНТ 1|1|11|5| Validated URL for grabbing: https://bnt.bg/bg/a/denyat-zapochva-s-georgi-lyubenov
+2024-02-11 10:09:17.867 00014 [DBG] bnt.bg|БНТ 1|1|11|5| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:17.896 00014 [DBG] bnt.bg|БНТ 1|1|11|5| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_denyat-zapochva-s-georgi-lyubenov.gz
+2024-02-11 10:09:17.900 00014 [VRB] bnt.bg|БНТ 1|1|11|5| Creating null parser
+2024-02-11 10:09:17.908 00014 [DBG] bnt.bg|БНТ 1|1|11|5| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:17.909 00014 [VRB] bnt.bg|БНТ 1|1|11|5| desc | Returning value from source 'text': '„Денят започва с Георги Любенов” се излъчва на живо всяка събота и неделя от 8:00 до 11:00 часа и е логично „уикенд” продължение на делничния сутрешен блок „Денят започва”. Предаването е инфотеймънт магазин – едновременно информационно и забавно. То търси средата на новините от седмицата и забавната и непоказвана гледна точка към тях'
+2024-02-11 10:09:17.909 00014 [DBG] bnt.bg|БНТ 1|1|11|5| desc | Executing operation BeautifyOperation
+2024-02-11 10:09:17.909 00014 [VRB] bnt.bg|БНТ 1|1|11|5| desc | Creating/updating "Program" parameter desc=„Денят започва с Георги Любенов” се излъчва на живо всяка събота и неделя от 8:00 до 11:00 часа и е логично „уикенд” продължение на делничния сутрешен блок „Денят започва”. Предаването е инфотеймънт магазин – едновременно информационно и забавно. То търси средата на новините от седмицата и забавната и непоказвана гледна точка към тях
+2024-02-11 10:09:17.909 00014 [INF] bnt.bg|БНТ 1|1|11|5| Added program 11.02.2024 г. 08:00:00 -> Денят започва с Георги Любенов
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| Resetting parameters in "Program" storage
+2024-02-11 10:09:17.912 00014 [DBG] bnt.bg|БНТ 1|1|11|6| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| title | Returning value from source 'text': 'Отблизо'
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| title | Creating/updating "Program" parameter title-bg=Отблизо
+2024-02-11 10:09:17.912 00014 [DBG] bnt.bg|БНТ 1|1|11|6| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| start | Returning value from source 'text': '11:00'
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| start | Creating/updating "Program" parameter start=11:00
+2024-02-11 10:09:17.912 00014 [DBG] bnt.bg|БНТ 1|1|11|6| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/0/4ee9c83386680bc9762916e6e3052237.png'
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/0/4ee9c83386680bc9762916e6e3052237.png
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/otblizo-s-mira-dobreva'
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/otblizo-s-mira-dobreva
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| Initializing DetailsPage object
+2024-02-11 10:09:17.912 00014 [DBG] bnt.bg|БНТ 1|1|11|6| Updating parameterized request data
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| Getting value for parameter detailsUrl
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/otblizo-s-mira-dobreva
+2024-02-11 10:09:17.912 00014 [DBG] bnt.bg|БНТ 1|1|11|6| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:17.912 00014 [DBG] bnt.bg|БНТ 1|1|11|6| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_otblizo-s-mira-dobreva.gz
+2024-02-11 10:09:17.912 00014 [VRB] bnt.bg|БНТ 1|1|11|6| Validated URL for grabbing: https://bnt.bg/bg/a/otblizo-s-mira-dobreva
+2024-02-11 10:09:17.912 00014 [DBG] bnt.bg|БНТ 1|1|11|6| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:17.938 00008 [DBG] bnt.bg|БНТ 1|1|11|6| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_otblizo-s-mira-dobreva.gz
+2024-02-11 10:09:17.942 00008 [VRB] bnt.bg|БНТ 1|1|11|6| Creating null parser
+2024-02-11 10:09:17.949 00008 [DBG] bnt.bg|БНТ 1|1|11|6| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:17.958 00008 [VRB] bnt.bg|БНТ 1|1|11|6| desc | Returning value from source 'text': 'Предаването продължава да показва изумителните човешки взаимоотношения, да вади на преден план духовността и да представя изконните български традиции и обичаи'
+2024-02-11 10:09:17.958 00008 [DBG] bnt.bg|БНТ 1|1|11|6| desc | Executing operation BeautifyOperation
+2024-02-11 10:09:17.958 00008 [VRB] bnt.bg|БНТ 1|1|11|6| desc | Creating/updating "Program" parameter desc=Предаването продължава да показва изумителните човешки взаимоотношения, да вади на преден план духовността и да представя изконните български традиции и обичаи
+2024-02-11 10:09:17.958 00008 [INF] bnt.bg|БНТ 1|1|11|6| Added program 11.02.2024 г. 11:00:00 -> Отблизо
+2024-02-11 10:09:17.961 00008 [VRB] bnt.bg|БНТ 1|1|11|7| Resetting parameters in "Program" storage
+2024-02-11 10:09:17.961 00008 [DBG] bnt.bg|БНТ 1|1|11|7| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:17.961 00008 [VRB] bnt.bg|БНТ 1|1|11|7| title | Returning value from source 'text': 'По света и у нас'
+2024-02-11 10:09:17.961 00008 [VRB] bnt.bg|БНТ 1|1|11|7| title | Creating/updating "Program" parameter title-bg=По света и у нас
+2024-02-11 10:09:17.961 00008 [DBG] bnt.bg|БНТ 1|1|11|7| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:17.961 00008 [VRB] bnt.bg|БНТ 1|1|11|7| start | Returning value from source 'text': '12:00'
+2024-02-11 10:09:17.961 00008 [VRB] bnt.bg|БНТ 1|1|11|7| start | Creating/updating "Program" parameter start=12:00
+2024-02-11 10:09:17.961 00008 [DBG] bnt.bg|БНТ 1|1|11|7| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png'
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/po-sveta-i-u-nas'
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/po-sveta-i-u-nas
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| Initializing DetailsPage object
+2024-02-11 10:09:17.962 00008 [DBG] bnt.bg|БНТ 1|1|11|7| Updating parameterized request data
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| Getting value for parameter detailsUrl
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/po-sveta-i-u-nas
+2024-02-11 10:09:17.962 00008 [DBG] bnt.bg|БНТ 1|1|11|7| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:17.962 00008 [DBG] bnt.bg|БНТ 1|1|11|7| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_po-sveta-i-u-nas.gz
+2024-02-11 10:09:17.962 00008 [VRB] bnt.bg|БНТ 1|1|11|7| Validated URL for grabbing: https://bnt.bg/bg/a/po-sveta-i-u-nas
+2024-02-11 10:09:17.962 00008 [DBG] bnt.bg|БНТ 1|1|11|7| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:18.051 00008 [DBG] bnt.bg|БНТ 1|1|11|7| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_po-sveta-i-u-nas.gz
+2024-02-11 10:09:18.053 00008 [VRB] bnt.bg|БНТ 1|1|11|7| Creating null parser
+2024-02-11 10:09:18.058 00008 [DBG] bnt.bg|БНТ 1|1|11|7| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.059 00008 [VRB] bnt.bg|БНТ 1|1|11|7| desc | Returning value from source 'text': 'Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.'
+2024-02-11 10:09:18.059 00008 [DBG] bnt.bg|БНТ 1|1|11|7| desc | Executing operation BeautifyOperation
+2024-02-11 10:09:18.059 00008 [VRB] bnt.bg|БНТ 1|1|11|7| desc | Creating/updating "Program" parameter desc=Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.
+2024-02-11 10:09:18.059 00008 [INF] bnt.bg|БНТ 1|1|11|7| Added program 11.02.2024 г. 12:00:00 -> По света и у нас
+2024-02-11 10:09:18.062 00008 [VRB] bnt.bg|БНТ 1|1|11|8| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.062 00008 [DBG] bnt.bg|БНТ 1|1|11|8| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| title | Returning value from source 'text': 'Арена спорт'
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| title | Creating/updating "Program" parameter title-bg=Арена спорт
+2024-02-11 10:09:18.063 00008 [DBG] bnt.bg|БНТ 1|1|11|8| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| start | Returning value from source 'text': '12:30'
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| start | Creating/updating "Program" parameter start=12:30
+2024-02-11 10:09:18.063 00008 [DBG] bnt.bg|БНТ 1|1|11|8| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/0/0cc952eb27c57314000372c4a2a8d525.jpg'
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/0/0cc952eb27c57314000372c4a2a8d525.jpg
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/arena-sport'
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/arena-sport
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| Initializing DetailsPage object
+2024-02-11 10:09:18.063 00008 [DBG] bnt.bg|БНТ 1|1|11|8| Updating parameterized request data
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/arena-sport
+2024-02-11 10:09:18.063 00008 [DBG] bnt.bg|БНТ 1|1|11|8| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.063 00008 [DBG] bnt.bg|БНТ 1|1|11|8| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_arena-sport.gz
+2024-02-11 10:09:18.063 00008 [VRB] bnt.bg|БНТ 1|1|11|8| Validated URL for grabbing: https://bnt.bg/bg/a/arena-sport
+2024-02-11 10:09:18.063 00008 [DBG] bnt.bg|БНТ 1|1|11|8| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:18.089 00008 [DBG] bnt.bg|БНТ 1|1|11|8| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_arena-sport.gz
+2024-02-11 10:09:18.091 00008 [VRB] bnt.bg|БНТ 1|1|11|8| Creating null parser
+2024-02-11 10:09:18.096 00008 [DBG] bnt.bg|БНТ 1|1|11|8| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.097 00008 [VRB] bnt.bg|БНТ 1|1|11|8| desc | Returning value from source 'text': '„Арена Спорт“ е седмично обзорно спортно предаване. Неговата насоченост е към актуалните проблеми и водещите теми в българския и международния спорт. С помощта на гости в студиото се търси публицистична насоченост на чисто оперативните събития, постижения, резултати, върхове и провали, белязали отиващата си седмица.'
+2024-02-11 10:09:18.097 00008 [DBG] bnt.bg|БНТ 1|1|11|8| desc | Executing operation BeautifyOperation
+2024-02-11 10:09:18.097 00008 [VRB] bnt.bg|БНТ 1|1|11|8| desc | Creating/updating "Program" parameter desc=„Арена Спорт“ е седмично обзорно спортно предаване. Неговата насоченост е към актуалните проблеми и водещите теми в българския и международния спорт. С помощта на гости в студиото се търси публицистична насоченост на чисто оперативните събития, постижения, резултати, върхове и провали, белязали отиващата си седмица.
+2024-02-11 10:09:18.097 00008 [INF] bnt.bg|БНТ 1|1|11|8| Added program 11.02.2024 г. 12:30:00 -> Арена спорт
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.101 00008 [DBG] bnt.bg|БНТ 1|1|11|9| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| title | Returning value from source 'text': 'Зала на славата: Георги Мърков'
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| title | Creating/updating "Program" parameter title-bg=Зала на славата: Георги Мърков
+2024-02-11 10:09:18.101 00008 [DBG] bnt.bg|БНТ 1|1|11|9| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| start | Returning value from source 'text': '13:15'
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| start | Creating/updating "Program" parameter start=13:15
+2024-02-11 10:09:18.101 00008 [DBG] bnt.bg|БНТ 1|1|11|9| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/311/d95c10ea737d968382a34fb5a13c42b6.png'
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/311/d95c10ea737d968382a34fb5a13c42b6.png
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| detailsUrl | Returning value from source 'href': 'javascript:void(0);'
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| detailsUrl | Creating/updating "Program" parameter detailsUrl=javascript:void(0);
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| Initializing DetailsPage object
+2024-02-11 10:09:18.101 00008 [DBG] bnt.bg|БНТ 1|1|11|9| Updating parameterized request data
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.101 00008 [VRB] bnt.bg|БНТ 1|1|11|9| Output after evaluation of ${detailsUrl} parameter: javascript:void(0);
+2024-02-11 10:09:18.101 00008 [DBG] bnt.bg|БНТ 1|1|11|9| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.102 00008 [DBG] bnt.bg|БНТ 1|1|11|9| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\javascript_void(0);.gz
+2024-02-11 10:09:18.102 00008 [ERR] bnt.bg|БНТ 1|1|11|9| Invalid URL scheme in javascript:void(0);. Only http(s) is currently supported
+2024-02-11 10:09:18.104 00008 [DBG] bnt.bg|БНТ 1|1|11|9| No content downloaded
+2024-02-11 10:09:18.104 00008 [INF] bnt.bg|БНТ 1|1|11|9| Added program 11.02.2024 г. 13:15:00 -> Зала на славата: Георги Мърков
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.106 00008 [DBG] bnt.bg|БНТ 1|1|11|10| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| title | Returning value from source 'text': 'Концерт на Виенската филхармония - Прага'
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| title | Creating/updating "Program" parameter title-bg=Концерт на Виенската филхармония - Прага
+2024-02-11 10:09:18.106 00008 [DBG] bnt.bg|БНТ 1|1|11|10| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| start | Returning value from source 'text': '13:30'
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| start | Creating/updating "Program" parameter start=13:30
+2024-02-11 10:09:18.106 00008 [DBG] bnt.bg|БНТ 1|1|11|10| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| icon | Returning value from source 'src': 'https://bnt.bg/box/img/noimage_m.jpg'
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| icon | Creating/updating "Program" parameter icon=https://bnt.bg/box/img/noimage_m.jpg
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| detailsUrl | Returning value from source 'href': 'javascript:void(0);'
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| detailsUrl | Creating/updating "Program" parameter detailsUrl=javascript:void(0);
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| Initializing DetailsPage object
+2024-02-11 10:09:18.106 00008 [DBG] bnt.bg|БНТ 1|1|11|10| Updating parameterized request data
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.106 00008 [VRB] bnt.bg|БНТ 1|1|11|10| Output after evaluation of ${detailsUrl} parameter: javascript:void(0);
+2024-02-11 10:09:18.106 00008 [DBG] bnt.bg|БНТ 1|1|11|10| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.107 00008 [DBG] bnt.bg|БНТ 1|1|11|10| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\javascript_void(0);.gz
+2024-02-11 10:09:18.107 00008 [ERR] bnt.bg|БНТ 1|1|11|10| Invalid URL scheme in javascript:void(0);. Only http(s) is currently supported
+2024-02-11 10:09:18.108 00008 [DBG] bnt.bg|БНТ 1|1|11|10| No content downloaded
+2024-02-11 10:09:18.108 00008 [INF] bnt.bg|БНТ 1|1|11|10| Added program 11.02.2024 г. 13:30:00 -> Концерт на Виенската филхармония - Прага
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.113 00008 [DBG] bnt.bg|БНТ 1|1|11|11| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| title | Returning value from source 'text': 'Свободен, по-свободен, Димитър'
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| title | Creating/updating "Program" parameter title-bg=Свободен, по-свободен, Димитър
+2024-02-11 10:09:18.113 00008 [DBG] bnt.bg|БНТ 1|1|11|11| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| start | Returning value from source 'text': '15:05'
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| start | Creating/updating "Program" parameter start=15:05
+2024-02-11 10:09:18.113 00008 [DBG] bnt.bg|БНТ 1|1|11|11| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/322/3e6aa57440e115e850c95da1150519e9.jpeg'
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/322/3e6aa57440e115e850c95da1150519e9.jpeg
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| detailsUrl | Returning value from source 'href': 'javascript:void(0);'
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| detailsUrl | Creating/updating "Program" parameter detailsUrl=javascript:void(0);
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| Initializing DetailsPage object
+2024-02-11 10:09:18.113 00008 [DBG] bnt.bg|БНТ 1|1|11|11| Updating parameterized request data
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.113 00008 [VRB] bnt.bg|БНТ 1|1|11|11| Output after evaluation of ${detailsUrl} parameter: javascript:void(0);
+2024-02-11 10:09:18.113 00008 [DBG] bnt.bg|БНТ 1|1|11|11| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.113 00008 [DBG] bnt.bg|БНТ 1|1|11|11| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\javascript_void(0);.gz
+2024-02-11 10:09:18.113 00008 [ERR] bnt.bg|БНТ 1|1|11|11| Invalid URL scheme in javascript:void(0);. Only http(s) is currently supported
+2024-02-11 10:09:18.117 00008 [DBG] bnt.bg|БНТ 1|1|11|11| No content downloaded
+2024-02-11 10:09:18.117 00008 [INF] bnt.bg|БНТ 1|1|11|11| Added program 11.02.2024 г. 15:05:00 -> Свободен, по-свободен, Димитър
+2024-02-11 10:09:18.119 00008 [VRB] bnt.bg|БНТ 1|1|11|12| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.119 00008 [DBG] bnt.bg|БНТ 1|1|11|12| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.119 00008 [VRB] bnt.bg|БНТ 1|1|11|12| title | Returning value from source 'text': 'Почти ревизия                                                        /Цветана Манева на 80 години/'
+2024-02-11 10:09:18.119 00008 [VRB] bnt.bg|БНТ 1|1|11|12| title | Creating/updating "Program" parameter title-bg=Почти ревизия                                                        /Цветана Манева на 80 години/
+2024-02-11 10:09:18.119 00008 [DBG] bnt.bg|БНТ 1|1|11|12| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.119 00008 [VRB] bnt.bg|БНТ 1|1|11|12| start | Returning value from source 'text': '16:05'
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| start | Creating/updating "Program" parameter start=16:05
+2024-02-11 10:09:18.120 00008 [DBG] bnt.bg|БНТ 1|1|11|12| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/1/d6ec476a2ee1a1e7d5d33f12555ced5d.jpeg'
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/1/d6ec476a2ee1a1e7d5d33f12555ced5d.jpeg
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/pochti-reviziya'
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/pochti-reviziya
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| Initializing DetailsPage object
+2024-02-11 10:09:18.120 00008 [DBG] bnt.bg|БНТ 1|1|11|12| Updating parameterized request data
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/pochti-reviziya
+2024-02-11 10:09:18.120 00008 [DBG] bnt.bg|БНТ 1|1|11|12| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.120 00008 [DBG] bnt.bg|БНТ 1|1|11|12| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_pochti-reviziya.gz
+2024-02-11 10:09:18.120 00008 [VRB] bnt.bg|БНТ 1|1|11|12| Validated URL for grabbing: https://bnt.bg/bg/a/pochti-reviziya
+2024-02-11 10:09:18.120 00008 [DBG] bnt.bg|БНТ 1|1|11|12| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:18.297 00008 [DBG] bnt.bg|БНТ 1|1|11|12| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_pochti-reviziya.gz
+2024-02-11 10:09:18.299 00008 [VRB] bnt.bg|БНТ 1|1|11|12| Creating null parser
+2024-02-11 10:09:18.303 00008 [DBG] bnt.bg|БНТ 1|1|11|12| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.303 00008 [VRB] bnt.bg|БНТ 1|1|11|12| desc | Returning value from source 'text': 'Как личният живот се контролира от "обществото"...'
+2024-02-11 10:09:18.303 00008 [DBG] bnt.bg|БНТ 1|1|11|12| desc | Executing operation BeautifyOperation
+2024-02-11 10:09:18.303 00008 [VRB] bnt.bg|БНТ 1|1|11|12| desc | Creating/updating "Program" parameter desc=Как личният живот се контролира от "обществото"...
+2024-02-11 10:09:18.303 00008 [INF] bnt.bg|БНТ 1|1|11|12| Added program 11.02.2024 г. 16:05:00 -> Почти ревизия                                                        /Цветана Манева на 80 години/
+2024-02-11 10:09:18.306 00008 [VRB] bnt.bg|БНТ 1|1|11|13| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.306 00008 [DBG] bnt.bg|БНТ 1|1|11|13| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.306 00008 [VRB] bnt.bg|БНТ 1|1|11|13| title | Returning value from source 'text': 'Това го знам'
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| title | Creating/updating "Program" parameter title-bg=Това го знам
+2024-02-11 10:09:18.307 00008 [DBG] bnt.bg|БНТ 1|1|11|13| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| start | Returning value from source 'text': '17:00'
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| start | Creating/updating "Program" parameter start=17:00
+2024-02-11 10:09:18.307 00008 [DBG] bnt.bg|БНТ 1|1|11|13| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png'
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/313/8788d8e50ab3c6d8e3a47b5eda6cc9aa.png
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| detailsUrl | Returning value from source 'href': 'https://bnt.bg/news/tova-go-znam-313076news.html'
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/news/tova-go-znam-313076news.html
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| Initializing DetailsPage object
+2024-02-11 10:09:18.307 00008 [DBG] bnt.bg|БНТ 1|1|11|13| Updating parameterized request data
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/news/tova-go-znam-313076news.html
+2024-02-11 10:09:18.307 00008 [DBG] bnt.bg|БНТ 1|1|11|13| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.307 00008 [DBG] bnt.bg|БНТ 1|1|11|13| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_news_tova-go-znam-313076news.html.gz
+2024-02-11 10:09:18.307 00008 [VRB] bnt.bg|БНТ 1|1|11|13| Validated URL for grabbing: https://bnt.bg/news/tova-go-znam-313076news.html
+2024-02-11 10:09:18.307 00008 [DBG] bnt.bg|БНТ 1|1|11|13| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:18.329 00008 [DBG] bnt.bg|БНТ 1|1|11|13| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_news_tova-go-znam-313076news.html.gz
+2024-02-11 10:09:18.333 00008 [VRB] bnt.bg|БНТ 1|1|11|13| Creating null parser
+2024-02-11 10:09:18.339 00008 [DBG] bnt.bg|БНТ 1|1|11|13| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.339 00008 [DBG] bnt.bg|БНТ 1|1|11|13| desc | No blocks extracted!
+2024-02-11 10:09:18.339 00008 [VRB] bnt.bg|БНТ 1|1|11|13| desc | Creating/updating "Program" parameter desc=null
+2024-02-11 10:09:18.339 00008 [INF] bnt.bg|БНТ 1|1|11|13| Added program 11.02.2024 г. 17:00:00 -> Това го знам
+2024-02-11 10:09:18.342 00008 [VRB] bnt.bg|БНТ 1|1|11|14| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.342 00008 [DBG] bnt.bg|БНТ 1|1|11|14| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.342 00008 [VRB] bnt.bg|БНТ 1|1|11|14| title | Returning value from source 'text': 'Имате среща с ... Диана Любенова'
+2024-02-11 10:09:18.342 00008 [VRB] bnt.bg|БНТ 1|1|11|14| title | Creating/updating "Program" parameter title-bg=Имате среща с ... Диана Любенова
+2024-02-11 10:09:18.342 00008 [DBG] bnt.bg|БНТ 1|1|11|14| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| start | Returning value from source 'text': '18:00'
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| start | Creating/updating "Program" parameter start=18:00
+2024-02-11 10:09:18.343 00008 [DBG] bnt.bg|БНТ 1|1|11|14| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| icon | Returning value from source 'src': 'https://bnt.bg/box/img/noimage_m.jpg'
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| icon | Creating/updating "Program" parameter icon=https://bnt.bg/box/img/noimage_m.jpg
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| detailsUrl | Returning value from source 'href': 'javascript:void(0);'
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| detailsUrl | Creating/updating "Program" parameter detailsUrl=javascript:void(0);
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| Initializing DetailsPage object
+2024-02-11 10:09:18.343 00008 [DBG] bnt.bg|БНТ 1|1|11|14| Updating parameterized request data
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.343 00008 [VRB] bnt.bg|БНТ 1|1|11|14| Output after evaluation of ${detailsUrl} parameter: javascript:void(0);
+2024-02-11 10:09:18.343 00008 [DBG] bnt.bg|БНТ 1|1|11|14| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.343 00008 [DBG] bnt.bg|БНТ 1|1|11|14| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\javascript_void(0);.gz
+2024-02-11 10:09:18.343 00008 [ERR] bnt.bg|БНТ 1|1|11|14| Invalid URL scheme in javascript:void(0);. Only http(s) is currently supported
+2024-02-11 10:09:18.344 00008 [DBG] bnt.bg|БНТ 1|1|11|14| No content downloaded
+2024-02-11 10:09:18.344 00008 [INF] bnt.bg|БНТ 1|1|11|14| Added program 11.02.2024 г. 18:00:00 -> Имате среща с ... Диана Любенова
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.347 00008 [DBG] bnt.bg|БНТ 1|1|11|15| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| title | Returning value from source 'text': 'Спорт ТОТО'
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| title | Creating/updating "Program" parameter title-bg=Спорт ТОТО
+2024-02-11 10:09:18.347 00008 [DBG] bnt.bg|БНТ 1|1|11|15| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| start | Returning value from source 'text': '18:45'
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| start | Creating/updating "Program" parameter start=18:45
+2024-02-11 10:09:18.347 00008 [DBG] bnt.bg|БНТ 1|1|11|15| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| icon | Returning value from source 'src': 'https://p.bnt.bg/v/l/vlcsnap-2017-07-14-09h56m56s148-209667-810x0.png'
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| icon | Creating/updating "Program" parameter icon=https://p.bnt.bg/v/l/vlcsnap-2017-07-14-09h56m56s148-209667-810x0.png
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/sport-toto'
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/sport-toto
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| Initializing DetailsPage object
+2024-02-11 10:09:18.347 00008 [DBG] bnt.bg|БНТ 1|1|11|15| Updating parameterized request data
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/sport-toto
+2024-02-11 10:09:18.347 00008 [DBG] bnt.bg|БНТ 1|1|11|15| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.347 00008 [DBG] bnt.bg|БНТ 1|1|11|15| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_sport-toto.gz
+2024-02-11 10:09:18.347 00008 [VRB] bnt.bg|БНТ 1|1|11|15| Validated URL for grabbing: https://bnt.bg/bg/a/sport-toto
+2024-02-11 10:09:18.347 00008 [DBG] bnt.bg|БНТ 1|1|11|15| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:18.374 00008 [DBG] bnt.bg|БНТ 1|1|11|15| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_sport-toto.gz
+2024-02-11 10:09:18.377 00008 [VRB] bnt.bg|БНТ 1|1|11|15| Creating null parser
+2024-02-11 10:09:18.386 00008 [DBG] bnt.bg|БНТ 1|1|11|15| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.386 00008 [DBG] bnt.bg|БНТ 1|1|11|15| desc | No blocks extracted!
+2024-02-11 10:09:18.386 00008 [VRB] bnt.bg|БНТ 1|1|11|15| desc | Creating/updating "Program" parameter desc=null
+2024-02-11 10:09:18.386 00008 [INF] bnt.bg|БНТ 1|1|11|15| Added program 11.02.2024 г. 18:45:00 -> Спорт ТОТО
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.389 00008 [DBG] bnt.bg|БНТ 1|1|11|16| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| title | Returning value from source 'text': 'С БНТ завинаги'
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| title | Creating/updating "Program" parameter title-bg=С БНТ завинаги
+2024-02-11 10:09:18.389 00008 [DBG] bnt.bg|БНТ 1|1|11|16| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| start | Returning value from source 'text': '19:00'
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| start | Creating/updating "Program" parameter start=19:00
+2024-02-11 10:09:18.389 00008 [DBG] bnt.bg|БНТ 1|1|11|16| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/309/ffa262f40e9ae2f57a9ee81988862800.jpeg'
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/309/ffa262f40e9ae2f57a9ee81988862800.jpeg
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| detailsUrl | Returning value from source 'href': 'https://bnt.bg/news/s-bnt-zavinagi-309595news.html'
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/news/s-bnt-zavinagi-309595news.html
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| Initializing DetailsPage object
+2024-02-11 10:09:18.389 00008 [DBG] bnt.bg|БНТ 1|1|11|16| Updating parameterized request data
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.389 00008 [VRB] bnt.bg|БНТ 1|1|11|16| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/news/s-bnt-zavinagi-309595news.html
+2024-02-11 10:09:18.390 00008 [DBG] bnt.bg|БНТ 1|1|11|16| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.390 00008 [DBG] bnt.bg|БНТ 1|1|11|16| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_news_s-bnt-zavinagi-309595news.html.gz
+2024-02-11 10:09:18.390 00008 [VRB] bnt.bg|БНТ 1|1|11|16| Validated URL for grabbing: https://bnt.bg/news/s-bnt-zavinagi-309595news.html
+2024-02-11 10:09:18.390 00008 [DBG] bnt.bg|БНТ 1|1|11|16| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:18.413 00008 [DBG] bnt.bg|БНТ 1|1|11|16| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_news_s-bnt-zavinagi-309595news.html.gz
+2024-02-11 10:09:18.416 00008 [VRB] bnt.bg|БНТ 1|1|11|16| Creating null parser
+2024-02-11 10:09:18.424 00008 [DBG] bnt.bg|БНТ 1|1|11|16| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.425 00008 [VRB] bnt.bg|БНТ 1|1|11|16| desc | Returning value from source 'text': 'Предаване за големите личности на българската музикална, филмова, театрална и културна сцена'
+2024-02-11 10:09:18.425 00008 [DBG] bnt.bg|БНТ 1|1|11|16| desc | Executing operation BeautifyOperation
+2024-02-11 10:09:18.426 00008 [VRB] bnt.bg|БНТ 1|1|11|16| desc | Creating/updating "Program" parameter desc=Предаване за големите личности на българската музикална, филмова, театрална и културна сцена
+2024-02-11 10:09:18.426 00008 [INF] bnt.bg|БНТ 1|1|11|16| Added program 11.02.2024 г. 19:00:00 -> С БНТ завинаги
+2024-02-11 10:09:18.428 00008 [VRB] bnt.bg|БНТ 1|1|11|17| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.428 00008 [DBG] bnt.bg|БНТ 1|1|11|17| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.428 00008 [VRB] bnt.bg|БНТ 1|1|11|17| title | Returning value from source 'text': 'По света и у нас'
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| title | Creating/updating "Program" parameter title-bg=По света и у нас
+2024-02-11 10:09:18.429 00008 [DBG] bnt.bg|БНТ 1|1|11|17| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| start | Returning value from source 'text': '20:00'
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| start | Creating/updating "Program" parameter start=20:00
+2024-02-11 10:09:18.429 00008 [DBG] bnt.bg|БНТ 1|1|11|17| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png'
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/0/c23af3e9ce5914e15c9d5616ce0ec0d1.png
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/po-sveta-i-u-nas'
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/po-sveta-i-u-nas
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| Initializing DetailsPage object
+2024-02-11 10:09:18.429 00008 [DBG] bnt.bg|БНТ 1|1|11|17| Updating parameterized request data
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.429 00008 [VRB] bnt.bg|БНТ 1|1|11|17| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/po-sveta-i-u-nas
+2024-02-11 10:09:18.429 00008 [DBG] bnt.bg|БНТ 1|1|11|17| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.430 00008 [DBG] bnt.bg|БНТ 1|1|11|17| Trying to get content from cache file C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_po-sveta-i-u-nas.gz
+2024-02-11 10:09:18.434 00010 [VRB] bnt.bg|БНТ 1|1|11|17| Successfully loaded content from cache
+2024-02-11 10:09:18.435 00010 [VRB] bnt.bg|БНТ 1|1|11|17| Creating null parser
+2024-02-11 10:09:18.440 00010 [DBG] bnt.bg|БНТ 1|1|11|17| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.441 00010 [VRB] bnt.bg|БНТ 1|1|11|17| desc | Returning value from source 'text': 'Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.'
+2024-02-11 10:09:18.441 00010 [DBG] bnt.bg|БНТ 1|1|11|17| desc | Executing operation BeautifyOperation
+2024-02-11 10:09:18.441 00010 [VRB] bnt.bg|БНТ 1|1|11|17| desc | Creating/updating "Program" parameter desc=Новинарска, информационна емисия, представяща най-важните и актуални събития, случили се през деня в България и по света.
+2024-02-11 10:09:18.441 00010 [INF] bnt.bg|БНТ 1|1|11|17| Added program 11.02.2024 г. 20:00:00 -> По света и у нас
+2024-02-11 10:09:18.443 00010 [VRB] bnt.bg|БНТ 1|1|11|18| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.443 00010 [DBG] bnt.bg|БНТ 1|1|11|18| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.443 00010 [VRB] bnt.bg|БНТ 1|1|11|18| title | Returning value from source 'text': 'След новините'
+2024-02-11 10:09:18.443 00010 [VRB] bnt.bg|БНТ 1|1|11|18| title | Creating/updating "Program" parameter title-bg=След новините
+2024-02-11 10:09:18.443 00010 [DBG] bnt.bg|БНТ 1|1|11|18| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.443 00010 [VRB] bnt.bg|БНТ 1|1|11|18| start | Returning value from source 'text': '20:30'
+2024-02-11 10:09:18.443 00010 [VRB] bnt.bg|БНТ 1|1|11|18| start | Creating/updating "Program" parameter start=20:30
+2024-02-11 10:09:18.443 00010 [DBG] bnt.bg|БНТ 1|1|11|18| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| icon | Returning value from source 'src': 'https://p.bnt.bg/v/l/vlcsnap-2020-02-08-11h24m42s028-434152-810x0.png'
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| icon | Creating/updating "Program" parameter icon=https://p.bnt.bg/v/l/vlcsnap-2020-02-08-11h24m42s028-434152-810x0.png
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/tazi-vecher-v-sled-novinite-dokde-stiga-nevidimata-rka-na-kokainovite-krale'
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/tazi-vecher-v-sled-novinite-dokde-stiga-nevidimata-rka-na-kokainovite-krale
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| Initializing DetailsPage object
+2024-02-11 10:09:18.444 00010 [DBG] bnt.bg|БНТ 1|1|11|18| Updating parameterized request data
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/tazi-vecher-v-sled-novinite-dokde-stiga-nevidimata-rka-na-kokainovite-krale
+2024-02-11 10:09:18.444 00010 [DBG] bnt.bg|БНТ 1|1|11|18| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.444 00010 [DBG] bnt.bg|БНТ 1|1|11|18| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_tazi-vecher-v-sled-novinite-dokde-stiga-nevidimata-rka-na-kokainovite-krale.gz
+2024-02-11 10:09:18.444 00010 [VRB] bnt.bg|БНТ 1|1|11|18| Validated URL for grabbing: https://bnt.bg/bg/a/tazi-vecher-v-sled-novinite-dokde-stiga-nevidimata-rka-na-kokainovite-krale
+2024-02-11 10:09:18.444 00010 [DBG] bnt.bg|БНТ 1|1|11|18| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:18.470 00008 [DBG] bnt.bg|БНТ 1|1|11|18| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_tazi-vecher-v-sled-novinite-dokde-stiga-nevidimata-rka-na-kokainovite-krale.gz
+2024-02-11 10:09:18.473 00008 [VRB] bnt.bg|БНТ 1|1|11|18| Creating null parser
+2024-02-11 10:09:18.478 00008 [DBG] bnt.bg|БНТ 1|1|11|18| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.484 00008 [DBG] bnt.bg|БНТ 1|1|11|18| desc | No blocks extracted!
+2024-02-11 10:09:18.484 00008 [VRB] bnt.bg|БНТ 1|1|11|18| desc | Creating/updating "Program" parameter desc=null
+2024-02-11 10:09:18.484 00008 [INF] bnt.bg|БНТ 1|1|11|18| Added program 11.02.2024 г. 20:30:00 -> След новините
+2024-02-11 10:09:18.487 00008 [VRB] bnt.bg|БНТ 1|1|11|19| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.487 00008 [DBG] bnt.bg|БНТ 1|1|11|19| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.487 00008 [VRB] bnt.bg|БНТ 1|1|11|19| title | Returning value from source 'text': 'Спортни новини'
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| title | Creating/updating "Program" parameter title-bg=Спортни новини
+2024-02-11 10:09:18.488 00008 [DBG] bnt.bg|БНТ 1|1|11|19| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| start | Returning value from source 'text': '20:45'
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| start | Creating/updating "Program" parameter start=20:45
+2024-02-11 10:09:18.488 00008 [DBG] bnt.bg|БНТ 1|1|11|19| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| icon | Returning value from source 'src': 'https://p.bnt.bg/s/p/sportni-novini-311001-810x0.png'
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| icon | Creating/updating "Program" parameter icon=https://p.bnt.bg/s/p/sportni-novini-311001-810x0.png
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| detailsUrl | Returning value from source 'href': 'https://bnt.bg/bg/a/sportni-novini'
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/bg/a/sportni-novini
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| Initializing DetailsPage object
+2024-02-11 10:09:18.488 00008 [DBG] bnt.bg|БНТ 1|1|11|19| Updating parameterized request data
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/bg/a/sportni-novini
+2024-02-11 10:09:18.488 00008 [DBG] bnt.bg|БНТ 1|1|11|19| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.488 00008 [DBG] bnt.bg|БНТ 1|1|11|19| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_sportni-novini.gz
+2024-02-11 10:09:18.488 00008 [VRB] bnt.bg|БНТ 1|1|11|19| Validated URL for grabbing: https://bnt.bg/bg/a/sportni-novini
+2024-02-11 10:09:18.488 00008 [DBG] bnt.bg|БНТ 1|1|11|19| Created FlurlClient for base url https://bnt.bg/
+2024-02-11 10:09:18.536 00008 [DBG] bnt.bg|БНТ 1|1|11|19| Saving content to cache C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_bg_a_sportni-novini.gz
+2024-02-11 10:09:18.539 00008 [VRB] bnt.bg|БНТ 1|1|11|19| Creating null parser
+2024-02-11 10:09:18.546 00008 [DBG] bnt.bg|БНТ 1|1|11|19| desc | Extracting blocks with locator: '.under-head'
+2024-02-11 10:09:18.547 00008 [DBG] bnt.bg|БНТ 1|1|11|19| desc | No blocks extracted!
+2024-02-11 10:09:18.547 00008 [VRB] bnt.bg|БНТ 1|1|11|19| desc | Creating/updating "Program" parameter desc=null
+2024-02-11 10:09:18.547 00008 [INF] bnt.bg|БНТ 1|1|11|19| Added program 11.02.2024 г. 20:45:00 -> Спортни новини
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| Resetting parameters in "Program" storage
+2024-02-11 10:09:18.553 00008 [DBG] bnt.bg|БНТ 1|1|11|20| title | Extracting blocks with locator: '.name'
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| title | Returning value from source 'text': 'Премиера: Вина 2'
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| title | Creating/updating "Program" parameter title-bg=Премиера: Вина 2
+2024-02-11 10:09:18.553 00008 [DBG] bnt.bg|БНТ 1|1|11|20| start | Extracting blocks with locator: '.hour'
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| start | Returning value from source 'text': '21:00'
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| start | Creating/updating "Program" parameter start=21:00
+2024-02-11 10:09:18.553 00008 [DBG] bnt.bg|БНТ 1|1|11|20| icon | Extracting blocks with locator: 'img'
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| icon | Returning value from source 'src': 'https://bnt.bg/f/news/m/324/bd09da5dbeaad1bafbaac15d76e8ce70.jpeg'
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| icon | Creating/updating "Program" parameter icon=https://bnt.bg/f/news/m/324/bd09da5dbeaad1bafbaac15d76e8ce70.jpeg
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| detailsUrl | Returning value from source 'href': 'https://bnt.bg/news/vina-2-324392news.html'
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| detailsUrl | Creating/updating "Program" parameter detailsUrl=https://bnt.bg/news/vina-2-324392news.html
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| Initializing DetailsPage object
+2024-02-11 10:09:18.553 00008 [DBG] bnt.bg|БНТ 1|1|11|20| Updating parameterized request data
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| Input before parameters evaluation: ${detailsUrl}
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| Getting value for parameter detailsUrl
+2024-02-11 10:09:18.553 00008 [VRB] bnt.bg|БНТ 1|1|11|20| Output after evaluation of ${detailsUrl} parameter: https://bnt.bg/news/vina-2-324392news.html
+2024-02-11 10:09:18.553 00008 [DBG] bnt.bg|БНТ 1|1|11|20| Trying to get website content from cache: (template's property cache-lifetime is set to 0.1 hours)
+2024-02-11 10:09:18.553 00008 [DBG] bnt.bg|БНТ 1|1|11|20| Cache file does not exist C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\bnt.bg\details\bnt.bg_news_vina-2-324392news.html.gz
+2024-02-11 10:09:18.554 00008 [VRB] bnt.bg|БНТ 1|1|11|20| Validated URL for grabbing: https://bnt.bg/news/vina-2-324392news.html
+2024-02-11 10:09:18.554 00008 [DBG] bnt.bg|БНТ 1|1|11|20| Created FlurlClient for base url https://bnt.bg/
