@@ -1,10 +1,12 @@
-cd %USERPROFILE%\Git\EPG
+APPDIR="%USERPROFILE%\Git\EPG"
 
-bin\app.exe grab -f %USERPROFILE%\config -o %USERPROFILE%\Git\EPG -l 0
+cd %APPDIR%
+
+%APPDIR%\bin\app.exe grab -f %APPDIR%\config -o %APPDIR% -l 0
 
 git pull
 git status
 git add -A
-git commit -m "Manual update"
+git commit -m "Scheduled daily update"
 git push
 git status
