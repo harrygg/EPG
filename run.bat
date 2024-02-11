@@ -1,6 +1,6 @@
-cd "C:\Git\EPG"
+cd %USERPROFILE%\Git\EPG
 
-bin\app.exe grab -f "C:\Git\EPG\config" -o "C:\Git\EPG" -l 0
+bin\app.exe grab -f %USERPROFILE%\config -o %USERPROFILE%\Git\EPG -l 0
 
 git pull
 git status

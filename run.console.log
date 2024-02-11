@@ -1,0 +1,34 @@
+
+C:\WINDOWS\system32>cd C:\Users\HGenev\Git\EPG 
+
+C:\Users\HGenev\Git\EPG>bin\app.exe grab -f C:\Users\HGenev\config -o C:\Users\HGenev\Git\EPG -l 0 
+10:05:02 [INF] **************************************************************************
+10:05:02 [INF] 
+10:05:02 [INF]                        EPG.grabber  1.23.9.20
+10:05:02 [INF] 
+10:05:02 [INF] **************************************************************************
+10:05:02 [INF] Start time: 02/11/2024 10:05:02
+10:05:02 [INF] Command line arguments: grab -f C:\Users\HGenev\config -o C:\Users\HGenev\Git\EPG -l 0
+grab:
+  Grabs program for all configured channels
+
+Usage:
+  App grab [options]
+
+Options:
+  -f, --folder <folder>                    Path to the directory containing the configuration file. [default: .]
+  -o, --output-folder <output-folder>      Root path to the output directory where XML files will be exported
+  --cache-folder <cache-folder>            Full path to the cache folder
+  -l, --log-level <log-level>              The log level. 0 = Verbose, 5 = Fatal [default: -1]
+  -c, --channel-ids <channel-ids>          The ids of the channels from the template to grab programs for
+  -g, --channel-groups <channel-groups>    The names of the channel groups
+  -e, --export                             Export EPG to XML files after grabbing
+  -?, -h, --help                           Show help and usage information
+
+10:05:03 [INF] End time 02/11/2024 10:05:03
+10:05:03 [INF] Execution time: 00:00:00.7209680
+
+C:\Users\HGenev\Git\EPG>git pull 
+Already up to date.
+
+C:\Users\HGenev\Git\EPG>git status 
