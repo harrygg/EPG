@@ -1,10 +1,7 @@
 @echo off
 
-REM cd /D "%~dp0"
-
 set APPDIR=%~dp0
 cd %APPDIR%
-
 %APPDIR%\bin\app.exe grab -f %APPDIR%\config -o %APPDIR% -l 0
 
 git pull
