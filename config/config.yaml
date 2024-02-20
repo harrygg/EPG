@@ -15,7 +15,7 @@ parallel: 1
 # The default user-agent string that will be used in each request. 
 # The value can be overwritten per website. 
 # To do so, add a request header in the request section of a template file
-default-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+default-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122 Safari/537.36
 
 # Should the program grab program details. 
 # Overwritable for each channel in channels config file. Defaults to true.
@@ -67,7 +67,7 @@ delay-between-request-retries: 500
 # Defaults to 300. Value is in seconds.
 channel-grabbing-timeout: 300
 
-# The maximum time a single program should be grabbed. After that, the program grabbing is canceled.
+# The maximum time in seconds a single program should be grabbed. After that, the program grabbing is canceled. Default is 60 seconds.
 program-grabbing-timeout: 60
 
 # Output folder where the XML files will be saved
@@ -78,13 +78,13 @@ output-folder: output
 output-files:
   # name of the file excluding the compression file extension i.e. epg.xml and not epg.xml.gzip
   - name: epg.xml
-    # Compressoin type to use - gzip or zip or none
+    # Compression type to use - gzip or zip or none
     compression: none
     # A list of group names. Only channels from those groups will be exported in the file
     # groups: []
-    # Programs from how many days in the future will be included in the EPG
+    # Programs of how many days in the future will be included in the EPG
     days-ahead: 3
-    # Programs from how many days in the past will be exported in the EPG (If they exist in the cache)
+    # Programs of how many days in the past will be exported in the EPG (If they exist in the cache)
     days-behind: 0
     # The level of program details
     # 1 - program will contain only start, stop and title
