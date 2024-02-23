@@ -80,6 +80,7 @@
   - name: БНТ 4 HD
   - name: БНТ 4 LQ
     lang: bg
+  - name: BNT 4
   groups: ["bg"]
   sources:
   - bnt.bg
@@ -127,7 +128,10 @@
   - name: bTV Lady
     lang: en
   - name: bTV Lady HD
+    lang: en
   - name: bTV Lady LQ
+    lang: en
+  - name: bTv Story
     lang: en
   groups: ["bg"]
   sources:
@@ -142,11 +146,9 @@
     lang: bg
   - name: Нова HD
   - name: Nova HD 50p test
-    lang: bg
   - name: Nova
-    lang: en
   - name: Nova LQ
-    lang: en
+  - name: Nova TV
   groups: ["bg"]
   sources:
   - nova.bg
@@ -436,6 +438,7 @@
   sources:
   - moviestar.bg
   - tv-programa.bg
+  - tv.dir.bg
   
 - id: cinemania.bg
   enabled: true
@@ -463,11 +466,35 @@
   names:
   - name: TV 1000
     lang: en
+  - name: TV1000
+    lang: en
   - name: TV 1000 HD
     lang: en
   sources:
   - pawa.tv
   - dnes.bg
+
+- id: filmbox.com
+  enabled: true
+  names:
+  - name: FILMBOX
+    lang: en
+  - name: FILMBOX HD
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.tv
+  
+- id: filmboxstars.com
+  enabled: true
+  names:
+  - name: FilmBox Stars
+    lang: en
+  - name: FilmBox Stars HD
+    lang: en
+  sources:
+  - dnes.bg
+  - tv.dir.tv
 
 - id: diema.bg
   enabled: true
@@ -674,6 +701,7 @@
     lang: bg
   - name: Ring LQ
   - name: Ring BG
+  - name: Ring HD
     lang: en
   - name: Ring BG HD
     lang: en
@@ -1209,6 +1237,19 @@
   groups: ["sport"]
   sources:
   - movistarplus.es
+  
+- id: ams.bg
+  enabled: true
+  names:
+  - name: Auto Moto Sport
+    lang: en
+  - name: Auto Moto Sport HD
+    lang: en
+  - name: AMX
+    lang: en
+  groups: ["sport"]
+  sources:
+  - dnes.bg
 
   
 #############
@@ -1754,6 +1795,7 @@
   - name: Евронюз БГ
     lang: bg
   - name: Euronews BG
+  - name: Euronews Bulgaria
   - name: Euronews BG M
     lang: en
   sources:
@@ -1922,6 +1964,9 @@
   - name: National Geographic
     lang: en
   - name: NatGeo HD
+    lang: en
+  - name: NGC HD
+    lang: en
   - name: NatGeo LQ
     lang: en
   sources:
@@ -1934,6 +1979,8 @@
   - name: NatGeo Wild
     lang: en
   - name: NatGeo Wild HD
+    lang: en
+  - name: National Geogrphic WILD HD
     lang: en
   sources:
   - waltdisney.bg
@@ -2009,6 +2056,8 @@
   - name: Viasat Explore
     lang: en
   - name: Viasat Explore HD
+    lang: en
+  - name: Viasat Explorer
     lang: en
   sources:
   - pawa.tv
@@ -2195,9 +2244,27 @@
     lang: en
   - name: History HD
     lang: en
+  - name: History Channel HD
+    lang: en
   sources:
   - dnes.bg
   - tv.dir.bg
+  
+- id: historychannel2.com
+  enabled: true
+  names:
+  - name: History Channel 2
+    lang: en
+  - name: History 2 HD
+    lang: en
+  - name: History Channel 2 HD
+    lang: en
+  - name: History 2
+    lang: en
+  - name: H2
+    lang: en
+  sources:
+  - dnes.bg
   
 - id: tvt.bg
   enabled: false

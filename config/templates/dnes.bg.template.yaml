@@ -250,23 +250,23 @@ channel-parameters:
     channelId: 11282
   mezzolive.mezzo.tv:
     channelId: 11283
-  gametoon.filmbox.com:
+  gametoon.com:
     channelId: 11284
-  arthouse.filmbox.com:
+  arthouse.com:
     channelId: 11285
-  fastandfunbox.funbox.com:
+  fastandfunbox.com:
     channelId: 11281
-  filmboxbasic.filmbox.com:
+  filmbox.com:
     channelId: 11229
-  filmboxextras.filmbox.com:
+  filmboxextras.com:
     channelId: 11230
-  filmboxplus.filmbox.com:
+  filmboxstars.com:
     channelId: 11231
-  360box.filmbox.com:
+  360box.com:
     channelId: 11280
-  docubox.filmbox.com:
+  docubox.com:
     channelId: 11193
-  fightbox.filmbox.com:
+  fightbox.com:
     channelId: 11194
   hgtv.bg:
     channelId: 11286
@@ -276,6 +276,10 @@ channel-parameters:
     channelId: 11293
   thisisbulgaria.bg:
     channelId: 11305
+  ams.bg:
+    channelId: 11227
+  historychannel2.com:
+    channelId: 11309
 
 #channel-extract-rules:
 #  url: https://www.dnes.bg/tv.php

@@ -30,7 +30,8 @@
   <channel id="ring.bg">
     <display-name lang="bg">Ринг</display-name>
     <display-name>Ring LQ</display-name>
-    <display-name lang="en">Ring BG</display-name>
+    <display-name>Ring BG</display-name>
+    <display-name lang="en">Ring HD</display-name>
     <display-name lang="en">Ring BG HD</display-name>
   </channel>
   <channel id="maxsport1.bg">
@@ -200,6 +201,11 @@
   <channel id="deportes.mplus.es">
     <display-name lang="es">M+ Deportes</display-name>
     <display-name lang="es">Movistar Deportes 1 HD</display-name>
+  </channel>
+  <channel id="ams.bg">
+    <display-name lang="en">Auto Moto Sport</display-name>
+    <display-name lang="en">Auto Moto Sport HD</display-name>
+    <display-name lang="en">AMX</display-name>
   </channel>
   <programme start="20240223080000 +0200" stop="20240223100000 +0200" channel="novasport.bg">
     <title>Сентръл Коуст Маринърс - Макартър</title>
@@ -9325,5 +9331,485 @@
   <programme start="20240226211500 +0200" stop="20240226230000 +0200" channel="deportes.mplus.es">
     <title>NBA (T23/24): Oklahoma City Thunder - Houston Rockets</title>
     <desc>Deportes</desc>
+  </programme>
+  <programme start="20240224052500 +0200" stop="20240224053000 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240224053000 +0200" stop="20240224054000 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240224054000 +0200" stop="20240224061500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224061500 +0200" stop="20240224064500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224064500 +0200" stop="20240224071500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240224071500 +0200" stop="20240224074500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240224074500 +0200" stop="20240224082000 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240224082000 +0200" stop="20240224084500 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224084500 +0200" stop="20240224091500 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240224091500 +0200" stop="20240224101500 +0200" channel="ams.bg">
+    <title>Der Bergk?nig - Maximaler Fahrspa? auf der Landstra?e</title>
+  </programme>
+  <programme start="20240224101500 +0200" stop="20240224104000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224104000 +0200" stop="20240224104500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224104500 +0200" stop="20240224111500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224111500 +0200" stop="20240224114500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224114500 +0200" stop="20240224121000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224121000 +0200" stop="20240224121500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240224121500 +0200" stop="20240224130500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240224130500 +0200" stop="20240224132000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240224132000 +0200" stop="20240224135000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240224135000 +0200" stop="20240224141000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224141000 +0200" stop="20240224141500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224141500 +0200" stop="20240224143000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240224143000 +0200" stop="20240224143500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240224143500 +0200" stop="20240224144500 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240224144500 +0200" stop="20240224145000 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224145000 +0200" stop="20240224151500 +0200" channel="ams.bg">
+    <title>Garage 21</title>
+  </programme>
+  <programme start="20240224151500 +0200" stop="20240224154500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240224154500 +0200" stop="20240224161500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240224161500 +0200" stop="20240224163000 +0200" channel="ams.bg">
+    <title>R?ckw?rtsgang</title>
+  </programme>
+  <programme start="20240224163000 +0200" stop="20240224164500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240224164500 +0200" stop="20240224171500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224171500 +0200" stop="20240224174500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240224174500 +0200" stop="20240224181500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240224181500 +0200" stop="20240224185000 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240224185000 +0200" stop="20240224191500 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224191500 +0200" stop="20240224194500 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240224194500 +0200" stop="20240224204500 +0200" channel="ams.bg">
+    <title>Der Bergk?nig - Maximaler Fahrspa? auf der Landstra?e</title>
+  </programme>
+  <programme start="20240224204500 +0200" stop="20240224211000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224211000 +0200" stop="20240224211500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224211500 +0200" stop="20240224214500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224214500 +0200" stop="20240224221500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224221500 +0200" stop="20240224224000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224224000 +0200" stop="20240224224500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240224224500 +0200" stop="20240224233500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240224233500 +0200" stop="20240224235000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240224235000 +0200" stop="20240225002000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225002000 +0200" stop="20240225004000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225004000 +0200" stop="20240225004500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225004500 +0200" stop="20240225010000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225010000 +0200" stop="20240225011000 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240225011000 +0200" stop="20240225011500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225011500 +0200" stop="20240225014000 +0200" channel="ams.bg">
+    <title>Garage 21</title>
+  </programme>
+  <programme start="20240225014000 +0200" stop="20240225014500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240225014500 +0200" stop="20240225021500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225021500 +0200" stop="20240225024500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225024500 +0200" stop="20240225030000 +0200" channel="ams.bg">
+    <title>R?ckw?rtsgang</title>
+  </programme>
+  <programme start="20240225030000 +0200" stop="20240225031500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240225031500 +0200" stop="20240225034500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225034500 +0200" stop="20240225041500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240225041500 +0200" stop="20240225044500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225044500 +0200" stop="20240225061500 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240225061500 +0200" stop="20240225064000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225064000 +0200" stop="20240225071000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225071000 +0200" stop="20240225074000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225074000 +0200" stop="20240225074500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240225074500 +0200" stop="20240225083500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240225083500 +0200" stop="20240225085000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225085000 +0200" stop="20240225092000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225092000 +0200" stop="20240225094000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225094000 +0200" stop="20240225094500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225094500 +0200" stop="20240225100000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225100000 +0200" stop="20240225101000 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240225101000 +0200" stop="20240225101500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225101500 +0200" stop="20240225104500 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240225104500 +0200" stop="20240225111500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225111500 +0200" stop="20240225114500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225114500 +0200" stop="20240225120000 +0200" channel="ams.bg">
+    <title>R?ckw?rtsgang</title>
+  </programme>
+  <programme start="20240225120000 +0200" stop="20240225121500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240225121500 +0200" stop="20240225124500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225124500 +0200" stop="20240225131500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240225131500 +0200" stop="20240225134500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225134500 +0200" stop="20240225142000 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240225142000 +0200" stop="20240225144500 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225144500 +0200" stop="20240225151500 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240225151500 +0200" stop="20240225161500 +0200" channel="ams.bg">
+    <title>Der Bergk?nig - Maximaler Fahrspa? auf der Landstra?e</title>
+  </programme>
+  <programme start="20240225161500 +0200" stop="20240225164000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225164000 +0200" stop="20240225164500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225164500 +0200" stop="20240225165000 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240225165000 +0200" stop="20240225171500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225171500 +0200" stop="20240225174500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225174500 +0200" stop="20240225181500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225181500 +0200" stop="20240225190500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240225190500 +0200" stop="20240225192000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225192000 +0200" stop="20240225195000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225195000 +0200" stop="20240225201000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225201000 +0200" stop="20240225201500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225201500 +0200" stop="20240225203000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225203000 +0200" stop="20240225203500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240225203500 +0200" stop="20240225204500 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240225204500 +0200" stop="20240225211500 +0200" channel="ams.bg">
+    <title>Garage 21</title>
+  </programme>
+  <programme start="20240225211500 +0200" stop="20240225214500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225214500 +0200" stop="20240225221500 +0200" channel="ams.bg">
+    <title>Meilensteine</title>
+  </programme>
+  <programme start="20240225221500 +0200" stop="20240225223000 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240225223000 +0200" stop="20240225224500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240225224500 +0200" stop="20240225231500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225231500 +0200" stop="20240225234500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240225234500 +0200" stop="20240226001500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240226001500 +0200" stop="20240226005000 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240226005000 +0200" stop="20240226011500 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240226011500 +0200" stop="20240226014500 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240226014500 +0200" stop="20240226024500 +0200" channel="ams.bg">
+    <title>Der Bergk?nig - Maximaler Fahrspa? auf der Landstra?e</title>
+  </programme>
+  <programme start="20240226024500 +0200" stop="20240226031000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240226031000 +0200" stop="20240226031500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240226031500 +0200" stop="20240226034500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226034500 +0200" stop="20240226041500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226041500 +0200" stop="20240226044000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226044000 +0200" stop="20240226061500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240226061500 +0200" stop="20240226064000 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240226064000 +0200" stop="20240226071000 +0200" channel="ams.bg">
+    <title>Meilensteine</title>
+  </programme>
+  <programme start="20240226071000 +0200" stop="20240226072500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240226072500 +0200" stop="20240226074000 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240226074000 +0200" stop="20240226081000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226081000 +0200" stop="20240226084000 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240226084000 +0200" stop="20240226091000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240226091000 +0200" stop="20240226094500 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240226094500 +0200" stop="20240226101000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240226101000 +0200" stop="20240226104000 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240226104000 +0200" stop="20240226104500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240226104500 +0200" stop="20240226114500 +0200" channel="ams.bg">
+    <title>Der Bergk?nig - Maximaler Fahrspa? auf der Landstra?e</title>
+  </programme>
+  <programme start="20240226114500 +0200" stop="20240226121000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240226121000 +0200" stop="20240226121500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240226121500 +0200" stop="20240226124500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226124500 +0200" stop="20240226131500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226131500 +0200" stop="20240226134000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226134000 +0200" stop="20240226134500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240226134500 +0200" stop="20240226143500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240226143500 +0200" stop="20240226145000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240226145000 +0200" stop="20240226152000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240226152000 +0200" stop="20240226154000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240226154000 +0200" stop="20240226154500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240226154500 +0200" stop="20240226160000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240226160000 +0200" stop="20240226160500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240226160500 +0200" stop="20240226161500 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240226161500 +0200" stop="20240226162000 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240226162000 +0200" stop="20240226164500 +0200" channel="ams.bg">
+    <title>Garage 21</title>
+  </programme>
+  <programme start="20240226164500 +0200" stop="20240226171500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240226171500 +0200" stop="20240226174500 +0200" channel="ams.bg">
+    <title>Meilensteine</title>
+  </programme>
+  <programme start="20240226174500 +0200" stop="20240226180000 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240226180000 +0200" stop="20240226181500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240226181500 +0200" stop="20240226184500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226184500 +0200" stop="20240226191500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240226191500 +0200" stop="20240226194500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240226194500 +0200" stop="20240226202000 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240226202000 +0200" stop="20240226204500 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240226204500 +0200" stop="20240226211500 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240226211500 +0200" stop="20240226221500 +0200" channel="ams.bg">
+    <title>Autoquartett</title>
+  </programme>
+  <programme start="20240226221500 +0200" stop="20240226224500 +0200" channel="ams.bg">
+    <title>Grenzg?nger</title>
+  </programme>
+  <programme start="20240226224500 +0200" stop="20240226231500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226231500 +0200" stop="20240226234500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240226234500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
   </programme>
 </tv>

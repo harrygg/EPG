@@ -21,6 +21,7 @@
     <display-name lang="bg">БНТ 4</display-name>
     <display-name>БНТ 4 HD</display-name>
     <display-name lang="bg">БНТ 4 LQ</display-name>
+    <display-name>BNT 4</display-name>
   </channel>
   <channel id="btv.bg">
     <display-name lang="bg">БТВ</display-name>
@@ -37,15 +38,17 @@
   <channel id="btvlady.bg">
     <display-name lang="bg">БТВ Лейди</display-name>
     <display-name lang="en">bTV Lady</display-name>
-    <display-name>bTV Lady HD</display-name>
+    <display-name lang="en">bTV Lady HD</display-name>
     <display-name lang="en">bTV Lady LQ</display-name>
+    <display-name lang="en">bTv Story</display-name>
   </channel>
   <channel id="nova.bg">
     <display-name lang="bg">Нова</display-name>
     <display-name>Нова HD</display-name>
-    <display-name lang="bg">Nova HD 50p test</display-name>
-    <display-name lang="en">Nova</display-name>
-    <display-name lang="en">Nova LQ</display-name>
+    <display-name>Nova HD 50p test</display-name>
+    <display-name>Nova</display-name>
+    <display-name>Nova LQ</display-name>
+    <display-name>Nova TV</display-name>
   </channel>
   <channel id="bloombergtv.bg">
     <display-name lang="en">Bloomberg BG</display-name>
@@ -147,7 +150,16 @@
   </channel>
   <channel id="tv1000.bg">
     <display-name lang="en">TV 1000</display-name>
+    <display-name lang="en">TV1000</display-name>
     <display-name lang="en">TV 1000 HD</display-name>
+  </channel>
+  <channel id="filmbox.com">
+    <display-name lang="en">FILMBOX</display-name>
+    <display-name lang="en">FILMBOX HD</display-name>
+  </channel>
+  <channel id="filmboxstars.com">
+    <display-name lang="en">FilmBox Stars</display-name>
+    <display-name lang="en">FilmBox Stars HD</display-name>
   </channel>
   <channel id="diema.bg">
     <display-name lang="bg">Диема</display-name>
@@ -229,7 +241,8 @@
   <channel id="ring.bg">
     <display-name lang="bg">Ринг</display-name>
     <display-name>Ring LQ</display-name>
-    <display-name lang="en">Ring BG</display-name>
+    <display-name>Ring BG</display-name>
+    <display-name lang="en">Ring HD</display-name>
     <display-name lang="en">Ring BG HD</display-name>
   </channel>
   <channel id="maxsport1.bg">
@@ -399,6 +412,11 @@
   <channel id="deportes.mplus.es">
     <display-name lang="es">M+ Deportes</display-name>
     <display-name lang="es">Movistar Deportes 1 HD</display-name>
+  </channel>
+  <channel id="ams.bg">
+    <display-name lang="en">Auto Moto Sport</display-name>
+    <display-name lang="en">Auto Moto Sport HD</display-name>
+    <display-name lang="en">AMX</display-name>
   </channel>
   <channel id="iconcerts.stingray.com">
     <display-name lang="en">iConcerts</display-name>
@@ -603,6 +621,7 @@
   <channel id="tvevropa.bg">
     <display-name lang="bg">Евронюз БГ</display-name>
     <display-name>Euronews BG</display-name>
+    <display-name>Euronews Bulgaria</display-name>
     <display-name lang="en">Euronews BG M</display-name>
   </channel>
   <channel id="news.nova.bg">
@@ -648,12 +667,14 @@
   </channel>
   <channel id="natgeo.bg">
     <display-name lang="en">National Geographic</display-name>
-    <display-name>NatGeo HD</display-name>
+    <display-name lang="en">NatGeo HD</display-name>
+    <display-name lang="en">NGC HD</display-name>
     <display-name lang="en">NatGeo LQ</display-name>
   </channel>
   <channel id="natgeowild.bg">
     <display-name lang="en">NatGeo Wild</display-name>
     <display-name lang="en">NatGeo Wild HD</display-name>
+    <display-name lang="en">National Geogrphic WILD HD</display-name>
   </channel>
   <channel id="24kitchen.bg">
     <display-name lang="en">24 Kitchen</display-name>
@@ -684,6 +705,7 @@
   <channel id="explore.viasat.bg">
     <display-name lang="en">Viasat Explore</display-name>
     <display-name lang="en">Viasat Explore HD</display-name>
+    <display-name lang="en">Viasat Explorer</display-name>
   </channel>
   <channel id="nature.viasat.bg">
     <display-name lang="en">Viasat Nature</display-name>
@@ -741,6 +763,14 @@
   <channel id="historytv.com">
     <display-name lang="en">History Channel</display-name>
     <display-name lang="en">History HD</display-name>
+    <display-name lang="en">History Channel HD</display-name>
+  </channel>
+  <channel id="historychannel2.com">
+    <display-name lang="en">History Channel 2</display-name>
+    <display-name lang="en">History 2 HD</display-name>
+    <display-name lang="en">History Channel 2 HD</display-name>
+    <display-name lang="en">History 2</display-name>
+    <display-name lang="en">H2</display-name>
   </channel>
   <channel id="tv.lovenature.com">
     <display-name lang="en">Love Nature</display-name>
@@ -6367,6 +6397,189 @@
   </programme>
   <programme start="20240225235000 +0200" stop="20240226064000 +0200" channel="tv1000.bg">
     <title>Ул. Чудовищно 10:. Сезон: 0 Епизод: 0</title>
+  </programme>
+  <programme start="20240223200500 +0200" stop="20240223220000 +0200" channel="filmbox.com">
+    <title>Дни и облаци драма Италия, Швейцария 2007</title>
+  </programme>
+  <programme start="20240223220000 +0200" stop="20240223232000 +0200" channel="filmbox.com">
+    <title>Ей, гледай това комедия САЩ, Европа 2009</title>
+  </programme>
+  <programme start="20240223232000 +0200" stop="20240224005000 +0200" channel="filmbox.com">
+    <title>До септември комедия САЩ 2010</title>
+  </programme>
+  <programme start="20240224005000 +0200" stop="20240224024500 +0200" channel="filmbox.com">
+    <title>Спасяването на Грейс Б. Джоунс драма, трилър САЩ 2009</title>
+  </programme>
+  <programme start="20240224024500 +0200" stop="20240224041500 +0200" channel="filmbox.com">
+    <title>Убийствена външност комедия, романтичен САЩ 2020</title>
+  </programme>
+  <programme start="20240224041500 +0200" stop="20240224084000 +0200" channel="filmbox.com">
+    <title>Регресия комедия, романтичен Мексико, Испания 2010</title>
+  </programme>
+  <programme start="20240224084000 +0200" stop="20240224104500 +0200" channel="filmbox.com">
+    <title>Великите дебатьори биография, драма САЩ 2007</title>
+  </programme>
+  <programme start="20240224104500 +0200" stop="20240224122000 +0200" channel="filmbox.com">
+    <title>Най-щастливият дракон анимация, семеен, приключенски Китай 2009</title>
+  </programme>
+  <programme start="20240224122000 +0200" stop="20240224135000 +0200" channel="filmbox.com">
+    <title>Марко Поло, част 1 драма САЩ 2006</title>
+  </programme>
+  <programme start="20240224135000 +0200" stop="20240224151500 +0200" channel="filmbox.com">
+    <title>Марко Поло, част 2 драма САЩ 2006</title>
+  </programme>
+  <programme start="20240224151500 +0200" stop="20240224164000 +0200" channel="filmbox.com">
+    <title>Пирати от Грейт Солт Лейк приключенски, комедия САЩ 2006</title>
+  </programme>
+  <programme start="20240224164000 +0200" stop="20240224182000 +0200" channel="filmbox.com">
+    <title>Пълнолуние комедия Полша 2009</title>
+  </programme>
+  <programme start="20240224182000 +0200" stop="20240224195500 +0200" channel="filmbox.com">
+    <title>Когато Доли Партън ми беше майка комедия Канада 2011</title>
+  </programme>
+  <programme start="20240224195500 +0200" stop="20240224220000 +0200" channel="filmbox.com">
+    <title>Великолепните Амберсън драма САЩ 2002</title>
+  </programme>
+  <programme start="20240224220000 +0200" stop="20240224232500 +0200" channel="filmbox.com">
+    <title>Парламентьорът екшън, трилър САЩ 2005</title>
+  </programme>
+  <programme start="20240224232500 +0200" stop="20240225010000 +0200" channel="filmbox.com">
+    <title>Брегът на тъмната вода мистерия, романтичен, трилър САЩ, Германия, Канада 2007</title>
+  </programme>
+  <programme start="20240225010000 +0200" stop="20240225024000 +0200" channel="filmbox.com">
+    <title>Пиано, соло биографичен, драма Италия 2007</title>
+  </programme>
+  <programme start="20240225024000 +0200" stop="20240225041000 +0200" channel="filmbox.com">
+    <title>Ашли драма САЩ 2013</title>
+  </programme>
+  <programme start="20240225041000 +0200" stop="20240225075000 +0200" channel="filmbox.com">
+    <title>Доброто момиче романтичен, комедия Германия, Холандия, САЩ 2002</title>
+  </programme>
+  <programme start="20240225075000 +0200" stop="20240225092000 +0200" channel="filmbox.com">
+    <title>Гол: Хокеен мюзикъл музикален Канада 2010</title>
+  </programme>
+  <programme start="20240225092000 +0200" stop="20240225110000 +0200" channel="filmbox.com">
+    <title>Спасяването на Линкълн биографичен САЩ 2013</title>
+  </programme>
+  <programme start="20240225110000 +0200" stop="20240225124000 +0200" channel="filmbox.com">
+    <title>Сниф участва във войната семеен Холандия 2008</title>
+  </programme>
+  <programme start="20240225124000 +0200" stop="20240225140500 +0200" channel="filmbox.com">
+    <title>Писмописецът семеен САЩ 2011</title>
+  </programme>
+  <programme start="20240225140500 +0200" stop="20240225155000 +0200" channel="filmbox.com">
+    <title>Това вечерно слънце драма САЩ 2009</title>
+  </programme>
+  <programme start="20240225155000 +0200" stop="20240225171500 +0200" channel="filmbox.com">
+    <title>Да (всъщност, не) комедия САЩ 2004</title>
+  </programme>
+  <programme start="20240225171500 +0200" stop="20240225184000 +0200" channel="filmbox.com">
+    <title>Пирати от Грейт Солт Лейк приключенски, комедия САЩ 2006</title>
+  </programme>
+  <programme start="20240225184000 +0200" stop="20240225201000 +0200" channel="filmbox.com">
+    <title>Пистата комедия Ирландия, Люксембург 2010</title>
+  </programme>
+  <programme start="20240225201000 +0200" stop="20240225220000 +0200" channel="filmbox.com">
+    <title>Маратонът комедия, спортен Холандия 2012</title>
+  </programme>
+  <programme start="20240225220000 +0200" stop="20240225233500 +0200" channel="filmbox.com">
+    <title>Благородни дела драма САЩ 2008</title>
+  </programme>
+  <programme start="20240225233500 +0200" stop="20240226012000 +0200" channel="filmbox.com">
+    <title>Хамил - чука биографичен, спортен САЩ 2010</title>
+  </programme>
+  <programme start="20240223203500 +0200" stop="20240223220000 +0200" channel="filmboxstars.com">
+    <title>Да (всъщност, не) комедия САЩ 2004</title>
+  </programme>
+  <programme start="20240223220000 +0200" stop="20240223232000 +0200" channel="filmboxstars.com">
+    <title>Оливър Шърман драма, военен Канада 2010</title>
+  </programme>
+  <programme start="20240223232000 +0200" stop="20240224005500 +0200" channel="filmboxstars.com">
+    <title>Създаването на "Плюс един" комедия, драма Канада, Обединено Кралство 2010</title>
+  </programme>
+  <programme start="20240224005500 +0200" stop="20240224022500 +0200" channel="filmboxstars.com">
+    <title>Бръчки анимация, драма Испания 2011</title>
+  </programme>
+  <programme start="20240224022500 +0200" stop="20240224040000 +0200" channel="filmboxstars.com">
+    <title>Смажи противника драма САЩ 2005</title>
+  </programme>
+  <programme start="20240224040000 +0200" stop="20240224082000 +0200" channel="filmboxstars.com">
+    <title>На скейт от смъртта екшън Франция 2008</title>
+  </programme>
+  <programme start="20240224082000 +0200" stop="20240224094500 +0200" channel="filmboxstars.com">
+    <title>Куче-ченге приключенски, семеен САЩ 2008</title>
+  </programme>
+  <programme start="20240224094500 +0200" stop="20240224111000 +0200" channel="filmboxstars.com">
+    <title>Да (всъщност, не) комедия САЩ 2004</title>
+  </programme>
+  <programme start="20240224111000 +0200" stop="20240224125500 +0200" channel="filmboxstars.com">
+    <title>След като си отида драма Франция 2016</title>
+  </programme>
+  <programme start="20240224125500 +0200" stop="20240224143000 +0200" channel="filmboxstars.com">
+    <title>Джак Хънтър и изгубеното съкровище на Угарит, част 1 екшън, приключенски САЩ 2008</title>
+  </programme>
+  <programme start="20240224143000 +0200" stop="20240224160500 +0200" channel="filmboxstars.com">
+    <title>Джак Хънтър и изгубеното съкровище на Угарит, част 2 екшън, приключенски САЩ 2008</title>
+  </programme>
+  <programme start="20240224160500 +0200" stop="20240224174000 +0200" channel="filmboxstars.com">
+    <title>Джак Хънтър и изгубеното съкровище на Угарит, част 3 екшън, приключенски САЩ 2008</title>
+  </programme>
+  <programme start="20240224174000 +0200" stop="20240224191000 +0200" channel="filmboxstars.com">
+    <title>Марко Поло, част 1 драма САЩ 2006</title>
+  </programme>
+  <programme start="20240224191000 +0200" stop="20240224203500 +0200" channel="filmboxstars.com">
+    <title>Марко Поло, част 2 драма САЩ 2006</title>
+  </programme>
+  <programme start="20240224203500 +0200" stop="20240224220000 +0200" channel="filmboxstars.com">
+    <title>Да се влюбиш в съседката комедия САЩ 2005</title>
+  </programme>
+  <programme start="20240224220000 +0200" stop="20240224234000 +0200" channel="filmboxstars.com">
+    <title>Върху куклата криминален, драма, трилър САЩ 2007</title>
+  </programme>
+  <programme start="20240224234000 +0200" stop="20240225011500 +0200" channel="filmboxstars.com">
+    <title>Престъпни дейности криминален, трилър САЩ 2015</title>
+  </programme>
+  <programme start="20240225011500 +0200" stop="20240225025000 +0200" channel="filmboxstars.com">
+    <title>Идеално укритие комедия, трилър Германия 2008</title>
+  </programme>
+  <programme start="20240225025000 +0200" stop="20240225041500 +0200" channel="filmboxstars.com">
+    <title>Седемте ужаси САЩ 2007</title>
+  </programme>
+  <programme start="20240225041500 +0200" stop="20240225082500 +0200" channel="filmboxstars.com">
+    <title>Венецианският търговец драма САЩ, Италия, Люксембург, Великобритания 2004</title>
+  </programme>
+  <programme start="20240225082500 +0200" stop="20240225095000 +0200" channel="filmboxstars.com">
+    <title>Писмописецът семеен САЩ 2011</title>
+  </programme>
+  <programme start="20240225095000 +0200" stop="20240225113500 +0200" channel="filmboxstars.com">
+    <title>Пълнолуние комедия Полша 2009</title>
+  </programme>
+  <programme start="20240225113500 +0200" stop="20240225124500 +0200" channel="filmboxstars.com">
+    <title>Зен ноар комедия, драма, мистерия САЩ 2004</title>
+  </programme>
+  <programme start="20240225124500 +0200" stop="20240225141500 +0200" channel="filmboxstars.com">
+    <title>Казвам се Сара романтичен САЩ 2007</title>
+  </programme>
+  <programme start="20240225141500 +0200" stop="20240225160000 +0200" channel="filmboxstars.com">
+    <title>Герои драма Испания 2010</title>
+  </programme>
+  <programme start="20240225160000 +0200" stop="20240225173000 +0200" channel="filmboxstars.com">
+    <title>Нотите на любовта драма Канада 2007</title>
+  </programme>
+  <programme start="20240225173000 +0200" stop="20240225185500 +0200" channel="filmboxstars.com">
+    <title>Проклятието на Тутанкамон, част 1 мини-сериал, приключенски, фентъзи, ужаси САЩ 2005</title>
+  </programme>
+  <programme start="20240225185500 +0200" stop="20240225202000 +0200" channel="filmboxstars.com">
+    <title>Проклятието на Тутанкамон, част 2 мини-сериал, приключенски, фентъзи, ужаси САЩ 2005</title>
+  </programme>
+  <programme start="20240225202000 +0200" stop="20240225220000 +0200" channel="filmboxstars.com">
+    <title>Спасяването на Линкълн биографичен САЩ 2013</title>
+  </programme>
+  <programme start="20240225220000 +0200" stop="20240225233000 +0200" channel="filmboxstars.com">
+    <title>Бъркли драма САЩ 2005</title>
+  </programme>
+  <programme start="20240225233000 +0200" stop="20240226010500 +0200" channel="filmboxstars.com">
+    <title>Клоуи трилър САЩ, Канада, Франция 2009</title>
   </programme>
   <programme start="20240223064500 +0200" stop="20240223084500 +0200" channel="diema.bg">
     <title>Кобра 11: Обади се! – сериал, сезон 15, 2 епизода /п/</title>
@@ -13144,6 +13357,327 @@
   </programme>
   <programme start="20240225213000 +0200" stop="20240225223000 +0200" channel="deportes.mplus.es">
     <title>Planeta Tenis (T2024): Episodio 1</title>
+  </programme>
+  <programme start="20240224052500 +0200" stop="20240224053000 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240224053000 +0200" stop="20240224054000 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240224054000 +0200" stop="20240224061500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224061500 +0200" stop="20240224064500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224064500 +0200" stop="20240224071500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240224071500 +0200" stop="20240224074500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240224074500 +0200" stop="20240224082000 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240224082000 +0200" stop="20240224084500 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224084500 +0200" stop="20240224091500 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240224091500 +0200" stop="20240224101500 +0200" channel="ams.bg">
+    <title>Der Bergk?nig - Maximaler Fahrspa? auf der Landstra?e</title>
+  </programme>
+  <programme start="20240224101500 +0200" stop="20240224104000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224104000 +0200" stop="20240224104500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224104500 +0200" stop="20240224111500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224111500 +0200" stop="20240224114500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224114500 +0200" stop="20240224121000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224121000 +0200" stop="20240224121500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240224121500 +0200" stop="20240224130500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240224130500 +0200" stop="20240224132000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240224132000 +0200" stop="20240224135000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240224135000 +0200" stop="20240224141000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224141000 +0200" stop="20240224141500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224141500 +0200" stop="20240224143000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240224143000 +0200" stop="20240224143500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240224143500 +0200" stop="20240224144500 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240224144500 +0200" stop="20240224145000 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224145000 +0200" stop="20240224151500 +0200" channel="ams.bg">
+    <title>Garage 21</title>
+  </programme>
+  <programme start="20240224151500 +0200" stop="20240224154500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240224154500 +0200" stop="20240224161500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240224161500 +0200" stop="20240224163000 +0200" channel="ams.bg">
+    <title>R?ckw?rtsgang</title>
+  </programme>
+  <programme start="20240224163000 +0200" stop="20240224164500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240224164500 +0200" stop="20240224171500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224171500 +0200" stop="20240224174500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240224174500 +0200" stop="20240224181500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240224181500 +0200" stop="20240224185000 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240224185000 +0200" stop="20240224191500 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224191500 +0200" stop="20240224194500 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240224194500 +0200" stop="20240224204500 +0200" channel="ams.bg">
+    <title>Der Bergk?nig - Maximaler Fahrspa? auf der Landstra?e</title>
+  </programme>
+  <programme start="20240224204500 +0200" stop="20240224211000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240224211000 +0200" stop="20240224211500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240224211500 +0200" stop="20240224214500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224214500 +0200" stop="20240224221500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224221500 +0200" stop="20240224224000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240224224000 +0200" stop="20240224224500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240224224500 +0200" stop="20240224233500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240224233500 +0200" stop="20240224235000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240224235000 +0200" stop="20240225002000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225002000 +0200" stop="20240225004000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225004000 +0200" stop="20240225004500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225004500 +0200" stop="20240225010000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225010000 +0200" stop="20240225011000 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240225011000 +0200" stop="20240225011500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225011500 +0200" stop="20240225014000 +0200" channel="ams.bg">
+    <title>Garage 21</title>
+  </programme>
+  <programme start="20240225014000 +0200" stop="20240225014500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240225014500 +0200" stop="20240225021500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225021500 +0200" stop="20240225024500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225024500 +0200" stop="20240225030000 +0200" channel="ams.bg">
+    <title>R?ckw?rtsgang</title>
+  </programme>
+  <programme start="20240225030000 +0200" stop="20240225031500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240225031500 +0200" stop="20240225034500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225034500 +0200" stop="20240225041500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240225041500 +0200" stop="20240225044500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225044500 +0200" stop="20240225061500 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240225061500 +0200" stop="20240225064000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225064000 +0200" stop="20240225071000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225071000 +0200" stop="20240225074000 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225074000 +0200" stop="20240225074500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240225074500 +0200" stop="20240225083500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240225083500 +0200" stop="20240225085000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225085000 +0200" stop="20240225092000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225092000 +0200" stop="20240225094000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225094000 +0200" stop="20240225094500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225094500 +0200" stop="20240225100000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225100000 +0200" stop="20240225101000 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240225101000 +0200" stop="20240225101500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225101500 +0200" stop="20240225104500 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240225104500 +0200" stop="20240225111500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225111500 +0200" stop="20240225114500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225114500 +0200" stop="20240225120000 +0200" channel="ams.bg">
+    <title>R?ckw?rtsgang</title>
+  </programme>
+  <programme start="20240225120000 +0200" stop="20240225121500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240225121500 +0200" stop="20240225124500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225124500 +0200" stop="20240225131500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240225131500 +0200" stop="20240225134500 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225134500 +0200" stop="20240225142000 +0200" channel="ams.bg">
+    <title>Bloch erkl?rt</title>
+  </programme>
+  <programme start="20240225142000 +0200" stop="20240225144500 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225144500 +0200" stop="20240225151500 +0200" channel="ams.bg">
+    <title>Beziehungskisten</title>
+  </programme>
+  <programme start="20240225151500 +0200" stop="20240225161500 +0200" channel="ams.bg">
+    <title>Der Bergk?nig - Maximaler Fahrspa? auf der Landstra?e</title>
+  </programme>
+  <programme start="20240225161500 +0200" stop="20240225164000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225164000 +0200" stop="20240225164500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225164500 +0200" stop="20240225165000 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240225165000 +0200" stop="20240225171500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225171500 +0200" stop="20240225174500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225174500 +0200" stop="20240225181500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225181500 +0200" stop="20240225190500 +0200" channel="ams.bg">
+    <title>E-Auto Supertest</title>
+  </programme>
+  <programme start="20240225190500 +0200" stop="20240225192000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225192000 +0200" stop="20240225195000 +0200" channel="ams.bg">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20240225195000 +0200" stop="20240225201000 +0200" channel="ams.bg">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20240225201000 +0200" stop="20240225201500 +0200" channel="ams.bg">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20240225201500 +0200" stop="20240225203000 +0200" channel="ams.bg">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20240225203000 +0200" stop="20240225203500 +0200" channel="ams.bg">
+    <title>News</title>
+  </programme>
+  <programme start="20240225203500 +0200" stop="20240225204500 +0200" channel="ams.bg">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20240225204500 +0200" stop="20240225211500 +0200" channel="ams.bg">
+    <title>Garage 21</title>
+  </programme>
+  <programme start="20240225211500 +0200" stop="20240225214500 +0200" channel="ams.bg">
+    <title>Garagen-Gold</title>
+  </programme>
+  <programme start="20240225214500 +0200" stop="20240225221500 +0200" channel="ams.bg">
+    <title>Meilensteine</title>
+  </programme>
+  <programme start="20240225221500 +0200" stop="20240225223000 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240225223000 +0200" stop="20240225224500 +0200" channel="ams.bg">
+    <title>Jils Blechjuwelen</title>
+  </programme>
+  <programme start="20240225224500 +0200" stop="20240225231500 +0200" channel="ams.bg">
+    <title>Fast Lap - das Magazin</title>
+  </programme>
+  <programme start="20240225231500 +0200" stop="20240225234500 +0200" channel="ams.bg">
+    <title>Racing Files</title>
+  </programme>
+  <programme start="20240225234500 +0200" stop="20240226001500 +0200" channel="ams.bg">
+    <title>Reportage</title>
   </programme>
   <programme start="20240223070000 +0200" stop="20240223094500 +0200" channel="iconcerts.stingray.com">
     <title lang="fr">Paul McCartney - Live at Glastonbury</title>
@@ -33208,6 +33742,264 @@
   </programme>
   <programme start="20240225230000 +0200" stop="20240226060000 +0200" channel="travelchannel.bg">
     <title>Ghost Loop (Series 1): Gold Diggers (Episode 6)</title>
+  </programme>
+  <programme start="20240224050000 +0200" stop="20240224053000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътешествия из райската земя - По следите на старата българска къща, част 3</title>
+  </programme>
+  <programme start="20240224053000 +0200" stop="20240224060000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - Да преживееш Макао</title>
+  </programme>
+  <programme start="20240224060000 +0200" stop="20240224063000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика - Близък изток, далечна Сирия</title>
+  </programme>
+  <programme start="20240224063000 +0200" stop="20240224070000 +0200" channel="traveltv.bg">
+    <title lang="bg">Изкуство и култура - Светлин Стоев, художникът - войвода</title>
+  </programme>
+  <programme start="20240224070000 +0200" stop="20240224073000 +0200" channel="traveltv.bg">
+    <title lang="bg">Искам да съм там: Димитровград - Осъществената мечта</title>
+  </programme>
+  <programme start="20240224073000 +0200" stop="20240224080000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Вода</title>
+  </programme>
+  <programme start="20240224080000 +0200" stop="20240224083000 +0200" channel="traveltv.bg">
+    <title lang="bg">Виж България - Бургас, мегаполисът на брега</title>
+  </programme>
+  <programme start="20240224083000 +0200" stop="20240224090000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240224090000 +0200" stop="20240224093000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история - 5 силни прояви на несломимия български дух</title>
+  </programme>
+  <programme start="20240224093000 +0200" stop="20240224100000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240224100000 +0200" stop="20240224103000 +0200" channel="traveltv.bg">
+    <title lang="bg">Фолклорна трапеза</title>
+  </programme>
+  <programme start="20240224103000 +0200" stop="20240224110000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240224110000 +0200" stop="20240224113000 +0200" channel="traveltv.bg">
+    <title lang="bg">Балкан фолк</title>
+  </programme>
+  <programme start="20240224113000 +0200" stop="20240224120000 +0200" channel="traveltv.bg">
+    <title lang="bg">Балкан фолк</title>
+  </programme>
+  <programme start="20240224120000 +0200" stop="20240224123000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътешествия из райската земя - Бързи, ледени води</title>
+  </programme>
+  <programme start="20240224123000 +0200" stop="20240224130000 +0200" channel="traveltv.bg">
+    <title lang="bg">Изкуство и култура - Златната църква на Цар Симеон</title>
+  </programme>
+  <programme start="20240224130000 +0200" stop="20240224133000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Национален музей Боянска черква</title>
+  </programme>
+  <programme start="20240224133000 +0200" stop="20240224140000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика - Пътуване с Туарегите, част 1</title>
+  </programme>
+  <programme start="20240224140000 +0200" stop="20240224143000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история - Легендите оживяват - с. Орехово, еп. 9</title>
+  </programme>
+  <programme start="20240224143000 +0200" stop="20240224150000 +0200" channel="traveltv.bg">
+    <title lang="bg">Зелен свят - Българско дружество за защита на птиците, програма "Живот"</title>
+  </programme>
+  <programme start="20240224150000 +0200" stop="20240224153000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Крушунски водопади</title>
+  </programme>
+  <programme start="20240224153000 +0200" stop="20240224160000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - Песента на Монголия</title>
+  </programme>
+  <programme start="20240224160000 +0200" stop="20240224163000 +0200" channel="traveltv.bg">
+    <title lang="bg">Регионите на България - Малко Търново: Гергьовден</title>
+  </programme>
+  <programme start="20240224163000 +0200" stop="20240224170000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Банско</title>
+  </programme>
+  <programme start="20240224170000 +0200" stop="20240224173000 +0200" channel="traveltv.bg">
+    <title lang="bg">Произведено в Япония</title>
+  </programme>
+  <programme start="20240224173000 +0200" stop="20240224180000 +0200" channel="traveltv.bg">
+    <title lang="bg">Искам да съм там: Свети Влас - Рай между морето и планината</title>
+  </programme>
+  <programme start="20240224180000 +0200" stop="20240224183000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Габър</title>
+  </programme>
+  <programme start="20240224183000 +0200" stop="20240224190000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии</title>
+  </programme>
+  <programme start="20240224190000 +0200" stop="20240224193000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика - Пътуване с Туарегите, част 2</title>
+  </programme>
+  <programme start="20240224193000 +0200" stop="20240224200000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика: Сахара - По - малките Богове, част 1</title>
+  </programme>
+  <programme start="20240224200000 +0200" stop="20240224203000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история - Дойранската епопея</title>
+  </programme>
+  <programme start="20240224203000 +0200" stop="20240224210000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240224210000 +0200" stop="20240224213000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Екстремни спортове</title>
+  </programme>
+  <programme start="20240224213000 +0200" stop="20240224220000 +0200" channel="traveltv.bg">
+    <title lang="bg">Произведено в Япония</title>
+  </programme>
+  <programme start="20240224220000 +0200" stop="20240224223000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Долината на розите и тракийските царе</title>
+  </programme>
+  <programme start="20240224223000 +0200" stop="20240224230000 +0200" channel="traveltv.bg">
+    <title lang="bg">Регионите на България - Малко Търново: Голямата Аязма и Влахов дол</title>
+  </programme>
+  <programme start="20240224230000 +0200" stop="20240224233000 +0200" channel="traveltv.bg">
+    <title lang="bg">Легендите оживяват - Дряново, с.3 еп.2</title>
+  </programme>
+  <programme start="20240224233000 +0200" stop="20240225000000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - На възрастта на императорският дворец</title>
+  </programme>
+  <programme start="20240225000000 +0200" stop="20240225003000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история - 10 интересни факта от българската история, част 2</title>
+  </programme>
+  <programme start="20240225003000 +0200" stop="20240225010000 +0200" channel="traveltv.bg">
+    <title lang="bg">Час за култура - aтелие "Живот"</title>
+  </programme>
+  <programme start="20240225010000 +0200" stop="20240225013000 +0200" channel="traveltv.bg">
+    <title lang="bg">Легендите оживяват - Ловеч, с.3 еп.6</title>
+  </programme>
+  <programme start="20240225013000 +0200" stop="20240225020000 +0200" channel="traveltv.bg">
+    <title lang="bg">Виж България - Евксиноград, приказният морски град</title>
+  </programme>
+  <programme start="20240225020000 +0200" stop="20240225023000 +0200" channel="traveltv.bg">
+    <title lang="bg">Спорт и приключения - Лавинни серии на БАССЕС 3 еп.</title>
+  </programme>
+  <programme start="20240225023000 +0200" stop="20240225030000 +0200" channel="traveltv.bg">
+    <title lang="bg">Зелен свят - Водна детелина във Витоша</title>
+  </programme>
+  <programme start="20240225030000 +0200" stop="20240225033000 +0200" channel="traveltv.bg">
+    <title lang="bg">Зелен свят - Водна детелина във Витоша</title>
+  </programme>
+  <programme start="20240225033000 +0200" stop="20240225040000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика - Тунис под слънцето</title>
+  </programme>
+  <programme start="20240225040000 +0200" stop="20240225043000 +0200" channel="traveltv.bg">
+    <title lang="bg">Произведено в Япония - 50 години член на ООН</title>
+  </programme>
+  <programme start="20240225043000 +0200" stop="20240225050000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътешествия из райската земя - Приказка за Балчик</title>
+  </programme>
+  <programme start="20240225050000 +0200" stop="20240225053000 +0200" channel="traveltv.bg">
+    <title lang="bg">Професия турист - Истанбул, филм 2, еп.1</title>
+  </programme>
+  <programme start="20240225053000 +0200" stop="20240225060000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - Историята на Джинуичи</title>
+  </programme>
+  <programme start="20240225060000 +0200" stop="20240225063000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Гърция</title>
+  </programme>
+  <programme start="20240225063000 +0200" stop="20240225070000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика: Най-северната страна на най-южния континент</title>
+  </programme>
+  <programme start="20240225070000 +0200" stop="20240225073000 +0200" channel="traveltv.bg">
+    <title lang="bg">Виж България - Добърско</title>
+  </programme>
+  <programme start="20240225073000 +0200" stop="20240225080000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Вода</title>
+  </programme>
+  <programme start="20240225080000 +0200" stop="20240225083000 +0200" channel="traveltv.bg">
+    <title lang="bg">Виж България - Враца, земята на великаните</title>
+  </programme>
+  <programme start="20240225083000 +0200" stop="20240225090000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240225090000 +0200" stop="20240225093000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история: Вива история - генерал Владимир Вазов</title>
+  </programme>
+  <programme start="20240225093000 +0200" stop="20240225100000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240225100000 +0200" stop="20240225103000 +0200" channel="traveltv.bg">
+    <title lang="bg">Фолклорна трапеза</title>
+  </programme>
+  <programme start="20240225103000 +0200" stop="20240225110000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240225110000 +0200" stop="20240225113000 +0200" channel="traveltv.bg">
+    <title lang="bg">Балкан фолк</title>
+  </programme>
+  <programme start="20240225113000 +0200" stop="20240225120000 +0200" channel="traveltv.bg">
+    <title lang="bg">Балкан фолк</title>
+  </programme>
+  <programme start="20240225120000 +0200" stop="20240225123000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеществия из райската земя - Елена</title>
+  </programme>
+  <programme start="20240225123000 +0200" stop="20240225130000 +0200" channel="traveltv.bg">
+    <title lang="bg">Изкуство и култура - Поморие: слънце и бриз</title>
+  </programme>
+  <programme start="20240225130000 +0200" stop="20240225133000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Банско</title>
+  </programme>
+  <programme start="20240225133000 +0200" stop="20240225140000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика: Сахара - По - малките Богове, част 2</title>
+  </programme>
+  <programme start="20240225140000 +0200" stop="20240225143000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история - 10 забележителни крепости в България</title>
+  </programme>
+  <programme start="20240225143000 +0200" stop="20240225150000 +0200" channel="traveltv.bg">
+    <title lang="bg">Зелен свят - Непознати гори</title>
+  </programme>
+  <programme start="20240225150000 +0200" stop="20240225153000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Вода в Рила</title>
+  </programme>
+  <programme start="20240225153000 +0200" stop="20240225160000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - "Новият Китай" в първите си 60 години</title>
+  </programme>
+  <programme start="20240225160000 +0200" stop="20240225163000 +0200" channel="traveltv.bg">
+    <title lang="bg">Регионите на България - Малко Търново: Яньовден (Еньовден)</title>
+  </programme>
+  <programme start="20240225163000 +0200" stop="20240225170000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Варна</title>
+  </programme>
+  <programme start="20240225170000 +0200" stop="20240225173000 +0200" channel="traveltv.bg">
+    <title lang="bg">Произведено в Япония</title>
+  </programme>
+  <programme start="20240225173000 +0200" stop="20240225180000 +0200" channel="traveltv.bg">
+    <title lang="bg">Искам да съм там - Витоша: Зимна приказка</title>
+  </programme>
+  <programme start="20240225180000 +0200" stop="20240225183000 +0200" channel="traveltv.bg">
+    <title lang="bg">Импресии - Вода</title>
+  </programme>
+  <programme start="20240225183000 +0200" stop="20240225190000 +0200" channel="traveltv.bg">
+    <title lang="bg">Професия турист</title>
+  </programme>
+  <programme start="20240225190000 +0200" stop="20240225193000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественикa - Сахара: Подземните води</title>
+  </programme>
+  <programme start="20240225193000 +0200" stop="20240225200000 +0200" channel="traveltv.bg">
+    <title lang="bg">Пътеводител на пътешественика - Сахара: Подземните води</title>
+  </programme>
+  <programme start="20240225200000 +0200" stop="20240225203000 +0200" channel="traveltv.bg">
+    <title lang="bg">Българската история - 10 интересни факта за град Варна</title>
+  </programme>
+  <programme start="20240225203000 +0200" stop="20240225210000 +0200" channel="traveltv.bg">
+    <title lang="bg">Бъди там в музика и картини!</title>
+  </programme>
+  <programme start="20240225210000 +0200" stop="20240225213000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Манастирите на България</title>
+  </programme>
+  <programme start="20240225213000 +0200" stop="20240225220000 +0200" channel="traveltv.bg">
+    <title lang="bg">Произведено в Япония</title>
+  </programme>
+  <programme start="20240225220000 +0200" stop="20240225223000 +0200" channel="traveltv.bg">
+    <title lang="bg">За България - Българска кухня и напитки</title>
+  </programme>
+  <programme start="20240225223000 +0200" stop="20240225230000 +0200" channel="traveltv.bg">
+    <title lang="bg">Регионите на България - Малко Търново: Фестивал на зелениката</title>
+  </programme>
+  <programme start="20240225230000 +0200" stop="20240225233000 +0200" channel="traveltv.bg">
+    <title lang="bg">Легендите оживяват - Калофер, еп.2</title>
+  </programme>
+  <programme start="20240225233000 +0200" channel="traveltv.bg">
+    <title lang="bg">Магията на Китай - Да преживееш Макао</title>
   </programme>
   <programme start="20240223010000 +0200" stop="20240223013000 +0200" channel="docubox.spiintl.com">
     <title lang="bg">Силата на природата 7 - Климатът е универсален, а също и извънземен. Да видим времето в космоса и как то ни влияе на Земята.</title>

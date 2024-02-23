@@ -21,6 +21,7 @@
     <display-name lang="bg">БНТ 4</display-name>
     <display-name>БНТ 4 HD</display-name>
     <display-name lang="bg">БНТ 4 LQ</display-name>
+    <display-name>BNT 4</display-name>
   </channel>
   <channel id="btv.bg">
     <display-name lang="bg">БТВ</display-name>
@@ -37,15 +38,17 @@
   <channel id="btvlady.bg">
     <display-name lang="bg">БТВ Лейди</display-name>
     <display-name lang="en">bTV Lady</display-name>
-    <display-name>bTV Lady HD</display-name>
+    <display-name lang="en">bTV Lady HD</display-name>
     <display-name lang="en">bTV Lady LQ</display-name>
+    <display-name lang="en">bTv Story</display-name>
   </channel>
   <channel id="nova.bg">
     <display-name lang="bg">Нова</display-name>
     <display-name>Нова HD</display-name>
-    <display-name lang="bg">Nova HD 50p test</display-name>
-    <display-name lang="en">Nova</display-name>
-    <display-name lang="en">Nova LQ</display-name>
+    <display-name>Nova HD 50p test</display-name>
+    <display-name>Nova</display-name>
+    <display-name>Nova LQ</display-name>
+    <display-name>Nova TV</display-name>
   </channel>
   <channel id="bgonair.bg">
     <display-name lang="bg">България Он Еър</display-name>
