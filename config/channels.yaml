@@ -628,6 +628,49 @@
   sources:
   - dnes.bg
   - start.bg
+  
+- id: cine.box
+  enabled: true
+  names:
+  - name: Cinebox
+    lang: en
+  - name: cine.box
+    lang: en
+  - name: cine.box HD
+    lang: en
+  - name: Cinebox HD
+    lang: en
+  sources:
+  - bulsatcom.bg
+  
+- id: action.box
+  enabled: true
+  names:
+  - name: Actionbox
+    lang: en
+  - name: action.box
+    lang: en
+  - name: action.box HD
+    lang: en
+  - name: Actiombox HD
+    lang: en
+  sources:
+  - bulsatcom.bg
+
+  
+- id: comedy.box
+  enabled: true
+  names:
+  - name: Comedybox
+    lang: en
+  - name: comedy.box
+    lang: en
+  - name: comedy.box HD
+    lang: en
+  - name: Comedybox HD
+    lang: en
+  sources:
+  - bulsatcom.bg
 
 #############
 ### SPORT ###

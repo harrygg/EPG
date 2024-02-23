@@ -211,6 +211,24 @@
     <display-name lang="en">Nostalgia</display-name>
     <display-name lang="en">Nostalgia HD</display-name>
   </channel>
+  <channel id="cine.box">
+    <display-name lang="en">Cinebox</display-name>
+    <display-name lang="en">cine.box</display-name>
+    <display-name lang="en">cine.box HD</display-name>
+    <display-name lang="en">Cinebox HD</display-name>
+  </channel>
+  <channel id="action.box">
+    <display-name lang="en">Actionbox</display-name>
+    <display-name lang="en">action.box</display-name>
+    <display-name lang="en">action.box HD</display-name>
+    <display-name lang="en">Actiombox HD</display-name>
+  </channel>
+  <channel id="comedy.box">
+    <display-name lang="en">Comedybox</display-name>
+    <display-name lang="en">comedy.box</display-name>
+    <display-name lang="en">comedy.box HD</display-name>
+    <display-name lang="en">Comedybox HD</display-name>
+  </channel>
   <channel id="novasport.bg">
     <display-name lang="bg">Нова Спорт</display-name>
     <display-name>Nova Sport</display-name>
@@ -5782,6 +5800,126 @@
   </programme>
   <programme start="20240224220000 +0200" stop="20240225080000 +0200" channel="nostalgia.bg">
     <title>ЦВЕТЕТО НА МОЯТА ТАЙНА драма Испания-Франция 1995</title>
+  </programme>
+  <programme start="20240223230500 +0200" stop="20240224010500 +0200" channel="cine.box">
+    <title lang="bg">Прелестни създания</title>
+  </programme>
+  <programme start="20240224010500 +0200" stop="20240224033000 +0200" channel="cine.box">
+    <title lang="bg">Маскарад</title>
+  </programme>
+  <programme start="20240224033000 +0200" stop="20240224053000 +0200" channel="cine.box">
+    <title lang="bg">Венера в кожи</title>
+  </programme>
+  <programme start="20240224053000 +0200" stop="20240224073000 +0200" channel="cine.box">
+    <title lang="bg">Влюбеният Айфел</title>
+  </programme>
+  <programme start="20240224073000 +0200" stop="20240224093000 +0200" channel="cine.box">
+    <title lang="bg">Лято 85</title>
+  </programme>
+  <programme start="20240224093000 +0200" stop="20240224120500 +0200" channel="cine.box">
+    <title lang="bg">Тръмбо</title>
+  </programme>
+  <programme start="20240224120500 +0200" stop="20240224143000 +0200" channel="cine.box">
+    <title lang="bg">Изгубеният град Z</title>
+  </programme>
+  <programme start="20240224143000 +0200" stop="20240224163000 +0200" channel="cine.box">
+    <title lang="bg">С дъх канела</title>
+  </programme>
+  <programme start="20240224163000 +0200" stop="20240224183000 +0200" channel="cine.box">
+    <title lang="bg">Прелестни създания</title>
+  </programme>
+  <programme start="20240224183000 +0200" stop="20240224203000 +0200" channel="cine.box">
+    <title lang="bg">Книжарница в Париж</title>
+  </programme>
+  <programme start="20240224203000 +0200" stop="20240224230500 +0200" channel="cine.box">
+    <title lang="bg">Суша</title>
+  </programme>
+  <programme start="20240224230500 +0200" stop="20240225003000 +0200" channel="cine.box">
+    <title lang="bg">Пленително пътуване</title>
+  </programme>
+  <programme start="20240223230500 +0200" stop="20240224010500 +0200" channel="action.box">
+    <title lang="bg">Чудо</title>
+  </programme>
+  <programme start="20240224010500 +0200" stop="20240224023000 +0200" channel="action.box">
+    <title lang="bg">Прозрение</title>
+  </programme>
+  <programme start="20240224023000 +0200" stop="20240224040000 +0200" channel="action.box">
+    <title lang="bg">Райският град</title>
+  </programme>
+  <programme start="20240224040000 +0200" stop="20240224060500 +0200" channel="action.box">
+    <title lang="bg">Старо момче</title>
+  </programme>
+  <programme start="20240224060500 +0200" stop="20240224080500 +0200" channel="action.box">
+    <title lang="bg">На лов за плячка</title>
+  </programme>
+  <programme start="20240224080500 +0200" stop="20240224100500 +0200" channel="action.box">
+    <title lang="bg">Портал на воините</title>
+  </programme>
+  <programme start="20240224100500 +0200" stop="20240224120500 +0200" channel="action.box">
+    <title lang="bg">Горските мечоци: Див свят</title>
+  </programme>
+  <programme start="20240224120500 +0200" stop="20240224130500 +0200" channel="action.box">
+    <title lang="bg">Форсмажор</title>
+  </programme>
+  <programme start="20240224130500 +0200" stop="20240224150500 +0200" channel="action.box">
+    <title lang="bg">Електра</title>
+  </programme>
+  <programme start="20240224150500 +0200" stop="20240224170500 +0200" channel="action.box">
+    <title lang="bg">Чудо</title>
+  </programme>
+  <programme start="20240224170500 +0200" stop="20240224183000 +0200" channel="action.box">
+    <title lang="bg">Оглитата: Добре дошли в Смърделград</title>
+  </programme>
+  <programme start="20240224183000 +0200" stop="20240224200500 +0200" channel="action.box">
+    <title lang="bg">Мегре и мъртвото момиче</title>
+  </programme>
+  <programme start="20240224200500 +0200" stop="20240224220500 +0200" channel="action.box">
+    <title lang="bg">Последният ловец на вещици</title>
+  </programme>
+  <programme start="20240224220500 +0200" stop="20240224230500 +0200" channel="action.box">
+    <title lang="bg">Форсмажор</title>
+  </programme>
+  <programme start="20240224230500 +0200" stop="20240225013000 +0200" channel="action.box">
+    <title lang="bg">Момчето от рая</title>
+  </programme>
+  <programme start="20240223230000 +0200" stop="20240224010500 +0200" channel="comedy.box">
+    <title lang="bg">Невероятният Джо</title>
+  </programme>
+  <programme start="20240224010500 +0200" stop="20240224030000 +0200" channel="comedy.box">
+    <title lang="bg">Точната бройка</title>
+  </programme>
+  <programme start="20240224030000 +0200" stop="20240224050500 +0200" channel="comedy.box">
+    <title lang="bg">Миражът</title>
+  </programme>
+  <programme start="20240224050500 +0200" stop="20240224070500 +0200" channel="comedy.box">
+    <title lang="bg">Децата на другите</title>
+  </programme>
+  <programme start="20240224070500 +0200" stop="20240224093000 +0200" channel="comedy.box">
+    <title lang="bg">Идиотският триъгълник</title>
+  </programme>
+  <programme start="20240224093000 +0200" stop="20240224110500 +0200" channel="comedy.box">
+    <title lang="bg">Top Cat: Началото на мафията </title>
+  </programme>
+  <programme start="20240224110500 +0200" stop="20240224130500 +0200" channel="comedy.box">
+    <title lang="bg">Селско кабаре</title>
+  </programme>
+  <programme start="20240224130500 +0200" stop="20240224150500 +0200" channel="comedy.box">
+    <title lang="bg">Лен и компания</title>
+  </programme>
+  <programme start="20240224150500 +0200" stop="20240224170500 +0200" channel="comedy.box">
+    <title lang="bg">Невероятният Джо</title>
+  </programme>
+  <programme start="20240224170500 +0200" stop="20240224190000 +0200" channel="comedy.box">
+    <title lang="bg">Маймунджилъци</title>
+  </programme>
+  <programme start="20240224190000 +0200" stop="20240224210500 +0200" channel="comedy.box">
+    <title lang="bg">Точната бройка</title>
+  </programme>
+  <programme start="20240224210500 +0200" stop="20240224230500 +0200" channel="comedy.box">
+    <title lang="bg">Разходка под слънцето</title>
+  </programme>
+  <programme start="20240224230500 +0200" stop="20240225003000 +0200" channel="comedy.box">
+    <title lang="bg">Един разгневен мъж в Бруклин</title>
   </programme>
   <programme start="20240223080000 +0200" stop="20240223100000 +0200" channel="novasport.bg">
     <title>Сентръл Коуст Маринърс - Макартър</title>
