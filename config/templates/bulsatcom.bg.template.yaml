@@ -2,6 +2,7 @@
 version: 1.0
 author: Hristo Genev
 culture: bg-BG
+timezone: Europe/Moscow
 
 request:
   url: https://playouts.bbox.bulsat.com/epg
@@ -33,3 +34,7 @@ channel-parameters:
     channelId: Actionbox
   comedy.box:
     channelId: Comedybox
+  lovnoribarskiclub.box:
+    channelId: Lovno_Ribarski_Club
+  romani.box:
+    channelId: Romani_Yak
