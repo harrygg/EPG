@@ -118,6 +118,7 @@
     lang: en
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - btv.bg
   - dnes.bg
@@ -137,6 +138,7 @@
   - name: BTV Lady
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - btv.bg
   - dnes.bg
@@ -380,7 +382,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  # - hbo.bg
+  - tvprofil.com
   - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
@@ -394,7 +396,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  # - hbo.bg
+  - tvprofil.com
   - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
@@ -408,6 +410,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
@@ -419,8 +422,9 @@
     lang: en
   - name: Cinemax HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
@@ -432,8 +436,9 @@
     lang: en
   - name: Cinemax 2 HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv.dir.bg
   - tv-programa.bg
   - dnes.bg
@@ -494,6 +499,7 @@
   sources:
   - cinemania.bg
   - tv-programa.bg
+  - tvprofil.com
 
 - id: epicdrama.bg
   enabled: true
@@ -534,6 +540,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - start.bg
   
@@ -546,6 +553,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - start.bg
   
@@ -558,6 +566,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - start.bg
   
@@ -582,6 +591,7 @@
   - name: VIVACOM Arena
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - start.bg
 
@@ -613,6 +623,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - nova.bg
   - dnes.bg
   - start.bg
@@ -657,6 +668,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - dnes.bg
   
 - id: axnblack.bg
@@ -666,6 +678,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - dnes.bg
   
 - id: cbsreality.tv
@@ -891,6 +904,7 @@
   groups: ["sport", "tivi.bg"]
   sources:
   - diemaextra.bg
+  - tvprofil.com
   
 - id: ring.bg
   enabled: true
@@ -977,6 +991,7 @@
   - name: Eurosport LQ
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - dnes.bg
   - tv.dir.bg
   - start.bg
@@ -989,6 +1004,7 @@
   - name: Eurosport 2 LQ
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - dnes.bg
   - tv.dir.bg
   - start.bg
@@ -1638,6 +1654,7 @@
   - tv.dir.bg
   - start.bg
   - dnes.bg
+  - tvprofil.com
 
 - id: fastfunbox.com
   enabled: true
@@ -1780,6 +1797,7 @@
   groups: ["tivi.bg"]
   sources:
   - programtv.onet.pl
+  - tvprofil.com
 
 - id: thevoice.bg
   days-ahead: 1
@@ -1814,6 +1832,7 @@
   groups: ["tivi.bg"]
   sources:
   - bgmusic.tv
+  - tvprofil.com
 
 - id: boxtv.bg
   days-ahead: 1
@@ -1825,6 +1844,7 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - start.bg
+  - tvprofil.com
 
 - id: magictv.bg
   days-ahead: 1
@@ -1898,6 +1918,7 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - dstv.bg
+  - tvprofil.com
   
 - id: fentv.bg
   days-ahead: 1
@@ -2011,6 +2032,16 @@
   sources:
   - mts.rs
 
+- id: bnmusic.tv
+  days-ahead: 1
+  enabled: true
+  names:
+    - name: BN Music
+    - name: BN Music HD
+  groups: ["tivi.bg"]
+  sources:
+  - tvprofil.com
+
 - id: pinkfolk.rs
   days-ahead: 1
   enabled: true
@@ -2057,6 +2088,7 @@
   groups: ["tivi.bg"]
   sources:
   - tvplus.com.tr
+  - tvprofil.com
 
 ##############
 ### GERMAN ###
@@ -2191,6 +2223,17 @@
     lang: de
   groups: ["tivi.bg"]
   sources:
+  - tvtoday.de
+  - tvprofil.com
+  
+- id: ric.de
+  enabled: true
+  names:
+  - name: RiC
+    lang: de
+  groups: ["tivi.bg"]
+  sources:
+  - tvprofil.com
   - tvtoday.de
   
 - id: 3sat.de
@@ -2778,8 +2821,8 @@
   - name: Wild TV HD
   groups: ["tivi.bg"]
   sources:
+  - wildtv.ca
   - dnes.bg
-  # - wildtv.ca/schedule
 
 - id: 24kitchen.bg
   enabled: true
@@ -2790,6 +2833,7 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - waltdisney.bg
+  - tvprofil.com
   
 - id: soulandpepper.tv
   enabled: true
@@ -2820,6 +2864,7 @@
   groups: ["tivi.bg"]
   sources:
   - tv-programa.bg
+  - tvprofil.com
   - dnes.bg
   - start.bg
   - tv.dir.bg
@@ -3179,6 +3224,7 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
+  - tvprofil.com
   - dnes.bg
   - start.bg
   - tv.dir.bg
@@ -3213,6 +3259,7 @@
   groups: ["tivi.bg"]
   sources:
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: fashionbox.tv
   enabled: true
@@ -3224,6 +3271,7 @@
   groups: ["tivi.bg"]
   sources:
   - mts.rs
+  - tvprofil.com
   
 - id: chasseetpeche.fr
   enabled: true
@@ -3265,6 +3313,17 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - wnesstv.com
+  - tvprofil.com
+  
+- id: myzen.tv
+  enabled: true
+  names:
+  - name: MyZen 4K
+  - name: MyZen HD
+  - name: MyZen
+  groups: ["tivi.bg"]
+  sources:
+  - tvprofil.com
   
 ############
 ### KIDS ###
@@ -3278,10 +3337,10 @@
     lang: en
   groups: ["kids", "tivi.bg"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - start.bg
   - tv.dir.bg
-  - tvprofil.com
   
 - id: nicktoons.tv
   enabled: true
@@ -3304,6 +3363,7 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - start.bg
   - tv.dir.bg
@@ -3316,6 +3376,7 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - start.bg
   - dnes.bg
   
@@ -3329,6 +3390,7 @@
     lang: en
   groups: ["kids", "tivi.bg"]
   sources:
+  - tvprofil.com
   - start.bg
   - tv-programa.bg
   - dnes.bg
@@ -3352,9 +3414,20 @@
     lang: en
   groups: ["kids", "tivi.bg"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - dnes.bg
   - tv.dir.bg
+  
+- id: supertoons.bg
+  enabled: false
+  names:
+  - name: Super Toons
+  - name: Super Toons HD
+    lang: en
+  groups: ["kids", "tivi.bg"]
+  sources:
+  - tvprofil.com
   
 - id: cartoonnetwork.tv
   enabled: true
@@ -3365,6 +3438,7 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - start.bg
   - dnes.bg
   - tv.dir.bg
@@ -3379,6 +3453,7 @@
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
   - disney.bg
+  - tvprofil.com
   - tv-programa.bg
   - dnes.bg
   - tv.dir.bg
@@ -3391,6 +3466,7 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - disney.bg
   - dnes.bg
   - start.bg
@@ -3432,6 +3508,7 @@
   - tvplus.com.tr
   - trt.net.tr
   - turksatkablo.com.tr
+  - tvprofil.com
   
 - id: minicacocuk.tr
   enabled: true
@@ -3448,6 +3525,7 @@
   - name: Duck TV
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tvplus.com.tr
   
 - id: baby.tv
@@ -3464,6 +3542,7 @@
   - name: Fix and Foxi
   groups: ["kids", "tivi.bg"]
   sources:
+  - tvprofil.com
   - tvtoday.de
 
 
@@ -3964,6 +4043,7 @@
   groups: ["xxx", "tivi.bg"]
   sources:
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: eroxxx.spiintl.com
   enabled: true
@@ -3974,6 +4054,7 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
+  - tvprofil.com
   - programtv.onet.pl
   
 - id: dorceltv.com
@@ -3985,6 +4066,7 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
+  - tvprofil.com
   - programtv.onet.pl
   
 - id: dorcelxxx.com
@@ -3996,6 +4078,7 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
+  - tvprofil.com
   - programtv.onet.pl
   
 - id: hustlerhd.com
@@ -4007,6 +4090,7 @@
   sources:
   - tvsporedi.si
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: hustlertv.com
   enabled: true
@@ -4016,6 +4100,7 @@
   groups: ["xxx", "tivi.bg"]
   sources:
   - tvsporedi.si
+  - tvprofil.com
   - programtv.onet.pl
   
 - id: redlighttv.com
@@ -4025,6 +4110,7 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
+  - tvprofil.com
   - programtv.onet.pl
   
 - id: private.tv
@@ -4034,6 +4120,20 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
+  - tvprofil.com
+  - tvsporedi.si
+  - programtv.onet.pl
+  
+- id: playboy.tv
+  enabled: true
+  names:
+  - name: Playboy
+  - name: Playboy TV
+  - name: Playboy TV HD
+    lang: en
+  groups: ["xxx", "tivi.bg"]
+  sources:
+  - tvprofil.com
   - tvsporedi.si
   - programtv.onet.pl
   
@@ -4045,6 +4145,25 @@
   groups: ["xxx", "tivi.bg"]
   sources:
   - programtv.onet.pl
+  - tvprofil.com
+  
+- id: xxl.tv
+  enabled: true
+  names:
+  - name: XXL
+    lang: en
+  groups: ["xxx", "tivi.bg"]
+  sources:
+  - tvprofil.com
+  
+- id: passionxxx.tv
+  enabled: true
+  names:
+  - name: Passion XXX
+    lang: en
+  groups: ["xxx", "tivi.bg"]
+  sources:
+  - tvprofil.com
 
 ###############
 ### SERBIAN ###
@@ -4293,6 +4412,7 @@
   sources:
   - tvsporedi.tv
   - yandex.ru
+  - tvprofil.com
   
 - id: ambience.tv
   enabled: false

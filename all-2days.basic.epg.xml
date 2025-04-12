@@ -615,6 +615,10 @@
   <channel id="hayatmusic.rs">
     <display-name>Hayat Music</display-name>
   </channel>
+  <channel id="bnmusic.tv">
+    <display-name>BN Music</display-name>
+    <display-name>BN Music HD</display-name>
+  </channel>
   <channel id="pinkfolk.rs">
     <display-name>Pink Folk</display-name>
   </channel>
@@ -679,6 +683,9 @@
   </channel>
   <channel id="kika.de">
     <display-name lang="de">Kika</display-name>
+  </channel>
+  <channel id="ric.de">
+    <display-name lang="de">RiC</display-name>
   </channel>
   <channel id="3sat.de">
     <display-name lang="de">3 Sat</display-name>
@@ -999,6 +1006,11 @@
     <display-name>Wness TV</display-name>
     <display-name>Wness HD</display-name>
   </channel>
+  <channel id="myzen.tv">
+    <display-name>MyZen 4K</display-name>
+    <display-name>MyZen HD</display-name>
+    <display-name>MyZen</display-name>
+  </channel>
   <channel id="nickelodeon.tv">
     <display-name>Nickeldeon</display-name>
     <display-name lang="en">Nickeldeon LQ</display-name>
@@ -1231,8 +1243,19 @@
   <channel id="private.tv">
     <display-name lang="en">Private TV</display-name>
   </channel>
+  <channel id="playboy.tv">
+    <display-name>Playboy</display-name>
+    <display-name>Playboy TV</display-name>
+    <display-name lang="en">Playboy TV HD</display-name>
+  </channel>
   <channel id="brazzers.eu">
     <display-name lang="en">Brazzers Europe</display-name>
+  </channel>
+  <channel id="xxl.tv">
+    <display-name lang="en">XXL</display-name>
+  </channel>
+  <channel id="passionxxx.tv">
+    <display-name lang="en">Passion XXX</display-name>
   </channel>
   <channel id="rts1.rs">
     <display-name lang="sr">РТС 1</display-name>
@@ -13954,6 +13977,45 @@
   <programme start="20250412020000 +0300" channel="hayatmusic.rs">
     <title>Nema informacija o programu</title>
   </programme>
+  <programme start="20250412100000 +0300" stop="20250412140000 +0300" channel="bnmusic.tv">
+    <title>Iz arhiva stara domaća narodna muzika</title>
+  </programme>
+  <programme start="20250412140000 +0300" stop="20250412140500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250412140500 +0300" stop="20250412160000 +0300" channel="bnmusic.tv">
+    <title>Novi hitovi</title>
+  </programme>
+  <programme start="20250412160000 +0300" stop="20250412160500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250412160500 +0300" stop="20250412180000 +0300" channel="bnmusic.tv">
+    <title>Folk narodna muzika</title>
+  </programme>
+  <programme start="20250412180000 +0300" stop="20250412180500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250412180500 +0300" stop="20250412185500 +0300" channel="bnmusic.tv">
+    <title>Turbo folk muzika i spotovi</title>
+  </programme>
+  <programme start="20250412185500 +0300" stop="20250412190000 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250412190000 +0300" stop="20250412210000 +0300" channel="bnmusic.tv">
+    <title>BN Radio</title>
+  </programme>
+  <programme start="20250412210000 +0300" stop="20250412210500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250412210500 +0300" stop="20250412225500 +0300" channel="bnmusic.tv">
+    <title>Plejbek BN TV i komercijalni spotovi</title>
+  </programme>
+  <programme start="20250412225500 +0300" stop="20250412230000 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250412230000 +0300" channel="bnmusic.tv">
+    <title>BN Radio</title>
+  </programme>
   <programme start="20250412020000 +0300" channel="pinkfolk.rs">
     <title>Nema informacija o programu</title>
   </programme>
@@ -16269,6 +16331,174 @@
   </programme>
   <programme start="20250413210000 +0300" stop="20250414060000 +0300" channel="kika.de">
     <title>Sendepause</title>
+  </programme>
+  <programme start="20250412070000 +0300" stop="20250412080000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412080000 +0300" stop="20250412083000 +0300" channel="ric.de">
+    <title>Prudence Petitpas</title>
+  </programme>
+  <programme start="20250412083000 +0300" stop="20250412090000 +0300" channel="ric.de">
+    <title>Timothy Goes to School</title>
+  </programme>
+  <programme start="20250412090000 +0300" stop="20250412093000 +0300" channel="ric.de">
+    <title>Jungledyret Hugo</title>
+  </programme>
+  <programme start="20250412093000 +0300" stop="20250412100000 +0300" channel="ric.de">
+    <title>George Shrinks</title>
+  </programme>
+  <programme start="20250412100000 +0300" stop="20250412110000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412110000 +0300" stop="20250412120000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412120000 +0300" stop="20250412130000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412130000 +0300" stop="20250412140000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412140000 +0300" stop="20250412150000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412150000 +0300" stop="20250412153000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412153000 +0300" stop="20250412160000 +0300" channel="ric.de">
+    <title>Rupert</title>
+  </programme>
+  <programme start="20250412160000 +0300" stop="20250412163000 +0300" channel="ric.de">
+    <title>Blazing Dragons</title>
+  </programme>
+  <programme start="20250412163000 +0300" stop="20250412170000 +0300" channel="ric.de">
+    <title>Da Boom Crew</title>
+  </programme>
+  <programme start="20250412170000 +0300" stop="20250412173000 +0300" channel="ric.de">
+    <title>Dog City</title>
+  </programme>
+  <programme start="20250412173000 +0300" stop="20250412174300 +0300" channel="ric.de">
+    <title>Sherm!</title>
+  </programme>
+  <programme start="20250412174300 +0300" stop="20250412180000 +0300" channel="ric.de">
+    <title>Sherm!</title>
+  </programme>
+  <programme start="20250412180000 +0300" stop="20250412183000 +0300" channel="ric.de">
+    <title>Donkey Kong Country</title>
+  </programme>
+  <programme start="20250412183000 +0300" stop="20250412190000 +0300" channel="ric.de">
+    <title>Мисия Одисея</title>
+  </programme>
+  <programme start="20250412190000 +0300" stop="20250412200000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412200000 +0300" stop="20250412203000 +0300" channel="ric.de">
+    <title>Extreme Dinosaurs</title>
+  </programme>
+  <programme start="20250412203000 +0300" stop="20250412210000 +0300" channel="ric.de">
+    <title>Ultimate Book of Spells</title>
+  </programme>
+  <programme start="20250412210000 +0300" stop="20250412213000 +0300" channel="ric.de">
+    <title>Кръстници вълшебници</title>
+  </programme>
+  <programme start="20250412213000 +0300" stop="20250412223000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412223000 +0300" stop="20250412233000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250412233000 +0300" stop="20250413003000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413003000 +0300" stop="20250413013000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413013000 +0300" stop="20250413020000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413020000 +0300" stop="20250413030000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413030000 +0300" stop="20250413070000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413070000 +0300" stop="20250413080000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413080000 +0300" stop="20250413083000 +0300" channel="ric.de">
+    <title>Prudence Petitpas</title>
+  </programme>
+  <programme start="20250413083000 +0300" stop="20250413090000 +0300" channel="ric.de">
+    <title>Timothy Goes to School</title>
+  </programme>
+  <programme start="20250413090000 +0300" stop="20250413093000 +0300" channel="ric.de">
+    <title>Jungledyret Hugo</title>
+  </programme>
+  <programme start="20250413093000 +0300" stop="20250413100000 +0300" channel="ric.de">
+    <title>George Shrinks</title>
+  </programme>
+  <programme start="20250413100000 +0300" stop="20250413110000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413110000 +0300" stop="20250413120000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413120000 +0300" stop="20250413130000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413130000 +0300" stop="20250413140000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413140000 +0300" stop="20250413150000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413150000 +0300" stop="20250413153000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413153000 +0300" stop="20250413160000 +0300" channel="ric.de">
+    <title>Rupert</title>
+  </programme>
+  <programme start="20250413160000 +0300" stop="20250413163000 +0300" channel="ric.de">
+    <title>Blazing Dragons</title>
+  </programme>
+  <programme start="20250413163000 +0300" stop="20250413170000 +0300" channel="ric.de">
+    <title>Da Boom Crew</title>
+  </programme>
+  <programme start="20250413170000 +0300" stop="20250413173000 +0300" channel="ric.de">
+    <title>Dog City</title>
+  </programme>
+  <programme start="20250413173000 +0300" stop="20250413174300 +0300" channel="ric.de">
+    <title>Sherm!</title>
+  </programme>
+  <programme start="20250413174300 +0300" stop="20250413180000 +0300" channel="ric.de">
+    <title>Sherm!</title>
+  </programme>
+  <programme start="20250413180000 +0300" stop="20250413183000 +0300" channel="ric.de">
+    <title>Donkey Kong Country</title>
+  </programme>
+  <programme start="20250413183000 +0300" stop="20250413190000 +0300" channel="ric.de">
+    <title>Мисия Одисея</title>
+  </programme>
+  <programme start="20250413190000 +0300" stop="20250413200000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413200000 +0300" stop="20250413203000 +0300" channel="ric.de">
+    <title>Extreme Dinosaurs</title>
+  </programme>
+  <programme start="20250413203000 +0300" stop="20250413210000 +0300" channel="ric.de">
+    <title>Ultimate Book of Spells</title>
+  </programme>
+  <programme start="20250413210000 +0300" stop="20250413213000 +0300" channel="ric.de">
+    <title>Кръстници вълшебници</title>
+  </programme>
+  <programme start="20250413213000 +0300" stop="20250413223000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413223000 +0300" stop="20250413233000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250413233000 +0300" stop="20250414003000 +0300" channel="ric.de">
+    <title>Mediashop</title>
   </programme>
   <programme start="20250412052000 +0300" stop="20250412054500 +0300" channel="3sat.de">
     <title>Pratersterne – Rote Bar – Highlights</title>
@@ -25018,6 +25248,294 @@
   <programme start="20250413231500 +0300" stop="20250414000500 +0300" channel="natgeowild.bg">
     <title>Невероятният д-р Пол</title>
   </programme>
+  <programme start="20250412000000 +0300" stop="20250412003000 +0300" channel="wildtv.com">
+    <title>Antler Firearms Presents Prairie Pursuit</title>
+  </programme>
+  <programme start="20250412003000 +0300" stop="20250412010000 +0300" channel="wildtv.com">
+    <title>El Camino Motorcycle Television</title>
+  </programme>
+  <programme start="20250412010000 +0300" stop="20250412013000 +0300" channel="wildtv.com">
+    <title>Carnivore TV</title>
+  </programme>
+  <programme start="20250412013000 +0300" stop="20250412020000 +0300" channel="wildtv.com">
+    <title>DeerTopia</title>
+  </programme>
+  <programme start="20250412020000 +0300" stop="20250412023000 +0300" channel="wildtv.com">
+    <title>Dream Makers</title>
+  </programme>
+  <programme start="20250412023000 +0300" stop="20250412030000 +0300" channel="wildtv.com">
+    <title>Hunting with HECS</title>
+  </programme>
+  <programme start="20250412030000 +0300" stop="20250412033000 +0300" channel="wildtv.com">
+    <title>Archer's Choice</title>
+  </programme>
+  <programme start="20250412033000 +0300" stop="20250412040000 +0300" channel="wildtv.com">
+    <title>Paid Programming</title>
+  </programme>
+  <programme start="20250412040000 +0300" stop="20250412043000 +0300" channel="wildtv.com">
+    <title>Paid Programming</title>
+  </programme>
+  <programme start="20250412043000 +0300" stop="20250412050000 +0300" channel="wildtv.com">
+    <title>Sportsman's Journal TV</title>
+  </programme>
+  <programme start="20250412050000 +0300" stop="20250412053000 +0300" channel="wildtv.com">
+    <title>Homegrown Hunter</title>
+  </programme>
+  <programme start="20250412053000 +0300" stop="20250412060000 +0300" channel="wildtv.com">
+    <title>The Green Way Outdoors</title>
+  </programme>
+  <programme start="20250412060000 +0300" stop="20250412063000 +0300" channel="wildtv.com">
+    <title>Red Arrow</title>
+  </programme>
+  <programme start="20250412063000 +0300" stop="20250412070000 +0300" channel="wildtv.com">
+    <title>Deer &amp; Deer Hunting TV</title>
+  </programme>
+  <programme start="20250412070000 +0300" stop="20250412073000 +0300" channel="wildtv.com">
+    <title>Sportsman's Journal TV</title>
+  </programme>
+  <programme start="20250412073000 +0300" stop="20250412080000 +0300" channel="wildtv.com">
+    <title>Homegrown Hunter</title>
+  </programme>
+  <programme start="20250412080000 +0300" stop="20250412083000 +0300" channel="wildtv.com">
+    <title>Dirt Trax Television</title>
+  </programme>
+  <programme start="20250412083000 +0300" stop="20250412090000 +0300" channel="wildtv.com">
+    <title>Savage Outdoors</title>
+  </programme>
+  <programme start="20250412090000 +0300" stop="20250412093000 +0300" channel="wildtv.com">
+    <title>Wild Talk</title>
+  </programme>
+  <programme start="20250412093000 +0300" stop="20250412100000 +0300" channel="wildtv.com">
+    <title>Wild Talk</title>
+  </programme>
+  <programme start="20250412100000 +0300" stop="20250412103000 +0300" channel="wildtv.com">
+    <title>Offroad Odyssey</title>
+  </programme>
+  <programme start="20250412103000 +0300" stop="20250412110000 +0300" channel="wildtv.com">
+    <title>Snowmobiler TV</title>
+  </programme>
+  <programme start="20250412110000 +0300" stop="20250412113000 +0300" channel="wildtv.com">
+    <title>Long Range Hunter TV</title>
+  </programme>
+  <programme start="20250412113000 +0300" stop="20250412120000 +0300" channel="wildtv.com">
+    <title>The Chase with Ted &amp; Amber</title>
+  </programme>
+  <programme start="20250412120000 +0300" stop="20250412123000 +0300" channel="wildtv.com">
+    <title>Frontier Stories</title>
+  </programme>
+  <programme start="20250412123000 +0300" stop="20250412130000 +0300" channel="wildtv.com">
+    <title>Trekkit ATV</title>
+  </programme>
+  <programme start="20250412130000 +0300" stop="20250412133000 +0300" channel="wildtv.com">
+    <title>Grassroots Racing</title>
+  </programme>
+  <programme start="20250412133000 +0300" stop="20250412140000 +0300" channel="wildtv.com">
+    <title>Guns &amp; Gear</title>
+  </programme>
+  <programme start="20250412140000 +0300" stop="20250412143000 +0300" channel="wildtv.com">
+    <title>Trigger Time TV</title>
+  </programme>
+  <programme start="20250412143000 +0300" stop="20250412150000 +0300" channel="wildtv.com">
+    <title>The EDGE</title>
+  </programme>
+  <programme start="20250412150000 +0300" stop="20250412153000 +0300" channel="wildtv.com">
+    <title>The One</title>
+  </programme>
+  <programme start="20250412153000 +0300" stop="20250412160000 +0300" channel="wildtv.com">
+    <title>The Green Way Outdoors</title>
+  </programme>
+  <programme start="20250412160000 +0300" stop="20250412163000 +0300" channel="wildtv.com">
+    <title>Americana Outdoors</title>
+  </programme>
+  <programme start="20250412163000 +0300" stop="20250412170000 +0300" channel="wildtv.com">
+    <title>Gary Cooper's Fishing Diary</title>
+  </programme>
+  <programme start="20250412170000 +0300" stop="20250412173000 +0300" channel="wildtv.com">
+    <title>The Flush</title>
+  </programme>
+  <programme start="20250412173000 +0300" stop="20250412180000 +0300" channel="wildtv.com">
+    <title>Water Ways</title>
+  </programme>
+  <programme start="20250412180000 +0300" stop="20250412183000 +0300" channel="wildtv.com">
+    <title>CCFR Radio - On the Air</title>
+  </programme>
+  <programme start="20250412183000 +0300" stop="20250412190000 +0300" channel="wildtv.com">
+    <title>SnowTrax Television</title>
+  </programme>
+  <programme start="20250412190000 +0300" stop="20250412193000 +0300" channel="wildtv.com">
+    <title>Wild Talk</title>
+  </programme>
+  <programme start="20250412193000 +0300" stop="20250412200000 +0300" channel="wildtv.com">
+    <title>Wild Talk</title>
+  </programme>
+  <programme start="20250412200000 +0300" stop="20250412203000 +0300" channel="wildtv.com">
+    <title>Water Ways</title>
+  </programme>
+  <programme start="20250412203000 +0300" stop="20250412210000 +0300" channel="wildtv.com">
+    <title>Homegrown Hunter</title>
+  </programme>
+  <programme start="20250412210000 +0300" stop="20250412213000 +0300" channel="wildtv.com">
+    <title>Turkeys Gone Wild</title>
+  </programme>
+  <programme start="20250412213000 +0300" stop="20250412220000 +0300" channel="wildtv.com">
+    <title>Turkeys Gone Wild</title>
+  </programme>
+  <programme start="20250412220000 +0300" stop="20250412223000 +0300" channel="wildtv.com">
+    <title>Turkeys Gone Wild</title>
+  </programme>
+  <programme start="20250412223000 +0300" stop="20250412230000 +0300" channel="wildtv.com">
+    <title>The RVers</title>
+  </programme>
+  <programme start="20250412230000 +0300" stop="20250412233000 +0300" channel="wildtv.com">
+    <title>Archer's Choice</title>
+  </programme>
+  <programme start="20250412233000 +0300" stop="20250413000000 +0300" channel="wildtv.com">
+    <title>Homegrown</title>
+  </programme>
+  <programme start="20250413000000 +0300" stop="20250413003000 +0300" channel="wildtv.com">
+    <title>Fly Rod Chronicles with Curtis Fleming</title>
+  </programme>
+  <programme start="20250413003000 +0300" stop="20250413010000 +0300" channel="wildtv.com">
+    <title>Sport Fishing on the Fly</title>
+  </programme>
+  <programme start="20250413010000 +0300" stop="20250413013000 +0300" channel="wildtv.com">
+    <title>The Choice</title>
+  </programme>
+  <programme start="20250413013000 +0300" stop="20250413020000 +0300" channel="wildtv.com">
+    <title>The High Road with Keith Warren</title>
+  </programme>
+  <programme start="20250413020000 +0300" stop="20250413023000 +0300" channel="wildtv.com">
+    <title>Trailing the Hunter's Moon</title>
+  </programme>
+  <programme start="20250413023000 +0300" stop="20250413030000 +0300" channel="wildtv.com">
+    <title>Wiebe Trapline Adventures</title>
+  </programme>
+  <programme start="20250413030000 +0300" stop="20250413033000 +0300" channel="wildtv.com">
+    <title>Texas Strong Outdoors</title>
+  </programme>
+  <programme start="20250413033000 +0300" stop="20250413040000 +0300" channel="wildtv.com">
+    <title>Paid Programming</title>
+  </programme>
+  <programme start="20250413040000 +0300" stop="20250413043000 +0300" channel="wildtv.com">
+    <title>Paid Programming</title>
+  </programme>
+  <programme start="20250413043000 +0300" stop="20250413050000 +0300" channel="wildtv.com">
+    <title>Paid Programming</title>
+  </programme>
+  <programme start="20250413050000 +0300" stop="20250413053000 +0300" channel="wildtv.com">
+    <title>Cabela's Deer Gear</title>
+  </programme>
+  <programme start="20250413053000 +0300" stop="20250413060000 +0300" channel="wildtv.com">
+    <title>Grassroots Racing</title>
+  </programme>
+  <programme start="20250413060000 +0300" stop="20250413063000 +0300" channel="wildtv.com">
+    <title>Catching Bass with Dustin Wilks</title>
+  </programme>
+  <programme start="20250413063000 +0300" stop="20250413070000 +0300" channel="wildtv.com">
+    <title>The Wild Grill</title>
+  </programme>
+  <programme start="20250413070000 +0300" stop="20250413073000 +0300" channel="wildtv.com">
+    <title>Breaking Spring</title>
+  </programme>
+  <programme start="20250413073000 +0300" stop="20250413080000 +0300" channel="wildtv.com">
+    <title>Reel West Coast</title>
+  </programme>
+  <programme start="20250413080000 +0300" stop="20250413083000 +0300" channel="wildtv.com">
+    <title>Wild Talk</title>
+  </programme>
+  <programme start="20250413083000 +0300" stop="20250413090000 +0300" channel="wildtv.com">
+    <title>Wild Talk</title>
+  </programme>
+  <programme start="20250413090000 +0300" stop="20250413093000 +0300" channel="wildtv.com">
+    <title>Yamaha Whitetail Diaries</title>
+  </programme>
+  <programme start="20250413093000 +0300" stop="20250413100000 +0300" channel="wildtv.com">
+    <title>Let's Take it Outside with Misty Wells</title>
+  </programme>
+  <programme start="20250413100000 +0300" stop="20250413103000 +0300" channel="wildtv.com">
+    <title>National Walleye Tour</title>
+  </programme>
+  <programme start="20250413103000 +0300" stop="20250413110000 +0300" channel="wildtv.com">
+    <title>Gary Cooper's Fishing Diary</title>
+  </programme>
+  <programme start="20250413110000 +0300" stop="20250413113000 +0300" channel="wildtv.com">
+    <title>Hitmen</title>
+  </programme>
+  <programme start="20250413113000 +0300" stop="20250413120000 +0300" channel="wildtv.com">
+    <title>Turkeys Gone Wild</title>
+  </programme>
+  <programme start="20250413120000 +0300" stop="20250413123000 +0300" channel="wildtv.com">
+    <title>Turkeys Gone Wild</title>
+  </programme>
+  <programme start="20250413123000 +0300" stop="20250413130000 +0300" channel="wildtv.com">
+    <title>Turkeys Gone Wild</title>
+  </programme>
+  <programme start="20250413130000 +0300" stop="20250413133000 +0300" channel="wildtv.com">
+    <title>Homegrown</title>
+  </programme>
+  <programme start="20250413133000 +0300" stop="20250413140000 +0300" channel="wildtv.com">
+    <title>Homegrown Hunter</title>
+  </programme>
+  <programme start="20250413140000 +0300" stop="20250413143000 +0300" channel="wildtv.com">
+    <title>The Outdoorsman</title>
+  </programme>
+  <programme start="20250413143000 +0300" stop="20250413150000 +0300" channel="wildtv.com">
+    <title>Hook &amp; Harvest</title>
+  </programme>
+  <programme start="20250413150000 +0300" stop="20250413153000 +0300" channel="wildtv.com">
+    <title>Wild Angles</title>
+  </programme>
+  <programme start="20250413153000 +0300" stop="20250413160000 +0300" channel="wildtv.com">
+    <title>Yamaha Whitetail Diaries</title>
+  </programme>
+  <programme start="20250413160000 +0300" stop="20250413163000 +0300" channel="wildtv.com">
+    <title>Archer's Choice</title>
+  </programme>
+  <programme start="20250413163000 +0300" stop="20250413170000 +0300" channel="wildtv.com">
+    <title>High BC</title>
+  </programme>
+  <programme start="20250413170000 +0300" stop="20250413173000 +0300" channel="wildtv.com">
+    <title>Wild Talk</title>
+  </programme>
+  <programme start="20250413173000 +0300" stop="20250413180000 +0300" channel="wildtv.com">
+    <title>Wild Talk</title>
+  </programme>
+  <programme start="20250413180000 +0300" stop="20250413183000 +0300" channel="wildtv.com">
+    <title>Outdoor Quest TV</title>
+  </programme>
+  <programme start="20250413183000 +0300" stop="20250413190000 +0300" channel="wildtv.com">
+    <title>North Mountain Adventures</title>
+  </programme>
+  <programme start="20250413190000 +0300" stop="20250413193000 +0300" channel="wildtv.com">
+    <title>Waterfowl East</title>
+  </programme>
+  <programme start="20250413193000 +0300" stop="20250413200000 +0300" channel="wildtv.com">
+    <title>The Canadian Tradition</title>
+  </programme>
+  <programme start="20250413200000 +0300" stop="20250413203000 +0300" channel="wildtv.com">
+    <title>The EDGE</title>
+  </programme>
+  <programme start="20250413203000 +0300" stop="20250413210000 +0300" channel="wildtv.com">
+    <title>My Best Hunt with Rod Giltaca</title>
+  </programme>
+  <programme start="20250413210000 +0300" stop="20250413213000 +0300" channel="wildtv.com">
+    <title>Dirt Nap TV</title>
+  </programme>
+  <programme start="20250413213000 +0300" stop="20250413220000 +0300" channel="wildtv.com">
+    <title>Non-Typical Nation</title>
+  </programme>
+  <programme start="20250413220000 +0300" stop="20250413223000 +0300" channel="wildtv.com">
+    <title>Argo Presents How To Hunt</title>
+  </programme>
+  <programme start="20250413223000 +0300" stop="20250413230000 +0300" channel="wildtv.com">
+    <title>Antler Firearms Presents Prairie Pursuit</title>
+  </programme>
+  <programme start="20250413230000 +0300" stop="20250413233000 +0300" channel="wildtv.com">
+    <title>Claudio Ongaro's Hired to Hunt</title>
+  </programme>
+  <programme start="20250413233000 +0300" stop="20250414000000 +0300" channel="wildtv.com">
+    <title>Pursue The Wild</title>
+  </programme>
   <programme start="20250412000000 +0300" stop="20250412001000 +0300" channel="24kitchen.bg">
     <title>Бон Апети</title>
   </programme>
@@ -31174,6 +31692,810 @@
   <programme start="20250413233000 +0300" stop="20250414060000 +0300" channel="wnesstv.com">
     <title>Възстановяване след раждане с Ваня: Диастаза - еп. 1</title>
   </programme>
+  <programme start="20250412080000 +0300" stop="20250412083000 +0300" channel="myzen.tv">
+    <title>Audio Advice</title>
+  </programme>
+  <programme start="20250412083000 +0300" stop="20250412090000 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250412090000 +0300" stop="20250412095000 +0300" channel="myzen.tv">
+    <title>Home training, thigh abs buttocks 1</title>
+  </programme>
+  <programme start="20250412095000 +0300" stop="20250412104500 +0300" channel="myzen.tv">
+    <title>Home training, boxing training</title>
+  </programme>
+  <programme start="20250412104500 +0300" stop="20250412110000 +0300" channel="myzen.tv">
+    <title>Stretching</title>
+  </programme>
+  <programme start="20250412110000 +0300" stop="20250412113000 +0300" channel="myzen.tv">
+    <title>Pilates</title>
+  </programme>
+  <programme start="20250412113000 +0300" stop="20250412121500 +0300" channel="myzen.tv">
+    <title>Home training, cardio dance</title>
+  </programme>
+  <programme start="20250412121500 +0300" stop="20250412124500 +0300" channel="myzen.tv">
+    <title>Massages</title>
+  </programme>
+  <programme start="20250412124500 +0300" stop="20250412132500 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250412132500 +0300" stop="20250412142000 +0300" channel="myzen.tv">
+    <title>Earth from aboveJapan: Mass consumption - What the labels forget to mention - Part 2</title>
+  </programme>
+  <programme start="20250412142000 +0300" stop="20250412152000 +0300" channel="myzen.tv">
+    <title>Earth from above, USA: The end of oil - Part 1</title>
+  </programme>
+  <programme start="20250412152000 +0300" stop="20250412161500 +0300" channel="myzen.tv">
+    <title>Earth from aboveThe sea needs us as we need the sea - Part 1</title>
+  </programme>
+  <programme start="20250412161500 +0300" stop="20250412171000 +0300" channel="myzen.tv">
+    <title>The Blue Zones of Longevity, Destination Sardinia</title>
+  </programme>
+  <programme start="20250412171000 +0300" stop="20250412180000 +0300" channel="myzen.tv">
+    <title>Julie's Frenchy Cookbook, The cheese menu</title>
+  </programme>
+  <programme start="20250412180000 +0300" stop="20250412184500 +0300" channel="myzen.tv">
+    <title>Home training, duo training</title>
+  </programme>
+  <programme start="20250412184500 +0300" stop="20250412193500 +0300" channel="myzen.tv">
+    <title>Home training, Thigh abs buttocks</title>
+  </programme>
+  <programme start="20250412193500 +0300" stop="20250412194500 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250412194500 +0300" stop="20250412195000 +0300" channel="myzen.tv">
+    <title>Yoga for kids, The pink flamingo</title>
+  </programme>
+  <programme start="20250412195000 +0300" stop="20250412195500 +0300" channel="myzen.tv">
+    <title>Yoga for kids, The Hedgehog</title>
+  </programme>
+  <programme start="20250412195500 +0300" stop="20250412200000 +0300" channel="myzen.tv">
+    <title>Vegetarian Delights</title>
+  </programme>
+  <programme start="20250412200000 +0300" stop="20250412210000 +0300" channel="myzen.tv">
+    <title>Julie's Frenchy Cookbook, Lille country</title>
+  </programme>
+  <programme start="20250412210000 +0300" stop="20250412214500 +0300" channel="myzen.tv">
+    <title>Tropical Home, Laura Botella of El Nido</title>
+  </programme>
+  <programme start="20250412214500 +0300" stop="20250412220000 +0300" channel="myzen.tv">
+    <title>My Zen People, Maud Urbas</title>
+  </programme>
+  <programme start="20250412220000 +0300" stop="20250412230000 +0300" channel="myzen.tv">
+    <title>Exercise your green thumb!</title>
+  </programme>
+  <programme start="20250412230000 +0300" stop="20250413000000 +0300" channel="myzen.tv">
+    <title>The Great Gardening Challenge, еп. 2</title>
+  </programme>
+  <programme start="20250413000000 +0300" stop="20250413020500 +0300" channel="myzen.tv">
+    <title>Who will be the next great baker? 2, еп. 2</title>
+  </programme>
+  <programme start="20250413020500 +0300" stop="20250413030000 +0300" channel="myzen.tv">
+    <title>Audio Advice</title>
+  </programme>
+  <programme start="20250413030000 +0300" stop="20250413033000 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250413033000 +0300" stop="20250413043000 +0300" channel="myzen.tv">
+    <title>Audio Advice</title>
+  </programme>
+  <programme start="20250413043000 +0300" stop="20250413050000 +0300" channel="myzen.tv">
+    <title>My Zen Relaxation</title>
+  </programme>
+  <programme start="20250413050000 +0300" stop="20250413065500 +0300" channel="myzen.tv">
+    <title>Beautiful landscapes</title>
+  </programme>
+  <programme start="20250413065500 +0300" stop="20250413080000 +0300" channel="myzen.tv">
+    <title>My Zen Relaxation</title>
+  </programme>
+  <programme start="20250413080000 +0300" stop="20250413083000 +0300" channel="myzen.tv">
+    <title>Audio Advice</title>
+  </programme>
+  <programme start="20250413083000 +0300" stop="20250413090000 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250413090000 +0300" stop="20250413095000 +0300" channel="myzen.tv">
+    <title>Home training, cardio training 2</title>
+  </programme>
+  <programme start="20250413095000 +0300" stop="20250413104500 +0300" channel="myzen.tv">
+    <title>Home training, full body with chair</title>
+  </programme>
+  <programme start="20250413104500 +0300" stop="20250413110000 +0300" channel="myzen.tv">
+    <title>Stretching</title>
+  </programme>
+  <programme start="20250413110000 +0300" stop="20250413113000 +0300" channel="myzen.tv">
+    <title>Pilates</title>
+  </programme>
+  <programme start="20250413113000 +0300" stop="20250413121500 +0300" channel="myzen.tv">
+    <title>Home training, deep muscles, legs &amp; buttocks</title>
+  </programme>
+  <programme start="20250413121500 +0300" stop="20250413124500 +0300" channel="myzen.tv">
+    <title>Massages</title>
+  </programme>
+  <programme start="20250413124500 +0300" stop="20250413130000 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250413130000 +0300" stop="20250413151000 +0300" channel="myzen.tv">
+    <title>Who will be the next great baker? 2, еп. 2</title>
+  </programme>
+  <programme start="20250413151000 +0300" stop="20250413160500 +0300" channel="myzen.tv">
+    <title>Julie's Frenchy Cookbook, Lille country</title>
+  </programme>
+  <programme start="20250413160500 +0300" stop="20250413170500 +0300" channel="myzen.tv">
+    <title>Exercise your green thumb!</title>
+  </programme>
+  <programme start="20250413170500 +0300" stop="20250413180000 +0300" channel="myzen.tv">
+    <title>The Great Gardening Challenge, еп. 2</title>
+  </programme>
+  <programme start="20250413180000 +0300" stop="20250413184500 +0300" channel="myzen.tv">
+    <title>Home training, cardio dance</title>
+  </programme>
+  <programme start="20250413184500 +0300" stop="20250413193500 +0300" channel="myzen.tv">
+    <title>Home training, cardio training 2</title>
+  </programme>
+  <programme start="20250413193500 +0300" stop="20250413194500 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250413194500 +0300" stop="20250413195000 +0300" channel="myzen.tv">
+    <title>Yoga for kids, The butterfly</title>
+  </programme>
+  <programme start="20250413195000 +0300" stop="20250413195500 +0300" channel="myzen.tv">
+    <title>Yoga for kids, The little piggy</title>
+  </programme>
+  <programme start="20250413195500 +0300" stop="20250413200000 +0300" channel="myzen.tv">
+    <title>Vegetarian Delights</title>
+  </programme>
+  <programme start="20250413200000 +0300" stop="20250413210000 +0300" channel="myzen.tv">
+    <title>Julie's Frenchy Cookbook, Fruits flavors</title>
+  </programme>
+  <programme start="20250413210000 +0300" stop="20250413220000 +0300" channel="myzen.tv">
+    <title>The Blue Zones of Longevity, Destination Sardinia</title>
+  </programme>
+  <programme start="20250413220000 +0300" stop="20250413230000 +0300" channel="myzen.tv">
+    <title>Earth from aboveThe sea needs us as we need the sea - Part 1</title>
+  </programme>
+  <programme start="20250413230000 +0300" stop="20250414000000 +0300" channel="myzen.tv">
+    <title>Our Five Senses, The Mysteries of Taste</title>
+  </programme>
+  <programme start="20250412070000 +0300" stop="20250412071000 +0300" channel="nickelodeon.tv">
+    <title>Алвин и Катеричоците 5, еп. 14, Ваканция за разкопки</title>
+  </programme>
+  <programme start="20250412071000 +0300" stop="20250412073500 +0300" channel="nickelodeon.tv">
+    <title>Алвин и Катеричоците 5, еп. 11, Музикални затруднения / Заключен</title>
+  </programme>
+  <programme start="20250412073500 +0300" stop="20250412080000 +0300" channel="nickelodeon.tv">
+    <title>Алвин и Катеричоците 5, еп. 12Пожарна безопасност / Замъкът Катастрофа</title>
+  </programme>
+  <programme start="20250412080000 +0300" stop="20250412083000 +0300" channel="nickelodeon.tv">
+    <title>Смърфовете 1, еп. 7Смърф, моят герой / Извънземен смърф</title>
+  </programme>
+  <programme start="20250412083000 +0300" stop="20250412090000 +0300" channel="nickelodeon.tv">
+    <title>Смърфовете 1, еп. 8, Смърфнете си коланите / Сарсапарила</title>
+  </programme>
+  <programme start="20250412090000 +0300" stop="20250412092500 +0300" channel="nickelodeon.tv">
+    <title>Зоки на планетата на Руби 1, еп. 6, Голямото оплитане</title>
+  </programme>
+  <programme start="20250412092500 +0300" stop="20250412095500 +0300" channel="nickelodeon.tv">
+    <title>Шоуто на Патрик Звездата 1, еп. 17Лигавещият се глупчо / Патрик и извънземното</title>
+  </programme>
+  <programme start="20250412095500 +0300" stop="20250412102500 +0300" channel="nickelodeon.tv">
+    <title>Шоуто на Патрик Звездата 1, еп. 15Недостоверно пътуване / Водещо събитие</title>
+  </programme>
+  <programme start="20250412102500 +0300" stop="20250412105500 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 196, Аквариумът / Женен за парите</title>
+  </programme>
+  <programme start="20250412105500 +0300" stop="20250412112000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 197Момичето от мола Пърл / Война на палци</title>
+  </programme>
+  <programme start="20250412112000 +0300" stop="20250412115000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 198Акули срещу Сепии / Двойниците на Спондж Боб</title>
+  </programme>
+  <programme start="20250412115000 +0300" stop="20250412122000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 199, Продадено! / Фалшиви късметчета</title>
+  </programme>
+  <programme start="20250412122000 +0300" stop="20250412125000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 200, Сбогом, ракбургер</title>
+  </programme>
+  <programme start="20250412125000 +0300" stop="20250412130000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 7, еп. 139Тайната рецепта на баба / Притегателната сила на парите</title>
+  </programme>
+  <programme start="20250412130000 +0300" stop="20250412133000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 3, еп. 16, Седящия бик / Любящи шпиони</title>
+  </programme>
+  <programme start="20250412133000 +0300" stop="20250412140000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 3, еп. 17, Много силна музика</title>
+  </programme>
+  <programme start="20250412140000 +0300" stop="20250412142500 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 3, еп. 20Подигравки и страх / Чаено парти за кукли</title>
+  </programme>
+  <programme start="20250412142500 +0300" stop="20250412145500 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 3, еп. 21, Най-шумният Ден на Благодарността</title>
+  </programme>
+  <programme start="20250412145500 +0300" stop="20250412152500 +0300" channel="nickelodeon.tv">
+    <title>Семейство Касагранде 1, еп. 14Крий се или плувай / Голямото замръзване</title>
+  </programme>
+  <programme start="20250412152500 +0300" stop="20250412155500 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 13, еп. 270, Шантавите акорди / Кученцето Пат</title>
+  </programme>
+  <programme start="20250412155500 +0300" stop="20250412162000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 13, еп. 273, Картофената Пуф / Ще се лее мазнина</title>
+  </programme>
+  <programme start="20250412162000 +0300" stop="20250412165000 +0300" channel="nickelodeon.tv">
+    <title>Шоуто на Патрик Звездата 3, еп. 6Пат, вестникарчето / Денят на Стрелите</title>
+  </programme>
+  <programme start="20250412165000 +0300" stop="20250412172000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 22, Тандър хит</title>
+  </programme>
+  <programme start="20250412172000 +0300" stop="20250412175000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 23, Момичето с драконовия гаф</title>
+  </programme>
+  <programme start="20250412175000 +0300" stop="20250412181500 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 25, Ражда се герой Част 1</title>
+  </programme>
+  <programme start="20250412181500 +0300" stop="20250412184500 +0300" channel="nickelodeon.tv">
+    <title>Опасният Хенри 2, еп. 3, Един Хенри, три момичета - част 2</title>
+  </programme>
+  <programme start="20250412184500 +0300" stop="20250412191500 +0300" channel="nickelodeon.tv">
+    <title>Опасният Хенри 2, еп. 4, Хенри и Кълвачите</title>
+  </programme>
+  <programme start="20250412191500 +0300" stop="20250412194000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 8, еп. 5Европейска ваканция: в рицарски доспехи</title>
+  </programme>
+  <programme start="20250412194000 +0300" stop="20250412201000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 8, еп. 6Рецептата на Нонна / Алпийско приключение</title>
+  </programme>
+  <programme start="20250412201000 +0300" stop="20250412204000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 8, еп. 7Хапка в Трансилвания / Гръцки легенди</title>
+  </programme>
+  <programme start="20250412204000 +0300" stop="20250412210500 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 8, еп. 8Без-Кара-ен шепот / Долари и аромати</title>
+  </programme>
+  <programme start="20250412210500 +0300" stop="20250412212000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 2, еп. 10, Сътресение</title>
+  </programme>
+  <programme start="20250412212000 +0300" stop="20250412214500 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 8, еп. 4, Ин-Тод-нито / След дъжд качулка</title>
+  </programme>
+  <programme start="20250412214500 +0300" stop="20250412221500 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 3, Слугите на Макс</title>
+  </programme>
+  <programme start="20250412221500 +0300" stop="20250412224000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 4, Рокаджийката Фиби</title>
+  </programme>
+  <programme start="20250412224000 +0300" stop="20250412231000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 5, Обладаните Тандърмен</title>
+  </programme>
+  <programme start="20250412231000 +0300" stop="20250412234000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 6, Унищожи го!</title>
+  </programme>
+  <programme start="20250412234000 +0300" stop="20250413001000 +0300" channel="nickelodeon.tv">
+    <title>Опасна сила 2, еп. 9, Момичето, което си търси белята</title>
+  </programme>
+  <programme start="20250413001000 +0300" stop="20250413003500 +0300" channel="nickelodeon.tv">
+    <title>Опасна сила 2, еп. 10, Загуба на суперсилите Част 1</title>
+  </programme>
+  <programme start="20250413003500 +0300" stop="20250413010500 +0300" channel="nickelodeon.tv">
+    <title>Истинските Шумникови 2, еп. 14, Няма гадже - няма филм</title>
+  </programme>
+  <programme start="20250413010500 +0300" stop="20250413013500 +0300" channel="nickelodeon.tv">
+    <title>Истинските Шумникови 2, еп. 16, Одисея</title>
+  </programme>
+  <programme start="20250413013500 +0300" stop="20250413015500 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 1, еп. 3, На лов за медузи / Планктон!</title>
+  </programme>
+  <programme start="20250413015500 +0300" stop="20250413022500 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 1, еп. 4, Пакостливите съседи / Лодко-училище</title>
+  </programme>
+  <programme start="20250413022500 +0300" stop="20250413025500 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 1, еп. 5Доставка на пица / Мой ананас, мой сладък дом</title>
+  </programme>
+  <programme start="20250413025500 +0300" stop="20250413031500 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 8, еп. 169Щастлив ли си сега / Медузено похищение</title>
+  </programme>
+  <programme start="20250413031500 +0300" stop="20250413034000 +0300" channel="nickelodeon.tv">
+    <title>Мистерии на Хънтър Стрийт 4, еп. 10, Враговете вътре</title>
+  </programme>
+  <programme start="20250413034000 +0300" stop="20250413040000 +0300" channel="nickelodeon.tv">
+    <title>Мистерии на Хънтър Стрийт 4, еп. 11, Лошаника</title>
+  </programme>
+  <programme start="20250413040000 +0300" stop="20250413042000 +0300" channel="nickelodeon.tv">
+    <title>Камък, Ножица, Хартия 1, еп. 9Другите Камък, Ножица, Хартия / Възхитителната Каталина</title>
+  </programme>
+  <programme start="20250413042000 +0300" stop="20250413044500 +0300" channel="nickelodeon.tv">
+    <title>Камък, Ножица, Хартия 1, еп. 10, Молив идва на гости / Вятърът</title>
+  </programme>
+  <programme start="20250413044500 +0300" stop="20250413050500 +0300" channel="nickelodeon.tv">
+    <title>Камък, Ножица, Хартия 1, еп. 11, Празнична снимка / Престилка</title>
+  </programme>
+  <programme start="20250413050500 +0300" stop="20250413052500 +0300" channel="nickelodeon.tv">
+    <title>Макс и Макси 1, еп. 13, Робо танц / Разходка сред природата</title>
+  </programme>
+  <programme start="20250413052500 +0300" stop="20250413055000 +0300" channel="nickelodeon.tv">
+    <title>Макс и Макси 1, еп. 14, Шах-о-пулт / Умник и Умница</title>
+  </programme>
+  <programme start="20250413055000 +0300" stop="20250413061000 +0300" channel="nickelodeon.tv">
+    <title>Макс и Макси 1, еп. 15, Химическото чистене / Чаша-крадец</title>
+  </programme>
+  <programme start="20250413061000 +0300" stop="20250413063500 +0300" channel="nickelodeon.tv">
+    <title>Макс и Макси 1, еп. 16В небесата с Диамoндо / Приятел на Макс</title>
+  </programme>
+  <programme start="20250413063500 +0300" stop="20250413064500 +0300" channel="nickelodeon.tv">
+    <title>44 котки 2, еп. 33, Блонди, котката-шпионин</title>
+  </programme>
+  <programme start="20250413064500 +0300" stop="20250413070000 +0300" channel="nickelodeon.tv">
+    <title>44 котки 2, еп. 34, Диви и смели</title>
+  </programme>
+  <programme start="20250413070000 +0300" stop="20250413071000 +0300" channel="nickelodeon.tv">
+    <title>Алвин и Катеричоците 5, еп. 13, Уорън Севил</title>
+  </programme>
+  <programme start="20250413071000 +0300" stop="20250413073500 +0300" channel="nickelodeon.tv">
+    <title>Алвин и Катеричоците 5, еп. 13, Парти животни / Уорън Севил</title>
+  </programme>
+  <programme start="20250413073500 +0300" stop="20250413080000 +0300" channel="nickelodeon.tv">
+    <title>Алвин и Катеричоците 5, еп. 14Ваканция за разкопки / Трофеен татко</title>
+  </programme>
+  <programme start="20250413080000 +0300" stop="20250413083000 +0300" channel="nickelodeon.tv">
+    <title>Смърфовете 1, еп. 9, Да отгледаш смърф / Преобличането</title>
+  </programme>
+  <programme start="20250413083000 +0300" stop="20250413090000 +0300" channel="nickelodeon.tv">
+    <title>Смърфовете 1, еп. 10, Лошите!</title>
+  </programme>
+  <programme start="20250413090000 +0300" stop="20250413092500 +0300" channel="nickelodeon.tv">
+    <title>Зоки на планетата на Руби 1, еп. 7Токсична позитивност / Бобен симулатор</title>
+  </programme>
+  <programme start="20250413092500 +0300" stop="20250413095500 +0300" channel="nickelodeon.tv">
+    <title>Шоуто на Патрик Звездата 1, еп. 20Малките пат-косници / Праисторическото шоу на Патрик Звездата</title>
+  </programme>
+  <programme start="20250413095500 +0300" stop="20250413102500 +0300" channel="nickelodeon.tv">
+    <title>Шоуто на Патрик Звездата 1, еп. 18Ефектът на патерудата / Шантава екскурзия в космоса</title>
+  </programme>
+  <programme start="20250413102500 +0300" stop="20250413105500 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 201Жълъдовият кошмар на Санди / Дъската за бюлетини</title>
+  </programme>
+  <programme start="20250413105500 +0300" stop="20250413112000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 202Кулинарни корабокрушенци / Охлювена поща</title>
+  </programme>
+  <programme start="20250413112000 +0300" stop="20250413115000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 203Ананасово нашествие / Салса Имбециликус</title>
+  </programme>
+  <programme start="20250413115000 +0300" stop="20250413122000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 9, еп. 204Бунт в „Хрупкавия рак“ / Зъболекарска драма</title>
+  </programme>
+  <programme start="20250413122000 +0300" stop="20250413125000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 10, еп. 205, Отнесен ум / Русалко</title>
+  </programme>
+  <programme start="20250413125000 +0300" stop="20250413130000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 7, еп. 142, Вулканът</title>
+  </programme>
+  <programme start="20250413130000 +0300" stop="20250413133000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 3, еп. 22Предсказуеми способности / Замахът на шампиона</title>
+  </programme>
+  <programme start="20250413133000 +0300" stop="20250413140000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 4, еп. 1, Нов приятел за Касаграндови</title>
+  </programme>
+  <programme start="20250413140000 +0300" stop="20250413142500 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 4, еп. 2Разчистване на сметки с Касаграндови / Място за хобита с Касаграндови</title>
+  </programme>
+  <programme start="20250413142500 +0300" stop="20250413145500 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 4, еп. 3Модел за подражание с Касаграндови / Тайният фен с Касаграндови</title>
+  </programme>
+  <programme start="20250413145500 +0300" stop="20250413152500 +0300" channel="nickelodeon.tv">
+    <title>Семейство Касагранде 1, еп. 15, Карма-хамелеон / Общи усилия</title>
+  </programme>
+  <programme start="20250413152500 +0300" stop="20250413155500 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 13, еп. 275, Хрупкавият мобил / Градски момичета</title>
+  </programme>
+  <programme start="20250413155500 +0300" stop="20250413162000 +0300" channel="nickelodeon.tv">
+    <title>Спонджбоб Квадратни Гащи 13, еп. 277Капитан Мижитурка / Презокеански полет</title>
+  </programme>
+  <programme start="20250413162000 +0300" stop="20250413165000 +0300" channel="nickelodeon.tv">
+    <title>Шоуто на Патрик Звездата 3, еп. 7, Пати Гу / Денят на размяната</title>
+  </programme>
+  <programme start="20250413165000 +0300" stop="20250413172000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 26, Ражда се герой Част 2</title>
+  </programme>
+  <programme start="20250413172000 +0300" stop="20250413175000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 3, еп. 2, Стрелата на раздора</title>
+  </programme>
+  <programme start="20250413175000 +0300" stop="20250413181500 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 3, еп. 1, Фийби срещу макс: продължението</title>
+  </programme>
+  <programme start="20250413181500 +0300" stop="20250413184500 +0300" channel="nickelodeon.tv">
+    <title>Опасният Хенри 2, еп. 5, Капитан Мен на почивка</title>
+  </programme>
+  <programme start="20250413184500 +0300" stop="20250413191500 +0300" channel="nickelodeon.tv">
+    <title>Опасният Хенри 2, еп. 6, Бандит във времето</title>
+  </programme>
+  <programme start="20250413191500 +0300" stop="20250413194000 +0300" channel="nickelodeon.tv">
+    <title>The Loud House 8, еп. 9, The Loud House #809</title>
+  </programme>
+  <programme start="20250413194000 +0300" stop="20250413201000 +0300" channel="nickelodeon.tv">
+    <title>The Loud House 8, еп. 10, The Loud House #810</title>
+  </programme>
+  <programme start="20250413201000 +0300" stop="20250413204000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 4, еп. 1, Нов приятел за Касаграндови</title>
+  </programme>
+  <programme start="20250413204000 +0300" stop="20250413210500 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 4, еп. 2Разчистване на сметки с Касаграндови / Място за хобита с Касаграндови</title>
+  </programme>
+  <programme start="20250413210500 +0300" stop="20250413212000 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 2, еп. 11, Раздразнени</title>
+  </programme>
+  <programme start="20250413212000 +0300" stop="20250413214500 +0300" channel="nickelodeon.tv">
+    <title>Къщата на Шумникови 7, еп. 5, Екскурзия: Страхоториум!</title>
+  </programme>
+  <programme start="20250413214500 +0300" stop="20250413221500 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 7, Синият детектив</title>
+  </programme>
+  <programme start="20250413221500 +0300" stop="20250413224000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 8, Мажоретка в опасност!</title>
+  </programme>
+  <programme start="20250413224000 +0300" stop="20250413231000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 11, Родителите просто не танд-разбират!</title>
+  </programme>
+  <programme start="20250413231000 +0300" stop="20250413234000 +0300" channel="nickelodeon.tv">
+    <title>Тандърмен срещу Тандърмен 2, еп. 12, Среща с Ивълман</title>
+  </programme>
+  <programme start="20250413234000 +0300" stop="20250414001000 +0300" channel="nickelodeon.tv">
+    <title>Опасна сила 2, еп. 11, Загуба на суперсилите Част 2</title>
+  </programme>
+  <programme start="20250412072000 +0300" stop="20250412075000 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 4, еп. 14, Полицай Пламъчко</title>
+  </programme>
+  <programme start="20250412075000 +0300" stop="20250412081500 +0300" channel="nick.tv">
+    <title>Пес патрул 10, еп. 1Кученцата спасяват шантавите водни скиори / Кученцата спасяват помощника на кмета</title>
+  </programme>
+  <programme start="20250412081500 +0300" stop="20250412084500 +0300" channel="nick.tv">
+    <title>Пес патрул 10, еп. 2Кученцата спасяват високо летяща кокошка / Кученцата спасяват ленивец</title>
+  </programme>
+  <programme start="20250412084500 +0300" stop="20250412090000 +0300" channel="nick.tv">
+    <title>Пес Патрул 2, еп. 1, Спасяване на пингвини</title>
+  </programme>
+  <programme start="20250412090000 +0300" stop="20250412092500 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 3, еп. 5, Мегароботът за Кал</title>
+  </programme>
+  <programme start="20250412092500 +0300" stop="20250412095500 +0300" channel="nick.tv">
+    <title>Пес Парул 2, еп. 23Кученцата спасяват СЪСтезанието по Сноуборд / Кученцата спасяват морска кокошка</title>
+  </programme>
+  <programme start="20250412095500 +0300" stop="20250412102500 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 1, еп. 2Бандата строи голям магазин за колелета / Бандата строи супервана</title>
+  </programme>
+  <programme start="20250412102500 +0300" stop="20250412105000 +0300" channel="nick.tv">
+    <title>ДOPA 1, еп. 12, Риза за Тико / Падащи звезди</title>
+  </programme>
+  <programme start="20250412105000 +0300" stop="20250412112000 +0300" channel="nick.tv">
+    <title>Пес Патрул 3, еп. 26Спасяване на летящи приятели / Спасяване на сателит</title>
+  </programme>
+  <programme start="20250412112000 +0300" stop="20250412115000 +0300" channel="nick.tv">
+    <title>Голямото шоу на Бебе Акула 3, еп. 6Плуво-канция / Изгубеното дистанционно</title>
+  </programme>
+  <programme start="20250412115000 +0300" stop="20250412121500 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 18Изобретенията / Реши най-после, Барбарири!</title>
+  </programme>
+  <programme start="20250412121500 +0300" stop="20250412124500 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 19, Бунтари / Барбанаука</title>
+  </programme>
+  <programme start="20250412124500 +0300" stop="20250412131000 +0300" channel="nick.tv">
+    <title>Приключенията на Падингтън 2, еп. 6Падингтън и зеленчуковия крадец / Падингтън кара кънки</title>
+  </programme>
+  <programme start="20250412131000 +0300" stop="20250412131500 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 13, Летящ ветеринар</title>
+  </programme>
+  <programme start="20250412131500 +0300" stop="20250412132000 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 14, Кайли Кенгуруто</title>
+  </programme>
+  <programme start="20250412132000 +0300" stop="20250412132500 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 15, Кучето Капитан</title>
+  </programme>
+  <programme start="20250412132500 +0300" stop="20250412133000 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 16, Паркът за динозаври на Дядо Зайко</title>
+  </programme>
+  <programme start="20250412133000 +0300" stop="20250412134100 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 17, Приказка за лека нощ</title>
+  </programme>
+  <programme start="20250412134100 +0300" stop="20250412134600 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 5, Кемперът</title>
+  </programme>
+  <programme start="20250412134600 +0300" stop="20250412135100 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 6, Почивка на къмпинг</title>
+  </programme>
+  <programme start="20250412135100 +0300" stop="20250412135500 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 7, Компост</title>
+  </programme>
+  <programme start="20250412135500 +0300" stop="20250412140000 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 8, Зайчето Ричард идва да играе</title>
+  </programme>
+  <programme start="20250412140000 +0300" stop="20250412141000 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 9, Щуро бягане</title>
+  </programme>
+  <programme start="20250412141000 +0300" stop="20250412143500 +0300" channel="nick.tv">
+    <title>Голямото шоу на Бебе Акула 2, еп. 6Рибки-гидове / Съжалявам, но не съжалявам</title>
+  </programme>
+  <programme start="20250412143500 +0300" stop="20250412150000 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 2, еп. 16Бандата строи зала за боулинг / Бандата строи пътека над суперцъфтежа</title>
+  </programme>
+  <programme start="20250412150000 +0300" stop="20250412152500 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 2, еп. 17Бандата празнува деня на Строителността! / Кученцата строят въртележка-ракета</title>
+  </programme>
+  <programme start="20250412152500 +0300" stop="20250412155500 +0300" channel="nick.tv">
+    <title>Пес Парул 1, еп. 7Кученцата спасяват цирка / Кучи-кудкудяк</title>
+  </programme>
+  <programme start="20250412155500 +0300" stop="20250412162500 +0300" channel="nick.tv">
+    <title>Пес Парул 1, еп. 8Кучешки супер екип / Кученцата се борят с огъня</title>
+  </programme>
+  <programme start="20250412162500 +0300" stop="20250412165000 +0300" channel="nick.tv">
+    <title>Пес Парул 1, еп. 9Кученцата спасяват лакомства / Кученцата и лифтът</title>
+  </programme>
+  <programme start="20250412165000 +0300" stop="20250412170000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 1, КАЛНИ ЛОКВИ</title>
+  </programme>
+  <programme start="20250412170000 +0300" stop="20250412170500 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 2, ГОСПОДИН ДИНОЗАВЪР ИЗЧЕЗВА</title>
+  </programme>
+  <programme start="20250412170500 +0300" stop="20250412171000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 3, НАЙ-ДОБРА ПРИЯТЕЛКА</title>
+  </programme>
+  <programme start="20250412171000 +0300" stop="20250412171500 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 4, ПАПАГАЛЧЕТО ПОЛИ</title>
+  </programme>
+  <programme start="20250412171500 +0300" stop="20250412172500 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 5, ИГРА НА КРИЕНИЦА</title>
+  </programme>
+  <programme start="20250412172500 +0300" stop="20250412173000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 6, В ДЕТСКАТА ГРАДИНА</title>
+  </programme>
+  <programme start="20250412173000 +0300" stop="20250412173500 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 7, МАМА ПРАСЕНЦЕ РАБОТИ</title>
+  </programme>
+  <programme start="20250412173500 +0300" stop="20250412174000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 8, ПРАСЕНЦЕ В СРЕДАТА</title>
+  </programme>
+  <programme start="20250412174000 +0300" stop="20250412175000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 9, ТАТКО СИ ИЗГУБВА ОЧИЛАТА</title>
+  </programme>
+  <programme start="20250412175000 +0300" stop="20250412181500 +0300" channel="nick.tv">
+    <title>Малкият шеф-готвач 3, еп. 1, "Нопалес" такос / Цап-бургери</title>
+  </programme>
+  <programme start="20250412181500 +0300" stop="20250412184500 +0300" channel="nick.tv">
+    <title>Барбароните 1, еп. 24Барбарири не може да казва "не" / Двойникът</title>
+  </programme>
+  <programme start="20250412184500 +0300" stop="20250412191500 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 3, еп. 6, Светлинни състезатели</title>
+  </programme>
+  <programme start="20250412191500 +0300" stop="20250412194000 +0300" channel="nick.tv">
+    <title>Пес Патрул 3, еп. 2, Кученцата спасяват златото</title>
+  </programme>
+  <programme start="20250412194000 +0300" stop="20250412201000 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 2, еп. 17Бандата празнува деня на Строителността! / Кученцата строят въртележка-ракета</title>
+  </programme>
+  <programme start="20250412201000 +0300" stop="20250412204000 +0300" channel="nick.tv">
+    <title>ДOPA 2, еп. 1Голям, голям Ботичко! // Лепкава ситуация с Раница</title>
+  </programme>
+  <programme start="20250412204000 +0300" stop="20250412210000 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 22, Вече не съм бебе / Робоксмен</title>
+  </programme>
+  <programme start="20250412210000 +0300" stop="20250412213000 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 23Масленка / Трябва да спасим коралите</title>
+  </programme>
+  <programme start="20250412213000 +0300" stop="20250412215500 +0300" channel="nick.tv">
+    <title>ДOPA 2, еп. 2Пинята за рождения ден на мама отлита // Хитранко и невидим-одеало</title>
+  </programme>
+  <programme start="20250412215500 +0300" stop="20250412222500 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 2, еп. 2Бандата строи железопътна гара / Бандата строи знак за Сиера Блясък</title>
+  </programme>
+  <programme start="20250412222500 +0300" stop="20250412225500 +0300" channel="nick.tv">
+    <title>Пес патрул 10, еп. 10Планинската мисия на Либърти / Спасяването на летящата Юми</title>
+  </programme>
+  <programme start="20250412225500 +0300" stop="20250412232000 +0300" channel="nick.tv">
+    <title>Приключенията на Падингтън 2, еп. 3Падингтън става клоун / Падингтън и лошата размяна</title>
+  </programme>
+  <programme start="20250412232000 +0300" stop="20250412235000 +0300" channel="nick.tv">
+    <title>Приключенията на Падингтън 2, еп. 4Падингтън празнува денят на госпожа Бърд / Падингтън, шампионът по тенис на маса</title>
+  </programme>
+  <programme start="20250412235000 +0300" stop="20250413002000 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 18Изобретенията / Реши най-после, Барбарири!</title>
+  </programme>
+  <programme start="20250413002000 +0300" stop="20250413004500 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 19, Бунтари / Барбанаука</title>
+  </programme>
+  <programme start="20250413004500 +0300" stop="20250413011500 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 20Барбарончетата имат талант / Трите ребуса</title>
+  </programme>
+  <programme start="20250413011500 +0300" stop="20250413014500 +0300" channel="nick.tv">
+    <title>Пес Патрул 3, еп. 13Кученцата спасяват Олд тръсти / Кученцата спасяват пони</title>
+  </programme>
+  <programme start="20250413014500 +0300" stop="20250413021500 +0300" channel="nick.tv">
+    <title>Пес Патрул 3, еп. 14Kученцата спасяват робозавър / Кученцата спасяват филмовия фестивал</title>
+  </programme>
+  <programme start="20250413021500 +0300" stop="20250413024000 +0300" channel="nick.tv">
+    <title>Пес Патрул 3, еп. 15, Тракър става част от пес патрула</title>
+  </programme>
+  <programme start="20250413024000 +0300" stop="20250413031000 +0300" channel="nick.tv">
+    <title>Рогат отряд 3, еп. 4, Тайният остров / Астробот</title>
+  </programme>
+  <programme start="20250413031000 +0300" stop="20250413034000 +0300" channel="nick.tv">
+    <title>Рогат отряд 3, еп. 5, Кристалът на силата / Бедствие</title>
+  </programme>
+  <programme start="20250413034000 +0300" stop="20250413041000 +0300" channel="nick.tv">
+    <title>Рогат отряд 3, еп. 6, Бебе Троник / Шегаджии</title>
+  </programme>
+  <programme start="20250413041000 +0300" stop="20250413044000 +0300" channel="nick.tv">
+    <title>Пес Патрул 3, еп. 18Съборът на сладката / Спасяване на прасе сърфист</title>
+  </programme>
+  <programme start="20250413044000 +0300" stop="20250413050500 +0300" channel="nick.tv">
+    <title>Пес Патрул 3, еп. 19Кученцата в градината / Спасяване на космическа играчка</title>
+  </programme>
+  <programme start="20250413050500 +0300" stop="20250413053500 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 4, еп. 15, Летящият лъв</title>
+  </programme>
+  <programme start="20250413053500 +0300" stop="20250413060000 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 4, еп. 16, Нинджа-супа</title>
+  </programme>
+  <programme start="20250413060000 +0300" stop="20250413062500 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 4, еп. 17, Кралско спасяване</title>
+  </programme>
+  <programme start="20250413062500 +0300" stop="20250413065000 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 4, еп. 18, Пламъчко и вълшебният дух</title>
+  </programme>
+  <programme start="20250413065000 +0300" stop="20250413072000 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 4, еп. 19, Мисия със сто яйца</title>
+  </programme>
+  <programme start="20250413072000 +0300" stop="20250413075000 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 5, еп. 1, Ей Джей се притичва на помощ</title>
+  </programme>
+  <programme start="20250413075000 +0300" stop="20250413081500 +0300" channel="nick.tv">
+    <title>Пес патрул 10, еп. 5Кученцата спасяват дигиталните приятели / Кученцата спасяват дъгата</title>
+  </programme>
+  <programme start="20250413081500 +0300" stop="20250413084500 +0300" channel="nick.tv">
+    <title>Пес патрул 10, еп. 9Кученцата спират златотърсачката / Кученцата помагат на кмета Хъмдингър</title>
+  </programme>
+  <programme start="20250413084500 +0300" stop="20250413090000 +0300" channel="nick.tv">
+    <title>Пес Патрул 2, еп. 1, Спасяване на бебе делфинче</title>
+  </programme>
+  <programme start="20250413090000 +0300" stop="20250413092500 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 3, еп. 6, Светлинни състезатели</title>
+  </programme>
+  <programme start="20250413092500 +0300" stop="20250413095500 +0300" channel="nick.tv">
+    <title>Пес Парул 2, еп. 24Кученцата спасяват пицата / Кученцата спасяват Скай</title>
+  </programme>
+  <programme start="20250413095500 +0300" stop="20250413102500 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 1, еп. 3Бандата строи магазин за сладолед / Бандата поправя цвъркане</title>
+  </programme>
+  <programme start="20250413102500 +0300" stop="20250413105000 +0300" channel="nick.tv">
+    <title>ДOPA 2, еп. 3Кралското градинско парти на Иса // Изненадата на Сами</title>
+  </programme>
+  <programme start="20250413105000 +0300" stop="20250413112000 +0300" channel="nick.tv">
+    <title>Пес Патрул 4, еп. 1Спасяване на дирижабъл / Спасяването на Чили турнира</title>
+  </programme>
+  <programme start="20250413112000 +0300" stop="20250413115000 +0300" channel="nick.tv">
+    <title>Голямото шоу на Бебе Акула 3, еп. 7Най-добри рибо-врагове / Вечеря с Бентли</title>
+  </programme>
+  <programme start="20250413115000 +0300" stop="20250413121500 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 20Барбарончетата имат талант / Трите ребуса</title>
+  </programme>
+  <programme start="20250413121500 +0300" stop="20250413124500 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 21, Вандалът / Къде изчезна, Тамбълс?</title>
+  </programme>
+  <programme start="20250413124500 +0300" stop="20250413131300 +0300" channel="nick.tv">
+    <title>Приключенията на Падингтън 2, еп. 7Падингтън и голямото решение / Падингтън и плажния отшелник</title>
+  </programme>
+  <programme start="20250413131300 +0300" stop="20250413131800 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 18, Изгубеният ключ</title>
+  </programme>
+  <programme start="20250413131800 +0300" stop="20250413132200 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 19, Новият динозавър на Джордж</title>
+  </programme>
+  <programme start="20250413132200 +0300" stop="20250413132700 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 20, Влакът-спасител на дядо Праско</title>
+  </programme>
+  <programme start="20250413132700 +0300" stop="20250413133000 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 21, Конкурс за любимци</title>
+  </programme>
+  <programme start="20250413133000 +0300" stop="20250413134200 +0300" channel="nick.tv">
+    <title>Пепа 5, еп. 22, Паяжина</title>
+  </programme>
+  <programme start="20250413134200 +0300" stop="20250413134700 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 10, Пране</title>
+  </programme>
+  <programme start="20250413134700 +0300" stop="20250413135200 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 11, Пътешествие с лодка</title>
+  </programme>
+  <programme start="20250413135200 +0300" stop="20250413135600 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 12, Магаренцето Делфин</title>
+  </programme>
+  <programme start="20250413135600 +0300" stop="20250413140000 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 13, Пожарната кола</title>
+  </programme>
+  <programme start="20250413140000 +0300" stop="20250413141000 +0300" channel="nick.tv">
+    <title>Пепа 3, еп. 14, Принцеса Пепа</title>
+  </programme>
+  <programme start="20250413141000 +0300" stop="20250413144000 +0300" channel="nick.tv">
+    <title>Голямото шоу на Бебе Акула 2, еп. 8Късметлийското колие / Изненадата на Виго</title>
+  </programme>
+  <programme start="20250413144000 +0300" stop="20250413150000 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 1, еп. 1, Бандата строи мост</title>
+  </programme>
+  <programme start="20250413150000 +0300" stop="20250413153000 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 1, еп. 2Бандата строи голям магазин за колелета / Бандата строи супервана</title>
+  </programme>
+  <programme start="20250413153000 +0300" stop="20250413155500 +0300" channel="nick.tv">
+    <title>Пес Парул 1, еп. 12Рабъл се включва в патрула / Кученцата спасяват моржа</title>
+  </programme>
+  <programme start="20250413155500 +0300" stop="20250413162500 +0300" channel="nick.tv">
+    <title>Пес Парул 1, еп. 13Кученцата сасяват зайчетата / Кучешка изложба</title>
+  </programme>
+  <programme start="20250413162500 +0300" stop="20250413165500 +0300" channel="nick.tv">
+    <title>Пес Парул 1, еп. 14Кученцата спасяват зайчетата / Кученцата спасяват Гудуей</title>
+  </programme>
+  <programme start="20250413165500 +0300" stop="20250413170000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 10, ГРАДИНАРСТВО</title>
+  </programme>
+  <programme start="20250413170000 +0300" stop="20250413170500 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 11, ХЪЛЦАНЕ</title>
+  </programme>
+  <programme start="20250413170500 +0300" stop="20250413170900 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 12, ВЕЛОСИПЕДИ</title>
+  </programme>
+  <programme start="20250413170900 +0300" stop="20250413171500 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 13, ТАЙНИ</title>
+  </programme>
+  <programme start="20250413171500 +0300" stop="20250413172500 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 14, ХВЪРЧИЛО</title>
+  </programme>
+  <programme start="20250413172500 +0300" stop="20250413173000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 15, ПИКНИК</title>
+  </programme>
+  <programme start="20250413173000 +0300" stop="20250413173400 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 16, МУЗИКАЛНИ ИНСТРУМЕНТИ</title>
+  </programme>
+  <programme start="20250413173400 +0300" stop="20250413174000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 17, ЖАБИ И ЧЕРВЕИ, И ПЕПЕРУДИ</title>
+  </programme>
+  <programme start="20250413174000 +0300" stop="20250413175000 +0300" channel="nick.tv">
+    <title>Peppa Pig 1, еп. 18, ИЗДОКАРАНИ</title>
+  </programme>
+  <programme start="20250413175000 +0300" stop="20250413181500 +0300" channel="nick.tv">
+    <title>Малкият шеф-готвач 3, еп. 2, Нудъл супа / Люти карфиолени хапки</title>
+  </programme>
+  <programme start="20250413181500 +0300" stop="20250413184500 +0300" channel="nick.tv">
+    <title>Барбароните 1, еп. 25Барбадан не е във форма  / Търпение, Барбадан</title>
+  </programme>
+  <programme start="20250413184500 +0300" stop="20250413191500 +0300" channel="nick.tv">
+    <title>Пламъчко и Машините 3, еп. 7, Пистата с подскачащи бикове</title>
+  </programme>
+  <programme start="20250413191500 +0300" stop="20250413194000 +0300" channel="nick.tv">
+    <title>Пес Патрул 3, еп. 3, Кученцата спасят футболния мач</title>
+  </programme>
+  <programme start="20250413194000 +0300" stop="20250413201000 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 1, еп. 1, Бандата строи мост</title>
+  </programme>
+  <programme start="20250413201000 +0300" stop="20250413204000 +0300" channel="nick.tv">
+    <title>ДOPA 2, еп. 5Рачешката сватба// Облачното кралство</title>
+  </programme>
+  <programme start="20250413204000 +0300" stop="20250413210000 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 25Да живеем заедно / Снежният човек Холи</title>
+  </programme>
+  <programme start="20250413210000 +0300" stop="20250413213000 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 26Планинско приключение / Първият учебен ден</title>
+  </programme>
+  <programme start="20250413213000 +0300" stop="20250413215500 +0300" channel="nick.tv">
+    <title>ДOPA 2, еп. 6Дъждовната Клаудия// Вълшебните ивици на Фрогита</title>
+  </programme>
+  <programme start="20250413215500 +0300" stop="20250413222500 +0300" channel="nick.tv">
+    <title>Бандата на Рабъл 2, еп. 3Бандата строи игрище за мини голф / Бандата строи градина за пеперуди</title>
+  </programme>
+  <programme start="20250413222500 +0300" stop="20250413225500 +0300" channel="nick.tv">
+    <title>Пес патрул 10, еп. 11Кученцата спират падащия космически боклук / Кученцата спират огромната кукувичка</title>
+  </programme>
+  <programme start="20250413225500 +0300" stop="20250413232000 +0300" channel="nick.tv">
+    <title>Приключенията на Падингтън 2, еп. 5Падингтън става силен / Ремонтът на люлеещия се стол на Падингтън</title>
+  </programme>
+  <programme start="20250413232000 +0300" stop="20250413235000 +0300" channel="nick.tv">
+    <title>Приключенията на Падингтън 2, еп. 6Падингтън и зеленчуковия крадец / Падингтън кара кънки</title>
+  </programme>
+  <programme start="20250413235000 +0300" stop="20250414001500 +0300" channel="nick.tv">
+    <title>Барбароните 2, еп. 21, Вандалът / Къде изчезна, Тамбълс?</title>
+  </programme>
   <programme start="20250412052500 +0300" stop="20250412053800 +0300" channel="jimjam.tv">
     <title lang="bg">"Семейството на лисиците и язовците"</title>
   </programme>
@@ -32193,6 +33515,612 @@
   </programme>
   <programme start="20250413235700 +0300" stop="20250414051500 +0300" channel="davincilearning.tv">
     <title lang="bg">"Иновации"</title>
+  </programme>
+  <programme start="20250412070500 +0300" stop="20250412071500 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 52</title>
+  </programme>
+  <programme start="20250412071500 +0300" stop="20250412073000 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 1</title>
+  </programme>
+  <programme start="20250412073000 +0300" stop="20250412074000 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 2</title>
+  </programme>
+  <programme start="20250412074000 +0300" stop="20250412080000 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 3</title>
+  </programme>
+  <programme start="20250412080000 +0300" stop="20250412080500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 4, еп. 23</title>
+  </programme>
+  <programme start="20250412080500 +0300" stop="20250412081000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 4, еп. 24</title>
+  </programme>
+  <programme start="20250412081000 +0300" stop="20250412082500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 4, еп. 25</title>
+  </programme>
+  <programme start="20250412082500 +0300" stop="20250412083500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 4, еп. 26</title>
+  </programme>
+  <programme start="20250412083500 +0300" stop="20250412084000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 1</title>
+  </programme>
+  <programme start="20250412084000 +0300" stop="20250412085500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 3</title>
+  </programme>
+  <programme start="20250412085500 +0300" stop="20250412090500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 19</title>
+  </programme>
+  <programme start="20250412090500 +0300" stop="20250412092500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 20</title>
+  </programme>
+  <programme start="20250412092500 +0300" stop="20250412093500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 21</title>
+  </programme>
+  <programme start="20250412093500 +0300" stop="20250412095000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 22</title>
+  </programme>
+  <programme start="20250412095000 +0300" stop="20250412102000 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 23</title>
+  </programme>
+  <programme start="20250412102000 +0300" stop="20250412105000 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 24</title>
+  </programme>
+  <programme start="20250412105000 +0300" stop="20250412105500 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 7</title>
+  </programme>
+  <programme start="20250412105500 +0300" stop="20250412110500 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 8</title>
+  </programme>
+  <programme start="20250412110500 +0300" stop="20250412111000 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 9</title>
+  </programme>
+  <programme start="20250412111000 +0300" stop="20250412112500 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 10</title>
+  </programme>
+  <programme start="20250412112500 +0300" stop="20250412113500 +0300" channel="cartoonito.bg">
+    <title>Batwheels 2, еп. 4</title>
+  </programme>
+  <programme start="20250412113500 +0300" stop="20250412115500 +0300" channel="cartoonito.bg">
+    <title>Batwheels 2, еп. 5</title>
+  </programme>
+  <programme start="20250412115500 +0300" stop="20250412120500 +0300" channel="cartoonito.bg">
+    <title>Алиса и Луис 2, еп. 33</title>
+  </programme>
+  <programme start="20250412120500 +0300" stop="20250412122500 +0300" channel="cartoonito.bg">
+    <title>Алиса и Луис 2, еп. 34</title>
+  </programme>
+  <programme start="20250412122500 +0300" stop="20250412123500 +0300" channel="cartoonito.bg">
+    <title>Светът на Барни 1, еп. 25</title>
+  </programme>
+  <programme start="20250412123500 +0300" stop="20250412125000 +0300" channel="cartoonito.bg">
+    <title>Светът на Барни 1, еп. 17</title>
+  </programme>
+  <programme start="20250412125000 +0300" stop="20250412130000 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 4, еп. 76</title>
+  </programme>
+  <programme start="20250412130000 +0300" stop="20250412130500 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 4, еп. 77</title>
+  </programme>
+  <programme start="20250412130500 +0300" stop="20250412132000 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 4, еп. 78</title>
+  </programme>
+  <programme start="20250412132000 +0300" stop="20250412132500 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 5, еп. 1</title>
+  </programme>
+  <programme start="20250412132500 +0300" stop="20250412133500 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 5, еп. 2</title>
+  </programme>
+  <programme start="20250412133500 +0300" stop="20250412135000 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 1, еп. 43</title>
+  </programme>
+  <programme start="20250412135000 +0300" stop="20250412140000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 29</title>
+  </programme>
+  <programme start="20250412140000 +0300" stop="20250412140500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 30</title>
+  </programme>
+  <programme start="20250412140500 +0300" stop="20250412142000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 31</title>
+  </programme>
+  <programme start="20250412142000 +0300" stop="20250412142500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 32</title>
+  </programme>
+  <programme start="20250412142500 +0300" stop="20250412143500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 33</title>
+  </programme>
+  <programme start="20250412143500 +0300" stop="20250412144000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 34</title>
+  </programme>
+  <programme start="20250412144000 +0300" stop="20250412144500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 35</title>
+  </programme>
+  <programme start="20250412144500 +0300" stop="20250412150000 +0300" channel="cartoonito.bg">
+    <title>Лампът 3, еп. 5</title>
+  </programme>
+  <programme start="20250412150000 +0300" stop="20250412151000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 32</title>
+  </programme>
+  <programme start="20250412151000 +0300" stop="20250412152500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 33</title>
+  </programme>
+  <programme start="20250412152500 +0300" stop="20250412153500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 34</title>
+  </programme>
+  <programme start="20250412153500 +0300" stop="20250412155500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 35</title>
+  </programme>
+  <programme start="20250412155500 +0300" stop="20250412160500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 36</title>
+  </programme>
+  <programme start="20250412160500 +0300" stop="20250412161500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 37</title>
+  </programme>
+  <programme start="20250412161500 +0300" stop="20250412163000 +0300" channel="cartoonito.bg">
+    <title>Лампът 3, еп. 5</title>
+  </programme>
+  <programme start="20250412163000 +0300" stop="20250412164000 +0300" channel="cartoonito.bg">
+    <title>Светът на Барни 1, еп. 26</title>
+  </programme>
+  <programme start="20250412164000 +0300" stop="20250412170000 +0300" channel="cartoonito.bg">
+    <title>Светът на Барни 1, еп. 16</title>
+  </programme>
+  <programme start="20250412170000 +0300" stop="20250412171000 +0300" channel="cartoonito.bg">
+    <title>Алиса и Луис 1, еп. 33</title>
+  </programme>
+  <programme start="20250412171000 +0300" stop="20250412173000 +0300" channel="cartoonito.bg">
+    <title>Алиса и Луис 1, еп. 34</title>
+  </programme>
+  <programme start="20250412173000 +0300" stop="20250412174000 +0300" channel="cartoonito.bg">
+    <title>Batwheels 2, еп. 15</title>
+  </programme>
+  <programme start="20250412174000 +0300" stop="20250412175000 +0300" channel="cartoonito.bg">
+    <title>Batwheels 2, еп. 17</title>
+  </programme>
+  <programme start="20250412175000 +0300" stop="20250412180000 +0300" channel="cartoonito.bg">
+    <title>Meet the Batwheels 1, еп. 12</title>
+  </programme>
+  <programme start="20250412180000 +0300" stop="20250412183000 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 12</title>
+  </programme>
+  <programme start="20250412183000 +0300" stop="20250412183500 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 4</title>
+  </programme>
+  <programme start="20250412183500 +0300" stop="20250412184300 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 5</title>
+  </programme>
+  <programme start="20250412184300 +0300" stop="20250412184500 +0300" channel="cartoonito.bg">
+    <title>Лампът 3, еп. 45</title>
+  </programme>
+  <programme start="20250412184500 +0300" stop="20250412190000 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 6</title>
+  </programme>
+  <programme start="20250412190000 +0300" stop="20250412191000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 14</title>
+  </programme>
+  <programme start="20250412191000 +0300" stop="20250412192500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 15</title>
+  </programme>
+  <programme start="20250412192500 +0300" stop="20250412194000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 16</title>
+  </programme>
+  <programme start="20250412194000 +0300" stop="20250412195500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 17</title>
+  </programme>
+  <programme start="20250412195500 +0300" stop="20250412200500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 67</title>
+  </programme>
+  <programme start="20250412200500 +0300" stop="20250412201000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 68</title>
+  </programme>
+  <programme start="20250412201000 +0300" stop="20250412202500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 69</title>
+  </programme>
+  <programme start="20250412202500 +0300" stop="20250412203000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 70</title>
+  </programme>
+  <programme start="20250412203000 +0300" stop="20250412203500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 71</title>
+  </programme>
+  <programme start="20250412203500 +0300" stop="20250412204500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 72</title>
+  </programme>
+  <programme start="20250412204500 +0300" stop="20250412210000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 73</title>
+  </programme>
+  <programme start="20250412210000 +0300" stop="20250412212500 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 23</title>
+  </programme>
+  <programme start="20250412212500 +0300" stop="20250412215500 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 24</title>
+  </programme>
+  <programme start="20250412215500 +0300" stop="20250412220500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 3, еп. 23</title>
+  </programme>
+  <programme start="20250412220500 +0300" stop="20250412222500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 3, еп. 24</title>
+  </programme>
+  <programme start="20250412222500 +0300" stop="20250412223500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 3, еп. 25</title>
+  </programme>
+  <programme start="20250412223500 +0300" stop="20250412225500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 3, еп. 26</title>
+  </programme>
+  <programme start="20250412225500 +0300" stop="20250412230000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 20</title>
+  </programme>
+  <programme start="20250412230000 +0300" stop="20250412230500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 21</title>
+  </programme>
+  <programme start="20250412230500 +0300" stop="20250412232000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 22</title>
+  </programme>
+  <programme start="20250412232000 +0300" stop="20250412233000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 23</title>
+  </programme>
+  <programme start="20250412233000 +0300" stop="20250412233500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 24</title>
+  </programme>
+  <programme start="20250412233500 +0300" stop="20250412234000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 25</title>
+  </programme>
+  <programme start="20250412234000 +0300" stop="20250412235000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 26</title>
+  </programme>
+  <programme start="20250412235000 +0300" stop="20250413000000 +0300" channel="cartoonito.bg">
+    <title>Meet the Batwheels 1, еп. 12</title>
+  </programme>
+  <programme start="20250413000000 +0300" stop="20250413001000 +0300" channel="cartoonito.bg">
+    <title>Batwheels 1, еп. 6</title>
+  </programme>
+  <programme start="20250413001000 +0300" stop="20250413002500 +0300" channel="cartoonito.bg">
+    <title>Batwheels 1, еп. 7</title>
+  </programme>
+  <programme start="20250413002500 +0300" stop="20250413003500 +0300" channel="cartoonito.bg">
+    <title>Batwheels 1, еп. 8</title>
+  </programme>
+  <programme start="20250413003500 +0300" stop="20250413005000 +0300" channel="cartoonito.bg">
+    <title>Batwheels 1, еп. 9</title>
+  </programme>
+  <programme start="20250413005000 +0300" stop="20250413010500 +0300" channel="cartoonito.bg">
+    <title>Bugs Bunny Builders 1, еп. 18</title>
+  </programme>
+  <programme start="20250413010500 +0300" stop="20250413012000 +0300" channel="cartoonito.bg">
+    <title>Bugs Bunny Builders 1, еп. 21</title>
+  </programme>
+  <programme start="20250413012000 +0300" stop="20250413013000 +0300" channel="cartoonito.bg">
+    <title>Bugs Bunny Builders 1, еп. 22</title>
+  </programme>
+  <programme start="20250413013000 +0300" stop="20250413014500 +0300" channel="cartoonito.bg">
+    <title>Bugs Bunny Builders 1, еп. 23</title>
+  </programme>
+  <programme start="20250413014500 +0300" stop="20250413015500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 3, еп. 15</title>
+  </programme>
+  <programme start="20250413015500 +0300" stop="20250413021500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 3, еп. 16</title>
+  </programme>
+  <programme start="20250413021500 +0300" stop="20250413022500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 3, еп. 17</title>
+  </programme>
+  <programme start="20250413022500 +0300" stop="20250413024000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 3, еп. 18</title>
+  </programme>
+  <programme start="20250413024000 +0300" stop="20250413025000 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 4</title>
+  </programme>
+  <programme start="20250413025000 +0300" stop="20250413030000 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 5</title>
+  </programme>
+  <programme start="20250413030000 +0300" stop="20250413032000 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 6</title>
+  </programme>
+  <programme start="20250413032000 +0300" stop="20250413033000 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 7</title>
+  </programme>
+  <programme start="20250413033000 +0300" stop="20250413034500 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 8</title>
+  </programme>
+  <programme start="20250413034500 +0300" stop="20250413035500 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 4</title>
+  </programme>
+  <programme start="20250413035500 +0300" stop="20250413041500 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 5</title>
+  </programme>
+  <programme start="20250413041500 +0300" stop="20250413042500 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 6</title>
+  </programme>
+  <programme start="20250413042500 +0300" stop="20250413043500 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 7</title>
+  </programme>
+  <programme start="20250413043500 +0300" stop="20250413045000 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 8</title>
+  </programme>
+  <programme start="20250413045000 +0300" stop="20250413050000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 16</title>
+  </programme>
+  <programme start="20250413050000 +0300" stop="20250413052000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 17</title>
+  </programme>
+  <programme start="20250413052000 +0300" stop="20250413053000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 18</title>
+  </programme>
+  <programme start="20250413053000 +0300" stop="20250413054500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 19</title>
+  </programme>
+  <programme start="20250413054500 +0300" stop="20250413055500 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 4</title>
+  </programme>
+  <programme start="20250413055500 +0300" stop="20250413060500 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 5</title>
+  </programme>
+  <programme start="20250413060500 +0300" stop="20250413062500 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 6</title>
+  </programme>
+  <programme start="20250413062500 +0300" stop="20250413063500 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 7</title>
+  </programme>
+  <programme start="20250413063500 +0300" stop="20250413064500 +0300" channel="cartoonito.bg">
+    <title>Interstellar Ella 1, еп. 8</title>
+  </programme>
+  <programme start="20250413064500 +0300" stop="20250413065500 +0300" channel="cartoonito.bg">
+    <title>Мъничетата сез 1, еп. 14</title>
+  </programme>
+  <programme start="20250413065500 +0300" stop="20250413070500 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 4</title>
+  </programme>
+  <programme start="20250413070500 +0300" stop="20250413071500 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 5</title>
+  </programme>
+  <programme start="20250413071500 +0300" stop="20250413073000 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 6</title>
+  </programme>
+  <programme start="20250413073000 +0300" stop="20250413074000 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 7</title>
+  </programme>
+  <programme start="20250413074000 +0300" stop="20250413080000 +0300" channel="cartoonito.bg">
+    <title>Toad &amp; Friends 1, еп. 8</title>
+  </programme>
+  <programme start="20250413080000 +0300" stop="20250413080500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 4</title>
+  </programme>
+  <programme start="20250413080500 +0300" stop="20250413081000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 5</title>
+  </programme>
+  <programme start="20250413081000 +0300" stop="20250413082500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 6</title>
+  </programme>
+  <programme start="20250413082500 +0300" stop="20250413083500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 7</title>
+  </programme>
+  <programme start="20250413083500 +0300" stop="20250413084000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 8</title>
+  </programme>
+  <programme start="20250413084000 +0300" stop="20250413085500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 10</title>
+  </programme>
+  <programme start="20250413085500 +0300" stop="20250413090500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 23</title>
+  </programme>
+  <programme start="20250413090500 +0300" stop="20250413092000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 24</title>
+  </programme>
+  <programme start="20250413092000 +0300" stop="20250413093000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 25</title>
+  </programme>
+  <programme start="20250413093000 +0300" stop="20250413095000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 26</title>
+  </programme>
+  <programme start="20250413095000 +0300" stop="20250413102000 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 25</title>
+  </programme>
+  <programme start="20250413102000 +0300" stop="20250413105000 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 26</title>
+  </programme>
+  <programme start="20250413105000 +0300" stop="20250413105500 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 11</title>
+  </programme>
+  <programme start="20250413105500 +0300" stop="20250413110000 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 13</title>
+  </programme>
+  <programme start="20250413110000 +0300" stop="20250413111000 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 14</title>
+  </programme>
+  <programme start="20250413111000 +0300" stop="20250413111100 +0300" channel="cartoonito.bg">
+    <title>Лампът 3, еп. 33</title>
+  </programme>
+  <programme start="20250413111100 +0300" stop="20250413112500 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 15</title>
+  </programme>
+  <programme start="20250413112500 +0300" stop="20250413113500 +0300" channel="cartoonito.bg">
+    <title>Batwheels 2, еп. 8</title>
+  </programme>
+  <programme start="20250413113500 +0300" stop="20250413115500 +0300" channel="cartoonito.bg">
+    <title>Batwheels 2, еп. 9</title>
+  </programme>
+  <programme start="20250413115500 +0300" stop="20250413120500 +0300" channel="cartoonito.bg">
+    <title>Алиса и Луис 2, еп. 35</title>
+  </programme>
+  <programme start="20250413120500 +0300" stop="20250413122500 +0300" channel="cartoonito.bg">
+    <title>Алиса и Луис 2, еп. 36</title>
+  </programme>
+  <programme start="20250413122500 +0300" stop="20250413123500 +0300" channel="cartoonito.bg">
+    <title>Светът на Барни 1, еп. 26</title>
+  </programme>
+  <programme start="20250413123500 +0300" stop="20250413125000 +0300" channel="cartoonito.bg">
+    <title>Светът на Барни 1, еп. 18</title>
+  </programme>
+  <programme start="20250413125000 +0300" stop="20250413130000 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 5, еп. 3</title>
+  </programme>
+  <programme start="20250413130000 +0300" stop="20250413130500 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 5, еп. 4</title>
+  </programme>
+  <programme start="20250413130500 +0300" stop="20250413132000 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 5, еп. 5</title>
+  </programme>
+  <programme start="20250413132000 +0300" stop="20250413132500 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 5, еп. 6</title>
+  </programme>
+  <programme start="20250413132500 +0300" stop="20250413133500 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 5, еп. 7</title>
+  </programme>
+  <programme start="20250413133500 +0300" stop="20250413135000 +0300" channel="cartoonito.bg">
+    <title>Шоу Том и Джери 1, еп. 44</title>
+  </programme>
+  <programme start="20250413135000 +0300" stop="20250413140000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 36</title>
+  </programme>
+  <programme start="20250413140000 +0300" stop="20250413140500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 37</title>
+  </programme>
+  <programme start="20250413140500 +0300" stop="20250413142000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 38</title>
+  </programme>
+  <programme start="20250413142000 +0300" stop="20250413142500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 39</title>
+  </programme>
+  <programme start="20250413142500 +0300" stop="20250413143000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 40</title>
+  </programme>
+  <programme start="20250413143000 +0300" stop="20250413144000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 41</title>
+  </programme>
+  <programme start="20250413144000 +0300" stop="20250413144500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 3, еп. 42</title>
+  </programme>
+  <programme start="20250413144500 +0300" stop="20250413150000 +0300" channel="cartoonito.bg">
+    <title>Лампът 3, еп. 6</title>
+  </programme>
+  <programme start="20250413150000 +0300" stop="20250413151000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 38</title>
+  </programme>
+  <programme start="20250413151000 +0300" stop="20250413152500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 39</title>
+  </programme>
+  <programme start="20250413152500 +0300" stop="20250413153500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 40</title>
+  </programme>
+  <programme start="20250413153500 +0300" stop="20250413155500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 41</title>
+  </programme>
+  <programme start="20250413155500 +0300" stop="20250413160500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 42</title>
+  </programme>
+  <programme start="20250413160500 +0300" stop="20250413161500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 43</title>
+  </programme>
+  <programme start="20250413161500 +0300" stop="20250413163000 +0300" channel="cartoonito.bg">
+    <title>Лампът 3, еп. 6</title>
+  </programme>
+  <programme start="20250413163000 +0300" stop="20250413164000 +0300" channel="cartoonito.bg">
+    <title>Светът на Барни 1, еп. 27</title>
+  </programme>
+  <programme start="20250413164000 +0300" stop="20250413165000 +0300" channel="cartoonito.bg">
+    <title>Светът на Барни 1, еп. 17</title>
+  </programme>
+  <programme start="20250413165000 +0300" stop="20250413170000 +0300" channel="cartoonito.bg">
+    <title>Мъничетата сез 1, еп. 9</title>
+  </programme>
+  <programme start="20250413170000 +0300" stop="20250413171000 +0300" channel="cartoonito.bg">
+    <title>Алиса и Луис 1, еп. 35</title>
+  </programme>
+  <programme start="20250413171000 +0300" stop="20250413173000 +0300" channel="cartoonito.bg">
+    <title>Алиса и Луис 1, еп. 36</title>
+  </programme>
+  <programme start="20250413173000 +0300" stop="20250413174000 +0300" channel="cartoonito.bg">
+    <title>Batwheels 2, еп. 18</title>
+  </programme>
+  <programme start="20250413174000 +0300" stop="20250413180000 +0300" channel="cartoonito.bg">
+    <title>Batwheels 2, еп. 25</title>
+  </programme>
+  <programme start="20250413180000 +0300" stop="20250413183000 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 13</title>
+  </programme>
+  <programme start="20250413183000 +0300" stop="20250413183500 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 7</title>
+  </programme>
+  <programme start="20250413183500 +0300" stop="20250413184300 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 8</title>
+  </programme>
+  <programme start="20250413184300 +0300" stop="20250413184500 +0300" channel="cartoonito.bg">
+    <title>Лампът 3, еп. 46</title>
+  </programme>
+  <programme start="20250413184500 +0300" stop="20250413190000 +0300" channel="cartoonito.bg">
+    <title>Лампът 4, еп. 9</title>
+  </programme>
+  <programme start="20250413190000 +0300" stop="20250413191000 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 18</title>
+  </programme>
+  <programme start="20250413191000 +0300" stop="20250413192500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 19</title>
+  </programme>
+  <programme start="20250413192500 +0300" stop="20250413193500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 20</title>
+  </programme>
+  <programme start="20250413193500 +0300" stop="20250413195500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 2, еп. 21</title>
+  </programme>
+  <programme start="20250413195500 +0300" stop="20250413200000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 74</title>
+  </programme>
+  <programme start="20250413200000 +0300" stop="20250413201000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 75</title>
+  </programme>
+  <programme start="20250413201000 +0300" stop="20250413202500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 76</title>
+  </programme>
+  <programme start="20250413202500 +0300" stop="20250413203000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 77</title>
+  </programme>
+  <programme start="20250413203000 +0300" stop="20250413203500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 78</title>
+  </programme>
+  <programme start="20250413203500 +0300" stop="20250413204000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 2, еп. 1</title>
+  </programme>
+  <programme start="20250413204000 +0300" stop="20250413210000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 2, еп. 2</title>
+  </programme>
+  <programme start="20250413210000 +0300" stop="20250413212500 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 25</title>
+  </programme>
+  <programme start="20250413212500 +0300" stop="20250413215500 +0300" channel="cartoonito.bg">
+    <title>Спокойно, Скуби-Ду! 1, еп. 26</title>
+  </programme>
+  <programme start="20250413215500 +0300" stop="20250413220500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 1</title>
+  </programme>
+  <programme start="20250413220500 +0300" stop="20250413222500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 2</title>
+  </programme>
+  <programme start="20250413222500 +0300" stop="20250413223500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 3</title>
+  </programme>
+  <programme start="20250413223500 +0300" stop="20250413225500 +0300" channel="cartoonito.bg">
+    <title>Мистър Бийн: Анимационният сериал 1, еп. 5</title>
+  </programme>
+  <programme start="20250413225500 +0300" stop="20250413230000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 27</title>
+  </programme>
+  <programme start="20250413230000 +0300" stop="20250413231000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 28</title>
+  </programme>
+  <programme start="20250413231000 +0300" stop="20250413232000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 29</title>
+  </programme>
+  <programme start="20250413232000 +0300" stop="20250413233000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 30</title>
+  </programme>
+  <programme start="20250413233000 +0300" stop="20250413233500 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 31</title>
+  </programme>
+  <programme start="20250413233500 +0300" stop="20250413234000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 32</title>
+  </programme>
+  <programme start="20250413234000 +0300" stop="20250413235000 +0300" channel="cartoonito.bg">
+    <title>Гризи и лемингите 1, еп. 33</title>
+  </programme>
+  <programme start="20250413235000 +0300" stop="20250414000000 +0300" channel="cartoonito.bg">
+    <title>Meet the Batwheels 1, еп. 13</title>
   </programme>
   <programme start="20250412050000 +0300" stop="20250412051000 +0300" channel="cartoonnetwork.tv">
     <title lang="bg">Невероятният свят на Гъмбол</title>
@@ -45694,6 +47622,303 @@
   <programme start="20250413230000 +0300" stop="20250414063000 +0300" channel="private.tv">
     <title>36DD Natural Racks Bounce On Bones!, 2023</title>
   </programme>
+  <programme start="20250412070700 +0300" stop="20250412071800 +0300" channel="playboy.tv">
+    <title>WORLD'S SEXIEST GIRLS BAND, еп. 6</title>
+  </programme>
+  <programme start="20250412071800 +0300" stop="20250412073900 +0300" channel="playboy.tv">
+    <title>Undercover 207</title>
+  </programme>
+  <programme start="20250412073900 +0300" stop="20250412080200 +0300" channel="playboy.tv">
+    <title>RAINBOW GIRLS - JOYCE &amp; SIMI BLACK GIRLS, еп. 3</title>
+  </programme>
+  <programme start="20250412080200 +0300" stop="20250412081200 +0300" channel="playboy.tv">
+    <title>EURYTHMY - SOHARB</title>
+  </programme>
+  <programme start="20250412081200 +0300" stop="20250412083100 +0300" channel="playboy.tv">
+    <title>EROTIC VIDEOS - A BURNING DREAM, еп. 3</title>
+  </programme>
+  <programme start="20250412083100 +0300" stop="20250412085700 +0300" channel="playboy.tv">
+    <title>TOYRIDE 1, еп. 1</title>
+  </programme>
+  <programme start="20250412085700 +0300" stop="20250412093600 +0300" channel="playboy.tv">
+    <title>FEMALE GAZE - LA - JENNY, еп. 10</title>
+  </programme>
+  <programme start="20250412093600 +0300" stop="20250412094100 +0300" channel="playboy.tv">
+    <title>FROM BEHIND - SASHA - CELINE ANDREA</title>
+  </programme>
+  <programme start="20250412094100 +0300" stop="20250412100800 +0300" channel="playboy.tv">
+    <title>PLAYBOY GIRLFRIENDS, еп. 3</title>
+  </programme>
+  <programme start="20250412100800 +0300" stop="20250412103500 +0300" channel="playboy.tv">
+    <title>ONE DAY WITH - NATALIA</title>
+  </programme>
+  <programme start="20250412103500 +0300" stop="20250412105900 +0300" channel="playboy.tv">
+    <title>ADULT STARS: UP CLOSE 1, еп. 1</title>
+  </programme>
+  <programme start="20250412105900 +0300" stop="20250412112600 +0300" channel="playboy.tv">
+    <title>BACKSTAGE OF THE PHOTOSHOOT 2024 - WITH NATALIA, еп. 4</title>
+  </programme>
+  <programme start="20250412112600 +0300" stop="20250412115200 +0300" channel="playboy.tv">
+    <title>VAGABOND GIRLS, еп. 1</title>
+  </programme>
+  <programme start="20250412115200 +0300" stop="20250412122300 +0300" channel="playboy.tv">
+    <title>LADIES FIRST, еп. 2</title>
+  </programme>
+  <programme start="20250412122300 +0300" stop="20250412125000 +0300" channel="playboy.tv">
+    <title>NAKED HAPPY GIRLS 1, еп. 6</title>
+  </programme>
+  <programme start="20250412125000 +0300" stop="20250412131700 +0300" channel="playboy.tv">
+    <title>ADULT FILM SCHOOL 1, еп. 8</title>
+  </programme>
+  <programme start="20250412131700 +0300" stop="20250412134100 +0300" channel="playboy.tv">
+    <title>WORLD OF PLAYBOY, еп. 1</title>
+  </programme>
+  <programme start="20250412134100 +0300" stop="20250412140900 +0300" channel="playboy.tv">
+    <title>ANTHOLOGY, A COLLECTION OF EROTIC FASHION FILMS, еп. 3</title>
+  </programme>
+  <programme start="20250412140900 +0300" stop="20250412143200 +0300" channel="playboy.tv">
+    <title>PLAYMATES 1, еп. 31</title>
+  </programme>
+  <programme start="20250412143200 +0300" stop="20250412153600 +0300" channel="playboy.tv">
+    <title>WHAT IS LOVE</title>
+  </programme>
+  <programme start="20250412153600 +0300" stop="20250412161600 +0300" channel="playboy.tv">
+    <title>FEMALE GAZE - ALESSANDRA, еп. 5</title>
+  </programme>
+  <programme start="20250412161600 +0300" stop="20250412165500 +0300" channel="playboy.tv">
+    <title>WORKSHOP VAGABOND VACATIONS - BELGIUM 1, еп. 8</title>
+  </programme>
+  <programme start="20250412165500 +0300" stop="20250412171200 +0300" channel="playboy.tv">
+    <title>COVERS PHOTOSHOOT PBNL DECEMBRE</title>
+  </programme>
+  <programme start="20250412171200 +0300" stop="20250412171800 +0300" channel="playboy.tv">
+    <title>CALENDAR - INTERNATIONAL SPORTS DAY</title>
+  </programme>
+  <programme start="20250412171800 +0300" stop="20250412173700 +0300" channel="playboy.tv">
+    <title>7 NUDE MODELS PART 1</title>
+  </programme>
+  <programme start="20250412173700 +0300" stop="20250412181000 +0300" channel="playboy.tv">
+    <title>FREEYOURSELF WITH STAV</title>
+  </programme>
+  <programme start="20250412181000 +0300" stop="20250412183700 +0300" channel="playboy.tv">
+    <title>GIRLFRIEND EXPERIENCE - LETICIA</title>
+  </programme>
+  <programme start="20250412183700 +0300" stop="20250412190400 +0300" channel="playboy.tv">
+    <title>GIRLS OF METART 3, еп. 3</title>
+  </programme>
+  <programme start="20250412190400 +0300" stop="20250412193100 +0300" channel="playboy.tv">
+    <title>GIRLS OF METART 3, еп. 3</title>
+  </programme>
+  <programme start="20250412193100 +0300" stop="20250412195600 +0300" channel="playboy.tv">
+    <title>PLAYBOY MUSES 2, еп. 3</title>
+  </programme>
+  <programme start="20250412195600 +0300" stop="20250412201200 +0300" channel="playboy.tv">
+    <title>PLAYBOY LOVERS, еп. 2</title>
+  </programme>
+  <programme start="20250412201200 +0300" stop="20250412203500 +0300" channel="playboy.tv">
+    <title>PLAYBOY AU NATUREL 2, еп. 4</title>
+  </programme>
+  <programme start="20250412203500 +0300" stop="20250412210200 +0300" channel="playboy.tv">
+    <title>EARLY BIRD YOGA, еп. 7</title>
+  </programme>
+  <programme start="20250412210200 +0300" stop="20250412212800 +0300" channel="playboy.tv">
+    <title>PLAYBOY SHOUTOUT, еп. 5</title>
+  </programme>
+  <programme start="20250412212800 +0300" stop="20250412214200 +0300" channel="playboy.tv">
+    <title>PINK KISS - PHILIPPINES PART 2, еп. 2</title>
+  </programme>
+  <programme start="20250412214200 +0300" stop="20250412220600 +0300" channel="playboy.tv">
+    <title>RAVEN SIRENS 1, еп. 7</title>
+  </programme>
+  <programme start="20250412220600 +0300" stop="20250412223200 +0300" channel="playboy.tv">
+    <title>LIFE OF VAGABOND, еп. 7</title>
+  </programme>
+  <programme start="20250412223200 +0300" stop="20250412224400 +0300" channel="playboy.tv">
+    <title>MEGANE LEMIEL, еп. 7</title>
+  </programme>
+  <programme start="20250412224400 +0300" stop="20250412231100 +0300" channel="playboy.tv">
+    <title>PLAYBOY GIRLFRIENDS, еп. 3</title>
+  </programme>
+  <programme start="20250412231100 +0300" stop="20250412232200 +0300" channel="playboy.tv">
+    <title>WORLD'S SEXIEST GIRLS BAND, еп. 6</title>
+  </programme>
+  <programme start="20250412232200 +0300" stop="20250413000000 +0300" channel="playboy.tv">
+    <title>Undercover 207</title>
+  </programme>
+  <programme start="20250413000000 +0300" stop="20250413003400 +0300" channel="playboy.tv">
+    <title>VAGABOND GIRLS, еп. 2</title>
+  </programme>
+  <programme start="20250413003400 +0300" stop="20250413004800 +0300" channel="playboy.tv">
+    <title>EURYTHMY - MARA</title>
+  </programme>
+  <programme start="20250413004800 +0300" stop="20250413010800 +0300" channel="playboy.tv">
+    <title>SHOOTING ABIDJAN, еп. 2</title>
+  </programme>
+  <programme start="20250413010800 +0300" stop="20250413011700 +0300" channel="playboy.tv">
+    <title>FROM BEHIND FX PELISSIER</title>
+  </programme>
+  <programme start="20250413011700 +0300" stop="20250413020100 +0300" channel="playboy.tv">
+    <title>22 HEURES LA DERNIERE CHANCE - LE FILM</title>
+  </programme>
+  <programme start="20250413020100 +0300" stop="20250413022400 +0300" channel="playboy.tv">
+    <title>PLAYMATES 1, еп. 31</title>
+  </programme>
+  <programme start="20250413022400 +0300" stop="20250413025100 +0300" channel="playboy.tv">
+    <title>SEXY GIRLS NEXT DOOR 1, еп. 1</title>
+  </programme>
+  <programme start="20250413025100 +0300" stop="20250413031600 +0300" channel="playboy.tv">
+    <title>69 sexy things, еп. 21</title>
+  </programme>
+  <programme start="20250413031600 +0300" stop="20250413033600 +0300" channel="playboy.tv">
+    <title>EROTIC VIDEOS - A BURNING DREAM, еп. 3</title>
+  </programme>
+  <programme start="20250413033600 +0300" stop="20250413040200 +0300" channel="playboy.tv">
+    <title>EARLY BIRD YOGA, еп. 8</title>
+  </programme>
+  <programme start="20250413040200 +0300" stop="20250413042900 +0300" channel="playboy.tv">
+    <title>GIRLFRIEND EXPERIENCE - LETICIA</title>
+  </programme>
+  <programme start="20250413042900 +0300" stop="20250413051800 +0300" channel="playboy.tv">
+    <title>PLAYBOY TRIP PATAGONIA, еп. 11</title>
+  </programme>
+  <programme start="20250413051800 +0300" stop="20250413054300 +0300" channel="playboy.tv">
+    <title>TOYRIDE 1, еп. 1</title>
+  </programme>
+  <programme start="20250413054300 +0300" stop="20250413060500 +0300" channel="playboy.tv">
+    <title>CELEBRITY SEX TALES 1, еп. 12</title>
+  </programme>
+  <programme start="20250413060500 +0300" stop="20250413062900 +0300" channel="playboy.tv">
+    <title>SMALTOWN GRILS - AFTERNOON</title>
+  </programme>
+  <programme start="20250413062900 +0300" stop="20250413065000 +0300" channel="playboy.tv">
+    <title>SEDUCTION WEAPONS 2, еп. 10</title>
+  </programme>
+  <programme start="20250413065000 +0300" stop="20250413070700 +0300" channel="playboy.tv">
+    <title>COVERS PHOTOSHOOT PBNL DECEMBRE</title>
+  </programme>
+  <programme start="20250413070700 +0300" stop="20250413073800 +0300" channel="playboy.tv">
+    <title>WORKSHOP VAGABOND VACATIONS - BELGIUM 1, еп. 8</title>
+  </programme>
+  <programme start="20250413073800 +0300" stop="20250413081900 +0300" channel="playboy.tv">
+    <title>FEMALE GAZE - ALESSANDRA, еп. 5</title>
+  </programme>
+  <programme start="20250413081900 +0300" stop="20250413085700 +0300" channel="playboy.tv">
+    <title>WORKSHOP VAGABOND VACATIONS - BELGIUM 1, еп. 8</title>
+  </programme>
+  <programme start="20250413085700 +0300" stop="20250413091400 +0300" channel="playboy.tv">
+    <title>COVERS PHOTOSHOOT PBNL DECEMBRE</title>
+  </programme>
+  <programme start="20250413091400 +0300" stop="20250413092000 +0300" channel="playboy.tv">
+    <title>CALENDAR - INTERNATIONAL SPORTS DAY</title>
+  </programme>
+  <programme start="20250413092000 +0300" stop="20250413093900 +0300" channel="playboy.tv">
+    <title>7 NUDE MODELS PART 1</title>
+  </programme>
+  <programme start="20250413093900 +0300" stop="20250413101200 +0300" channel="playboy.tv">
+    <title>FREEYOURSELF WITH STAV</title>
+  </programme>
+  <programme start="20250413101200 +0300" stop="20250413103900 +0300" channel="playboy.tv">
+    <title>GIRLFRIEND EXPERIENCE - LETICIA</title>
+  </programme>
+  <programme start="20250413103900 +0300" stop="20250413110600 +0300" channel="playboy.tv">
+    <title>GIRLS OF METART 3, еп. 3</title>
+  </programme>
+  <programme start="20250413110600 +0300" stop="20250413113100 +0300" channel="playboy.tv">
+    <title>PLAYBOY MUSES 2, еп. 3</title>
+  </programme>
+  <programme start="20250413113100 +0300" stop="20250413114600 +0300" channel="playboy.tv">
+    <title>PLAYBOY LOVERS, еп. 2</title>
+  </programme>
+  <programme start="20250413114600 +0300" stop="20250413120900 +0300" channel="playboy.tv">
+    <title>PLAYBOY AU NATUREL 2, еп. 4</title>
+  </programme>
+  <programme start="20250413120900 +0300" stop="20250413123600 +0300" channel="playboy.tv">
+    <title>EARLY BIRD YOGA, еп. 7</title>
+  </programme>
+  <programme start="20250413123600 +0300" stop="20250413130300 +0300" channel="playboy.tv">
+    <title>PLAYBOY SHOUTOUT, еп. 5</title>
+  </programme>
+  <programme start="20250413130300 +0300" stop="20250413131700 +0300" channel="playboy.tv">
+    <title>PINK KISS - PHILIPPINES PART 2, еп. 2</title>
+  </programme>
+  <programme start="20250413131700 +0300" stop="20250413134300 +0300" channel="playboy.tv">
+    <title>RAVEN SIRENS 1, еп. 7</title>
+  </programme>
+  <programme start="20250413134300 +0300" stop="20250413140800 +0300" channel="playboy.tv">
+    <title>LIFE OF VAGABOND, еп. 7</title>
+  </programme>
+  <programme start="20250413140800 +0300" stop="20250413142000 +0300" channel="playboy.tv">
+    <title>MEGANE LEMIEL, еп. 7</title>
+  </programme>
+  <programme start="20250413142000 +0300" stop="20250413144700 +0300" channel="playboy.tv">
+    <title>PLAYBOY GIRLFRIENDS, еп. 3</title>
+  </programme>
+  <programme start="20250413144700 +0300" stop="20250413145800 +0300" channel="playboy.tv">
+    <title>WORLD'S SEXIEST GIRLS BAND, еп. 6</title>
+  </programme>
+  <programme start="20250413145800 +0300" stop="20250413151900 +0300" channel="playboy.tv">
+    <title>Undercover 207</title>
+  </programme>
+  <programme start="20250413151900 +0300" stop="20250413155300 +0300" channel="playboy.tv">
+    <title>VAGABOND GIRLS, еп. 2</title>
+  </programme>
+  <programme start="20250413155300 +0300" stop="20250413160700 +0300" channel="playboy.tv">
+    <title>EURYTHMY - MARA</title>
+  </programme>
+  <programme start="20250413160700 +0300" stop="20250413162600 +0300" channel="playboy.tv">
+    <title>SHOOTING ABIDJAN, еп. 2</title>
+  </programme>
+  <programme start="20250413162600 +0300" stop="20250413163600 +0300" channel="playboy.tv">
+    <title>FROM BEHIND FX PELISSIER</title>
+  </programme>
+  <programme start="20250413163600 +0300" stop="20250413171600 +0300" channel="playboy.tv">
+    <title>22 HEURES LA DERNIERE CHANCE - LE FILM</title>
+  </programme>
+  <programme start="20250413171600 +0300" stop="20250413172800 +0300" channel="playboy.tv">
+    <title>MEGANE LEMIEL, еп. 7</title>
+  </programme>
+  <programme start="20250413172800 +0300" stop="20250413175400 +0300" channel="playboy.tv">
+    <title>PLAYMATES 1, еп. 31</title>
+  </programme>
+  <programme start="20250413175400 +0300" stop="20250413182100 +0300" channel="playboy.tv">
+    <title>SEXY GIRLS NEXT DOOR 1, еп. 1</title>
+  </programme>
+  <programme start="20250413182100 +0300" stop="20250413184800 +0300" channel="playboy.tv">
+    <title>GIRLS OF METART 3, еп. 3</title>
+  </programme>
+  <programme start="20250413184800 +0300" stop="20250413191300 +0300" channel="playboy.tv">
+    <title>69 sexy things, еп. 21</title>
+  </programme>
+  <programme start="20250413191300 +0300" stop="20250413193300 +0300" channel="playboy.tv">
+    <title>EROTIC VIDEOS - A BURNING DREAM, еп. 3</title>
+  </programme>
+  <programme start="20250413193300 +0300" stop="20250413200300 +0300" channel="playboy.tv">
+    <title>EARLY BIRD YOGA, еп. 8</title>
+  </programme>
+  <programme start="20250413200300 +0300" stop="20250413203400 +0300" channel="playboy.tv">
+    <title>GIRLFRIEND EXPERIENCE - LETICIA</title>
+  </programme>
+  <programme start="20250413203400 +0300" stop="20250413213100 +0300" channel="playboy.tv">
+    <title>PLAYBOY TRIP PATAGONIA, еп. 11</title>
+  </programme>
+  <programme start="20250413213100 +0300" stop="20250413215700 +0300" channel="playboy.tv">
+    <title>TOYRIDE 1, еп. 1</title>
+  </programme>
+  <programme start="20250413215700 +0300" stop="20250413221800 +0300" channel="playboy.tv">
+    <title>CELEBRITY SEX TALES 1, еп. 12</title>
+  </programme>
+  <programme start="20250413221800 +0300" stop="20250413224200 +0300" channel="playboy.tv">
+    <title>SMALTOWN GRILS - AFTERNOON</title>
+  </programme>
+  <programme start="20250413224200 +0300" stop="20250413230400 +0300" channel="playboy.tv">
+    <title>SEDUCTION WEAPONS 2, еп. 10</title>
+  </programme>
+  <programme start="20250413230400 +0300" stop="20250413232200 +0300" channel="playboy.tv">
+    <title>COVERS PHOTOSHOOT PBNL DECEMBRE</title>
+  </programme>
+  <programme start="20250413232200 +0300" stop="20250414000000 +0300" channel="playboy.tv">
+    <title>WORKSHOP VAGABOND VACATIONS - BELGIUM 1, еп. 8</title>
+  </programme>
   <programme start="20250412041500 +0300" stop="20250412043800 +0300" channel="brazzers.eu">
     <title>Cucking Real Estate (+18)</title>
   </programme>
@@ -46023,6 +48248,354 @@
   </programme>
   <programme start="20250413235700 +0300" stop="20250414040500 +0300" channel="brazzers.eu">
     <title>Lily's Epic Birthday Gangbang (+18)</title>
+  </programme>
+  <programme start="20250412074400 +0300" stop="20250412082700 +0300" channel="xxl.tv">
+    <title>Sexfriends à Los Angeles 2</title>
+  </programme>
+  <programme start="20250412082700 +0300" stop="20250412095100 +0300" channel="xxl.tv">
+    <title>TIFFANY LEIDDI SEXLIFE VOL.3</title>
+  </programme>
+  <programme start="20250412095100 +0300" stop="20250412111800 +0300" channel="xxl.tv">
+    <title>Club libertin, Hard 47</title>
+  </programme>
+  <programme start="20250412111800 +0300" stop="20250412114400 +0300" channel="xxl.tv">
+    <title>Brune &amp; blonde pour John</title>
+  </programme>
+  <programme start="20250412114400 +0300" stop="20250412121100 +0300" channel="xxl.tv">
+    <title>Amour de vacances</title>
+  </programme>
+  <programme start="20250412121100 +0300" stop="20250412125200 +0300" channel="xxl.tv">
+    <title>Climax 2Climax 2 (2021)</title>
+  </programme>
+  <programme start="20250412125200 +0300" stop="20250412132500 +0300" channel="xxl.tv">
+    <title>Dévergondée</title>
+  </programme>
+  <programme start="20250412132500 +0300" stop="20250412141800 +0300" channel="xxl.tv">
+    <title>Sexfriends à Los Angeles 1</title>
+  </programme>
+  <programme start="20250412141800 +0300" stop="20250412155100 +0300" channel="xxl.tv">
+    <title>LUNA ROULETTE VOL.2</title>
+  </programme>
+  <programme start="20250412155100 +0300" stop="20250412174000 +0300" channel="xxl.tv">
+    <title>SEXTWOO VOL.5</title>
+  </programme>
+  <programme start="20250412174000 +0300" stop="20250412180300 +0300" channel="xxl.tv">
+    <title>Dévergondées</title>
+  </programme>
+  <programme start="20250412180300 +0300" stop="20250412184200 +0300" channel="xxl.tv">
+    <title>Voyage d'affaire</title>
+  </programme>
+  <programme start="20250412184200 +0300" stop="20250412192300 +0300" channel="xxl.tv">
+    <title>Fantasme enfoui</title>
+  </programme>
+  <programme start="20250412192300 +0300" stop="20250412201100 +0300" channel="xxl.tv">
+    <title>Club Libertin, Club Libertin 89</title>
+  </programme>
+  <programme start="20250412201100 +0300" stop="20250412214800 +0300" channel="xxl.tv">
+    <title>Sextwoo Vol.9</title>
+  </programme>
+  <programme start="20250412214800 +0300" stop="20250412232300 +0300" channel="xxl.tv">
+    <title>Les plans à trois de Mariska</title>
+  </programme>
+  <programme start="20250412232300 +0300" stop="20250412235900 +0300" channel="xxl.tv">
+    <title>Rencontre avec B.Nicols</title>
+  </programme>
+  <programme start="20250412235900 +0300" stop="20250413003000 +0300" channel="xxl.tv">
+    <title>Lasirena 4 you</title>
+  </programme>
+  <programme start="20250413003000 +0300" stop="20250413011600 +0300" channel="xxl.tv">
+    <title>Le meilleur de XXL</title>
+  </programme>
+  <programme start="20250413011600 +0300" stop="20250413020000 +0300" channel="xxl.tv">
+    <title>Club Libertin, Club Libertin 96</title>
+  </programme>
+  <programme start="20250413020000 +0300" stop="20250413033400 +0300" channel="xxl.tv">
+    <title>Les désirs de Zaawaadi</title>
+  </programme>
+  <programme start="20250413033400 +0300" stop="20250413051100 +0300" channel="xxl.tv">
+    <title>Sextwoo Vol.9</title>
+  </programme>
+  <programme start="20250413051100 +0300" stop="20250413065700 +0300" channel="xxl.tv">
+    <title>Derrière le mur du Glory Hole</title>
+  </programme>
+  <programme start="20250413065700 +0300" stop="20250413074400 +0300" channel="xxl.tv">
+    <title>Le meilleur de XXL</title>
+  </programme>
+  <programme start="20250413074400 +0300" stop="20250413082700 +0300" channel="xxl.tv">
+    <title>Sexfriends à Los Angeles 2</title>
+  </programme>
+  <programme start="20250413082700 +0300" stop="20250413095100 +0300" channel="xxl.tv">
+    <title>TIFFANY LEIDDI SEXLIFE VOL.3</title>
+  </programme>
+  <programme start="20250413095100 +0300" stop="20250413111800 +0300" channel="xxl.tv">
+    <title>Club libertin, Hard 47</title>
+  </programme>
+  <programme start="20250413111800 +0300" stop="20250413114400 +0300" channel="xxl.tv">
+    <title>Brune &amp; blonde pour John</title>
+  </programme>
+  <programme start="20250413114400 +0300" stop="20250413121100 +0300" channel="xxl.tv">
+    <title>Amour de vacances</title>
+  </programme>
+  <programme start="20250413121100 +0300" stop="20250413125200 +0300" channel="xxl.tv">
+    <title>Climax 2Climax 2 (2021)</title>
+  </programme>
+  <programme start="20250413125200 +0300" stop="20250413132500 +0300" channel="xxl.tv">
+    <title>Dévergondée</title>
+  </programme>
+  <programme start="20250413132500 +0300" stop="20250413141800 +0300" channel="xxl.tv">
+    <title>Sexfriends à Los Angeles 1</title>
+  </programme>
+  <programme start="20250413141800 +0300" stop="20250413155100 +0300" channel="xxl.tv">
+    <title>LUNA ROULETTE VOL.2</title>
+  </programme>
+  <programme start="20250413155100 +0300" stop="20250413174000 +0300" channel="xxl.tv">
+    <title>SEXTWOO VOL.5</title>
+  </programme>
+  <programme start="20250413174000 +0300" stop="20250413180300 +0300" channel="xxl.tv">
+    <title>Dévergondées</title>
+  </programme>
+  <programme start="20250413180300 +0300" stop="20250413184200 +0300" channel="xxl.tv">
+    <title>Voyage d'affaire</title>
+  </programme>
+  <programme start="20250413184200 +0300" stop="20250413192300 +0300" channel="xxl.tv">
+    <title>Fantasme enfoui</title>
+  </programme>
+  <programme start="20250413192300 +0300" stop="20250413201100 +0300" channel="xxl.tv">
+    <title>Club Libertin, Club Libertin 89</title>
+  </programme>
+  <programme start="20250413201100 +0300" stop="20250413214800 +0300" channel="xxl.tv">
+    <title>Sextwoo Vol.9</title>
+  </programme>
+  <programme start="20250413214800 +0300" stop="20250413232300 +0300" channel="xxl.tv">
+    <title>Les plans à trois de Mariska</title>
+  </programme>
+  <programme start="20250413232300 +0300" stop="20250413235900 +0300" channel="xxl.tv">
+    <title>Rencontre avec B.Nicols</title>
+  </programme>
+  <programme start="20250413235900 +0300" stop="20250414003000 +0300" channel="xxl.tv">
+    <title>Lasirena 4 you</title>
+  </programme>
+  <programme start="20250412074200 +0300" stop="20250412080600 +0300" channel="passionxxx.tv">
+    <title>I Licked A Girl And I Liked It - Scene 1</title>
+  </programme>
+  <programme start="20250412080600 +0300" stop="20250412083400 +0300" channel="passionxxx.tv">
+    <title>Its Fuckin Anal - scene 2</title>
+  </programme>
+  <programme start="20250412083400 +0300" stop="20250412090300 +0300" channel="passionxxx.tv">
+    <title>Anal Milf Mariska In The Garden</title>
+  </programme>
+  <programme start="20250412090300 +0300" stop="20250412092700 +0300" channel="passionxxx.tv">
+    <title>Kickstart Her Day 2 - scene 4</title>
+  </programme>
+  <programme start="20250412092700 +0300" stop="20250412094800 +0300" channel="passionxxx.tv">
+    <title>Lesbians Just Wanna Play</title>
+  </programme>
+  <programme start="20250412094800 +0300" stop="20250412101600 +0300" channel="passionxxx.tv">
+    <title>Op de bank bij dokter Ivey Passion</title>
+  </programme>
+  <programme start="20250412101600 +0300" stop="20250412104900 +0300" channel="passionxxx.tv">
+    <title>My Very First Boyfriend - scene 2</title>
+  </programme>
+  <programme start="20250412104900 +0300" stop="20250412110600 +0300" channel="passionxxx.tv">
+    <title>Lets Get Nauti - scene 2</title>
+  </programme>
+  <programme start="20250412110600 +0300" stop="20250412114000 +0300" channel="passionxxx.tv">
+    <title>Footsie Babes 20 - Scene 4</title>
+  </programme>
+  <programme start="20250412114000 +0300" stop="20250412120700 +0300" channel="passionxxx.tv">
+    <title>Sugardaddy Strikes Again - Scene 4</title>
+  </programme>
+  <programme start="20250412120700 +0300" stop="20250412123600 +0300" channel="passionxxx.tv">
+    <title>Blondage - 5</title>
+  </programme>
+  <programme start="20250412123600 +0300" stop="20250412131400 +0300" channel="passionxxx.tv">
+    <title>Tied Up and Desperate 2 Tiffany Doll</title>
+  </programme>
+  <programme start="20250412131400 +0300" stop="20250412143800 +0300" channel="passionxxx.tv">
+    <title>Welness Club</title>
+  </programme>
+  <programme start="20250412143800 +0300" stop="20250412154000 +0300" channel="passionxxx.tv">
+    <title>Busty Gym Babes Get DP'd</title>
+  </programme>
+  <programme start="20250412154000 +0300" stop="20250412161200 +0300" channel="passionxxx.tv">
+    <title>No Boys Just Toys - scene 1</title>
+  </programme>
+  <programme start="20250412161200 +0300" stop="20250412163400 +0300" channel="passionxxx.tv">
+    <title>She's So Small 18 - Scene 1</title>
+  </programme>
+  <programme start="20250412163400 +0300" stop="20250412165700 +0300" channel="passionxxx.tv">
+    <title>Club Whores 09 - scene 1</title>
+  </programme>
+  <programme start="20250412165700 +0300" stop="20250412174300 +0300" channel="passionxxx.tv">
+    <title>Busty Body Painted Babe Fucked</title>
+  </programme>
+  <programme start="20250412174300 +0300" stop="20250412175400 +0300" channel="passionxxx.tv">
+    <title>Chelsey Lanette Zuigt Zich Suf</title>
+  </programme>
+  <programme start="20250412175400 +0300" stop="20250412181500 +0300" channel="passionxxx.tv">
+    <title>Kinky Basement Adventures - scene 4</title>
+  </programme>
+  <programme start="20250412181500 +0300" stop="20250412183600 +0300" channel="passionxxx.tv">
+    <title>Lady Lyne neukt Engelse gozer</title>
+  </programme>
+  <programme start="20250412183600 +0300" stop="20250412190500 +0300" channel="passionxxx.tv">
+    <title>School Moeders Geven Sexlessen Thuis - scene 1</title>
+  </programme>
+  <programme start="20250412190500 +0300" stop="20250412194600 +0300" channel="passionxxx.tv">
+    <title>Sexy Blonde Gets A Massage At The Poolside</title>
+  </programme>
+  <programme start="20250412194600 +0300" stop="20250412202400 +0300" channel="passionxxx.tv">
+    <title>Teacher Fucks Slutty Student</title>
+  </programme>
+  <programme start="20250412202400 +0300" stop="20250412222000 +0300" channel="passionxxx.tv">
+    <title>Innocence Lost 2</title>
+  </programme>
+  <programme start="20250412222000 +0300" stop="20250412224200 +0300" channel="passionxxx.tv">
+    <title>Busty 21 - scene 2</title>
+  </programme>
+  <programme start="20250412224200 +0300" stop="20250412230600 +0300" channel="passionxxx.tv">
+    <title>Secretary Blowjob In The Office</title>
+  </programme>
+  <programme start="20250412230600 +0300" stop="20250412233200 +0300" channel="passionxxx.tv">
+    <title>Do You Wanna Fuck My Ass - part 1</title>
+  </programme>
+  <programme start="20250412233200 +0300" stop="20250413000000 +0300" channel="passionxxx.tv">
+    <title>Property Of A Busty Milf 2 - scene 4</title>
+  </programme>
+  <programme start="20250413000000 +0300" stop="20250413005000 +0300" channel="passionxxx.tv">
+    <title>Only If I Get DBd - scene 2</title>
+  </programme>
+  <programme start="20250413005000 +0300" stop="20250413012700 +0300" channel="passionxxx.tv">
+    <title>Banged By A Buncha Brothers - scene 2</title>
+  </programme>
+  <programme start="20250413012700 +0300" stop="20250413014700 +0300" channel="passionxxx.tv">
+    <title>Maid Rules - scene 1</title>
+  </programme>
+  <programme start="20250413014700 +0300" stop="20250413020000 +0300" channel="passionxxx.tv">
+    <title>Asshole Fever 10 - Scene 4</title>
+  </programme>
+  <programme start="20250413020000 +0300" stop="20250413023400 +0300" channel="passionxxx.tv">
+    <title>Kinky As(s) Fuck 03 - scene 1</title>
+  </programme>
+  <programme start="20250413023400 +0300" stop="20250413030600 +0300" channel="passionxxx.tv">
+    <title>Kinky As(s) Fuck 03 - scene 3</title>
+  </programme>
+  <programme start="20250413030600 +0300" stop="20250413034100 +0300" channel="passionxxx.tv">
+    <title>Wet &amp; Wild Holiday - scene 1</title>
+  </programme>
+  <programme start="20250413034100 +0300" stop="20250413040400 +0300" channel="passionxxx.tv">
+    <title>Busty Anal GILFs - scene 2</title>
+  </programme>
+  <programme start="20250413040400 +0300" stop="20250413045100 +0300" channel="passionxxx.tv">
+    <title>Sporty Slut Fucked At The Wellness Center</title>
+  </programme>
+  <programme start="20250413045100 +0300" stop="20250413051300 +0300" channel="passionxxx.tv">
+    <title>Take Me Toyboy - scene 3</title>
+  </programme>
+  <programme start="20250413051300 +0300" stop="20250413053300 +0300" channel="passionxxx.tv">
+    <title>The Anal Intern Caroline &amp; Tina</title>
+  </programme>
+  <programme start="20250413053300 +0300" stop="20250413061200 +0300" channel="passionxxx.tv">
+    <title>Anal for Big Boobs girls - Scene 1</title>
+  </programme>
+  <programme start="20250413061200 +0300" stop="20250413063800 +0300" channel="passionxxx.tv">
+    <title>Just GirlFriends 2 - Scene 1</title>
+  </programme>
+  <programme start="20250413063800 +0300" stop="20250413065900 +0300" channel="passionxxx.tv">
+    <title>Just GirlFriends - Scene 1</title>
+  </programme>
+  <programme start="20250413065900 +0300" stop="20250413073200 +0300" channel="passionxxx.tv">
+    <title>Lessons From the Bedroom 4 - scene 2</title>
+  </programme>
+  <programme start="20250413073200 +0300" stop="20250413080100 +0300" channel="passionxxx.tv">
+    <title>Anal Massage Therapy 4 - scene 1</title>
+  </programme>
+  <programme start="20250413080100 +0300" stop="20250413082100 +0300" channel="passionxxx.tv">
+    <title>Orgy Part 1 Amber Jayne, Asia Rae, Tina &amp; Olga Love</title>
+  </programme>
+  <programme start="20250413082100 +0300" stop="20250413084500 +0300" channel="passionxxx.tv">
+    <title>Mature Van 1 - 4</title>
+  </programme>
+  <programme start="20250413084500 +0300" stop="20250413091500 +0300" channel="passionxxx.tv">
+    <title>Family Swap 2 Andi James &amp; Jessae Rosae</title>
+  </programme>
+  <programme start="20250413091500 +0300" stop="20250413094300 +0300" channel="passionxxx.tv">
+    <title>Only Monster Cocks - Scene 1</title>
+  </programme>
+  <programme start="20250413094300 +0300" stop="20250413101100 +0300" channel="passionxxx.tv">
+    <title>Pure MILF 15 - scene 1</title>
+  </programme>
+  <programme start="20250413101100 +0300" stop="20250413105100 +0300" channel="passionxxx.tv">
+    <title>Ass Fucking Just The Way She Likes</title>
+  </programme>
+  <programme start="20250413105100 +0300" stop="20250413112300 +0300" channel="passionxxx.tv">
+    <title>Anal Massage Therapy 4 - scene 2</title>
+  </programme>
+  <programme start="20250413112300 +0300" stop="20250413120600 +0300" channel="passionxxx.tv">
+    <title>Busty Latina Invites A New Friend</title>
+  </programme>
+  <programme start="20250413120600 +0300" stop="20250413123900 +0300" channel="passionxxx.tv">
+    <title>Wanna Try King BBC? - scene 4</title>
+  </programme>
+  <programme start="20250413123900 +0300" stop="20250413130300 +0300" channel="passionxxx.tv">
+    <title>Young Pussy Paradise - scene 3</title>
+  </programme>
+  <programme start="20250413130300 +0300" stop="20250413132800 +0300" channel="passionxxx.tv">
+    <title>De Verliefde Scharrel Eva &amp; Wesley</title>
+  </programme>
+  <programme start="20250413132800 +0300" stop="20250413140600 +0300" channel="passionxxx.tv">
+    <title>Busty Brokers with Bush - scene 2</title>
+  </programme>
+  <programme start="20250413140600 +0300" stop="20250413145100 +0300" channel="passionxxx.tv">
+    <title>Pascal Subsluts - Harleyy Heart</title>
+  </programme>
+  <programme start="20250413145100 +0300" stop="20250413152800 +0300" channel="passionxxx.tv">
+    <title>Tied Up And Spanked Alyssa Reece</title>
+  </programme>
+  <programme start="20250413152800 +0300" stop="20250413155000 +0300" channel="passionxxx.tv">
+    <title>Angels Seduced - scene 1</title>
+  </programme>
+  <programme start="20250413155000 +0300" stop="20250413162500 +0300" channel="passionxxx.tv">
+    <title>Bodacious Babes - scene 3</title>
+  </programme>
+  <programme start="20250413162500 +0300" stop="20250413164900 +0300" channel="passionxxx.tv">
+    <title>Busty Wives Next Door 5 - scene 4</title>
+  </programme>
+  <programme start="20250413164900 +0300" stop="20250413172600 +0300" channel="passionxxx.tv">
+    <title>A young woman as shy as naughty!</title>
+  </programme>
+  <programme start="20250413172600 +0300" stop="20250413175300 +0300" channel="passionxxx.tv">
+    <title>Did You See Me Squirt - scene 3</title>
+  </programme>
+  <programme start="20250413175300 +0300" stop="20250413181600 +0300" channel="passionxxx.tv">
+    <title>Down On Abby - scene 4</title>
+  </programme>
+  <programme start="20250413181600 +0300" stop="20250413183900 +0300" channel="passionxxx.tv">
+    <title>Banging On My Backdoor - scene 3</title>
+  </programme>
+  <programme start="20250413183900 +0300" stop="20250413190300 +0300" channel="passionxxx.tv">
+    <title>Cheating Bubble Butt Girlfriends - scene 2</title>
+  </programme>
+  <programme start="20250413190300 +0300" stop="20250413193500 +0300" channel="passionxxx.tv">
+    <title>Busty Babes in the Sun - scene 3</title>
+  </programme>
+  <programme start="20250413193500 +0300" stop="20250413202500 +0300" channel="passionxxx.tv">
+    <title>Sexy Momma - Eva May &amp; Atlanta Moreno</title>
+  </programme>
+  <programme start="20250413202500 +0300" stop="20250413211000 +0300" channel="passionxxx.tv">
+    <title>Neuk Me In Mijn Kinky Sexy Kostuum - scene 1</title>
+  </programme>
+  <programme start="20250413211000 +0300" stop="20250413214500 +0300" channel="passionxxx.tv">
+    <title>Slut Next Door 02 - Scene 4</title>
+  </programme>
+  <programme start="20250413214500 +0300" stop="20250413221200 +0300" channel="passionxxx.tv">
+    <title>Handig En Hitsig 3</title>
+  </programme>
+  <programme start="20250413221200 +0300" stop="20250413234200 +0300" channel="passionxxx.tv">
+    <title>Don't Get Mad Get Even</title>
+  </programme>
+  <programme start="20250413234200 +0300" stop="20250414000000 +0300" channel="passionxxx.tv">
+    <title>Horny Granddadz Stories - scene 2</title>
   </programme>
   <programme start="20250412020000 +0300" stop="20250413020000 +0300" channel="rts1.rs">
     <title>Nema informacija o programu</title>
@@ -49642,391 +52215,133 @@
   <programme start="20250413234500 +0300" stop="20250414000000 +0300" channel="raiscuola.it">
     <title lang="it">RAN/Futuro24 ed.2024/2025</title>
   </programme>
-  <programme start="20250412050000 +0300" stop="20250412052500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250412050000 +0300" stop="20250412060000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412052500 +0300" stop="20250412053000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250412060000 +0300" stop="20250412070000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 2-я серия</title>
   </programme>
-  <programme start="20250412053000 +0300" stop="20250412060000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250412070000 +0300" stop="20250412080000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412060000 +0300" stop="20250412062500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250412080000 +0300" stop="20250412090000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 3-я серия</title>
   </programme>
-  <programme start="20250412062500 +0300" stop="20250412063000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250412090000 +0300" stop="20250412100000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 2-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412063000 +0300" stop="20250412070000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250412100000 +0300" stop="20250412110000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 4-я серия</title>
   </programme>
-  <programme start="20250412070000 +0300" stop="20250412072500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250412110000 +0300" stop="20250412120000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412072500 +0300" stop="20250412073000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250412120000 +0300" stop="20250412130000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412073000 +0300" stop="20250412080000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250412130000 +0300" stop="20250412140000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 1-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412080000 +0300" stop="20250412082500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250412140000 +0300" stop="20250412150000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 2-я серия</title>
   </programme>
-  <programme start="20250412082500 +0300" stop="20250412083000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250412150000 +0300" stop="20250412160000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412083000 +0300" stop="20250412090000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250412160000 +0300" stop="20250412170000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 3-я серия</title>
   </programme>
-  <programme start="20250412090000 +0300" stop="20250412092500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250412170000 +0300" stop="20250412180000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 2-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412092500 +0300" stop="20250412093000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250412180000 +0300" stop="20250412190000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 4-я серия</title>
   </programme>
-  <programme start="20250412093000 +0300" stop="20250412100000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250412190000 +0300" stop="20250412200000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412100000 +0300" stop="20250412102500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250412200000 +0300" stop="20250412210000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412102500 +0300" stop="20250412103000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250412210000 +0300" stop="20250412220000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 1-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412103000 +0300" stop="20250412110000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250412220000 +0300" stop="20250412230000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 2-я серия</title>
   </programme>
-  <programme start="20250412110000 +0300" stop="20250412112500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250412230000 +0300" stop="20250413000000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412112500 +0300" stop="20250412113000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250413000000 +0300" stop="20250413010000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 3-я серия</title>
   </programme>
-  <programme start="20250412113000 +0300" stop="20250412120000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250413010000 +0300" stop="20250413020000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 2-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412120000 +0300" stop="20250412122500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250413020000 +0300" stop="20250413030000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 4-я серия</title>
   </programme>
-  <programme start="20250412122500 +0300" stop="20250412123000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250413030000 +0300" stop="20250413040000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412123000 +0300" stop="20250412130000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250413040000 +0300" stop="20250413050000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412130000 +0300" stop="20250412132500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  <programme start="20250413050000 +0300" stop="20250413060000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412132500 +0300" stop="20250412133000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  <programme start="20250413060000 +0300" stop="20250413070000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 2-я серия</title>
   </programme>
-  <programme start="20250412133000 +0300" stop="20250412140000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  <programme start="20250413070000 +0300" stop="20250413080000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412140000 +0300" stop="20250412142500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
+  <programme start="20250413080000 +0300" stop="20250413090000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 3-я серия</title>
   </programme>
-  <programme start="20250412142500 +0300" stop="20250412143000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
+  <programme start="20250413090000 +0300" stop="20250413100000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 2-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412143000 +0300" stop="20250412150000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
+  <programme start="20250413100000 +0300" stop="20250413110000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 4-я серия</title>
   </programme>
-  <programme start="20250412150000 +0300" stop="20250412152500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
+  <programme start="20250413110000 +0300" stop="20250413120000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412152500 +0300" stop="20250412153000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
+  <programme start="20250413120000 +0300" stop="20250413130000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412153000 +0300" stop="20250412160000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
+  <programme start="20250413130000 +0300" stop="20250413140000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 1-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412160000 +0300" stop="20250412162500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
+  <programme start="20250413140000 +0300" stop="20250413150000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 2-я серия</title>
   </programme>
-  <programme start="20250412162500 +0300" stop="20250412163000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
+  <programme start="20250413150000 +0300" stop="20250413160000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412163000 +0300" stop="20250412170000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
+  <programme start="20250413160000 +0300" stop="20250413170000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 3-я серия</title>
   </programme>
-  <programme start="20250412170000 +0300" stop="20250412172500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
+  <programme start="20250413170000 +0300" stop="20250413180000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 2-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412172500 +0300" stop="20250412173000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
+  <programme start="20250413180000 +0300" stop="20250413190000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 4-я серия</title>
   </programme>
-  <programme start="20250412173000 +0300" stop="20250412180000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
+  <programme start="20250413190000 +0300" stop="20250413200000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412180000 +0300" stop="20250412182500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
+  <programme start="20250413200000 +0300" stop="20250413210000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 1-я серия</title>
   </programme>
-  <programme start="20250412182500 +0300" stop="20250412183000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
+  <programme start="20250413210000 +0300" stop="20250413220000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 15. 1-я серия - "Belgium"</title>
   </programme>
-  <programme start="20250412183000 +0300" stop="20250412190000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
+  <programme start="20250413220000 +0300" stop="20250413230000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This week. Сезон 15. 2-я серия</title>
   </programme>
-  <programme start="20250412190000 +0300" stop="20250412192500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412192500 +0300" stop="20250412193000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412193000 +0300" stop="20250412200000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250412200000 +0300" stop="20250412202500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412202500 +0300" stop="20250412203000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412203000 +0300" stop="20250412210000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250412210000 +0300" stop="20250412212500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412212500 +0300" stop="20250412213000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412213000 +0300" stop="20250412220000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250412220000 +0300" stop="20250412222500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412222500 +0300" stop="20250412223000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412223000 +0300" stop="20250412230000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250412230000 +0300" stop="20250412232500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412232500 +0300" stop="20250412233000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250412233000 +0300" stop="20250413000000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413000000 +0300" stop="20250413002500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413002500 +0300" stop="20250413003000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413003000 +0300" stop="20250413010000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413010000 +0300" stop="20250413012500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413012500 +0300" stop="20250413013000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413013000 +0300" stop="20250413020000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413020000 +0300" stop="20250413022500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413022500 +0300" stop="20250413023000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413023000 +0300" stop="20250413030000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413030000 +0300" stop="20250413032500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413032500 +0300" stop="20250413033000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413033000 +0300" stop="20250413040000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413040000 +0300" stop="20250413042500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413042500 +0300" stop="20250413043000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413043000 +0300" stop="20250413050000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413050000 +0300" stop="20250413052500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413052500 +0300" stop="20250413053000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413053000 +0300" stop="20250413060000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413060000 +0300" stop="20250413062500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413062500 +0300" stop="20250413063000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413063000 +0300" stop="20250413070000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413070000 +0300" stop="20250413072500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413072500 +0300" stop="20250413073000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413073000 +0300" stop="20250413080000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413080000 +0300" stop="20250413082500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413082500 +0300" stop="20250413083000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413083000 +0300" stop="20250413090000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413090000 +0300" stop="20250413092500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413092500 +0300" stop="20250413093000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413093000 +0300" stop="20250413100000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413100000 +0300" stop="20250413102500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413102500 +0300" stop="20250413103000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413103000 +0300" stop="20250413110000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413110000 +0300" stop="20250413112500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413112500 +0300" stop="20250413113000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413113000 +0300" stop="20250413120000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413120000 +0300" stop="20250413122500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413122500 +0300" stop="20250413123000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413123000 +0300" stop="20250413130000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413130000 +0300" stop="20250413132500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413132500 +0300" stop="20250413133000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413133000 +0300" stop="20250413140000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
-  </programme>
-  <programme start="20250413140000 +0300" stop="20250413142500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413142500 +0300" stop="20250413143000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413143000 +0300" stop="20250413150000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413150000 +0300" stop="20250413152500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413152500 +0300" stop="20250413153000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413153000 +0300" stop="20250413160000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413160000 +0300" stop="20250413162500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413162500 +0300" stop="20250413163000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413163000 +0300" stop="20250413170000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413170000 +0300" stop="20250413172500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413172500 +0300" stop="20250413173000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413173000 +0300" stop="20250413180000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413180000 +0300" stop="20250413182500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413182500 +0300" stop="20250413183000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413183000 +0300" stop="20250413190000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413190000 +0300" stop="20250413192500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413192500 +0300" stop="20250413193000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413193000 +0300" stop="20250413200000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413200000 +0300" stop="20250413202500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413202500 +0300" stop="20250413203000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413203000 +0300" stop="20250413210000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413210000 +0300" stop="20250413212500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413212500 +0300" stop="20250413213000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413213000 +0300" stop="20250413220000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413220000 +0300" stop="20250413222500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413222500 +0300" stop="20250413223000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413223000 +0300" stop="20250413230000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
-  </programme>
-  <programme start="20250413230000 +0300" stop="20250413232500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413232500 +0300" stop="20250413233000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
-  </programme>
-  <programme start="20250413233000 +0300" stop="20250414000000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
+  <programme start="20250413230000 +0300" stop="20250414000000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
   </programme>
 </tv>

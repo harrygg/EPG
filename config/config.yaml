@@ -26,7 +26,7 @@ cache-compression-type: gzip
 
 # The maximum number of rounds the program will run.
 # Each time a new source will be selected from channel sources incrementally 
-max-grabbing-rounds: 3  
+max-grabbing-rounds: 4  
 
 # Convert grabbed programs start and stop times to local time zone
 convert-to-local-datetime: true
