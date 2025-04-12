@@ -791,9 +791,6 @@
   <programme start="20250414234500 +0300" channel="diemasport3.bg">
     <title>Байер Леверкузен - Унион Берлин, 29 кръг, Футбол: Бундеслига 2024/2025, /n/</title>
   </programme>
-  <programme start="20250412021500 +0300" stop="20250412060000 +0300" channel="fightclub.diemasport.bg">
-    <title>ONE Fight Night, ONE Fight Night 30: Kryklia vs Knowles</title>
-  </programme>
   <programme start="20250412060000 +0300" stop="20250412083000 +0300" channel="fightclub.diemasport.bg">
     <title>Extreme Fighting Championship: EFC 114, Сезон 2024 Епизод 114</title>
   </programme>
@@ -1751,8 +1748,44 @@
   <programme start="20250413220000 +0300" stop="20250414000000 +0300" channel="arenasport5.sr">
     <title lang="sr">Tenis: Finale Dubla</title>
   </programme>
-  <programme start="20250414000000 +0300" channel="arenasport5.sr">
+  <programme start="20250414000000 +0300" stop="20250414040000 +0300" channel="arenasport5.sr">
     <title lang="sr">Klizanje: ISU World Championships Boston: Muškarci, slobodni program</title>
+  </programme>
+  <programme start="20250414040000 +0300" stop="20250414070000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Klizanje: ISU World Championships Boston: Plesni parovi, slobodni ples</title>
+  </programme>
+  <programme start="20250414070000 +0300" stop="20250414100000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Basket 3x3: Shanghai</title>
+  </programme>
+  <programme start="20250414100000 +0300" stop="20250414120000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Tenis: Hjuston - Finale</title>
+  </programme>
+  <programme start="20250414120000 +0300" stop="20250414140000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Moto Sport: Bahrein: Trka</title>
+  </programme>
+  <programme start="20250414140000 +0300" stop="20250414160000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Atletika: Botswana Continental Tour</title>
+  </programme>
+  <programme start="20250414160000 +0300" stop="20250414164500 +0300" channel="arenasport5.sr">
+    <title lang="sr">Moto Sport: Katar - Trka</title>
+  </programme>
+  <programme start="20250414164500 +0300" stop="20250414173000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Moto Sport: Katar - Trka</title>
+  </programme>
+  <programme start="20250414173000 +0300" stop="20250414183000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Moto Sport: Katar: Trka</title>
+  </programme>
+  <programme start="20250414183000 +0300" stop="20250414190000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Moto Sport: FIM Hard Enduro World Championship: Tennessee, pregled</title>
+  </programme>
+  <programme start="20250414190000 +0300" stop="20250414213000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Tenis: Finale</title>
+  </programme>
+  <programme start="20250414213000 +0300" stop="20250414233000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Huesca - Malaga</title>
+  </programme>
+  <programme start="20250414233000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Klizanje: EURO CHAMPS TALLINN: Rhythm Dance</title>
   </programme>
   <programme start="20250412080000 +0300" stop="20250412093000 +0300" channel="arenasport1.hr">
     <title>Rukomet: MAGDEBURG - DINAMO B., ehf europska liga</title>
@@ -6035,8 +6068,50 @@
   <programme start="20250414030000 +0300" stop="20250414040000 +0300" channel="sport1.de">
     <title>Teleshopping</title>
   </programme>
-  <programme start="20250414040000 +0300" channel="sport1.de">
+  <programme start="20250414040000 +0300" stop="20250414050000 +0300" channel="sport1.de">
     <title>Teleshopping</title>
+  </programme>
+  <programme start="20250414050000 +0300" stop="20250414060000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
+  </programme>
+  <programme start="20250414060000 +0300" stop="20250414070000 +0300" channel="sport1.de">
+    <title>Teleshopping</title>
+  </programme>
+  <programme start="20250414070000 +0300" stop="20250414072000 +0300" channel="sport1.de">
+    <title>Die PS Profis – Mehr Power aus dem Pott</title>
+  </programme>
+  <programme start="20250414072000 +0300" stop="20250414074500 +0300" channel="sport1.de">
+    <title>Die PS Profis – Mehr Power aus dem Pott</title>
+  </programme>
+  <programme start="20250414074500 +0300" stop="20250414110000 +0300" channel="sport1.de">
+    <title>MasterChef</title>
+  </programme>
+  <programme start="20250414110000 +0300" stop="20250414125500 +0300" channel="sport1.de">
+    <title>Power of Love</title>
+  </programme>
+  <programme start="20250414125500 +0300" stop="20250414150000 +0300" channel="sport1.de">
+    <title>My Style Rocks</title>
+  </programme>
+  <programme start="20250414150000 +0300" stop="20250414165500 +0300" channel="sport1.de">
+    <title>Power of Love</title>
+  </programme>
+  <programme start="20250414165500 +0300" stop="20250414172000 +0300" channel="sport1.de">
+    <title>Storage Hunters</title>
+  </programme>
+  <programme start="20250414172000 +0300" stop="20250414174500 +0300" channel="sport1.de">
+    <title>Storage Hunters</title>
+  </programme>
+  <programme start="20250414174500 +0300" stop="20250414180000 +0300" channel="sport1.de">
+    <title>Fußball: Bundesliga der Frauen</title>
+  </programme>
+  <programme start="20250414180000 +0300" stop="20250414195500 +0300" channel="sport1.de">
+    <title>Fußball: Bundesliga der Frauen</title>
+  </programme>
+  <programme start="20250414195500 +0300" stop="20250414224000 +0300" channel="sport1.de">
+    <title>MasterChef</title>
+  </programme>
+  <programme start="20250414224000 +0300" channel="sport1.de">
+    <title>Power of Love</title>
   </programme>
   <programme start="20250412000000 +0300" stop="20250412083000 +0300" channel="eurosport1.de">
     <title>Snooker: Main Tour</title>
@@ -6101,8 +6176,41 @@
   <programme start="20250413220000 +0300" stop="20250414000000 +0300" channel="eurosport1.de">
     <title>Rad: Paris–Roubaix</title>
   </programme>
-  <programme start="20250414000000 +0300" channel="eurosport1.de">
+  <programme start="20250414000000 +0300" stop="20250414083000 +0300" channel="eurosport1.de">
     <title>Radsport: Paris – Roubaix der Damen</title>
+  </programme>
+  <programme start="20250414083000 +0300" stop="20250414100000 +0300" channel="eurosport1.de">
+    <title>Rad: Paris–Roubaix</title>
+  </programme>
+  <programme start="20250414100000 +0300" stop="20250414110000 +0300" channel="eurosport1.de">
+    <title>Snooker: Tour Championship</title>
+  </programme>
+  <programme start="20250414110000 +0300" stop="20250414130000 +0300" channel="eurosport1.de">
+    <title>Tennis: ATP World Tour</title>
+  </programme>
+  <programme start="20250414130000 +0300" stop="20250414140000 +0300" channel="eurosport1.de">
+    <title>Mountainbike: Weltcup</title>
+  </programme>
+  <programme start="20250414140000 +0300" stop="20250414150000 +0300" channel="eurosport1.de">
+    <title>Mountainbike: Weltcup</title>
+  </programme>
+  <programme start="20250414150000 +0300" stop="20250414170000 +0300" channel="eurosport1.de">
+    <title>Rad: Paris–Roubaix</title>
+  </programme>
+  <programme start="20250414170000 +0300" stop="20250414182500 +0300" channel="eurosport1.de">
+    <title>Tennis: ATP World Tour</title>
+  </programme>
+  <programme start="20250414182500 +0300" stop="20250414203000 +0300" channel="eurosport1.de">
+    <title>Tennis: WTA Tour</title>
+  </programme>
+  <programme start="20250414203000 +0300" stop="20250414220000 +0300" channel="eurosport1.de">
+    <title>Marathon: Paris-Marathon</title>
+  </programme>
+  <programme start="20250414220000 +0300" stop="20250414230000 +0300" channel="eurosport1.de">
+    <title>Mountainbike: Weltcup</title>
+  </programme>
+  <programme start="20250414230000 +0300" channel="eurosport1.de">
+    <title>Mountainbike: Weltcup</title>
   </programme>
   <programme start="20250412064500 +0300" stop="20250412074500 +0300" channel="skysportbundesliga.de">
     <title>Fußball: 2. Bundesliga, Alle Spiele, alle Tore</title>
@@ -6663,9 +6771,6 @@
   <programme start="20250414230000 +0300" stop="20250415000000 +0300" channel="sportklub2.rs">
     <title>No information</title>
   </programme>
-  <programme start="20250415000000 +0300" channel="sportklub2.rs">
-    <title>No information</title>
-  </programme>
   <programme start="20250412010000 +0300" stop="20250412025000 +0300" channel="sportklub3.rs">
     <title>Fudbal - Saudijska liga: Ettifaq - Hilal</title>
     <desc>Pratite Saudijsku profesionalnu ligu, najvišu fudbalsku ligu u ligaškom sistemu Saudijske Arabije. Osnovana je 1976. godine kao prva profesionalna fudbalska liga Kraljevine Saudijske Arabije.</desc>
@@ -6894,9 +6999,6 @@
   <programme start="20250414230000 +0300" stop="20250415000000 +0300" channel="sportklub3.rs">
     <title>No information</title>
   </programme>
-  <programme start="20250415000000 +0300" channel="sportklub3.rs">
-    <title>No information</title>
-  </programme>
   <programme start="20250412003000 +0300" stop="20250412022000 +0300" channel="sportklub1.hr">
     <title>Nogomet - Bundesliga: Wolfsburg - Leipzig</title>
     <desc>Nogometna Bundesliga najviši je rang natjecanja u Njemačkoj koja od 1963. godine i svog osnutka visokom kvalitetom igre oduševljava sve nogometne poklonike diljem svijeta.</desc>
@@ -7122,9 +7224,6 @@
   <programme start="20250414230000 +0300" stop="20250415000000 +0300" channel="sportklub1.hr">
     <title>No information</title>
   </programme>
-  <programme start="20250415000000 +0300" channel="sportklub1.hr">
-    <title>No information</title>
-  </programme>
   <programme start="20250412014500 +0300" stop="20250412025000 +0300" channel="sportklub2.hr">
     <title>F1 Bahrain: Trening 1</title>
     <desc>Pratite uzbudljivu utrku Velike nagrade Bahraina koja se održava u sklopu prvenstva Formule 1! Ova utrka vozi se od 2004. godine, a u povijest Formule 1 ušla je kao prva utrka koja se održala na...</desc>
@@ -7327,9 +7426,6 @@
     <title>No information</title>
   </programme>
   <programme start="20250414230000 +0300" stop="20250415000000 +0300" channel="sportklub2.hr">
-    <title>No information</title>
-  </programme>
-  <programme start="20250415000000 +0300" channel="sportklub2.hr">
     <title>No information</title>
   </programme>
   <programme start="20250412010000 +0300" stop="20250412025000 +0300" channel="sportklub3.hr">
@@ -7563,9 +7659,6 @@
   <programme start="20250414230000 +0300" stop="20250415000000 +0300" channel="sportklub3.hr">
     <title>No information</title>
   </programme>
-  <programme start="20250415000000 +0300" channel="sportklub3.hr">
-    <title>No information</title>
-  </programme>
   <programme start="20250412000000 +0300" stop="20250412010000 +0300" channel="sportklub4.hr">
     <title>Beach Volley Pro Tour: Rio: baraž (Ž)</title>
     <desc>Brazil je jedna od država koja će ugostiti najbolje natjecatelje u odbojci na pijesku! Pratite uzbudljive utakmice koje se igraju na čarobnim plažama Rio de Janeira i saznajte koji će timovi odnijeti...</desc>
@@ -7773,9 +7866,6 @@
     <title>No information</title>
   </programme>
   <programme start="20250414230000 +0300" stop="20250415000000 +0300" channel="sportklub4.hr">
-    <title>No information</title>
-  </programme>
-  <programme start="20250415000000 +0300" channel="sportklub4.hr">
     <title>No information</title>
   </programme>
   <programme start="20250412000000 +0300" stop="20250412010000 +0300" channel="sportklub5.hr">
@@ -8040,10 +8130,6 @@
   </programme>
   <programme start="20250414230000 +0300" stop="20250415000000 +0300" channel="sportklub5.hr">
     <title>Sport Klub 5 Promo 3</title>
-    <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
-  </programme>
-  <programme start="20250415000000 +0300" channel="sportklub5.hr">
-    <title>Sport Klub 5 Promo 4</title>
     <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
   </programme>
   <programme start="20250412000000 +0300" stop="20250412010000 +0300" channel="sportklub6.hr">
@@ -8312,10 +8398,6 @@
   </programme>
   <programme start="20250414230000 +0300" stop="20250415000000 +0300" channel="sportklub6.hr">
     <title>Sport Klub 6 Promo 3</title>
-    <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
-  </programme>
-  <programme start="20250415000000 +0300" channel="sportklub6.hr">
-    <title>Sport Klub 6 Promo 4</title>
     <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
   </programme>
   <programme start="20250412010000 +0300" stop="20250412030000 +0300" channel="beinsports1.fr">
@@ -9378,8 +9460,56 @@
   <programme start="20250414000000 +0300" stop="20250414020000 +0300" channel="supertennis.it">
     <title>Tennis: Billie Jean King Cup</title>
   </programme>
-  <programme start="20250414020000 +0300" channel="supertennis.it">
+  <programme start="20250414020000 +0300" stop="20250414034500 +0300" channel="supertennis.it">
     <title>Tennis: Billie Jean King Cup</title>
+  </programme>
+  <programme start="20250414034500 +0300" stop="20250414040000 +0300" channel="supertennis.it">
+    <title>Colpo da campione</title>
+  </programme>
+  <programme start="20250414040000 +0300" stop="20250414060000 +0300" channel="supertennis.it">
+    <title>Tennis: Billie Jean King Cup</title>
+  </programme>
+  <programme start="20250414060000 +0300" stop="20250414081500 +0300" channel="supertennis.it">
+    <title>Tennis: Billie Jean King Cup</title>
+  </programme>
+  <programme start="20250414081500 +0300" stop="20250414083000 +0300" channel="supertennis.it">
+    <title>Tie Movie</title>
+  </programme>
+  <programme start="20250414083000 +0300" stop="20250414100000 +0300" channel="supertennis.it">
+    <title>Tennis: ATP 500 Halle</title>
+  </programme>
+  <programme start="20250414100000 +0300" stop="20250414120000 +0300" channel="supertennis.it">
+    <title>Tennis: Billie Jean King Cup</title>
+  </programme>
+  <programme start="20250414120000 +0300" stop="20250414140000 +0300" channel="supertennis.it">
+    <title>Tennis: Billie Jean King Cup</title>
+  </programme>
+  <programme start="20250414140000 +0300" stop="20250414154500 +0300" channel="supertennis.it">
+    <title>Tennis: Ultimate Tennis Showdown</title>
+  </programme>
+  <programme start="20250414154500 +0300" stop="20250414160000 +0300" channel="supertennis.it">
+    <title>Race to Foro</title>
+  </programme>
+  <programme start="20250414160000 +0300" stop="20250414180000 +0300" channel="supertennis.it">
+    <title>Tennis: Ultimate Tennis Showdown</title>
+  </programme>
+  <programme start="20250414180000 +0300" stop="20250414183000 +0300" channel="supertennis.it">
+    <title>Supertennis TG</title>
+  </programme>
+  <programme start="20250414183000 +0300" stop="20250414193000 +0300" channel="supertennis.it">
+    <title>Tennis: Ultimate Tennis Showdown</title>
+  </programme>
+  <programme start="20250414193000 +0300" stop="20250414211500 +0300" channel="supertennis.it">
+    <title>Tennis: Ultimate Tennis Showdown</title>
+  </programme>
+  <programme start="20250414211500 +0300" stop="20250414213000 +0300" channel="supertennis.it">
+    <title>Supertennis TG</title>
+  </programme>
+  <programme start="20250414213000 +0300" stop="20250414233000 +0300" channel="supertennis.it">
+    <title>Tennis: Ultimate Tennis Showdown</title>
+  </programme>
+  <programme start="20250414233000 +0300" channel="supertennis.it">
+    <title>Tennis Talk</title>
   </programme>
   <programme start="20250412080000 +0300" stop="20250412110000 +0300" channel="foxsports1.com">
     <title>The American Rodeo</title>

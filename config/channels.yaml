@@ -336,6 +336,7 @@
     lang: en
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - start.bg
   - tv-programa.bg
   - dnes.bg
@@ -449,6 +450,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - btv.bg
   - dnes.bg
@@ -464,6 +466,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - btv.bg
   - dnes.bg
   
@@ -594,6 +597,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - nova.bg
   - start.bg
   - dnes.bg
@@ -627,6 +631,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - nova.bg
   - tv-programa.bg
   - tv.dir.bg
@@ -640,6 +645,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - axn.bg
   - start.bg
   - dnes.bg
@@ -718,6 +724,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tvprofil.com
   - tv.dir.bg
   - potv.bg
  
@@ -3062,6 +3069,7 @@
     lang: en
   groups: ["tivi.bg","vivacom"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - dnes.bg
   - start.bg
@@ -3116,6 +3124,7 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
+  - tvprofil.com
   - tv-programa.bg
   - dnes.bg
   - tv.dir.bg
@@ -3272,6 +3281,7 @@
   - tv-programa.bg
   - start.bg
   - tv.dir.bg
+  - tvprofil.com
   
 - id: nicktoons.tv
   enabled: true

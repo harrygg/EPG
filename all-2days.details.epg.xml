@@ -8062,9 +8062,6 @@
   <programme start="20250413223000 +0300" stop="20250414003000 +0300" channel="diemasport3.bg">
     <title>Айнтрахт Франкфурт - Хайденхайм, 29 кръг, Футбол: Бундеслига 2024/2025, запис</title>
   </programme>
-  <programme start="20250412021500 +0300" stop="20250412060000 +0300" channel="fightclub.diemasport.bg">
-    <title>ONE Fight Night, ONE Fight Night 30: Kryklia vs Knowles</title>
-  </programme>
   <programme start="20250412060000 +0300" stop="20250412083000 +0300" channel="fightclub.diemasport.bg">
     <title>Extreme Fighting Championship: EFC 114, Сезон 2024 Епизод 114</title>
   </programme>
@@ -28399,7 +28396,7 @@
   <programme start="20250413225500 +0300" stop="20250413235500 +0300" channel="24kitchen.bg">
     <title>Кулинарната обиколка на Акис</title>
   </programme>
-  <programme start="20250413235500 +0300" channel="24kitchen.bg">
+  <programme start="20250413235500 +0300" stop="20250414004500 +0300" channel="24kitchen.bg">
     <title>Кулинарната обиколка на Акис</title>
   </programme>
   <programme start="20250412065400 +0300" stop="20250412072400 +0300" channel="soulandpepper.tv">
@@ -28564,7 +28561,7 @@
   <programme start="20250413222300 +0300" stop="20250413232300 +0300" channel="soulandpepper.tv">
     <title>Chef Talent - детско кулинарно състезание</title>
   </programme>
-  <programme start="20250413232300 +0300" channel="soulandpepper.tv">
+  <programme start="20250413232300 +0300" stop="20250414065400 +0300" channel="soulandpepper.tv">
     <title>Лекият път към вкуса - специално издание</title>
   </programme>
   <programme start="20250412020000 +0300" stop="20250413020000 +0300" channel="kitchen.tv">
@@ -34673,7 +34670,7 @@
   <programme start="20250413223000 +0300" stop="20250413233000 +0300" channel="wnesstv.com">
     <title>"За Връзки"</title>
   </programme>
-  <programme start="20250413233000 +0300" channel="wnesstv.com">
+  <programme start="20250413233000 +0300" stop="20250414060000 +0300" channel="wnesstv.com">
     <title>Възстановяване след раждане с Ваня: Диастаза - еп. 1</title>
   </programme>
   <programme start="20250412052500 +0300" stop="20250412053800 +0300" channel="jimjam.tv">
@@ -40070,7 +40067,7 @@
   <programme start="20250413232500 +0300" stop="20250413235000 +0300" channel="minicacocuk.tr">
     <title>Nasreddin Hoca Zaman Yolcusu</title>
   </programme>
-  <programme start="20250413235000 +0300" channel="minicacocuk.tr">
+  <programme start="20250413235000 +0300" stop="20250414001500 +0300" channel="minicacocuk.tr">
     <title>Variloto</title>
   </programme>
   <programme start="20250412000000 +0300" stop="20250412000400 +0300" channel="duck.tv">
@@ -46988,7 +46985,7 @@
   <programme start="20250413213000 +0300" stop="20250413223000 +0300" channel="trtavaz.tr">
     <title>Bizim Yırlar</title>
   </programme>
-  <programme start="20250413223000 +0300" channel="trtavaz.tr">
+  <programme start="20250413223000 +0300" stop="20250414000000 +0300" channel="trtavaz.tr">
     <title>Sözün Özü</title>
   </programme>
   <programme start="20250412013000 +0300" stop="20250412040000 +0300" channel="nowtv.tr">
@@ -47105,8 +47102,107 @@
   <programme start="20250412180000 +0300" stop="20250412204500 +0300" channel="cnnturk.tr">
     <title>Ana Haber</title>
   </programme>
-  <programme start="20250412204500 +0300" channel="cnnturk.tr">
+  <programme start="20250412204500 +0300" stop="20250412050000 +0300" channel="cnnturk.tr">
     <title>CNN TÜRK Masası</title>
+  </programme>
+  <programme start="20250412050000 +0300" stop="20250412080000 +0300" channel="cnnturk.tr">
+    <title>Haber</title>
+  </programme>
+  <programme start="20250412080000 +0300" stop="20250412083000 +0300" channel="cnnturk.tr">
+    <title>Haber</title>
+  </programme>
+  <programme start="20250412083000 +0300" stop="20250412194500 +0300" channel="cnnturk.tr">
+    <title>Çalışan Türkiye</title>
+  </programme>
+  <programme start="20250412194500 +0300" channel="cnnturk.tr">
+    <title>CNN TÜRK Masası</title>
+  </programme>
+  <programme start="20250412000000 +0300" stop="20250412010000 +0300" channel="haberturk.tr">
+    <title>Gece Bülteni</title>
+  </programme>
+  <programme start="20250412010000 +0300" stop="20250412014000 +0300" channel="haberturk.tr">
+    <title>Gece Bülteni</title>
+  </programme>
+  <programme start="20250412014000 +0300" stop="20250412023000 +0300" channel="haberturk.tr">
+    <title>Magazin Best</title>
+  </programme>
+  <programme start="20250412023000 +0300" stop="20250412040000 +0300" channel="haberturk.tr">
+    <title>Haftanın Manşeti</title>
+  </programme>
+  <programme start="20250412040000 +0300" stop="20250412050000 +0300" channel="haberturk.tr">
+    <title>Haber Bülteni</title>
+  </programme>
+  <programme start="20250412050000 +0300" stop="20250412053000 +0300" channel="haberturk.tr">
+    <title>Belgesel Spor</title>
+  </programme>
+  <programme start="20250412053000 +0300" stop="20250412060000 +0300" channel="haberturk.tr">
+    <title>Belgesel</title>
+  </programme>
+  <programme start="20250412060000 +0300" stop="20250412070000 +0300" channel="haberturk.tr">
+    <title>Haber Bülteni</title>
+  </programme>
+  <programme start="20250412070000 +0300" stop="20250412080000 +0300" channel="haberturk.tr">
+    <title>Belgesel</title>
+  </programme>
+  <programme start="20250412080000 +0300" stop="20250412083000 +0300" channel="haberturk.tr">
+    <title>Haber Bülteni</title>
+  </programme>
+  <programme start="20250412083000 +0300" stop="20250412093000 +0300" channel="haberturk.tr">
+    <title>Haftanın Manşeti</title>
+  </programme>
+  <programme start="20250412093000 +0300" stop="20250412100000 +0300" channel="haberturk.tr">
+    <title>Çok Bilen Çok Kazanır</title>
+  </programme>
+  <programme start="20250412100000 +0300" stop="20250412103000 +0300" channel="haberturk.tr">
+    <title>Haber Bülteni</title>
+  </programme>
+  <programme start="20250412103000 +0300" stop="20250412120000 +0300" channel="haberturk.tr">
+    <title>Hafta Sonu Magazin</title>
+  </programme>
+  <programme start="20250412120000 +0300" stop="20250412123000 +0300" channel="haberturk.tr">
+    <title>Haber Bülteni</title>
+  </programme>
+  <programme start="20250412123000 +0300" stop="20250412133000 +0300" channel="haberturk.tr">
+    <title>Bizimle Fark Edin</title>
+  </programme>
+  <programme start="20250412133000 +0300" stop="20250412143000 +0300" channel="haberturk.tr">
+    <title>Şeflerle Lezzet Sofrası</title>
+  </programme>
+  <programme start="20250412143000 +0300" stop="20250412150000 +0300" channel="haberturk.tr">
+    <title>Belgesel</title>
+  </programme>
+  <programme start="20250412150000 +0300" stop="20250412153000 +0300" channel="haberturk.tr">
+    <title>Haber Bülteni</title>
+  </programme>
+  <programme start="20250412153000 +0300" stop="20250412163000 +0300" channel="haberturk.tr">
+    <title>Galaksi Rehberi</title>
+  </programme>
+  <programme start="20250412163000 +0300" stop="20250412170000 +0300" channel="haberturk.tr">
+    <title>Zaman Makinesi</title>
+  </programme>
+  <programme start="20250412170000 +0300" stop="20250412173000 +0300" channel="haberturk.tr">
+    <title>Haber Bülteni</title>
+  </programme>
+  <programme start="20250412173000 +0300" stop="20250412183000 +0300" channel="haberturk.tr">
+    <title>Haftanın Manşeti</title>
+  </programme>
+  <programme start="20250412183000 +0300" stop="20250412190000 +0300" channel="haberturk.tr">
+    <title>Belgesel Spor</title>
+  </programme>
+  <programme start="20250412190000 +0300" stop="20250412200000 +0300" channel="haberturk.tr">
+    <title>Ana Haber Bülteni</title>
+  </programme>
+  <programme start="20250412200000 +0300" stop="20250412210000 +0300" channel="haberturk.tr">
+    <title>Ceren Gençer Soruyor</title>
+  </programme>
+  <programme start="20250412210000 +0300" stop="20250412223000 +0300" channel="haberturk.tr">
+    <title>Turgay Coşkun Show</title>
+  </programme>
+  <programme start="20250412223000 +0300" stop="20250412233000 +0300" channel="haberturk.tr">
+    <title>Çok Bilen Çok Kazanır</title>
+  </programme>
+  <programme start="20250412233000 +0300" channel="haberturk.tr">
+    <title>Zaman Makinesi</title>
   </programme>
   <programme start="20250412004500 +0300" stop="20250412063000 +0300" channel="kanal7.tr">
     <title>Masum</title>
@@ -47716,6 +47812,42 @@
   </programme>
   <programme start="20250413234500 +0300" stop="20250414011500 +0300" channel="tv85.tr">
     <title>Bir Demet Tiyatro</title>
+  </programme>
+  <programme start="20250412001500 +0300" stop="20250412024500 +0300" channel="kanald.tr">
+    <title>Eşref Rüya</title>
+  </programme>
+  <programme start="20250412024500 +0300" stop="20250412044500 +0300" channel="kanald.tr">
+    <title>Yargı</title>
+  </programme>
+  <programme start="20250412044500 +0300" stop="20250412061500 +0300" channel="kanald.tr">
+    <title>Kuzey Güney</title>
+  </programme>
+  <programme start="20250412061500 +0300" stop="20250412083000 +0300" channel="kanald.tr">
+    <title>Kavak Yelleri</title>
+  </programme>
+  <programme start="20250412083000 +0300" stop="20250412094500 +0300" channel="kanald.tr">
+    <title>Konuştukça</title>
+  </programme>
+  <programme start="20250412094500 +0300" stop="20250412130000 +0300" channel="kanald.tr">
+    <title>Magazin D Cumartesi</title>
+  </programme>
+  <programme start="20250412130000 +0300" stop="20250412140000 +0300" channel="kanald.tr">
+    <title>Arda'nın Mutfağı</title>
+  </programme>
+  <programme start="20250412140000 +0300" stop="20250412160000 +0300" channel="kanald.tr">
+    <title>Arka Sokaklar</title>
+  </programme>
+  <programme start="20250412160000 +0300" stop="20250412190000 +0300" channel="kanald.tr">
+    <title>Uzak Şehir</title>
+  </programme>
+  <programme start="20250412190000 +0300" stop="20250412200000 +0300" channel="kanald.tr">
+    <title>Kanal D Ana Haber</title>
+  </programme>
+  <programme start="20250412200000 +0300" stop="20250412231500 +0300" channel="kanald.tr">
+    <title>Eşref Rüya</title>
+  </programme>
+  <programme start="20250412231500 +0300" channel="kanald.tr">
+    <title>İnci Taneleri</title>
   </programme>
   <programme start="20250412000000 +0300" stop="20250412001000 +0300" channel="englishclub.tv">
     <title>This Day In History</title>
@@ -54252,283 +54384,391 @@
   <programme start="20250413234500 +0300" stop="20250414000000 +0300" channel="raiscuola.it">
     <title lang="it">RAN/Futuro24 ed.2024/2025</title>
   </programme>
-  <programme start="20250412050000 +0300" stop="20250412060000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
+  <programme start="20250412050000 +0300" stop="20250412052500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250412060000 +0300" stop="20250412070000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This week. Сезон 15. 4-я серия</title>
+  <programme start="20250412052500 +0300" stop="20250412053000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250412070000 +0300" stop="20250412080000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
+  <programme start="20250412053000 +0300" stop="20250412060000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250412080000 +0300" stop="20250412090000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This week. Сезон 15. 1-я серия</title>
+  <programme start="20250412060000 +0300" stop="20250412062500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250412090000 +0300" stop="20250412100000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 15. 1-я серия - "Belgium"</title>
+  <programme start="20250412062500 +0300" stop="20250412063000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250412100000 +0300" stop="20250412110000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This week. Сезон 15. 2-я серия</title>
+  <programme start="20250412063000 +0300" stop="20250412070000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250412110000 +0300" stop="20250412120000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
+  <programme start="20250412070000 +0300" stop="20250412072500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250412120000 +0300" stop="20250412130000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This week. Сезон 15. 3-я серия</title>
+  <programme start="20250412072500 +0300" stop="20250412073000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250412130000 +0300" stop="20250412140000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 15. 2-я серия - "Belgium"</title>
+  <programme start="20250412073000 +0300" stop="20250412080000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412080000 +0300" stop="20250412082500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412082500 +0300" stop="20250412083000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412083000 +0300" stop="20250412090000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412090000 +0300" stop="20250412092500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412092500 +0300" stop="20250412093000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412093000 +0300" stop="20250412100000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412100000 +0300" stop="20250412102500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412102500 +0300" stop="20250412103000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412103000 +0300" stop="20250412110000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412110000 +0300" stop="20250412112500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412112500 +0300" stop="20250412113000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412113000 +0300" stop="20250412120000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412120000 +0300" stop="20250412122500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412122500 +0300" stop="20250412123000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412123000 +0300" stop="20250412130000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412130000 +0300" stop="20250412132500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412132500 +0300" stop="20250412133000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250412133000 +0300" stop="20250412140000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
   </programme>
   <programme start="20250412140000 +0300" stop="20250412142500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412142500 +0300" stop="20250412143000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412143000 +0300" stop="20250412150000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412150000 +0300" stop="20250412152500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412152500 +0300" stop="20250412153000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412153000 +0300" stop="20250412160000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412160000 +0300" stop="20250412162500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412162500 +0300" stop="20250412163000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412163000 +0300" stop="20250412170000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412170000 +0300" stop="20250412172500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412172500 +0300" stop="20250412173000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412173000 +0300" stop="20250412180000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412180000 +0300" stop="20250412182500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412182500 +0300" stop="20250412183000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412183000 +0300" stop="20250412190000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412190000 +0300" stop="20250412192500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412192500 +0300" stop="20250412193000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412193000 +0300" stop="20250412200000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412200000 +0300" stop="20250412202500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412202500 +0300" stop="20250412203000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412203000 +0300" stop="20250412210000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412210000 +0300" stop="20250412212500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412212500 +0300" stop="20250412213000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412213000 +0300" stop="20250412220000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412220000 +0300" stop="20250412222500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412222500 +0300" stop="20250412223000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412223000 +0300" stop="20250412230000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250412230000 +0300" stop="20250412232500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412232500 +0300" stop="20250412233000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250412233000 +0300" stop="20250413000000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413000000 +0300" stop="20250413002500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413002500 +0300" stop="20250413003000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413003000 +0300" stop="20250413010000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413010000 +0300" stop="20250413012500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413012500 +0300" stop="20250413013000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413013000 +0300" stop="20250413020000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413020000 +0300" stop="20250413022500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413022500 +0300" stop="20250413023000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413023000 +0300" stop="20250413030000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413030000 +0300" stop="20250413032500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413032500 +0300" stop="20250413033000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413033000 +0300" stop="20250413040000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413040000 +0300" stop="20250413042500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413042500 +0300" stop="20250413043000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413043000 +0300" stop="20250413050000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
+  </programme>
+  <programme start="20250413050000 +0300" stop="20250413052500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413052500 +0300" stop="20250413053000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413053000 +0300" stop="20250413060000 +0300" channel="luxe.tv">
     <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413050000 +0300" stop="20250413060000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
+  <programme start="20250413060000 +0300" stop="20250413062500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413060000 +0300" stop="20250413070000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This week. Сезон 15. 4-я серия</title>
+  <programme start="20250413062500 +0300" stop="20250413063000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413070000 +0300" stop="20250413080000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 15. 1-я серия</title>
+  <programme start="20250413063000 +0300" stop="20250413070000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413080000 +0300" stop="20250413090000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This week. Сезон 15. 1-я серия</title>
+  <programme start="20250413070000 +0300" stop="20250413072500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413090000 +0300" stop="20250413100000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 15. 1-я серия - "Belgium"</title>
+  <programme start="20250413072500 +0300" stop="20250413073000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413100000 +0300" stop="20250413110000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This week. Сезон 15. 2-я серия</title>
+  <programme start="20250413073000 +0300" stop="20250413080000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413110000 +0300" stop="20250413120000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 15. 1-я серия</title>
+  <programme start="20250413080000 +0300" stop="20250413082500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413120000 +0300" stop="20250413130000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This week. Сезон 15. 3-я серия</title>
+  <programme start="20250413082500 +0300" stop="20250413083000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
   </programme>
-  <programme start="20250413130000 +0300" stop="20250413140000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 15. 2-я серия - "Belgium"</title>
+  <programme start="20250413083000 +0300" stop="20250413090000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413090000 +0300" stop="20250413092500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413092500 +0300" stop="20250413093000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413093000 +0300" stop="20250413100000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413100000 +0300" stop="20250413102500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413102500 +0300" stop="20250413103000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413103000 +0300" stop="20250413110000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413110000 +0300" stop="20250413112500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413112500 +0300" stop="20250413113000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413113000 +0300" stop="20250413120000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413120000 +0300" stop="20250413122500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413122500 +0300" stop="20250413123000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413123000 +0300" stop="20250413130000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413130000 +0300" stop="20250413132500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413132500 +0300" stop="20250413133000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+  </programme>
+  <programme start="20250413133000 +0300" stop="20250413140000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
   </programme>
   <programme start="20250413140000 +0300" stop="20250413142500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413142500 +0300" stop="20250413143000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413143000 +0300" stop="20250413150000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413150000 +0300" stop="20250413152500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413152500 +0300" stop="20250413153000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413153000 +0300" stop="20250413160000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413160000 +0300" stop="20250413162500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413162500 +0300" stop="20250413163000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413163000 +0300" stop="20250413170000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413170000 +0300" stop="20250413172500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413172500 +0300" stop="20250413173000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413173000 +0300" stop="20250413180000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413180000 +0300" stop="20250413182500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413182500 +0300" stop="20250413183000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413183000 +0300" stop="20250413190000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413190000 +0300" stop="20250413192500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413192500 +0300" stop="20250413193000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413193000 +0300" stop="20250413200000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413200000 +0300" stop="20250413202500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413202500 +0300" stop="20250413203000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413203000 +0300" stop="20250413210000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413210000 +0300" stop="20250413212500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413212500 +0300" stop="20250413213000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413213000 +0300" stop="20250413220000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413220000 +0300" stop="20250413222500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413222500 +0300" stop="20250413223000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413223000 +0300" stop="20250413230000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
   <programme start="20250413230000 +0300" stop="20250413232500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Today. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413232500 +0300" stop="20250413233000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 16. 1-я серия</title>
+    <title lang="ru">Luxe. Spotlight. Сезон 16. 2-я серия</title>
   </programme>
   <programme start="20250413233000 +0300" stop="20250414000000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 16. 1-я серия</title>
+    <title lang="ru">Destination Special. Сезон 16. 2-я серия - "Belgium"</title>
   </programme>
 </tv>
