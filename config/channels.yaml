@@ -1875,8 +1875,8 @@
     lang: bg
   groups: ["tivi.bg"]
   sources:
-  - dnes.bg
   - start.bg
+  - dnes.bg
   
 - id: planetatv.bg
   days-ahead: 1

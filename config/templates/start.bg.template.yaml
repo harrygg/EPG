@@ -1,11 +1,13 @@
 ---
 author: Hristo Genev
+enabled: true
 
 date-parameter:
   format: yyyy-MM-dd
 
 request:
   url: https://www.start.bg/lenta/tv-programa/tv/${channelId}/${date}/0
+  delay: 5000
 
 programs:
   locator: .tv-dlist > li
@@ -117,9 +119,9 @@ channel-parameters:
     channelId: planeta
   planetafolk.bg:
     channelId: planeta%20folk
-  planetahd.bg.:
+  planetahd.bg:
     channelId: planeta%20hd
-  planeta4k.bg.:
+  planeta4k.bg:
     channelId: planeta%204k
   ring.bg:
     channelId: ring.bg

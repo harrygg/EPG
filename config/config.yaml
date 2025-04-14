@@ -50,7 +50,7 @@ xmltv-beautify-elements: true
 # request rate from given IPs if the requests comming from that IP are typically far higher than that of a normal user.
 # To prevent this, we can add some delay between 2 consequitive requests which should lower the reuqest rate. 
 # Value is in milliseconds. Default is 0
-delay-between-requests: 0
+delay-between-requests: 2000
 
 # The time to wait for server response before canceling a request
 # The default is 30 seconds
