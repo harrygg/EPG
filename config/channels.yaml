@@ -3337,7 +3337,7 @@
     lang: en
   groups: ["kids", "tivi.bg"]
   sources:
-  - tvprofil.com
+  - dnes.bg
   - tv-programa.bg
   - start.bg
   - tv.dir.bg
@@ -3814,7 +3814,7 @@
   
 - id: haberturk.tr
   days-ahead: 1
-  enabled: true
+  enabled: false
   names:
   - name: Haber Turk
     lang: tr
@@ -3892,7 +3892,7 @@
   sources:
 
 - id: ahaber.tr
-  enabled: true
+  enabled: false
   names:
   - name: A Haber
   groups: ["tr", "tivi.bg"]
