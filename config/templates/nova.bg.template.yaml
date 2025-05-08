@@ -6,6 +6,7 @@ date-parameter:
 
 request:
   url: https://nova.bg/schedule/index/${channelId}/${date}
+  delay-between-requests: 0
   
 programs:
   locator: ol[data-date='${date.format(yyyy-MM-dd)}'] li

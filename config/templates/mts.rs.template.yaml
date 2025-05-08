@@ -9,6 +9,7 @@ date-parameter:
 
 request:
   url: https://mts.rs/oec/epg/program?date=${date}&position=${channelId}
+  debug: true
   headers:
     X-Requested-With: XMLHttpRequest
     Referer: https://mts.rs/oec/epg

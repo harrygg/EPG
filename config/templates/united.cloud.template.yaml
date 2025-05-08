@@ -145,14 +145,3 @@ channel-parameters:
     com_id: sk_hr
     lang_id: 181
 
-
-# Used for extracting channel names and params from a page containing the list of available channels
-#channel-extract-rules: 
-#  url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=now&tz=0&search=&channel=&offset=0
-#  channel-name: 
-#    locator: .channel-header--title a
-#    property: text
-    
-#  channel-param: 
-#    locator: .channel-header--title a
-#    attribute: href

@@ -1961,8 +1961,8 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
+  - tv.dir.bg
   - start.bg
-  - dnes.bg
   
 - id: mezzo.tv
   days-ahead: 1

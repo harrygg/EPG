@@ -10651,7 +10651,7 @@
   <programme start="20250509210000 +0300" stop="20250509230000 +0300" channel="aspor.tr">
     <title>Skorbord</title>
   </programme>
-  <programme start="20250509230000 +0300" channel="aspor.tr">
+  <programme start="20250509230000 +0300" stop="20250510000000 +0300" channel="aspor.tr">
     <title>Son Sayfa</title>
   </programme>
   <programme start="20250508000000 +0300" stop="20250508013000 +0300" channel="trtspor.tr">
@@ -11284,7 +11284,7 @@
   <programme start="20250509210000 +0300" stop="20250509230000 +0300" channel="sportklub1.rs">
     <title>Sport Klub 1</title>
   </programme>
-  <programme start="20250509230000 +0300" channel="sportklub1.rs">
+  <programme start="20250509230000 +0300" stop="20250510070000 +0300" channel="sportklub1.rs">
     <title>Sport Klub 1</title>
   </programme>
   <programme start="20250508000000 +0300" stop="20250507234500 +0300" channel="sportklub2.rs">
@@ -11872,7 +11872,7 @@
   <programme start="20250509231500 +0300" stop="20250509234000 +0300" channel="sportklub4.hr">
     <title>Posveta zvijezdama</title>
   </programme>
-  <programme start="20250509234000 +0300" channel="sportklub4.hr">
+  <programme start="20250509234000 +0300" stop="20250510012500 +0300" channel="sportklub4.hr">
     <title>Nogomet - Bugarska liga: Arda - Ludogorets</title>
   </programme>
   <programme start="20250508000000 +0300" stop="20250508010000 +0300" channel="sportklub5.hr">
@@ -14748,6 +14748,42 @@
   <programme start="20250508020000 +0300" channel="hayatmusic.rs">
     <title>Nema informacija o programu</title>
   </programme>
+  <programme start="20250508080000 +0300" stop="20250508110000 +0300" channel="bnmusic.tv">
+    <title>Etno narodna muzika i folklorne igre</title>
+  </programme>
+  <programme start="20250508110000 +0300" stop="20250508150000 +0300" channel="bnmusic.tv">
+    <title>EX YU, Pop-rock</title>
+  </programme>
+  <programme start="20250508150000 +0300" stop="20250508150500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250508150500 +0300" stop="20250508170000 +0300" channel="bnmusic.tv">
+    <title>Novi hitovi</title>
+  </programme>
+  <programme start="20250508170000 +0300" stop="20250508170500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250508170500 +0300" stop="20250508190000 +0300" channel="bnmusic.tv">
+    <title>Folk narodna muzika</title>
+  </programme>
+  <programme start="20250508190000 +0300" stop="20250508190500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250508190500 +0300" stop="20250508210000 +0300" channel="bnmusic.tv">
+    <title>Turbo folk muzika i spotovi</title>
+  </programme>
+  <programme start="20250508210000 +0300" stop="20250508210500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250508210500 +0300" stop="20250508230000 +0300" channel="bnmusic.tv">
+    <title>Plejbek BN TV i komercijalni spotovi</title>
+  </programme>
+  <programme start="20250508230000 +0300" stop="20250508230500 +0300" channel="bnmusic.tv">
+    <title>Marketing</title>
+  </programme>
+  <programme start="20250508230500 +0300" channel="bnmusic.tv">
+    <title>Zavrzlama</title>
+  </programme>
   <programme start="20250508020000 +0300" channel="pinkfolk.rs">
     <title>Nema informacija o programu</title>
   </programme>
@@ -17607,8 +17643,158 @@
   <programme start="20250509193000 +0300" stop="20250509210000 +0300" channel="kika.de">
     <title>Nachtwald</title>
   </programme>
-  <programme start="20250509210000 +0300" channel="kika.de">
+  <programme start="20250509210000 +0300" stop="20250510060000 +0300" channel="kika.de">
     <title>Sendepause</title>
+  </programme>
+  <programme start="20250508100000 +0300" stop="20250508110000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508110000 +0300" stop="20250508120000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508120000 +0300" stop="20250508130000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508130000 +0300" stop="20250508140000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508140000 +0300" stop="20250508150000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508150000 +0300" stop="20250508153000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508153000 +0300" stop="20250508160000 +0300" channel="ric.de">
+    <title>Rupert</title>
+  </programme>
+  <programme start="20250508160000 +0300" stop="20250508163000 +0300" channel="ric.de">
+    <title>Blazing Dragons</title>
+  </programme>
+  <programme start="20250508163000 +0300" stop="20250508170000 +0300" channel="ric.de">
+    <title>Da Boom Crew</title>
+  </programme>
+  <programme start="20250508170000 +0300" stop="20250508173000 +0300" channel="ric.de">
+    <title>Dog City</title>
+  </programme>
+  <programme start="20250508173000 +0300" stop="20250508174300 +0300" channel="ric.de">
+    <title>Sherm!</title>
+  </programme>
+  <programme start="20250508174300 +0300" stop="20250508180000 +0300" channel="ric.de">
+    <title>Sherm!</title>
+  </programme>
+  <programme start="20250508180000 +0300" stop="20250508183000 +0300" channel="ric.de">
+    <title>Donkey Kong Country</title>
+  </programme>
+  <programme start="20250508183000 +0300" stop="20250508190000 +0300" channel="ric.de">
+    <title>Мисия Одисея</title>
+  </programme>
+  <programme start="20250508190000 +0300" stop="20250508200000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508200000 +0300" stop="20250508203000 +0300" channel="ric.de">
+    <title>Extreme Dinosaurs</title>
+  </programme>
+  <programme start="20250508203000 +0300" stop="20250508210000 +0300" channel="ric.de">
+    <title>Cadillacs and Dinosaurs</title>
+  </programme>
+  <programme start="20250508210000 +0300" stop="20250508213000 +0300" channel="ric.de">
+    <title>Кръстници вълшебници</title>
+  </programme>
+  <programme start="20250508213000 +0300" stop="20250508223000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508223000 +0300" stop="20250508233000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250508233000 +0300" stop="20250509003000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509003000 +0300" stop="20250509013000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509013000 +0300" stop="20250509020000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509020000 +0300" stop="20250509030000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509030000 +0300" stop="20250509040000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509040000 +0300" stop="20250509050000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509050000 +0300" stop="20250509054800 +0300" channel="ric.de">
+    <title>Jack London - Abenteuer Südsee</title>
+  </programme>
+  <programme start="20250509054800 +0300" stop="20250509063500 +0300" channel="ric.de">
+    <title>Jack London - Abenteuer Südsee</title>
+  </programme>
+  <programme start="20250509063500 +0300" stop="20250509100000 +0300" channel="ric.de">
+    <title>Nancy Drew</title>
+  </programme>
+  <programme start="20250509100000 +0300" stop="20250509110000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509110000 +0300" stop="20250509120000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509120000 +0300" stop="20250509130000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509130000 +0300" stop="20250509140000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509140000 +0300" stop="20250509150000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509150000 +0300" stop="20250509153000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509153000 +0300" stop="20250509160000 +0300" channel="ric.de">
+    <title>Rupert</title>
+  </programme>
+  <programme start="20250509160000 +0300" stop="20250509163000 +0300" channel="ric.de">
+    <title>Blazing Dragons</title>
+  </programme>
+  <programme start="20250509163000 +0300" stop="20250509170000 +0300" channel="ric.de">
+    <title>Da Boom Crew</title>
+  </programme>
+  <programme start="20250509170000 +0300" stop="20250509173000 +0300" channel="ric.de">
+    <title>Dog City</title>
+  </programme>
+  <programme start="20250509173000 +0300" stop="20250509174300 +0300" channel="ric.de">
+    <title>Sherm!</title>
+  </programme>
+  <programme start="20250509174300 +0300" stop="20250509180000 +0300" channel="ric.de">
+    <title>Sherm!</title>
+  </programme>
+  <programme start="20250509180000 +0300" stop="20250509183000 +0300" channel="ric.de">
+    <title>Donkey Kong Country</title>
+  </programme>
+  <programme start="20250509183000 +0300" stop="20250509190000 +0300" channel="ric.de">
+    <title>Мисия Одисея</title>
+  </programme>
+  <programme start="20250509190000 +0300" stop="20250509200000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509200000 +0300" stop="20250509203000 +0300" channel="ric.de">
+    <title>Extreme Dinosaurs</title>
+  </programme>
+  <programme start="20250509203000 +0300" stop="20250509210000 +0300" channel="ric.de">
+    <title>Cadillacs and Dinosaurs</title>
+  </programme>
+  <programme start="20250509210000 +0300" stop="20250509213000 +0300" channel="ric.de">
+    <title>Кръстници вълшебници</title>
+  </programme>
+  <programme start="20250509213000 +0300" stop="20250509223000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509223000 +0300" stop="20250509233000 +0300" channel="ric.de">
+    <title>Mediashop</title>
+  </programme>
+  <programme start="20250509233000 +0300" stop="20250510003000 +0300" channel="ric.de">
+    <title>Mediashop</title>
   </programme>
   <programme start="20250508000000 +0300" stop="20250508003000 +0300" channel="3sat.de">
     <title>10 vor 10</title>
@@ -28197,7 +28383,7 @@
   <programme start="20250509230000 +0300" stop="20250509233000 +0300" channel="wildtv.com">
     <title>Savage Outdoors</title>
   </programme>
-  <programme start="20250509233000 +0300" channel="wildtv.com">
+  <programme start="20250509233000 +0300" stop="20250510000000 +0300" channel="wildtv.com">
     <title>Gary Cooper's Fishing Diary</title>
   </programme>
   <programme start="20250508000500 +0300" stop="20250508004000 +0300" channel="24kitchen.bg">
@@ -29997,7 +30183,7 @@
   <programme start="20250509220000 +0300" stop="20250509230000 +0300" channel="investigationdiscoveryextra.bg">
     <title lang="bg">Смъртоносната слава: Шоуто трябва да продължи - (Death By Fame: The Show Must Go On)Измислица и реалност се сблъскват, когато една продукция на филм на ужасите се превръща от...</title>
   </programme>
-  <programme start="20250509230000 +0300" channel="investigationdiscoveryextra.bg">
+  <programme start="20250509230000 +0300" stop="20250510010000 +0300" channel="investigationdiscoveryextra.bg">
     <title lang="bg">Мрачна обсебеност: Добрият съсед - (Obsession: Dark Desires: The Good Neighbor)Младата самотна майка Савана и синът ? се местят на ново място, а привидно...</title>
   </programme>
   <programme start="20250508010000 +0300" stop="20250508020000 +0300" channel="foodnetwork.bg">
@@ -33297,7 +33483,7 @@
   <programme start="20250509223500 +0300" stop="20250509232000 +0300" channel="theworld.bg">
     <title lang="bg">Топ 10 тайни и загадки - Древните мегаструктури.Потопете се в загадъчния свят на десет от най-впечатляващите древни мегаструктури. До ден днешен ни е...</title>
   </programme>
-  <programme start="20250509232000 +0300" channel="theworld.bg">
+  <programme start="20250509232000 +0300" stop="20250510060000 +0300" channel="theworld.bg">
     <title lang="bg">30 най-велики чудеса, сътворени от човешка ръка - Най-ранните списъци с чудесата на света включват обекти, които отдавна не съществуват. Ето защо ви представяме 30 от...</title>
   </programme>
   <programme start="20250508045900 +0300" stop="20250508050100 +0300" channel="jivayapriroda.ru">
@@ -34412,6 +34598,372 @@
   </programme>
   <programme start="20250508235800 +0300" channel="jivayapriroda.ru">
     <title lang="ru">Гирапотамос</title>
+  </programme>
+  <programme start="20250508070000 +0300" stop="20250508080000 +0300" channel="wnesstv.com">
+    <title>Йога на елементите със Сандра: Земя, еп. 2</title>
+  </programme>
+  <programme start="20250508080000 +0300" stop="20250508090000 +0300" channel="wnesstv.com">
+    <title>Предизвикателство за тялото: Табата и кардио тренировка, еп. 2</title>
+  </programme>
+  <programme start="20250508090000 +0300" stop="20250508100000 +0300" channel="wnesstv.com">
+    <title>Йога на елементите със Сандра: Земя, еп. 2</title>
+  </programme>
+  <programme start="20250508100000 +0300" stop="20250508103000 +0300" channel="wnesstv.com">
+    <title>Бъди във форма с Рори</title>
+  </programme>
+  <programme start="20250508103000 +0300" stop="20250508110000 +0300" channel="wnesstv.com">
+    <title>21 тайни за медитация с Константин Драгов, еп. 13</title>
+  </programme>
+  <programme start="20250508110000 +0300" stop="20250508113000 +0300" channel="wnesstv.com">
+    <title>Възстановяване след раждане с Ваня: Възстановяване на седалищната мускулатура, еп. 2</title>
+  </programme>
+  <programme start="20250508113000 +0300" stop="20250508120000 +0300" channel="wnesstv.com">
+    <title>Ресторативни практики с Ваня: Силен кръст, еп. 4</title>
+  </programme>
+  <programme start="20250508120000 +0300" stop="20250508123000 +0300" channel="wnesstv.com">
+    <title>ЧАСЪТ НА ХРАНАТА: Комбинирай с Ани 2</title>
+  </programme>
+  <programme start="20250508123000 +0300" stop="20250508124500 +0300" channel="wnesstv.com">
+    <title>Телешоп</title>
+  </programme>
+  <programme start="20250508124500 +0300" stop="20250508130000 +0300" channel="wnesstv.com">
+    <title>Трансформирай се: да измерим калориите /сезон 2/, еп. 2</title>
+  </programme>
+  <programme start="20250508130000 +0300" stop="20250508140000 +0300" channel="wnesstv.com">
+    <title>Пилатес с Диляна Костова: Пилатес с хореография, еп. 13</title>
+  </programme>
+  <programme start="20250508140000 +0300" stop="20250508143000 +0300" channel="wnesstv.com">
+    <title>21 тайни за медитация с Константин Драгов, еп. 13</title>
+  </programme>
+  <programme start="20250508143000 +0300" stop="20250508150000 +0300" channel="wnesstv.com">
+    <title>Надя Дейли 2</title>
+  </programme>
+  <programme start="20250508150000 +0300" stop="20250508153000 +0300" channel="wnesstv.com">
+    <title>Възстановяване след раждане с Ваня: Възстановяване на седалищната мускулатура, еп. 2</title>
+  </programme>
+  <programme start="20250508153000 +0300" stop="20250508160000 +0300" channel="wnesstv.com">
+    <title>Ресторативни практики с Ваня: Силен кръст, еп. 4</title>
+  </programme>
+  <programme start="20250508160000 +0300" stop="20250508163000 +0300" channel="wnesstv.com">
+    <title>ЧАСЪТ НА КРАСОТАТА: Пътят на Йога със Сана</title>
+  </programme>
+  <programme start="20250508163000 +0300" stop="20250508170000 +0300" channel="wnesstv.com">
+    <title>По стъпките на красотата с Гери Дончева, еп. 3</title>
+  </programme>
+  <programme start="20250508170000 +0300" stop="20250508173000 +0300" channel="wnesstv.com">
+    <title>Матине - от събота ®</title>
+  </programme>
+  <programme start="20250508173000 +0300" stop="20250508180000 +0300" channel="wnesstv.com">
+    <title>Телешоп</title>
+  </programme>
+  <programme start="20250508180000 +0300" stop="20250508190000 +0300" channel="wnesstv.com">
+    <title>"За Връзки"</title>
+  </programme>
+  <programme start="20250508190000 +0300" stop="20250508193000 +0300" channel="wnesstv.com">
+    <title>Пътят на Йога със Сана</title>
+  </programme>
+  <programme start="20250508193000 +0300" stop="20250508200000 +0300" channel="wnesstv.com">
+    <title>Пътят на Йога със Сана</title>
+  </programme>
+  <programme start="20250508200000 +0300" stop="20250508203000 +0300" channel="wnesstv.com">
+    <title>Запазено за родители, еп. 3</title>
+  </programme>
+  <programme start="20250508203000 +0300" stop="20250508210000 +0300" channel="wnesstv.com">
+    <title>Запазено за родители, еп. 4</title>
+  </programme>
+  <programme start="20250508210000 +0300" stop="20250508213000 +0300" channel="wnesstv.com">
+    <title>21 тайни за медитация с Константин Драгов, еп. 13</title>
+  </programme>
+  <programme start="20250508213000 +0300" stop="20250508220000 +0300" channel="wnesstv.com">
+    <title>Матине - от събота ®</title>
+  </programme>
+  <programme start="20250508220000 +0300" stop="20250508230000 +0300" channel="wnesstv.com">
+    <title>Пилатес с Диляна Костова: Начално ниво - контрол на дишането, еп. 9</title>
+  </programme>
+  <programme start="20250508230000 +0300" stop="20250508233000 +0300" channel="wnesstv.com">
+    <title>Йога на елементите със Сандра: Земя, еп. 2</title>
+  </programme>
+  <programme start="20250508233000 +0300" stop="20250509000000 +0300" channel="wnesstv.com">
+    <title>Йога на елементите със Сандра: Земя - , част 2, еп. 2</title>
+  </programme>
+  <programme start="20250509000000 +0300" stop="20250509003000 +0300" channel="wnesstv.com">
+    <title>Фитнес с Диляна</title>
+  </programme>
+  <programme start="20250509003000 +0300" stop="20250509070000 +0300" channel="wnesstv.com">
+    <title>Бъди във форма с Рори</title>
+  </programme>
+  <programme start="20250509070000 +0300" stop="20250509080000 +0300" channel="wnesstv.com">
+    <title>Йога на елементите със Сандра: Земя, еп. 2</title>
+  </programme>
+  <programme start="20250509080000 +0300" stop="20250509090000 +0300" channel="wnesstv.com">
+    <title>Предизвикателство за тялото: Табата и кардио тренировка, еп. 2</title>
+  </programme>
+  <programme start="20250509090000 +0300" stop="20250509100000 +0300" channel="wnesstv.com">
+    <title>Йога на елементите със Сандра: Земя, еп. 2</title>
+  </programme>
+  <programme start="20250509100000 +0300" stop="20250509103000 +0300" channel="wnesstv.com">
+    <title>Бъди във форма с Рори</title>
+  </programme>
+  <programme start="20250509103000 +0300" stop="20250509110000 +0300" channel="wnesstv.com">
+    <title>21 тайни за медитация с Константин Драгов, еп. 13</title>
+  </programme>
+  <programme start="20250509110000 +0300" stop="20250509113000 +0300" channel="wnesstv.com">
+    <title>Възстановяване след раждане с Ваня: Възстановяване на седалищната мускулатура, еп. 2</title>
+  </programme>
+  <programme start="20250509113000 +0300" stop="20250509120000 +0300" channel="wnesstv.com">
+    <title>Ресторативни практики с Ваня: Силен кръст, еп. 4</title>
+  </programme>
+  <programme start="20250509120000 +0300" stop="20250509123000 +0300" channel="wnesstv.com">
+    <title>ЧАСЪТ НА ХРАНАТА: Комбинирай с Ани 2</title>
+  </programme>
+  <programme start="20250509123000 +0300" stop="20250509124500 +0300" channel="wnesstv.com">
+    <title>Телешоп</title>
+  </programme>
+  <programme start="20250509124500 +0300" stop="20250509130000 +0300" channel="wnesstv.com">
+    <title>Трансформирай се: да измерим калориите /сезон 2/, еп. 2</title>
+  </programme>
+  <programme start="20250509130000 +0300" stop="20250509140000 +0300" channel="wnesstv.com">
+    <title>Пилатес с Диляна Костова: Пилатес с хореография, еп. 13</title>
+  </programme>
+  <programme start="20250509140000 +0300" stop="20250509143000 +0300" channel="wnesstv.com">
+    <title>21 тайни за медитация с Константин Драгов, еп. 13</title>
+  </programme>
+  <programme start="20250509143000 +0300" stop="20250509150000 +0300" channel="wnesstv.com">
+    <title>Надя Дейли 2</title>
+  </programme>
+  <programme start="20250509150000 +0300" stop="20250509153000 +0300" channel="wnesstv.com">
+    <title>Възстановяване след раждане с Ваня: Възстановяване на седалищната мускулатура, еп. 2</title>
+  </programme>
+  <programme start="20250509153000 +0300" stop="20250509160000 +0300" channel="wnesstv.com">
+    <title>Ресторативни практики с Ваня: Силен кръст, еп. 4</title>
+  </programme>
+  <programme start="20250509160000 +0300" stop="20250509163000 +0300" channel="wnesstv.com">
+    <title>ЧАСЪТ НА КРАСОТАТА: Пътят на Йога със Сана</title>
+  </programme>
+  <programme start="20250509163000 +0300" stop="20250509170000 +0300" channel="wnesstv.com">
+    <title>По стъпките на красотата с Гери Дончева, еп. 3</title>
+  </programme>
+  <programme start="20250509170000 +0300" stop="20250509173000 +0300" channel="wnesstv.com">
+    <title>Матине - от събота ®</title>
+  </programme>
+  <programme start="20250509173000 +0300" stop="20250509180000 +0300" channel="wnesstv.com">
+    <title>Телешоп</title>
+  </programme>
+  <programme start="20250509180000 +0300" stop="20250509190000 +0300" channel="wnesstv.com">
+    <title>"За Връзки"</title>
+  </programme>
+  <programme start="20250509190000 +0300" stop="20250509193000 +0300" channel="wnesstv.com">
+    <title>Пътят на Йога със Сана</title>
+  </programme>
+  <programme start="20250509193000 +0300" stop="20250509200000 +0300" channel="wnesstv.com">
+    <title>Пътят на Йога със Сана</title>
+  </programme>
+  <programme start="20250509200000 +0300" stop="20250509203000 +0300" channel="wnesstv.com">
+    <title>Запазено за родители, еп. 3</title>
+  </programme>
+  <programme start="20250509203000 +0300" stop="20250509210000 +0300" channel="wnesstv.com">
+    <title>Запазено за родители, еп. 4</title>
+  </programme>
+  <programme start="20250509210000 +0300" stop="20250509213000 +0300" channel="wnesstv.com">
+    <title>21 тайни за медитация с Константин Драгов, еп. 13</title>
+  </programme>
+  <programme start="20250509213000 +0300" stop="20250509220000 +0300" channel="wnesstv.com">
+    <title>Матине - от събота ®</title>
+  </programme>
+  <programme start="20250509220000 +0300" stop="20250509230000 +0300" channel="wnesstv.com">
+    <title>Пилатес с Диляна Костова: Начално ниво - контрол на дишането, еп. 9</title>
+  </programme>
+  <programme start="20250509230000 +0300" stop="20250509233000 +0300" channel="wnesstv.com">
+    <title>Йога на елементите със Сандра: Земя, еп. 2</title>
+  </programme>
+  <programme start="20250509233000 +0300" stop="20250510000000 +0300" channel="wnesstv.com">
+    <title>Йога на елементите със Сандра: Земя - , част 2, еп. 2</title>
+  </programme>
+  <programme start="20250508070000 +0300" stop="20250508080000 +0300" channel="myzen.tv">
+    <title>Spiritual Sports</title>
+  </programme>
+  <programme start="20250508080000 +0300" stop="20250508083000 +0300" channel="myzen.tv">
+    <title>Audio Advice</title>
+  </programme>
+  <programme start="20250508083000 +0300" stop="20250508090000 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250508090000 +0300" stop="20250508095000 +0300" channel="myzen.tv">
+    <title>Home training, deep muscles full body</title>
+  </programme>
+  <programme start="20250508095000 +0300" stop="20250508104500 +0300" channel="myzen.tv">
+    <title>Home training, mobility training 2</title>
+  </programme>
+  <programme start="20250508104500 +0300" stop="20250508110000 +0300" channel="myzen.tv">
+    <title>Stretching</title>
+  </programme>
+  <programme start="20250508110000 +0300" stop="20250508115500 +0300" channel="myzen.tv">
+    <title>The Blue Zones of Longevity, Destination Sardinia</title>
+  </programme>
+  <programme start="20250508115500 +0300" stop="20250508121000 +0300" channel="myzen.tv">
+    <title>My Zen People, Virginie (Lyon)</title>
+  </programme>
+  <programme start="20250508121000 +0300" stop="20250508122500 +0300" channel="myzen.tv">
+    <title>My Zen People, Laetitia (French Alps)</title>
+  </programme>
+  <programme start="20250508122500 +0300" stop="20250508125500 +0300" channel="myzen.tv">
+    <title>My Zen GuesthouseFrance, Great oaks Treehouses &amp; Luxembourg, A Yaaz Farm</title>
+  </programme>
+  <programme start="20250508125500 +0300" stop="20250508132000 +0300" channel="myzen.tv">
+    <title>Health Explored, USA &amp; Canada - Human Performance</title>
+  </programme>
+  <programme start="20250508132000 +0300" stop="20250508134500 +0300" channel="myzen.tv">
+    <title>My Day Dubai, Le Royal Meridien</title>
+  </programme>
+  <programme start="20250508134500 +0300" stop="20250508144000 +0300" channel="myzen.tv">
+    <title>Deco Masters, Week 03 - Day 04</title>
+  </programme>
+  <programme start="20250508144000 +0300" stop="20250508153500 +0300" channel="myzen.tv">
+    <title>Earth from aboveNature’s Heroes: Bangladesh - Part 1</title>
+  </programme>
+  <programme start="20250508153500 +0300" stop="20250508160000 +0300" channel="myzen.tv">
+    <title>The Art of Japanese Gardens</title>
+  </programme>
+  <programme start="20250508160000 +0300" stop="20250508161500 +0300" channel="myzen.tv">
+    <title>My Zen People, Guillaume Nivelle</title>
+  </programme>
+  <programme start="20250508161500 +0300" stop="20250508162000 +0300" channel="myzen.tv">
+    <title>My First Garden, The essentials</title>
+  </programme>
+  <programme start="20250508162000 +0300" stop="20250508163000 +0300" channel="myzen.tv">
+    <title>My Zen People, Laura Belfadla</title>
+  </programme>
+  <programme start="20250508163000 +0300" stop="20250508170000 +0300" channel="myzen.tv">
+    <title>My Day Dubai, Nikki Beach</title>
+  </programme>
+  <programme start="20250508170000 +0300" stop="20250508172500 +0300" channel="myzen.tv">
+    <title>My Zen Trendy, Hot Springs</title>
+  </programme>
+  <programme start="20250508172500 +0300" stop="20250508182000 +0300" channel="myzen.tv">
+    <title>Care!</title>
+  </programme>
+  <programme start="20250508182000 +0300" stop="20250508190500 +0300" channel="myzen.tv">
+    <title>Home training, deep muscles full body</title>
+  </programme>
+  <programme start="20250508190500 +0300" stop="20250508200000 +0300" channel="myzen.tv">
+    <title>Home training, mobility training 2</title>
+  </programme>
+  <programme start="20250508200000 +0300" stop="20250508203000 +0300" channel="myzen.tv">
+    <title>My Zen GuesthouseAmsterdam, Hotel Not Hotel &amp; House Boats</title>
+  </programme>
+  <programme start="20250508203000 +0300" stop="20250508210000 +0300" channel="myzen.tv">
+    <title>Reset, Sri Lanka, Santani</title>
+  </programme>
+  <programme start="20250508210000 +0300" stop="20250508220000 +0300" channel="myzen.tv">
+    <title>Earth from above, 6 Billion people to Feed - Part 1</title>
+  </programme>
+  <programme start="20250508220000 +0300" stop="20250508230000 +0300" channel="myzen.tv">
+    <title>Earth from aboveThe sea needs us as we need the sea - Part 1</title>
+  </programme>
+  <programme start="20250508230000 +0300" stop="20250508233000 +0300" channel="myzen.tv">
+    <title>Reset, Cambodia, Shinta Mani Wild</title>
+  </programme>
+  <programme start="20250508233000 +0300" stop="20250509000000 +0300" channel="myzen.tv">
+    <title>My Zen Trendy, Crystal healing &amp; Yoguitar</title>
+  </programme>
+  <programme start="20250509000000 +0300" stop="20250509001500 +0300" channel="myzen.tv">
+    <title>My Zen People, Laura Belfadla</title>
+  </programme>
+  <programme start="20250509001500 +0300" stop="20250509003000 +0300" channel="myzen.tv">
+    <title>My Zen People, Laurence Sala</title>
+  </programme>
+  <programme start="20250509003000 +0300" stop="20250509013000 +0300" channel="myzen.tv">
+    <title>Julie's Frenchy Cookbook, The mushroom route</title>
+  </programme>
+  <programme start="20250509013000 +0300" stop="20250509020000 +0300" channel="myzen.tv">
+    <title>Massages</title>
+  </programme>
+  <programme start="20250509020000 +0300" stop="20250509023000 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250509023000 +0300" stop="20250509030000 +0300" channel="myzen.tv">
+    <title>Audio Advice</title>
+  </programme>
+  <programme start="20250509030000 +0300" stop="20250509033000 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250509033000 +0300" stop="20250509043000 +0300" channel="myzen.tv">
+    <title>Audio Advice</title>
+  </programme>
+  <programme start="20250509043000 +0300" stop="20250509050000 +0300" channel="myzen.tv">
+    <title>My Zen Relaxation</title>
+  </programme>
+  <programme start="20250509050000 +0300" stop="20250509070000 +0300" channel="myzen.tv">
+    <title>Beautiful landscapes</title>
+  </programme>
+  <programme start="20250509070000 +0300" stop="20250509080000 +0300" channel="myzen.tv">
+    <title>Spiritual Sports</title>
+  </programme>
+  <programme start="20250509080000 +0300" stop="20250509083000 +0300" channel="myzen.tv">
+    <title>Audio Advice</title>
+  </programme>
+  <programme start="20250509083000 +0300" stop="20250509090000 +0300" channel="myzen.tv">
+    <title>Yoga</title>
+  </programme>
+  <programme start="20250509090000 +0300" stop="20250509095000 +0300" channel="myzen.tv">
+    <title>Home training, upper body &amp; abs training</title>
+  </programme>
+  <programme start="20250509095000 +0300" stop="20250509104500 +0300" channel="myzen.tv">
+    <title>Home training, multisport full body</title>
+  </programme>
+  <programme start="20250509104500 +0300" stop="20250509110000 +0300" channel="myzen.tv">
+    <title>Stretching</title>
+  </programme>
+  <programme start="20250509110000 +0300" stop="20250509115500 +0300" channel="myzen.tv">
+    <title>Julie's Frenchy Cookbook, Lille country</title>
+  </programme>
+  <programme start="20250509115500 +0300" stop="20250509122000 +0300" channel="myzen.tv">
+    <title>Luana's Kitchen, Sweet and gluten-free</title>
+  </programme>
+  <programme start="20250509122000 +0300" stop="20250509125000 +0300" channel="myzen.tv">
+    <title>Luana's Kitchen, Lentils</title>
+  </programme>
+  <programme start="20250509125000 +0300" stop="20250509134500 +0300" channel="myzen.tv">
+    <title>Julie's Frenchy Cookbook, The mushroom route</title>
+  </programme>
+  <programme start="20250509134500 +0300" stop="20250509143500 +0300" channel="myzen.tv">
+    <title>Deco Masters, Week 03 - Day 05</title>
+  </programme>
+  <programme start="20250509143500 +0300" stop="20250509153000 +0300" channel="myzen.tv">
+    <title>Earth from aboveNature’s Heroes: Bangladesh - Part 2</title>
+  </programme>
+  <programme start="20250509153000 +0300" stop="20250509162500 +0300" channel="myzen.tv">
+    <title>Earth from aboveThe sea needs us as we need the sea - Part 1</title>
+  </programme>
+  <programme start="20250509162500 +0300" stop="20250509165500 +0300" channel="myzen.tv">
+    <title>Reset, Cambodia, Shinta Mani Wild</title>
+  </programme>
+  <programme start="20250509165500 +0300" stop="20250509172000 +0300" channel="myzen.tv">
+    <title>My Zen Trendy, Crystal healing &amp; Yoguitar</title>
+  </programme>
+  <programme start="20250509172000 +0300" stop="20250509182000 +0300" channel="myzen.tv">
+    <title>Earth from above, 6 Billion people to Feed - Part 1</title>
+  </programme>
+  <programme start="20250509182000 +0300" stop="20250509190500 +0300" channel="myzen.tv">
+    <title>Home training, upper body &amp; abs training</title>
+  </programme>
+  <programme start="20250509190500 +0300" stop="20250509200000 +0300" channel="myzen.tv">
+    <title>Home training, multisport full body</title>
+  </programme>
+  <programme start="20250509200000 +0300" stop="20250509210000 +0300" channel="myzen.tv">
+    <title>The Great Gardening Challenge, еп. 2</title>
+  </programme>
+  <programme start="20250509210000 +0300" stop="20250509215500 +0300" channel="myzen.tv">
+    <title>The Great Gardening Challenge, еп. 6</title>
+  </programme>
+  <programme start="20250509215500 +0300" stop="20250509225000 +0300" channel="myzen.tv">
+    <title>Deco Masters, Week 12 - Day 01</title>
+  </programme>
+  <programme start="20250509225000 +0300" stop="20250509234000 +0300" channel="myzen.tv">
+    <title>Deco Masters, Week 12 - Day 02</title>
+  </programme>
+  <programme start="20250509234000 +0300" stop="20250510003000 +0300" channel="myzen.tv">
+    <title>Deco Masters, Week 12 - Day 03</title>
   </programme>
   <programme start="20250508005000 +0300" stop="20250508012000 +0300" channel="nickelodeon.tv">
     <title lang="bg">Спонджбоб Квадратни Гащи - Когато Скуидъурд е напръскан със спрей за оголемяване на растения, той става чудовищно голям. // Когато Патрик осъзнава, че той...</title>
@@ -42498,7 +43050,7 @@
   <programme start="20250509230000 +0300" stop="20250509233000 +0300" channel="baby.tv">
     <title>Rüya Dolu Geceler</title>
   </programme>
-  <programme start="20250509233000 +0300" channel="baby.tv">
+  <programme start="20250509233000 +0300" stop="20250510000000 +0300" channel="baby.tv">
     <title>Rüya Dolu Geceler</title>
   </programme>
   <programme start="20250508021000 +0300" stop="20250508043900 +0300" channel="rossiya1.ru">
@@ -44892,7 +45444,7 @@
   <programme start="20250509220000 +0300" stop="20250509234000 +0300" channel="trtarabi.tr">
     <title>News</title>
   </programme>
-  <programme start="20250509234000 +0300" channel="trtarabi.tr">
+  <programme start="20250509234000 +0300" stop="20250510000000 +0300" channel="trtarabi.tr">
     <title>Tafaul</title>
   </programme>
   <programme start="20250508000000 +0300" stop="20250508003000 +0300" channel="trtavaz.tr">
@@ -45270,8 +45822,17 @@
   <programme start="20250508180000 +0300" stop="20250508204500 +0300" channel="cnnturk.tr">
     <title>Ana Haber</title>
   </programme>
-  <programme start="20250508204500 +0300" channel="cnnturk.tr">
+  <programme start="20250508204500 +0300" stop="20250508050000 +0300" channel="cnnturk.tr">
     <title>Gece Görüşü</title>
+  </programme>
+  <programme start="20250508050000 +0300" stop="20250508194500 +0300" channel="cnnturk.tr">
+    <title>A'dan Z'ye</title>
+  </programme>
+  <programme start="20250508194500 +0300" stop="20250508230000 +0300" channel="cnnturk.tr">
+    <title>Gece Görüşü</title>
+  </programme>
+  <programme start="20250508230000 +0300" channel="cnnturk.tr">
+    <title>Gece Haberleri</title>
   </programme>
   <programme start="20250508004500 +0300" stop="20250508063000 +0300" channel="kanal7.tr">
     <title>Masum</title>
@@ -45348,8 +45909,41 @@
   <programme start="20250509212000 +0300" stop="20250509231500 +0300" channel="kanal7.tr">
     <title>Esaret</title>
   </programme>
-  <programme start="20250509231500 +0300" channel="kanal7.tr">
+  <programme start="20250509231500 +0300" stop="20250510004500 +0300" channel="kanal7.tr">
     <title>Yalnız Beni Sev</title>
+  </programme>
+  <programme start="20250508002000 +0300" stop="20250508030000 +0300" channel="atv.tr">
+    <title>Bir Gece Masalı</title>
+  </programme>
+  <programme start="20250508030000 +0300" stop="20250508055000 +0300" channel="atv.tr">
+    <title>Aldatmak</title>
+  </programme>
+  <programme start="20250508055000 +0300" stop="20250508080000 +0300" channel="atv.tr">
+    <title>Hercai</title>
+  </programme>
+  <programme start="20250508080000 +0300" stop="20250508100000 +0300" channel="atv.tr">
+    <title>Kahvaltı Haberleri</title>
+  </programme>
+  <programme start="20250508100000 +0300" stop="20250508130000 +0300" channel="atv.tr">
+    <title>Müge Anlı ile Tatlı Sert</title>
+  </programme>
+  <programme start="20250508130000 +0300" stop="20250508140000 +0300" channel="atv.tr">
+    <title>Gün Ortası</title>
+  </programme>
+  <programme start="20250508140000 +0300" stop="20250508160000 +0300" channel="atv.tr">
+    <title>Mutfak Bahane</title>
+  </programme>
+  <programme start="20250508160000 +0300" stop="20250508190000 +0300" channel="atv.tr">
+    <title>Esra Erol'da</title>
+  </programme>
+  <programme start="20250508190000 +0300" stop="20250508200000 +0300" channel="atv.tr">
+    <title>ATV Ana Haber</title>
+  </programme>
+  <programme start="20250508200000 +0300" stop="20250508223000 +0300" channel="atv.tr">
+    <title>3391 Kilometre</title>
+  </programme>
+  <programme start="20250508223000 +0300" channel="atv.tr">
+    <title>Gece ve Gündüz</title>
   </programme>
   <programme start="20250508000000 +0300" stop="20250508005000 +0300" channel="ntv.tr">
     <title>Bugün Yarın</title>
@@ -45828,8 +46422,41 @@
   <programme start="20250509235000 +0300" stop="20250509235500 +0300" channel="ntv.tr">
     <title>Paranın Nabzı</title>
   </programme>
-  <programme start="20250509235500 +0300" channel="ntv.tr">
+  <programme start="20250509235500 +0300" stop="20250510000000 +0300" channel="ntv.tr">
     <title>Hava Durumu</title>
+  </programme>
+  <programme start="20250508001500 +0300" stop="20250508030000 +0300" channel="startv.tr">
+    <title>Kral Kaybederse</title>
+  </programme>
+  <programme start="20250508030000 +0300" stop="20250508050000 +0300" channel="startv.tr">
+    <title>Sefirin Kızı</title>
+  </programme>
+  <programme start="20250508050000 +0300" stop="20250508070000 +0300" channel="startv.tr">
+    <title>Aramızda Kalsın</title>
+  </programme>
+  <programme start="20250508070000 +0300" stop="20250508094500 +0300" channel="startv.tr">
+    <title>Güne Başlarken</title>
+  </programme>
+  <programme start="20250508094500 +0300" stop="20250508130000 +0300" channel="startv.tr">
+    <title>Sana Değer</title>
+  </programme>
+  <programme start="20250508130000 +0300" stop="20250508161500 +0300" channel="startv.tr">
+    <title>Zahide Yetiş ile Yeniden Başlasak</title>
+  </programme>
+  <programme start="20250508161500 +0300" stop="20250508190000 +0300" channel="startv.tr">
+    <title>Aramızda Kalsın</title>
+  </programme>
+  <programme start="20250508190000 +0300" stop="20250508200000 +0300" channel="startv.tr">
+    <title>Star Haber</title>
+  </programme>
+  <programme start="20250508200000 +0300" stop="20250508214500 +0300" channel="startv.tr">
+    <title>Aile Şerefi</title>
+  </programme>
+  <programme start="20250508214500 +0300" stop="20250508233000 +0300" channel="startv.tr">
+    <title>Çok Filim Hareketler Bunlar</title>
+  </programme>
+  <programme start="20250508233000 +0300" channel="startv.tr">
+    <title>Çok Filim Hareketler Bunlar</title>
   </programme>
   <programme start="20250508000000 +0300" stop="20250508023500 +0300" channel="tv85.tr">
     <title>Bir Demet Tiyatro</title>
@@ -45899,6 +46526,36 @@
   </programme>
   <programme start="20250509230000 +0300" stop="20250510000000 +0300" channel="tv85.tr">
     <title>Top Bizde</title>
+  </programme>
+  <programme start="20250508001500 +0300" stop="20250508024500 +0300" channel="kanald.tr">
+    <title>İnci Taneleri</title>
+  </programme>
+  <programme start="20250508024500 +0300" stop="20250508044500 +0300" channel="kanald.tr">
+    <title>Yargı</title>
+  </programme>
+  <programme start="20250508044500 +0300" stop="20250508070000 +0300" channel="kanald.tr">
+    <title>Poyraz Karayel</title>
+  </programme>
+  <programme start="20250508070000 +0300" stop="20250508090000 +0300" channel="kanald.tr">
+    <title>Kavak Yelleri</title>
+  </programme>
+  <programme start="20250508090000 +0300" stop="20250508110000 +0300" channel="kanald.tr">
+    <title>Neler Oluyor Hayatta</title>
+  </programme>
+  <programme start="20250508110000 +0300" stop="20250508133000 +0300" channel="kanald.tr">
+    <title>Yaprak Dökümü</title>
+  </programme>
+  <programme start="20250508133000 +0300" stop="20250508164500 +0300" channel="kanald.tr">
+    <title>Gelinim Mutfakta</title>
+  </programme>
+  <programme start="20250508164500 +0300" stop="20250508190000 +0300" channel="kanald.tr">
+    <title>Arka Sokaklar</title>
+  </programme>
+  <programme start="20250508190000 +0300" stop="20250508200000 +0300" channel="kanald.tr">
+    <title>Kanal D Ana Haber</title>
+  </programme>
+  <programme start="20250508200000 +0300" channel="kanald.tr">
+    <title>İnci Taneleri</title>
   </programme>
   <programme start="20250508000000 +0300" stop="20250508001000 +0300" channel="englishclub.tv">
     <title>This Day In History</title>
@@ -48785,6 +49442,105 @@
   </programme>
   <programme start="20250509234400 +0300" stop="20250510042000 +0300" channel="brazzers.eu">
     <title>Creampied By BF's Dad (+18)</title>
+  </programme>
+  <programme start="20250508070000 +0300" stop="20250508083500 +0300" channel="xxl.tv">
+    <title>L'invitation</title>
+  </programme>
+  <programme start="20250508083500 +0300" stop="20250508103600 +0300" channel="xxl.tv">
+    <title>GIRLS AT WORK LA CONSULTANTE</title>
+  </programme>
+  <programme start="20250508103600 +0300" stop="20250508120200 +0300" channel="xxl.tv">
+    <title>Tiffany Leiddi Sexlife Vol.11</title>
+  </programme>
+  <programme start="20250508120200 +0300" stop="20250508132500 +0300" channel="xxl.tv">
+    <title>Club libertin, Hard 42</title>
+  </programme>
+  <programme start="20250508132500 +0300" stop="20250508141100 +0300" channel="xxl.tv">
+    <title>Sex Friends Miami 2</title>
+  </programme>
+  <programme start="20250508141100 +0300" stop="20250508154400 +0300" channel="xxl.tv">
+    <title>TIFFANY LEIDDI SEXLIFE VOL.7</title>
+  </programme>
+  <programme start="20250508154400 +0300" stop="20250508161700 +0300" channel="xxl.tv">
+    <title>Linda 4 you</title>
+  </programme>
+  <programme start="20250508161700 +0300" stop="20250508181800 +0300" channel="xxl.tv">
+    <title>SEXTWOO VOL.3</title>
+  </programme>
+  <programme start="20250508181800 +0300" stop="20250508184200 +0300" channel="xxl.tv">
+    <title>Ma femme est une escorte</title>
+  </programme>
+  <programme start="20250508184200 +0300" stop="20250508190900 +0300" channel="xxl.tv">
+    <title>Brune &amp; blonde pour John</title>
+  </programme>
+  <programme start="20250508190900 +0300" stop="20250508202500 +0300" channel="xxl.tv">
+    <title>Les clés du plaisir</title>
+  </programme>
+  <programme start="20250508202500 +0300" stop="20250508214100 +0300" channel="xxl.tv">
+    <title>NIKITA BELLUCCI OBSESSIONS VOL.2</title>
+  </programme>
+  <programme start="20250508214100 +0300" stop="20250509000200 +0300" channel="xxl.tv">
+    <title>Very Best Of Clea Gaultier Infinity Part. 1</title>
+  </programme>
+  <programme start="20250509000200 +0300" stop="20250509003000 +0300" channel="xxl.tv">
+    <title>Contact Tiffany Leidy</title>
+  </programme>
+  <programme start="20250509003000 +0300" stop="20250509010900 +0300" channel="xxl.tv">
+    <title>Le meilleur de XXL</title>
+  </programme>
+  <programme start="20250509010900 +0300" stop="20250509020000 +0300" channel="xxl.tv">
+    <title>Sexfriends Punta Cana 2</title>
+  </programme>
+  <programme start="20250509020000 +0300" stop="20250509033800 +0300" channel="xxl.tv">
+    <title>Club Libertin Vol. 48</title>
+  </programme>
+  <programme start="20250509033800 +0300" stop="20250509051000 +0300" channel="xxl.tv">
+    <title>Sex Friends Tenerife</title>
+  </programme>
+  <programme start="20250509051000 +0300" stop="20250509064800 +0300" channel="xxl.tv">
+    <title>Sex Friends Corsica</title>
+  </programme>
+  <programme start="20250509064800 +0300" stop="20250509074600 +0300" channel="xxl.tv">
+    <title>Inattendu</title>
+  </programme>
+  <programme start="20250509074600 +0300" stop="20250509083300 +0300" channel="xxl.tv">
+    <title>Sexfriends Punta Cana 1</title>
+  </programme>
+  <programme start="20250509083300 +0300" stop="20250509094800 +0300" channel="xxl.tv">
+    <title>NIKITA BELLUCCI OBSESSIONS VOL.1</title>
+  </programme>
+  <programme start="20250509094800 +0300" stop="20250509124100 +0300" channel="xxl.tv">
+    <title>Liya l'indécente</title>
+  </programme>
+  <programme start="20250509124100 +0300" stop="20250509130300 +0300" channel="xxl.tv">
+    <title>Les nuits de Cléa</title>
+  </programme>
+  <programme start="20250509130300 +0300" stop="20250509133300 +0300" channel="xxl.tv">
+    <title>Tina Kay en veut toujours plus</title>
+  </programme>
+  <programme start="20250509133300 +0300" stop="20250509141700 +0300" channel="xxl.tv">
+    <title>Club Libertin, Club Libertin 91</title>
+  </programme>
+  <programme start="20250509141700 +0300" stop="20250509155500 +0300" channel="xxl.tv">
+    <title>Lola Bellucci Vol.5</title>
+  </programme>
+  <programme start="20250509155500 +0300" stop="20250509172000 +0300" channel="xxl.tv">
+    <title>La Rançon D'Eva</title>
+  </programme>
+  <programme start="20250509172000 +0300" stop="20250509183800 +0300" channel="xxl.tv">
+    <title>Pulsions inavouables</title>
+  </programme>
+  <programme start="20250509183800 +0300" stop="20250509191700 +0300" channel="xxl.tv">
+    <title>Liya l'indécente</title>
+  </programme>
+  <programme start="20250509191700 +0300" stop="20250509204900 +0300" channel="xxl.tv">
+    <title>Sex Friends Tenerife</title>
+  </programme>
+  <programme start="20250509204900 +0300" stop="20250509221600 +0300" channel="xxl.tv">
+    <title>Les vlogs de candie Vol.1</title>
+  </programme>
+  <programme start="20250509221600 +0300" stop="20250510000900 +0300" channel="xxl.tv">
+    <title>Sex Friends Tulum / Cancun</title>
   </programme>
   <programme start="20250508020000 +0300" stop="20250509020000 +0300" channel="rts1.rs">
     <title>Nema informacija o programu</title>
@@ -52377,133 +53133,391 @@
   <programme start="20250509230000 +0300" stop="20250510000000 +0300" channel="raiscuola.it">
     <title lang="it">American Genius Wright VS Curtiss - Avia</title>
   </programme>
-  <programme start="20250508050000 +0300" stop="20250508060000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
+  <programme start="20250508050000 +0300" stop="20250508052500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508060000 +0300" stop="20250508070000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
+  <programme start="20250508052500 +0300" stop="20250508053000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508070000 +0300" stop="20250508080000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
+  <programme start="20250508053000 +0300" stop="20250508060000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508080000 +0300" stop="20250508090000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
+  <programme start="20250508060000 +0300" stop="20250508062500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508090000 +0300" stop="20250508100000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
+  <programme start="20250508062500 +0300" stop="20250508063000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508100000 +0300" stop="20250508110000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
+  <programme start="20250508063000 +0300" stop="20250508070000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508110000 +0300" stop="20250508120000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
+  <programme start="20250508070000 +0300" stop="20250508072500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508120000 +0300" stop="20250508130000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
+  <programme start="20250508072500 +0300" stop="20250508073000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508130000 +0300" stop="20250508140000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
+  <programme start="20250508073000 +0300" stop="20250508080000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508140000 +0300" stop="20250508150000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
+  <programme start="20250508080000 +0300" stop="20250508082500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508150000 +0300" stop="20250508160000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
+  <programme start="20250508082500 +0300" stop="20250508083000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508160000 +0300" stop="20250508170000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
+  <programme start="20250508083000 +0300" stop="20250508090000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508170000 +0300" stop="20250508180000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
+  <programme start="20250508090000 +0300" stop="20250508092500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508180000 +0300" stop="20250508190000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
+  <programme start="20250508092500 +0300" stop="20250508093000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508190000 +0300" stop="20250508200000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
+  <programme start="20250508093000 +0300" stop="20250508100000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508200000 +0300" stop="20250508210000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
+  <programme start="20250508100000 +0300" stop="20250508102500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508210000 +0300" stop="20250508220000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
+  <programme start="20250508102500 +0300" stop="20250508103000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508220000 +0300" stop="20250508230000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
+  <programme start="20250508103000 +0300" stop="20250508110000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250508230000 +0300" stop="20250509000000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
+  <programme start="20250508110000 +0300" stop="20250508112500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250509000000 +0300" stop="20250509010000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
+  <programme start="20250508112500 +0300" stop="20250508113000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250509010000 +0300" stop="20250509020000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
+  <programme start="20250508113000 +0300" stop="20250508120000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250509020000 +0300" stop="20250509030000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
+  <programme start="20250508120000 +0300" stop="20250508122500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250509030000 +0300" stop="20250509040000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
+  <programme start="20250508122500 +0300" stop="20250508123000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250509040000 +0300" stop="20250509050000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
+  <programme start="20250508123000 +0300" stop="20250508130000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250509050000 +0300" stop="20250509060000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
+  <programme start="20250508130000 +0300" stop="20250508132500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509060000 +0300" stop="20250509070000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
+  <programme start="20250508132500 +0300" stop="20250508133000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509070000 +0300" stop="20250509080000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
+  <programme start="20250508133000 +0300" stop="20250508140000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
   </programme>
-  <programme start="20250509080000 +0300" stop="20250509090000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
+  <programme start="20250508140000 +0300" stop="20250508142500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509090000 +0300" stop="20250509100000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
+  <programme start="20250508142500 +0300" stop="20250508143000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509100000 +0300" stop="20250509110000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
+  <programme start="20250508143000 +0300" stop="20250508150000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
   </programme>
-  <programme start="20250509110000 +0300" stop="20250509120000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
+  <programme start="20250508150000 +0300" stop="20250508152500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509120000 +0300" stop="20250509130000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
+  <programme start="20250508152500 +0300" stop="20250508153000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509130000 +0300" stop="20250509140000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
+  <programme start="20250508153000 +0300" stop="20250508160000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
   </programme>
-  <programme start="20250509140000 +0300" stop="20250509150000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
+  <programme start="20250508160000 +0300" stop="20250508162500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509150000 +0300" stop="20250509160000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
+  <programme start="20250508162500 +0300" stop="20250508163000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509160000 +0300" stop="20250509170000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
+  <programme start="20250508163000 +0300" stop="20250508170000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
   </programme>
-  <programme start="20250509170000 +0300" stop="20250509180000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
+  <programme start="20250508170000 +0300" stop="20250508172500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509180000 +0300" stop="20250509190000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
+  <programme start="20250508172500 +0300" stop="20250508173000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509190000 +0300" stop="20250509200000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
+  <programme start="20250508173000 +0300" stop="20250508180000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
   </programme>
-  <programme start="20250509200000 +0300" stop="20250509210000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
+  <programme start="20250508180000 +0300" stop="20250508182500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509210000 +0300" stop="20250509220000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
+  <programme start="20250508182500 +0300" stop="20250508183000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250509220000 +0300" stop="20250509230000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
+  <programme start="20250508183000 +0300" stop="20250508190000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
   </programme>
-  <programme start="20250509230000 +0300" stop="20250510000000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
+  <programme start="20250508190000 +0300" stop="20250508192500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508192500 +0300" stop="20250508193000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508193000 +0300" stop="20250508200000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250508200000 +0300" stop="20250508202500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508202500 +0300" stop="20250508203000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508203000 +0300" stop="20250508210000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250508210000 +0300" stop="20250508212500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508212500 +0300" stop="20250508213000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508213000 +0300" stop="20250508220000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250508220000 +0300" stop="20250508222500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508222500 +0300" stop="20250508223000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508223000 +0300" stop="20250508230000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250508230000 +0300" stop="20250508232500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508232500 +0300" stop="20250508233000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250508233000 +0300" stop="20250509000000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509000000 +0300" stop="20250509002500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509002500 +0300" stop="20250509003000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509003000 +0300" stop="20250509010000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509010000 +0300" stop="20250509012500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509012500 +0300" stop="20250509013000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509013000 +0300" stop="20250509020000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509020000 +0300" stop="20250509022500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509022500 +0300" stop="20250509023000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509023000 +0300" stop="20250509030000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509030000 +0300" stop="20250509032500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509032500 +0300" stop="20250509033000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509033000 +0300" stop="20250509040000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509040000 +0300" stop="20250509042500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509042500 +0300" stop="20250509043000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509043000 +0300" stop="20250509050000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509050000 +0300" stop="20250509052500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509052500 +0300" stop="20250509053000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509053000 +0300" stop="20250509060000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509060000 +0300" stop="20250509062500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509062500 +0300" stop="20250509063000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509063000 +0300" stop="20250509070000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509070000 +0300" stop="20250509072500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509072500 +0300" stop="20250509073000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509073000 +0300" stop="20250509080000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509080000 +0300" stop="20250509082500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509082500 +0300" stop="20250509083000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509083000 +0300" stop="20250509090000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509090000 +0300" stop="20250509092500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509092500 +0300" stop="20250509093000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509093000 +0300" stop="20250509100000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509100000 +0300" stop="20250509102500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509102500 +0300" stop="20250509103000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509103000 +0300" stop="20250509110000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509110000 +0300" stop="20250509112500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509112500 +0300" stop="20250509113000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509113000 +0300" stop="20250509120000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509120000 +0300" stop="20250509122500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509122500 +0300" stop="20250509123000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509123000 +0300" stop="20250509130000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 3-я серия</title>
+  </programme>
+  <programme start="20250509130000 +0300" stop="20250509132500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509132500 +0300" stop="20250509133000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509133000 +0300" stop="20250509140000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509140000 +0300" stop="20250509142500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509142500 +0300" stop="20250509143000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509143000 +0300" stop="20250509150000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509150000 +0300" stop="20250509152500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509152500 +0300" stop="20250509153000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509153000 +0300" stop="20250509160000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509160000 +0300" stop="20250509162500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509162500 +0300" stop="20250509163000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509163000 +0300" stop="20250509170000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509170000 +0300" stop="20250509172500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509172500 +0300" stop="20250509173000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509173000 +0300" stop="20250509180000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509180000 +0300" stop="20250509182500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509182500 +0300" stop="20250509183000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509183000 +0300" stop="20250509190000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509190000 +0300" stop="20250509192500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509192500 +0300" stop="20250509193000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509193000 +0300" stop="20250509200000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509200000 +0300" stop="20250509202500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509202500 +0300" stop="20250509203000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509203000 +0300" stop="20250509210000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509210000 +0300" stop="20250509212500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509212500 +0300" stop="20250509213000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509213000 +0300" stop="20250509220000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509220000 +0300" stop="20250509222500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509222500 +0300" stop="20250509223000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509223000 +0300" stop="20250509230000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
+  </programme>
+  <programme start="20250509230000 +0300" stop="20250509232500 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Today. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509232500 +0300" stop="20250509233000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 4-я серия</title>
+  </programme>
+  <programme start="20250509233000 +0300" stop="20250510000000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 4-я серия - "Morocco"</title>
   </programme>
 </tv>

@@ -6,7 +6,7 @@ request:
   url: http://tv999.bg/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0.html
 
 programs:
-  locator: .tv_mod
+  locator: "#tv-date-${date.format(dd-MM-yyyy)} .tv_mod"
   
 elements:
   - name: start
