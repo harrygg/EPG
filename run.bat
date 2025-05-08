@@ -22,3 +22,5 @@ git add -A
 git commit -m "Scheduled daily update"
 git push
 git status
+
+cd %APPDIR%
