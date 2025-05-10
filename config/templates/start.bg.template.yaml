@@ -185,10 +185,10 @@ channel-parameters:
     channelId: 140
   'National Geographic HD':
     channelId: 142
-  'AXN Black':
-    channelId: 146
-  'AXN White':
-    channelId: 147
+  axnblack.bg:
+    channelId: axn%20black
+  axnwhite.bg:
+    channelId: axn%20white
   crimeandinvestigation.bg:
     channelId: crime%20and%20investigation
   moviestar.bg:

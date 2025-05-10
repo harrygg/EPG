@@ -7262,7 +7262,7 @@
     <title>Лудогорец - Левски, 32 кръг, Футбол: efbet Лига 2024/2025, /n/</title>
   </programme>
   <programme start="20250510060000 +0300" stop="20250510080000 +0300" channel="diemasport.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250510080000 +0300" stop="20250510083000 +0300" channel="diemasport.bg">
     <title>Локомотив Горна Оряховица - Лудогорец, класика от efbet Лига 2016/2017, /n/</title>
@@ -7352,7 +7352,7 @@
     <title>efbet Лига: Обзор на кръга, 33 епизод, предаване за български футбол 2024/2025, директно</title>
   </programme>
   <programme start="20250510041500 +0300" stop="20250510073000 +0300" channel="diemasport2.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250510073000 +0300" stop="20250510080000 +0300" channel="diemasport2.bg">
     <title>Елитна Шампионска лига на Азия: Обзор, 11 епизод, предаване за азиатски футбол 2024/2025, /n/</title>
@@ -7406,7 +7406,7 @@
     <title>Рен - Ница, 33 кръг, Футбол: Лига 1 на Франция 2024/2025, запис</title>
   </programme>
   <programme start="20250511023000 +0300" stop="20250511063000 +0300" channel="diemasport2.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250511063000 +0300" stop="20250511083000 +0300" channel="diemasport2.bg">
     <title>Фулъм - Евертън, 36 кръг, Футбол: Висша лига 2024/2025, /n/</title>
@@ -7499,7 +7499,7 @@
     <title>Фортуна Дюселдорф - Шалке 04, 33 кръг, Футбол: Втора Бундеслига 2024/2025, /n/</title>
   </programme>
   <programme start="20250511043000 +0300" stop="20250511073000 +0300" channel="diemasport3.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250511073000 +0300" stop="20250511093000 +0300" channel="diemasport3.bg">
     <title>Холщайн Кийл - Фрайбург, 33 кръг, Футбол: Бундеслига 2024/2025, /n/</title>
@@ -7527,9 +7527,6 @@
   </programme>
   <programme start="20250511223000 +0300" stop="20250512003000 +0300" channel="diemasport3.bg">
     <title>Бохум - Майнц, 33 кръг, Футбол: Бундеслига 2024/2025, запис</title>
-  </programme>
-  <programme start="20250510021000 +0300" stop="20250510060000 +0300" channel="fightclub.diemasport.bg">
-    <title>Top Rank, Nakatani vs Cuellar</title>
   </programme>
   <programme start="20250510060000 +0300" stop="20250510084500 +0300" channel="fightclub.diemasport.bg">
     <title>test: EFC 122, Сезон 2025 Епизод 122</title>
@@ -10084,7 +10081,7 @@
   <programme start="20250511210000 +0300" stop="20250511230000 +0300" channel="aspor.tr">
     <title>90+1</title>
   </programme>
-  <programme start="20250511230000 +0300" channel="aspor.tr">
+  <programme start="20250511230000 +0300" stop="20250512020000 +0300" channel="aspor.tr">
     <title>Takım Oyunu</title>
   </programme>
   <programme start="20250510010000 +0300" stop="20250510020000 +0300" channel="trtspor.tr">
@@ -13891,12 +13888,6 @@
   </programme>
   <programme start="20250510233000 +0300" channel="fenfolk.bg">
     <title lang="bg">Пъстра плетеница /музикално-развлекателен блок/</title>
-  </programme>
-  <programme start="20250510060000 +0300" stop="20250510100000 +0300" channel="balkanika.bg">
-    <title lang="bg">Tick Tack</title>
-  </programme>
-  <programme start="20250510100000 +0300" stop="20250510140000 +0300" channel="balkanika.bg">
-    <title lang="bg">Hit Mix</title>
   </programme>
   <programme start="20250510140000 +0300" stop="20250510142000 +0300" channel="balkanika.bg">
     <title lang="bg">Standard TR</title>
@@ -22623,172 +22614,208 @@
     <title>News</title>
   </programme>
   <programme start="20250510060000 +0300" stop="20250510063000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510063000 +0300" stop="20250510070000 +0300" channel="bbcworldnews.com">
-    <title>The Travel Show - ${subTitle}</title>
+    <title>The Travel Show</title>
   </programme>
   <programme start="20250510070000 +0300" stop="20250510100000 +0300" channel="bbcworldnews.com">
-    <title>Breakfast - ${subTitle}</title>
+    <title>Breakfast</title>
   </programme>
   <programme start="20250510100000 +0300" stop="20250510110000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510110000 +0300" stop="20250510113000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510113000 +0300" stop="20250510120000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510120000 +0300" stop="20250510123000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510123000 +0300" stop="20250510130000 +0300" channel="bbcworldnews.com">
-    <title>Talking Business - 09/05/2025</title>
+    <title>Talking Business09/05/2025</title>
   </programme>
   <programme start="20250510130000 +0300" stop="20250510133000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510133000 +0300" stop="20250510140000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510140000 +0300" stop="20250510143000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510143000 +0300" stop="20250510150000 +0300" channel="bbcworldnews.com">
-    <title>AI Decoded - ${subTitle}</title>
+    <title>AI Decoded</title>
   </programme>
   <programme start="20250510150000 +0300" stop="20250510153000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510153000 +0300" stop="20250510160000 +0300" channel="bbcworldnews.com">
-    <title>The Security Brief - 10/05/2025</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250510160000 +0300" stop="20250510163000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510163000 +0300" stop="20250510164500 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510164500 +0300" stop="20250510170000 +0300" channel="bbcworldnews.com">
-    <title>Newswatch - ${subTitle}</title>
+    <title>Newswatch</title>
   </programme>
   <programme start="20250510170000 +0300" stop="20250510173000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510173000 +0300" stop="20250510180000 +0300" channel="bbcworldnews.com">
-    <title>The Media Show - 10/05/2025</title>
+    <title>The Media Show10/05/2025</title>
   </programme>
   <programme start="20250510180000 +0300" stop="20250510190000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510190000 +0300" stop="20250510193000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510193000 +0300" stop="20250510200000 +0300" channel="bbcworldnews.com">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250510200000 +0300" stop="20250510203000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510203000 +0300" stop="20250510210000 +0300" channel="bbcworldnews.com">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250510210000 +0300" stop="20250510213000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510213000 +0300" stop="20250510220000 +0300" channel="bbcworldnews.com">
-    <title>Newscast - ${subTitle}</title>
+    <title>Newscast</title>
   </programme>
   <programme start="20250510220000 +0300" stop="20250510230000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
-  <programme start="20250510230000 +0300" stop="20250511060000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+  <programme start="20250510230000 +0300" stop="20250511000000 +0300" channel="bbcworldnews.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511000000 +0300" stop="20250511003000 +0300" channel="bbcworldnews.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511003000 +0300" stop="20250511010000 +0300" channel="bbcworldnews.com">
+    <title>Political Thinking with Nick RobinsonSeries 2 Episode 1</title>
+  </programme>
+  <programme start="20250511010000 +0300" stop="20250511013000 +0300" channel="bbcworldnews.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511013000 +0300" stop="20250511020000 +0300" channel="bbcworldnews.com">
+    <title>The Media Show10/05/2025</title>
+  </programme>
+  <programme start="20250511020000 +0300" stop="20250511023000 +0300" channel="bbcworldnews.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511023000 +0300" stop="20250511030000 +0300" channel="bbcworldnews.com">
+    <title>TechXploreSeries 1 Episode 3: Morocco</title>
+  </programme>
+  <programme start="20250511030000 +0300" stop="20250511033000 +0300" channel="bbcworldnews.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511033000 +0300" stop="20250511040000 +0300" channel="bbcworldnews.com">
+    <title>Unspun World with John SimpsonSeries 5 Episode 2</title>
+  </programme>
+  <programme start="20250511040000 +0300" stop="20250511043000 +0300" channel="bbcworldnews.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511043000 +0300" stop="20250511050000 +0300" channel="bbcworldnews.com">
+    <title>The Media Show10/05/2025</title>
+  </programme>
+  <programme start="20250511050000 +0300" stop="20250511053000 +0300" channel="bbcworldnews.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511053000 +0300" stop="20250511060000 +0300" channel="bbcworldnews.com">
+    <title>AI Decoded</title>
   </programme>
   <programme start="20250511060000 +0300" stop="20250511063000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511063000 +0300" stop="20250511070000 +0300" channel="bbcworldnews.com">
-    <title>Tech Now - ${subTitle}</title>
+    <title>Tech Now</title>
   </programme>
   <programme start="20250511070000 +0300" stop="20250511100000 +0300" channel="bbcworldnews.com">
-    <title>Breakfast - ${subTitle}</title>
+    <title>Breakfast</title>
   </programme>
   <programme start="20250511100000 +0300" stop="20250511110000 +0300" channel="bbcworldnews.com">
-    <title>Sunday with Laura Kuenssberg - ${subTitle}</title>
+    <title>Sunday with Laura Kuenssberg</title>
   </programme>
   <programme start="20250511110000 +0300" stop="20250511113000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511113000 +0300" stop="20250511120000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511120000 +0300" stop="20250511123000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511123000 +0300" stop="20250511130000 +0300" channel="bbcworldnews.com">
-    <title>The President's Path - ${subTitle}</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250511130000 +0300" stop="20250511133000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511133000 +0300" stop="20250511140000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511140000 +0300" stop="20250511143000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511143000 +0300" stop="20250511150000 +0300" channel="bbcworldnews.com">
-    <title>The Travel Show - ${subTitle}</title>
+    <title>The Travel Show</title>
   </programme>
   <programme start="20250511150000 +0300" stop="20250511153000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511153000 +0300" stop="20250511160000 +0300" channel="bbcworldnews.com">
-    <title>Tech Now - ${subTitle}</title>
+    <title>Tech Now</title>
   </programme>
   <programme start="20250511160000 +0300" stop="20250511163000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511163000 +0300" stop="20250511170000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511170000 +0300" stop="20250511173000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511173000 +0300" stop="20250511180000 +0300" channel="bbcworldnews.com">
-    <title>Newscast - ${subTitle}</title>
+    <title>Newscast</title>
   </programme>
   <programme start="20250511180000 +0300" stop="20250511190000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511190000 +0300" stop="20250511193000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511193000 +0300" stop="20250511200000 +0300" channel="bbcworldnews.com">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250511200000 +0300" stop="20250511203000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511203000 +0300" stop="20250511210000 +0300" channel="bbcworldnews.com">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250511210000 +0300" stop="20250511213000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511213000 +0300" stop="20250511220000 +0300" channel="bbcworldnews.com">
-    <title>The Security Brief - 10/05/2025</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250511220000 +0300" stop="20250511230000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511230000 +0300" stop="20250511233000 +0300" channel="bbcworldnews.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
-  <programme start="20250511233000 +0300" stop="20250512060000 +0300" channel="bbcworldnews.com">
-    <title>Newscast - ${subTitle}</title>
+  <programme start="20250511233000 +0300" stop="20250512000000 +0300" channel="bbcworldnews.com">
+    <title>Newscast</title>
   </programme>
   <programme start="20250510000000 +0300" stop="20250510003000 +0300" channel="trtworld.com">
     <title>News - London</title>
@@ -24456,340 +24483,412 @@
     <title>Culture prime</title>
   </programme>
   <programme start="20250510060000 +0300" stop="20250510063000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510063000 +0300" stop="20250510070000 +0300" channel="nhkworld.com">
-    <title>The Travel Show - ${subTitle}</title>
+    <title>The Travel Show</title>
   </programme>
   <programme start="20250510070000 +0300" stop="20250510100000 +0300" channel="nhkworld.com">
-    <title>Breakfast - ${subTitle}</title>
+    <title>Breakfast</title>
   </programme>
   <programme start="20250510100000 +0300" stop="20250510110000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510110000 +0300" stop="20250510113000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510113000 +0300" stop="20250510120000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510120000 +0300" stop="20250510123000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510123000 +0300" stop="20250510130000 +0300" channel="nhkworld.com">
-    <title>Talking Business - 09/05/2025</title>
+    <title>Talking Business09/05/2025</title>
   </programme>
   <programme start="20250510130000 +0300" stop="20250510133000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510133000 +0300" stop="20250510140000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510140000 +0300" stop="20250510143000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510143000 +0300" stop="20250510150000 +0300" channel="nhkworld.com">
-    <title>AI Decoded - ${subTitle}</title>
+    <title>AI Decoded</title>
   </programme>
   <programme start="20250510150000 +0300" stop="20250510153000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510153000 +0300" stop="20250510160000 +0300" channel="nhkworld.com">
-    <title>The Security Brief - 10/05/2025</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250510160000 +0300" stop="20250510163000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510163000 +0300" stop="20250510164500 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510164500 +0300" stop="20250510170000 +0300" channel="nhkworld.com">
-    <title>Newswatch - ${subTitle}</title>
+    <title>Newswatch</title>
   </programme>
   <programme start="20250510170000 +0300" stop="20250510173000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510173000 +0300" stop="20250510180000 +0300" channel="nhkworld.com">
-    <title>The Media Show - 10/05/2025</title>
+    <title>The Media Show10/05/2025</title>
   </programme>
   <programme start="20250510180000 +0300" stop="20250510190000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510190000 +0300" stop="20250510193000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510193000 +0300" stop="20250510200000 +0300" channel="nhkworld.com">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250510200000 +0300" stop="20250510203000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510203000 +0300" stop="20250510210000 +0300" channel="nhkworld.com">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250510210000 +0300" stop="20250510213000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510213000 +0300" stop="20250510220000 +0300" channel="nhkworld.com">
-    <title>Newscast - ${subTitle}</title>
+    <title>Newscast</title>
   </programme>
   <programme start="20250510220000 +0300" stop="20250510230000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
-  <programme start="20250510230000 +0300" stop="20250511060000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+  <programme start="20250510230000 +0300" stop="20250511000000 +0300" channel="nhkworld.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511000000 +0300" stop="20250511003000 +0300" channel="nhkworld.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511003000 +0300" stop="20250511010000 +0300" channel="nhkworld.com">
+    <title>Political Thinking with Nick RobinsonSeries 2 Episode 1</title>
+  </programme>
+  <programme start="20250511010000 +0300" stop="20250511013000 +0300" channel="nhkworld.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511013000 +0300" stop="20250511020000 +0300" channel="nhkworld.com">
+    <title>The Media Show10/05/2025</title>
+  </programme>
+  <programme start="20250511020000 +0300" stop="20250511023000 +0300" channel="nhkworld.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511023000 +0300" stop="20250511030000 +0300" channel="nhkworld.com">
+    <title>TechXploreSeries 1 Episode 3: Morocco</title>
+  </programme>
+  <programme start="20250511030000 +0300" stop="20250511033000 +0300" channel="nhkworld.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511033000 +0300" stop="20250511040000 +0300" channel="nhkworld.com">
+    <title>Unspun World with John SimpsonSeries 5 Episode 2</title>
+  </programme>
+  <programme start="20250511040000 +0300" stop="20250511043000 +0300" channel="nhkworld.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511043000 +0300" stop="20250511050000 +0300" channel="nhkworld.com">
+    <title>The Media Show10/05/2025</title>
+  </programme>
+  <programme start="20250511050000 +0300" stop="20250511053000 +0300" channel="nhkworld.com">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511053000 +0300" stop="20250511060000 +0300" channel="nhkworld.com">
+    <title>AI Decoded</title>
   </programme>
   <programme start="20250511060000 +0300" stop="20250511063000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511063000 +0300" stop="20250511070000 +0300" channel="nhkworld.com">
-    <title>Tech Now - ${subTitle}</title>
+    <title>Tech Now</title>
   </programme>
   <programme start="20250511070000 +0300" stop="20250511100000 +0300" channel="nhkworld.com">
-    <title>Breakfast - ${subTitle}</title>
+    <title>Breakfast</title>
   </programme>
   <programme start="20250511100000 +0300" stop="20250511110000 +0300" channel="nhkworld.com">
-    <title>Sunday with Laura Kuenssberg - ${subTitle}</title>
+    <title>Sunday with Laura Kuenssberg</title>
   </programme>
   <programme start="20250511110000 +0300" stop="20250511113000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511113000 +0300" stop="20250511120000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511120000 +0300" stop="20250511123000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511123000 +0300" stop="20250511130000 +0300" channel="nhkworld.com">
-    <title>The President's Path - ${subTitle}</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250511130000 +0300" stop="20250511133000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511133000 +0300" stop="20250511140000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511140000 +0300" stop="20250511143000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511143000 +0300" stop="20250511150000 +0300" channel="nhkworld.com">
-    <title>The Travel Show - ${subTitle}</title>
+    <title>The Travel Show</title>
   </programme>
   <programme start="20250511150000 +0300" stop="20250511153000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511153000 +0300" stop="20250511160000 +0300" channel="nhkworld.com">
-    <title>Tech Now - ${subTitle}</title>
+    <title>Tech Now</title>
   </programme>
   <programme start="20250511160000 +0300" stop="20250511163000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511163000 +0300" stop="20250511170000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511170000 +0300" stop="20250511173000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511173000 +0300" stop="20250511180000 +0300" channel="nhkworld.com">
-    <title>Newscast - ${subTitle}</title>
+    <title>Newscast</title>
   </programme>
   <programme start="20250511180000 +0300" stop="20250511190000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511190000 +0300" stop="20250511193000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511193000 +0300" stop="20250511200000 +0300" channel="nhkworld.com">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250511200000 +0300" stop="20250511203000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511203000 +0300" stop="20250511210000 +0300" channel="nhkworld.com">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250511210000 +0300" stop="20250511213000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511213000 +0300" stop="20250511220000 +0300" channel="nhkworld.com">
-    <title>The Security Brief - 10/05/2025</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250511220000 +0300" stop="20250511230000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511230000 +0300" stop="20250511233000 +0300" channel="nhkworld.com">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
-  <programme start="20250511233000 +0300" stop="20250512060000 +0300" channel="nhkworld.com">
-    <title>Newscast - ${subTitle}</title>
+  <programme start="20250511233000 +0300" stop="20250512000000 +0300" channel="nhkworld.com">
+    <title>Newscast</title>
   </programme>
   <programme start="20250510060000 +0300" stop="20250510063000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510063000 +0300" stop="20250510070000 +0300" channel="skynews.uk">
-    <title>The Travel Show - ${subTitle}</title>
+    <title>The Travel Show</title>
   </programme>
   <programme start="20250510070000 +0300" stop="20250510100000 +0300" channel="skynews.uk">
-    <title>Breakfast - ${subTitle}</title>
+    <title>Breakfast</title>
   </programme>
   <programme start="20250510100000 +0300" stop="20250510110000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510110000 +0300" stop="20250510113000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510113000 +0300" stop="20250510120000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510120000 +0300" stop="20250510123000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510123000 +0300" stop="20250510130000 +0300" channel="skynews.uk">
-    <title>Talking Business - 09/05/2025</title>
+    <title>Talking Business09/05/2025</title>
   </programme>
   <programme start="20250510130000 +0300" stop="20250510133000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510133000 +0300" stop="20250510140000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510140000 +0300" stop="20250510143000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510143000 +0300" stop="20250510150000 +0300" channel="skynews.uk">
-    <title>AI Decoded - ${subTitle}</title>
+    <title>AI Decoded</title>
   </programme>
   <programme start="20250510150000 +0300" stop="20250510153000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510153000 +0300" stop="20250510160000 +0300" channel="skynews.uk">
-    <title>The Security Brief - 10/05/2025</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250510160000 +0300" stop="20250510163000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510163000 +0300" stop="20250510164500 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510164500 +0300" stop="20250510170000 +0300" channel="skynews.uk">
-    <title>Newswatch - ${subTitle}</title>
+    <title>Newswatch</title>
   </programme>
   <programme start="20250510170000 +0300" stop="20250510173000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510173000 +0300" stop="20250510180000 +0300" channel="skynews.uk">
-    <title>The Media Show - 10/05/2025</title>
+    <title>The Media Show10/05/2025</title>
   </programme>
   <programme start="20250510180000 +0300" stop="20250510190000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510190000 +0300" stop="20250510193000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510193000 +0300" stop="20250510200000 +0300" channel="skynews.uk">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250510200000 +0300" stop="20250510203000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510203000 +0300" stop="20250510210000 +0300" channel="skynews.uk">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250510210000 +0300" stop="20250510213000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250510213000 +0300" stop="20250510220000 +0300" channel="skynews.uk">
-    <title>Newscast - ${subTitle}</title>
+    <title>Newscast</title>
   </programme>
   <programme start="20250510220000 +0300" stop="20250510230000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
-  <programme start="20250510230000 +0300" stop="20250511060000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+  <programme start="20250510230000 +0300" stop="20250511000000 +0300" channel="skynews.uk">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511000000 +0300" stop="20250511003000 +0300" channel="skynews.uk">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511003000 +0300" stop="20250511010000 +0300" channel="skynews.uk">
+    <title>Political Thinking with Nick RobinsonSeries 2 Episode 1</title>
+  </programme>
+  <programme start="20250511010000 +0300" stop="20250511013000 +0300" channel="skynews.uk">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511013000 +0300" stop="20250511020000 +0300" channel="skynews.uk">
+    <title>The Media Show10/05/2025</title>
+  </programme>
+  <programme start="20250511020000 +0300" stop="20250511023000 +0300" channel="skynews.uk">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511023000 +0300" stop="20250511030000 +0300" channel="skynews.uk">
+    <title>TechXploreSeries 1 Episode 3: Morocco</title>
+  </programme>
+  <programme start="20250511030000 +0300" stop="20250511033000 +0300" channel="skynews.uk">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511033000 +0300" stop="20250511040000 +0300" channel="skynews.uk">
+    <title>Unspun World with John SimpsonSeries 5 Episode 2</title>
+  </programme>
+  <programme start="20250511040000 +0300" stop="20250511043000 +0300" channel="skynews.uk">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511043000 +0300" stop="20250511050000 +0300" channel="skynews.uk">
+    <title>The Media Show10/05/2025</title>
+  </programme>
+  <programme start="20250511050000 +0300" stop="20250511053000 +0300" channel="skynews.uk">
+    <title>BBC News</title>
+  </programme>
+  <programme start="20250511053000 +0300" stop="20250511060000 +0300" channel="skynews.uk">
+    <title>AI Decoded</title>
   </programme>
   <programme start="20250511060000 +0300" stop="20250511063000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511063000 +0300" stop="20250511070000 +0300" channel="skynews.uk">
-    <title>Tech Now - ${subTitle}</title>
+    <title>Tech Now</title>
   </programme>
   <programme start="20250511070000 +0300" stop="20250511100000 +0300" channel="skynews.uk">
-    <title>Breakfast - ${subTitle}</title>
+    <title>Breakfast</title>
   </programme>
   <programme start="20250511100000 +0300" stop="20250511110000 +0300" channel="skynews.uk">
-    <title>Sunday with Laura Kuenssberg - ${subTitle}</title>
+    <title>Sunday with Laura Kuenssberg</title>
   </programme>
   <programme start="20250511110000 +0300" stop="20250511113000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511113000 +0300" stop="20250511120000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511120000 +0300" stop="20250511123000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511123000 +0300" stop="20250511130000 +0300" channel="skynews.uk">
-    <title>The President's Path - ${subTitle}</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250511130000 +0300" stop="20250511133000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511133000 +0300" stop="20250511140000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511140000 +0300" stop="20250511143000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511143000 +0300" stop="20250511150000 +0300" channel="skynews.uk">
-    <title>The Travel Show - ${subTitle}</title>
+    <title>The Travel Show</title>
   </programme>
   <programme start="20250511150000 +0300" stop="20250511153000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511153000 +0300" stop="20250511160000 +0300" channel="skynews.uk">
-    <title>Tech Now - ${subTitle}</title>
+    <title>Tech Now</title>
   </programme>
   <programme start="20250511160000 +0300" stop="20250511163000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511163000 +0300" stop="20250511170000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511170000 +0300" stop="20250511173000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511173000 +0300" stop="20250511180000 +0300" channel="skynews.uk">
-    <title>Newscast - ${subTitle}</title>
+    <title>Newscast</title>
   </programme>
   <programme start="20250511180000 +0300" stop="20250511190000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511190000 +0300" stop="20250511193000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511193000 +0300" stop="20250511200000 +0300" channel="skynews.uk">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250511200000 +0300" stop="20250511203000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511203000 +0300" stop="20250511210000 +0300" channel="skynews.uk">
-    <title>Sportsday - ${subTitle}</title>
+    <title>Sportsday</title>
   </programme>
   <programme start="20250511210000 +0300" stop="20250511213000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511213000 +0300" stop="20250511220000 +0300" channel="skynews.uk">
-    <title>The Security Brief - 10/05/2025</title>
+    <title>The President's Path</title>
   </programme>
   <programme start="20250511220000 +0300" stop="20250511230000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
   <programme start="20250511230000 +0300" stop="20250511233000 +0300" channel="skynews.uk">
-    <title>BBC News - ${subTitle}</title>
+    <title>BBC News</title>
   </programme>
-  <programme start="20250511233000 +0300" stop="20250512060000 +0300" channel="skynews.uk">
-    <title>Newscast - ${subTitle}</title>
+  <programme start="20250511233000 +0300" stop="20250512000000 +0300" channel="skynews.uk">
+    <title>Newscast</title>
   </programme>
   <programme start="20250510061500 +0300" stop="20250510070000 +0300" channel="cctv4.com">
     <title>TV Drama</title>
@@ -25301,38 +25400,38 @@
   <programme start="20250511233000 +0300" stop="20250512073000 +0300" channel="freedom.ua">
     <title>Документальный фильм</title>
   </programme>
-  <programme start="20250510020000 +0300" stop="20250510060000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
-  </programme>
   <programme start="20250510060000 +0300" stop="20250510100000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+    <title>CGTN Documentary</title>
   </programme>
   <programme start="20250510100000 +0300" stop="20250510140000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+    <title>CGTN Documentary</title>
   </programme>
   <programme start="20250510140000 +0300" stop="20250510180000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+    <title>CGTN Documentary</title>
   </programme>
   <programme start="20250510180000 +0300" stop="20250510220000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+    <title>CGTN Documentary</title>
   </programme>
-  <programme start="20250510220000 +0300" stop="20250511060000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+  <programme start="20250510220000 +0300" stop="20250511020000 +0300" channel="cgtndocumentary.en">
+    <title>CGTN Documentary</title>
+  </programme>
+  <programme start="20250511020000 +0300" stop="20250511060000 +0300" channel="cgtndocumentary.en">
+    <title>CGTN Documentary</title>
   </programme>
   <programme start="20250511060000 +0300" stop="20250511100000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+    <title>CGTN Documentary</title>
   </programme>
   <programme start="20250511100000 +0300" stop="20250511140000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+    <title>CGTN Documentary</title>
   </programme>
   <programme start="20250511140000 +0300" stop="20250511180000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+    <title>CGTN Documentary</title>
   </programme>
   <programme start="20250511180000 +0300" stop="20250511220000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+    <title>CGTN Documentary</title>
   </programme>
-  <programme start="20250511220000 +0300" stop="20250512060000 +0300" channel="cgtndocumentary.en">
-    <title>CGTN Documentary - ${subTitle}</title>
+  <programme start="20250511220000 +0300" stop="20250512020000 +0300" channel="cgtndocumentary.en">
+    <title>CGTN Documentary</title>
   </programme>
   <programme start="20250510000000 +0300" stop="20250510005000 +0300" channel="arirang.tv">
     <title>PerformArts Reload</title>
@@ -45803,7 +45902,22 @@
   <programme start="20250510180000 +0300" stop="20250510204500 +0300" channel="cnnturk.tr">
     <title>Ana Haber</title>
   </programme>
-  <programme start="20250510204500 +0300" channel="cnnturk.tr">
+  <programme start="20250510204500 +0300" stop="20250510050000 +0300" channel="cnnturk.tr">
+    <title>CNN TÜRK Masası</title>
+  </programme>
+  <programme start="20250510050000 +0300" stop="20250510080000 +0300" channel="cnnturk.tr">
+    <title>Haber</title>
+  </programme>
+  <programme start="20250510080000 +0300" stop="20250510083000 +0300" channel="cnnturk.tr">
+    <title>Haber</title>
+  </programme>
+  <programme start="20250510083000 +0300" stop="20250510103000 +0300" channel="cnnturk.tr">
+    <title>Çalışan Türkiye</title>
+  </programme>
+  <programme start="20250510103000 +0300" stop="20250510194500 +0300" channel="cnnturk.tr">
+    <title>Yeşil Doğa</title>
+  </programme>
+  <programme start="20250510194500 +0300" channel="cnnturk.tr">
     <title>CNN TÜRK Masası</title>
   </programme>
   <programme start="20250510004500 +0300" stop="20250510063000 +0300" channel="kanal7.tr">
@@ -46304,6 +46418,45 @@
   <programme start="20250511235500 +0300" stop="20250512000000 +0300" channel="ntv.tr">
     <title>Hava Durumu</title>
   </programme>
+  <programme start="20250510020000 +0300" stop="20250510040000 +0300" channel="startv.tr">
+    <title>Kral Kaybederse</title>
+  </programme>
+  <programme start="20250510040000 +0300" stop="20250510053000 +0300" channel="startv.tr">
+    <title>Sefirin Kızı</title>
+  </programme>
+  <programme start="20250510053000 +0300" stop="20250510070000 +0300" channel="startv.tr">
+    <title>Aramızda Kalsın</title>
+  </programme>
+  <programme start="20250510070000 +0300" stop="20250510081500 +0300" channel="startv.tr">
+    <title>İki Aile</title>
+  </programme>
+  <programme start="20250510081500 +0300" stop="20250510090000 +0300" channel="startv.tr">
+    <title>Dr. Özgür Koldaş ile Sağlık Gündemi</title>
+  </programme>
+  <programme start="20250510090000 +0300" stop="20250510110000 +0300" channel="startv.tr">
+    <title>Kral Kaybederse</title>
+  </programme>
+  <programme start="20250510110000 +0300" stop="20250510120000 +0300" channel="startv.tr">
+    <title>Özlem Mekik ile Lezzetli Tarifler</title>
+  </programme>
+  <programme start="20250510120000 +0300" stop="20250510142000 +0300" channel="startv.tr">
+    <title>Sahipsizler</title>
+  </programme>
+  <programme start="20250510142000 +0300" stop="20250510165000 +0300" channel="startv.tr">
+    <title>Kral Kaybederse</title>
+  </programme>
+  <programme start="20250510165000 +0300" stop="20250510190000 +0300" channel="startv.tr">
+    <title>Sahipsizler</title>
+  </programme>
+  <programme start="20250510190000 +0300" stop="20250510200000 +0300" channel="startv.tr">
+    <title>Star Haber</title>
+  </programme>
+  <programme start="20250510200000 +0300" stop="20250510221500 +0300" channel="startv.tr">
+    <title>Niyazi Gül Dörtnala</title>
+  </programme>
+  <programme start="20250510221500 +0300" channel="startv.tr">
+    <title>Niyazi Gül Dörtnala</title>
+  </programme>
   <programme start="20250510000000 +0300" stop="20250510015500 +0300" channel="tv85.tr">
     <title>Bir Demet Tiyatro</title>
   </programme>
@@ -46393,6 +46546,42 @@
   </programme>
   <programme start="20250511233500 +0300" stop="20250512021000 +0300" channel="tv85.tr">
     <title>8x8</title>
+  </programme>
+  <programme start="20250510001500 +0300" stop="20250510024500 +0300" channel="kanald.tr">
+    <title>Uzak Şehir</title>
+  </programme>
+  <programme start="20250510024500 +0300" stop="20250510044500 +0300" channel="kanald.tr">
+    <title>Yargı</title>
+  </programme>
+  <programme start="20250510044500 +0300" stop="20250510061500 +0300" channel="kanald.tr">
+    <title>Poyraz Karayel</title>
+  </programme>
+  <programme start="20250510061500 +0300" stop="20250510083000 +0300" channel="kanald.tr">
+    <title>Kavak Yelleri</title>
+  </programme>
+  <programme start="20250510083000 +0300" stop="20250510094500 +0300" channel="kanald.tr">
+    <title>Konuştukça</title>
+  </programme>
+  <programme start="20250510094500 +0300" stop="20250510130000 +0300" channel="kanald.tr">
+    <title>Magazin D Cumartesi</title>
+  </programme>
+  <programme start="20250510130000 +0300" stop="20250510140000 +0300" channel="kanald.tr">
+    <title>Arda'nın Mutfağı</title>
+  </programme>
+  <programme start="20250510140000 +0300" stop="20250510160000 +0300" channel="kanald.tr">
+    <title>İnci Taneleri</title>
+  </programme>
+  <programme start="20250510160000 +0300" stop="20250510190000 +0300" channel="kanald.tr">
+    <title>Eşref Rüya</title>
+  </programme>
+  <programme start="20250510190000 +0300" stop="20250510200000 +0300" channel="kanald.tr">
+    <title>Kanal D Ana Haber</title>
+  </programme>
+  <programme start="20250510200000 +0300" stop="20250510233000 +0300" channel="kanald.tr">
+    <title>Kuzeyin Oğlu Volkan Konak</title>
+  </programme>
+  <programme start="20250510233000 +0300" channel="kanald.tr">
+    <title>Arka Sokaklar</title>
   </programme>
   <programme start="20250510000000 +0300" stop="20250510001000 +0300" channel="englishclub.tv">
     <title>This Day In History</title>
@@ -47346,310 +47535,361 @@
     <title>- TVE 24H -</title>
   </programme>
   <programme start="20250510060000 +0300" stop="20250510060500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510060500 +0300" stop="20250510063000 +0300" channel="telesur.es">
-    <title>Notables - ${subTitle}</title>
+    <title>Notables</title>
   </programme>
   <programme start="20250510063000 +0300" stop="20250510070000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510070000 +0300" stop="20250510073000 +0300" channel="telesur.es">
-    <title>Entre fronteras - ${subTitle}</title>
+    <title>Entre fronteras</title>
   </programme>
   <programme start="20250510073000 +0300" stop="20250510080000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510080000 +0300" stop="20250510080500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510080500 +0300" stop="20250510083000 +0300" channel="telesur.es">
-    <title>Somos - ${subTitle}</title>
+    <title>Somos</title>
   </programme>
   <programme start="20250510083000 +0300" stop="20250510090000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510090000 +0300" stop="20250510090500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510090500 +0300" stop="20250510093000 +0300" channel="telesur.es">
-    <title>Impacto Económico - ${subTitle}</title>
+    <title>Impacto Económico</title>
   </programme>
   <programme start="20250510093000 +0300" stop="20250510100000 +0300" channel="telesur.es">
-    <title>El Mundo desde el Sur - ${subTitle}</title>
+    <title>El Mundo desde el Sur</title>
   </programme>
   <programme start="20250510100000 +0300" stop="20250510103000 +0300" channel="telesur.es">
-    <title>Texto y contesto - ${subTitle}</title>
+    <title>Texto y contesto</title>
   </programme>
   <programme start="20250510103000 +0300" stop="20250510110000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510110000 +0300" stop="20250510110500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510110500 +0300" stop="20250510113000 +0300" channel="telesur.es">
-    <title>El mapa - ${subTitle}</title>
+    <title>El mapa</title>
   </programme>
   <programme start="20250510113000 +0300" stop="20250510120000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510120000 +0300" stop="20250510120500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510120500 +0300" stop="20250510123000 +0300" channel="telesur.es">
-    <title>Somos - ${subTitle}</title>
+    <title>Somos</title>
   </programme>
   <programme start="20250510123000 +0300" stop="20250510130000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510130000 +0300" stop="20250510133000 +0300" channel="telesur.es">
-    <title>Entre fronteras - ${subTitle}</title>
+    <title>Entre fronteras</title>
   </programme>
   <programme start="20250510133000 +0300" stop="20250510140000 +0300" channel="telesur.es">
-    <title>Destino verde - ${subTitle}</title>
+    <title>Destino verde</title>
   </programme>
   <programme start="20250510140000 +0300" stop="20250510140500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510140500 +0300" stop="20250510143000 +0300" channel="telesur.es">
-    <title>Atomun - ${subTitle}</title>
+    <title>Atomun</title>
   </programme>
   <programme start="20250510143000 +0300" stop="20250510150000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510150000 +0300" stop="20250510150500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510150500 +0300" stop="20250510153000 +0300" channel="telesur.es">
-    <title>Vidas - ${subTitle}</title>
+    <title>Vidas</title>
   </programme>
   <programme start="20250510153000 +0300" stop="20250510160000 +0300" channel="telesur.es">
-    <title>Latitud Brasil - ${subTitle}</title>
+    <title>Latitud Brasil</title>
   </programme>
   <programme start="20250510160000 +0300" stop="20250510160500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510160500 +0300" stop="20250510163000 +0300" channel="telesur.es">
-    <title>Enredados - ${subTitle}</title>
+    <title>Enredados</title>
   </programme>
   <programme start="20250510163000 +0300" stop="20250510170000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510170000 +0300" stop="20250510170500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510170500 +0300" stop="20250510173000 +0300" channel="telesur.es">
-    <title>Nuestra América deportiva - ${subTitle}</title>
+    <title>Nuestra América deportiva</title>
   </programme>
   <programme start="20250510173000 +0300" stop="20250510180000 +0300" channel="telesur.es">
-    <title>TeleSUR Noticias Meridiana - ${subTitle}</title>
+    <title>TeleSUR Noticias Meridiana</title>
   </programme>
   <programme start="20250510180000 +0300" stop="20250510180500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510180500 +0300" stop="20250510183000 +0300" channel="telesur.es">
-    <title>Destino verde - ${subTitle}</title>
+    <title>Destino verde</title>
   </programme>
   <programme start="20250510183000 +0300" stop="20250510190000 +0300" channel="telesur.es">
-    <title>El punto en la i - ${subTitle}</title>
+    <title>El punto en la i</title>
   </programme>
   <programme start="20250510190000 +0300" stop="20250510190500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510190500 +0300" stop="20250510193000 +0300" channel="telesur.es">
-    <title>Atomun - ${subTitle}</title>
+    <title>Atomun</title>
   </programme>
   <programme start="20250510193000 +0300" stop="20250510200000 +0300" channel="telesur.es">
-    <title>Reportajes TeleSUR - ${subTitle}</title>
+    <title>Reportajes TeleSUR</title>
   </programme>
   <programme start="20250510200000 +0300" stop="20250510200500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510200500 +0300" stop="20250510203000 +0300" channel="telesur.es">
-    <title>Mundo Pódcast - ${subTitle}</title>
+    <title>Mundo Pódcast</title>
   </programme>
   <programme start="20250510203000 +0300" stop="20250510210000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510210000 +0300" stop="20250510210500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510210500 +0300" stop="20250510213000 +0300" channel="telesur.es">
-    <title>Texto y contesto - ${subTitle}</title>
+    <title>Texto y contesto</title>
   </programme>
   <programme start="20250510213000 +0300" stop="20250510220000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510220000 +0300" stop="20250510220500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510220500 +0300" stop="20250510223000 +0300" channel="telesur.es">
-    <title>Vidas - ${subTitle}</title>
+    <title>Vidas</title>
   </programme>
   <programme start="20250510223000 +0300" stop="20250510230000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510230000 +0300" stop="20250510230500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250510230500 +0300" stop="20250510233000 +0300" channel="telesur.es">
-    <title>El sabor de mi tierra - Series 1 Episode 12: Epílogo</title>
+    <title>El sabor de mi tierraSeries 1 Episode 12: Epílogo</title>
   </programme>
-  <programme start="20250510233000 +0300" stop="20250511060000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+  <programme start="20250510233000 +0300" stop="20250511000000 +0300" channel="telesur.es">
+    <title>Telesur Noticias</title>
+  </programme>
+  <programme start="20250511000000 +0300" stop="20250511000500 +0300" channel="telesur.es">
+    <title>Titulares</title>
+  </programme>
+  <programme start="20250511000500 +0300" stop="20250511003000 +0300" channel="telesur.es">
+    <title>Goles al Bate</title>
+  </programme>
+  <programme start="20250511003000 +0300" stop="20250511010000 +0300" channel="telesur.es">
+    <title>Enredados</title>
+  </programme>
+  <programme start="20250511010000 +0300" stop="20250511010500 +0300" channel="telesur.es">
+    <title>Titulares</title>
+  </programme>
+  <programme start="20250511010500 +0300" stop="20250511013000 +0300" channel="telesur.es">
+    <title>El punto en la i</title>
+  </programme>
+  <programme start="20250511013000 +0300" stop="20250511020000 +0300" channel="telesur.es">
+    <title>TeleSUR Noticias Emisión Estelar</title>
+  </programme>
+  <programme start="20250511020000 +0300" stop="20250511020500 +0300" channel="telesur.es">
+    <title>Titulares</title>
+  </programme>
+  <programme start="20250511020500 +0300" stop="20250511023000 +0300" channel="telesur.es">
+    <title>Entrevista especial (TELESUR)</title>
+  </programme>
+  <programme start="20250511023000 +0300" stop="20250511030000 +0300" channel="telesur.es">
+    <title>Telesur Noticias</title>
+  </programme>
+  <programme start="20250511030000 +0300" stop="20250511030500 +0300" channel="telesur.es">
+    <title>Titulares</title>
+  </programme>
+  <programme start="20250511030500 +0300" stop="20250511033000 +0300" channel="telesur.es">
+    <title>Reportajes TeleSUR</title>
+  </programme>
+  <programme start="20250511033000 +0300" stop="20250511040000 +0300" channel="telesur.es">
+    <title>Entre fronteras</title>
+  </programme>
+  <programme start="20250511040000 +0300" stop="20250511043000 +0300" channel="telesur.es">
+    <title>Mundo Pódcast</title>
+  </programme>
+  <programme start="20250511043000 +0300" stop="20250511050000 +0300" channel="telesur.es">
+    <title>Telesur Noticias</title>
+  </programme>
+  <programme start="20250511050000 +0300" stop="20250511050500 +0300" channel="telesur.es">
+    <title>Titulares</title>
+  </programme>
+  <programme start="20250511050500 +0300" stop="20250511053000 +0300" channel="telesur.es">
+    <title>Latitud Brasil</title>
+  </programme>
+  <programme start="20250511053000 +0300" stop="20250511060000 +0300" channel="telesur.es">
+    <title>El sabor de mi tierraSeries 1 Episode 12: Epílogo</title>
   </programme>
   <programme start="20250511060000 +0300" stop="20250511060500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511060500 +0300" stop="20250511063000 +0300" channel="telesur.es">
-    <title>Goles al Bate - ${subTitle}</title>
+    <title>Goles al Bate</title>
   </programme>
   <programme start="20250511063000 +0300" stop="20250511070000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511070000 +0300" stop="20250511073000 +0300" channel="telesur.es">
-    <title>Enredados - ${subTitle}</title>
+    <title>Enredados</title>
   </programme>
   <programme start="20250511073000 +0300" stop="20250511080000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511080000 +0300" stop="20250511080500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511080500 +0300" stop="20250511083000 +0300" channel="telesur.es">
-    <title>Entrevista especial (TELESUR) - ${subTitle}</title>
+    <title>Entrevista especial (TELESUR)</title>
   </programme>
   <programme start="20250511083000 +0300" stop="20250511090000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511090000 +0300" stop="20250511090500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511090500 +0300" stop="20250511093000 +0300" channel="telesur.es">
-    <title>El sabor de mi tierra - Series 1 Episode 12: Epílogo</title>
+    <title>El sabor de mi tierraSeries 1 Episode 12: Epílogo</title>
   </programme>
   <programme start="20250511093000 +0300" stop="20250511100000 +0300" channel="telesur.es">
-    <title>Reportajes TeleSUR - ${subTitle}</title>
+    <title>Reportajes TeleSUR</title>
   </programme>
   <programme start="20250511100000 +0300" stop="20250511103000 +0300" channel="telesur.es">
-    <title>Mundo Pódcast - ${subTitle}</title>
+    <title>Mundo Pódcast</title>
   </programme>
   <programme start="20250511103000 +0300" stop="20250511110000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511110000 +0300" stop="20250511110500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511110500 +0300" stop="20250511113000 +0300" channel="telesur.es">
-    <title>Entre fronteras - ${subTitle}</title>
+    <title>Entre fronteras</title>
   </programme>
   <programme start="20250511113000 +0300" stop="20250511120000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511120000 +0300" stop="20250511120500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511120500 +0300" stop="20250511123000 +0300" channel="telesur.es">
-    <title>Destino verde - ${subTitle}</title>
+    <title>Destino verde</title>
   </programme>
   <programme start="20250511123000 +0300" stop="20250511130000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511130000 +0300" stop="20250511133000 +0300" channel="telesur.es">
-    <title>Entrevista especial (TELESUR) - ${subTitle}</title>
+    <title>Entrevista especial (TELESUR)</title>
   </programme>
   <programme start="20250511133000 +0300" stop="20250511140000 +0300" channel="telesur.es">
-    <title>Guía tu cuerpo - ${subTitle}</title>
+    <title>Guía tu cuerpo</title>
   </programme>
   <programme start="20250511140000 +0300" stop="20250511140500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511140500 +0300" stop="20250511143000 +0300" channel="telesur.es">
-    <title>Enredados - ${subTitle}</title>
+    <title>Enredados</title>
   </programme>
   <programme start="20250511143000 +0300" stop="20250511150000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511150000 +0300" stop="20250511150500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511150500 +0300" stop="20250511153000 +0300" channel="telesur.es">
-    <title>Latitud Brasil - ${subTitle}</title>
+    <title>Latitud Brasil</title>
   </programme>
   <programme start="20250511153000 +0300" stop="20250511160000 +0300" channel="telesur.es">
-    <title>Atomun - ${subTitle}</title>
+    <title>Atomun</title>
   </programme>
   <programme start="20250511160000 +0300" stop="20250511160500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511160500 +0300" stop="20250511163000 +0300" channel="telesur.es">
-    <title>Vidas - ${subTitle}</title>
+    <title>Vidas</title>
   </programme>
   <programme start="20250511163000 +0300" stop="20250511170000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511170000 +0300" stop="20250511170500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511170500 +0300" stop="20250511173000 +0300" channel="telesur.es">
-    <title>Nuestra América deportiva - ${subTitle}</title>
+    <title>Nuestra América deportiva</title>
   </programme>
   <programme start="20250511173000 +0300" stop="20250511180000 +0300" channel="telesur.es">
-    <title>TeleSUR Noticias Meridiana - ${subTitle}</title>
+    <title>TeleSUR Noticias Meridiana</title>
   </programme>
   <programme start="20250511180000 +0300" stop="20250511180500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511180500 +0300" stop="20250511183000 +0300" channel="telesur.es">
-    <title>Enredados - ${subTitle}</title>
+    <title>Enredados</title>
   </programme>
   <programme start="20250511183000 +0300" stop="20250511190000 +0300" channel="telesur.es">
-    <title>Entrevista especial (TELESUR) - ${subTitle}</title>
+    <title>Entrevista especial (TELESUR)</title>
   </programme>
   <programme start="20250511190000 +0300" stop="20250511190500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511190500 +0300" stop="20250511193000 +0300" channel="telesur.es">
-    <title>El sabor de mi tierra - Series 1 Episode 12: Epílogo</title>
+    <title>El sabor de mi tierraSeries 1 Episode 12: Epílogo</title>
   </programme>
   <programme start="20250511193000 +0300" stop="20250511200000 +0300" channel="telesur.es">
-    <title>Guía tu cuerpo - ${subTitle}</title>
+    <title>Guía tu cuerpo</title>
   </programme>
   <programme start="20250511200000 +0300" stop="20250511200500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511200500 +0300" stop="20250511203000 +0300" channel="telesur.es">
-    <title>Destino verde - ${subTitle}</title>
+    <title>Destino verde</title>
   </programme>
   <programme start="20250511203000 +0300" stop="20250511210000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511210000 +0300" stop="20250511210500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511210500 +0300" stop="20250511213000 +0300" channel="telesur.es">
-    <title>Reportajes TeleSUR - ${subTitle}</title>
+    <title>Reportajes TeleSUR</title>
   </programme>
   <programme start="20250511213000 +0300" stop="20250511220000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511220000 +0300" stop="20250511220500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511220500 +0300" stop="20250511223000 +0300" channel="telesur.es">
-    <title>Mundo Pódcast - ${subTitle}</title>
+    <title>Mundo Pódcast</title>
   </programme>
   <programme start="20250511223000 +0300" stop="20250511230000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250511230000 +0300" stop="20250511230500 +0300" channel="telesur.es">
-    <title>Titulares - ${subTitle}</title>
+    <title>Titulares</title>
   </programme>
   <programme start="20250511230500 +0300" stop="20250511233000 +0300" channel="telesur.es">
-    <title>Entre fronteras - ${subTitle}</title>
+    <title>Entre fronteras</title>
   </programme>
-  <programme start="20250511233000 +0300" stop="20250512060000 +0300" channel="telesur.es">
-    <title>Telesur Noticias - ${subTitle}</title>
+  <programme start="20250511233000 +0300" stop="20250512000000 +0300" channel="telesur.es">
+    <title>Telesur Noticias</title>
   </programme>
   <programme start="20250510045500 +0300" stop="20250510055500 +0300" channel="erox.spiintl.com">
     <title>Hot for Hard Cocks</title>
@@ -52931,391 +53171,133 @@
   <programme start="20250511234500 +0300" stop="20250512000000 +0300" channel="raiscuola.it">
     <title lang="it">RAN/Futuro24 ed.2024/2025</title>
   </programme>
-  <programme start="20250510050000 +0300" stop="20250510052500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
+  <programme start="20250510050000 +0300" stop="20250510060000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
   </programme>
-  <programme start="20250510052500 +0300" stop="20250510053000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
+  <programme start="20250510060000 +0300" stop="20250510070000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510053000 +0300" stop="20250510060000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
+  <programme start="20250510070000 +0300" stop="20250510080000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250510060000 +0300" stop="20250510062500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
+  <programme start="20250510080000 +0300" stop="20250510090000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510062500 +0300" stop="20250510063000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
+  <programme start="20250510090000 +0300" stop="20250510100000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250510063000 +0300" stop="20250510070000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
+  <programme start="20250510100000 +0300" stop="20250510110000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510070000 +0300" stop="20250510072500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
+  <programme start="20250510110000 +0300" stop="20250510120000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510072500 +0300" stop="20250510073000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
+  <programme start="20250510120000 +0300" stop="20250510130000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510073000 +0300" stop="20250510080000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
+  <programme start="20250510130000 +0300" stop="20250510140000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
   </programme>
-  <programme start="20250510080000 +0300" stop="20250510082500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
+  <programme start="20250510140000 +0300" stop="20250510150000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510082500 +0300" stop="20250510083000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
+  <programme start="20250510150000 +0300" stop="20250510160000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250510083000 +0300" stop="20250510090000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
+  <programme start="20250510160000 +0300" stop="20250510170000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510090000 +0300" stop="20250510092500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
+  <programme start="20250510170000 +0300" stop="20250510180000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250510092500 +0300" stop="20250510093000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
+  <programme start="20250510180000 +0300" stop="20250510190000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510093000 +0300" stop="20250510100000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
+  <programme start="20250510190000 +0300" stop="20250510200000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510100000 +0300" stop="20250510102500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
+  <programme start="20250510200000 +0300" stop="20250510210000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510102500 +0300" stop="20250510103000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
+  <programme start="20250510210000 +0300" stop="20250510220000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
   </programme>
-  <programme start="20250510103000 +0300" stop="20250510110000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
+  <programme start="20250510220000 +0300" stop="20250510230000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510110000 +0300" stop="20250510112500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
+  <programme start="20250510230000 +0300" stop="20250511000000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250510112500 +0300" stop="20250510113000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
+  <programme start="20250511000000 +0300" stop="20250511010000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510113000 +0300" stop="20250510120000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
+  <programme start="20250511010000 +0300" stop="20250511020000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250510120000 +0300" stop="20250510122500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
+  <programme start="20250511020000 +0300" stop="20250511030000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510122500 +0300" stop="20250510123000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
+  <programme start="20250511030000 +0300" stop="20250511040000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510123000 +0300" stop="20250510130000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
+  <programme start="20250511040000 +0300" stop="20250511050000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510130000 +0300" stop="20250510132500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
+  <programme start="20250511050000 +0300" stop="20250511060000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
   </programme>
-  <programme start="20250510132500 +0300" stop="20250510133000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
+  <programme start="20250511060000 +0300" stop="20250511070000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510133000 +0300" stop="20250510140000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
+  <programme start="20250511070000 +0300" stop="20250511080000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250510140000 +0300" stop="20250510142500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
+  <programme start="20250511080000 +0300" stop="20250511090000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510142500 +0300" stop="20250510143000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
+  <programme start="20250511090000 +0300" stop="20250511100000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250510143000 +0300" stop="20250510150000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
+  <programme start="20250511100000 +0300" stop="20250511110000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510150000 +0300" stop="20250510152500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
+  <programme start="20250511110000 +0300" stop="20250511120000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510152500 +0300" stop="20250510153000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
+  <programme start="20250511120000 +0300" stop="20250511130000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510153000 +0300" stop="20250510160000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
+  <programme start="20250511130000 +0300" stop="20250511140000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
   </programme>
-  <programme start="20250510160000 +0300" stop="20250510162500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
+  <programme start="20250511140000 +0300" stop="20250511150000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510162500 +0300" stop="20250510163000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
+  <programme start="20250511150000 +0300" stop="20250511160000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
   </programme>
-  <programme start="20250510163000 +0300" stop="20250510170000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
+  <programme start="20250511160000 +0300" stop="20250511170000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 2-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510170000 +0300" stop="20250510172500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
+  <programme start="20250511170000 +0300" stop="20250511180000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 4-я серия</title>
   </programme>
-  <programme start="20250510172500 +0300" stop="20250510173000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
+  <programme start="20250511180000 +0300" stop="20250511190000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. Spotlight. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510173000 +0300" stop="20250510180000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
+  <programme start="20250511190000 +0300" stop="20250511200000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510180000 +0300" stop="20250510182500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
+  <programme start="20250511200000 +0300" stop="20250511210000 +0300" channel="luxe.tv">
+    <title lang="ru">Destination Special. Сезон 19. 1-я серия - "Seychelles"</title>
   </programme>
-  <programme start="20250510182500 +0300" stop="20250510183000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
+  <programme start="20250511210000 +0300" stop="20250511220000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 2-я серия</title>
   </programme>
-  <programme start="20250510183000 +0300" stop="20250510190000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
+  <programme start="20250511220000 +0300" stop="20250511230000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Month. Сезон 19. 1-я серия</title>
   </programme>
-  <programme start="20250510190000 +0300" stop="20250510192500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510192500 +0300" stop="20250510193000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510193000 +0300" stop="20250510200000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250510200000 +0300" stop="20250510202500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510202500 +0300" stop="20250510203000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510203000 +0300" stop="20250510210000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250510210000 +0300" stop="20250510212500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510212500 +0300" stop="20250510213000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510213000 +0300" stop="20250510220000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250510220000 +0300" stop="20250510222500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510222500 +0300" stop="20250510223000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510223000 +0300" stop="20250510230000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250510230000 +0300" stop="20250510232500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510232500 +0300" stop="20250510233000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250510233000 +0300" stop="20250511000000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511000000 +0300" stop="20250511002500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511002500 +0300" stop="20250511003000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511003000 +0300" stop="20250511010000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511010000 +0300" stop="20250511012500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511012500 +0300" stop="20250511013000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511013000 +0300" stop="20250511020000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511020000 +0300" stop="20250511022500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511022500 +0300" stop="20250511023000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511023000 +0300" stop="20250511030000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511030000 +0300" stop="20250511032500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511032500 +0300" stop="20250511033000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511033000 +0300" stop="20250511040000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511040000 +0300" stop="20250511042500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511042500 +0300" stop="20250511043000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511043000 +0300" stop="20250511050000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511050000 +0300" stop="20250511052500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511052500 +0300" stop="20250511053000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511053000 +0300" stop="20250511060000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511060000 +0300" stop="20250511062500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511062500 +0300" stop="20250511063000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511063000 +0300" stop="20250511070000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511070000 +0300" stop="20250511072500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511072500 +0300" stop="20250511073000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511073000 +0300" stop="20250511080000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511080000 +0300" stop="20250511082500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511082500 +0300" stop="20250511083000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511083000 +0300" stop="20250511090000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511090000 +0300" stop="20250511092500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511092500 +0300" stop="20250511093000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511093000 +0300" stop="20250511100000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511100000 +0300" stop="20250511102500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511102500 +0300" stop="20250511103000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511103000 +0300" stop="20250511110000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511110000 +0300" stop="20250511112500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511112500 +0300" stop="20250511113000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511113000 +0300" stop="20250511120000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511120000 +0300" stop="20250511122500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511122500 +0300" stop="20250511123000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511123000 +0300" stop="20250511130000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. This Month. Сезон 20. 1-я серия</title>
-  </programme>
-  <programme start="20250511130000 +0300" stop="20250511132500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511132500 +0300" stop="20250511133000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511133000 +0300" stop="20250511140000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511140000 +0300" stop="20250511142500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511142500 +0300" stop="20250511143000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511143000 +0300" stop="20250511150000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511150000 +0300" stop="20250511152500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511152500 +0300" stop="20250511153000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511153000 +0300" stop="20250511160000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511160000 +0300" stop="20250511162500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511162500 +0300" stop="20250511163000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511163000 +0300" stop="20250511170000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511170000 +0300" stop="20250511172500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511172500 +0300" stop="20250511173000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511173000 +0300" stop="20250511180000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511180000 +0300" stop="20250511182500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511182500 +0300" stop="20250511183000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511183000 +0300" stop="20250511190000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511190000 +0300" stop="20250511192500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511192500 +0300" stop="20250511193000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511193000 +0300" stop="20250511200000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511200000 +0300" stop="20250511202500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511202500 +0300" stop="20250511203000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511203000 +0300" stop="20250511210000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511210000 +0300" stop="20250511212500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511212500 +0300" stop="20250511213000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511213000 +0300" stop="20250511220000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511220000 +0300" stop="20250511222500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511222500 +0300" stop="20250511223000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511223000 +0300" stop="20250511230000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
-  </programme>
-  <programme start="20250511230000 +0300" stop="20250511232500 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Today. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511232500 +0300" stop="20250511233000 +0300" channel="luxe.tv">
-    <title lang="ru">Luxe. Spotlight. Сезон 20. 2-я серия</title>
-  </programme>
-  <programme start="20250511233000 +0300" stop="20250512000000 +0300" channel="luxe.tv">
-    <title lang="ru">Destination Special. Сезон 20. 2-я серия - "Seychelles"</title>
+  <programme start="20250511230000 +0300" stop="20250512000000 +0300" channel="luxe.tv">
+    <title lang="ru">Luxe. This Week. Сезон 19. 3-я серия</title>
   </programme>
 </tv>

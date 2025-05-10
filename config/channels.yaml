@@ -118,9 +118,9 @@
     lang: en
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
   - btv.bg
+  - tvprofil.com
   - dnes.bg
   - tv.dir.bg
 
@@ -138,9 +138,9 @@
   - name: BTV Lady
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
   - btv.bg
+  - tvprofil.com
   - dnes.bg
   - tv.dir.bg
 
@@ -338,10 +338,10 @@
     lang: en
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - start.bg
   - tv-programa.bg
   - dnes.bg
+  - tvprofil.com
   
 - id: sedemosmi.tv
   enabled: true
@@ -455,9 +455,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
   - btv.bg
+  - tvprofil.com
   - dnes.bg
 
 - id: btvcomedy.bg
@@ -471,9 +471,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - btv.bg
   - dnes.bg
+  - tvprofil.com
   
 - id: moviestar.bg
   enabled: true
@@ -591,9 +591,9 @@
   - name: VIVACOM Arena
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
   - start.bg
+  - tvprofil.com
 
 - id: diema.bg
   enabled: true
@@ -607,9 +607,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - nova.bg
   - start.bg
+  - tvprofil.com
   - dnes.bg
 
 - id: diemafamily.bg
@@ -623,10 +623,10 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - nova.bg
   - dnes.bg
   - start.bg
+  - tvprofil.com
 
 - id: kinonova.bg
   enabled: true
@@ -642,12 +642,12 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - nova.bg
   - tv-programa.bg
   - tv.dir.bg
   - dnes.bg
   - start.bg
+  - tvprofil.com
   
 - id: axn.bg
   enabled: true
@@ -656,10 +656,10 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - axn.bg
   - start.bg
   - dnes.bg
+  - tvprofil.com
   
 - id: axnwhite.bg
   enabled: true
@@ -668,8 +668,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - dnes.bg
+  - start.bg
+  - tvprofil.com
   
 - id: axnblack.bg
   enabled: true
@@ -678,8 +679,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - dnes.bg
+  - start.bg
+  - tvprofil.com
   
 - id: cbsreality.tv
   enabled: false
@@ -737,9 +739,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv.dir.bg
   - potv.bg
+  - tvprofil.com
  
  
 - id: nostalgia.bg
@@ -991,10 +993,10 @@
   - name: Eurosport LQ
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - dnes.bg
   - tv.dir.bg
   - start.bg
+  - tvprofil.com
 
 - id: eurosport2.bg
   enabled: true
@@ -1004,10 +1006,10 @@
   - name: Eurosport 2 LQ
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - dnes.bg
   - tv.dir.bg
   - start.bg
+  - tvprofil.com
 
 - id: arenasport1.sr
   enabled: false

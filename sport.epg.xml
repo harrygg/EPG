@@ -395,7 +395,7 @@
     <title>Лудогорец - Левски, 32 кръг, Футбол: efbet Лига 2024/2025, /n/</title>
   </programme>
   <programme start="20250510060000 +0300" stop="20250510080000 +0300" channel="diemasport.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250510080000 +0300" stop="20250510083000 +0300" channel="diemasport.bg">
     <title>Локомотив Горна Оряховица - Лудогорец, класика от efbet Лига 2016/2017, /n/</title>
@@ -494,7 +494,7 @@
     <title>efbet Лига: Обзор на кръга, 33 епизод, предаване за български футбол 2024/2025, /п/</title>
   </programme>
   <programme start="20250512040000 +0300" stop="20250512070000 +0300" channel="diemasport.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250512070000 +0300" stop="20250512090000 +0300" channel="diemasport.bg">
     <title>Беласица - Монтана, 35 кръг, Футбол: Втора професионална лига 2024/2025, /n/</title>
@@ -539,7 +539,7 @@
     <title>Левски - Черно море, 33 кръг, Футбол: efbet Лига 2024/2025, /n/</title>
   </programme>
   <programme start="20250510041500 +0300" stop="20250510073000 +0300" channel="diemasport2.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250510073000 +0300" stop="20250510080000 +0300" channel="diemasport2.bg">
     <title>Елитна Шампионска лига на Азия: Обзор, 11 епизод, предаване за азиатски футбол 2024/2025, /n/</title>
@@ -593,7 +593,7 @@
     <title>Рен - Ница, 33 кръг, Футбол: Лига 1 на Франция 2024/2025, запис</title>
   </programme>
   <programme start="20250511023000 +0300" stop="20250511063000 +0300" channel="diemasport2.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250511063000 +0300" stop="20250511083000 +0300" channel="diemasport2.bg">
     <title>Фулъм - Евертън, 36 кръг, Футбол: Висша лига 2024/2025, /n/</title>
@@ -641,7 +641,7 @@
     <title>Тотнъм Хотспър - Кристъл Палас, 36 кръг, Футбол: Висша лига 2024/2025, /n/</title>
   </programme>
   <programme start="20250512050000 +0300" stop="20250512073000 +0300" channel="diemasport2.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250512073000 +0300" stop="20250512093000 +0300" channel="diemasport2.bg">
     <title>Ливърпул - Арсенал, 36 кръг, Футбол: Висша лига 2024/2025, /n/</title>
@@ -725,7 +725,7 @@
     <title>Фортуна Дюселдорф - Шалке 04, 33 кръг, Футбол: Втора Бундеслига 2024/2025, /n/</title>
   </programme>
   <programme start="20250511043000 +0300" stop="20250511073000 +0300" channel="diemasport3.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250511073000 +0300" stop="20250511093000 +0300" channel="diemasport3.bg">
     <title>Холщайн Кийл - Фрайбург, 33 кръг, Футбол: Бундеслига 2024/2025, /n/</title>
@@ -761,7 +761,7 @@
     <title>Хамбургер - Улм, 33 кръг, Футбол: Втора Бундеслига 2024/2025, /n/</title>
   </programme>
   <programme start="20250512043000 +0300" stop="20250512063000 +0300" channel="diemasport3.bg">
-    <title>Програмна пауза${_desc}</title>
+    <title>Програмна пауза</title>
   </programme>
   <programme start="20250512063000 +0300" stop="20250512083000 +0300" channel="diemasport3.bg">
     <title>Вердер Бремен - Рб Лайпциг, 33 кръг, Футбол: Бундеслига 2024/2025, /n/</title>
@@ -792,9 +792,6 @@
   </programme>
   <programme start="20250512220000 +0300" channel="diemasport3.bg">
     <title>Волфсбург - Хофенхайм, 33 кръг, Футбол: Бундеслига 2024/2025, /n/</title>
-  </programme>
-  <programme start="20250510021000 +0300" stop="20250510060000 +0300" channel="fightclub.diemasport.bg">
-    <title>Top Rank, Nakatani vs Cuellar</title>
   </programme>
   <programme start="20250510060000 +0300" stop="20250510084500 +0300" channel="fightclub.diemasport.bg">
     <title>test: EFC 122, Сезон 2025 Епизод 122</title>
@@ -5527,8 +5524,47 @@
   <programme start="20250511210000 +0300" stop="20250511230000 +0300" channel="aspor.tr">
     <title>90+1</title>
   </programme>
-  <programme start="20250511230000 +0300" channel="aspor.tr">
+  <programme start="20250511230000 +0300" stop="20250512020000 +0300" channel="aspor.tr">
     <title>Takım Oyunu</title>
+  </programme>
+  <programme start="20250512020000 +0300" stop="20250512030000 +0300" channel="aspor.tr">
+    <title>90+1</title>
+  </programme>
+  <programme start="20250512030000 +0300" stop="20250512040000 +0300" channel="aspor.tr">
+    <title>İspanya Ligi Özetler</title>
+  </programme>
+  <programme start="20250512040000 +0300" stop="20250512050000 +0300" channel="aspor.tr">
+    <title>Takım Oyunu</title>
+  </programme>
+  <programme start="20250512050000 +0300" stop="20250512060000 +0300" channel="aspor.tr">
+    <title>Bir Zamanlar Futbol</title>
+  </programme>
+  <programme start="20250512060000 +0300" stop="20250512080000 +0300" channel="aspor.tr">
+    <title>Avrupa'dan Futbol</title>
+  </programme>
+  <programme start="20250512080000 +0300" stop="20250512110000 +0300" channel="aspor.tr">
+    <title>Sabah Sporu</title>
+  </programme>
+  <programme start="20250512110000 +0300" stop="20250512140000 +0300" channel="aspor.tr">
+    <title>Spor Ajansı</title>
+  </programme>
+  <programme start="20250512140000 +0300" stop="20250512150000 +0300" channel="aspor.tr">
+    <title>Gün Ortası</title>
+  </programme>
+  <programme start="20250512150000 +0300" stop="20250512180000 +0300" channel="aspor.tr">
+    <title>Spor Gündemi</title>
+  </programme>
+  <programme start="20250512180000 +0300" stop="20250512200000 +0300" channel="aspor.tr">
+    <title>Ana Haber</title>
+  </programme>
+  <programme start="20250512200000 +0300" stop="20250512210000 +0300" channel="aspor.tr">
+    <title>ZTK Yarı Final Özetler</title>
+  </programme>
+  <programme start="20250512210000 +0300" stop="20250512230000 +0300" channel="aspor.tr">
+    <title>Artı Futbol</title>
+  </programme>
+  <programme start="20250512230000 +0300" channel="aspor.tr">
+    <title>Son Sayfa</title>
   </programme>
   <programme start="20250510010000 +0300" stop="20250510020000 +0300" channel="trtspor.tr">
     <title>Spor Artı</title>
@@ -6555,10 +6591,6 @@
     <title>Zlatni momenti YU sporta</title>
     <desc>Momenti koji su obeležili bogatu istoriju jugoslovenskog sporta.</desc>
   </programme>
-  <programme start="20250513000000 +0300" channel="sportklub2.rs">
-    <title>Košarka - Španska liga: Breogan - Real Madrid</title>
-    <desc>Španska košarkaška ACB liga osnovana je 1957. godine kao "Liga National". U ligi sudeluje 18 ekipa prema dvokružnom sistemu takmičenja.</desc>
-  </programme>
   <programme start="20250510000000 +0300" stop="20250510005000 +0300" channel="sportklub3.rs">
     <title>Trans World Sport</title>
     <desc>Interesantne priče i neobični sportovi iz svih delova sveta. Uvek ćete biti u toku uz ovu emisiju.</desc>
@@ -6959,10 +6991,6 @@
     <title>Bundesliga - Pregled</title>
     <desc>Uz sve ono što nam je Njemačka podarila kroz povijest ponosno stoji i Bundesliga. Najviši rang nogometnog natjecanja osnovanog 1963. godine broji 18 momčadi koje svakog kolovoza kreću u utrku za...</desc>
   </programme>
-  <programme start="20250513000000 +0300" channel="sportklub1.hr">
-    <title>Nizozemska liga - Pregled</title>
-    <desc>Pratite najbolje trenutke iz Eredivisiea, najjače nizozemske nogometne lige. Donosimo isječke najupečatljivijih akcija i golova.</desc>
-  </programme>
   <programme start="20250510000000 +0300" stop="20250510003000 +0300" channel="sportklub2.hr">
     <title>Magazin Bundeslige</title>
     <desc>Pratite sportski magazin posvećen Bundesligi te saznajte sve o utakmicama, rezultatima i novim pojačanjima u najboljim njemačkim nogometnim klubovima.</desc>
@@ -7090,10 +7118,6 @@
   <programme start="20250512234500 +0300" stop="20250513000000 +0300" channel="sportklub2.hr">
     <title>Zlatni momenti YU sporta</title>
     <desc>Za vas smo pripremili najljepše uspomene iz povijesti jugoslovenskog sporta u emisiji "Zlatni momenti YU sporta"!</desc>
-  </programme>
-  <programme start="20250513000000 +0300" channel="sportklub2.hr">
-    <title>Košarka - Španjolska liga: Breogan - Real Madrid</title>
-    <desc>Španjolska košarkaška ACB liga osnovana je 1957. godine kao Liga National. U ligi sudjeluje 18 momčadi prema dvokružnom sistemu natjecanja.</desc>
   </programme>
   <programme start="20250510000000 +0300" stop="20250510005000 +0300" channel="sportklub3.hr">
     <title>Trans World Sport</title>
@@ -7762,10 +7786,6 @@
     <title>Sport Klub 5 Promo 3</title>
     <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
   </programme>
-  <programme start="20250513000000 +0300" channel="sportklub5.hr">
-    <title>Sport Klub 5 Promo 4</title>
-    <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
-  </programme>
   <programme start="20250510000000 +0300" stop="20250510010000 +0300" channel="sportklub6.hr">
     <title>Sport Klub 6 Promo 4</title>
     <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
@@ -8032,10 +8052,6 @@
   </programme>
   <programme start="20250512230000 +0300" stop="20250513000000 +0300" channel="sportklub6.hr">
     <title>Sport Klub 6 Promo 3</title>
-    <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
-  </programme>
-  <programme start="20250513000000 +0300" channel="sportklub6.hr">
-    <title>Sport Klub 6 Promo 4</title>
     <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
   </programme>
   <programme start="20250510010000 +0300" stop="20250510020000 +0300" channel="beinsports1.fr">
