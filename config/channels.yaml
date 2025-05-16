@@ -382,9 +382,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tv-programa.bg
   - tvprofil.com
   - tv.dir.bg
-  - tv-programa.bg
   - dnes.bg
 
 - id: hbo2.bg
@@ -396,9 +396,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tv-programa.bg
   - tvprofil.com
   - tv.dir.bg
-  - tv-programa.bg
   - dnes.bg
 
 - id: hbo3.bg
@@ -410,9 +410,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tv-programa.bg
   - tvprofil.com
   - tv.dir.bg
-  - tv-programa.bg
   - dnes.bg
 
 - id: cinemax1.bg
@@ -424,9 +424,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tv-programa.bg
   - tvprofil.com
   - tv.dir.bg
-  - tv-programa.bg
   - dnes.bg
 
 - id: cinemax2.bg
@@ -438,9 +438,9 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tv-programa.bg
   - tvprofil.com
   - tv.dir.bg
-  - tv-programa.bg
   - dnes.bg
 
 - id: btvcinema.bg
@@ -523,6 +523,7 @@
   - name: TV1000
     lang: en
   - name: TV 1000 HD
+  - name: TV 1000 - Viasat kino
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
