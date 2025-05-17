@@ -68,7 +68,7 @@ channel-parameters:
     channelId: hbo-comedy
   hbo3.bg:
     channelId: hbo-3
-  cinemax.bg:
+  cinemax1.bg:
     channelId: cinemax
   cinemax2.bg:
     channelId: cinemax-2
@@ -82,10 +82,13 @@ channel-parameters:
     channelId: cartoonito
   filmboxstars.com:
     channelId: filmbox-stars
+    programDetailsEnabled: true
   filmboxextras.com:
     channelId: filmbox-extras
+    programDetailsEnabled: true
   filmbox.com:
     channelId: filmbox
+    programDetailsEnabled: true
   tlc.bg:
     channelId: tlc
   travelchannel.bg:

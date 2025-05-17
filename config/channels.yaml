@@ -199,9 +199,9 @@
     lang: bg
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - tv.dir.bg
   - dnes.bg
   - start.bg
-  - tv.dir.bg
   
 - id: codehealth.bg
   enabled: true
@@ -514,7 +514,7 @@
   - dnes.bg
   - tv-programa.bg
 
-- id: tv1000.bg
+- id: kino.viasat.bg
   enabled: true
   names:
   - name: TV 1000
@@ -4413,7 +4413,7 @@
   - name: Luxe TV HD
   - name: Luxe TV 4K
   sources:
-  - tvsporedi.tv
+  - tvsporedi.si
   - yandex.ru
   - tvprofil.com
   

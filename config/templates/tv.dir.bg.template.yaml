@@ -31,7 +31,8 @@ elements:
     locator: a
     attribute: href
 
-program-details:
+program-details: 
+  enabled: ${programDetailsEnabled}
   request: 
     url: https://tv.dir.bg/${detailsUrl}
 
@@ -47,6 +48,9 @@ program-details:
           hook: after
 timeouts:
   between-requests: 1
+
+global-parameters:
+  programDetailsEnabled: false
 
 channel-parameters: 
   btn1.bg:
