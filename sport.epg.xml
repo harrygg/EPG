@@ -793,22 +793,22 @@
   <programme start="20250519061000 +0300" stop="20250519092500 +0300" channel="fightclub.diemasport.bg">
     <title>CES Boxing, Winter Brawl</title>
   </programme>
-  <programme start="20250519092500 +0300" stop="20250519115500 +0300" channel="fightclub.diemasport.bg">
+  <programme start="20250519092500 +0300" stop="20250519121000 +0300" channel="fightclub.diemasport.bg">
     <title>DAZN Boxing, Arthur Biyarslanov vs. Mohamed Mimoune</title>
   </programme>
-  <programme start="20250519115500 +0300" stop="20250519155500 +0300" channel="fightclub.diemasport.bg">
+  <programme start="20250519121000 +0300" stop="20250519162000 +0300" channel="fightclub.diemasport.bg">
     <title>ONE Fight Night, Сезон 2025 Епизод 29</title>
   </programme>
-  <programme start="20250519155500 +0300" stop="20250519191000 +0300" channel="fightclub.diemasport.bg">
+  <programme start="20250519162000 +0300" stop="20250519193500 +0300" channel="fightclub.diemasport.bg">
     <title>Boxxer, Zak Chelli v Callum Simpson – British &amp; Commonwealth Super-Middleweight Championship</title>
   </programme>
-  <programme start="20250519191000 +0300" stop="20250519225000 +0300" channel="fightclub.diemasport.bg">
+  <programme start="20250519193500 +0300" stop="20250519232500 +0300" channel="fightclub.diemasport.bg">
     <title>ONE Friday Fights, Сезон 2025 Епизод 108</title>
   </programme>
-  <programme start="20250519225000 +0300" stop="20250519231500 +0300" channel="fightclub.diemasport.bg">
+  <programme start="20250519232500 +0300" stop="20250519235500 +0300" channel="fightclub.diemasport.bg">
     <title>ONE Weekly, Сезон 2025 Епизод 20</title>
   </programme>
-  <programme start="20250519231500 +0300" stop="20250520031000 +0300" channel="fightclub.diemasport.bg">
+  <programme start="20250519235500 +0300" stop="20250520031000 +0300" channel="fightclub.diemasport.bg">
     <title>ONE Fight Night, ONE Fight Night 31: Kongthoranee vs. Nong-O II</title>
   </programme>
   <programme start="20250520031000 +0300" stop="20250520060000 +0300" channel="fightclub.diemasport.bg">
@@ -6466,8 +6466,23 @@
   <programme start="20250521013000 +0300" stop="20250521014500 +0300" channel="trtspor.tr">
     <title>UEFA KONFERANS LİGİ ÖZETLER</title>
   </programme>
-  <programme start="20250521014500 +0300" channel="trtspor.tr">
+  <programme start="20250521014500 +0300" stop="20250521104500 +0300" channel="trtspor.tr">
     <title>TRT SPOR YILDIZ ORTAK YAYIN</title>
+  </programme>
+  <programme start="20250521104500 +0300" stop="20250521111500 +0300" channel="trtspor.tr">
+    <title>ALBÜMDEKİ YILDIZLAR</title>
+  </programme>
+  <programme start="20250521111500 +0300" stop="20250521130000 +0300" channel="trtspor.tr">
+    <title>THE EMIRATES FA CUP  FİNAL FUTBOL KARŞILAŞMASI  CRYSTAL PALACE - MANCHESTER CITY</title>
+  </programme>
+  <programme start="20250521130000 +0300" stop="20250521213000 +0300" channel="trtspor.tr">
+    <title>ATP 500 / Hamburg European Open</title>
+  </programme>
+  <programme start="20250521213000 +0300" stop="20250521235000 +0300" channel="trtspor.tr">
+    <title>UEFA ŞAMPİYONLAR LİGİ YARI FİNAL RÖVANŞ TURU FUTBOL KARŞILAŞMASI  INTER - BARCELONA</title>
+  </programme>
+  <programme start="20250521235000 +0300" channel="trtspor.tr">
+    <title>UEFA AVRUPA LİGİ YARI FİNAL RÖVANŞ TURU FUTBOL KARŞILAŞMASI  MANCHESTER UNITED - ATHLETIC BİLBAO</title>
   </programme>
   <programme start="20250519070000 +0300" stop="20250519080000 +0300" channel="extremesportschannel.com">
     <title>Blood, Sweat &amp; Gears</title>
@@ -7420,9 +7435,6 @@
   <programme start="20250521230000 +0300" stop="20250522000000 +0300" channel="sportklub2.rs">
     <title>No information</title>
   </programme>
-  <programme start="20250522000000 +0300" channel="sportklub2.rs">
-    <title>No information</title>
-  </programme>
   <programme start="20250519041500 +0300" stop="20250519054500 +0300" channel="sportklub3.rs">
     <title>Košarka - Španska liga: Unicaja - Murcia</title>
     <desc>Španska košarkaška ACB liga osnovana je 1957. godine kao "Liga National". U ligi sudeluje 18 ekipa prema dvokružnom sistemu takmičenja.</desc>
@@ -7603,9 +7615,6 @@
     <title>No information</title>
   </programme>
   <programme start="20250521230000 +0300" stop="20250522000000 +0300" channel="sportklub3.rs">
-    <title>No information</title>
-  </programme>
-  <programme start="20250522000000 +0300" channel="sportklub3.rs">
     <title>No information</title>
   </programme>
   <programme start="20250519033000 +0300" stop="20250519052500 +0300" channel="sportklub1.hr">
@@ -7791,9 +7800,6 @@
   <programme start="20250521230000 +0300" stop="20250522000000 +0300" channel="sportklub1.hr">
     <title>No information</title>
   </programme>
-  <programme start="20250522000000 +0300" channel="sportklub1.hr">
-    <title>No information</title>
-  </programme>
   <programme start="20250519044500 +0300" stop="20250519051500 +0300" channel="sportklub2.hr">
     <title>Magazin Bundeslige</title>
     <desc>Pratite sportski magazin posvećen Bundesligi te saznajte sve o utakmicama, rezultatima i novim pojačanjima u najboljim njemačkim nogometnim klubovima.</desc>
@@ -7960,9 +7966,6 @@
     <title>No information</title>
   </programme>
   <programme start="20250521230000 +0300" stop="20250522000000 +0300" channel="sportklub2.hr">
-    <title>No information</title>
-  </programme>
-  <programme start="20250522000000 +0300" channel="sportklub2.hr">
     <title>No information</title>
   </programme>
   <programme start="20250519041500 +0300" stop="20250519054500 +0300" channel="sportklub3.hr">
@@ -8146,9 +8149,6 @@
     <title>No information</title>
   </programme>
   <programme start="20250521230000 +0300" stop="20250522000000 +0300" channel="sportklub3.hr">
-    <title>No information</title>
-  </programme>
-  <programme start="20250522000000 +0300" channel="sportklub3.hr">
     <title>No information</title>
   </programme>
   <programme start="20250519032500 +0300" stop="20250519035000 +0300" channel="sportklub4.hr">
@@ -8340,9 +8340,6 @@
     <title>No information</title>
   </programme>
   <programme start="20250521230000 +0300" stop="20250522000000 +0300" channel="sportklub4.hr">
-    <title>No information</title>
-  </programme>
-  <programme start="20250522000000 +0300" channel="sportklub4.hr">
     <title>No information</title>
   </programme>
   <programme start="20250519030000 +0300" stop="20250519040000 +0300" channel="sportklub5.hr">
@@ -8579,10 +8576,6 @@
   </programme>
   <programme start="20250521230000 +0300" stop="20250522000000 +0300" channel="sportklub5.hr">
     <title>Sport Klub 5 Promo 3</title>
-    <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
-  </programme>
-  <programme start="20250522000000 +0300" channel="sportklub5.hr">
-    <title>Sport Klub 5 Promo 4</title>
     <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
   </programme>
   <programme start="20250519030000 +0300" stop="20250519040000 +0300" channel="sportklub6.hr">
@@ -8823,10 +8816,6 @@
   </programme>
   <programme start="20250521230000 +0300" stop="20250522000000 +0300" channel="sportklub6.hr">
     <title>Sport Klub 6 Promo 3</title>
-    <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
-  </programme>
-  <programme start="20250522000000 +0300" channel="sportklub6.hr">
-    <title>Sport Klub 6 Promo 4</title>
     <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
   </programme>
   <programme start="20250519031100 +0300" stop="20250519040400 +0300" channel="beinsports1.fr">

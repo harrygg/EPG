@@ -14,7 +14,7 @@ elements:
     operations: 
       - name: regex-extract
         hook: after
-        arguments: [ ^'(\d\d:\d\d)' ]
+        arguments: [ '^(\d\d:\d\d)' ]
 
   - name: title
     lang: bg
