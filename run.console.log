@@ -25344,3 +25344,57 @@ Entities.Exceptions.OperationFailedException: Exception of type 'Entities.Except
         1 file(s) copied.
         1 file(s) copied.
 Already up to date.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   EPG.grabber.log
+	modified:   all-2days.basic.epg.xml
+	modified:   all-2days.basic.epg.xml.gz
+	modified:   all-2days.details.epg.xml
+	modified:   all-2days.details.epg.xml.gz
+	modified:   all-2days.full.epg.xml
+	modified:   all-2days.full.epg.xml.gz
+	modified:   all-3days.basic.epg.xml
+	modified:   all-3days.basic.epg.xml.gz
+	modified:   all-3days.details.epg.xml
+	modified:   all-3days.details.epg.xml.gz
+	modified:   all-3days.full.epg.xml
+	modified:   all-3days.full.epg.xml.gz
+	modified:   bulgarian.3days.full.epg.xml
+	modified:   bulgarian.3days.full.epg.xml.gz
+	modified:   epg.xml
+	modified:   epg.xml.gz
+	modified:   report.js
+	modified:   sport.epg.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[master dbbbdd7] Scheduled daily update
+ 20 files changed, 446044 insertions(+), 412533 deletions(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   run.console.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Already up to date.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   EPG/report.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[master 7a29b46] Scheduled daily update
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean

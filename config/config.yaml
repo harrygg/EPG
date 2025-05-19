@@ -8,6 +8,9 @@ days-ahead: 3
 # The number of days in the past a program will be kept for.
 days-behind: 0
 
+# Should grab from cache or ignore the cache and always grab fresh programs
+incremental-grabbing: false
+
 # The number of threads that will be run in parallel. 
 # Each thread will start a grabber for a website template.
 parallel: 1
