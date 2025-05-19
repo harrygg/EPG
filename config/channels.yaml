@@ -352,7 +352,7 @@
     lang: en
   - name: 7/8 LQ
     lang: en
-  - name: 7/8 ТВ
+  - name: 7/8 ТВ 
     lang: bg
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
@@ -2529,7 +2529,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - start.bg
+  - tv.dir.bg
   - dnes.bg
 
 - id: news.nova.bg
