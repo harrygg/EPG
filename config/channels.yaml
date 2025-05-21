@@ -1814,6 +1814,7 @@
   - thevoice.bg
   - dnes.bg
   - start.bg
+  - tv-programa.bg
 
 - id: citytv.bg
   days-ahead: 1
@@ -1881,6 +1882,7 @@
   - start.bg
   - dnes.bg
   
+  
 - id: planetatv.bg
   days-ahead: 1
   enabled: true
@@ -1897,6 +1899,7 @@
   - start.bg
   - tv-programa.bg
   - dnes.bg
+  - tvprofil.com
 
 - id: planetafolk.bg
   days-ahead: 1
@@ -1911,6 +1914,7 @@
   sources:
   - start.bg
   - dnes.bg
+  - tvprofil.com
   
 - id: dstv.bg
   days-ahead: 1
@@ -1938,7 +1942,8 @@
   - fentv.bg
   - start.bg
   - dnes.bg
-    
+  - tvprofil.com
+  
 - id: fenfolk.bg
   days-ahead: 1
   enabled: true
@@ -1966,6 +1971,7 @@
   sources:
   - tv.dir.bg
   - start.bg
+  - tvprofil.com
   
 - id: mezzo.tv
   days-ahead: 1
