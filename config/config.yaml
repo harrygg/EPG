@@ -9,7 +9,7 @@ days-ahead: 3
 days-behind: 0
 
 # Should grab from cache or ignore the cache and always grab fresh programs
-incremental-grabbing: false
+incremental-grabbing: true
 
 # The number of threads that will be run in parallel. 
 # Each thread will start a grabber for a website template.

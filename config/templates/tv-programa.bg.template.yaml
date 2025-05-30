@@ -127,12 +127,9 @@ channel-parameters:
     channelId: btv-action
   tv1.bg:
     channelId: tv1
-
-#channel-extract-rules:
-#  url: https://www.xn----8sbafg9clhjcp.bg/
-#  channel-name: 
-#    locator: .dropDownColumn a span
-#    property: 
-#  channel-param:
-#    locator: .dropDownColumn a
-#    attribute: href
+  nostalgia.bg:
+    channelId: nostalgia
+  vivacomarena.bg:
+    channelId: vivacom-arena
+  foodnetwork.com:
+    channelId: food-network

@@ -73,7 +73,8 @@ channel-parameters:
     channelId: e-kids
   evrokom.bg:
     channelId: eurocom
-  eurosport1.bg:
+  
+    sport1.bg:
     channelId: eurosport
   eurosport2:
     channelId: eurosport%202
@@ -126,13 +127,13 @@ channel-parameters:
   ring.bg:
     channelId: ring.bg
   skat.bg:
-    channelId: 87
-  Telekabel:
-    channelId: 93
+    channelId: skat
+  telekabel.bg:
+    channelId: telekabel
   thevoice.bg:
-    channelId: 94
-  TLC:
-    channelId: 95
+    channelId: the%20voice
+  tlc.bg:
+    channelId: tlc
   traveltv.bg:
     channelId: 96
   travelchannel.bg:
@@ -148,7 +149,7 @@ channel-parameters:
   'VH 1':
     channelId: 103
   vivacomarena.bg:
-    channelId: 104
+    channelId: vivacom%20arena
   'Fox Channel':
     channelId: 107
   'Fashion TV':
@@ -158,13 +159,11 @@ channel-parameters:
   'CBS Reality':
     channelId: 117
   tvevropa.bg:
-    channelId: tv%20evropa
-  'Охота и рыбалка':
-    channelId: 122
+    channelId: EuroNews
   kinonova.bg:
     channelId: kino%20nova
-  'Food Network HD':
-    channelId: 126
+  foodnetwork.com:
+    channelId: food%20network%20hd
   nick.tv:
     channelId: nickhd
   'Eurosport HD':
@@ -280,7 +279,7 @@ channel-parameters:
   tv.lovenature.com:
     channelId: love%20nature
   nostalgia.bg:
-    channelId: 236
+    channelId: nostalgia
   '360 TuneBox':
     channelId: 237
   Fast&FunBox:

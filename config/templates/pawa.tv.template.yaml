@@ -83,10 +83,7 @@ elements:
     locator: cropped
     attribute: src
 
-channel-parameters: 
-  tv1000.bg:
-    channelNameEncoded: TV1000%20Balkan
-    channelName: TV1000Balkan
+channel-parameters:
   epicdrama.bg:
     channelNameEncoded: Epic%20Drama%20(CEE)
     channelName: EpicDrama(CEE)

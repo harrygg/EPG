@@ -260,6 +260,8 @@ channel-parameters:
     channelId: WildTV
   BBC1.bg:
     channelId: BBC1
+  tvevropa.bg:
+    channelId: EuroNews
 
 channel-extract-rules:
  url: https://www.dnes.bg/tv

@@ -199,9 +199,9 @@
     lang: bg
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - start.bg
   - tv.dir.bg
   - dnes.bg
-  - start.bg
   
 - id: codehealth.bg
   enabled: true
@@ -212,7 +212,6 @@
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
   - codehealth.bg
-  - dnes.bg
     
 - id: codefashion.bg
   enabled: true
@@ -352,7 +351,7 @@
     lang: en
   - name: 7/8 LQ
     lang: en
-  - name: 7/8 ТВ 
+  - name: 7/8 ТВ
     lang: bg
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
@@ -497,9 +496,10 @@
   - name: Cinemania HD
   groups: ["tivi.bg"]
   sources:
-  - cinemania.bg
   - tv-programa.bg
+  - cinemania.bg
   - tvprofil.com
+  - start.bg
 
 - id: epicdrama.bg
   enabled: true
@@ -754,9 +754,8 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
-  - nostalgia.bg
-  - dnes.bg
   - start.bg
+  - nostalgia.bg
   
 - id: cine.box
   enabled: false
@@ -934,8 +933,8 @@
   - name: Max Sport 1 LQ
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
-  - dnes.bg
   - maxsport.live
+  - dnes.bg
   - tv.dir.bg
   
 - id: maxsport2.bg
@@ -947,8 +946,8 @@
   - name: Max Sport 2 LQ
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
+  - maxsport.live
   - dnes.bg
-  - maxsport.live  
   - tv.dir.bg
   
 - id: maxsport3.bg
@@ -960,8 +959,8 @@
   - name: Max Sport 3 LQ
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
+  - maxsport.live
   - dnes.bg
-  - maxsport.live  
   - tv.dir.bg
   
 - id: maxsport4.bg
@@ -973,8 +972,8 @@
   - name: Max Sport 4 LQ
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
+  - maxsport.live
   - dnes.bg
-  - maxsport.live  
   - tv.dir.bg
   
 - id: edgesport.com
@@ -1814,7 +1813,6 @@
   - thevoice.bg
   - dnes.bg
   - start.bg
-  - tv-programa.bg
 
 - id: citytv.bg
   days-ahead: 1
@@ -1882,7 +1880,6 @@
   - start.bg
   - dnes.bg
   
-  
 - id: planetatv.bg
   days-ahead: 1
   enabled: true
@@ -1899,7 +1896,6 @@
   - start.bg
   - tv-programa.bg
   - dnes.bg
-  - tvprofil.com
 
 - id: planetafolk.bg
   days-ahead: 1
@@ -1914,7 +1910,6 @@
   sources:
   - start.bg
   - dnes.bg
-  - tvprofil.com
   
 - id: dstv.bg
   days-ahead: 1
@@ -1942,8 +1937,7 @@
   - fentv.bg
   - start.bg
   - dnes.bg
-  - tvprofil.com
-  
+    
 - id: fenfolk.bg
   days-ahead: 1
   enabled: true
@@ -1971,7 +1965,6 @@
   sources:
   - tv.dir.bg
   - start.bg
-  - tvprofil.com
   
 - id: mezzo.tv
   days-ahead: 1
@@ -2862,7 +2855,6 @@
   groups: ["tivi.bg"]
   sources:
   - mts.rs
-  - start.bg
   
 - id: hgtv.com
   enabled: true
@@ -3034,8 +3026,8 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - tv-programa.bg
+  - start.bg
   - tv.dir.bg
-  - dnes.bg
   
 - id: animalplanet.bg
   enabled: true
@@ -3246,7 +3238,6 @@
   groups: ["tivi.bg"]
   sources:
   - start.bg
-  - dnes.bg
   
 - id: bbcearth.com
   enabled: false
@@ -3461,10 +3452,10 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
-  - disney.bg
-  - tvprofil.com
   - tv-programa.bg
-  - dnes.bg
+  - start.bg
+  - tvprofil.com
+  - disney.bg
   - tv.dir.bg
   
 - id: disneyjunior.bg
