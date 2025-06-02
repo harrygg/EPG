@@ -169,6 +169,7 @@
     lang: en
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - start.bg
   - dnes.bg
   - tv.dir.bg
 
@@ -541,8 +542,8 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
+  - tvprofil.com
   - start.bg
   
 - id: filmboxextra.com
@@ -554,8 +555,8 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
+  - tvprofil.com
   - start.bg
   
 - id: filmboxstars.com
@@ -567,8 +568,8 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
+  - tvprofil.com
   - start.bg
   
 
@@ -581,7 +582,6 @@
   groups: ["tivi.bg"]
   sources:
   - start.bg
-  - dnes.bg
 
 - id: vivacomarena.bg
   enabled: true
@@ -2235,8 +2235,8 @@
     lang: de
   groups: ["tivi.bg"]
   sources:
-  - tvprofil.com
   - tvtoday.de
+  - tvprofil.com
   
 - id: 3sat.de
   enabled: true
@@ -2755,8 +2755,8 @@
   - name: FREEДОМ (Укр)
   groups: ["tivi.bg"]
   sources:
-  - tvprofil.com
   - meo.pt
+  - tvprofil.com
   
 - id: cgtndocumentary.en
   enabled: true
@@ -2902,7 +2902,6 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
-  - dnes.bg
   - start.bg
   - tv.dir.bg
 
@@ -3016,7 +3015,7 @@
   sources:
   - mts.rs
   
-- id: foodnetwork.bg
+- id: foodnetwork.com
   enabled: true
   names:
   - name: Food Network
@@ -3115,10 +3114,10 @@
     lang: en
   groups: ["tivi.bg","vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
-  - dnes.bg
+  - tvprofil.com
   - start.bg
+  - dnes.bg
 
 - id: traveltv.bg
   enabled: true
@@ -3170,10 +3169,10 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
-  - dnes.bg
+  - tvprofil.com
   - tv.dir.bg
+  - dnes.bg
   
 - id: historychannel2.com
   enabled: false
@@ -3225,10 +3224,9 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
-  - tvprofil.com
-  - dnes.bg
   - start.bg
   - tv.dir.bg
+  - tvprofil.com
   
 - id: vidimoinevidimo.bg
   enabled: true
@@ -3363,9 +3361,9 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tv-programa.bg
   - start.bg
+  - tvprofil.com
   - tv.dir.bg
   
 - id: jimjam.tv
@@ -3390,10 +3388,9 @@
     lang: en
   groups: ["kids", "tivi.bg"]
   sources:
-  - tvprofil.com
   - start.bg
   - tv-programa.bg
-  - dnes.bg
+  - tvprofil.com
   
 - id: davincilearning.tv
   enabled: true
@@ -3438,10 +3435,10 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - start.bg
   - dnes.bg
   - tv.dir.bg
+  - tvprofil.com
   
 - id: disneychannel.bg
   enabled: true
@@ -3525,8 +3522,8 @@
   - name: Duck TV
   groups: ["kids", "tivi.bg", "vivacom"]
   sources:
-  - tvprofil.com
   - tvplus.com.tr
+  - tvprofil.com
   
 - id: baby.tv
   enabled: true
@@ -3542,8 +3539,8 @@
   - name: Fix and Foxi
   groups: ["kids", "tivi.bg"]
   sources:
-  - tvprofil.com
   - tvtoday.de
+  - tvprofil.com
 
 
 ###############
@@ -4054,8 +4051,8 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
-  - tvprofil.com
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: dorceltv.com
   enabled: true
@@ -4066,8 +4063,8 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
-  - tvprofil.com
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: dorcelxxx.com
   enabled: true
@@ -4078,8 +4075,8 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
-  - tvprofil.com
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: hustlerhd.com
   enabled: true
@@ -4100,8 +4097,8 @@
   groups: ["xxx", "tivi.bg"]
   sources:
   - tvsporedi.si
-  - tvprofil.com
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: redlighttv.com
   enabled: true
@@ -4110,8 +4107,8 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
-  - tvprofil.com
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: private.tv
   enabled: true
@@ -4120,9 +4117,9 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
-  - tvprofil.com
   - tvsporedi.si
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: playboy.tv
   enabled: true
@@ -4133,9 +4130,9 @@
     lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
-  - tvprofil.com
   - tvsporedi.si
   - programtv.onet.pl
+  - tvprofil.com
   
 - id: brazzers.eu
   enabled: true
