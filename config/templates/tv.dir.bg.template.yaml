@@ -2,50 +2,58 @@
 author: Hristo Genev
 
 date-parameter:
-  format: dd.MM
+  format: yyyy-dd-MM
 
 request:
-  cache-priority: 2
-  url: https://tv.dir.bg/tv_channel.php?id=${channelId}&dd=${date}
+  url: https://tv.dir.bg/load/programs
+  http-method: POST
+  debug: true
+  body-params: 
+    _token: yHsdk5vdIdyw1BbJz2wI4bP25bY9lgRpRdzsK8m0
+    body: channel=${channelId}
+    day: ${date}
+  headers: 
+    Authorization: Basic MjdlMTFmNWUtODhlMi00OGU0LWJkNDItOGUxNWFiYmM2NmY1OjEyejJzMXJ3bXdhZmsxMGNkdzl0cjloOWFjYjZwdjJoZDhscXZ0aGc=
+    Content-Type: application/x-www-form-urlencoded
 
 programs:
-  locator: '#events li'
-  exclude-first: 1
-  exclude-last: 1
+  locator: .broadcast-item
+  # exclude-first: 1
+  # exclude-last: 1
     
 elements:
   - name: start
-    time-format: HH.mm
-    locator: i
+    locator: .broadcast-time
 
   - name: title
     language: bg
+    locator: .broadcast-title
     operations:
-      - name: regex-remove
-        hook: after
-        arguments: [ '\d\d\.\d\d' ]
+      # - name: regex-remove
+      #   hook: after
+      #   arguments: [ '\d\d\.\d\d' ]
       - name: beautify
         hook: after
 
-  - name: detailsUrl
-    locator: a
-    attribute: href
+  # - name: detailsUrl
+  #   locator: a
+  #   attribute: href
 
-program-details: 
-  enabled: ${programDetailsEnabled}
-  request: 
-    url: https://tv.dir.bg/${detailsUrl}
+# program-details: 
+#   enabled: ${programDetailsEnabled}
+#   request: 
+#     url: https://tv.dir.bg/${detailsUrl}
 
-  elements: 
-    - name: icon
-      locator: .shou-image img
-      attribute: src
+  # elements: 
+  #   - name: icon
+  #     locator: .shou-image img
+  #     attribute: src
 
-    - name: desc
-      locator: .news-body
-      operations:
-        - name: beautify
-          hook: after
+  #   - name: desc
+  #     locator: .news-body
+  #     operations:
+  #       - name: beautify
+  #         hook: after
 timeouts:
   between-requests: 1
 
