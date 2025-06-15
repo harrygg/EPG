@@ -225,7 +225,8 @@
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
   - codefashion.bg
-  
+  - tv.dir.bg
+    
 - id: skat.bg
   enabled: true
   names:
@@ -313,19 +314,6 @@
   - start.bg
   - dnes.bg
   
-- id: bstv.bg
-  enabled: false
-  names:
-  - name: БСТВ
-    lang: bg
-  - name: BSTV
-    lang: en
-  - name: BSTV HD
-    lang: en
-  groups: ["bg", "tivi.bg"]
-  sources:
-  - bstv.bg
-  - dnes.bg
   
 - id: tv1.bg
   enabled: true
@@ -341,6 +329,7 @@
   - start.bg
   - tv-programa.bg
   - dnes.bg
+  - tv.dir.bg
   - tvprofil.com
   
 - id: sedemosmi.tv
@@ -359,6 +348,7 @@
   - sedemosmi.tv
   - start.bg
   - dnes.bg
+  - tv.dir.bg
   
 - id: vtk.bg
   enabled: false
@@ -459,6 +449,7 @@
   - btv.bg
   - tvprofil.com
   - dnes.bg
+  - tv.dir.bg
 
 - id: btvcomedy.bg
   enabled: true
@@ -474,6 +465,7 @@
   - btv.bg
   - dnes.bg
   - tvprofil.com
+  - tv.dir.bg
   
 - id: moviestar.bg
   enabled: true
@@ -501,7 +493,8 @@
   - cinemania.bg
   - tvprofil.com
   - start.bg
-
+  - tv.dir.bg
+  
 - id: epicdrama.bg
   enabled: true
   names:
@@ -530,7 +523,8 @@
   sources:
   - pawa.tv
   - dnes.bg
-
+  - tv.dir.bg
+  
 - id: filmbox.com
   enabled: true
   names:
@@ -545,6 +539,7 @@
   - tv-programa.bg
   - tvprofil.com
   - start.bg
+  - tv.dir.bg
   
 - id: filmboxextra.com
   enabled: true
@@ -558,6 +553,7 @@
   - tv-programa.bg
   - tvprofil.com
   - start.bg
+  - tv.dir.bg
   
 - id: filmboxstars.com
   enabled: true
@@ -571,7 +567,7 @@
   - tv-programa.bg
   - tvprofil.com
   - start.bg
-  
+  - tv.dir.bg
 
 - id: kanal4.bg
   enabled: true
@@ -582,6 +578,7 @@
   groups: ["tivi.bg"]
   sources:
   - start.bg
+  - tv.dir.bg
 
 - id: vivacomarena.bg
   enabled: true
@@ -595,6 +592,7 @@
   - tv-programa.bg
   - start.bg
   - tvprofil.com
+  - tv.dir.bg
 
 - id: diema.bg
   enabled: true
@@ -612,7 +610,8 @@
   - start.bg
   - tvprofil.com
   - dnes.bg
-
+  - tv.dir.bg
+  
 - id: diemafamily.bg
   enabled: true
   names:
@@ -628,7 +627,8 @@
   - dnes.bg
   - start.bg
   - tvprofil.com
-
+  - tv.dir.bg
+  
 - id: kinonova.bg
   enabled: true
   names:
@@ -661,6 +661,7 @@
   - start.bg
   - dnes.bg
   - tvprofil.com
+  - tv.dir.bg
   
 - id: axnwhite.bg
   enabled: true
@@ -672,6 +673,7 @@
   - dnes.bg
   - start.bg
   - tvprofil.com
+  - tv.dir.bg
   
 - id: axnblack.bg
   enabled: true
@@ -683,16 +685,8 @@
   - dnes.bg
   - start.bg
   - tvprofil.com
+  - tv.dir.bg
   
-- id: cbsreality.tv
-  enabled: false
-  names:
-  - name: CBS Reality
-    lang: en
-  groups: ["tivi.bg"]
-  sources:
-  - dnes.bg
-
 - id: fox.bg
   enabled: true
   names:
@@ -708,6 +702,7 @@
   sources:
   - waltdisney.bg
   - dnes.bg
+  - tv.dir.bg
 
 - id: foxlife.bg
   enabled: true
@@ -721,7 +716,8 @@
   sources:
   - waltdisney.bg
   - dnes.bg
-
+  - tv.dir.bg
+  
 - id: foxcrime.bg
   enabled: true
   names:
@@ -732,7 +728,8 @@
   sources:
     - waltdisney.bg
     - dnes.bg
-
+    - tv.dir.bg
+    
 - id: amc.bg
   enabled: true
   names:
@@ -743,7 +740,7 @@
   - tv.dir.bg
   - potv.bg
   - tvprofil.com
- 
+  - tv.dir.bg
  
 - id: nostalgia.bg
   enabled: true
@@ -756,6 +753,7 @@
   sources:
   - start.bg
   - nostalgia.bg
+  - tv.dir.bg
   
 - id: cine.box
   enabled: false
@@ -843,6 +841,7 @@
   - nova.bg
   - dnes.bg
   - start.bg
+  - tv.dir.bg
 
 - id: diemasport.bg
   enabled: true
@@ -860,6 +859,7 @@
   - nova.bg
   - dnes.bg
   - start.bg
+  - tv.dir.bg
 
 - id: diemasport2.bg
   enabled: true
@@ -877,7 +877,8 @@
   - nova.bg
   - dnes.bg
   - start.bg
-
+  - tv.dir.bg
+  
 - id: diemasport3.bg
   enabled: true
   increment: false
@@ -894,6 +895,7 @@
   - nova.bg
   - dnes.bg
   - start.bg
+  - tv.dir.bg
   
 - id: fightclub.diemasport.bg
   enabled: true
@@ -907,6 +909,7 @@
   sources:
   - diemaextra.bg
   - tvprofil.com
+  - tv.dir.bg
   
 - id: ring.bg
   enabled: true
@@ -923,7 +926,8 @@
   - dnes.bg
   - tv.dir.bg
   - start.bg
-
+  - tv.dir.bg
+  
 - id: maxsport1.bg
   enabled: true
   increment: false
@@ -975,15 +979,6 @@
   - maxsport.live
   - dnes.bg
   - tv.dir.bg
-  
-- id: edgesport.com
-  enabled: false
-  names:
-  - name: EDGE Sport
-  - name: Edge Sport HD
-  groups: ["sport", "tivi.bg"]
-  sources:
-  - dnes.bg
 
 - id: eurosport1.bg
   enabled: true
@@ -1704,6 +1699,7 @@
   sources:
   - tvsporedi.si
   - programtv.onet.pl
+  - tv.dir.bg
   
 - id: mtv80s.com
   enabled: true
@@ -1813,7 +1809,8 @@
   - thevoice.bg
   - dnes.bg
   - start.bg
-
+  - tv.dir.bg
+  
 - id: citytv.bg
   days-ahead: 1
   enabled: true
@@ -1835,7 +1832,7 @@
   sources:
   - bgmusic.tv
   - tvprofil.com
-
+  
 - id: boxtv.bg
   days-ahead: 1
   enabled: true
@@ -1857,6 +1854,7 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - magictv.bg
+  - tv.dir.bg
   
 - id: magictv.uk
   days-ahead: 1
@@ -2190,6 +2188,7 @@
   groups: ["tivi.bg"]
   sources:
   - tvtoday.de
+  - tv.dir.bg
   
 - id: rtl2.de
   enabled: true
@@ -2586,6 +2585,7 @@
   sources:
   - tv.sms.cz
   - programtv.onet.pl
+  - tv.dir.bg
   
 - id: bloomberg.com
   enabled: true
@@ -2610,6 +2610,7 @@
   - tvguide.co.uk
   - programtv.onet.pl
   - tvsporedi.si
+  - tv.dir.bg
   
 - id: bbcworldnews.com
   enabled: true
@@ -2625,6 +2626,7 @@
   - uksky.com
   - tvsporedi.si
   - tv.sms.cz
+  - tv.dir.bg
   
 - id: trtworld.com
   enabled: true
@@ -2675,6 +2677,7 @@
   sources:
   - tvtoday.de
   - tvsporedi.si
+  - tv.dir.bg
   - meo.pt
   
 - id: russiatoday.com
@@ -2836,6 +2839,7 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - waltdisney.bg
+  - tv.dir.bg
   - tvprofil.com
   
 - id: soulandpepper.tv
@@ -2918,7 +2922,8 @@
   - pawa.tv
   - viasat.bg
   - dnes.bg
-
+  - tv.dir.bg
+  
 - id: explore.viasat.bg
   enabled: true
   names:
@@ -2932,6 +2937,7 @@
   sources:
   - pawa.tv
   - viasat.bg
+  - tv.dir.bg
   - dnes.bg
 
 - id: nature.viasat.bg
@@ -2945,6 +2951,7 @@
   sources:
   - pawa.tv
   - viasat.bg
+  - tv.dir.bg
   - dnes.bg
   
 - id: discoverychannel.bg
@@ -2958,6 +2965,7 @@
   groups: ["tivi.bg"]
   sources:
   - tv-programa.bg
+  - tv.dir.bg
   - dnes.bg
 
 - id: discoveryscience.com
@@ -2972,15 +2980,6 @@
   - tvguide.co.uk
   - dnes.bg
   
-- id: discoveryshowcase.bg
-  enabled: false
-  names:
-  - name: Discovery Showcase
-    lang: en
-  groups: ["tivi.bg"]
-  sources:
-  - tv.dir.bg
-  
 - id: investigationdiscovery.bg
   enabled: false
   names:
@@ -2994,7 +2993,7 @@
   sources:
   - tv-programa.bg
   - dnes.bg
-  - tv.dir.bg
+  - tv.dir.bg
   
 - id: investigationdiscoveryextra.bg
   enabled: true
@@ -3117,6 +3116,7 @@
   sources:
   - tv-programa.bg
   - tvprofil.com
+  - tv.dir.bg
   - start.bg
   - dnes.bg
 
@@ -3190,6 +3190,7 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
+  - tv.dir.bg
   - dnes.bg
   - uksky.com
   
@@ -3351,6 +3352,7 @@
   sources:
   - tv-programa.bg
   - start.bg
+  - tv.dir.bg
 
 - id: nick.tv
   enabled: true
@@ -3425,6 +3427,7 @@
     lang: en
   groups: ["kids", "tivi.bg"]
   sources:
+  - tv.dir.bg
   - tvprofil.com
   
 - id: cartoonnetwork.tv
@@ -3466,8 +3469,9 @@
   sources:
   - tvprofil.com
   - disney.bg
-  - dnes.bg
+  - tv.dir.bg
   - start.bg
+  - dnes.bg
   
 - id: karusel.tv
   enabled: true
@@ -3525,6 +3529,7 @@
   sources:
   - tvplus.com.tr
   - tvprofil.com
+  - tv.dir.bg
   
 - id: baby.tv
   enabled: true
@@ -3533,6 +3538,7 @@
   groups: ["kids", "tivi.bg"]
   sources:
   - tvplus.com.tr
+  - tv.dir.bg
   
 - id: fixandfoxi.de
   enabled: true
