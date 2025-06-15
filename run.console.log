@@ -1,0 +1,19 @@
+09:59:01 [INF] **************************************************************************
+09:59:01 [INF] 
+09:59:01 [INF]                        EPG.grabber  1.23.9.20
+09:59:01 [INF] 
+09:59:01 [INF] **************************************************************************
+09:59:01 [INF] Start time: 06/15/2025 09:59:01
+09:59:01 [INF] Command line arguments: grab -f C:\Users\HGenev\Git\harrygg\EPG\\config -o C:\Users\HGenev\Git\harrygg\EPG\ -l 0
+09:59:02 [INF] Loading config from file C:\Users\HGenev\Git\harrygg\EPG\config\config.yaml
+09:59:02 [INF] Setting file log level to Verbose. Console is set to Information
+09:59:02 [ERR] Error during channel deserialization! (Line: 2996, Col: 1, Idx: 50931) - (Line: 2996, Col: 15, Idx: 50945): While parsing a block collection, did not find expected '-' indicator.
+09:59:02 [INF] Loaded 0 channels
+09:59:02 [INF] Creating grabbing groups for round #1
+09:59:02 [INF] No grabbing groups created. Exiting
+09:59:02 [ERR] No channels to export or not valid export configuration found
+09:59:02 [INF] End time 06/15/2025 09:59:02
+09:59:02 [INF] Execution time: 00:00:01.1242993
+        1 file(s) copied.
+        1 file(s) copied.
+Already up to date.

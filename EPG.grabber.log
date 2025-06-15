@@ -1,26 +1,26 @@
-2025-06-15 05:38:24.835 00001 [INF] **************************************************************************
-2025-06-15 05:38:24.859 00001 [INF] 
-2025-06-15 05:38:24.859 00001 [INF]                        EPG.grabber  1.23.9.20
-2025-06-15 05:38:24.863 00001 [INF] 
-2025-06-15 05:38:24.863 00001 [INF] **************************************************************************
-2025-06-15 05:38:24.863 00001 [INF] Start time: "2025-06-15T05:38:24.8630814+03:00"
-2025-06-15 05:38:24.864 00001 [INF] Command line arguments: grab -f C:\Users\HGenev\Git\harrygg\EPG\\config -o C:\Users\HGenev\Git\harrygg\EPG\ -l 0
-2025-06-15 05:38:25.200 00001 [INF] Loading config from file C:\Users\HGenev\Git\harrygg\EPG\config\config.yaml
-2025-06-15 05:38:25.414 00001 [VRB] Created config folder C:\Users\HGenev\Git\harrygg\EPG\config
-2025-06-15 05:38:25.414 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
-2025-06-15 05:38:25.415 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
-2025-06-15 05:38:25.415 00001 [VRB] Created output folder C:\Users\HGenev\Git\harrygg\EPG\
-2025-06-15 05:38:25.415 00001 [DBG] Using configuration:
-2025-06-15 05:38:25.415 00001 [DBG]   Grabbing for days ahead: 3
-2025-06-15 05:38:25.415 00001 [DBG]   Keeping days behind: 0
-2025-06-15 05:38:25.415 00001 [DBG]   Using templates folder: C:\Users\HGenev\Git\harrygg\EPG\config\templates
-2025-06-15 05:38:25.415 00001 [DBG]   Number of parallel grabbing threads: 1
-2025-06-15 05:38:25.416 00001 [INF] Setting file log level to "Verbose". Console is set to "Information"
-2025-06-15 05:38:25.767 00001 [VRB] Loading channels from file C:\Users\HGenev\Git\harrygg\EPG\config\channels.yaml
-2025-06-15 05:38:25.832 00001 [ERR] Error during channel deserialization! (Line: 2996, Col: 1, Idx: 50931) - (Line: 2996, Col: 15, Idx: 50945): While parsing a block collection, did not find expected '-' indicator.
-2025-06-15 05:38:25.833 00001 [INF] Loaded 0 channels
-2025-06-15 05:38:25.833 00001 [INF] Creating grabbing groups for round #1
-2025-06-15 05:38:25.835 00001 [INF] No grabbing groups created. Exiting
-2025-06-15 05:38:25.840 00001 [ERR] No channels to export or not valid export configuration found
-2025-06-15 05:38:25.913 00001 [INF] End time "2025-06-15T05:38:25.9132501+03:00"
-2025-06-15 05:38:25.913 00001 [INF] Execution time: "00:00:01.0501687"
+2025-06-15 09:59:01.813 00001 [INF] **************************************************************************
+2025-06-15 09:59:01.837 00001 [INF] 
+2025-06-15 09:59:01.838 00001 [INF]                        EPG.grabber  1.23.9.20
+2025-06-15 09:59:01.841 00001 [INF] 
+2025-06-15 09:59:01.841 00001 [INF] **************************************************************************
+2025-06-15 09:59:01.841 00001 [INF] Start time: "2025-06-15T09:59:01.8412678+03:00"
+2025-06-15 09:59:01.842 00001 [INF] Command line arguments: grab -f C:\Users\HGenev\Git\harrygg\EPG\\config -o C:\Users\HGenev\Git\harrygg\EPG\ -l 0
+2025-06-15 09:59:02.228 00001 [INF] Loading config from file C:\Users\HGenev\Git\harrygg\EPG\config\config.yaml
+2025-06-15 09:59:02.445 00001 [VRB] Created config folder C:\Users\HGenev\Git\harrygg\EPG\config
+2025-06-15 09:59:02.445 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
+2025-06-15 09:59:02.445 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
+2025-06-15 09:59:02.445 00001 [VRB] Created output folder C:\Users\HGenev\Git\harrygg\EPG\
+2025-06-15 09:59:02.446 00001 [DBG] Using configuration:
+2025-06-15 09:59:02.446 00001 [DBG]   Grabbing for days ahead: 3
+2025-06-15 09:59:02.446 00001 [DBG]   Keeping days behind: 0
+2025-06-15 09:59:02.446 00001 [DBG]   Using templates folder: C:\Users\HGenev\Git\harrygg\EPG\config\templates
+2025-06-15 09:59:02.446 00001 [DBG]   Number of parallel grabbing threads: 1
+2025-06-15 09:59:02.447 00001 [INF] Setting file log level to "Verbose". Console is set to "Information"
+2025-06-15 09:59:02.876 00001 [VRB] Loading channels from file C:\Users\HGenev\Git\harrygg\EPG\config\channels.yaml
+2025-06-15 09:59:02.920 00001 [ERR] Error during channel deserialization! (Line: 2996, Col: 1, Idx: 50931) - (Line: 2996, Col: 15, Idx: 50945): While parsing a block collection, did not find expected '-' indicator.
+2025-06-15 09:59:02.920 00001 [INF] Loaded 0 channels
+2025-06-15 09:59:02.921 00001 [INF] Creating grabbing groups for round #1
+2025-06-15 09:59:02.922 00001 [INF] No grabbing groups created. Exiting
+2025-06-15 09:59:02.926 00001 [ERR] No channels to export or not valid export configuration found
+2025-06-15 09:59:02.965 00001 [INF] End time "2025-06-15T09:59:02.9655671+03:00"
+2025-06-15 09:59:02.965 00001 [INF] Execution time: "00:00:01.1242993"
