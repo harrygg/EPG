@@ -213,6 +213,7 @@
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
   - codehealth.bg
+  - tv.dir.bg
     
 - id: codefashion.bg
   enabled: true
@@ -567,6 +568,16 @@
   - tv-programa.bg
   - tvprofil.com
   - start.bg
+  - tv.dir.bg
+
+- id: kanal3.bg
+  enabled: true
+  names:
+  - name: Канал 3
+    lang: bg
+  - name: Канал 3 HD
+  groups: ["tivi.bg"]
+  sources:
   - tv.dir.bg
 
 - id: kanal4.bg
@@ -2828,7 +2839,6 @@
   groups: ["tivi.bg"]
   sources:
   - wildtv.ca
-  - dnes.bg
 
 - id: 24kitchen.bg
   enabled: true
@@ -4328,7 +4338,6 @@
   sources:
   - ouest-france.fr
   - programme-tv.net
-  - telestar.fr
   
 - id: w9.fr
   enabled: true
