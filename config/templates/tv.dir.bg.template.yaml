@@ -12,13 +12,13 @@ init-pages:
       - name: token
         locator-strategy: jsonpath
         locator: csrfToken
-        debug: false    
+        debug: true    
 
 ### NOw we have the token, we can do post
 request:
   url: https://tv.dir.bg/load/programs
   http-method: POST
-  debug: false
+  debug: true
   body-params: 
     _token: ${token}
     channel: ${channelId}

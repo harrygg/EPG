@@ -37,7 +37,7 @@
   - name: БНТ 1 LQ
   - name: БНТ1 LQ
   icon: http://tv.bnt.bg/assets/images/bnt1-home.jpg
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - bnt.bg
   - dnes.bg
@@ -53,7 +53,7 @@
   - name: BNT 2
   - name: BNT LQ
     lang: en
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - bnt.bg
   - dnes.bg
@@ -67,7 +67,7 @@
   - name: БНТ 3 HD
   - name: БНТ 3 LQ
     lang: bg
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - bnt.bg
   - dnes.bg
@@ -82,7 +82,7 @@
   - name: БНТ 4 LQ
     lang: bg
   - name: BNT 4
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - bnt.bg
   - dnes.bg
@@ -100,7 +100,7 @@
   - name: bTV LQ
   - name: BTV HD h265 test
     lang: en
-  groups: ["bg", "tivi.bg", "vivacom"]  
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]  
   sources:
   - btv.bg
   - dnes.bg
@@ -116,7 +116,7 @@
     lang: en
   - name: bTV Action HD
     lang: en
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - btv.bg
@@ -136,7 +136,7 @@
   - name: BTV Story LQ
   - name: BTV Lady HD
   - name: BTV Lady
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - btv.bg
@@ -154,7 +154,7 @@
   - name: Nova
   - name: Nova LQ
   - name: Nova TV
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - nova.bg
   - dnes.bg
@@ -164,10 +164,9 @@
   enabled: true
   names:
   - name: Bloomberg BG
-    lang: en
   - name: Bloomberg BG HD
-    lang: en
-  groups: ["bg", "tivi.bg", "vivacom"]
+  - name: Bloomberg TV Bulgaria HD
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - dnes.bg
@@ -175,7 +174,7 @@
 
 - id: bgonair.bg
   enabled: true
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   names:
   - name: България Он Еър
     lang: bg
@@ -193,12 +192,13 @@
   names:
   - name: Evrokom
   - name: Evrokom NCTV
-    lang: en
   - name: Евроком 
+  - name: Евроком (EK) 
+  - name: Евроком (EK) HD 
     lang: bg
   - name: Евроком HD
     lang: bg
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - tv.dir.bg
@@ -210,7 +210,7 @@
   - name: Code Health
   - name: Code Health TV
   - name: Code Health HD
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - codehealth.bg
   - tv.dir.bg
@@ -220,10 +220,11 @@
   days-ahead: 1
   names:
   - name: Code Fashion
-    lang: en
   - name: Code Fashion HD
+  - name: Code Fashion TV
+  - name: Code Fashion TV HD
     lang: en
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - codefashion.bg
   - tv.dir.bg
@@ -237,7 +238,7 @@
     lang: bg
   - name: Skat
     lang: en
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - dnes.bg
@@ -279,7 +280,7 @@
   - name: Агро ТВ
   - name: Agro TV HD
   - name: Agro TV
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - dnes.bg
@@ -322,10 +323,11 @@
   - name: ТВ1
     lang: bg
   - name: TV1
-    lang: en
+  - name: TV 1
+  - name: TV 1 HD
   - name: TV1 HD
     lang: en
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - tv-programa.bg
@@ -337,6 +339,7 @@
   enabled: true
   names:
   - name: 7/8 TV
+  - name: 7/8 TV HD
     lang: en
   - name: 7/8 HD
     lang: en
@@ -344,7 +347,7 @@
     lang: en
   - name: 7/8 ТВ
     lang: bg
-  groups: ["bg", "tivi.bg", "vivacom"]
+  groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - sedemosmi.tv
   - start.bg
@@ -371,7 +374,7 @@
     lang: en
   - name: HBO HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -385,7 +388,7 @@
     lang: en
   - name: HBO 2 HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -399,7 +402,7 @@
     lang: en
   - name: HBO 3 HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -413,7 +416,7 @@
     lang: en
   - name: Cinemax HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -427,7 +430,7 @@
     lang: en
   - name: Cinemax 2 HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -476,8 +479,9 @@
   - name: Movie Star
     lang: en
   - name: Moviestar HD
+  - name: Movie Star HD
   - name: Moviestart HD
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - moviestar.bg
   - tv-programa.bg
@@ -488,7 +492,7 @@
   names:
   - name: Cinemania
   - name: Cinemania HD
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - cinemania.bg
@@ -514,18 +518,28 @@
   names:
   - name: TV 1000
     lang: en
-  - name: TV 100 org
+  - name: TV 1000 org
   - name: TV1000
     lang: en
   - name: TV 1000 HD
   - name: TV 1000 - Viasat kino
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - pawa.tv
   - dnes.bg
   - tv.dir.bg
   
+- id: dizi.bg
+  enabled: true
+  names:
+  - name: Dizi
+    lang: en
+  - name: Dizi HD
+  groups: ["tivi.bg", "vivacom", "a1"]
+  sources:
+  - tv.dir.bg
+
 - id: filmbox.com
   enabled: true
   names:
@@ -535,7 +549,7 @@
   - name: Filmbox Basics
   - name: Filmbox Basics SD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -547,9 +561,11 @@
   names:
   - name: FilmBox Extra
     lang: en
+  - name: Film Box Extra
+  - name: Film Box Extra HD
   - name: FilmBox Extra HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -560,10 +576,12 @@
   enabled: true
   names:
   - name: FilmBox Stars
+  - name: Film Box Stars
     lang: en
   - name: FilmBox Stars HD
+  - name: Film Box Stars HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -576,7 +594,7 @@
   - name: Канал 3
     lang: bg
   - name: Канал 3 HD
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv.dir.bg
 
@@ -650,6 +668,7 @@
   - name: KinoNova HD
     lang: en
   - name: Кино Нова HD
+  - name: Kino Nova HD
   - name: KinoNova LQ
     lang: en
   groups: ["tivi.bg", "vivacom"]
@@ -666,7 +685,7 @@
   names:
   - name: AXN
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - axn.bg
   - start.bg
@@ -679,7 +698,7 @@
   names:
   - name: AXN White
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - dnes.bg
   - start.bg
@@ -691,7 +710,7 @@
   names:
   - name: AXN Black
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - dnes.bg
   - start.bg
@@ -709,7 +728,7 @@
     lang: en
   - name: Star Channel LQ
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - waltdisney.bg
   - dnes.bg
@@ -723,7 +742,7 @@
   - name: Star Life HD
   - name: Star Life LQ
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - waltdisney.bg
   - dnes.bg
@@ -735,7 +754,7 @@
   - name: Star Crime
   - name: Star Crime HD
   - name: Star Crime LQ
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
     - waltdisney.bg
     - dnes.bg
@@ -746,7 +765,7 @@
   names:
   - name: AMC
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv.dir.bg
   - potv.bg
@@ -760,7 +779,7 @@
     lang: en
   - name: Nostalgia HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - start.bg
   - nostalgia.bg
@@ -847,7 +866,7 @@
   - name: Nova Sport
   - name: Nova Sport HD
   - name: Nova Sport LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - nova.bg
   - dnes.bg
@@ -864,7 +883,7 @@
   - name: Diema Sport HD
   - name: Diema Sport 1 4K
   - name: Diema Sport LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - diemaextra.bg
   - nova.bg
@@ -882,7 +901,7 @@
   - name: Diema Sport 2 HD
   - name: Diema Sport 2 4K
   - name: Diema Sport 2 LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - diemaextra.bg
   - nova.bg
@@ -900,7 +919,7 @@
   - name: Diema Sport 3 HD
   - name: Diema Sport 3 4K
   - name: Diema Sport 3 LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - diemaextra.bg
   - nova.bg
@@ -916,7 +935,7 @@
   - name: Fightklub HD
   - name: Fightklub 4K
   - name: Fightklub LQ
-  groups: ["sport", "tivi.bg"]
+  groups: ["sport", "tivi.bg", "a1"]
   sources:
   - diemaextra.bg
   - tvprofil.com
@@ -931,7 +950,7 @@
   - name: Ring
   - name: Ring HD
   - name: Ring BG HD
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - btv.bg
   - dnes.bg
@@ -946,7 +965,7 @@
   - name: Max Sport 1
   - name: Max Sport 1 HD
   - name: Max Sport 1 LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - maxsport.live
   - dnes.bg
@@ -959,7 +978,7 @@
   - name: Max Sport 2
   - name: Max Sport 2 HD
   - name: Max Sport 2 LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - maxsport.live
   - dnes.bg
@@ -972,7 +991,7 @@
   - name: Max Sport 3
   - name: Max Sport 3 HD
   - name: Max Sport 3 LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - maxsport.live
   - dnes.bg
@@ -985,7 +1004,7 @@
   - name: Max Sport 4
   - name: Max Sport 4 HD
   - name: Max Sport 4 LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - maxsport.live
   - dnes.bg
@@ -997,7 +1016,7 @@
   - name: Eurosport
   - name: Eurosport HD
   - name: Eurosport LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - dnes.bg
   - tv.dir.bg
@@ -1010,7 +1029,7 @@
   - name: Eurosport 2 HD
   - name: Eurosport 2
   - name: Eurosport 2 LQ
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - dnes.bg
   - tv.dir.bg
@@ -1301,10 +1320,8 @@
   enabled: true
   names:
   - name: Gametoon
-    lang: en
   - name: Gametoon HD
-    lang: en
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - programtv.onet.pl
 
@@ -1617,10 +1634,9 @@
     lang: en
   - name: AMS HD
     lang: en
-  groups: ["sport", "tivi.bg", "vivacom"]
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - tvtoday.de
-  - dnes.bg
   
 - id: supertennis.it
   enabled: true
@@ -1669,7 +1685,8 @@
   names:
   - name: Fast Fun
   - name: Fast and Fun HD
-  groups: ["sport", "tivi.bg", "vivacom"]
+  - name: Fast &amp; Fun HD
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - programtv.onet.pl
   
@@ -1677,7 +1694,8 @@
   enabled: true
   names:
   - name: FightBox HD
-  groups: ["sport", "tivi.bg", "vivacom"]
+  - name: Fight Box Extra HD
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - programtv.onet.pl
   - yandex.ru
@@ -1720,7 +1738,7 @@
     lang: en
   - name: MTV 80’s
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tvsporedi.si
   - dnes.bg
@@ -1734,7 +1752,7 @@
     lang: en
   - name: MTV 90’s
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tvsporedi.si
   - dnes.bg
@@ -1748,9 +1766,10 @@
     lang: en
   - name: MTV 00’s
     lang: en
+  - name: MTV 00's
   - name: VH1
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tvsporedi.si
   - programtv.onet.pl
@@ -1764,7 +1783,9 @@
     lang: en
   - name: Club MTV HD
     lang: en
-  groups: ["tivi.bg"]
+  - name: MTV Club
+  - name: MTV Club HD
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvsporedi.si
   - dnes.bg
@@ -1776,7 +1797,7 @@
   names:
   - name: MTV Hits
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvsporedi.si
   - programtv.onet.pl
@@ -1790,7 +1811,7 @@
     lang: en
   - name: MTV Live HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvsporedi.si
   - dnes.bg
@@ -1815,7 +1836,7 @@
   - name: The Voice
   - name: The Voice HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - thevoice.bg
   - dnes.bg
@@ -1827,9 +1848,10 @@
   enabled: true
   names:
   - name: City TV
+  - name: City TV HD
   - name: City HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - city.bg
 
@@ -1850,8 +1872,9 @@
   names:
   - name: BOX
   - name: BOX HD
-    lang: en
-  groups: ["tivi.bg", "vivacom"]
+  - name: BOX TV
+  - name: BOX TV HD
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - tvprofil.com
@@ -1861,8 +1884,8 @@
   enabled: false
   names:
   - name: Magic TV
-    lang: en
-  groups: ["tivi.bg", "vivacom"]
+  - name: Magic TV HD
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - magictv.bg
   - tv.dir.bg
@@ -1884,7 +1907,7 @@
     lang: en
   - name: Планета 4K
     lang: bg
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - dnes.bg
@@ -1898,9 +1921,10 @@
   - name: Планета
   - name: Планета ТВ HD
   - name: Планета HD
+  - name: Planeta TV
   - name: Planeta LQ
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - tv-programa.bg
@@ -1915,7 +1939,7 @@
     lang: en
   - name: Планета Фолк
     lang: bg
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - dnes.bg
@@ -1926,7 +1950,7 @@
   names:
   - name: DSTV
   - name: DSTV HD
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - dstv.bg
   - tvprofil.com
@@ -1981,7 +2005,7 @@
   names:
   - name: Mezzo
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tvsporedi.si
   - tv-programa.bg
@@ -1997,7 +2021,7 @@
   - name: Mezzo Live
   - name: Mezzo Live HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvsporedi.si
   - programtv.onet.pl
@@ -2196,7 +2220,7 @@
   names:
   - name: RTL
   - name: RTL HD
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tvtoday.de
   - tv.dir.bg
@@ -2205,8 +2229,9 @@
   enabled: true
   names:
   - name: RTL II
+  - name: RTL ZWEI
     lang: de
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvtoday.de
   
@@ -2242,8 +2267,8 @@
   enabled: true
   names:
   - name: RiC
-    lang: de
-  groups: ["tivi.bg"]
+  - name: RiC TV
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvtoday.de
   - tvprofil.com
@@ -2366,7 +2391,7 @@
   - name: Vox
   - name: Vox HD
     lang: de
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvtoday.de
   
@@ -2548,11 +2573,9 @@
   - name: Нова Нюз
     lang: bg
   - name: Nova News
-    lang: en
   - name: Nova News HD
   - name: Nova News LQ
-    lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - nova.bg
   - dnes.bg
@@ -2564,7 +2587,7 @@
   - name: CNN International
   - name: CNN International HD
   - name: CNN
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - uksky.com
   - dnes.bg
@@ -2578,7 +2601,7 @@
     lang: en
   - name: Al Jazeera Eng
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - uksky.com
   - tvtoday.de
@@ -2591,8 +2614,8 @@
   names:
   - name: Deutsche Welle HD
   - name: Deutsche Welle
-    lang: en
-  groups: ["tivi.bg"]
+  - name: DW
+  groups: ["tivi.bg", "a1"]
   sources:
   - tv.sms.cz
   - programtv.onet.pl
@@ -2603,8 +2626,7 @@
   names:
   - name: Bloomberg
   - name: Bloomberg HD
-    lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - programtv.onet.pl
   - tvtoday.de
@@ -2613,10 +2635,9 @@
   enabled: true
   names:
   - name: Euronews
-    lang: en
   - name: Euronews HD
-    lang: en
-  groups: ["tivi.bg"]
+  - name: Euronews Bulgaria HD
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tvguide.co.uk
   - programtv.onet.pl
@@ -2628,10 +2649,8 @@
   names:
   - name: BBC World HD
   - name: BBC World News
-    lang: en
   - name: BBC Worldnews
-    lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tv24.co.uk
   - uksky.com
@@ -2656,8 +2675,7 @@
   names:
   - name: CNBC
   - name: CNBC HD
-    lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - uksky.com
   - programtv.onet.pl
@@ -2667,9 +2685,9 @@
   enabled: true
   names:
   - name: France 24 HD
-  - name: France 24
+  - name: France 24 English
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - uksky.com
   - tv.sms.cz
@@ -2683,8 +2701,9 @@
   names:
   - name: France 24 FR HD
   - name: France 24 FR
+  - name: France 24
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvtoday.de
   - tvsporedi.si
@@ -2734,7 +2753,7 @@
   - name: Sky News HD
   - name: Sky News
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tv24.co.uk
   - tv.sms.cz
@@ -2767,8 +2786,9 @@
 - id: freedom.ua
   enabled: true
   names:
+  - name: FREEДОМ
   - name: FREEДОМ (Укр)
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - meo.pt
   - tvprofil.com
@@ -2803,15 +2823,14 @@
   enabled: true
   names:
   - name: National Geographic
-    lang: en
   - name: NatGeo HD
-    lang: en
+  - name: Nat Geo
+  - name: Nat Geo HD
   - name: NGC HD
-    lang: en
   - name: NatGeo LQ
   - name: National Geographic HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - waltdisney.bg
   - tv.dir.bg
@@ -2821,10 +2840,11 @@
   names:
   - name: NatGeo Wild
   - name: NatGeo Wild HD
+  - name: Nat Geo Wild
   - name: Nat Geo Wild HD
   - name: National Geogrphic WILD HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - waltdisney.bg
   - dnes.bg
@@ -2836,7 +2856,7 @@
   - name: Wild TV
     lang: en
   - name: Wild TV HD
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - wildtv.ca
 
@@ -2846,7 +2866,7 @@
   - name: 24 Kitchen
   - name: 24 Kitchen HD
   - name: 24 Kitchen LQ
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - waltdisney.bg
   - tv.dir.bg
@@ -2858,7 +2878,8 @@
   - name: Soul and Pepper HD
   - name: Soul and Pepper
   - name: Soul&amp;Pepper
-  groups: ["tivi.bg","vivacom"]
+  - name: Soul&amp;Pepper HD
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - soulandpepper.tv
   
@@ -2877,7 +2898,7 @@
   - name: HGTV
   - name: HGTV HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -2892,7 +2913,7 @@
   - name: TLC HD
   - name: TLC LQ
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - dnes.bg
@@ -2911,11 +2932,10 @@
   enabled: true
   names:
   - name: Crime & Investigation
-    lang: en
   - name: C&I Networks
   - name: CI Networks
-    lang: en
-  groups: ["tivi.bg"]
+  - name: C&amp;I Network
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - tv.dir.bg
@@ -2927,7 +2947,7 @@
     lang: en
   - name: Viasat History HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - pawa.tv
   - viasat.bg
@@ -2943,7 +2963,7 @@
     lang: en
   - name: Viasat Explorer
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - pawa.tv
   - viasat.bg
@@ -2957,7 +2977,7 @@
     lang: en
   - name: Viasat Nature HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - pawa.tv
   - viasat.bg
@@ -2968,11 +2988,10 @@
   enabled: true
   names:
   - name: Discovery Channel
-    lang: en
+  - name: Discovery Channel HD
   - name: Discovery HD
   - name: Discovery LQ
-    lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tv-programa.bg
   - tv.dir.bg
@@ -2994,12 +3013,9 @@
   enabled: false
   names:
   - name: Investigation Discovery
-    lang: en
   - name: ID Xtra
-    lang: en
   - name: ID Xtra HD
-    lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - dnes.bg
@@ -3032,7 +3048,7 @@
     lang: en
   - name: Food Network HD
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - start.bg
@@ -3045,7 +3061,7 @@
     lang: en
   - name: Animal Planet HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - start.bg
   - dnes.bg
@@ -3095,7 +3111,7 @@
   - name: Ribalka i ohota
   - name: Ohota Rybalka
     lang: en
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "а1"]
   sources:
   - yandex.ru
   - ntvplus.ru
@@ -3109,7 +3125,7 @@
     lang: en
   - name: Travel XP HD
     lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - tv24.co.uk
   - tvsporedi.si
@@ -3122,7 +3138,7 @@
     lang: en
   - name: Travel Channel HD
     lang: en
-  groups: ["tivi.bg","vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -3138,7 +3154,7 @@
   - name: Travel TV
   - name: Travel LQ
     lang: en
-  groups: ["tivi.bg","vivacom"]
+  groups: ["tivi.bg","vivacom", "a1"]
   sources:
   - traveltv.bg-night
   - traveltv.bg
@@ -3162,23 +3178,19 @@
   enabled: true
   names:
   - name: DocuBox
-    lang: en
-  groups: ["tivi.bg"]
+  - name: Docu Box
+  groups: ["tivi.bg", "a1"]
   sources:
   - tv-programa.bg
-  - dnes.bg
   - tv.dir.bg
   
 - id: historytv.com
   enabled: true
   names:
   - name: History Channel
-    lang: en
   - name: History HD
-    lang: en
   - name: History Channel HD
-    lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - tvprofil.com
@@ -3209,8 +3221,9 @@
   names:
   - name: TVT Tourism
   - name: TV Tourism HD
-    lang: en
-  groups: ["tivi.bg"]
+  - name: Телевизия Туризъм (TVT)
+    lang: bg
+  groups: ["tivi.bg", "a1"]
   sources:
   - see.bg
   - tv.dir.bg
@@ -3221,7 +3234,7 @@
   names:
   - name: This Is Bulgaria
   - name: This Is Bulgaria HD
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1" ]
   sources:
   - dnes.bg
 
@@ -3230,11 +3243,9 @@
   enabled: true
   names:
   - name: Love Nature
-    lang: en
   - name: Love Nature HD
   - name: Love Nature 4K
-    lang: en
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - tv.dir.bg
@@ -3275,10 +3286,9 @@
   enabled: true
   names:
   - name: FashionBox HD
-    lang: en
   - name: FashionBox TV
-    lang: en
-  groups: ["tivi.bg"]
+  - name: Fashion Box HD
+  groups: ["tivi.bg", "a1"]
   sources:
   - mts.rs
   - tvprofil.com
@@ -3299,7 +3309,7 @@
   enabled: true
   names:
   - name: The World
-  groups: ["tivi.bg","vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   
@@ -3318,9 +3328,10 @@
   enabled: true
   names:
   - name: Wness
+  - name: Wness TV HD
   - name: Wness TV
   - name: Wness HD
-  groups: ["tivi.bg", "vivacom"]
+  groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - wnesstv.com
   - tvprofil.com
@@ -3331,7 +3342,9 @@
   - name: MyZen 4K
   - name: MyZen HD
   - name: MyZen
-  groups: ["tivi.bg"]
+  - name: My Zen
+  - name: My Zen TV 4K
+  groups: ["tivi.bg", "a1"]
   sources:
   - tvprofil.com
   
@@ -3345,7 +3358,7 @@
   - name: Nickeldeon
   - name: Nickeldeon LQ
     lang: en
-  groups: ["kids", "tivi.bg"]
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
   - dnes.bg
   - tv-programa.bg
@@ -3357,8 +3370,7 @@
   names:
   - name: Nicktoons
   - name: Nicktoons HD
-    lang: en
-  groups: ["kids", "tivi.bg", "vivacom"]
+  groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - start.bg
@@ -3368,11 +3380,11 @@
   enabled: true
   names:
   - name: Nick Jr.
+  - name: Nick Jr
   - name: Nick Jr. LQ
   - name: Nick Junior
   - name: Nick HD
-    lang: en
-  groups: ["kids", "tivi.bg", "vivacom"]
+  groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - start.bg
@@ -3399,7 +3411,7 @@
   - name: E Kids
   - name: eKids
     lang: en
-  groups: ["kids", "tivi.bg"]
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
   - start.bg
   - tv-programa.bg
@@ -3409,8 +3421,8 @@
   enabled: true
   names:
   - name: Da Vinci Learning
-    lang: en
-  groups: ["kids", "tivi.bg"]
+  - name: DaVinci Learning
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
   - start.bg
   - tv.dir.bg
@@ -3421,8 +3433,7 @@
   names:
   - name: Cartoonito
   - name: Cartoonito HD
-    lang: en
-  groups: ["kids", "tivi.bg"]
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
   - tvprofil.com
   - tv-programa.bg
@@ -3434,8 +3445,7 @@
   names:
   - name: Super Toons
   - name: Super Toons HD
-    lang: en
-  groups: ["kids", "tivi.bg"]
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
   - tv.dir.bg
   - tvprofil.com
@@ -3447,7 +3457,7 @@
   - name: Cartoon Network / TCM
   - name: Cartoon Net LQ
     lang: en
-  groups: ["kids", "tivi.bg", "vivacom"]
+  groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
   - dnes.bg
@@ -3461,7 +3471,7 @@
   - name: Disney
   - name: Disney LQ
     lang: en
-  groups: ["kids", "tivi.bg", "vivacom"]
+  groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
   - start.bg
@@ -3472,10 +3482,10 @@
 - id: disneyjunior.bg
   enabled: true
   names:
+  - name: Disney J
   - name: Disney Jr.
   - name: Disney Junior
-    lang: en
-  groups: ["kids", "tivi.bg", "vivacom"]
+  groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
   - tvprofil.com
   - disney.bg
@@ -3487,7 +3497,7 @@
   enabled: true
   names:
   - name: Карусель
-  groups: ["kids", "tivi.bg"]
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
   - yandex.ru
   
@@ -3495,9 +3505,10 @@
   enabled: true
   names:
   - name: Детский мир HD / Телеклуб
+  - name: Детский мир
   - name: Детский мир / Телеклуб
     lang: en
-  groups: ["kids", "tivi.bg"]
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
     - yandex.ru
   
@@ -3535,7 +3546,7 @@
   enabled: true
   names:
   - name: Duck TV
-  groups: ["kids", "tivi.bg", "vivacom"]
+  groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
   - tvplus.com.tr
   - tvprofil.com
@@ -3545,7 +3556,7 @@
   enabled: true
   names:
   - name: Baby TV
-  groups: ["kids", "tivi.bg"]
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
   - tvplus.com.tr
   - tv.dir.bg
@@ -3554,7 +3565,7 @@
   enabled: true
   names:
   - name: Fix and Foxi
-  groups: ["kids", "tivi.bg"]
+  groups: ["kids", "tivi.bg", "a1"]
   sources:
   - tvtoday.de
   - tvprofil.com
@@ -3757,10 +3768,8 @@
   enabled: true
   names:
   - name: TRT Haber
-    lang: tr
   - name: TRT Haber HD
-    lang: tr
-  groups: ["tr", "tivi.bg"]
+  groups: ["tr", "tivi.bg", "a1"]
   sources:
   - trt.net.tr
   - tvplus.com.tr
@@ -3773,7 +3782,7 @@
     lang: tr
   - name: TRT Belgesel HD
     lang: tr
-  groups: ["tr", "tivi.bg"]
+  groups: ["tr", "tivi.bg", "a1"]
   sources:
   - tvplus.com.tr
   - trt.net.tr
@@ -3850,7 +3859,7 @@
   names:
   - name: Euro D
     lang: tr
-  groups: ["tr", "tivi.bg"]
+  groups: ["tr", "tivi.bg", "a1"]
   sources:
 
 - id: semerkand.tr
@@ -3909,7 +3918,7 @@
   enabled: false
   names:
   - name: A Haber
-  groups: ["tr", "tivi.bg"]
+  groups: ["tr", "tivi.bg", "a1"]
   sources:
   - turksatkablo.com.tr
 
@@ -3945,7 +3954,8 @@
   names:
   - name: TV 8
   - name: TV8 Intl
-  groups: ["tr", "tivi.bg"]
+  - name: TV8 International
+  groups: ["tr", "tivi.bg", "a1"]
   sources:
   - turksatkablo.com.tr
   
@@ -4006,7 +4016,7 @@
   - name: English Club TV
   - name: English Club HD
     lang: en
-  groups: [ "tivi.bg", "vivacom"]
+  groups: [ "tivi.bg", "vivacom", "a1"]
   sources:
     - tvplus.com.tr
     - tvsporedi.si
@@ -4028,7 +4038,7 @@
   names:
   - name: 24 Horas
   - name: 24 Horas HD
-  groups: ["tivi.bg"]
+  groups: ["tivi.bg", "a1"]
   sources:
   - mi.tv
   - meo.pt
@@ -4053,8 +4063,7 @@
   enabled: true
   names:
   - name: Erox
-    lang: en
-  groups: ["xxx", "tivi.bg"]
+  groups: ["xxx", "tivi.bg", "a1"]
   sources:
   - programtv.onet.pl
   - tvprofil.com
@@ -4063,10 +4072,8 @@
   enabled: true
   names:
   - name: Eroxxx
-    lang: en
   - name: Eroxx HD
-    lang: en
-  groups: ["xxx", "tivi.bg"]
+  groups: ["xxx", "tivi.bg", "a1"]
   sources:
   - programtv.onet.pl
   - tvprofil.com
@@ -4099,8 +4106,7 @@
   enabled: true
   names:
   - name: Hustler HD
-    lang: en
-  groups: ["xxx", "tivi.bg"]
+  groups: ["xxx", "tivi.bg", "a1"]
   sources:
   - tvsporedi.si
   - programtv.onet.pl
@@ -4131,8 +4137,7 @@
   enabled: true
   names:
   - name: Private TV
-    lang: en
-  groups: ["xxx", "tivi.bg"]
+  groups: ["xxx", "tivi.bg", "a1"]
   sources:
   - tvsporedi.si
   - programtv.onet.pl
@@ -4155,8 +4160,7 @@
   enabled: true
   names:
   - name: Brazzers Europe
-    lang: en
-  groups: ["xxx", "tivi.bg"]
+  groups: ["xxx", "tivi.bg", "a1"]
   sources:
   - programtv.onet.pl
   - tvprofil.com
@@ -4165,7 +4169,6 @@
   enabled: true
   names:
   - name: XXL
-    lang: en
   groups: ["xxx", "tivi.bg"]
   sources:
   - tvprofil.com
@@ -4174,8 +4177,7 @@
   enabled: true
   names:
   - name: Passion XXX
-    lang: en
-  groups: ["xxx", "tivi.bg"]
+  groups: ["xxx", "tivi.bg", "a1"]
   sources:
   - tvprofil.com
 
@@ -4311,7 +4313,7 @@
   enabled: true
   names:
   - name: TV5 Monde HD
-  groups: ["fr", "tivi.bg"]
+  groups: ["fr", "tivi.bg", "a1"]
   sources:
   - programme-tv.net
   - ouest-france.fr
@@ -4405,6 +4407,14 @@
   sources:
   - raiplay.it
   - guida.tv
+  
+- id: polonia.tv
+  enabled: false
+  names:
+  - name: Polonia
+  - name: Polonia HD
+  - name: TV Polonia
+  sources:
   
 - id: raiscuola.it
   enabled: true
