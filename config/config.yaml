@@ -191,4 +191,19 @@ output-files:
 
   - name: sport.epg.xml
     groups: [ "sport" ]
-    compression: none    
+    compression: none
+
+  - name: tivibg.xml.gz
+    days-ahead: 3
+    groups: ["tivi.bg"]
+    compression: gzip
+
+  - name: a1.xml.gz
+    days-ahead: 3
+    groups: ["a1"]
+    compression: gzip
+
+  - name: vivacom.xml.gz
+    days-ahead: 3
+    groups: ["vivacom"]
+    compression: gzip

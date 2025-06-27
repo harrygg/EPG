@@ -2104,7 +2104,7 @@
   sources:
   - mts.rs
   
-- id: trtmusic.tr
+- id: trtmuzic.tr
   days-ahead: 1
   enabled: true
   names:
@@ -2346,7 +2346,7 @@
   sources:
   - tvtoday.de
   
-- id: tagesschau.de
+- id: tagesschau24.de
   enabled: true
   names:
   - name: Tagesschau 24 
@@ -2875,8 +2875,8 @@
 - id: soulandpepper.tv
   enabled: true
   names:
-  - name: Soul and Pepper HD
   - name: Soul and Pepper
+  - name: Soul and Pepper HD
   - name: Soul&amp;Pepper
   - name: Soul&amp;Pepper HD
   groups: ["tivi.bg", "vivacom", "a1"]
@@ -3533,7 +3533,7 @@
   - turksatkablo.com.tr
   - tvprofil.com
   
-- id: minicacocuk.tr
+- id: minikacocuk.tr
   enabled: true
   names:
   - name: Minika Cocuk
@@ -3799,6 +3799,7 @@
   groups: ["tr", "tivi.bg"]
   sources:
   - tvplus.com.tr
+  - turksatkablo.com.tr
 
 - id: trtavaz.tr
   enabled: true
@@ -3810,6 +3811,7 @@
   groups: ["tr", "tivi.bg"]
   sources:
   - tvplus.com.tr
+  - turksatkablo.com.tr
 
 - id: nowtv.tr
   enabled: true
@@ -3821,6 +3823,7 @@
   groups: ["tr", "tivi.bg"]
   sources:
   - tvplus.com.tr
+  - turksatkablo.com.tr
 
 - id: cnnturk.tr
   enabled: true
@@ -3921,6 +3924,7 @@
   groups: ["tr", "tivi.bg", "a1"]
   sources:
   - turksatkablo.com.tr
+  - tvplus.com.tr
 
 - id: atv.tr
   enabled: true
@@ -3958,6 +3962,7 @@
   groups: ["tr", "tivi.bg", "a1"]
   sources:
   - turksatkablo.com.tr
+  - tvplus.com.tr
   
 - id: tv85.tr
   enabled: true
@@ -3966,6 +3971,7 @@
   groups: ["tr", "tivi.bg"]
   sources:
   - tvplus.com.tr
+  - turksatkablo.com.tr
   
 - id: fox.tr
   enabled: false

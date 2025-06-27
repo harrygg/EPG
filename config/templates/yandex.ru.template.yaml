@@ -43,7 +43,7 @@ channel-parameters:
     channelId: jivi-421
   moyaplaneta.ru:
     channelId: moya-planeta-653
-  karusel.ru:
+  karusel.tv:
     channelId: karusel-int-554
   vijuprimiere.ru:
     channelId: vip-premiere-779
@@ -65,7 +65,8 @@ channel-parameters:
     channelId: centralnoe-televidenie-ctv-198
   fightbox.com:
     channelId: fast-fun-box-hd-1243
-
+  vremya.ru:
+    channelId: vremya-649
 
 # Used for extracting channel names and params from a page containing the list of available channels
 #channel-extract-rules: 
