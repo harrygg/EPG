@@ -263,11 +263,11 @@ channel-parameters:
     channelId: nicktoons
   'Film Plus HD':
     channelId: 221
-  'MTV 80s':
-    channelId: 224
-  'MTV 90s':
-    channelId: 225
-  CLUBMTV:
+  mtv80s.com:
+    channelId: mtv%2080s
+  mtv90s.com:
+    channelId: mtv 90s
+  clubmtv.com:
     channelId: 226
   fenfolk.bg:
     channelId: fen%20folk

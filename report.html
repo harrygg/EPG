@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <head>
@@ -35,15 +34,20 @@
                 channelNameTd.innerText = channel.ChannelName;
                 channelNameTd.style.fontWeight = "bold";
                 channelNameTd.style.fontFamily = "Verdana";
+
                 tableRowElement.appendChild(channelNameTd);
+
+                var hasDetailsTd = document.createElement("td");
+                var icon = channel.HasDetails ? "&#x2705;" : "&#x274C;";
+                hasDetailsTd.innerHTML = icon;
+                tableRowElement.appendChild(hasDetailsTd);
 
                 var totalProgramsTd = document.createElement("td");
                 tableRowElement.appendChild(totalProgramsTd);
-
-                var hasDetailsTd = document.createElement("td");
-                var icon = channel.HasDetails ? "&#x2705;" : "";
-                hasDetailsTd.innerHTML = icon;
-                tableRowElement.appendChild(hasDetailsTd);
+                // totalProgramsTd.innerText = 
+                // var channelIdTd = document.createElement("td");
+                // channelIdTd.innerText = channel.ChannelName;
+                // tableRowElement.appendChild(channelIdTd);
 
                 var totalDurationTD = document.createElement("td");
                 tableRowElement.appendChild(totalDurationTD);
@@ -129,20 +133,20 @@
     </script>
 </head>
 <body>
-    <h3>Grabbing started at: <span id="startTime"></span></h3>
-    <h3>Grabbing ended at: <span id="endTime"></span></h3>
-    <h3>Grabbing duration: <span id="totalDuration"></span></h3>
-    <h3>Programs with EPG: <span id="programsWithEpg"></span></h3>
-    <h3>Programs without EPG: <span id="programsWithoutEpg"></span></h3>
+    <h3>Начало: <span id="startTime"></span></h3>
+    <h3>Край: <span id="endTime"></span></h3>
+    <h3>Продължителност: <span id="totalDuration"></span></h3>
+    <h3>Програми с разписание: <span id="programsWithEpg"></span></h3>
+    <h3>Програми без разписание: <span id="programsWithoutEpg"></span></h3>
 
     <table id="channels" cellspacing="0" cellpadding="5" style="padding: 5px">
         <tr>
             <th rowspan="2"><h2>#</h2></th>
-            <th rowspan="2"><h2>Channel name</h2></th>
-            <th rowspan="2"><h2>Total programs</h2></th>
-            <th rowspan="2"><h2>Has details</h2></th>
-            <th rowspan="2"><h2>Overall grabbing duration</h2></th>
-            <th colspan="5"><h2>Grabbing rounds</h2></th>
+            <th rowspan="2"><h2>Канал</h2></th>
+            <th rowspan="2"><h2>Детайли</h2></th>
+            <th rowspan="2"><h2>Брой програми</h2></th>
+            <th rowspan="2"><h2>Време за събиране</h2></th>
+            <th colspan="5"><h2>Брой кръгове</h2></th>
         </tr>
         <tr>
             <th>#1</th>
@@ -157,10 +161,10 @@
 
     <table id="grabbers" cellspacing="0" cellpadding="5" style="border:1px solid #000; padding: 5px">
         <tr>
-            <th>Grabber name</th>
-            <th>Used in channels</th>
-            <th>Total programs grabbed</th>
-            <th>Total time in use</th>
+            <th>Грабър</th>
+            <th>Използван в канали</th>
+            <th>Общ брой програми</th>
+            <th>Общо време</th>
         </tr>
     </table>
 </body>

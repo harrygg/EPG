@@ -14,7 +14,7 @@ init-pages:
         locator: csrfToken
         debug: true    
 
-### NOw we have the token, we can do post
+### Now we have the token, we can do post
 request:
   url: https://tv.dir.bg/load/programs
   http-method: POST
@@ -40,7 +40,7 @@ request:
       hook: after
 
 programs:
-  locator: .broadcast-item
+  locator: .panels .panel:nth-of-type(n+2) .broadcast-item
   debug: false
 
 elements:

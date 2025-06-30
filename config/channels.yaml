@@ -271,7 +271,6 @@
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
   - start.bg
-  - dnes.bg
   - tv.dir.bg
   
 - id: agrotv.bg
@@ -283,8 +282,7 @@
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
   - start.bg
-  - dnes.bg
-  - tv.dir.bg
+  - dnevnik.bg
   
 - id: trakia.potv.eu
   enabled: false
@@ -329,10 +327,9 @@
     lang: en
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
+  - tv.dir.bg
   - start.bg
   - tv-programa.bg
-  - dnes.bg
-  - tv.dir.bg
   - tvprofil.com
   
 - id: sedemosmi.tv
@@ -510,24 +507,17 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - pawa.tv
-  - dnes.bg
   - tv-programa.bg
 
 - id: kino.viasat.bg
   enabled: true
   names:
-  - name: TV 1000
-    lang: en
-  - name: TV 1000 org
-  - name: TV1000
-    lang: en
-  - name: TV 1000 HD
+  - name: Viasat kino
+  - name: Viasat kino HD
   - name: TV 1000 - Viasat kino
-    lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - pawa.tv
-  - dnes.bg
   - tv.dir.bg
   
 - id: dizi.bg
@@ -1018,7 +1008,6 @@
   - name: Eurosport LQ
   groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
-  - dnes.bg
   - tv.dir.bg
   - start.bg
   - tvprofil.com
@@ -1031,7 +1020,6 @@
   - name: Eurosport 2 LQ
   groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
-  - dnes.bg
   - tv.dir.bg
   - start.bg
   - tvprofil.com
@@ -1740,8 +1728,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
-  - tvsporedi.si
-  - dnes.bg
+  - start.bg
   - programtv.onet.pl
   
 - id: mtv90s.com
@@ -1754,8 +1741,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
-  - tvsporedi.si
-  - dnes.bg
+  - start.bg
   - programtv.onet.pl
 
 - id: mtv00s.com
@@ -1788,7 +1774,6 @@
   groups: ["tivi.bg", "a1"]
   sources:
   - tvsporedi.si
-  - dnes.bg
   - programtv.onet.pl
   
 - id: mtvhits.com
@@ -1801,7 +1786,6 @@
   sources:
   - tvsporedi.si
   - programtv.onet.pl
-  - tv.dir.bg
 
 - id: mtvlive.com
   days-ahead: 1
@@ -1967,9 +1951,8 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
-  - fentv.bg
   - start.bg
-  - dnes.bg
+  - fentv.bg
     
 - id: fenfolk.bg
   days-ahead: 1
@@ -1982,7 +1965,6 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - start.bg
-  - dnes.bg
   
 - id: balkanika.bg
   days-ahead: 1
@@ -1996,7 +1978,6 @@
     lang: en
   groups: ["tivi.bg"]
   sources:
-  - tv.dir.bg
   - start.bg
   
 - id: mezzo.tv
@@ -2636,13 +2617,12 @@
   names:
   - name: Euronews
   - name: Euronews HD
-  - name: Euronews Bulgaria HD
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
+  - tv.dir.bg
   - tvguide.co.uk
   - programtv.onet.pl
   - tvsporedi.si
-  - tv.dir.bg
   
 - id: bbcworldnews.com
   enabled: true
@@ -2951,7 +2931,6 @@
   sources:
   - pawa.tv
   - viasat.bg
-  - dnes.bg
   - tv.dir.bg
   
 - id: explore.viasat.bg
@@ -3063,8 +3042,8 @@
     lang: en
   groups: ["tivi.bg", "a1"]
   sources:
-  - start.bg
-  - dnes.bg
+  - tv.dir.bg
+  - tv-programa.bg
 
 - id: hobbylov.bg
   enabled: false
@@ -3140,11 +3119,10 @@
     lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
-  - tv-programa.bg
-  - tvprofil.com
   - tv.dir.bg
+  - tv-programa.bg
   - start.bg
-  - dnes.bg
+  - tvprofil.com
 
 - id: traveltv.bg
   enabled: true
@@ -3459,10 +3437,9 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
-  - start.bg
-  - dnes.bg
   - tv.dir.bg
-  - tvprofil.com
+  - start.bg
+  - tv-programa.bg
   
 - id: disneychannel.bg
   enabled: true
@@ -3473,11 +3450,10 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
-  - tv-programa.bg
-  - start.bg
-  - tvprofil.com
   - disney.bg
   - tv.dir.bg
+  - tv-programa.bg
+  - start.bg
   
 - id: disneyjunior.bg
   enabled: true
@@ -3487,11 +3463,9 @@
   - name: Disney Junior
   groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
-  - tvprofil.com
   - disney.bg
   - tv.dir.bg
   - start.bg
-  - dnes.bg
   
 - id: karusel.tv
   enabled: true
