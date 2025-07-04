@@ -3,12 +3,12 @@ version: 1.0
 author: Hristo Genev
 
 date-parameter:
-  format: dd
+  format: "%d"
 
 ### The programs are loaded on  https://www.turksatkablo.com.tr/yayin-akisi.aspx from a json document
 request:
   http-timeout: 60
-  url: https://www.turksatkablo.com.tr/userUpload/EPG/${date.format(dd)}.json?_=${date.format(epoch)}
+  url: https://www.turksatkablo.com.tr/userUpload/EPG/${date}.json?_=${date.format(epoch)}
   debug: false
     
 programs:
