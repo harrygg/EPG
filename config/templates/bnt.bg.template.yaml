@@ -6,7 +6,6 @@ date-parameter:
 
 request:
   url: https://bnt.bg/program/${channelId}
-  cache-lifetime: 0.00001
 
 programs:
   locator: .tab-holder-${date} a

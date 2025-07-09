@@ -1,5 +1,7 @@
 ---
 author: Hristo Genev
+enabled: false
+cache-lifetime: 0.00001
 
 date-parameter:
   format: yyyy-MM-dd
@@ -17,8 +19,8 @@ init-pages:
 ### Now we have the token, we can do post
 request:
   url: https://tv.dir.bg/load/programs
-  cache-lifetime: 0.00001
   http-method: POST
+  cache-lifetime: 0.00001
   debug: false
   body-params: 
     _token: ${token}
@@ -86,7 +88,7 @@ global-parameters:
   programDetailsEnabled: false
 
 channel-parameters: 
-  btn1.bg:
+  bnt1.bg:
     channelId: 57
   btv.bg:
     channelId: 61

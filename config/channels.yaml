@@ -38,10 +38,10 @@
   - name: БНТ1 LQ
   icon: http://tv.bnt.bg/assets/images/bnt1-home.jpg
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
-  sources:
+  sources:  
+  - tv.dir.bg
   - bnt.bg
   - dnes.bg
-  - tv.dir.bg
   
 - id: bnt2.bg
   enabled: true
