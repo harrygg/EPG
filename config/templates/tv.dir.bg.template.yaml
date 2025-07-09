@@ -17,8 +17,9 @@ init-pages:
 ### Now we have the token, we can do post
 request:
   url: https://tv.dir.bg/load/programs
+  cache-lifetime: 0.00001
   http-method: POST
-  debug: true
+  debug: false
   body-params: 
     _token: ${token}
     channel: ${channelId}
