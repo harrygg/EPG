@@ -1,47 +1,896 @@
-2025-07-09 22:26:18.818 00001 [INF] **************************************************************************
-2025-07-09 22:26:18.841 00001 [INF] 
-2025-07-09 22:26:18.843 00001 [INF]                        EPG.grabber  1.23.9.20
-2025-07-09 22:26:18.848 00001 [INF] 
-2025-07-09 22:26:18.849 00001 [INF] **************************************************************************
-2025-07-09 22:26:18.850 00001 [INF] Start time: "2025-07-09T22:26:18.8501139+03:00"
-2025-07-09 22:26:18.852 00001 [INF] Command line arguments: grab -f C:\Users\HGenev\Git\harrygg\EPG\\config -o C:\Users\HGenev\Git\harrygg\EPG\ -l 0
-2025-07-09 22:26:19.192 00001 [INF] Loading config from file C:\Users\HGenev\Git\harrygg\EPG\config\config.yaml
-2025-07-09 22:26:19.409 00001 [VRB] Created config folder C:\Users\HGenev\Git\harrygg\EPG\config
-2025-07-09 22:26:19.409 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
-2025-07-09 22:26:19.410 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
-2025-07-09 22:26:19.410 00001 [VRB] Created output folder C:\Users\HGenev\Git\harrygg\EPG\
-2025-07-09 22:26:19.410 00001 [DBG] Using configuration:
-2025-07-09 22:26:19.410 00001 [DBG]   Grabbing for days ahead: 3
-2025-07-09 22:26:19.410 00001 [DBG]   Keeping days behind: 0
-2025-07-09 22:26:19.410 00001 [DBG]   Using templates folder: C:\Users\HGenev\Git\harrygg\EPG\config\templates
-2025-07-09 22:26:19.410 00001 [DBG]   Number of parallel grabbing threads: 1
-2025-07-09 22:26:19.411 00001 [INF] Setting file log level to "Verbose". Console is set to "Information"
-2025-07-09 22:26:19.769 00001 [VRB] Loading channels from file C:\Users\HGenev\Git\harrygg\EPG\config\channels.yaml
-2025-07-09 22:26:19.859 00001 [INF] Loaded 372 channels
-2025-07-09 22:26:19.864 00001 [INF] Creating grabbing groups for round #1
-2025-07-09 22:26:19.868 00001 [INF] Created 52 grabber groups
-2025-07-09 22:26:19.870 00001 [DBG] bnt.bg, btv.bg, tv-programa.bg, nova.bg, start.bg, dnes.bg, codehealth.bg, codefashion.bg, tvn.bg, tv.dir.bg, sedemosmi.tv, moviestar.bg, pawa.tv, axn.bg, waltdisney.bg, yandex.ru, diemaextra.bg, maxsport.live, tvarenasport.com, mojtv.hr, ntvplus.ru, programtv.onet.pl, tvplus.com.tr, tvsporedi.si, tvtoday.de, united.cloud, bein.com, guida.tv, ontvtonight.com, thevoice.bg, city.bg, bgmusic.tv, dstv.bg, mts.rs, tvprofil.com, uksky.com, tv.sms.cz, tv24.co.uk, meo.pt, wildtv.ca, soulandpepper.tv, tv999.bg, traveltv.bg-night, see.bg, programme-tv.net, wnesstv.com, disney.bg, trt.net.tr, turksatkablo.com.tr, mi.tv, ouest-france.fr, raiplay.it
-2025-07-09 22:26:19.898 00006 [INF] Using template bnt.bg
-2025-07-09 22:26:19.902 00006 [DBG] Loading template from file: C:\Users\HGenev\Git\harrygg\EPG\config\templates\bnt.bg.template.yaml
-2025-07-09 22:26:19.926 00008 [VRB] Searching for parameters in string: https://bnt.bg/program/${channelId}
-2025-07-09 22:26:19.931 00008 [VRB] 1 parameters extracted: channelId
-2025-07-09 22:26:19.932 00008 [VRB] Searching for parameters in string: .tab-holder-${date} a
-2025-07-09 22:26:19.933 00008 [VRB] 1 parameters extracted: date
-2025-07-09 22:26:19.934 00008 [VRB] Searching for parameters in string: .name
-2025-07-09 22:26:19.934 00008 [VRB] No parameters found
-2025-07-09 22:26:19.935 00008 [VRB] Searching for parameters in string: .hour
-2025-07-09 22:26:19.935 00008 [VRB] No parameters found
-2025-07-09 22:26:19.935 00008 [VRB] Searching for parameters in string: img
-2025-07-09 22:26:19.935 00008 [VRB] No parameters found
-2025-07-09 22:26:19.936 00008 [VRB] Searching for parameters in string: ${detailsUrl}
-2025-07-09 22:26:19.936 00008 [VRB] 1 parameters extracted: detailsUrl
-2025-07-09 22:26:19.936 00008 [VRB] Searching for parameters in string: .under-head
-2025-07-09 22:26:19.936 00008 [VRB] No parameters found
-2025-07-09 22:26:19.943 00008 [VRB] Created and activated a new parameters storage 'bnt.bg'
-2025-07-09 22:26:19.946 00008 [VRB] Overriding DaysToGrab value with 3
-2025-07-09 22:26:19.946 00008 [VRB] Overriding DaysToKeep value with 0
-2025-07-09 22:26:19.946 00008 [VRB] Overriding ShouldGrabDetails value with true
-2025-07-09 22:26:19.946 00008 [VRB] Overriding IncrementalGrabbing value with true
-2025-07-09 22:26:19.946 00008 [VRB] Overriding SingleWeek value with false
-2025-07-09 22:26:19.950 00008 [VRB] Initializing grabbing start time with "2025-07-09T00:00:00.0000000+03:00"
-2025-07-09 22:26:20.113 00008 [VRB] Using existing browsers folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\browsers
+2025-07-09 22:39:17.036 00001 [INF] **************************************************************************
+2025-07-09 22:39:17.060 00001 [INF] 
+2025-07-09 22:39:17.063 00001 [INF]                        EPG.grabber  1.23.9.20
+2025-07-09 22:39:17.068 00001 [INF] 
+2025-07-09 22:39:17.070 00001 [INF] **************************************************************************
+2025-07-09 22:39:17.071 00001 [INF] Start time: "2025-07-09T22:39:17.0708961+03:00"
+2025-07-09 22:39:17.073 00001 [INF] Command line arguments: grab -f C:\Users\HGenev\Git\harrygg\EPG\\config -o C:\Users\HGenev\Git\harrygg\EPG\ -l 0
+2025-07-09 22:39:17.151 00001 [INF] Loading config from file C:\Users\HGenev\Git\harrygg\EPG\config\config.yaml
+2025-07-09 22:39:17.264 00001 [VRB] Created config folder C:\Users\HGenev\Git\harrygg\EPG\config
+2025-07-09 22:39:17.264 00001 [VRB] Created cache folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache
+2025-07-09 22:39:17.264 00001 [VRB] Created guides folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides
+2025-07-09 22:39:17.264 00001 [VRB] Created output folder C:\Users\HGenev\Git\harrygg\EPG\
+2025-07-09 22:39:17.264 00001 [DBG] Using configuration:
+2025-07-09 22:39:17.265 00001 [DBG]   Grabbing for days ahead: 3
+2025-07-09 22:39:17.265 00001 [DBG]   Keeping days behind: 0
+2025-07-09 22:39:17.265 00001 [DBG]   Using templates folder: C:\Users\HGenev\Git\harrygg\EPG\config\templates
+2025-07-09 22:39:17.265 00001 [DBG]   Number of parallel grabbing threads: 1
+2025-07-09 22:39:17.265 00001 [INF] Setting file log level to "Verbose". Console is set to "Information"
+2025-07-09 22:39:17.373 00001 [VRB] Loading channels from file C:\Users\HGenev\Git\harrygg\EPG\config\channels.yaml
+2025-07-09 22:39:17.430 00001 [INF] Loaded 372 channels
+2025-07-09 22:39:17.434 00001 [INF] Creating grabbing groups for round #1
+2025-07-09 22:39:17.439 00001 [INF] Created 52 grabber groups
+2025-07-09 22:39:17.440 00001 [DBG] bnt.bg, btv.bg, tv-programa.bg, nova.bg, start.bg, dnes.bg, codehealth.bg, codefashion.bg, tvn.bg, tv.dir.bg, sedemosmi.tv, moviestar.bg, pawa.tv, axn.bg, waltdisney.bg, yandex.ru, diemaextra.bg, maxsport.live, tvarenasport.com, mojtv.hr, ntvplus.ru, programtv.onet.pl, tvplus.com.tr, tvsporedi.si, tvtoday.de, united.cloud, bein.com, guida.tv, ontvtonight.com, thevoice.bg, city.bg, bgmusic.tv, dstv.bg, mts.rs, tvprofil.com, uksky.com, tv.sms.cz, tv24.co.uk, meo.pt, wildtv.ca, soulandpepper.tv, tv999.bg, traveltv.bg-night, see.bg, programme-tv.net, wnesstv.com, disney.bg, trt.net.tr, turksatkablo.com.tr, mi.tv, ouest-france.fr, raiplay.it
+2025-07-09 22:39:17.469 00006 [INF] Using template bnt.bg
+2025-07-09 22:39:17.473 00006 [DBG] Loading template from file: C:\Users\HGenev\Git\harrygg\EPG\config\templates\bnt.bg.template.yaml
+2025-07-09 22:39:17.489 00010 [VRB] Searching for parameters in string: https://bnt.bg/program/${channelId}
+2025-07-09 22:39:17.493 00010 [VRB] 1 parameters extracted: channelId
+2025-07-09 22:39:17.496 00010 [VRB] Searching for parameters in string: .tab-holder-${date} a
+2025-07-09 22:39:17.497 00010 [VRB] 1 parameters extracted: date
+2025-07-09 22:39:17.497 00010 [VRB] Searching for parameters in string: .name
+2025-07-09 22:39:17.497 00010 [VRB] No parameters found
+2025-07-09 22:39:17.498 00010 [VRB] Searching for parameters in string: .hour
+2025-07-09 22:39:17.498 00010 [VRB] No parameters found
+2025-07-09 22:39:17.498 00010 [VRB] Searching for parameters in string: img
+2025-07-09 22:39:17.498 00010 [VRB] No parameters found
+2025-07-09 22:39:17.499 00010 [VRB] Searching for parameters in string: ${detailsUrl}
+2025-07-09 22:39:17.499 00010 [VRB] 1 parameters extracted: detailsUrl
+2025-07-09 22:39:17.499 00010 [VRB] Searching for parameters in string: .under-head
+2025-07-09 22:39:17.499 00010 [VRB] No parameters found
+2025-07-09 22:39:17.505 00010 [VRB] Created and activated a new parameters storage 'bnt.bg'
+2025-07-09 22:39:17.507 00010 [VRB] Overriding DaysToGrab value with 3
+2025-07-09 22:39:17.507 00010 [VRB] Overriding DaysToKeep value with 0
+2025-07-09 22:39:17.507 00010 [VRB] Overriding ShouldGrabDetails value with true
+2025-07-09 22:39:17.507 00010 [VRB] Overriding IncrementalGrabbing value with true
+2025-07-09 22:39:17.507 00010 [VRB] Overriding SingleWeek value with false
+2025-07-09 22:39:17.512 00010 [VRB] Initializing grabbing start time with "2025-07-09T00:00:00.0000000+03:00"
+2025-07-09 22:39:17.519 00010 [VRB] Using existing browsers folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\browsers
+2025-07-09 22:39:17.670 00010 [DBG] Starting grabbing of channel БНТ 1
+2025-07-09 22:39:17.671 00010 [VRB] Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:17.671 00010 [VRB] bnt.bg|БНТ 1|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:17.678 00010 [VRB] bnt.bg|БНТ 1|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:17.678 00010 [VRB] bnt.bg|БНТ 1|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:17.678 00010 [VRB] bnt.bg|БНТ 1|1||| Activated parameters storage 'bnt.bg'
+2025-07-09 22:39:17.679 00010 [VRB] bnt.bg|БНТ 1|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:17.679 00010 [VRB] bnt.bg|БНТ 1|1||| Creating/updating "Channel" parameter channelId=bnt1
+2025-07-09 22:39:17.681 00010 [DBG] bnt.bg|БНТ 1|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\bnt1.bg.json.gz
+2025-07-09 22:39:17.747 00010 [VRB] bnt.bg|БНТ 1|1||| Found 97 programs in cache
+2025-07-09 22:39:17.748 00010 [VRB] bnt.bg|БНТ 1|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:17.749 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 05:55:00 -> Книга на книгите
+2025-07-09 22:39:17.756 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 06:55:00 -> Денят започва
+2025-07-09 22:39:17.759 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 09:10:00 -> Начален удар
+2025-07-09 22:39:17.760 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 09:30:00 -> 100% будни
+2025-07-09 22:39:17.762 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 11:00:00 -> Това го знам
+2025-07-09 22:39:17.764 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 12:00:00 -> По света и у нас
+2025-07-09 22:39:17.766 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 12:25:00 -> Новини на турски език
+2025-07-09 22:39:17.767 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 12:35:00 -> Малки истории
+2025-07-09 22:39:17.769 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 12:45:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.771 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 13:00:00 -> Последният печели
+2025-07-09 22:39:17.773 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 14:00:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.775 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 14:15:00 -> Блуи 2
+2025-07-09 22:39:17.776 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 14:30:00 -> Хрусковците
+2025-07-09 22:39:17.778 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 14:55:00 -> Книга на книгите 3
+2025-07-09 22:39:17.780 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 15:20:00 -> Деца на времето 2
+2025-07-09 22:39:17.781 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 15:45:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.783 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 16:00:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:17.786 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 16:30:00 -> Светът и ние
+2025-07-09 22:39:17.788 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 16:55:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:17.791 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:17.792 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 18:30:00 -> Още от деня
+2025-07-09 22:39:17.794 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 19:00:00 -> Последният печели
+2025-07-09 22:39:17.796 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 20:00:00 -> По света и у нас
+2025-07-09 22:39:17.798 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 20:45:00 -> Спортни новини
+2025-07-09 22:39:17.799 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 21:00:00 -> В кадър
+2025-07-09 22:39:17.801 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 21:30:00 -> Трето полувреме
+2025-07-09 22:39:17.803 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 09.07.2025 г. 21:55:00 -> ФИФА Световно клубно първенство: Пари Сен Жармен - Реал Мадрид, полуфинална среща
+2025-07-09 22:39:17.805 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 00:00:00 -> Трето полувреме
+2025-07-09 22:39:17.806 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 00:30:00 -> Още от деня
+2025-07-09 22:39:17.808 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 01:00:00 -> 100% будни
+2025-07-09 22:39:17.810 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 02:25:00 -> Това го знам
+2025-07-09 22:39:17.811 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 03:25:00 -> Отблизо
+2025-07-09 22:39:17.813 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 04:25:00 -> По света и у нас
+2025-07-09 22:39:17.815 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 05:10:00 -> Книга на книгите 3
+2025-07-09 22:39:17.818 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 05:40:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.819 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 05:55:00 -> Книга на книгите
+2025-07-09 22:39:17.821 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 06:55:00 -> Денят започва
+2025-07-09 22:39:17.823 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 09:20:00 -> 100% будни
+2025-07-09 22:39:17.825 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 11:00:00 -> Това го знам
+2025-07-09 22:39:17.828 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 12:00:00 -> По света и у нас
+2025-07-09 22:39:17.830 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 12:25:00 -> Новини на турски език
+2025-07-09 22:39:17.832 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 12:35:00 -> Малки истории
+2025-07-09 22:39:17.834 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 12:45:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.835 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 13:00:00 -> Последният печели
+2025-07-09 22:39:17.837 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 14:00:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.839 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 14:15:00 -> Блуи 2
+2025-07-09 22:39:17.841 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 14:30:00 -> Хрусковците
+2025-07-09 22:39:17.842 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 14:55:00 -> Книга на книгите 3
+2025-07-09 22:39:17.844 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 15:20:00 -> Деца на времето 2
+2025-07-09 22:39:17.846 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 15:45:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.847 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 16:00:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:17.849 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 16:30:00 -> Светът и ние
+2025-07-09 22:39:17.852 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 16:55:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:17.853 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:17.855 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 18:20:00 -> Още от деня
+2025-07-09 22:39:17.857 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 18:45:00 -> Спорт ТОТО
+2025-07-09 22:39:17.859 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 19:00:00 -> Последният печели
+2025-07-09 22:39:17.860 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 20:00:00 -> По света и у нас
+2025-07-09 22:39:17.862 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 20:45:00 -> Спортни новини
+2025-07-09 22:39:17.864 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 21:00:00 -> Вечерното шоу
+2025-07-09 22:39:17.866 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 22:00:00 -> Мистериите на доктор Блейк
+2025-07-09 22:39:17.867 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 23:00:00 -> По света и у нас
+2025-07-09 22:39:17.869 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 10.07.2025 г. 23:25:00 -> Дневник за моите деца
+2025-07-09 22:39:17.871 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 01:10:00 -> Още от деня
+2025-07-09 22:39:17.873 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 01:35:00 -> 100% будни
+2025-07-09 22:39:17.874 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 03:10:00 -> Това го знам
+2025-07-09 22:39:17.876 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 04:10:00 -> Олтарите на България
+2025-07-09 22:39:17.878 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 04:25:00 -> По света и у нас
+2025-07-09 22:39:17.880 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 05:10:00 -> Книга на книгите 3
+2025-07-09 22:39:17.882 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 05:40:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.884 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 05:55:00 -> Книга на книгите
+2025-07-09 22:39:17.886 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 06:55:00 -> Денят започва
+2025-07-09 22:39:17.888 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 09:20:00 -> 100% будни
+2025-07-09 22:39:17.889 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 11:00:00 -> Това го знам
+2025-07-09 22:39:17.891 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 12:00:00 -> По света и у нас
+2025-07-09 22:39:17.893 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 12:25:00 -> Новини на турски език
+2025-07-09 22:39:17.895 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 12:35:00 -> Малки истории
+2025-07-09 22:39:17.897 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 12:45:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.898 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 13:00:00 -> Последният печели
+2025-07-09 22:39:17.900 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 14:00:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.902 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 14:15:00 -> Арт детектив
+2025-07-09 22:39:17.903 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 14:30:00 -> Вечната музика
+2025-07-09 22:39:17.905 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 15:00:00 -> Книга на книгите 3
+2025-07-09 22:39:17.907 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 15:25:00 -> Деца на времето 2
+2025-07-09 22:39:17.909 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 15:45:00 -> Телепазарен прозорец
+2025-07-09 22:39:17.911 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 16:00:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:17.912 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 16:30:00 -> Светът и ние
+2025-07-09 22:39:17.914 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 16:55:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:17.916 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:17.918 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 18:30:00 -> Още от деня
+2025-07-09 22:39:17.919 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 19:00:00 -> Последният печели
+2025-07-09 22:39:17.921 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 20:00:00 -> По света и у нас
+2025-07-09 22:39:17.923 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 20:45:00 -> Спортни новини
+2025-07-09 22:39:17.925 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 21:00:00 -> Панорама с Бойко Василев
+2025-07-09 22:39:17.927 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 22:00:00 -> Мистериите на доктор Блейк
+2025-07-09 22:39:17.929 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 23:00:00 -> По света и у нас
+2025-07-09 22:39:17.930 00010 [INF] bnt.bg|БНТ 1|1||| Added program from cache 11.07.2025 г. 23:25:00 -> Дневник за моите любими
+2025-07-09 22:39:17.933 00010 [VRB] bnt.bg|БНТ 1|1||| Saving 97 programs in channel bnt1.bg in-memory repository
+2025-07-09 22:39:17.933 00010 [DBG] bnt.bg|БНТ 1|1||| Starting grabbing of channel БНТ 2
+2025-07-09 22:39:17.933 00010 [VRB] bnt.bg|БНТ 1|1||| Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:17.933 00010 [VRB] bnt.bg|БНТ 2|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:17.934 00010 [VRB] bnt.bg|БНТ 2|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:17.934 00010 [VRB] bnt.bg|БНТ 2|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:17.934 00010 [VRB] bnt.bg|БНТ 2|1||| Activated parameters storage 'bnt.bg'
+2025-07-09 22:39:17.934 00010 [VRB] bnt.bg|БНТ 2|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:17.934 00010 [VRB] bnt.bg|БНТ 2|1||| Creating/updating "Channel" parameter channelId=bnt2
+2025-07-09 22:39:17.934 00010 [DBG] bnt.bg|БНТ 2|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\bnt2.bg.json.gz
+2025-07-09 22:39:17.936 00010 [VRB] bnt.bg|БНТ 2|1||| Found 107 programs in cache
+2025-07-09 22:39:17.936 00010 [VRB] bnt.bg|БНТ 2|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:17.936 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 06:00:00 -> Знание.БГ
+2025-07-09 22:39:17.939 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 06:30:00 -> Линия Култура
+2025-07-09 22:39:17.942 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 07:00:00 -> Между сенки
+2025-07-09 22:39:17.943 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 07:45:00 -> Защо България?
+2025-07-09 22:39:17.945 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 08:00:00 -> Бразди
+2025-07-09 22:39:17.947 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 08:45:00 -> Светът на жестовете
+2025-07-09 22:39:17.949 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 09:00:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:17.951 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 09:30:00 -> Блуи
+2025-07-09 22:39:17.953 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 09:35:00 -> Уча, зная и играя
+2025-07-09 22:39:17.955 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 10:00:00 -> Зигзаг.БГ
+2025-07-09 22:39:17.957 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 10:30:00 -> Натисни F1
+2025-07-09 22:39:17.959 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 11:00:00 -> Знание.БГ
+2025-07-09 22:39:17.961 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 11:30:00 -> Туризъм.бг
+2025-07-09 22:39:17.962 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 12:00:00 -> По света и у нас
+2025-07-09 22:39:17.964 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 12:30:00 -> С БНТ завинаги
+2025-07-09 22:39:17.966 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 13:20:00 -> Защо България?
+2025-07-09 22:39:17.968 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 13:30:00 -> До Европа и напред
+2025-07-09 22:39:17.970 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 14:00:00 -> Рецепта за култура
+2025-07-09 22:39:17.972 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 15:00:00 -> През коридорите на времето с Морган Фрийман
+2025-07-09 22:39:17.974 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 15:50:00 -> Знание.БГ
+2025-07-09 22:39:17.976 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 16:20:00 -> Между сенки
+2025-07-09 22:39:17.978 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 17:10:00 -> Ал Хайба
+2025-07-09 22:39:17.980 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:17.982 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 18:30:00 -> Линия Култура
+2025-07-09 22:39:17.983 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 19:00:00 -> През коридорите на времето с Морган Фрийман
+2025-07-09 22:39:17.985 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 19:50:00 -> Лека нощ, деца!
+2025-07-09 22:39:17.988 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 20:00:00 -> Страсти в Тоскана
+2025-07-09 22:39:17.990 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 20:50:00 -> Под игото: "Стремската долина пламнала"
+2025-07-09 22:39:17.992 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 22:00:00 -> Последният печели
+2025-07-09 22:39:17.994 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 23:00:00 -> По света и у нас
+2025-07-09 22:39:17.996 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 09.07.2025 г. 23:45:00 -> Камък на шията
+2025-07-09 22:39:17.998 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 01:15:00 -> Арт детектив
+2025-07-09 22:39:17.999 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 01:30:00 -> По света и у нас
+2025-07-09 22:39:18.002 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 02:15:00 -> Знание.БГ
+2025-07-09 22:39:18.004 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 02:45:00 -> До Европа и напред
+2025-07-09 22:39:18.006 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 03:15:00 -> Светът на жестовете
+2025-07-09 22:39:18.008 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 03:30:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.010 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 04:30:00 -> Опитай света... с Ханес
+2025-07-09 22:39:18.012 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 05:00:00 -> На опера с БНТ 2
+2025-07-09 22:39:18.014 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 05:30:00 -> Българското село
+2025-07-09 22:39:18.016 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 06:00:00 -> Знание.БГ
+2025-07-09 22:39:18.018 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 06:30:00 -> Линия Култура
+2025-07-09 22:39:18.020 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 07:00:00 -> Между сенки
+2025-07-09 22:39:18.022 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 07:45:00 -> Защо България?
+2025-07-09 22:39:18.023 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 08:00:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.025 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 09:00:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:18.027 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 09:30:00 -> Блуи
+2025-07-09 22:39:18.029 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 09:35:00 -> Уча, зная и играя
+2025-07-09 22:39:18.031 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 10:00:00 -> Зигзаг.БГ
+2025-07-09 22:39:18.033 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 10:30:00 -> Натисни F1
+2025-07-09 22:39:18.035 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 11:00:00 -> Знание.БГ
+2025-07-09 22:39:18.038 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 11:30:00 -> Туризъм.бг
+2025-07-09 22:39:18.040 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 12:00:00 -> По света и у нас
+2025-07-09 22:39:18.041 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 12:30:00 -> В кадър
+2025-07-09 22:39:18.043 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 13:00:00 -> В кадър
+2025-07-09 22:39:18.045 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 13:30:00 -> №1 - Туризмът
+2025-07-09 22:39:18.046 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 14:00:00 -> Рецепта за култура
+2025-07-09 22:39:18.049 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 15:00:00 -> През коридорите на времето с Морган Фрийман
+2025-07-09 22:39:18.051 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 15:50:00 -> Знание.БГ
+2025-07-09 22:39:18.053 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 16:20:00 -> Между сенки
+2025-07-09 22:39:18.055 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 17:10:00 -> Ал Хайба
+2025-07-09 22:39:18.057 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:18.059 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 18:20:00 -> Проект 6
+2025-07-09 22:39:18.061 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 18:30:00 -> Линия Култура
+2025-07-09 22:39:18.062 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 19:00:00 -> През коридорите на времето с Морган Фрийман
+2025-07-09 22:39:18.064 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 19:50:00 -> Лека нощ, деца!
+2025-07-09 22:39:18.066 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 20:00:00 -> Страсти в Тоскана
+2025-07-09 22:39:18.068 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 20:50:00 -> Под игото: "Историята на един невъстанал народ"
+2025-07-09 22:39:18.070 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 22:00:00 -> Последният печели
+2025-07-09 22:39:18.072 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 23:00:00 -> По света и у нас
+2025-07-09 22:39:18.073 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 10.07.2025 г. 23:30:00 -> Утре ще ходим на кино
+2025-07-09 22:39:18.075 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 01:10:00 -> Линия Култура
+2025-07-09 22:39:18.077 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 01:40:00 -> По света и у нас
+2025-07-09 22:39:18.079 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 02:15:00 -> Знание.БГ
+2025-07-09 22:39:18.080 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 02:45:00 -> Защо България?
+2025-07-09 22:39:18.082 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 03:00:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.084 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 04:00:00 -> №1 - Туризмът
+2025-07-09 22:39:18.085 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 04:30:00 -> Туризъм.бг
+2025-07-09 22:39:18.087 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 05:00:00 -> Религията днес
+2025-07-09 22:39:18.089 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 06:00:00 -> Знание.БГ
+2025-07-09 22:39:18.090 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 06:30:00 -> Линия Култура
+2025-07-09 22:39:18.092 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 07:00:00 -> Между сенки
+2025-07-09 22:39:18.094 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 07:45:00 -> Защо България?
+2025-07-09 22:39:18.096 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 08:00:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.098 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 09:00:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:18.100 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 09:30:00 -> Блуи
+2025-07-09 22:39:18.102 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 09:35:00 -> Уча, зная и играя
+2025-07-09 22:39:18.104 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 10:00:00 -> Зигзаг.БГ
+2025-07-09 22:39:18.106 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 10:30:00 -> Натисни F1
+2025-07-09 22:39:18.108 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 11:00:00 -> Парламентарен контрол
+2025-07-09 22:39:18.109 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 13:30:00 -> Край селската печка
+2025-07-09 22:39:18.111 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 13:45:00 -> Чешити
+2025-07-09 22:39:18.113 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 14:00:00 -> Рецепта за култура
+2025-07-09 22:39:18.115 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 15:00:00 -> През коридорите на времето с Морган Фрийман
+2025-07-09 22:39:18.116 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 15:50:00 -> Уча, зная и играя
+2025-07-09 22:39:18.118 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 16:30:00 -> Между сенки
+2025-07-09 22:39:18.119 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 17:10:00 -> Ал Хайба
+2025-07-09 22:39:18.121 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:18.123 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 18:30:00 -> Линия Култура
+2025-07-09 22:39:18.125 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 19:00:00 -> Благословеният
+2025-07-09 22:39:18.127 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 19:30:00 -> Чешити
+2025-07-09 22:39:18.128 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 19:50:00 -> Лека нощ, деца!
+2025-07-09 22:39:18.131 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 20:00:00 -> Страсти в Тоскана
+2025-07-09 22:39:18.133 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 21:00:00 -> Английският съсед
+2025-07-09 22:39:18.135 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 22:00:00 -> Последният печели
+2025-07-09 22:39:18.136 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 23:00:00 -> По света и у нас
+2025-07-09 22:39:18.138 00010 [INF] bnt.bg|БНТ 2|1||| Added program from cache 11.07.2025 г. 23:30:00 -> Новото познание
+2025-07-09 22:39:18.140 00010 [VRB] bnt.bg|БНТ 2|1||| Saving 107 programs in channel bnt2.bg in-memory repository
+2025-07-09 22:39:18.140 00010 [DBG] bnt.bg|БНТ 2|1||| Starting grabbing of channel БНТ 3
+2025-07-09 22:39:18.140 00010 [VRB] bnt.bg|БНТ 2|1||| Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:18.140 00010 [VRB] bnt.bg|БНТ 3|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:18.140 00010 [VRB] bnt.bg|БНТ 3|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:18.140 00010 [VRB] bnt.bg|БНТ 3|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.140 00010 [VRB] bnt.bg|БНТ 3|1||| Activated parameters storage 'bnt.bg'
+2025-07-09 22:39:18.140 00010 [VRB] bnt.bg|БНТ 3|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.140 00010 [VRB] bnt.bg|БНТ 3|1||| Creating/updating "Channel" parameter channelId=bnt3
+2025-07-09 22:39:18.140 00010 [DBG] bnt.bg|БНТ 3|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\bnt3.bg.json.gz
+2025-07-09 22:39:18.142 00010 [VRB] bnt.bg|БНТ 3|1||| Found 54 programs in cache
+2025-07-09 22:39:18.142 00010 [VRB] bnt.bg|БНТ 3|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:18.142 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 05:55:00 -> Планинско колоездене: Roc d'Azur
+2025-07-09 22:39:18.144 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 06:25:00 -> Европейско отборно първенство по лека атлетика /втора дивизия/
+2025-07-09 22:39:18.145 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 12:00:00 -> Начален удар
+2025-07-09 22:39:18.148 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 12:20:00 -> УЕФА Европейско първенство за жени: Германия - Дания, среща от груповата фаза
+2025-07-09 22:39:18.150 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 14:10:00 -> Спортни новини
+2025-07-09 22:39:18.151 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 14:15:00 -> Последният печели
+2025-07-09 22:39:18.153 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 15:15:00 -> Ветроходство: Гран при на Ню Йорк
+2025-07-09 22:39:18.155 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 16:15:00 -> Спортсмакс
+2025-07-09 22:39:18.156 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 16:40:00 -> УЕФА Европейско първенство за жени: Германия - Дания и Полша - Швеция, срещи от груповата фаза
+2025-07-09 22:39:18.158 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 16:45:00 -> Телепазарен прозорец
+2025-07-09 22:39:18.160 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 17:00:00 -> ФИФА Световно клубно първенство: Флуминензе - Челси, полуфинална среща
+2025-07-09 22:39:18.162 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 18:50:00 -> УЕФА Европейско първенство за жени: Англия - Нидерландия, среща от груповата фаза
+2025-07-09 22:39:18.164 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 20:55:00 -> Сафари рали - Южна Африка
+2025-07-09 22:39:18.166 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 21:25:00 -> Monster Jam - автомобилно шоу
+2025-07-09 22:39:18.167 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 21:50:00 -> УЕФА Европейско първенство за жени: Франция - Уелс, среща от груповата фаза
+2025-07-09 22:39:18.169 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 09.07.2025 г. 23:50:00 -> УЕФА Европейско първенство за жени: Полша - Швеция, среща от груповата фаза
+2025-07-09 22:39:18.171 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 01:40:00 -> Спортни новини
+2025-07-09 22:39:18.173 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 01:50:00 -> ФИФА Световно клубно първенство: Флуминензе - Челси, полуфинална среща
+2025-07-09 22:39:18.175 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 03:40:00 -> УЕФА Европейско първенство за жени: Германия - Дания, среща от груповата фаза
+2025-07-09 22:39:18.177 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 05:40:00 -> Аз съм...
+2025-07-09 22:39:18.179 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 05:55:00 -> Ветроходство: Гран при на Ню Йорк
+2025-07-09 22:39:18.180 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 06:50:00 -> Европейско отборно първенство по лека атлетика /втора дивизия/
+2025-07-09 22:39:18.182 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 12:20:00 -> FEI Конен спорт
+2025-07-09 22:39:18.184 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 12:50:00 -> Световна купа по модерен петобой - финали /финал, мъже/
+2025-07-09 22:39:18.185 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 14:35:00 -> Спортни новини
+2025-07-09 22:39:18.187 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 14:40:00 -> ФИФА Световно клубно първенство: Флуминензе - Челси, полуфинална среща
+2025-07-09 22:39:18.189 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 16:35:00 -> Зала на славата: Ангел Ангелов
+2025-07-09 22:39:18.191 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 16:50:00 -> УЕФА Европейско първенство за жени: Англия - Нидерландия и Франция - Уелс, срещи от груповата фаза
+2025-07-09 22:39:18.193 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 16:55:00 -> Телепазарен прозорец
+2025-07-09 22:39:18.196 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 17:10:00 -> Последният печели
+2025-07-09 22:39:18.198 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 18:10:00 -> УЕФА Европейско първенство за жени: Англия - Нидерландия, среща от груповата фаза
+2025-07-09 22:39:18.199 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 20:00:00 -> ФИФА Световно клубно първенство: Пари Сен Жармен - Реал Мадрид, полуфинална среща
+2025-07-09 22:39:18.201 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 21:55:00 -> УЕФА Европейско първенство за жени: Норвегия - Исландия, среща от груповата фаза
+2025-07-09 22:39:18.203 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 10.07.2025 г. 23:50:00 -> ФИФА Световно клубно първенство: Флуминензе - Челси, полуфинална среща
+2025-07-09 22:39:18.205 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 01:40:00 -> Спортни новини
+2025-07-09 22:39:18.206 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 01:50:00 -> ФИФА Световно клубно първенство: Пари Сен Жармен - Реал Мадрид, полуфинална среща
+2025-07-09 22:39:18.208 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 03:45:00 -> УЕФА Европейско първенство за жени: Франция - Уелс, среща от груповата фаза
+2025-07-09 22:39:18.210 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 05:35:00 -> Monster Jam - автомобилно шоу
+2025-07-09 22:39:18.211 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 06:00:00 -> Истории от Олимпийските игри
+2025-07-09 22:39:18.213 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 06:30:00 -> FEI Конен спорт
+2025-07-09 22:39:18.215 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 07:00:00 -> Световна купа по модерен петобой - финали /полуфинали, жени/
+2025-07-09 22:39:18.216 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 10:40:00 -> Автомобилизъм:GT World Challenge Europe, 24 часа на Спа
+2025-07-09 22:39:18.218 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 13:35:00 -> Monster Jam - автомобилно шоу
+2025-07-09 22:39:18.221 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 14:00:00 -> Спортни новини
+2025-07-09 22:39:18.223 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 14:05:00 -> УЕФА Европейско първенство за жени: Англия - Нидерландия, среща от груповата фаза
+2025-07-09 22:39:18.225 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 15:55:00 -> УЕФА Европейско първенство за жени: Норвегия - Исландия, среща от груповата фаза
+2025-07-09 22:39:18.228 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 16:00:00 -> Сафари рали - Южна Африка
+2025-07-09 22:39:18.229 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 16:30:00 -> Спортсмакс
+2025-07-09 22:39:18.231 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 16:55:00 -> Телепазарен прозорец
+2025-07-09 22:39:18.233 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 17:10:00 -> Последният печели
+2025-07-09 22:39:18.235 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 18:10:00 -> УЕФА Европейско първенство за жени: Норвегия - Исландия, среща от груповата фаза
+2025-07-09 22:39:18.237 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 20:00:00 -> ФИФА Световно клубно първенство: Флуминензе - Челси, полуфинална среща
+2025-07-09 22:39:18.238 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 21:55:00 -> УЕФА Европейско първенство за жени: Италия - Испания, среща от груповата фаза
+2025-07-09 22:39:18.240 00010 [INF] bnt.bg|БНТ 3|1||| Added program from cache 11.07.2025 г. 23:55:00 -> ФИФА Световно клубно първенство: Пари Сен Жармен - Реал Мадрид, полуфинална среща
+2025-07-09 22:39:18.242 00010 [VRB] bnt.bg|БНТ 3|1||| Saving 54 programs in channel bnt3.bg in-memory repository
+2025-07-09 22:39:18.242 00010 [DBG] bnt.bg|БНТ 3|1||| Starting grabbing of channel БНТ 4
+2025-07-09 22:39:18.242 00010 [VRB] bnt.bg|БНТ 3|1||| Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:18.242 00010 [VRB] bnt.bg|БНТ 4|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:18.242 00010 [VRB] bnt.bg|БНТ 4|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:18.242 00010 [VRB] bnt.bg|БНТ 4|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.242 00010 [VRB] bnt.bg|БНТ 4|1||| Activated parameters storage 'bnt.bg'
+2025-07-09 22:39:18.242 00010 [VRB] bnt.bg|БНТ 4|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.242 00010 [VRB] bnt.bg|БНТ 4|1||| Creating/updating "Channel" parameter channelId=bnt4
+2025-07-09 22:39:18.242 00010 [DBG] bnt.bg|БНТ 4|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\bnt4.bg.json.gz
+2025-07-09 22:39:18.244 00010 [VRB] bnt.bg|БНТ 4|1||| Found 100 programs in cache
+2025-07-09 22:39:18.244 00010 [VRB] bnt.bg|БНТ 4|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:18.244 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 06:00:00 -> Олтарите на България
+2025-07-09 22:39:18.246 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 06:15:00 -> Бразди
+2025-07-09 22:39:18.248 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 06:55:00 -> Денят започва
+2025-07-09 22:39:18.250 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 09:10:00 -> Защо България?
+2025-07-09 22:39:18.252 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 09:30:00 -> 100% будни
+2025-07-09 22:39:18.253 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 11:00:00 -> Това го знам
+2025-07-09 22:39:18.255 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 12:00:00 -> По света и у нас
+2025-07-09 22:39:18.257 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 12:25:00 -> Бразди
+2025-07-09 22:39:18.258 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 13:10:00 -> Малки истории
+2025-07-09 22:39:18.260 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 13:20:00 -> Проект 6
+2025-07-09 22:39:18.262 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 13:30:00 -> Линия Култура
+2025-07-09 22:39:18.263 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 14:00:00 -> Рецепта за култура
+2025-07-09 22:39:18.265 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 15:00:00 -> Време за губене
+2025-07-09 22:39:18.268 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 15:30:00 -> Последният печели
+2025-07-09 22:39:18.270 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 16:30:00 -> Светът и ние
+2025-07-09 22:39:18.272 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 16:55:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.273 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:18.275 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 18:30:00 -> Още от деня
+2025-07-09 22:39:18.277 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 19:00:00 -> Знание.БГ
+2025-07-09 22:39:18.279 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 19:30:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:18.280 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 20:00:00 -> По света и у нас
+2025-07-09 22:39:18.282 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 20:45:00 -> Спортни новини
+2025-07-09 22:39:18.284 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 21:00:00 -> Вазовите песни /175 г. от рождението на Иван Вазов/
+2025-07-09 22:39:18.286 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 22:00:00 -> Бразди
+2025-07-09 22:39:18.288 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 22:45:00 -> Чешити
+2025-07-09 22:39:18.290 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 23:00:00 -> На опера с БНТ 2
+2025-07-09 22:39:18.292 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 23:30:00 -> Малки истории
+2025-07-09 22:39:18.294 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 09.07.2025 г. 23:40:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.295 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 00:40:00 -> Отблизо
+2025-07-09 22:39:18.297 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 01:35:00 -> Светът и ние
+2025-07-09 22:39:18.299 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 02:00:00 -> №1 - Туризмът
+2025-07-09 22:39:18.301 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 02:30:00 -> Имате среща с... Диана Любенова
+2025-07-09 22:39:18.302 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 03:15:00 -> Чешити
+2025-07-09 22:39:18.304 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 03:30:00 -> Вечната музика
+2025-07-09 22:39:18.306 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 04:00:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:18.307 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 04:30:00 -> Рецепта за култура
+2025-07-09 22:39:18.309 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 05:25:00 -> Знание.БГ
+2025-07-09 22:39:18.311 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 06:00:00 -> Олтарите на България
+2025-07-09 22:39:18.313 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 06:15:00 -> Бразди
+2025-07-09 22:39:18.315 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 06:55:00 -> Денят започва
+2025-07-09 22:39:18.316 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 09:20:00 -> 100% будни
+2025-07-09 22:39:18.318 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 11:00:00 -> Това го знам
+2025-07-09 22:39:18.321 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 12:00:00 -> По света и у нас
+2025-07-09 22:39:18.322 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 12:25:00 -> Иде нашенската музика
+2025-07-09 22:39:18.325 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 13:20:00 -> Проект 6
+2025-07-09 22:39:18.326 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 13:30:00 -> Линия Култура
+2025-07-09 22:39:18.328 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 14:00:00 -> С шедьоврите на големите майстори
+2025-07-09 22:39:18.330 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 15:00:00 -> 10 000 крачки
+2025-07-09 22:39:18.332 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 15:30:00 -> Последният печели
+2025-07-09 22:39:18.333 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 16:30:00 -> Светът и ние
+2025-07-09 22:39:18.335 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 16:55:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.337 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:18.338 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 18:20:00 -> Още от деня
+2025-07-09 22:39:18.340 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 18:45:00 -> Олтарите на България
+2025-07-09 22:39:18.342 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 19:00:00 -> Знание.БГ
+2025-07-09 22:39:18.343 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 19:30:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:18.345 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 20:00:00 -> По света и у нас
+2025-07-09 22:39:18.347 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 20:45:00 -> Спортни новини
+2025-07-09 22:39:18.350 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 21:00:00 -> Вечерното шоу
+2025-07-09 22:39:18.352 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 22:00:00 -> Арт стрийм
+2025-07-09 22:39:18.353 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 22:30:00 -> Българското село
+2025-07-09 22:39:18.355 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 23:00:00 -> По света и у нас
+2025-07-09 22:39:18.357 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 23:30:00 -> Малки истории
+2025-07-09 22:39:18.359 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 10.07.2025 г. 23:40:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.360 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 00:40:00 -> Религията днес
+2025-07-09 22:39:18.362 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 01:35:00 -> Светът и ние
+2025-07-09 22:39:18.364 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 02:00:00 -> До Европа и напред
+2025-07-09 22:39:18.366 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 02:30:00 -> С БНТ завинаги
+2025-07-09 22:39:18.368 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 03:20:00 -> Малки истории
+2025-07-09 22:39:18.370 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 03:30:00 -> Време за губене
+2025-07-09 22:39:18.372 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 04:00:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:18.373 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 04:30:00 -> Рецепта за култура
+2025-07-09 22:39:18.381 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 05:25:00 -> Знание.БГ
+2025-07-09 22:39:18.384 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 06:00:00 -> Олтарите на България
+2025-07-09 22:39:18.386 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 06:15:00 -> Бразди
+2025-07-09 22:39:18.388 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 06:55:00 -> Денят започва
+2025-07-09 22:39:18.390 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 09:20:00 -> 100% будни
+2025-07-09 22:39:18.392 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 11:00:00 -> Това го знам
+2025-07-09 22:39:18.393 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 12:00:00 -> По света и у нас
+2025-07-09 22:39:18.395 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 12:25:00 -> Малки истории
+2025-07-09 22:39:18.397 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 13:15:00 -> Проект 6
+2025-07-09 22:39:18.399 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 13:30:00 -> Линия Култура
+2025-07-09 22:39:18.400 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 14:00:00 -> Моят плейлист
+2025-07-09 22:39:18.402 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 15:00:00 -> Олтарите на България
+2025-07-09 22:39:18.404 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 15:15:00 -> Защо България?
+2025-07-09 22:39:18.406 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 15:30:00 -> Последният печели
+2025-07-09 22:39:18.408 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 16:30:00 -> Светът и ние
+2025-07-09 22:39:18.410 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 16:55:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.412 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 18:00:00 -> По света и у нас
+2025-07-09 22:39:18.414 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 18:30:00 -> Още от деня
+2025-07-09 22:39:18.416 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 19:00:00 -> Уча, зная и играя
+2025-07-09 22:39:18.418 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 19:30:00 -> Бързо, лесно, вкусно
+2025-07-09 22:39:18.420 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 20:00:00 -> По света и у нас
+2025-07-09 22:39:18.422 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 20:45:00 -> Спортни новини
+2025-07-09 22:39:18.424 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 21:00:00 -> Панорама с Бойко Василев
+2025-07-09 22:39:18.426 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 22:00:00 -> Натисни F1
+2025-07-09 22:39:18.427 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 22:30:00 -> Туризъм.бг
+2025-07-09 22:39:18.429 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 23:00:00 -> По света и у нас
+2025-07-09 22:39:18.431 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 23:25:00 -> Малки истории
+2025-07-09 22:39:18.433 00010 [INF] bnt.bg|БНТ 4|1||| Added program from cache 11.07.2025 г. 23:35:00 -> България в 60 минути с Мариана Векилска
+2025-07-09 22:39:18.435 00010 [VRB] bnt.bg|БНТ 4|1||| Saving 100 programs in channel bnt4.bg in-memory repository
+2025-07-09 22:39:18.436 00010 [INF] Using template btv.bg
+2025-07-09 22:39:18.437 00010 [DBG] Loading template from file: C:\Users\HGenev\Git\harrygg\EPG\config\templates\btv.bg.template.yaml
+2025-07-09 22:39:18.439 00006 [VRB] Searching for parameters in string: https://www.btv.bg/programata/?day=${date}
+2025-07-09 22:39:18.439 00006 [VRB] 1 parameters extracted: date
+2025-07-09 22:39:18.440 00006 [VRB] Searching for parameters in string: ul.channel-schedule-${channelId} > li
+2025-07-09 22:39:18.440 00006 [VRB] 1 parameters extracted: channelId
+2025-07-09 22:39:18.441 00006 [VRB] Searching for parameters in string: .title
+2025-07-09 22:39:18.441 00006 [VRB] No parameters found
+2025-07-09 22:39:18.441 00006 [VRB] Searching for parameters in string: .time
+2025-07-09 22:39:18.441 00006 [VRB] No parameters found
+2025-07-09 22:39:18.441 00006 [VRB] Searching for parameters in string: a
+2025-07-09 22:39:18.441 00006 [VRB] No parameters found
+2025-07-09 22:39:18.442 00006 [VRB] Searching for parameters in string: https://www.btv.bg
+2025-07-09 22:39:18.442 00006 [VRB] No parameters found
+2025-07-09 22:39:18.442 00006 [VRB] Searching for parameters in string: value-not-empty
+2025-07-09 22:39:18.442 00006 [VRB] No parameters found
+2025-07-09 22:39:18.442 00006 [VRB] Searching for parameters in string: value-not-contain(http)
+2025-07-09 22:39:18.442 00006 [VRB] No parameters found
+2025-07-09 22:39:18.443 00006 [VRB] Searching for parameters in string: ${detailsUrl}/about
+2025-07-09 22:39:18.443 00006 [VRB] 1 parameters extracted: detailsUrl
+2025-07-09 22:39:18.444 00006 [VRB] Searching for parameters in string: false
+2025-07-09 22:39:18.444 00006 [VRB] No parameters found
+2025-07-09 22:39:18.444 00006 [VRB] Searching for parameters in string: .title-secondary
+2025-07-09 22:39:18.444 00006 [VRB] No parameters found
+2025-07-09 22:39:18.444 00006 [VRB] Searching for parameters in string: Оригинално заглавие: 
+2025-07-09 22:39:18.444 00006 [VRB] No parameters found
+2025-07-09 22:39:18.445 00006 [VRB] Searching for parameters in string: .text-block
+2025-07-09 22:39:18.445 00006 [VRB] No parameters found
+2025-07-09 22:39:18.445 00006 [VRB] Searching for parameters in string: div.has-image > img
+2025-07-09 22:39:18.445 00006 [VRB] No parameters found
+2025-07-09 22:39:18.446 00006 [VRB] Created and activated a new parameters storage 'btv.bg'
+2025-07-09 22:39:18.446 00006 [VRB] Overriding DaysToGrab value with 3
+2025-07-09 22:39:18.446 00006 [VRB] Overriding DaysToKeep value with 0
+2025-07-09 22:39:18.446 00006 [VRB] Overriding ShouldGrabDetails value with true
+2025-07-09 22:39:18.446 00006 [VRB] Overriding IncrementalGrabbing value with true
+2025-07-09 22:39:18.446 00006 [VRB] Overriding SingleWeek value with false
+2025-07-09 22:39:18.447 00006 [VRB] Using existing browsers folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\browsers
+2025-07-09 22:39:18.447 00006 [DBG] Starting grabbing of channel БТВ
+2025-07-09 22:39:18.448 00006 [VRB] Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:18.448 00006 [VRB] btv.bg|БТВ|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:18.448 00006 [VRB] btv.bg|БТВ|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:18.448 00006 [VRB] btv.bg|БТВ|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.448 00006 [VRB] btv.bg|БТВ|1||| Activated parameters storage 'btv.bg'
+2025-07-09 22:39:18.448 00006 [VRB] btv.bg|БТВ|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.448 00006 [VRB] btv.bg|БТВ|1||| Creating/updating "Channel" parameter channelId=btv
+2025-07-09 22:39:18.448 00006 [DBG] btv.bg|БТВ|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\btv.bg.json.gz
+2025-07-09 22:39:18.453 00006 [VRB] btv.bg|БТВ|1||| Found 66 programs in cache
+2025-07-09 22:39:18.453 00006 [VRB] btv.bg|БТВ|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:18.453 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 00:00:00 -> Убийства в Рая
+2025-07-09 22:39:18.457 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 01:00:00 -> Естествен интелект
+2025-07-09 22:39:18.459 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 02:10:00 -> – bTV Новините – късна емисия /п./
+2025-07-09 22:39:18.460 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 02:50:00 -> Преди обед
+2025-07-09 22:39:18.462 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 05:00:00 -> Убийства в Рая
+2025-07-09 22:39:18.464 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 06:15:00 -> Лице в лице
+2025-07-09 22:39:18.466 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 07:00:00 -> Тази сутрин
+2025-07-09 22:39:18.468 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 09:30:00 -> Преди обед
+2025-07-09 22:39:18.469 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 12:00:00 -> – bTV Новините – обедна емисия
+2025-07-09 22:39:18.471 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 12:30:00 -> Комиците и приятели
+2025-07-09 22:39:18.474 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 13:30:00 -> Вражда
+2025-07-09 22:39:18.476 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 15:00:00 -> Плен
+2025-07-09 22:39:18.478 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 16:00:00 -> Моите братя и сестри
+2025-07-09 22:39:18.479 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 17:00:00 -> – bTV Новините
+2025-07-09 22:39:18.481 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 17:20:00 -> Лице в лице
+2025-07-09 22:39:18.483 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 18:00:00 -> Стани богат
+2025-07-09 22:39:18.484 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 19:00:00 -> – bTV Новините – централна емисия
+2025-07-09 22:39:18.486 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 19:50:00 -> Лице в лице след Новините
+2025-07-09 22:39:18.488 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 20:00:00 -> Кой да знае?
+2025-07-09 22:39:18.490 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 21:30:00 -> Колко ми даваш?
+2025-07-09 22:39:18.492 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 22:30:00 -> – bTV Новините – късна емисия
+2025-07-09 22:39:18.493 00006 [INF] btv.bg|БТВ|1||| Added program from cache 09.07.2025 г. 23:00:00 -> Лас Вегас
+2025-07-09 22:39:18.495 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 00:00:00 -> Убийства в Рая
+2025-07-09 22:39:18.497 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 01:00:00 -> Естествен интелект
+2025-07-09 22:39:18.499 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 02:10:00 -> – bTV Новините – късна емисия /п./
+2025-07-09 22:39:18.501 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 02:50:00 -> Преди обед
+2025-07-09 22:39:18.504 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 05:00:00 -> Убийства в Рая
+2025-07-09 22:39:18.505 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 06:15:00 -> Лице в лице
+2025-07-09 22:39:18.508 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 07:00:00 -> Тази сутрин
+2025-07-09 22:39:18.510 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 09:30:00 -> Преди обед
+2025-07-09 22:39:18.511 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 12:00:00 -> – bTV Новините – обедна емисия
+2025-07-09 22:39:18.513 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 12:30:00 -> Комиците и приятели
+2025-07-09 22:39:18.515 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 13:30:00 -> Вражда
+2025-07-09 22:39:18.517 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 15:00:00 -> Плен
+2025-07-09 22:39:18.520 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 16:00:00 -> Моите братя и сестри
+2025-07-09 22:39:18.521 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 17:00:00 -> – bTV Новините
+2025-07-09 22:39:18.523 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 17:20:00 -> Лице в лице
+2025-07-09 22:39:18.525 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 18:00:00 -> Стани богат
+2025-07-09 22:39:18.527 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 19:00:00 -> – bTV Новините – централна емисия
+2025-07-09 22:39:18.529 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 19:50:00 -> Лице в лице след Новините
+2025-07-09 22:39:18.531 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 20:00:00 -> Кой да знае?
+2025-07-09 22:39:18.533 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 21:30:00 -> Колко ми даваш?
+2025-07-09 22:39:18.535 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 22:30:00 -> – bTV Новините – късна емисия
+2025-07-09 22:39:18.537 00006 [INF] btv.bg|БТВ|1||| Added program from cache 10.07.2025 г. 23:00:00 -> Лас Вегас
+2025-07-09 22:39:18.539 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 00:00:00 -> Убийства в Рая
+2025-07-09 22:39:18.541 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 01:00:00 -> Естествен интелект
+2025-07-09 22:39:18.543 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 02:10:00 -> – bTV Новините – късна емисия /п./
+2025-07-09 22:39:18.545 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 02:50:00 -> Преди обед
+2025-07-09 22:39:18.546 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 05:00:00 -> Убийства в Рая
+2025-07-09 22:39:18.548 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 06:15:00 -> Лице в лице
+2025-07-09 22:39:18.550 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 07:00:00 -> Тази сутрин
+2025-07-09 22:39:18.552 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 09:30:00 -> Преди обед
+2025-07-09 22:39:18.554 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 12:00:00 -> – bTV Новините – обедна емисия
+2025-07-09 22:39:18.555 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 12:30:00 -> Комиците и приятели
+2025-07-09 22:39:18.557 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 13:30:00 -> Вражда
+2025-07-09 22:39:18.559 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 15:00:00 -> Плен
+2025-07-09 22:39:18.561 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 16:00:00 -> Моите братя и сестри
+2025-07-09 22:39:18.562 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 17:00:00 -> – bTV Новините
+2025-07-09 22:39:18.565 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 17:20:00 -> Лице в лице
+2025-07-09 22:39:18.567 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 18:00:00 -> Стани богат
+2025-07-09 22:39:18.569 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 19:00:00 -> – bTV Новините – централна емисия
+2025-07-09 22:39:18.571 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 19:50:00 -> Лице в лице след Новините
+2025-07-09 22:39:18.573 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 20:00:00 -> Кой да знае?
+2025-07-09 22:39:18.575 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 21:30:00 -> Колко ми даваш?
+2025-07-09 22:39:18.577 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 22:30:00 -> – bTV Новините – късна емисия
+2025-07-09 22:39:18.579 00006 [INF] btv.bg|БТВ|1||| Added program from cache 11.07.2025 г. 23:00:00 -> Лас Вегас
+2025-07-09 22:39:18.581 00006 [VRB] btv.bg|БТВ|1||| Saving 66 programs in channel btv.bg in-memory repository
+2025-07-09 22:39:18.581 00006 [DBG] btv.bg|БТВ|1||| Starting grabbing of channel БТВ Комеди
+2025-07-09 22:39:18.581 00006 [VRB] btv.bg|БТВ|1||| Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:18.581 00006 [VRB] btv.bg|БТВ Комеди|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:18.581 00006 [VRB] btv.bg|БТВ Комеди|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:18.581 00006 [VRB] btv.bg|БТВ Комеди|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.581 00006 [VRB] btv.bg|БТВ Комеди|1||| Activated parameters storage 'btv.bg'
+2025-07-09 22:39:18.581 00006 [VRB] btv.bg|БТВ Комеди|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.581 00006 [VRB] btv.bg|БТВ Комеди|1||| Creating/updating "Channel" parameter channelId=btv-comedy
+2025-07-09 22:39:18.581 00006 [DBG] btv.bg|БТВ Комеди|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\btvcomedy.bg.json.gz
+2025-07-09 22:39:18.584 00006 [VRB] btv.bg|БТВ Комеди|1||| Found 103 programs in cache
+2025-07-09 22:39:18.584 00006 [VRB] btv.bg|БТВ Комеди|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:18.584 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 00:00:00 -> Ой! Къде изчезна Ной?! 2: Приключението продължава
+2025-07-09 22:39:18.586 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 01:45:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.588 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 02:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.589 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 03:00:00 -> По средата
+2025-07-09 22:39:18.591 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 03:30:00 -> По средата
+2025-07-09 22:39:18.593 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 03:50:00 -> Съни бийч
+2025-07-09 22:39:18.595 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 04:45:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.599 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 05:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.601 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 06:00:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.603 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 06:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.604 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 07:00:00 -> По средата
+2025-07-09 22:39:18.606 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 07:30:00 -> По средата
+2025-07-09 22:39:18.608 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 08:00:00 -> Съни бийч
+2025-07-09 22:39:18.610 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 09:00:00 -> Приятели
+2025-07-09 22:39:18.612 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 09:30:00 -> Приятели
+2025-07-09 22:39:18.614 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 10:00:00 -> Корпус за бързо реагиране 2: Ядрена заплаха
+2025-07-09 22:39:18.617 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 12:00:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.619 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 12:30:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.621 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 13:00:00 -> Приятели
+2025-07-09 22:39:18.623 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 13:30:00 -> Приятели
+2025-07-09 22:39:18.624 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 14:00:00 -> Двама мъже и половина
+2025-07-09 22:39:18.626 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 14:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.628 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 15:00:00 -> Новите съседи
+2025-07-09 22:39:18.631 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 16:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.632 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 17:00:00 -> Съни бийч
+2025-07-09 22:39:18.634 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 18:00:00 -> По средата
+2025-07-09 22:39:18.636 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 18:30:00 -> По средата
+2025-07-09 22:39:18.638 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 19:00:00 -> Приятели
+2025-07-09 22:39:18.639 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 19:30:00 -> Приятели
+2025-07-09 22:39:18.641 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 20:00:00 -> Новите съседи
+2025-07-09 22:39:18.643 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 21:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.645 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 22:00:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.646 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 22:30:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.648 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 23:00:00 -> Двама мъже и половина
+2025-07-09 22:39:18.650 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 09.07.2025 г. 23:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.652 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 00:00:00 -> Корпус за бързо реагиране 2: Ядрена заплаха
+2025-07-09 22:39:18.653 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 01:45:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.656 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 02:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.658 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 03:00:00 -> По средата
+2025-07-09 22:39:18.660 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 03:30:00 -> По средата
+2025-07-09 22:39:18.662 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 03:50:00 -> Съни бийч
+2025-07-09 22:39:18.664 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 04:45:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.666 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 05:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.668 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 06:00:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.670 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 06:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.671 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 07:00:00 -> По средата
+2025-07-09 22:39:18.673 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 07:30:00 -> По средата
+2025-07-09 22:39:18.676 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 08:00:00 -> Съни бийч
+2025-07-09 22:39:18.677 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 09:00:00 -> Приятели
+2025-07-09 22:39:18.679 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 09:30:00 -> Приятели
+2025-07-09 22:39:18.681 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 10:00:00 -> Крилце или кълка
+2025-07-09 22:39:18.682 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 12:00:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.684 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 12:30:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.685 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 13:00:00 -> Приятели
+2025-07-09 22:39:18.687 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 13:30:00 -> Приятели
+2025-07-09 22:39:18.689 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 14:00:00 -> Двама мъже и половина
+2025-07-09 22:39:18.691 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 14:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.693 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 15:00:00 -> Новите съседи
+2025-07-09 22:39:18.695 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 16:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.696 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 17:00:00 -> Съни бийч
+2025-07-09 22:39:18.698 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 18:00:00 -> По средата
+2025-07-09 22:39:18.700 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 18:30:00 -> По средата
+2025-07-09 22:39:18.701 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 19:00:00 -> Приятели
+2025-07-09 22:39:18.704 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 19:30:00 -> Приятели
+2025-07-09 22:39:18.707 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 20:00:00 -> Новите съседи
+2025-07-09 22:39:18.709 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 21:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.711 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 22:00:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.712 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 22:30:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.714 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 23:00:00 -> Двама мъже и половина
+2025-07-09 22:39:18.716 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 10.07.2025 г. 23:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.718 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 00:00:00 -> Крилце или кълка
+2025-07-09 22:39:18.720 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 01:45:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.722 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 02:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.724 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 03:00:00 -> По средата
+2025-07-09 22:39:18.726 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 03:30:00 -> По средата
+2025-07-09 22:39:18.728 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 03:50:00 -> Съни бийч
+2025-07-09 22:39:18.729 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 04:45:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.731 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 05:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.733 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 06:00:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.735 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 06:30:00 -> Безкрайна фиеста
+2025-07-09 22:39:18.737 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 07:00:00 -> По средата
+2025-07-09 22:39:18.739 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 07:30:00 -> По средата
+2025-07-09 22:39:18.740 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 08:00:00 -> Съни бийч
+2025-07-09 22:39:18.742 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 09:00:00 -> Приятели
+2025-07-09 22:39:18.744 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 09:30:00 -> Приятели
+2025-07-09 22:39:18.746 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 10:00:00 -> По-сърдити старчета
+2025-07-09 22:39:18.747 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 12:00:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.749 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 12:30:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.751 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 13:00:00 -> Приятели
+2025-07-09 22:39:18.753 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 13:30:00 -> Приятели
+2025-07-09 22:39:18.755 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 14:00:00 -> Двама мъже и половина
+2025-07-09 22:39:18.757 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 14:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.759 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 15:00:00 -> Новите съседи
+2025-07-09 22:39:18.761 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 17:00:00 -> Съни бийч
+2025-07-09 22:39:18.763 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 18:00:00 -> По средата
+2025-07-09 22:39:18.764 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 18:30:00 -> По средата
+2025-07-09 22:39:18.766 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 19:00:00 -> Приятели
+2025-07-09 22:39:18.768 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 19:30:00 -> Приятели
+2025-07-09 22:39:18.770 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 20:00:00 -> Новите съседи
+2025-07-09 22:39:18.772 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 22:00:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.774 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 22:30:00 -> Семейство Голдбърг
+2025-07-09 22:39:18.775 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 23:00:00 -> Двама мъже и половина
+2025-07-09 22:39:18.777 00006 [INF] btv.bg|БТВ Комеди|1||| Added program from cache 11.07.2025 г. 23:30:00 -> Двама мъже и половина
+2025-07-09 22:39:18.779 00006 [VRB] btv.bg|БТВ Комеди|1||| Saving 103 programs in channel btvcomedy.bg in-memory repository
+2025-07-09 22:39:18.779 00006 [DBG] btv.bg|БТВ Комеди|1||| Starting grabbing of channel Ринг
+2025-07-09 22:39:18.779 00006 [VRB] btv.bg|БТВ Комеди|1||| Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:18.779 00006 [VRB] btv.bg|Ринг|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:18.779 00006 [VRB] btv.bg|Ринг|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:18.779 00006 [VRB] btv.bg|Ринг|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.779 00006 [VRB] btv.bg|Ринг|1||| Activated parameters storage 'btv.bg'
+2025-07-09 22:39:18.779 00006 [VRB] btv.bg|Ринг|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.779 00006 [VRB] btv.bg|Ринг|1||| Creating/updating "Channel" parameter channelId=ring
+2025-07-09 22:39:18.779 00006 [DBG] btv.bg|Ринг|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\ring.bg.json.gz
+2025-07-09 22:39:18.780 00006 [VRB] btv.bg|Ринг|1||| Found 30 programs in cache
+2025-07-09 22:39:18.780 00006 [VRB] btv.bg|Ринг|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:18.780 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 01:00:00 -> – УЕФА Шампионска лига / Лига Европа / Лига на конференциите /п./
+2025-07-09 22:39:18.781 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 06:00:00 -> Великите спортни постижения през последния век
+2025-07-09 22:39:18.783 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 07:00:00 -> – УЕФА Шампионска лига: Астън Вила – Байерн Мюнхен
+2025-07-09 22:39:18.785 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 10:00:00 -> – УЕФА Шампионска лига: Лайпциг – Ювентус
+2025-07-09 22:39:18.787 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 12:00:00 -> – УЕФА Шампионска лига: Лил – Реал Мадрид
+2025-07-09 22:39:18.789 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 14:00:00 -> – УЕФА Шампионска лига: Брест – Байер Леверкузен
+2025-07-09 22:39:18.791 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 16:00:00 -> – УЕФА Шампионска лига: Барселона – Байерн Мюнхен
+2025-07-09 22:39:18.793 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 18:00:00 -> – УЕФА Шампионска лига: Аталанта – Селтик
+2025-07-09 22:39:18.794 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 20:00:00 -> – УЕФА Лига Европа / Лига на конференциите – обзори
+2025-07-09 22:39:18.796 00006 [INF] btv.bg|Ринг|1||| Added program from cache 09.07.2025 г. 22:00:00 -> – Бойни вечери
+2025-07-09 22:39:18.798 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 00:00:00 -> – УЕФА Шампионска лига / Лига Европа / Лига на конференциите /п./
+2025-07-09 22:39:18.801 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 06:00:00 -> Великите спортни постижения през последния век
+2025-07-09 22:39:18.803 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 07:00:00 -> – УЕФА Шампионска лига: Лайпциг – Ливърпул
+2025-07-09 22:39:18.804 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 10:00:00 -> – УЕФА Шампионска лига: Манчестър Сити – Спарта Прага
+2025-07-09 22:39:18.806 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 12:00:00 -> – УЕФА Шампионска лига: Йънг Бойс – Интер
+2025-07-09 22:39:18.808 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 14:00:00 -> – УЕФА Шампионска лига: Брюж – Астън Вила
+2025-07-09 22:39:18.810 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 16:00:00 -> – УЕФА Шампионска лига: Интер – Арсенал
+2025-07-09 22:39:18.811 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 18:00:00 -> – УЕФА Шампионска лига: Шахтьор – Йънг Бойс
+2025-07-09 22:39:18.813 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 20:00:00 -> – УЕФА Лига Европа / Лига на конференциите – обзори
+2025-07-09 22:39:18.815 00006 [INF] btv.bg|Ринг|1||| Added program from cache 10.07.2025 г. 22:00:00 -> – Бойни вечери
+2025-07-09 22:39:18.817 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 00:00:00 -> – УЕФА Шампионска лига / Лига Европа / Лига на конференциите /п./
+2025-07-09 22:39:18.819 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 06:00:00 -> Великите спортни постижения през последния век
+2025-07-09 22:39:18.821 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 07:00:00 -> – УЕФА Шампионска лига: Байерн Мюнхен – Бенфика
+2025-07-09 22:39:18.823 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 10:00:00 -> – УЕФА Шампионска лига: ПСЖ – Атлетико Мадрид
+2025-07-09 22:39:18.825 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 12:00:00 -> – УЕФА Шампионска лига: Цървена звезда – Барселона
+2025-07-09 22:39:18.827 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 14:00:00 -> – УЕФА Шампионска лига: Цървена звезда – Щутгарт
+2025-07-09 22:39:18.829 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 16:00:00 -> – УЕФА Шампионска лига: Ливърпул – Реал Мадрид
+2025-07-09 22:39:18.831 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 18:00:00 -> – УЕФА Шампионска лига: Щурм Грац – Жирона
+2025-07-09 22:39:18.833 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 20:00:00 -> – УЕФА Лига Европа/Лига на конференциите – обзори
+2025-07-09 22:39:18.835 00006 [INF] btv.bg|Ринг|1||| Added program from cache 11.07.2025 г. 22:00:00 -> – Бойни вечери
+2025-07-09 22:39:18.837 00006 [VRB] btv.bg|Ринг|1||| Saving 30 programs in channel ring.bg in-memory repository
+2025-07-09 22:39:18.837 00006 [INF] Using template tv-programa.bg
+2025-07-09 22:39:18.838 00006 [DBG] Loading template from file: C:\Users\HGenev\Git\harrygg\EPG\config\templates\tv-programa.bg.template.yaml
+2025-07-09 22:39:18.867 00006 [VRB] Searching for parameters in string: https://www.xn----8sbafg9clhjcp.bg/tv/${channelId}/${date.capitalize()}
+2025-07-09 22:39:18.868 00006 [VRB] 2 parameters extracted: channelId, date.capitalize()
+2025-07-09 22:39:18.868 00006 [VRB] Searching for parameters in string: .programTable > tbody > tr
+2025-07-09 22:39:18.868 00006 [VRB] No parameters found
+2025-07-09 22:39:18.869 00006 [VRB] Searching for parameters in string: .programTime
+2025-07-09 22:39:18.869 00006 [VRB] No parameters found
+2025-07-09 22:39:18.869 00006 [VRB] Searching for parameters in string: td > a
+2025-07-09 22:39:18.869 00006 [VRB] No parameters found
+2025-07-09 22:39:18.869 00006 [VRB] Searching for parameters in string: td > a
+2025-07-09 22:39:18.869 00006 [VRB] No parameters found
+2025-07-09 22:39:18.870 00006 [VRB] Searching for parameters in string: ${programDetailsEnabled}
+2025-07-09 22:39:18.870 00006 [VRB] 1 parameters extracted: programDetailsEnabled
+2025-07-09 22:39:18.870 00006 [VRB] Searching for parameters in string: https://www.xn----8sbafg9clhjcp.bg/predavane${detailsUrl}
+2025-07-09 22:39:18.870 00006 [VRB] 1 parameters extracted: detailsUrl
+2025-07-09 22:39:18.870 00006 [VRB] Searching for parameters in string: .filmInfo
+2025-07-09 22:39:18.870 00006 [VRB] No parameters found
+2025-07-09 22:39:18.878 00006 [VRB] Created and activated a new parameters storage 'tv-programa.bg'
+2025-07-09 22:39:18.878 00006 [VRB] Resetting parameters in "Global" storage
+2025-07-09 22:39:18.878 00006 [VRB] Creating/updating "Global" parameter programDetailsEnabled=false
+2025-07-09 22:39:18.878 00006 [VRB] Overriding DaysToGrab value with 3
+2025-07-09 22:39:18.878 00006 [VRB] Overriding DaysToKeep value with 0
+2025-07-09 22:39:18.878 00006 [VRB] Overriding ShouldGrabDetails value with true
+2025-07-09 22:39:18.878 00006 [VRB] Overriding IncrementalGrabbing value with true
+2025-07-09 22:39:18.878 00006 [VRB] Overriding SingleWeek value with false
+2025-07-09 22:39:18.878 00006 [VRB] Using existing browsers folder C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\browsers
+2025-07-09 22:39:18.879 00006 [DBG] Starting grabbing of channel БТВ Екшън
+2025-07-09 22:39:18.879 00006 [VRB] Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:18.879 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:18.879 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:18.879 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.879 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Activated parameters storage 'tv-programa.bg'
+2025-07-09 22:39:18.879 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.879 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Creating/updating "Channel" parameter channelId=btv-action
+2025-07-09 22:39:18.879 00006 [DBG] tv-programa.bg|БТВ Екшън|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\btvaction.bg.json.gz
+2025-07-09 22:39:18.880 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Found 58 programs in cache
+2025-07-09 22:39:18.880 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:18.880 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 00:00:00 -> "Гомор" - сериал, с.4, еп.6 /п./
+2025-07-09 22:39:18.883 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 01:00:00 -> "Под наблюдение" - сериал, с.3, еп.1 /п./
+2025-07-09 22:39:18.885 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 02:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.4 /п./
+2025-07-09 22:39:18.886 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 03:00:00 -> "Сред пламъците" - сериал, с.2, еп.6 /п./
+2025-07-09 22:39:18.889 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 04:00:00 -> "Спенсър" - сериал, с.4, еп.3 /п./
+2025-07-09 22:39:18.891 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 05:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.3 /п./ - Сряда, 09.07.2025 г.
+2025-07-09 22:39:18.892 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 06:00:00 -> "Сървайвър" - приключенско риалити с водещ Ваня Джаферович, с.7, еп.23 /п./
+2025-07-09 22:39:18.894 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 09:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.3 /п./
+2025-07-09 22:39:18.897 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 10:00:00 -> "Сред пламъците" - сериал, с.2, еп.6 /п./
+2025-07-09 22:39:18.898 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 11:00:00 -> "Под наблюдение" - сериал, с.3, еп.1 /п./
+2025-07-09 22:39:18.900 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 12:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.4 /п./
+2025-07-09 22:39:18.902 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 13:00:00 -> "Договорът" - екшън, криминален, драма (САЩ, Германия, 2006 г.), режисьор: Брус Берисфорд, в ролите: Джон Кюсак, Морган Фрийман, Джейми Андерсън, Алис Криге, Мегън Додс, Атанас Сребрев и др.
+2025-07-09 22:39:18.903 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 15:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.4
+2025-07-09 22:39:18.905 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 16:00:00 -> Премиера: "Между два свята" - сериал, с.3, еп.5
+2025-07-09 22:39:18.908 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 17:00:00 -> "Спенсър" - сериал, с.4, еп.4
+2025-07-09 22:39:18.909 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 18:00:00 -> "Под наблюдение" - сериал, с.3, еп.2
+2025-07-09 22:39:18.911 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 19:00:00 -> Премиера: "Сред пламъците" - сериал, с.2, еп.7
+2025-07-09 22:39:18.913 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 20:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.5
+2025-07-09 22:39:18.916 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 21:00:00 -> Премиера: "Гомор" - сериал, с.4, еп.7
+2025-07-09 22:39:18.918 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 09.07.2025 г. 22:00:00 -> "Операция Делта Форс 2: Тревога" - екшън, трилър (САЩ, 1997 г.), режисьор: Йоси Уейн, в ролите: Майкъл Макгрейди, Джон Саймън Джоунс, Тод Дженсън, Гавин Худ и др.
+2025-07-09 22:39:18.920 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 01:00:00 -> "Под наблюдение" - сериал, с.3, еп.2 /п./
+2025-07-09 22:39:18.922 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 02:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.5 /п./
+2025-07-09 22:39:18.924 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 03:00:00 -> "Сред пламъците" - сериал, с.2, еп.7 /п./
+2025-07-09 22:39:18.925 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 04:00:00 -> "Спенсър" - сериал, с.4, еп.4 /п./
+2025-07-09 22:39:18.928 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 05:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.4 /п./ - Четвъртък, 10.07.2025 г.
+2025-07-09 22:39:18.930 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 06:00:00 -> "Сървайвър" - приключенско риалити с водещ Ваня Джаферович, с.7, еп.24 /п./
+2025-07-09 22:39:18.931 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 09:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.4 /п./
+2025-07-09 22:39:18.933 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 10:00:00 -> "Сред пламъците" - сериал, с.2, еп.7 /п./
+2025-07-09 22:39:18.935 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 11:00:00 -> "Под наблюдение" - сериал, с.3, еп.2 /п./
+2025-07-09 22:39:18.937 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 12:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.5 /п./
+2025-07-09 22:39:18.939 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 13:00:00 -> "Доносник" - екшън, драма, трилър (САЩ, ОАЕ, Великобритания, 2013 г.), режисьор: Рик Роман Уо, в ролите: Дуейн Джонсън, Сюзан Сарандън, Джон Бърнтол, Бари Пепър, Майкъл Кенет Уилямс и др.
+2025-07-09 22:39:18.940 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 15:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.5
+2025-07-09 22:39:18.943 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 16:00:00 -> Премиера: "Между два свята" - сериал, с.3, еп.6
+2025-07-09 22:39:18.945 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 17:00:00 -> "Спенсър" - сериал, с.4, еп.5
+2025-07-09 22:39:18.947 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 18:00:00 -> "Под наблюдение" - сериал, с.3, еп.3
+2025-07-09 22:39:18.949 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 19:00:00 -> Премиера: "Сред пламъците" - сериал, с.2, еп.8
+2025-07-09 22:39:18.951 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 20:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.6
+2025-07-09 22:39:18.952 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 21:00:00 -> Премиера: "Гомор" - сериал, с.4, еп.8
+2025-07-09 22:39:18.955 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 10.07.2025 г. 22:00:00 -> "На живот и смърт" - екшън, криминален, трилър (САЩ, Германия, 2007 г.), режисьор: Джон Хърцфелд, в ролите: Пол Уокър, Лорънс Фишбърн, Оливия Уайлд, Джейсън Флеминг, Кийт Карадийн, Жоаким де Алмейда, ...
+2025-07-09 22:39:18.957 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 01:00:00 -> "Под наблюдение" - сериал, с.3, еп.3 /п./
+2025-07-09 22:39:18.958 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 02:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.6 /п./
+2025-07-09 22:39:18.960 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 03:00:00 -> "Сред пламъците" - сериал, с.2, еп.8 /п./
+2025-07-09 22:39:18.962 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 04:00:00 -> "Спенсър" - сериал, с.4, еп.5 /п./
+2025-07-09 22:39:18.964 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 05:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.5 /п./ - Петък, 11.07.2025 г.
+2025-07-09 22:39:18.965 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 06:00:00 -> "Сървайвър" - приключенско риалити с водещ Ваня Джаферович, с.7, еп.25 /п./
+2025-07-09 22:39:18.967 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 09:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.5 /п./
+2025-07-09 22:39:18.969 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 10:00:00 -> "Сред пламъците" - сериал, с.2, еп.8 /п./
+2025-07-09 22:39:18.971 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 11:00:00 -> "Под наблюдение" - сериал, с.3, еп.3 /п./
+2025-07-09 22:39:18.973 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 12:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.6 /п./
+2025-07-09 22:39:18.975 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 13:00:00 -> "Къде е дъщеря ми?" - трилър (САЩ, 2020 г.), режисьор: Бен Майерсън, в ролите: Андреа Богарт, Пейдж Сиърси, Лукас Адамс, Паркър Томас, Педро Кореа, Карлена Брич, Кет Кроули и др.
+2025-07-09 22:39:18.977 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 15:00:00 -> "Хуберт без Щалер" - сериал, с.8, еп.6
+2025-07-09 22:39:18.979 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 16:00:00 -> Премиера: "Между два свята" - сериал, с.3, еп.7
+2025-07-09 22:39:18.981 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 17:00:00 -> "Спенсър" - сериал, с.4, еп.6
+2025-07-09 22:39:18.982 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 18:00:00 -> "Под наблюдение" - сериал, с.3, еп.4
+2025-07-09 22:39:18.984 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 19:00:00 -> Премиера: "Сред пламъците" - сериал, с.2, еп.9
+2025-07-09 22:39:18.986 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 20:00:00 -> "Смъртоносно оръжие" - сериал, с.1, еп.7
+2025-07-09 22:39:18.988 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 21:00:00 -> Премиера: "Гомор" - сериал, с.4, еп.9
+2025-07-09 22:39:18.990 00006 [INF] tv-programa.bg|БТВ Екшън|1||| Added program from cache 11.07.2025 г. 22:00:00 -> "Бързи и яростни 2" - екшън, трилър (САЩ, Германия, 2003 г.), режисьор: Джон Сингълтън, в ролите: Пол Уокър, Тайрийз Гибсън, Кол Хаузър, Ева Мендес, Кристофър Бриджис-Лудакрис, Том Бари, Джеймс Римар,...
+2025-07-09 22:39:18.991 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Saving 58 programs in channel btvaction.bg in-memory repository
+2025-07-09 22:39:18.991 00006 [DBG] tv-programa.bg|БТВ Екшън|1||| Starting grabbing of channel БТВ Стори
+2025-07-09 22:39:18.991 00006 [VRB] tv-programa.bg|БТВ Екшън|1||| Creating/updating "Channel" parameter _programBlockNumber=0
+2025-07-09 22:39:18.991 00006 [VRB] tv-programa.bg|БТВ Стори|1||| Modifying grabbing settings. Applying channel level overrides
+2025-07-09 22:39:18.991 00006 [VRB] tv-programa.bg|БТВ Стори|1||| Updated grabbing date and time to 2025-07-09T00:00:00.0000000+03:00+03:00, remaining days to grab: 3
+2025-07-09 22:39:18.991 00006 [VRB] tv-programa.bg|БТВ Стори|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.991 00006 [VRB] tv-programa.bg|БТВ Стори|1||| Activated parameters storage 'tv-programa.bg'
+2025-07-09 22:39:18.991 00006 [VRB] tv-programa.bg|БТВ Стори|1||| Resetting parameters in "Channel" storage
+2025-07-09 22:39:18.991 00006 [VRB] tv-programa.bg|БТВ Стори|1||| Creating/updating "Channel" parameter channelId=btv-story
+2025-07-09 22:39:18.992 00006 [DBG] tv-programa.bg|БТВ Стори|1||| Loading channel cache file: C:\Users\HGenev\AppData\Local\Temp\EPG.Grabber.cache\_guides\btvstory.bg.json.gz
+2025-07-09 22:39:18.993 00006 [VRB] tv-programa.bg|БТВ Стори|1||| Found 76 programs in cache
+2025-07-09 22:39:18.993 00006 [VRB] tv-programa.bg|БТВ Стори|1||| Filtering programs that are within the requested time period from "2025-07-09T00:00:00.0000000+03:00" to "2025-07-11T23:59:00.0000000+03:00"
+2025-07-09 22:39:18.993 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 00:00:00 -> "Любов по договор" - сериал, еп.13
+2025-07-09 22:39:18.995 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 01:00:00 -> "Ослепително слънце" - сериал, с.3, еп.233 /п./
+2025-07-09 22:39:18.996 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 01:30:00 -> "Ослепително слънце" - сериал, с.3, еп.234 /п./
+2025-07-09 22:39:18.998 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 02:00:00 -> "Мрежа от лъжи" - сериал, с.2, еп.49 /п./
+2025-07-09 22:39:19.000 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 02:50:00 -> "Добре дошли във фермата" - риалити поредица, еп.15
+2025-07-09 22:39:19.003 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 03:20:00 -> "Добре дошли във фермата" - риалити поредица, еп.16
+2025-07-09 22:39:19.004 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 03:50:00 -> "Добре дошли във фермата" - риалити поредица, еп.17
+2025-07-09 22:39:19.006 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 04:20:00 -> "Състояние на връзката: Сложно е" - сериал, еп.20 /п./
+2025-07-09 22:39:19.008 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 05:10:00 -> "Кървави цветя" - сериал, с.1, еп.52 /п./ - Сряда, 09.07.2025 г.
+2025-07-09 22:39:19.010 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 06:00:00 -> "Дизайнерски кътчета" - лайфстайл поредица, еп.33
+2025-07-09 22:39:19.012 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 06:30:00 -> "Дизайнерски кътчета" - лайфстайл поредица, еп.34
+2025-07-09 22:39:19.013 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 07:00:00 -> "Огледален свят" - сериал, еп.166
+2025-07-09 22:39:19.015 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 08:00:00 -> "Мрежа от лъжи" - сериал, с.2, еп.50
+2025-07-09 22:39:19.017 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 09:00:00 -> "Преродена" - сериал, с.1, еп.26 /п./
+2025-07-09 22:39:19.019 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 10:30:00 -> "Опасни улици" - сериал, с.19, еп.20 /п./
+2025-07-09 22:39:19.020 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 11:30:00 -> "Любов по договор" - сериал, еп.13 /п./
+2025-07-09 22:39:19.022 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 13:00:00 -> "Изкупление" - сериал, еп.8 /п./
+2025-07-09 22:39:19.024 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 14:00:00 -> "Просто любов" - драма, романтичен (Великобритания, 2019 г.), режисьори: Лиза Барос Д’Са и Глен Лейбърн, в ролите: Лиам Нийсън, Лесли Манвил, Дейвид Уилмот, Амит Шах и др.
+2025-07-09 22:39:19.025 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 16:00:00 -> Премиера: "Ослепително слънце" - сериал, с.3, еп.235
+2025-07-09 22:39:19.027 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 16:30:00 -> Премиера: "Ослепително слънце" - сериал, с.3, еп.236
+2025-07-09 22:39:19.029 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 17:00:00 -> Премиера: "Кървави цветя" - сериал, с.1, еп.53
+2025-07-09 22:39:19.030 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 18:00:00 -> "Състояние на връзката: Сложно е" - сериал, еп.21
+2025-07-09 22:39:19.032 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 19:00:00 -> Премиера: "Опасни улици" - сериал, с.19, еп.21
+2025-07-09 22:39:19.034 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 20:00:00 -> Премиера: "Преродена" - сериал, с.1, еп.27
+2025-07-09 22:39:19.036 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 21:30:00 -> Премиера: "Изкупление" - сериал, еп.9
+2025-07-09 22:39:19.038 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 09.07.2025 г. 22:30:00 -> "Златно момче" - сериал, с.2, еп.61
+2025-07-09 22:39:19.040 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 01:00:00 -> "Ослепително слънце" - сериал, с.3, еп.235 /п./
+2025-07-09 22:39:19.042 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 01:30:00 -> "Ослепително слънце" - сериал, с.3, еп.236 /п./
+2025-07-09 22:39:19.044 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 02:00:00 -> "Мрежа от лъжи" - сериал, с.2, еп.50 /п./
+2025-07-09 22:39:19.045 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 02:50:00 -> "Добре дошли във фермата" - риалити поредица, еп.18
+2025-07-09 22:39:19.048 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 03:20:00 -> "Добре дошли във фермата" - риалити поредица, еп.19
+2025-07-09 22:39:19.050 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 03:50:00 -> "Добре дошли във фермата" - риалити поредица, еп.20
+2025-07-09 22:39:19.051 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 04:20:00 -> "Състояние на връзката: Сложно е" - сериал, еп.21 /п./
+2025-07-09 22:39:19.053 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 05:10:00 -> "Кървави цветя" - сериал, с.1, еп.53 /п./ - Четвъртък, 10.07.2025 г.
+2025-07-09 22:39:19.055 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 06:00:00 -> "Дизайнерски кътчета" - лайфстайл поредица, еп.35
+2025-07-09 22:39:19.057 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 06:30:00 -> "Дизайнерски кътчета" - лайфстайл поредица, еп.36
+2025-07-09 22:39:19.058 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 07:00:00 -> "Огледален свят" - сериал, еп.167
+2025-07-09 22:39:19.060 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 08:00:00 -> "Мрежа от лъжи" - сериал, с.2, еп.51
+2025-07-09 22:39:19.062 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 09:00:00 -> "Преродена" - сериал, с.1, еп.27 /п./
+2025-07-09 22:39:19.064 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 10:30:00 -> "Опасни улици" - сериал, с.19, еп.21 /п./
+2025-07-09 22:39:19.066 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 11:30:00 -> "Любов по договор" - сериал, еп.14 /п./
+2025-07-09 22:39:19.068 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 13:00:00 -> "Изкупление" - сериал, еп.9 /п./
+2025-07-09 22:39:19.070 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 14:00:00 -> "Майка ми... по две" - минисериал, еп.7 /п./
+2025-07-09 22:39:19.072 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 16:00:00 -> Премиера: "Ослепително слънце" - сериал, с.3, еп.237
+2025-07-09 22:39:19.074 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 16:30:00 -> Премиера: "Ослепително слънце" - сериал, с.3, еп.238
+2025-07-09 22:39:19.076 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 17:00:00 -> Премиера: "Кървави цветя" - сериал, с.1, еп.54
+2025-07-09 22:39:19.077 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 18:00:00 -> "Състояние на връзката: Сложно е" - сериал, еп.22
+2025-07-09 22:39:19.079 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 19:00:00 -> Премиера: "Опасни улици" - сериал, с.19, еп.22
+2025-07-09 22:39:19.081 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 20:00:00 -> Премиера: "Преродена" - сериал, с.1, еп.28
+2025-07-09 22:39:19.082 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 21:30:00 -> Премиера: "Изкупление" - сериал, еп.10
+2025-07-09 22:39:19.084 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 10.07.2025 г. 22:30:00 -> "Златно момче" - сериал, с.2, еп.62
+2025-07-09 22:39:19.086 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 01:00:00 -> "Ослепително слънце" - сериал, с.3, еп.237 /п./
+2025-07-09 22:39:19.088 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 01:30:00 -> "Ослепително слънце" - сериал, с.3, еп.238 /п./
+2025-07-09 22:39:19.090 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 02:00:00 -> "Мрежа от лъжи" - сериал, с.2, еп.51 /п./
+2025-07-09 22:39:19.091 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 02:50:00 -> "Добре дошли във фермата" - риалити поредица, еп.21
+2025-07-09 22:39:19.093 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 03:20:00 -> "Добре дошли във фермата" - риалити поредица, еп.22
+2025-07-09 22:39:19.095 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 03:50:00 -> "Добре дошли във фермата" - риалити поредица, еп.23
+2025-07-09 22:39:19.097 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 04:20:00 -> "Състояние на връзката: Сложно е" - сериал, еп.22 /п./
+2025-07-09 22:39:19.098 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 05:10:00 -> "Кървави цветя" - сериал, с.1, еп.54 /п./ - Петък, 11.07.2025 г.
+2025-07-09 22:39:19.100 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 06:00:00 -> "Дизайнерски кътчета" - лайфстайл поредица, еп.37
+2025-07-09 22:39:19.102 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 06:30:00 -> "Дизайнерски кътчета" - лайфстайл поредица, еп.38
+2025-07-09 22:39:19.104 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 07:00:00 -> "Огледален свят" - сериал, еп.168
+2025-07-09 22:39:19.106 00006 [INF] tv-programa.bg|БТВ Стори|1||| Added program from cache 11.07.2025 г. 08:00:00 -> "Мрежа от лъжи" - сериал, с.2, еп.52

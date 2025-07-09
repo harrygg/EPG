@@ -24,6 +24,13 @@ default-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 # Overwritable for each channel in channels config file. Defaults to true.
 grab-details: true
 
+# The lifetime of the cache in seconds.
+# If the value is 0, the cache will not be used at all.
+# If the value is greater than 0, the cache will be used and the programs will be grabbed only if they are not in the cache or if they are older than the cache lifetime.
+# The cache lifetime is the time in seconds after which the cache will be considered stale and the programs will be grabbed again.
+# If the value is negative, the cache will be used and the programs will be grabbed only if they are not in the cache.
+cache-lifetime: 0.00001
+
 # The compression type to be used for storing cache files. Available options are: none, gzip, zip
 cache-compression-type: gzip
 
