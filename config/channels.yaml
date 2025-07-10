@@ -39,8 +39,8 @@
   icon: http://tv.bnt.bg/assets/images/bnt1-home.jpg
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:  
-  - tv.dir.bg
   - bnt.bg
+  - tv.dir.bg
   - dnes.bg
   
 - id: bnt2.bg
@@ -518,6 +518,7 @@
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - pawa.tv
+  - viasatkino.bg
   - tv.dir.bg
   
 - id: dizi.bg
@@ -757,10 +758,8 @@
     lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
-  - tv.dir.bg
   - potv.bg
   - tvprofil.com
-  - tv.dir.bg
  
 - id: nostalgia.bg
   enabled: true

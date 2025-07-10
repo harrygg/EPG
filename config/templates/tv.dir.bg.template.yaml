@@ -1,7 +1,6 @@
 ---
 author: Hristo Genev
-enabled: false
-cache-lifetime: 0.00001
+enabled: true
 
 date-parameter:
   format: yyyy-MM-dd
@@ -20,7 +19,6 @@ init-pages:
 request:
   url: https://tv.dir.bg/load/programs
   http-method: POST
-  cache-lifetime: 0.00001
   debug: false
   body-params: 
     _token: ${token}
@@ -61,31 +59,6 @@ elements:
     operations:
       - name: beautify
         hook: after
-
-  # - name: detailsUrl
-  #   locator: a
-  #   attribute: href
-
-# program-details: 
-#   enabled: ${programDetailsEnabled}
-#   request: 
-#     url: https://tv.dir.bg/${detailsUrl}
-
-  # elements: 
-  #   - name: icon
-  #     locator: .shou-image img
-  #     attribute: src
-
-  #   - name: desc
-  #     locator: .news-body
-  #     operations:
-  #       - name: beautify
-  #         hook: after
-timeouts:
-  between-requests: 1
-
-global-parameters:
-  programDetailsEnabled: false
 
 channel-parameters: 
   bnt1.bg:
@@ -146,9 +119,9 @@ channel-parameters:
     channelId: 59
   hbo.bg:
     channelId: 42
-  hbo2:
+  hbo2.bg:
     channelId: 17
-  hbo3:
+  hbo3.bg:
     channelId: 15
   cinemax1.bg:
     channelId: 21

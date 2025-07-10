@@ -9,12 +9,12 @@ request:
 
 programs:
   locator: .list-unstyled li
-  debug: true
+  debug: false
 
 elements:
   - name: title
     locator: h4
-    debug: true
+    debug: false
     operations:
     - name: remove-after
       hook: after
@@ -42,5 +42,5 @@ channel-parameters:
     host: viasatexplore.bg
   nature.viasat.bg:
     host: viasatnature.bg
-  tv1000.bg:
-    host: tv1000.bg
+  kino.viasat.bg:
+    host: viasatkino.bg
