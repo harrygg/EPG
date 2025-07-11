@@ -485,9 +485,6 @@
   <programme start="20250713230000 +0300" channel="diemasport.bg">
     <title>Обзор на сезона в efbet Лига, 2 епизод, предаване за български футбол 2024/2025, /n/</title>
   </programme>
-  <programme start="20250711013000 +0300" stop="20250711073000 +0300" channel="diemasport2.bg">
-    <title>Програмна пауза</title>
-  </programme>
   <programme start="20250711073000 +0300" stop="20250711093000 +0300" channel="diemasport2.bg">
     <title>Нюкасъл Юнайтед - Нотингам Форест, 26 кръг, Футбол: Висша лига 2024/2025, /n/</title>
   </programme>
@@ -577,9 +574,6 @@
   </programme>
   <programme start="20250713230000 +0300" channel="diemasport2.bg">
     <title>Челси - Уест Хям Юнайтед, 24 кръг, Футбол: Висша лига 2024/2025, /n/</title>
-  </programme>
-  <programme start="20250711024500 +0300" stop="20250711070000 +0300" channel="diemasport3.bg">
-    <title>Програмна пауза</title>
   </programme>
   <programme start="20250711070000 +0300" stop="20250711090000 +0300" channel="diemasport3.bg">
     <title>Фрайбург - Вердер Бремен, 23 кръг, Футбол: Бундеслига 2024/2025, /n/</title>
@@ -5944,7 +5938,31 @@
   <programme start="20250712200000 +0300" stop="20250712220000 +0300" channel="trtspor.tr">
     <title>FIFA KULÜPLER DÜNYA KUPASI YARI FİNAL FUTBOL KARŞILAŞMASI FLUMINENSE - CHELSEA</title>
   </programme>
-  <programme start="20250712220000 +0300" channel="trtspor.tr">
+  <programme start="20250712220000 +0300" stop="20250713131500 +0300" channel="trtspor.tr">
+    <title>UEFA KADINLAR EURO 2025 FUTBOL KARŞILAŞMASI  PORTEKİZ - BELÇİKA</title>
+  </programme>
+  <programme start="20250713131500 +0300" stop="20250713152000 +0300" channel="trtspor.tr">
+    <title>2025 VOLEYBOL KADINLAR MİLLETLER LİGİ POLONYA-BREZİLYA</title>
+  </programme>
+  <programme start="20250713152000 +0300" stop="20250713153500 +0300" channel="trtspor.tr">
+    <title>Oyun Modu</title>
+  </programme>
+  <programme start="20250713153500 +0300" stop="20250713172000 +0300" channel="trtspor.tr">
+    <title>FIFA KULÜPLER DÜNYA KUPASI YARI FİNAL FUTBOL KARŞILAŞMASI  PSG - REAL MADRID</title>
+  </programme>
+  <programme start="20250713172000 +0300" stop="20250713174500 +0300" channel="trtspor.tr">
+    <title>THE GREATEST OF ALL TIME (THE GOAT)</title>
+  </programme>
+  <programme start="20250713174500 +0300" stop="20250713175500 +0300" channel="trtspor.tr">
+    <title>SAHADA KADINLAR</title>
+  </programme>
+  <programme start="20250713175500 +0300" stop="20250713200000 +0300" channel="trtspor.tr">
+    <title>2025 VOLEYBOL KADINLAR MİLLETLER LİGİ BELÇİKA-SIRBİSTAN</title>
+  </programme>
+  <programme start="20250713200000 +0300" stop="20250713220000 +0300" channel="trtspor.tr">
+    <title>FIFA KULÜPLER DÜNYA KUPASI YARI FİNAL FUTBOL KARŞILAŞMASI FLUMINENSE - CHELSEA</title>
+  </programme>
+  <programme start="20250713220000 +0300" channel="trtspor.tr">
     <title>UEFA KADINLAR EURO 2025 FUTBOL KARŞILAŞMASI  PORTEKİZ - BELÇİKA</title>
   </programme>
   <programme start="20250711010000 +0300" stop="20250711023000 +0300" channel="extremesportschannel.com">
@@ -8104,10 +8122,6 @@
     <title>NASCAR: Sonoma</title>
     <desc>National Association for Stock Car Auto Racing ili skraćeno NASCAR je najpoznatija automobilska organizacija pod čijom ingerencijom i strogim pravilima se organiziraju auto utrke za tzv. "stock car".</desc>
   </programme>
-  <programme start="20250714000000 +0300" channel="sportklub5.hr">
-    <title>Sport Klub 5 Promo 4</title>
-    <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
-  </programme>
   <programme start="20250711000000 +0300" stop="20250711010000 +0300" channel="sportklub6.hr">
     <title>Sport Klub 6 Promo 4</title>
     <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
@@ -8350,10 +8364,6 @@
   </programme>
   <programme start="20250713231500 +0300" stop="20250714000000 +0300" channel="sportklub6.hr">
     <title>Sport Klub 6 Promo 3</title>
-    <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
-  </programme>
-  <programme start="20250714000000 +0300" channel="sportklub6.hr">
-    <title>Sport Klub 6 Promo 4</title>
     <desc>Najava nadolazećih sportskih događanja koji će se prikazivati na programu.</desc>
   </programme>
   <programme start="20250711010000 +0300" stop="20250711024500 +0300" channel="beinsports1.fr">
@@ -8888,45 +8898,93 @@
     <title>TOP CLUBS 2024/2025 #12 - 
 		Sports General</title>
   </programme>
-  <programme start="20250712225000 +0300" channel="beinsports2.com">
+  <programme start="20250712225000 +0300" stop="20250713010000 +0300" channel="beinsports2.com">
     <title>Poland vs Denmark  -  UEFA Women's EURO 2025 
 		Football</title>
   </programme>
-  <programme start="20250711001500 +0300" stop="20250711004500 +0300" channel="ams.de">
-    <title>Garagengold</title>
+  <programme start="20250713010000 +0300" stop="20250713013000 +0300" channel="beinsports2.com">
+    <title>Arsenal vs Fulham  -  Mini Match 
+		Mini Matches</title>
   </programme>
-  <programme start="20250711004500 +0300" stop="20250711010000 +0300" channel="ams.de">
-    <title>Rückwärtsgang</title>
+  <programme start="20250713013000 +0300" stop="20250713020000 +0300" channel="beinsports2.com">
+    <title>Nottingham vs Man Utd  -  Mini Match 
+		Mini Matches</title>
   </programme>
-  <programme start="20250711010000 +0300" stop="20250711011000 +0300" channel="ams.de">
-    <title>Petrolheads</title>
+  <programme start="20250713020000 +0300" stop="20250713023000 +0300" channel="beinsports2.com">
+    <title>Man City vs Leicester  -  Mini Match 
+		Mini Matches</title>
   </programme>
-  <programme start="20250711011000 +0300" stop="20250711013000 +0300" channel="ams.de">
-    <title>Die Tester</title>
+  <programme start="20250713023000 +0300" stop="20250713030000 +0300" channel="beinsports2.com">
+    <title>Liverpool vs Everton  -  Mini Match 
+		Mini Matches</title>
   </programme>
-  <programme start="20250711013000 +0300" stop="20250711020000 +0300" channel="ams.de">
-    <title>Fast Lap</title>
+  <programme start="20250713030000 +0300" stop="20250713044500 +0300" channel="beinsports2.com">
+    <title>Arsenal vs Fulham  -  English Premier League 2024/25 Week 30
+		English Premier League</title>
   </programme>
-  <programme start="20250711020000 +0300" stop="20250711022500 +0300" channel="ams.de">
-    <title>Fast Lap</title>
+  <programme start="20250713044500 +0300" stop="20250713063500 +0300" channel="beinsports2.com">
+    <title>Poland vs Denmark  -  UEFA Women's EURO 2025 
+		Football</title>
   </programme>
-  <programme start="20250711022500 +0300" stop="20250711023000 +0300" channel="ams.de">
-    <title>NEWS</title>
+  <programme start="20250713063500 +0300" stop="20250713070000 +0300" channel="beinsports2.com">
+    <title>Chelsea vs Tottenham  -  Mini Match 
+		Mini Matches</title>
   </programme>
-  <programme start="20250711023000 +0300" stop="20250711030000 +0300" channel="ams.de">
-    <title>Four Motors – Alternativ zum Sieg</title>
+  <programme start="20250713070000 +0300" stop="20250713084500 +0300" channel="beinsports2.com">
+    <title>Newcastle United vs Brentford  -  English Premier League 2024/25 Week 30
+		English Premier League</title>
   </programme>
-  <programme start="20250711030000 +0300" stop="20250711031500 +0300" channel="ams.de">
-    <title>Vorfahrt Ferrari Purosangue</title>
+  <programme start="20250713084500 +0300" stop="20250713103000 +0300" channel="beinsports2.com">
+    <title>Nottingham Forest vs Manchester United  -  English Premier League 2024/25 Week 30
+		English Premier League</title>
   </programme>
-  <programme start="20250711031500 +0300" stop="20250711035500 +0300" channel="ams.de">
-    <title>Bloch erklärt</title>
+  <programme start="20250713103000 +0300" stop="20250713110000 +0300" channel="beinsports2.com">
+    <title>EPL Stories  2024/25  -  Cesc Fàbregas
+		Sports General</title>
   </programme>
-  <programme start="20250711035500 +0300" stop="20250711043000 +0300" channel="ams.de">
-    <title>Bloch erklärt</title>
+  <programme start="20250713110000 +0300" stop="20250713125000 +0300" channel="beinsports2.com">
+    <title>Poland vs Denmark  -  UEFA Women's EURO 2025 
+		Football</title>
   </programme>
-  <programme start="20250711043000 +0300" stop="20250711050000 +0300" channel="ams.de">
-    <title>Garage 21</title>
+  <programme start="20250713125000 +0300" stop="20250713143000 +0300" channel="beinsports2.com">
+    <title>Manchester City vs Leicester City  -  English Premier League 2024/25 Week 30
+		English Premier League</title>
+  </programme>
+  <programme start="20250713143000 +0300" stop="20250713150000 +0300" channel="beinsports2.com">
+    <title>EPL  -  Best Goals of EPL season 2024/2025
+		Sports General</title>
+  </programme>
+  <programme start="20250713150000 +0300" stop="20250713153000 +0300" channel="beinsports2.com">
+    <title>EPL Stories  2024/25  -  Cesc Fàbregas
+		Sports General</title>
+  </programme>
+  <programme start="20250713153000 +0300" stop="20250713171500 +0300" channel="beinsports2.com">
+    <title>Brighton &amp; Hove Albion vs Aston Villa  -  English Premier League 2024/25 Week 30
+		English Premier League</title>
+  </programme>
+  <programme start="20250713171500 +0300" stop="20250713190500 +0300" channel="beinsports2.com">
+    <title>Chelsea vs Tottenham Hotspur  -  English Premier League 2024/25 Week 30
+		English Premier League</title>
+  </programme>
+  <programme start="20250713190500 +0300" stop="20250713200000 +0300" channel="beinsports2.com">
+    <title>UEFA UCL Magazine2024/2025  -  Season Review
+		Sports General</title>
+  </programme>
+  <programme start="20250713200000 +0300" stop="20250713220000 +0300" channel="beinsports2.com">
+    <title>Poland vs Denmark  -  UEFA Women's EURO 2025 
+		Football</title>
+  </programme>
+  <programme start="20250713220000 +0300" stop="20250713223000 +0300" channel="beinsports2.com">
+    <title>EPL Stories 2025/2026 - 
+		English Premier League</title>
+  </programme>
+  <programme start="20250713223000 +0300" stop="20250713225000 +0300" channel="beinsports2.com">
+    <title>EPL  -  Best Goals of Man UTD season 2024/2025
+		Sports General</title>
+  </programme>
+  <programme start="20250713225000 +0300" channel="beinsports2.com">
+    <title>Netherlands vs France  -  UEFA Women's EURO 2025 
+		Football</title>
   </programme>
   <programme start="20250711050000 +0300" stop="20250711054500 +0300" channel="ams.de">
     <title>Der E-Auto Supertest</title>
@@ -9240,8 +9298,56 @@
   <programme start="20250712232000 +0300" stop="20250712234500 +0300" channel="ams.de">
     <title>30 Jahre Porsche Carrera Cup</title>
   </programme>
-  <programme start="20250712234500 +0300" stop="20250713050000 +0300" channel="ams.de">
+  <programme start="20250712234500 +0300" stop="20250713001000 +0300" channel="ams.de">
     <title>Der Vergleich</title>
+  </programme>
+  <programme start="20250713001000 +0300" stop="20250713001500 +0300" channel="ams.de">
+    <title>Der Einzeltest</title>
+  </programme>
+  <programme start="20250713001500 +0300" stop="20250713003000 +0300" channel="ams.de">
+    <title>Vorfahrt</title>
+  </programme>
+  <programme start="20250713003000 +0300" stop="20250713004500 +0300" channel="ams.de">
+    <title>Vorfahrt DS 7</title>
+  </programme>
+  <programme start="20250713004500 +0300" stop="20250713010000 +0300" channel="ams.de">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20250713010000 +0300" stop="20250713010500 +0300" channel="ams.de">
+    <title>NEWS</title>
+  </programme>
+  <programme start="20250713010500 +0300" stop="20250713013500 +0300" channel="ams.de">
+    <title>Reportage</title>
+  </programme>
+  <programme start="20250713013500 +0300" stop="20250713020500 +0300" channel="ams.de">
+    <title>Garagengold</title>
+  </programme>
+  <programme start="20250713020500 +0300" stop="20250713023000 +0300" channel="ams.de">
+    <title>Garagengold</title>
+  </programme>
+  <programme start="20250713023000 +0300" stop="20250713024500 +0300" channel="ams.de">
+    <title>Rückwärtsgang</title>
+  </programme>
+  <programme start="20250713024500 +0300" stop="20250713025500 +0300" channel="ams.de">
+    <title>Petrolheads</title>
+  </programme>
+  <programme start="20250713025500 +0300" stop="20250713031500 +0300" channel="ams.de">
+    <title>Die Tester</title>
+  </programme>
+  <programme start="20250713031500 +0300" stop="20250713034000 +0300" channel="ams.de">
+    <title>Fast Lap</title>
+  </programme>
+  <programme start="20250713034000 +0300" stop="20250713040500 +0300" channel="ams.de">
+    <title>Fast Lap</title>
+  </programme>
+  <programme start="20250713040500 +0300" stop="20250713041500 +0300" channel="ams.de">
+    <title>Die 7</title>
+  </programme>
+  <programme start="20250713041500 +0300" stop="20250713044500 +0300" channel="ams.de">
+    <title>Four Motors – Alternativ zum Sieg</title>
+  </programme>
+  <programme start="20250713044500 +0300" stop="20250713050000 +0300" channel="ams.de">
+    <title>Menzel fährt</title>
   </programme>
   <programme start="20250713050000 +0300" stop="20250713052500 +0300" channel="ams.de">
     <title>Fast Lap</title>
@@ -9402,7 +9508,7 @@
   <programme start="20250713233000 +0300" stop="20250713234500 +0300" channel="ams.de">
     <title>Menzel fährt</title>
   </programme>
-  <programme start="20250713234500 +0300" channel="ams.de">
+  <programme start="20250713234500 +0300" stop="20250714002500 +0300" channel="ams.de">
     <title>Bloch erklärt</title>
   </programme>
   <programme start="20250711020000 +0300" stop="20250711040000 +0300" channel="supertennis.it">
@@ -9789,8 +9895,41 @@
   <programme start="20250713060000 +0300" stop="20250713070000 +0300" channel="foxsports2.com">
     <title>Motorcycle Racing</title>
   </programme>
-  <programme start="20250713070000 +0300" channel="foxsports2.com">
+  <programme start="20250713070000 +0300" stop="20250713080400 +0300" channel="foxsports2.com">
     <title>MotoAmerica Rewind</title>
+  </programme>
+  <programme start="20250713080400 +0300" stop="20250713111300 +0300" channel="foxsports2.com">
+    <title>Australian Football League</title>
+  </programme>
+  <programme start="20250713111300 +0300" stop="20250713130000 +0300" channel="foxsports2.com">
+    <title>NRL Rugby</title>
+  </programme>
+  <programme start="20250713130000 +0300" stop="20250713140000 +0300" channel="foxsports2.com">
+    <title>Motorcycle Racing</title>
+  </programme>
+  <programme start="20250713140000 +0300" stop="20250713143000 +0300" channel="foxsports2.com">
+    <title>MotoGP Racing</title>
+  </programme>
+  <programme start="20250713143000 +0300" stop="20250713160000 +0300" channel="foxsports2.com">
+    <title>MotoGP Racing</title>
+  </programme>
+  <programme start="20250713160000 +0300" stop="20250713163000 +0300" channel="foxsports2.com">
+    <title>NHRA Pro Mod Series</title>
+  </programme>
+  <programme start="20250713163000 +0300" stop="20250713173000 +0300" channel="foxsports2.com">
+    <title>Off-Road Racing</title>
+  </programme>
+  <programme start="20250713173000 +0300" stop="20250713193000 +0300" channel="foxsports2.com">
+    <title>UEFA Women's EURO 2025 Soccer</title>
+  </programme>
+  <programme start="20250713193000 +0300" stop="20250713213000 +0300" channel="foxsports2.com">
+    <title>UEFA Women's EURO 2025 Soccer</title>
+  </programme>
+  <programme start="20250713213000 +0300" stop="20250713220000 +0300" channel="foxsports2.com">
+    <title>UEFA Women's Euro Today</title>
+  </programme>
+  <programme start="20250713220000 +0300" channel="foxsports2.com">
+    <title>UEFA Women's EURO 2025 Soccer</title>
   </programme>
   <programme start="20250711000000 +0300" stop="20250711003000 +0300" channel="fueltv.com">
     <title>Firsthand 4, еп. 11, Ryan Guettler</title>

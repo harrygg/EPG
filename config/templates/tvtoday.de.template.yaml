@@ -20,10 +20,10 @@ elements:
   - name: title
     locator: .tv-tip-heading
 
-  #- name: stop
-  #  locator: li
-  #  attribute: data-end-time
-  #  time-format: epoch
+  - name: stop
+    debug: false
+    attribute: data-end-time
+    time-format: epoch
 
 channel-parameters: 
   pro7max.de:

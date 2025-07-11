@@ -758,6 +758,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
+  - dnevnik.bg
   - potv.bg
   - tvprofil.com
  
@@ -1624,6 +1625,7 @@
   groups: ["sport", "tivi.bg", "vivacom", "a1"]
   sources:
   - tvtoday.de
+  - tvprofil.com
   
 - id: supertennis.it
   enabled: true
@@ -1783,8 +1785,8 @@
     lang: en
   groups: ["tivi.bg", "a1"]
   sources:
-  - tvsporedi.si
   - programtv.onet.pl
+  - tvsporedi.si
 
 - id: mtvlive.com
   days-ahead: 1
@@ -1820,11 +1822,10 @@
   - name: The Voice HD
     lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
-  sources:
+  sources:  
   - thevoice.bg
-  - dnes.bg
-  - start.bg
   - tv.dir.bg
+  - start.bg
   
 - id: citytv.bg
   days-ahead: 1
@@ -1987,6 +1988,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
+  - dnevnik.bg
   - tvsporedi.si
   - tv-programa.bg
   - programtv.onet.pl
@@ -2002,6 +2004,7 @@
     lang: en
   groups: ["tivi.bg", "a1"]
   sources:
+  - dnevnik.bg
   - tvsporedi.si
   - programtv.onet.pl
 
@@ -3435,6 +3438,7 @@
     lang: en
   groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
+  - dnevnik.bg
   - tv.dir.bg
   - start.bg
   - tv-programa.bg
