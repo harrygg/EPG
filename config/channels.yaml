@@ -28,7 +28,6 @@
 #   sources:
 #   - source.com
 #   - source2.com
-#
 
 - id: bnt1.bg
   names: 
@@ -359,6 +358,23 @@
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
   - start.bg
+
+- id: bgdnes.tv
+  enabled: true
+  names:
+    - name: BG DNES
+    - name: BG DNES HD
+  groups: ["bg", "tivi.bg"]
+  sources:
+    - tvprofil.com
+  
+- id: tvstz.bg
+  enabled: false
+  names:
+    - name: TV Stara Zagora
+  sources:
+    - tvprofil.com
+  
   
 ##############
 ### MOVIES ###
@@ -374,9 +390,8 @@
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
-  - tvprofil.com
   - tv.dir.bg
-  - dnes.bg
+  - tvprofil.com
 
 - id: hbo2.bg
   enabled: true
@@ -390,7 +405,6 @@
   - tv-programa.bg
   - tvprofil.com
   - tv.dir.bg
-  - dnes.bg
 
 - id: hbo3.bg
   enabled: true
@@ -404,7 +418,6 @@
   - tv-programa.bg
   - tvprofil.com
   - tv.dir.bg
-  - dnes.bg
 
 - id: cinemax1.bg
   enabled: true
@@ -416,9 +429,8 @@
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
-  - tvprofil.com
   - tv.dir.bg
-  - dnes.bg
+  - tvprofil.com
 
 - id: cinemax2.bg
   enabled: true
@@ -430,9 +442,8 @@
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - tv-programa.bg
-  - tvprofil.com
   - tv.dir.bg
-  - dnes.bg
+  - tvprofil.com
 
 - id: btvcinema.bg
   enabled: true
@@ -448,9 +459,9 @@
   sources:
   - tv-programa.bg
   - btv.bg
+  - tv.dir.bg
   - tvprofil.com
   - dnes.bg
-  - tv.dir.bg
 
 - id: btvcomedy.bg
   enabled: true
@@ -464,9 +475,10 @@
   groups: ["tivi.bg", "vivacom"]
   sources:
   - btv.bg
+  - tv.dir.bg
   - dnes.bg
   - tvprofil.com
-  - tv.dir.bg
+  
   
 - id: moviestar.bg
   enabled: true
@@ -1689,10 +1701,9 @@
   - name: Fuel TV
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
-  - tv.dir.bg
+  - fueltv.com
+  - dnevnik.bg
   - start.bg
-  - dnes.bg
-  - tvprofil.com
 
 - id: fastfunbox.com
   enabled: true
@@ -2029,8 +2040,8 @@
     lang: en
   groups: ["tivi.bg", "a1"]
   sources:
-  - dnevnik.bg
   - tvsporedi.si
+  - dnevnik.bg
   - programtv.onet.pl
 
 - id: deutschesmusik.de
@@ -3417,9 +3428,10 @@
     lang: en
   groups: ["kids", "tivi.bg", "a1"]
   sources:
+  - dnes.bg
   - start.bg
   - tv-programa.bg
-  - tvprofil.com
+  - dnevnik.bg
   
 - id: davincilearning.tv
   enabled: true
