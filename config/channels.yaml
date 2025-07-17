@@ -33,6 +33,7 @@
   names: 
   - name: БНТ 1
   - name: БНТ 1 HD
+  - name: BNT1 HD
   - name: БНТ 1 LQ
   - name: БНТ1 LQ
   icon: http://tv.bnt.bg/assets/images/bnt1-home.jpg
@@ -1697,7 +1698,6 @@
   enabled: true
   names:
   - name: Fuel TV HD
-    lang: en
   - name: Fuel TV
   groups: ["sport", "tivi.bg", "vivacom"]
   sources:
