@@ -825,7 +825,7 @@
   - name: Cinebox HD
     lang: en
   groups: ["tivi.bg"]
-  sources:
+  sources: 
   - bulsatcom.bg
   
 - id: action.box
