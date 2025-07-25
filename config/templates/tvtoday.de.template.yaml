@@ -10,6 +10,7 @@ request:
 
 programs:
   locator: li.time-listing
+  debug: true
 
 elements:
   - name: start
@@ -17,8 +18,17 @@ elements:
     attribute: data-start-time
     time-format: epoch
 
+  - name: _desc
+    locator: .description
+    debug: true
+
   - name: title
     locator: .tv-tip-heading
+    operations:
+      - name: append
+        hook: after
+        arguments: [ ", ${_desc}" ]
+        conditions: [ argument-not-empty ]
 
   - name: stop
     debug: false
@@ -50,7 +60,7 @@ channel-parameters:
     channelId: arte
   zdfneo.de:
     channelId: 2neo
-  One:
+  one.de:
     channelId: fes
   sixx.de:
     channelId: sixx

@@ -226,8 +226,8 @@
     lang: en
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
-  - codefashion.bg
   - tv.dir.bg
+  - codefashion.bg
     
 - id: skat.bg
   enabled: true
@@ -259,7 +259,7 @@
   
   
 - id: alfatv.bg
-  enabled: true
+  enabled: false
   names:
   - name: Алфа ТВ
   - name: Алфа
@@ -296,12 +296,20 @@
   - tv.dir.bg
   
 - id: tvn.bg
-  enabled: true
+  enabled: false
   names:
   - name: TVN
   groups: ["bg", "tivi.bg"]
   sources:
   - tvn.bg
+
+- id: tvshumen.bg
+  enabled: true
+  names:
+  - name: TV Shumen
+  groups: ["bg", "a1"]
+  sources:
+  - tvshumen.bg
   
 - id: eurochannel.com
   enabled: false
@@ -527,7 +535,6 @@
   names:
   - name: Viasat kino
   - name: Viasat kino HD
-  - name: TV 1000 - Viasat kino
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - pawa.tv
@@ -647,10 +654,11 @@
   - name: VIVACOM Arena
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - tv.dir.bg
   - tv-programa.bg
   - start.bg
   - tvprofil.com
-  - tv.dir.bg
+
 
 - id: diema.bg
   enabled: true
@@ -1063,37 +1071,33 @@
   - tvprofil.com
 
 - id: arenasport1.sr
-  enabled: false
+  enabled: true
   names:
   - name: Arena Sport 1 (SRB)
-    lang: en
   groups: ["sport", "tivi.bg"]
   sources:
   - tvarenasport.com
   
 - id: arenasport2.sr
-  enabled: false
+  enabled: true
   names:
   - name: Arena Sport 2 (SRB)
-    lang: en
   groups: ["sport", "tivi.bg"]
   sources:
   - tvarenasport.com
   
 - id: arenasport3.sr
-  enabled: false
+  enabled: true
   names:
   - name: Arena Sport 3 (SRB)
-    lang: en
   groups: ["sport", "tivi.bg"]
   sources:
   - tvarenasport.com
   
 - id: arenasport4.sr
-  enabled: false
+  enabled: true
   names:
   - name: Arena Sport 4 (SRB)
-    lang: en
   groups: ["sport", "tivi.bg"]
   sources:
   - tvarenasport.com
@@ -1102,7 +1106,6 @@
   enabled: true
   names:
   - name: Arena Sport 5 (SRB)
-    lang: en
   groups: ["sport", "tivi.bg"]
   sources:
   - tvarenasport.com
@@ -1178,7 +1181,7 @@
   
   
 - id: arenasport6.hr
-  enabled: true
+  enabled: false
   names:
   - name: Arena Sport 6 (HR)
     lang: en
@@ -1666,7 +1669,7 @@
   - tvprofil.com
   
 - id: supertennis.it
-  enabled: true
+  enabled: false
   names:
   - name: Super Tennis
   - name: Super Tennis HD
@@ -1704,6 +1707,15 @@
   - fueltv.com
   - dnevnik.bg
   - start.bg
+
+
+- id: mma.tv
+  enabled: true
+  names:
+  - name: MMA TV HD
+  - name: MMA TV
+  groups: ["sport", "tivi.bg", "vivacom", "a1"]
+  sources:
 
 - id: fastfunbox.com
   enabled: true
@@ -2126,8 +2138,8 @@
   days-ahead: 1
   enabled: true
   names:
-  - name: TRT Music
-  - name: TRT Music HD
+  - name: TRT Muzik
+  - name: TRT Muzik HD
   groups: ["tivi.bg"]
   sources:
   - tvplus.com.tr
@@ -2157,6 +2169,15 @@
     lang: de
   - name: ARD / Das Erste HD
     lang: de
+  groups: ["tivi.bg"]
+  sources:
+  - tvtoday.de
+
+- id: one.de
+  enabled: true
+  names:
+  - name: One
+  - name: ARD One HD
   groups: ["tivi.bg"]
   sources:
   - tvtoday.de
@@ -2438,7 +2459,6 @@
   names:
   - name: ORF 2
     lang: de
-  - name: ORF 2 Europe
   - name: ORF2 HD
     lang: de
   groups: ["tivi.bg"]
@@ -2458,7 +2478,7 @@
   enabled: true
   names:
   - name: Disney DE
-    lang: de
+  - name: "DE: Disney"
   groups: ["tivi.bg"]
   sources:
   - tvtoday.de
@@ -2575,6 +2595,7 @@
   - name: Евронюз БГ
     lang: bg
   - name: Euronews BG
+  - name: Euronews BG LQ
   - name: Euronews BG HD
   - name: Euronews Bulgaria
   - name: Euronews BG M
@@ -2805,6 +2826,7 @@
   names:
   - name: FREEДОМ
   - name: FREEДОМ (Укр)
+  - name: "UA: Freeдом"
   groups: ["tivi.bg", "a1"]
   sources:
   - meo.pt
@@ -2999,6 +3021,20 @@
   - viasat.bg
   - tv.dir.bg
   - dnes.bg
+
+- id: truecrime.viasat.bg
+  names: 
+  - name: Viasat Crime
+    lang: en
+  - name: Viasat Crime HD
+  - name: Viasat Crime LQ
+  - name: V True Crime HD
+  groups: ["tivi.bg", "vivacom", "a1"]
+  enabled: true
+  sources:
+  - tv.dir.bg
+  - pawa.tv
+  - viasat.bg
   
 - id: discoverychannel.bg
   enabled: true
@@ -3193,6 +3229,7 @@
   enabled: true
   names:
   - name: DocuBox
+  - name: DocuBox HD
   - name: Docu Box
   groups: ["tivi.bg", "a1"]
   sources:
@@ -3529,13 +3566,14 @@
   enabled: false
   names:
   - name: Disney
-    lang: en
+  - name: "RU: Disney"
   groups: ["kids", "tivi.bg"]
   sources:
   
 - id: trtcocuk.tr
   enabled: true
   names:
+  - name: "TR: TRT Cocuk"
   - name: TRT Cocuk
   - name: TRT Cocuk HD
     lang: tr
@@ -3551,6 +3589,7 @@
   names:
   - name: Minika Cocuk
     lang: tr
+  - name: "TR: Minika Cocuk"
   groups: ["kids", "tivi.bg"]
   sources:
   - tvplus.com.tr
@@ -3755,7 +3794,7 @@
 - id: centralnoe.ru
   enabled: true
   names:
-  - name: Централное ТВ
+  - name: Центральное ТВ
     lang: ru
   groups: ["ru", "tivi.bg"]
   sources:
@@ -3978,7 +4017,7 @@
   - tvplus.com.tr
   
 - id: tv85.tr
-  enabled: true
+  enabled: false
   names:
   - name: TV 8.5
   groups: ["tr", "tivi.bg"]
@@ -4412,12 +4451,21 @@
   names:
   - name: Rai 4
   - name: RAI 4 HD
-  - name: RAI 4
   groups: ["it", "tivi.bg"]
   sources:
   - raiplay.it
   - guida.tv
-  
+
+- id: rai5.it
+  enabled: true
+  names:
+  - name: Rai 5
+  - name: RAI 5 HD
+  groups: ["it", "tivi.bg"]
+  sources:
+  - raiplay.it
+  - guida.tv
+
 - id: rainews.it
   enabled: true
   names:
@@ -4427,13 +4475,6 @@
   - raiplay.it
   - guida.tv
   
-- id: polonia.tv
-  enabled: false
-  names:
-  - name: Polonia
-  - name: Polonia HD
-  - name: TV Polonia
-  sources:
   
 - id: raiscuola.it
   enabled: true
@@ -4444,6 +4485,24 @@
   sources:
   - raiplay.it
   - guida.tv
+  
+- id: raistoria.it
+  enabled: true
+  groups: ["it", "tivi.bg"]
+  names:
+  - name: Rai Storia
+  - name: RAI Storia HD
+  sources:
+  - raiplay.it
+  - guida.tv
+
+- id: polonia.tv
+  enabled: false
+  names:
+  - name: Polonia
+  - name: Polonia HD
+  - name: TV Polonia
+  sources:
   
 - id: luxe.tv
   enabled: true
