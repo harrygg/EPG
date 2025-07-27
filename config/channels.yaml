@@ -304,7 +304,7 @@
   - tvn.bg
 
 - id: tvshumen.bg
-  enabled: true
+  enabled: false
   names:
   - name: TV Shumen
   groups: ["bg", "a1"]
@@ -364,6 +364,15 @@
   names:
   - name: ВТК
     lang: bg
+  groups: ["bg", "tivi.bg", "vivacom"]
+  sources:
+  - start.bg
+  
+- id: rmtv.bg
+  enabled: true
+  names:
+  - name: RM TV
+  - name: RM TV HD
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
   - start.bg
@@ -820,7 +829,35 @@
   - start.bg
   - nostalgia.bg
   - tv.dir.bg
-  
+ 
+- id: cinestar.hr
+  enabled: true
+  names:
+  - name: Cinestar
+  - name: CineStar TV
+  - name: CineStar TV HD
+  groups: ["vivacom"]
+  sources:
+  - tv.dir.bg
+ 
+- id: cinestaraction.hr
+  enabled: true
+  names:
+  - name: Cinestar A&T
+  - name: CineStar A&T HD
+  groups: ["vivacom"]
+  sources:
+  - tv.dir.bg
+ 
+- id: pickbox.tv
+  enabled: false
+  names:
+  - name: Pickbox TV
+  - name: Pickbox TV HD
+  groups: ["vivacom"]
+  sources:
+  - pickbox.tv
+
 - id: cine.box
   enabled: false
   names:
@@ -3494,8 +3531,10 @@
   - tv.dir.bg
   
 - id: supertoons.bg
-  enabled: false
+  enabled: true
   names:
+  - name: Supertoons
+  - name: Supertoons HD
   - name: Super Toons
   - name: Super Toons HD
   groups: ["kids", "tivi.bg", "a1"]
