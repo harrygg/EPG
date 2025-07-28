@@ -375,6 +375,7 @@
   - name: RM TV HD
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - rmtv.bg
   - start.bg
 
 - id: bgdnes.tv
@@ -1788,6 +1789,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - stringray.com
   - tvsporedi.si
   - programtv.onet.pl
   - start.bg
