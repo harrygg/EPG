@@ -372,6 +372,8 @@
   enabled: true
   names:
   - name: RM TV
+  - name: Rimeks TV
+  - name: Rimeks
   - name: RM TV HD
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
@@ -1534,40 +1536,11 @@
   sources:
   - tvtoday.de
   
-- id: sportklub1.rs
-  enabled: true
-  names:
-  - name: "SR: Sport Klub 1"
-  - name: "Sport Klub 1 SR"
-    lang: sr
-  groups: ["sport", "tivi.bg"]
-  sources:
-  - united.cloud
-  
-- id: sportklub2.rs
-  enabled: true
-  names:
-  - name: "SR: Sport Klub 2"
-  - name: "Sport Klub 2 SR"
-    lang: sr
-  groups: ["sport", "tivi.bg"]
-  sources:
-  - united.cloud
-  
-- id: sportklub3.rs
-  enabled: true
-  names:
-  - name: "SR: Sport Klub 3"
-  - name: "Sport Klub 3 SR"
-    lang: sr
-  groups: ["sport", "tivi.bg"]
-  sources:
-  - united.cloud
-  
 - id: sportklub1.hr
   enabled: true
   names:
   - name: "HR: Sport Klub 1"
+  - name: "SR: Sport Klub 1"
   - name: "Sport Klub 1 HR"
     lang: hr
   groups: ["sport", "tivi.bg"]
@@ -1578,6 +1551,7 @@
   enabled: true
   names:
   - name: "HR: Sport Klub 2"
+  - name: "SR: Sport Klub 2"
   - name: "Sport Klub 2 HR"
     lang: hr
   groups: ["sport", "tivi.bg"]
@@ -1588,6 +1562,7 @@
   enabled: true
   names:
   - name: "HR: Sport Klub 3"
+  - name: "SR: Sport Klub 3"
   - name: "Sport Klub 3 HR"
     lang: hr
   groups: ["sport", "tivi.bg"]
