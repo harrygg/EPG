@@ -211,8 +211,8 @@
   - name: Code Health TV
   - name: Code Health HD
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
-  sources:
-  - codehealth.bg
+  sources:  
+  - extvs.plugin
   - tv.dir.bg
     
 - id: codefashion.bg
@@ -223,11 +223,10 @@
   - name: Code Fashion HD
   - name: Code Fashion TV
   - name: Code Fashion TV HD
-    lang: en
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
+  - extvs.plugin
   - tv.dir.bg
-  - codefashion.bg
     
 - id: skat.bg
   enabled: true
@@ -281,6 +280,7 @@
   - name: Agro TV
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
+  - extvs.plugin
   - start.bg
   - dnevnik.bg
   
