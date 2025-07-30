@@ -188,19 +188,28 @@
     <display-name lang="de">Sky Sport Bundesliga</display-name>
     <display-name lang="de">Sky Sport Bundesliga HD</display-name>
   </channel>
+  <channel id="sportklub1.rs">
+    <display-name>SR: Sport Klub 1</display-name>
+    <display-name lang="sr">Sport Klub 1 SR</display-name>
+  </channel>
+  <channel id="sportklub2.rs">
+    <display-name>SR: Sport Klub 2</display-name>
+    <display-name lang="sr">Sport Klub 2 SR</display-name>
+  </channel>
+  <channel id="sportklub3.rs">
+    <display-name>SR: Sport Klub 3</display-name>
+    <display-name lang="sr">Sport Klub 3 SR</display-name>
+  </channel>
   <channel id="sportklub1.hr">
     <display-name>HR: Sport Klub 1</display-name>
-    <display-name>SR: Sport Klub 1</display-name>
     <display-name lang="hr">Sport Klub 1 HR</display-name>
   </channel>
   <channel id="sportklub2.hr">
     <display-name>HR: Sport Klub 2</display-name>
-    <display-name>SR: Sport Klub 2</display-name>
     <display-name lang="hr">Sport Klub 2 HR</display-name>
   </channel>
   <channel id="sportklub3.hr">
     <display-name>HR: Sport Klub 3</display-name>
-    <display-name>SR: Sport Klub 3</display-name>
     <display-name lang="hr">Sport Klub 3 HR</display-name>
   </channel>
   <channel id="sportklub4.hr">
@@ -342,9 +351,6 @@
   <programme start="20250801233000 +0300" channel="novasport.bg">
     <title>Бокс: ONE Петъчна бойна вечер 117</title>
     <desc>Бойно събитие в Банкок, Тайланд, /n/</desc>
-  </programme>
-  <programme start="20250730023000 +0300" stop="20250730080000 +0300" channel="diemasport.bg">
-    <title>Програмна пауза</title>
   </programme>
   <programme start="20250730080000 +0300" stop="20250730100000 +0300" channel="diemasport.bg">
     <title>Черно море - Ботев Пловдив, 2 кръг, Футбол: efbet Лига 2025/2026, /n/</title>
@@ -1606,8 +1612,44 @@
   <programme start="20250731200500 +0300" stop="20250731230500 +0300" channel="arenasport1.sr">
     <title lang="sr">Bejzbol: New York Yankees - Tampa Bay Rays</title>
   </programme>
-  <programme start="20250731230500 +0300" channel="arenasport1.sr">
+  <programme start="20250731230500 +0300" stop="20250801010000 +0300" channel="arenasport1.sr">
     <title lang="sr">Košarka: The best of 2024/25</title>
+  </programme>
+  <programme start="20250801010000 +0300" stop="20250801030000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The Best of</title>
+  </programme>
+  <programme start="20250801030000 +0300" stop="20250801050000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The Best of</title>
+  </programme>
+  <programme start="20250801050000 +0300" stop="20250801070000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The best of 2024/25</title>
+  </programme>
+  <programme start="20250801070000 +0300" stop="20250801090000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The best of 2024/25</title>
+  </programme>
+  <programme start="20250801090000 +0300" stop="20250801110000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The best of 2024/25</title>
+  </programme>
+  <programme start="20250801110000 +0300" stop="20250801120000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: NBA Chasing History 1. deo</title>
+  </programme>
+  <programme start="20250801120000 +0300" stop="20250801140000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The Best of</title>
+  </programme>
+  <programme start="20250801140000 +0300" stop="20250801160000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The Best of</title>
+  </programme>
+  <programme start="20250801160000 +0300" stop="20250801180000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The best of 2024/25</title>
+  </programme>
+  <programme start="20250801180000 +0300" stop="20250801200000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The best of 2024/25</title>
+  </programme>
+  <programme start="20250801200000 +0300" stop="20250801220000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The Best of</title>
+  </programme>
+  <programme start="20250801220000 +0300" channel="arenasport1.sr">
+    <title lang="sr">Košarka: The Best of</title>
   </programme>
   <programme start="20250730010000 +0300" stop="20250730030000 +0300" channel="arenasport2.sr">
     <title lang="sr">Fudbal: Athletic - Atletico</title>
@@ -1693,8 +1735,38 @@
   <programme start="20250731133000 +0300" stop="20250801003000 +0300" channel="arenasport2.sr">
     <title lang="sr">Fudbal: River Plate - San Lorenzo</title>
   </programme>
-  <programme start="20250801003000 +0300" channel="arenasport2.sr">
+  <programme start="20250801003000 +0300" stop="20250801010000 +0300" channel="arenasport2.sr">
     <title lang="sr">Tenis: ATP Tour: Pregled nedelje ep. 7</title>
+  </programme>
+  <programme start="20250801010000 +0300" stop="20250801020000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Tenis: Rim - pregled</title>
+  </programme>
+  <programme start="20250801020000 +0300" stop="20250801070000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Tenis: Centre Court - Dan 5, drugi deo</title>
+  </programme>
+  <programme start="20250801070000 +0300" stop="20250801090000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Fudbal: Arsenal - Tottenham</title>
+  </programme>
+  <programme start="20250801090000 +0300" stop="20250801110000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Fudbal: Sporting - Benfica</title>
+  </programme>
+  <programme start="20250801110000 +0300" stop="20250801130000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Fudbal: West Ham - Everton</title>
+  </programme>
+  <programme start="20250801130000 +0300" stop="20250801150000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Fudbal: Manchester Utd - Bournemouth</title>
+  </programme>
+  <programme start="20250801150000 +0300" stop="20250801153000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Fudbal: PL Stories: Nani</title>
+  </programme>
+  <programme start="20250801153000 +0300" stop="20250801173000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Fudbal: K League - Newcastle Utd</title>
+  </programme>
+  <programme start="20250801173000 +0300" stop="20250801193000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Fudbal: Palmeiras - Gremio</title>
+  </programme>
+  <programme start="20250801193000 +0300" channel="arenasport2.sr">
+    <title lang="sr">Tenis: Centre Court - Dan 6, prvi deo</title>
   </programme>
   <programme start="20250730010000 +0300" stop="20250730030000 +0300" channel="arenasport3.sr">
     <title lang="sr">Fudbal: Monaco - Lens</title>
@@ -1756,8 +1828,23 @@
   <programme start="20250801003000 +0300" stop="20250801004500 +0300" channel="arenasport3.sr">
     <title lang="sr">Tenis: London - pregled</title>
   </programme>
-  <programme start="20250801004500 +0300" channel="arenasport3.sr">
+  <programme start="20250801004500 +0300" stop="20250801011500 +0300" channel="arenasport3.sr">
     <title lang="sr">Tenis: London - pregled</title>
+  </programme>
+  <programme start="20250801011500 +0300" stop="20250801013000 +0300" channel="arenasport3.sr">
+    <title lang="sr">Tenis: Berlin - pregled</title>
+  </programme>
+  <programme start="20250801013000 +0300" stop="20250801020000 +0300" channel="arenasport3.sr">
+    <title lang="sr">Tenis: Bad Homburg - pregled</title>
+  </programme>
+  <programme start="20250801020000 +0300" stop="20250801070000 +0300" channel="arenasport3.sr">
+    <title lang="sr">Tenis: Montreal - Dan 5, popodnevna sesija</title>
+  </programme>
+  <programme start="20250801070000 +0300" stop="20250801193000 +0300" channel="arenasport3.sr">
+    <title lang="sr">Tenis: Morning sessions  31. jul Toronto&amp;Montreal</title>
+  </programme>
+  <programme start="20250801193000 +0300" channel="arenasport3.sr">
+    <title lang="sr">Tenis: Montreal - Dan 6, prepodnevna sesija</title>
   </programme>
   <programme start="20250730010000 +0300" stop="20250730030000 +0300" channel="arenasport4.sr">
     <title lang="sr">Fudbal: PSV - Liverpool</title>
@@ -1969,8 +2056,50 @@
   <programme start="20250731223000 +0300" stop="20250731230000 +0300" channel="arenasport5.sr">
     <title lang="sr">Fudbal: Full Impact ep. 18</title>
   </programme>
-  <programme start="20250731230000 +0300" channel="arenasport5.sr">
+  <programme start="20250731230000 +0300" stop="20250801010000 +0300" channel="arenasport5.sr">
     <title lang="sr">Fudbal: Juventus - Napoli</title>
+  </programme>
+  <programme start="20250801010000 +0300" stop="20250801030000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Atletico - Real Madrid</title>
+  </programme>
+  <programme start="20250801030000 +0300" stop="20250801050000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Torino - Lazio</title>
+  </programme>
+  <programme start="20250801050000 +0300" stop="20250801070000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Osasuna - Betis</title>
+  </programme>
+  <programme start="20250801070000 +0300" stop="20250801090000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Valladolid - Villarreal</title>
+  </programme>
+  <programme start="20250801090000 +0300" stop="20250801110000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Roma - Bologna</title>
+  </programme>
+  <programme start="20250801110000 +0300" stop="20250801113000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Full Impact ep. 13</title>
+  </programme>
+  <programme start="20250801113000 +0300" stop="20250801120000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: La Liga Chronicles  ep. 5</title>
+  </programme>
+  <programme start="20250801120000 +0300" stop="20250801140000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Alaves - Barcelona</title>
+  </programme>
+  <programme start="20250801140000 +0300" stop="20250801160000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Napoli - Venezia</title>
+  </programme>
+  <programme start="20250801160000 +0300" stop="20250801180000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Real Madrid - Espanyol</title>
+  </programme>
+  <programme start="20250801180000 +0300" stop="20250801200000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Napoli - Atalanta</title>
+  </programme>
+  <programme start="20250801200000 +0300" stop="20250801210000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Pregled sezone</title>
+  </programme>
+  <programme start="20250801210000 +0300" stop="20250801233000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: Full Impact ep. 19</title>
+  </programme>
+  <programme start="20250801233000 +0300" channel="arenasport5.sr">
+    <title lang="sr">Fudbal: La Liga Chronicles  ep. 11</title>
   </programme>
   <programme start="20250730080000 +0300" stop="20250730093000 +0300" channel="arenasport1.hr">
     <title>Rukomet: FINALE, ehf liga prvaka final4</title>
@@ -6511,6 +6640,372 @@
   <programme start="20250801203000 +0300" stop="20250802000000 +0300" channel="skysportbundesliga.de">
     <title>Fußball: 2. Bundesliga, </title>
   </programme>
+  <programme start="20250730070000 +0300" stop="20250730090000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730090000 +0300" stop="20250730110000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730110000 +0300" stop="20250730130000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730130000 +0300" stop="20250730150000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730150000 +0300" stop="20250730170000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730170000 +0300" stop="20250730190000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730190000 +0300" stop="20250730210000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730210000 +0300" stop="20250730230000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730230000 +0300" stop="20250731070000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731070000 +0300" stop="20250731090000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731090000 +0300" stop="20250731110000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731110000 +0300" stop="20250731130000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731130000 +0300" stop="20250731150000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731150000 +0300" stop="20250731170000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731170000 +0300" stop="20250731190000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731190000 +0300" stop="20250731210000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731210000 +0300" stop="20250731230000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250731230000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+    <desc>Uživajte u sportskim minutama našeg programa!</desc>
+  </programme>
+  <programme start="20250730034500 +0300" stop="20250730060000 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Kenin - Mboko</title>
+    <desc>Ove godine, red je na dame da igraju u Torontu. Malo je vremena ostalo pred US Open, vreme je da se podiže forma i da se igraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250730060000 +0300" stop="20250730073000 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: Cameroon - Mali</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250730073000 +0300" stop="20250730082500 +0300" channel="sportklub2.rs">
+    <title>Tennis: ATP 500 Pregled: Washington</title>
+    <desc>Pogledajte najbolje momente sa teniskih turnira serije "500", koji se tokom sezone održavaju u gradovima širom sveta. Rekorderi po broju osvojenih turnira ove kategorije su Rodžer Federer u...</desc>
+  </programme>
+  <programme start="20250730082500 +0300" stop="20250730105500 +0300" channel="sportklub2.rs">
+    <title>Basket 3x3 Pro Tour: Šibenik</title>
+    <desc>Pratite Pro 3x3 Tour, seriju turnira u basketu 3x3. Ovaj košarkaški karavan održava se u više hrvatskih gradova i traje od sredine maja. Pobednička ekipa ide na završni turnir 26.-27. avgusta 2023....</desc>
+  </programme>
+  <programme start="20250730105500 +0300" stop="20250730124500 +0300" channel="sportklub2.rs">
+    <title>Fudbal - Kvalifikacije za Ligu šampiona: (2nd leg): Crvena zvezda - Lincoln</title>
+    <desc>Letnja pauza je iza nas, početak je nove sezone koji znači borbu klubova za ulazak u Ligu šampiona, najcenjenije evropsko fudbalsko takmičenje.</desc>
+  </programme>
+  <programme start="20250730124500 +0300" stop="20250730141500 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: Mozambique - Nigeria</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250730141500 +0300" stop="20250730144000 +0300" channel="sportklub2.rs">
+    <title>Spirit of Yachting: Sail GP</title>
+    <desc>Jedrenje je poseban sport, bitnija je taktika i mentalna snaga od fizičke. Ovi ljudi moraju da misle uvek bar tri koraka unapred, a svaka greška može da bude kobna.</desc>
+  </programme>
+  <programme start="20250730144000 +0300" stop="20250730154500 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Shapovalov - Tien</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250730154500 +0300" stop="20250730165500 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: V. Kudermetova - Danilović</title>
+    <desc>Ove godine, red je na dame da igraju u Torontu. Malo je vremena ostalo pred US Open, vreme je da se podiže forma i da se igraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250730165500 +0300" stop="20250730180000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Zverev - Walton</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250730180000 +0300" stop="20250730194500 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Rublev - Gaston</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250730194500 +0300" stop="20250730214500 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Cobolli - Galarneau</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250730214500 +0300" stop="20250730233000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Tiafoe - Watanuki</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250730233000 +0300" stop="20250731020000 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Ružić - Muchova</title>
+    <desc>Ove godine, red je na dame da igraju u Torontu. Malo je vremena ostalo pred US Open, vreme je da se podiže forma i da se igraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731020000 +0300" stop="20250731034500 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Bencic - Bouchard</title>
+    <desc>Ove godine, red je na dame da igraju u Torontu. Malo je vremena ostalo pred US Open, vreme je da se podiže forma i da se igraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731034500 +0300" stop="20250731060000 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Rakhimova - Svitolina</title>
+    <desc>Ove godine, red je na dame da igraju u Torontu. Malo je vremena ostalo pred US Open, vreme je da se podiže forma i da se igraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731060000 +0300" stop="20250731073000 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: baraž za 1/4 Finale: Egypt - South Sudan</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250731073000 +0300" stop="20250731080000 +0300" channel="sportklub2.rs">
+    <title>ATP Uncovered</title>
+    <desc>Teniseri su gotovo celu godinu na putovanjima. Saznajte nešto više o tome kako izgleda njihov život na terenu i van njega i kako organizatori ATP turnira rešavaju slatke i gorke muke koje imaju.</desc>
+  </programme>
+  <programme start="20250731080000 +0300" stop="20250731094000 +0300" channel="sportklub2.rs">
+    <title>Odbojka - Liga nacija (M): F8 - 1/4 Finale: Italy - Cuba</title>
+    <desc>Pogledajte međunarodne susrete muških odbojkaških reprezentacija koje su članice Međunarodne odbojkaške federacije (FVIB). Takmičenje se odvija u dve faze dok se četiri ekipe ne plasiraju u...</desc>
+  </programme>
+  <programme start="20250731094000 +0300" stop="20250731111000 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: baraž za 1/4 Finale: Cameroon - Angola</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250731111000 +0300" stop="20250731130000 +0300" channel="sportklub2.rs">
+    <title>Fudbal - Kvalifikacije za Ligu šampiona: (2nd leg): Panathinaikos - Rangers</title>
+    <desc>Letnja pauza je iza nas, početak je nove sezone koji znači borbu klubova za ulazak u Ligu šampiona, najcenjenije evropsko fudbalsko takmičenje.</desc>
+  </programme>
+  <programme start="20250731130000 +0300" stop="20250731135000 +0300" channel="sportklub2.rs">
+    <title>Trans World Sport</title>
+    <desc>Interesantne priče i neobični sportovi iz svih delova sveta. Uvek ćete biti u toku uz ovu emisiju.</desc>
+  </programme>
+  <programme start="20250731135000 +0300" stop="20250731144000 +0300" channel="sportklub2.rs">
+    <title>Tennis: ATP 500 Pregled: Washington</title>
+    <desc>Pogledajte najbolje momente sa teniskih turnira serije "500", koji se tokom sezone održavaju u gradovima širom sveta. Rekorderi po broju osvojenih turnira ove kategorije su Rodžer Federer u...</desc>
+  </programme>
+  <programme start="20250731144000 +0300" stop="20250731155000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Davidovich-Fokina - Moutet</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250731155000 +0300" stop="20250731165500 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Guo - Swiatek</title>
+    <desc>Ove godine, red je na dame da igraju u Torontu. Malo je vremena ostalo pred US Open, vreme je da se podiže forma i da se igraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731165500 +0300" stop="20250731180000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Carballes-Baena - Fritz</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250731180000 +0300" stop="20250801060000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250801060000 +0300" stop="20250801073000 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: 1/4 Finale 2</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250801073000 +0300" stop="20250801080000 +0300" channel="sportklub2.rs">
+    <title>Spirit of Yachting: TP52 WC</title>
+    <desc>Jedrenje je poseban sport, bitnija je taktika i mentalna snaga od fizičke. Ovi ljudi moraju da misle uvek bar tri koraka unapred, a svaka greška može da bude kobna.</desc>
+  </programme>
+  <programme start="20250801080000 +0300" stop="20250801094000 +0300" channel="sportklub2.rs">
+    <title>Odbojka - Liga nacija (M): F8 - 1/4 Finale: Brazil - China</title>
+    <desc>Pogledajte međunarodne susrete muških odbojkaških reprezentacija koje su članice Međunarodne odbojkaške federacije (FVIB). Takmičenje se odvija u dve faze dok se četiri ekipe ne plasiraju u...</desc>
+  </programme>
+  <programme start="20250801094000 +0300" stop="20250801111000 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: 1/4 Finale 4</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250801111000 +0300" stop="20250801114000 +0300" channel="sportklub2.rs">
+    <title>Ekstremni svet sporta</title>
+    <desc>Sve o ekstremnim sportovima, takmičenjima u izdržljivosti i istinskim takmičarskim maratonima. Ovi ljudi svaki dan pomeraju granice onoga što je moguće.</desc>
+  </programme>
+  <programme start="20250801114000 +0300" stop="20250801121000 +0300" channel="sportklub2.rs">
+    <title>Fast Zone</title>
+    <desc>U ovoj emisiji, videćemo šta se dešava na serijama koje ne prenosi Sport Klub. I ovde ima kvalitetnih i ambicioznih vozača koji žele da se probiju u sam vrh.</desc>
+  </programme>
+  <programme start="20250801121000 +0300" stop="20250801141000 +0300" channel="sportklub2.rs">
+    <title>Fudbal - Portugalski Superkup: Sporting - Benfica</title>
+    <desc>Portugalski Superkup je utakmica između pobednika portugalske lige i Kupa Portugala, a igra se od 1979. godine. Trofej je nazvan po fudbaleru, treneru i sportskom novinaru Kandidu de Oliveiri.</desc>
+  </programme>
+  <programme start="20250801141000 +0300" stop="20250801144000 +0300" channel="sportklub2.rs">
+    <title>WTA All Access</title>
+    <desc>Pogledajte najbolje teniserke sveta u nekom drugom izdanju. Saznajte i nešto više o njihovom životu van terena.</desc>
+  </programme>
+  <programme start="20250801144000 +0300" stop="20250801180000 +0300" channel="sportklub2.rs">
+    <title>Tenis: WTA 1000 Montreal &amp; ATP Masters Toronto</title>
+    <desc>Kombinovani prenosi i snimci mečeva u WTA i ATP konkurenciji. Uživajte uz mečeve muškog i ženskog profesionalnog tenisa!</desc>
+  </programme>
+  <programme start="20250801180000 +0300" stop="20250801193000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto</title>
+    <desc>Otvoreno prvenstvo Kanade u tenisu igra se od davne 1881. godine. Uživajte u uzbudljivim mečevima ovogodišnjeg izdanja turnira koji pripada kategoriji "1000".</desc>
+  </programme>
+  <programme start="20250801193000 +0300" channel="sportklub2.rs">
+    <title>Tenis: WTA 1000 Montreal &amp; ATP Masters Toronto</title>
+    <desc>Kombinovani prenosi i snimci mečeva u WTA i ATP konkurenciji. Uživajte uz mečeve muškog i ženskog profesionalnog tenisa!</desc>
+  </programme>
+  <programme start="20250730001000 +0300" stop="20250730015500 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Kvalifikacije za Ligu šampiona: Crvena zvezda - Lincoln (2nd leg)</title>
+    <desc>Letnja pauza je iza nas, početak je nove sezone koji znači borbu klubova za ulazak u Ligu šampiona, najcenjenije evropsko fudbalsko takmičenje.</desc>
+  </programme>
+  <programme start="20250730015500 +0300" stop="20250730034500 +0300" channel="sportklub3.rs">
+    <title>E-Sports: League of Legends - EBL</title>
+    <desc>Novi igrači, nove ekipe, sve je spremno za novi split EBL-a! Najbolji balkanski igrači takmiče se, ne samo za trofej, već i za mesto na prestižnom evropskom takmičenju: EMEA Masters.</desc>
+  </programme>
+  <programme start="20250730034500 +0300" stop="20250730051500 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: Angola - Ivory Coast</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250730051500 +0300" stop="20250730071500 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Norveška liga: Sandefjord - Sarpsborg</title>
+    <desc>Prva liga Norveške je najviše fudbalsko ligaško takmičenje u Norveškoj.</desc>
+  </programme>
+  <programme start="20250730071500 +0300" stop="20250730080000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730080000 +0300" stop="20250730090000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730090000 +0300" stop="20250730100000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730100000 +0300" stop="20250730110000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730110000 +0300" stop="20250730120000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730120000 +0300" stop="20250730130000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730130000 +0300" stop="20250730140000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730140000 +0300" stop="20250730150000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730150000 +0300" stop="20250730160000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730160000 +0300" stop="20250730170000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730170000 +0300" stop="20250730180000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730180000 +0300" stop="20250730190000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730190000 +0300" stop="20250730200000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730200000 +0300" stop="20250730210000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730210000 +0300" stop="20250730220000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730220000 +0300" stop="20250730230000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730230000 +0300" stop="20250731000000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250731000000 +0300" stop="20250731020000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250731020000 +0300" stop="20250731034000 +0300" channel="sportklub3.rs">
+    <title>Odbojka - Liga nacija (M): F8 - 1/4 Finale: Italy - Cuba</title>
+    <desc>Pogledajte međunarodne susrete muških odbojkaških reprezentacija koje su članice Međunarodne odbojkaške federacije (FVIB). Takmičenje se odvija u dve faze dok se četiri ekipe ne plasiraju u...</desc>
+  </programme>
+  <programme start="20250731034000 +0300" stop="20250731052500 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Kvalifikacije za Ligu šampiona: (2nd leg): Panathinaikos - Rangers</title>
+    <desc>Letnja pauza je iza nas, početak je nove sezone koji znači borbu klubova za ulazak u Ligu šampiona, najcenjenije evropsko fudbalsko takmičenje.</desc>
+  </programme>
+  <programme start="20250731052500 +0300" stop="20250731061500 +0300" channel="sportklub3.rs">
+    <title>Trans World Sport</title>
+    <desc>Interesantne priče i neobični sportovi iz svih delova sveta. Uvek ćete biti u toku uz ovu emisiju.</desc>
+  </programme>
+  <programme start="20250731061500 +0300" stop="20250731075500 +0300" channel="sportklub3.rs">
+    <title>Odbojka - Liga nacija (M): F8 - 1/4 Finale: Brazil - China</title>
+    <desc>Pogledajte međunarodne susrete muških odbojkaških reprezentacija koje su članice Međunarodne odbojkaške federacije (FVIB). Takmičenje se odvija u dve faze dok se četiri ekipe ne plasiraju u...</desc>
+  </programme>
+  <programme start="20250731075500 +0300" stop="20250731094000 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Slovenačka 1. liga: Aluminij - Olimpija</title>
+    <desc>Prethodnih sezona gledali smo veoma zanimljiva prvenstva u Sloveniji i dobijali iznenađujuće ishode. Da li će tako biti i ove sezone?</desc>
+  </programme>
+  <programme start="20250731094000 +0300" stop="20250731112500 +0300" channel="sportklub3.rs">
+    <title>Fudbal: COMO CUP: Finale: Como - Ajax</title>
+    <desc>Fudbalski "Komo Kup" održava se u okviru festivala "Fudbal na jezeru" na kom će se okupiti ljubitelji kvalitetnog fudbala, ali i dobre zabave. Pratite uzbudljive utakmice koje se igraju na stadionu...</desc>
+  </programme>
+  <programme start="20250731112500 +0300" stop="20250731125500 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: baraž za 1/4 Finale: Egypt - South Sudan</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250731125500 +0300" stop="20250731144000 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Švajcarska liga: Young Boys - Servette</title>
+    <desc>Švajcarska Super liga pod tim nazivom se vodi od 2003. godine, dok je prvi prvak okrunjen davne 1898. Prvi prvak i najuspješniji klub sa čak 27 titule je Grasshopper Club Zürich.</desc>
+  </programme>
+  <programme start="20250731144000 +0300" stop="20250731150000 +0300" channel="sportklub3.rs">
+    <title>Zlatni golovi YU sporta</title>
+    <desc>Mnogo je velikih momenata u istoriji jugoslovenskog fudbala, a mi smo izdvojili samo najbolje od najboljeg. Uvek je lepo setiti se tih lepih trenutaka.</desc>
+  </programme>
+  <programme start="20250731150000 +0300" stop="20250731170000 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: 1/4 Finale 1</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250731170000 +0300" stop="20250731173000 +0300" channel="sportklub3.rs">
+    <title>Spirit of Yachting: TP52 WC</title>
+    <desc>Jedrenje je poseban sport, bitnija je taktika i mentalna snaga od fizičke. Ovi ljudi moraju da misle uvek bar tri koraka unapred, a svaka greška može da bude kobna.</desc>
+  </programme>
+  <programme start="20250731173000 +0300" stop="20250731180000 +0300" channel="sportklub3.rs">
+    <title>Put do vrha</title>
+    <desc>Neverovatne priče o usponu tamnoputih sportista do samog vrha: Između ostalih, Lebron Džejms i Serena Vilijams...</desc>
+  </programme>
+  <programme start="20250731180000 +0300" stop="20250731200000 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: 1/4 Finale 2</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
+  <programme start="20250731200000 +0300" stop="20250731210000 +0300" channel="sportklub3.rs">
+    <title>Tennis: ATP 500 Pregled: Washington</title>
+    <desc>Pogledajte najbolje momente sa teniskih turnira serije "500", koji se tokom sezone održavaju u gradovima širom sveta. Rekorderi po broju osvojenih turnira ove kategorije su Rodžer Federer u...</desc>
+  </programme>
+  <programme start="20250731210000 +0300" stop="20250731230000 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Kvalifikacije za Ligu Evrope: (2nd leg): Shakhtar - Besiktas</title>
+    <desc>Nastup u Ligi Evrope klubovi započinju u kvalifikacijama koje se sastoje od čak četiri kola kvalifikacija uz jedno kolo pretkvalifikacija.</desc>
+  </programme>
+  <programme start="20250731230000 +0300" stop="20250731233000 +0300" channel="sportklub3.rs">
+    <title>Ekstremni svet sporta</title>
+    <desc>Sve o ekstremnim sportovima, takmičenjima u izdržljivosti i istinskim takmičarskim maratonima. Ovi ljudi svaki dan pomeraju granice onoga što je moguće.</desc>
+  </programme>
+  <programme start="20250731233000 +0300" stop="20250801000000 +0300" channel="sportklub3.rs">
+    <title>Fast Zone</title>
+    <desc>U ovoj emisiji, videćemo šta se dešava na serijama koje ne prenosi Sport Klub. I ovde ima kvalitetnih i ambicioznih vozača koji žele da se probiju u sam vrh.</desc>
+  </programme>
+  <programme start="20250801000000 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: 1/4 Finale 4</title>
+    <desc>AfroBasket 2023. godine biće 26. izdanje ovog turnira koje se održava od 28. jula do 6. avgusta u glavnom gradu Ruande - Kigaliju. Rerezentacije su podeljene u četiri grupe po tri selekcije, nakon...</desc>
+  </programme>
   <programme start="20250730000000 +0300" stop="20250730003000 +0300" channel="sportklub1.hr">
     <title>Bundesliga serijal: Rurska dolina - srce njemačkog nogometa: Rurska dolina - srce njemačkog nogometa (1/6)</title>
     <desc>Pođite s nama na uzbudljivo putovanje i upoznajte najbolje njemačke klubove iz malo drugačijeg kuta! Vodimo vas u Ruhrsku oblast i gradove koji su iznjedrili brojne legende Bundeslige.</desc>
@@ -6765,8 +7260,28 @@
     <title>Tenis: WTA 1000 Montreal &amp; ATP Masters Toronto</title>
     <desc>Pratite kombinirane prijenose i snimke mečeva s WTA i ATP natjecanja. Uživajte u odličnim teniskim mečevima!</desc>
   </programme>
-  <programme start="20250731180000 +0300" channel="sportklub2.hr">
+  <programme start="20250731180000 +0300" stop="20250730233000 +0300" channel="sportklub2.hr">
     <title>ATP Masters Toronto</title>
+    <desc>Pozivamo vas da pogledate tradicionalno tenisko natjecanje na tvrdoj podlozi, koje se za žene održava od 1892. godine, a za muškarce od 1881. godine. Nježniji spol natjecat će se u Torontu, a muškarci...</desc>
+  </programme>
+  <programme start="20250730233000 +0300" stop="20250731020000 +0300" channel="sportklub2.hr">
+    <title>WTA 1000 Montreal: Ružić - Muchova</title>
+    <desc>Ove godine dame igraju u Torontu. Ostalo je još malo vremena do US Opena, vrijeme je da se poboljša forma i odigraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731020000 +0300" stop="20250731034500 +0300" channel="sportklub2.hr">
+    <title>WTA 1000 Montreal: Bencic - Bouchard</title>
+    <desc>Ove godine dame igraju u Torontu. Ostalo je još malo vremena do US Opena, vrijeme je da se poboljša forma i odigraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731034500 +0300" stop="20250731155000 +0300" channel="sportklub2.hr">
+    <title>WTA 1000 Montreal: Rakhimova - Svitolina</title>
+    <desc>Ove godine dame igraju u Torontu. Ostalo je još malo vremena do US Opena, vrijeme je da se poboljša forma i odigraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731155000 +0300" stop="20250731165500 +0300" channel="sportklub2.hr">
+    <title>WTA 1000 Montreal: Guo - Swiatek</title>
+    <desc>Ove godine dame igraju u Torontu. Ostalo je još malo vremena do US Opena, vrijeme je da se poboljša forma i odigraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731165500 +0300" channel="sportklub2.hr">
+    <title>ATP Masters Toronto: Carballes-Baena - Fritz</title>
     <desc>Pozivamo vas da pogledate tradicionalno tenisko natjecanje na tvrdoj podlozi, koje se za žene održava od 1892. godine, a za muškarce od 1881. godine. Nježniji spol natjecat će se u Torontu, a muškarci...</desc>
   </programme>
   <programme start="20250730001000 +0300" stop="20250730015500 +0300" channel="sportklub3.hr">
@@ -7367,9 +7882,17 @@
     <title>Sport Klub 5 Promo 3</title>
     <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
   </programme>
-  <programme start="20250731193000 +0300" channel="sportklub5.hr">
+  <programme start="20250731193000 +0300" stop="20250731010000 +0300" channel="sportklub5.hr">
     <title>Tenis: WTA 1000 Montreal &amp; ATP Masters Toronto</title>
     <desc>Pratite kombinirane prijenose i snimke mečeva s WTA i ATP natjecanja. Uživajte u odličnim teniskim mečevima!</desc>
+  </programme>
+  <programme start="20250731010000 +0300" stop="20250731030000 +0300" channel="sportklub5.hr">
+    <title>WTA 1000 Montreal: Raducanu - Stearns</title>
+    <desc>Ove godine dame igraju u Torontu. Ostalo je još malo vremena do US Opena, vrijeme je da se poboljša forma i odigraju najbolji mečevi.</desc>
+  </programme>
+  <programme start="20250731030000 +0300" channel="sportklub5.hr">
+    <title>Sport Klub 5 Promo 3</title>
+    <desc>Najava direktnih prijenosa sportskih događaja koji će se prenositi na programu.</desc>
   </programme>
   <programme start="20250730000000 +0300" stop="20250730040000 +0300" channel="sportklub6.hr">
     <title>Sport Klub 6 Promo 4</title>
@@ -7772,8 +8295,56 @@
   <programme start="20250801190000 +0300" stop="20250801193000 +0300" channel="beinsports1.fr">
     <title lang="fr">beIN Zap</title>
   </programme>
-  <programme start="20250801193000 +0300" channel="beinsports1.fr">
+  <programme start="20250801193000 +0300" stop="20250801010000 +0300" channel="beinsports1.fr">
     <title lang="fr">Tennis : Tournoi WTA du Canada</title>
+  </programme>
+  <programme start="20250801010000 +0300" stop="20250801030000 +0300" channel="beinsports1.fr">
+    <title>M4  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
+  </programme>
+  <programme start="20250801030000 +0300" stop="20250801050000 +0300" channel="beinsports1.fr">
+    <title>M5  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
+  </programme>
+  <programme start="20250801050000 +0300" stop="20250801070000 +0300" channel="beinsports1.fr">
+    <title>M6  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
+  </programme>
+  <programme start="20250801070000 +0300" stop="20250801073000 +0300" channel="beinsports1.fr">
+    <title>Fast Zone 2025 - 
+		Sports General</title>
+  </programme>
+  <programme start="20250801073000 +0300" stop="20250801100000 +0300" channel="beinsports1.fr">
+    <title>ATP Tour this week 2025 - 
+		Sports General</title>
+  </programme>
+  <programme start="20250801100000 +0300" stop="20250801120000 +0300" channel="beinsports1.fr">
+    <title>M2  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
+  </programme>
+  <programme start="20250801120000 +0300" stop="20250801140000 +0300" channel="beinsports1.fr">
+    <title>M3  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
+  </programme>
+  <programme start="20250801140000 +0300" stop="20250801160000 +0300" channel="beinsports1.fr">
+    <title>M4  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
+  </programme>
+  <programme start="20250801160000 +0300" stop="20250801180000 +0300" channel="beinsports1.fr">
+    <title>M5  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
+  </programme>
+  <programme start="20250801180000 +0300" stop="20250801210000 +0300" channel="beinsports1.fr">
+    <title>FIM Superbike World Championship 2025  -  Balton Park Circuit
+		MotorSports</title>
+  </programme>
+  <programme start="20250801210000 +0300" stop="20250801230000 +0300" channel="beinsports1.fr">
+    <title>M2  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
+  </programme>
+  <programme start="20250801230000 +0300" channel="beinsports1.fr">
+    <title>M3  -  Tennis ATP 1000 Toronto 
+		Sports General</title>
   </programme>
   <programme start="20250730020000 +0300" stop="20250730040000 +0300" channel="beinsports2.fr">
     <title>Nice vs PSG  -  Ligue 1 
@@ -8744,8 +9315,41 @@
   <programme start="20250801053000 +0300" stop="20250801073000 +0300" channel="foxsports2.com">
     <title>The Basketball Tournament</title>
   </programme>
-  <programme start="20250801073000 +0300" channel="foxsports2.com">
+  <programme start="20250801073000 +0300" stop="20250801093000 +0300" channel="foxsports2.com">
     <title>NASCAR Craftsman Truck Series</title>
+  </programme>
+  <programme start="20250801093000 +0300" stop="20250801100000 +0300" channel="foxsports2.com">
+    <title>Stihl Timbersports Series</title>
+  </programme>
+  <programme start="20250801100000 +0300" stop="20250801103000 +0300" channel="foxsports2.com">
+    <title>Stihl Timbersports Series</title>
+  </programme>
+  <programme start="20250801103000 +0300" stop="20250801110000 +0300" channel="foxsports2.com">
+    <title>Stihl Timbersports Series</title>
+  </programme>
+  <programme start="20250801110000 +0300" stop="20250801130000 +0300" channel="foxsports2.com">
+    <title>The Basketball Tournament</title>
+  </programme>
+  <programme start="20250801130000 +0300" stop="20250801133000 +0300" channel="foxsports2.com">
+    <title>Bassmaster Elite Series</title>
+  </programme>
+  <programme start="20250801133000 +0300" stop="20250801140000 +0300" channel="foxsports2.com">
+    <title>Bassmaster Elite Series</title>
+  </programme>
+  <programme start="20250801140000 +0300" stop="20250801160000 +0300" channel="foxsports2.com">
+    <title>Bassmaster Elite Series</title>
+  </programme>
+  <programme start="20250801160000 +0300" stop="20250801180000 +0300" channel="foxsports2.com">
+    <title>CONCACAF Champions Cup Soccer</title>
+  </programme>
+  <programme start="20250801180000 +0300" stop="20250801190000 +0300" channel="foxsports2.com">
+    <title>NHRA Drag Racing</title>
+  </programme>
+  <programme start="20250801190000 +0300" stop="20250801200000 +0300" channel="foxsports2.com">
+    <title>NHRA Sportsman Series</title>
+  </programme>
+  <programme start="20250801200000 +0300" channel="foxsports2.com">
+    <title>Horse Racing</title>
   </programme>
   <programme start="20250730013000 +0300" stop="20250730020000 +0300" channel="fueltv.com">
     <title>Lifestyle - Panorama - Snowchef - Sn 2, Ep 8</title>

@@ -82,7 +82,7 @@
     <display-name>Code Fashion</display-name>
     <display-name>Code Fashion HD</display-name>
     <display-name>Code Fashion TV</display-name>
-    <display-name>Code Fashion TV HD</display-name>
+    <display-name lang="en">Code Fashion TV HD</display-name>
   </channel>
   <channel id="skat.bg">
     <display-name lang="bg">Скат</display-name>
@@ -116,8 +116,6 @@
   </channel>
   <channel id="rmtv.bg">
     <display-name>RM TV</display-name>
-    <display-name>Rimeks TV</display-name>
-    <display-name>Rimeks</display-name>
     <display-name>RM TV HD</display-name>
   </channel>
   <channel id="bgdnes.tv">
@@ -284,6 +282,10 @@
   <channel id="cinestaraction.hr">
     <display-name>Cinestar A&amp;T</display-name>
     <display-name>CineStar A&amp;T HD</display-name>
+  </channel>
+  <channel id="pickbox.tv">
+    <display-name>Pickbox TV</display-name>
+    <display-name>Pickbox TV HD</display-name>
   </channel>
   <channel id="vijuprimiere.ru">
     <display-name>VIP Premiере HD</display-name>
@@ -482,19 +484,28 @@
     <display-name lang="de">Sky Sport Bundesliga</display-name>
     <display-name lang="de">Sky Sport Bundesliga HD</display-name>
   </channel>
+  <channel id="sportklub1.rs">
+    <display-name>SR: Sport Klub 1</display-name>
+    <display-name lang="sr">Sport Klub 1 SR</display-name>
+  </channel>
+  <channel id="sportklub2.rs">
+    <display-name>SR: Sport Klub 2</display-name>
+    <display-name lang="sr">Sport Klub 2 SR</display-name>
+  </channel>
+  <channel id="sportklub3.rs">
+    <display-name>SR: Sport Klub 3</display-name>
+    <display-name lang="sr">Sport Klub 3 SR</display-name>
+  </channel>
   <channel id="sportklub1.hr">
     <display-name>HR: Sport Klub 1</display-name>
-    <display-name>SR: Sport Klub 1</display-name>
     <display-name lang="hr">Sport Klub 1 HR</display-name>
   </channel>
   <channel id="sportklub2.hr">
     <display-name>HR: Sport Klub 2</display-name>
-    <display-name>SR: Sport Klub 2</display-name>
     <display-name lang="hr">Sport Klub 2 HR</display-name>
   </channel>
   <channel id="sportklub3.hr">
     <display-name>HR: Sport Klub 3</display-name>
-    <display-name>SR: Sport Klub 3</display-name>
     <display-name lang="hr">Sport Klub 3 HR</display-name>
   </channel>
   <channel id="sportklub4.hr">
@@ -7600,6 +7611,138 @@
   <programme start="20250731230000 +0300" stop="20250801083000 +0300" channel="cinestaraction.hr">
     <title lang="bg">Игра на сенки</title>
   </programme>
+  <programme start="20250730060000 +0300" stop="20250730081500 +0300" channel="pickbox.tv">
+    <title>Гледайте на Pickbox NOW</title>
+  </programme>
+  <programme start="20250730081500 +0300" stop="20250730085500 +0300" channel="pickbox.tv">
+    <title>Изкуството на архитектурата</title>
+  </programme>
+  <programme start="20250730085500 +0300" stop="20250730102500 +0300" channel="pickbox.tv">
+    <title>Убийства в Мидсъмър</title>
+  </programme>
+  <programme start="20250730102500 +0300" stop="20250730112000 +0300" channel="pickbox.tv">
+    <title>Два живота</title>
+  </programme>
+  <programme start="20250730112000 +0300" stop="20250730120500 +0300" channel="pickbox.tv">
+    <title>Хотелът на плажа</title>
+  </programme>
+  <programme start="20250730120500 +0300" stop="20250730125500 +0300" channel="pickbox.tv">
+    <title>Поаро</title>
+  </programme>
+  <programme start="20250730125500 +0300" stop="20250730135500 +0300" channel="pickbox.tv">
+    <title>Тото Милионери</title>
+  </programme>
+  <programme start="20250730135500 +0300" stop="20250730144500 +0300" channel="pickbox.tv">
+    <title>По стъпките на убийците</title>
+  </programme>
+  <programme start="20250730144500 +0300" stop="20250730153000 +0300" channel="pickbox.tv">
+    <title>Червени избори</title>
+  </programme>
+  <programme start="20250730153000 +0300" stop="20250730161500 +0300" channel="pickbox.tv">
+    <title>Наследството</title>
+  </programme>
+  <programme start="20250730161500 +0300" stop="20250730174500 +0300" channel="pickbox.tv">
+    <title>Убийства в Мидсъмър</title>
+  </programme>
+  <programme start="20250730174500 +0300" stop="20250730184500 +0300" channel="pickbox.tv">
+    <title>Тото Милионери</title>
+  </programme>
+  <programme start="20250730184500 +0300" stop="20250730193000 +0300" channel="pickbox.tv">
+    <title>Хотелът на плажа</title>
+  </programme>
+  <programme start="20250730193000 +0300" stop="20250730201500 +0300" channel="pickbox.tv">
+    <title>Богати и оневинени</title>
+  </programme>
+  <programme start="20250730201500 +0300" stop="20250730210000 +0300" channel="pickbox.tv">
+    <title>Червени избори</title>
+  </programme>
+  <programme start="20250730210000 +0300" stop="20250730214500 +0300" channel="pickbox.tv">
+    <title>Наследството</title>
+  </programme>
+  <programme start="20250730214500 +0300" stop="20250730223000 +0300" channel="pickbox.tv">
+    <title>Скрити активи</title>
+  </programme>
+  <programme start="20250730223000 +0300" stop="20250730232500 +0300" channel="pickbox.tv">
+    <title>Обичай ме</title>
+  </programme>
+  <programme start="20250730232500 +0300" stop="20250731001000 +0300" channel="pickbox.tv">
+    <title>Футболистът, съпругата му и катастрофата</title>
+  </programme>
+  <programme start="20250731001000 +0300" stop="20250731010000 +0300" channel="pickbox.tv">
+    <title>По стъпките на убийците</title>
+  </programme>
+  <programme start="20250731010000 +0300" stop="20250731014500 +0300" channel="pickbox.tv">
+    <title>Богати и оневинени</title>
+  </programme>
+  <programme start="20250731014500 +0300" stop="20250731023000 +0300" channel="pickbox.tv">
+    <title>Червени избори</title>
+  </programme>
+  <programme start="20250731023000 +0300" stop="20250731031200 +0300" channel="pickbox.tv">
+    <title>Наследството</title>
+  </programme>
+  <programme start="20250731031200 +0300" stop="20250731060000 +0300" channel="pickbox.tv">
+    <title>Гледайте на Pickbox NOW</title>
+  </programme>
+  <programme start="20250731060000 +0300" stop="20250731080500 +0300" channel="pickbox.tv">
+    <title>Гледайте на Pickbox NOW</title>
+  </programme>
+  <programme start="20250731080500 +0300" stop="20250731084500 +0300" channel="pickbox.tv">
+    <title>Изкуството на архитектурата</title>
+  </programme>
+  <programme start="20250731084500 +0300" stop="20250731091000 +0300" channel="pickbox.tv">
+    <title>Лятната кухня на Спенсър Уотс</title>
+  </programme>
+  <programme start="20250731091000 +0300" stop="20250731104000 +0300" channel="pickbox.tv">
+    <title>Убийства в Мидсъмър</title>
+  </programme>
+  <programme start="20250731104000 +0300" stop="20250731114000 +0300" channel="pickbox.tv">
+    <title>Два живота</title>
+  </programme>
+  <programme start="20250731114000 +0300" stop="20250731122500 +0300" channel="pickbox.tv">
+    <title>Хотелът на плажа</title>
+  </programme>
+  <programme start="20250731122500 +0300" stop="20250731131000 +0300" channel="pickbox.tv">
+    <title>Поаро</title>
+  </programme>
+  <programme start="20250731131000 +0300" stop="20250731141000 +0300" channel="pickbox.tv">
+    <title>Тото Милионери</title>
+  </programme>
+  <programme start="20250731141000 +0300" stop="20250731150000 +0300" channel="pickbox.tv">
+    <title>По стъпките на убийците</title>
+  </programme>
+  <programme start="20250731150000 +0300" stop="20250731154500 +0300" channel="pickbox.tv">
+    <title>Червени избори</title>
+  </programme>
+  <programme start="20250731154500 +0300" stop="20250731163000 +0300" channel="pickbox.tv">
+    <title>Наследството</title>
+  </programme>
+  <programme start="20250731163000 +0300" stop="20250731180000 +0300" channel="pickbox.tv">
+    <title>Убийства в Мидсъмър</title>
+  </programme>
+  <programme start="20250731180000 +0300" stop="20250731184500 +0300" channel="pickbox.tv">
+    <title>Нашата къща</title>
+  </programme>
+  <programme start="20250731184500 +0300" stop="20250731193000 +0300" channel="pickbox.tv">
+    <title>Хотелът на плажа</title>
+  </programme>
+  <programme start="20250731193000 +0300" stop="20250731201500 +0300" channel="pickbox.tv">
+    <title>Богати и оневинени</title>
+  </programme>
+  <programme start="20250731201500 +0300" stop="20250731210000 +0300" channel="pickbox.tv">
+    <title>Червени избори</title>
+  </programme>
+  <programme start="20250731210000 +0300" stop="20250731214500 +0300" channel="pickbox.tv">
+    <title>Наследството</title>
+  </programme>
+  <programme start="20250731214500 +0300" stop="20250731223500 +0300" channel="pickbox.tv">
+    <title>Скрити активи</title>
+  </programme>
+  <programme start="20250731223500 +0300" stop="20250731232500 +0300" channel="pickbox.tv">
+    <title>Обичай ме</title>
+  </programme>
+  <programme start="20250731232500 +0300" stop="20250801001000 +0300" channel="pickbox.tv">
+    <title>Нашата къща</title>
+  </programme>
   <programme start="20250730032500 +0300" stop="20250730052000 +0300" channel="vijuprimiere.ru">
     <title lang="ru">Дети леса</title>
   </programme>
@@ -7881,9 +8024,6 @@
   </programme>
   <programme start="20250731220000 +0300" stop="20250801100000 +0300" channel="novasport.bg">
     <title>Хайденхайм - Елверсберг</title>
-  </programme>
-  <programme start="20250730023000 +0300" stop="20250730080000 +0300" channel="diemasport.bg">
-    <title>Програмна пауза</title>
   </programme>
   <programme start="20250730080000 +0300" stop="20250730100000 +0300" channel="diemasport.bg">
     <title>Черно море - Ботев Пловдив, 2 кръг, Футбол: efbet Лига 2025/2026, /n/</title>
@@ -8710,7 +8850,7 @@
   <programme start="20250731200500 +0300" stop="20250731230500 +0300" channel="arenasport1.sr">
     <title lang="sr">Bejzbol: New York Yankees - Tampa Bay Rays</title>
   </programme>
-  <programme start="20250731230500 +0300" channel="arenasport1.sr">
+  <programme start="20250731230500 +0300" stop="20250801010000 +0300" channel="arenasport1.sr">
     <title lang="sr">Košarka: The best of 2024/25</title>
   </programme>
   <programme start="20250730010000 +0300" stop="20250730030000 +0300" channel="arenasport2.sr">
@@ -9019,7 +9159,7 @@
   <programme start="20250731223000 +0300" stop="20250731230000 +0300" channel="arenasport5.sr">
     <title lang="sr">Fudbal: Full Impact ep. 18</title>
   </programme>
-  <programme start="20250731230000 +0300" channel="arenasport5.sr">
+  <programme start="20250731230000 +0300" stop="20250801010000 +0300" channel="arenasport5.sr">
     <title lang="sr">Fudbal: Juventus - Napoli</title>
   </programme>
   <programme start="20250730080000 +0300" stop="20250730093000 +0300" channel="arenasport1.hr">
@@ -11263,6 +11403,258 @@
   <programme start="20250731230500 +0300" stop="20250801010500 +0300" channel="skysportbundesliga.de">
     <title>Fußball: Relegation 1. Bundesliga, </title>
   </programme>
+  <programme start="20250730070000 +0300" stop="20250730090000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730090000 +0300" stop="20250730110000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730110000 +0300" stop="20250730130000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730130000 +0300" stop="20250730150000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730150000 +0300" stop="20250730170000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730170000 +0300" stop="20250730190000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730190000 +0300" stop="20250730210000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730210000 +0300" stop="20250730230000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730230000 +0300" stop="20250731070000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731070000 +0300" stop="20250731090000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731090000 +0300" stop="20250731110000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731110000 +0300" stop="20250731130000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731130000 +0300" stop="20250731150000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731150000 +0300" stop="20250731170000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731170000 +0300" stop="20250731190000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731190000 +0300" stop="20250731210000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731210000 +0300" stop="20250731230000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250731230000 +0300" channel="sportklub1.rs">
+    <title>Sport Klub 1</title>
+  </programme>
+  <programme start="20250730034500 +0300" stop="20250730060000 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Kenin - Mboko</title>
+  </programme>
+  <programme start="20250730060000 +0300" stop="20250730073000 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: Cameroon - Mali</title>
+  </programme>
+  <programme start="20250730073000 +0300" stop="20250730082500 +0300" channel="sportklub2.rs">
+    <title>Tennis: ATP 500 Pregled: Washington</title>
+  </programme>
+  <programme start="20250730082500 +0300" stop="20250730105500 +0300" channel="sportklub2.rs">
+    <title>Basket 3x3 Pro Tour: Šibenik</title>
+  </programme>
+  <programme start="20250730105500 +0300" stop="20250730124500 +0300" channel="sportklub2.rs">
+    <title>Fudbal - Kvalifikacije za Ligu šampiona: (2nd leg): Crvena zvezda - Lincoln</title>
+  </programme>
+  <programme start="20250730124500 +0300" stop="20250730141500 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: Mozambique - Nigeria</title>
+  </programme>
+  <programme start="20250730141500 +0300" stop="20250730144000 +0300" channel="sportklub2.rs">
+    <title>Spirit of Yachting: Sail GP</title>
+  </programme>
+  <programme start="20250730144000 +0300" stop="20250730154500 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Shapovalov - Tien</title>
+  </programme>
+  <programme start="20250730154500 +0300" stop="20250730165500 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: V. Kudermetova - Danilović</title>
+  </programme>
+  <programme start="20250730165500 +0300" stop="20250730180000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Zverev - Walton</title>
+  </programme>
+  <programme start="20250730180000 +0300" stop="20250730194500 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Rublev - Gaston</title>
+  </programme>
+  <programme start="20250730194500 +0300" stop="20250730214500 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Cobolli - Galarneau</title>
+  </programme>
+  <programme start="20250730214500 +0300" stop="20250730233000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Tiafoe - Watanuki</title>
+  </programme>
+  <programme start="20250730233000 +0300" stop="20250731020000 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Ružić - Muchova</title>
+  </programme>
+  <programme start="20250731020000 +0300" stop="20250731034500 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Bencic - Bouchard</title>
+  </programme>
+  <programme start="20250731034500 +0300" stop="20250731060000 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Rakhimova - Svitolina</title>
+  </programme>
+  <programme start="20250731060000 +0300" stop="20250731073000 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: baraž za 1/4 Finale: Egypt - South Sudan</title>
+  </programme>
+  <programme start="20250731073000 +0300" stop="20250731080000 +0300" channel="sportklub2.rs">
+    <title>ATP Uncovered</title>
+  </programme>
+  <programme start="20250731080000 +0300" stop="20250731094000 +0300" channel="sportklub2.rs">
+    <title>Odbojka - Liga nacija (M): F8 - 1/4 Finale: Italy - Cuba</title>
+  </programme>
+  <programme start="20250731094000 +0300" stop="20250731111000 +0300" channel="sportklub2.rs">
+    <title>Košarka (Ž) - Afrobasket: baraž za 1/4 Finale: Cameroon - Angola</title>
+  </programme>
+  <programme start="20250731111000 +0300" stop="20250731130000 +0300" channel="sportklub2.rs">
+    <title>Fudbal - Kvalifikacije za Ligu šampiona: (2nd leg): Panathinaikos - Rangers</title>
+  </programme>
+  <programme start="20250731130000 +0300" stop="20250731135000 +0300" channel="sportklub2.rs">
+    <title>Trans World Sport</title>
+  </programme>
+  <programme start="20250731135000 +0300" stop="20250731144000 +0300" channel="sportklub2.rs">
+    <title>Tennis: ATP 500 Pregled: Washington</title>
+  </programme>
+  <programme start="20250731144000 +0300" stop="20250731155000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Davidovich-Fokina - Moutet</title>
+  </programme>
+  <programme start="20250731155000 +0300" stop="20250731165500 +0300" channel="sportklub2.rs">
+    <title>WTA 1000 Montreal: Guo - Swiatek</title>
+  </programme>
+  <programme start="20250731165500 +0300" stop="20250731180000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto: Carballes-Baena - Fritz</title>
+  </programme>
+  <programme start="20250731180000 +0300" stop="20250801060000 +0300" channel="sportklub2.rs">
+    <title>ATP Masters Toronto</title>
+  </programme>
+  <programme start="20250730001000 +0300" stop="20250730015500 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Kvalifikacije za Ligu šampiona: Crvena zvezda - Lincoln (2nd leg)</title>
+  </programme>
+  <programme start="20250730015500 +0300" stop="20250730034500 +0300" channel="sportklub3.rs">
+    <title>E-Sports: League of Legends - EBL</title>
+  </programme>
+  <programme start="20250730034500 +0300" stop="20250730051500 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: Angola - Ivory Coast</title>
+  </programme>
+  <programme start="20250730051500 +0300" stop="20250730071500 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Norveška liga: Sandefjord - Sarpsborg</title>
+  </programme>
+  <programme start="20250730071500 +0300" stop="20250730080000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730080000 +0300" stop="20250730090000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730090000 +0300" stop="20250730100000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730100000 +0300" stop="20250730110000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730110000 +0300" stop="20250730120000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730120000 +0300" stop="20250730130000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730130000 +0300" stop="20250730140000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730140000 +0300" stop="20250730150000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730150000 +0300" stop="20250730160000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730160000 +0300" stop="20250730170000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730170000 +0300" stop="20250730180000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730180000 +0300" stop="20250730190000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730190000 +0300" stop="20250730200000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730200000 +0300" stop="20250730210000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730210000 +0300" stop="20250730220000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730220000 +0300" stop="20250730230000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250730230000 +0300" stop="20250731000000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250731000000 +0300" stop="20250731020000 +0300" channel="sportklub3.rs">
+    <title>No information</title>
+  </programme>
+  <programme start="20250731020000 +0300" stop="20250731034000 +0300" channel="sportklub3.rs">
+    <title>Odbojka - Liga nacija (M): F8 - 1/4 Finale: Italy - Cuba</title>
+  </programme>
+  <programme start="20250731034000 +0300" stop="20250731052500 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Kvalifikacije za Ligu šampiona: (2nd leg): Panathinaikos - Rangers</title>
+  </programme>
+  <programme start="20250731052500 +0300" stop="20250731061500 +0300" channel="sportklub3.rs">
+    <title>Trans World Sport</title>
+  </programme>
+  <programme start="20250731061500 +0300" stop="20250731075500 +0300" channel="sportklub3.rs">
+    <title>Odbojka - Liga nacija (M): F8 - 1/4 Finale: Brazil - China</title>
+  </programme>
+  <programme start="20250731075500 +0300" stop="20250731094000 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Slovenačka 1. liga: Aluminij - Olimpija</title>
+  </programme>
+  <programme start="20250731094000 +0300" stop="20250731112500 +0300" channel="sportklub3.rs">
+    <title>Fudbal: COMO CUP: Finale: Como - Ajax</title>
+  </programme>
+  <programme start="20250731112500 +0300" stop="20250731125500 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: baraž za 1/4 Finale: Egypt - South Sudan</title>
+  </programme>
+  <programme start="20250731125500 +0300" stop="20250731144000 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Švajcarska liga: Young Boys - Servette</title>
+  </programme>
+  <programme start="20250731144000 +0300" stop="20250731150000 +0300" channel="sportklub3.rs">
+    <title>Zlatni golovi YU sporta</title>
+  </programme>
+  <programme start="20250731150000 +0300" stop="20250731170000 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: 1/4 Finale 1</title>
+  </programme>
+  <programme start="20250731170000 +0300" stop="20250731173000 +0300" channel="sportklub3.rs">
+    <title>Spirit of Yachting: TP52 WC</title>
+  </programme>
+  <programme start="20250731173000 +0300" stop="20250731180000 +0300" channel="sportklub3.rs">
+    <title>Put do vrha</title>
+  </programme>
+  <programme start="20250731180000 +0300" stop="20250731200000 +0300" channel="sportklub3.rs">
+    <title>Košarka (Ž) - Afrobasket: 1/4 Finale 2</title>
+  </programme>
+  <programme start="20250731200000 +0300" stop="20250731210000 +0300" channel="sportklub3.rs">
+    <title>Tennis: ATP 500 Pregled: Washington</title>
+  </programme>
+  <programme start="20250731210000 +0300" stop="20250731230000 +0300" channel="sportklub3.rs">
+    <title>Fudbal - Kvalifikacije za Ligu Evrope: (2nd leg): Shakhtar - Besiktas</title>
+  </programme>
+  <programme start="20250731230000 +0300" stop="20250731233000 +0300" channel="sportklub3.rs">
+    <title>Ekstremni svet sporta</title>
+  </programme>
+  <programme start="20250731233000 +0300" stop="20250801000000 +0300" channel="sportklub3.rs">
+    <title>Fast Zone</title>
+  </programme>
   <programme start="20250730000000 +0300" stop="20250730003000 +0300" channel="sportklub1.hr">
     <title>Bundesliga serijal: Rurska dolina - srce njemačkog nogometa: Rurska dolina - srce njemačkog nogometa (1/6)</title>
   </programme>
@@ -11422,8 +11814,23 @@
   <programme start="20250731144000 +0300" stop="20250731180000 +0300" channel="sportklub2.hr">
     <title>Tenis: WTA 1000 Montreal &amp; ATP Masters Toronto</title>
   </programme>
-  <programme start="20250731180000 +0300" channel="sportklub2.hr">
+  <programme start="20250731180000 +0300" stop="20250730233000 +0300" channel="sportklub2.hr">
     <title>ATP Masters Toronto</title>
+  </programme>
+  <programme start="20250730233000 +0300" stop="20250731020000 +0300" channel="sportklub2.hr">
+    <title>WTA 1000 Montreal: Ružić - Muchova</title>
+  </programme>
+  <programme start="20250731020000 +0300" stop="20250731034500 +0300" channel="sportklub2.hr">
+    <title>WTA 1000 Montreal: Bencic - Bouchard</title>
+  </programme>
+  <programme start="20250731034500 +0300" stop="20250731155000 +0300" channel="sportklub2.hr">
+    <title>WTA 1000 Montreal: Rakhimova - Svitolina</title>
+  </programme>
+  <programme start="20250731155000 +0300" stop="20250731165500 +0300" channel="sportklub2.hr">
+    <title>WTA 1000 Montreal: Guo - Swiatek</title>
+  </programme>
+  <programme start="20250731165500 +0300" channel="sportklub2.hr">
+    <title>ATP Masters Toronto: Carballes-Baena - Fritz</title>
   </programme>
   <programme start="20250730001000 +0300" stop="20250730015500 +0300" channel="sportklub3.hr">
     <title>Nogomet - Kvalifikacije za Ligu prvaka: Crvena zvezda - Lincoln (2nd leg)</title>
@@ -11776,8 +12183,14 @@
   <programme start="20250731190000 +0300" stop="20250731193000 +0300" channel="sportklub5.hr">
     <title>Sport Klub 5 Promo 3</title>
   </programme>
-  <programme start="20250731193000 +0300" channel="sportklub5.hr">
+  <programme start="20250731193000 +0300" stop="20250731010000 +0300" channel="sportklub5.hr">
     <title>Tenis: WTA 1000 Montreal &amp; ATP Masters Toronto</title>
+  </programme>
+  <programme start="20250731010000 +0300" stop="20250731030000 +0300" channel="sportklub5.hr">
+    <title>WTA 1000 Montreal: Raducanu - Stearns</title>
+  </programme>
+  <programme start="20250731030000 +0300" channel="sportklub5.hr">
+    <title>Sport Klub 5 Promo 3</title>
   </programme>
   <programme start="20250730000000 +0300" stop="20250730040000 +0300" channel="sportklub6.hr">
     <title>Sport Klub 6 Promo 4</title>
@@ -13528,8 +13941,17 @@
   <programme start="20250730150000 +0300" stop="20250730200000 +0300" channel="clubmtv.com">
     <title>David Guetta: Hit 50!</title>
   </programme>
-  <programme start="20250730200000 +0300" channel="clubmtv.com">
+  <programme start="20250730200000 +0300" stop="20250730140000 +0300" channel="clubmtv.com">
     <title>Reload! Club Classics</title>
+  </programme>
+  <programme start="20250730140000 +0300" stop="20250730160000 +0300" channel="clubmtv.com">
+    <title>Ibiza Anthems</title>
+  </programme>
+  <programme start="20250730160000 +0300" stop="20250730170000 +0300" channel="clubmtv.com">
+    <title>Club MTVs Big 10</title>
+  </programme>
+  <programme start="20250730170000 +0300" channel="clubmtv.com">
+    <title>Party Anthems!</title>
   </programme>
   <programme start="20250730080000 +0300" stop="20250730100000 +0300" channel="mtvhits.com">
     <title>Worldwide Hits!</title>
@@ -34087,305 +34509,11 @@
   <programme start="20250731235400 +0300" stop="20250801051500 +0300" channel="davincilearning.tv">
     <title lang="bg">"Иновации"</title>
   </programme>
-  <programme start="20250730002000 +0300" stop="20250730003000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Кати Бат - (Ep. 34) Докато Шантавите Строители, строят обърнатата радиостанция на Кати Бат, Порки има притеснения, но не ги изказва.10...</title>
-  </programme>
-  <programme start="20250730003000 +0300" stop="20250730004500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Хъни Бъни - (Ep. 35) Кралица Беатрис наема строителите, за да построят работилница в нейния кошер, където има едно правило, което екипът...</title>
-  </programme>
-  <programme start="20250730004500 +0300" stop="20250730010000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Посетителят - (Ep. 42) Мистър Бийн не знае от къде познава човека, който се появява на вратата му. Стара училищна снимка и шапка го карат да...</title>
-  </programme>
-  <programme start="20250730010000 +0300" stop="20250730011500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Големият телевизор - (Ep. 43) Ирма Гоб идва на гости, за да гледа телевизия и Бийн научава, че да харесваш различни предавания от тези на...</title>
-  </programme>
-  <programme start="20250730011500 +0300" stop="20250730012500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Лудории по клавишите - (Ep. 44) Решен да усвои симфонията на Бетовен, мистър Бийн си осигурява пиано, партитура, свещник и учител с голямо търпение....</title>
-  </programme>
-  <programme start="20250730012500 +0300" stop="20250730014500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Битка по тичане - (Ep. 45) Започва маратон и Бийн застава рамо до рамо със своя враг - човекът, откраднал мястото му на паркинга. Маратон или не,...</title>
-  </programme>
-  <programme start="20250730014500 +0300" stop="20250730015500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Голямата почивка - (Ep. 24) След като си наранява крака, Ела трябва да почива цял един ден, но дали има търпението да го направи? След като...</title>
-  </programme>
-  <programme start="20250730015500 +0300" stop="20250730020500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Голям ден за Глич - (Ep. 25) Ръката на Глич се поврежда и само бащата на Ела може да я оправи. Докато го прави, той им показва най-новото си...</title>
-  </programme>
-  <programme start="20250730020500 +0300" stop="20250730022000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Грижа за куче сред звездите - (Ep. 26) Ела трябва да гледа Бътънс - кучето на семеен приятел, но трябва и да завърши училищния си проект за Венера. Тя решава...</title>
-  </programme>
-  <programme start="20250730022000 +0300" stop="20250730023000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Горещо и студено - (Ep. 27) Таткото на Слипи иска да разчисти място в къщата, затова кара Слипи да изхвърли старите си изобретения. Той, обаче, не...</title>
-  </programme>
-  <programme start="20250730023000 +0300" stop="20250730025000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Новият Вояджър - (Ep. 28) Ела и приятелите ? откриват космическата сонда "Вояджър" на Седна. Ела взима златната плоча от сондата и я носи на...</title>
-  </programme>
-  <programme start="20250730025000 +0300" stop="20250730030000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Хорът на дивите горски животни - (Ep. 24) Язовецът намира картина, изобразяваща хора на Дивите горски животни, и Плъхчо предлага да сформира нов хор. Шеф и...</title>
-  </programme>
-  <programme start="20250730030000 +0300" stop="20250730031500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Приказка за лека нощ - (Ep. 25) Жабокът предлага да гледа Портли, докато господин и госпожа Видра си свършат работата, но скоро разбира, че гледането...</title>
-  </programme>
-  <programme start="20250730031500 +0300" stop="20250730032500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Първата Коледа на Тарла - (Ep. 26) Обикновено Тарла спи зимен сън, но тази година е решена да не пропуска Коледа. Въпреки че украсата не е силната ?...</title>
-  </programme>
-  <programme start="20250730032500 +0300" stop="20250730033500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Фарс с колети - (Ep. 27) Тинкър измисля блестящ план - тя и Шеф да станат колети и така да влязат в Жабокрек. Но пътуването до там се оказва...</title>
-  </programme>
-  <programme start="20250730033500 +0300" stop="20250730035000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Жабок на път - (Ep. 28) Шеф се съгласява да отиде заедно с Жабока на еднодневно пътешествие с колата, но само ако той кара. Планът е да...</title>
-  </programme>
-  <programme start="20250730035000 +0300" stop="20250730040500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Пакет - (Ep. 11) Мистър Бийн има нужда от нова секция и открива идеалната, но трябва да я сглоби сам! Това се оказва непосилна за него...</title>
-  </programme>
-  <programme start="20250730040500 +0300" stop="20250730042000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Ваканция за Мечо - (Ep. 12) Мистър Бийн води Мечо на почивка на морето, но едно разглезено момиченце го иска за себе си, а пък татко ? иска...</title>
-  </programme>
-  <programme start="20250730042000 +0300" stop="20250730043000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Вестникът - (Ep. 13) Мистър Бийн най-сетне си отдъхва, когато мисис Уикет заминава на почивка. Това му дава пълен достъп до нейния вестник,...</title>
-  </programme>
-  <programme start="20250730043000 +0300" stop="20250730044500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Популярния Бийн - (Ep. 14) Мистър Бийн иска тихо място, където да чете и се отправя към библиотеката, но вместо да чете, се разсейва със смешни...</title>
-  </programme>
-  <programme start="20250730044500 +0300" stop="20250730050000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Голямата почивка - (Ep. 24) След като си наранява крака, Ела трябва да почива цял един ден, но дали има търпението да го направи? След като...</title>
-  </programme>
-  <programme start="20250730050000 +0300" stop="20250730051000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Голям ден за Глич - (Ep. 25) Ръката на Глич се поврежда и само бащата на Ела може да я оправи. Докато го прави, той им показва най-новото си...</title>
-  </programme>
-  <programme start="20250730051000 +0300" stop="20250730052500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Грижа за куче сред звездите - (Ep. 26) Ела трябва да гледа Бътънс - кучето на семеен приятел, но трябва и да завърши училищния си проект за Венера. Тя решава...</title>
-  </programme>
-  <programme start="20250730052500 +0300" stop="20250730053500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Горещо и студено - (Ep. 27) Таткото на Слипи иска да разчисти място в къщата, затова кара Слипи да изхвърли старите си изобретения. Той, обаче, не...</title>
-  </programme>
-  <programme start="20250730053500 +0300" stop="20250730055500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Новият Вояджър - (Ep. 28) Ела и приятелите ? откриват космическата сонда "Вояджър" на Седна. Ела взима златната плоча от сондата и я носи на...</title>
-  </programme>
-  <programme start="20250730055500 +0300" stop="20250730060500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Хорът на дивите горски животни - (Ep. 24) Язовецът намира картина, изобразяваща хора на Дивите горски животни, и Плъхчо предлага да сформира нов хор. Шеф и...</title>
-  </programme>
-  <programme start="20250730060500 +0300" stop="20250730061500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Приказка за лека нощ - (Ep. 25) Жабокът предлага да гледа Портли, докато господин и госпожа Видра си свършат работата, но скоро разбира, че гледането...</title>
-  </programme>
-  <programme start="20250730061500 +0300" stop="20250730063000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Първата Коледа на Тарла - (Ep. 26) Обикновено Тарла спи зимен сън, но тази година е решена да не пропуска Коледа. Въпреки че украсата не е силната ?...</title>
-  </programme>
-  <programme start="20250730063000 +0300" stop="20250730064000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Фарс с колети - (Ep. 27) Тинкър измисля блестящ план - тя и Шеф да станат колети и така да влязат в Жабокрек. Но пътуването до там се оказва...</title>
-  </programme>
-  <programme start="20250730064000 +0300" stop="20250730070000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Жабок на път - (Ep. 28) Шеф се съгласява да отиде заедно с Жабока на еднодневно пътешествие с колата, но само ако той кара. Планът е да...</title>
-  </programme>
-  <programme start="20250730070000 +0300" stop="20250730070500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Тик-ток мечок - (Ep. 62) В къщичката на рейнджъра вече има странен нов предмет: голям стенен часовник, приличащ на щвейцарски, с кукувичка....</title>
-  </programme>
-  <programme start="20250730070500 +0300" stop="20250730071000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Сънища на поискване - (Ep. 63) Гризи се събужда внезапно от кошмар, изпълнен с леминги, и попада на машината за сънища на рейнджъра.Actors:...</title>
-  </programme>
-  <programme start="20250730071000 +0300" stop="20250730072500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Елементарни леминги - (Ep. 64) Гризи случайно намира древен индиански медальон със символа на вятъра. Който го носи, притежава силата да контролира...</title>
-  </programme>
-  <programme start="20250730072500 +0300" stop="20250730073500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Гледач на мечоци - (Ep. 65) Вълшебен индиански пумпал променя духовната възраст на всеки, който го гледа, докато пумпалът се върти. Вследствие на...</title>
-  </programme>
-  <programme start="20250730073500 +0300" stop="20250730074000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Лос в цветовете на дъгата - (Ep. 66) Вълшебен рог се спуска върху муцуната на един лос, като му придава грациозност и умението да лети. Лосът се издига във...</title>
-  </programme>
-  <programme start="20250730074000 +0300" stop="20250730075500 +0300" channel="cartoonito.bg">
-    <title lang="bg">СуперТингс: Съперници на Кабуум - Казуум сила: Добе дошли в Кабуум сити! - (Ep. 2) Докато Казуум Кидс разглеждат за първи път Кабуум Сити, те получават първата си мисия: да спасят Супер Це от Джак...</title>
-  </programme>
-  <programme start="20250730075500 +0300" stop="20250730080500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Луксинг - (Ep. 4) Бъгс Бъни и Лола Бъни работят в строителна фирма АКМЕ, където застават начело на екип от строители. Истината обаче е,...</title>
-  </programme>
-  <programme start="20250730080500 +0300" stop="20250730082500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Откритият космос - (Ep. 5) Бъгс Бъни и Лола Бъни работят в строителна фирма АКМЕ, където застават начело на екип от строители. Истината обаче е,...</title>
-  </programme>
-  <programme start="20250730082500 +0300" stop="20250730083500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Batwheels: Повест за две Бибита - (Ep. 24) Баткомпютър залавя Биби и преобразява Джеста, за да заеме мястото ? сред Батуийлз и да открадне платката на...</title>
-  </programme>
-  <programme start="20250730083500 +0300" stop="20250730085500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Batwheels: Луда надпревара - (Ep. 25) Легионът на Бръм планират да спечелят гран при състезанието на Готъм чрез измама, затова Батуийлз трябва да направят...</title>
-  </programme>
-  <programme start="20250730085500 +0300" stop="20250730090000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Релаксиращ мечок - (Ep. 36) Гризи установява с огромно удоволствие, че рейнджърът е купил ново мултифункционално кресло за релаксация.Actors:...</title>
-  </programme>
-  <programme start="20250730090000 +0300" stop="20250730090500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечок в полет - (Ep. 37) Лемингите се забавляват с кайтсърфинг с домашно направен кайт и Гризи забелязва, че любимата му мецана наблюдава с...</title>
-  </programme>
-  <programme start="20250730090500 +0300" stop="20250730092000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Звукът на леминга - (Ep. 38) Гризи успява да измъкне последното бурканче с течен шоколад изпод носа на лемингите. Като компенсация им дава малкото...</title>
-  </programme>
-  <programme start="20250730092000 +0300" stop="20250730093000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Супер количка - (Ep. 29) Пазаруването за едно-две неща се превръща в кошмар заради безкрайния списък на хазяйката и счупената количка.Actors:...</title>
-  </programme>
-  <programme start="20250730093000 +0300" stop="20250730095000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Сврака - (Ep. 30) Мистър Бийн се грижи за ранена сврака и научава нещо, което всички знаем - свраките са привлечени от лъскави...</title>
-  </programme>
-  <programme start="20250730095000 +0300" stop="20250730100000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Коткогледач - (Ep. 31) След сблъсък с млекаря, хазяйката на Бийн постъпва в болница и той трябва да се грижи за еднооката ? котка. В края на...</title>
-  </programme>
-  <programme start="20250730100000 +0300" stop="20250730101500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Бутилката - (Ep. 32) Бийн се радва на своя кораб в бутилка, но той по погрешка попада в камиона на млекаря. Започва едно лудо преследване...</title>
-  </programme>
-  <programme start="20250730101500 +0300" stop="20250730102500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Златна рибка - (Ep. 33) Мечо е на химическо чистене и Бийн се чувства самотен. За щастие, той си има ново приятелче - златна рибка.Actors:...</title>
-  </programme>
-  <programme start="20250730102500 +0300" stop="20250730104500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Проблеми с колата - (Ep. 35) Механик подвежда Бийн, казвайки му, че колата му не може да бъде поправена и Бийн със свито сърце я дава за...</title>
-  </programme>
-  <programme start="20250730104500 +0300" stop="20250730105500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Ресторант - (Ep. 36) Вечерята за рождения ден на Бийн се проваля, когато той и Мечо трябва да седнат на най-лошата маса. За това допринася...</title>
-  </programme>
-  <programme start="20250730105500 +0300" stop="20250730111500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Крадец на изкуство - (Ep. 37) Бийн става свидетел на кражба по време на посещение в Лондонската галерия.Actors: Rowan Atkinson. Director: Katalin...</title>
-  </programme>
-  <programme start="20250730111500 +0300" stop="20250730112500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Страхлив Бийн - (Ep. 38) Кой се страхува от чудати филми за гигантски котки-убийци, извънземни и човечета с размерите на палец, който танцуват...</title>
-  </programme>
-  <programme start="20250730112500 +0300" stop="20250730113500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Среща - (Ep. 39) Бийн се съгласява да излезе на среща с приятелката си Ирма. Тя е планирала идеалната вечер - романтичен филм и вечеря...</title>
-  </programme>
-  <programme start="20250730113500 +0300" stop="20250730115500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Търси се - (Ep. 40) Сбъркан за избягал престъпник, Бийн е изпратен в затвора, където открива, че това не е толкова ужасяващо място....</title>
-  </programme>
-  <programme start="20250730115500 +0300" stop="20250730120000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Шоуто на Том и Джери: Детски работи - (Ep. 29) Том използва бебе коза, за да окоси ливадата на имението, но се оказва, че малкото иска да изяде всичко в...</title>
-  </programme>
-  <programme start="20250730120000 +0300" stop="20250730121000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Шоуто на Том и Джери: Невидимата котка - (Ep. 30) Том попада в замък, обитаван от духове, и заедно с Джери и Тъфи трябва да избяга от невидима котка.Director: Darrell...</title>
-  </programme>
-  <programme start="20250730121000 +0300" stop="20250730122400 +0300" channel="cartoonito.bg">
-    <title lang="bg">Шоуто на Том и Джери: Купон с маски - (Ep. 31) Къщата е обърната с краката нагоре, заради опитите на Том и Джери да докопат храната на хелоуинското парти.Director:...</title>
-  </programme>
-  <programme start="20250730122400 +0300" stop="20250730122800 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Наградата - (Ep. 14) На учените им липсва вдъхновение, но променят обява "Търси се" в "Дава се награда". Идва бабка с Лампът под мишница и...</title>
-  </programme>
-  <programme start="20250730122800 +0300" stop="20250730123300 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Крадец в музея - (Ep. 15) Лампът изследва Древен Египет в музея, но идват учените. Колко пъти може да ги изгонят от там? Връщат се като мумии,...</title>
-  </programme>
-  <programme start="20250730123300 +0300" stop="20250730123500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Майката на Шефа - (Ep. 17) Учените посрещат майката на Шефа на жп гарата. Губят снимката й и имат само фото на сив кок и я издирват по него....</title>
-  </programme>
-  <programme start="20250730123500 +0300" stop="20250730125500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Рожденият ден на Шефа - (Ep. 26) Учените смятат да заловят Лампът като изненада за рождения ден на Шефа, за да спечелят одобрението му. Нещата обаче се...</title>
-  </programme>
-  <programme start="20250730125500 +0300" stop="20250730130000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Желана ориентация - (Ep. 5) Военен конвой с топсекретни материали аварира. Технологична сфера пада върху Гризи като компас за желанията му и го...</title>
-  </programme>
-  <programme start="20250730130000 +0300" stop="20250730130500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: 24-каратов шоколад - (Ep. 6) Гризи има скиптър, превръщащ всичко в злато. "Обковава" в злато лемингите и открадва шоколада. След схватка скиптърът...</title>
-  </programme>
-  <programme start="20250730130500 +0300" stop="20250730132000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Ритъмът на джунглата - (Ep. 7) Лемингите провеждат конкурс по танци с награда буркан шоколад. Гризи е гладен и иска да участва. Печели заедно с...</title>
-  </programme>
-  <programme start="20250730132000 +0300" stop="20250730132500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Гризмингът - (Ep. 8) Гризи открива странно фосилизирано създание. Оказва се негов предшественик, но не само негов. В схватката създанието...</title>
-  </programme>
-  <programme start="20250730132500 +0300" stop="20250730133500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Наистина - (Ep. 9) Лемингите играят "Земята е лед или огън" с карти. Гризи иска да си върне контрола над хижата, но вместо това, подът...</title>
-  </programme>
-  <programme start="20250730133500 +0300" stop="20250730134000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мазило от какаово дърво - (Ep. 10) Лемингите намират дърво, чийто сок е шоколадов! Гризи ги вижда да мъкнат контейнери и през бинокъл съзира, че са...</title>
-  </programme>
-  <programme start="20250730134000 +0300" stop="20250730135500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Диви мутации - (Ep. 11) Гризи прогонва лемингите от къщичката. Те намират вълшебен диск, причиняващ мутации на части на което и да е животно....</title>
-  </programme>
-  <programme start="20250730135500 +0300" stop="20250730140500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Наказан - (Ep. 5) Мистър Бийн гледа Клинт Чизълджоу с Били, но Мисис Уикет иска Били да ? помага. Бийн се опитва да спаси Били и измисля...</title>
-  </programme>
-  <programme start="20250730140500 +0300" stop="20250730142500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Липса на стил - (Ep. 6) Мистър Бийн надниква в галерия и вижда безплатна храна! Тъй като не го пускат, Бийн рисува костюм по тялото си. Дали...</title>
-  </programme>
-  <programme start="20250730142500 +0300" stop="20250730143500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Асансьорът - (Ep. 29) Мистър Бийн вижда нова играчка-кола на витрината и решава, че трябва да си я купи. На път към магазина, обаче, се...</title>
-  </programme>
-  <programme start="20250730143500 +0300" stop="20250730145000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Изкопай това - (Ep. 30) Мистър Бийн иска да построи беседка в задния двор, но попада на огромна неактивирана бомба. За да спасиш мисис Уикет и...</title>
-  </programme>
-  <programme start="20250730145000 +0300" stop="20250730150000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Хипнотизираният Бийн - (Ep. 31) Бийн отива на представление на известен хипнотизатор и няма търпение да участва в шоуто. След хипнозата напуска...</title>
-  </programme>
-  <programme start="20250730150000 +0300" stop="20250730152000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Автомивка - (Ep. 32) Колата на Бийн е мръсна и той я измива, но така привлича вниманието на други шофьори, които предлагат да му платят, за...</title>
-  </programme>
-  <programme start="20250730152000 +0300" stop="20250730153000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Откъде взе тази котка? - (Ep. 33) Мистър Бийн гони Скрапър из апартамента на мисис Уикет, но скринът ? пада и Бийн вижда как изпод него се подава топка...</title>
-  </programme>
-  <programme start="20250730153000 +0300" stop="20250730154000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Ценни уроци - (Ep. 34) Мистър Бийн помага на мисис Уикет да си събере парите, след като става свидетел на обир. Изведнъж, обаче, се появява...</title>
-  </programme>
-  <programme start="20250730154000 +0300" stop="20250730160000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Хелоуин - (Ep. 35) Бийн обожава Хелоуин и подготвя номера и лакомства за децата в квартала, но се увлича и става жертва на пакостите на...</title>
-  </programme>
-  <programme start="20250730160000 +0300" stop="20250730161000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Морско училище - (Ep. 26) Шантавите Строители се изправят пред подводни предизвикателства, докато строят морско училище за Мокси Менати.10...</title>
-  </programme>
-  <programme start="20250730161000 +0300" stop="20250730162000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Морска звезда - (Ep. 27) Мокси Менати наема Шантавите Строители, за да построят трасе с препятствия за игрите в училище "Пясъчни Миди", но Лола...</title>
-  </programme>
-  <programme start="20250730162000 +0300" stop="20250730163000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Каските: Страхотният паток! - (Ep. 5) Музикален клип, в който патокът Дафи използва самосвала си, за да пренася материали и за да се забавлява на...</title>
-  </programme>
-  <programme start="20250730163000 +0300" stop="20250730164000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Batwheels: Отритнат настрана - (Ep. 8) Бам моли Редбърд да стои настрана, докато се опитва да спре Пранк, микробусът на Жокера. Редбърд тайно го следва и...</title>
-  </programme>
-  <programme start="20250730164000 +0300" stop="20250730170000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Batwheels: Карай спокойно - (Ep. 9) Биби избухва заради обидите на Джеста и трябва да се научи как да пренебрегва думите на лошото АТВ, за да помогне на...</title>
-  </programme>
-  <programme start="20250730170000 +0300" stop="20250730172900 +0300" channel="cartoonito.bg">
-    <title lang="bg">Спокойно, Скуби-Ду!: Думата е Гърция - (Ep. 15) Връщаме се в Древна Гърция, където бандата изиграва уникални роли в гръцка мистерия, включваща митологичната жена...</title>
-  </programme>
-  <programme start="20250730172900 +0300" stop="20250730173300 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Лампът в хотела - (Ep. 9) Лампът се скрива в хотел. Учените влизат, правейки се за богати. Младоженският апартамент е нещо невиждано - има легла...</title>
-  </programme>
-  <programme start="20250730173300 +0300" stop="20250730173500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Лампът и слонът - (Ep. 10) Учените прогонват Лампът в джунглата, за да се хване в техен капан, но той има друг проблем: слонче търси майка си и...</title>
-  </programme>
-  <programme start="20250730173500 +0300" stop="20250730174500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Клоунщини напред-назад - (Ep. 34) Учените и Лампът се вълнуват заради панаира! Учените провалят жонглиращия клоун, а Лампът се опитва да оправи нещата....</title>
-  </programme>
-  <programme start="20250730174500 +0300" stop="20250730180000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Майката на Шефа - (Ep. 17) Учените посрещат майката на Шефа на жп гарата. Губят снимката й и имат само фото на сив кок и я издирват по него....</title>
-  </programme>
-  <programme start="20250730180000 +0300" stop="20250730181000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Изчезнала котка - (Ep. 28) Бийн се опитва да пренареди коридора, но злата едноока котка на хазяйката не го изпуска от поглед. Бийн я слага в...</title>
-  </programme>
-  <programme start="20250730181000 +0300" stop="20250730182500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Супер количка - (Ep. 29) Пазаруването за едно-две неща се превръща в кошмар заради безкрайния списък на хазяйката и счупената количка.Actors:...</title>
-  </programme>
-  <programme start="20250730182500 +0300" stop="20250730183500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Сврака - (Ep. 30) Мистър Бийн се грижи за ранена сврака и научава нещо, което всички знаем - свраките са привлечени от лъскави...</title>
-  </programme>
-  <programme start="20250730183500 +0300" stop="20250730185500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Коткогледач - (Ep. 31) След сблъсък с млекаря, хазяйката на Бийн постъпва в болница и той трябва да се грижи за еднооката ? котка. В края на...</title>
-  </programme>
-  <programme start="20250730185500 +0300" stop="20250730190500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечок интелектуалец - (Ep. 45) Гризи неволно напъхва компютърен микропроцесор в слепоочието си и се превръща в изключително интелигентно създание,...</title>
-  </programme>
-  <programme start="20250730190500 +0300" stop="20250730191000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Вуду одеяло - (Ep. 46) Лемингите си приготвят мечтаната следобедна закуска с последното бурканче течен шоколад в бюфета, но за тяхно...</title>
-  </programme>
-  <programme start="20250730191000 +0300" stop="20250730192500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечешки отпечатъци - (Ep. 47) Гризи с радост открива, че може да разпечатва изображения, заснети с фотоапарата на рейнджъра, свързан към модерен...</title>
-  </programme>
-  <programme start="20250730192500 +0300" stop="20250730193000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Инспектор Гризи - (Ep. 48) Пред къщичката на рейнджъра спира микробусче, което доставя сандъче с бурканчета течен шоколад. Докато Гризи и...</title>
-  </programme>
-  <programme start="20250730193000 +0300" stop="20250730193500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Влизането забранено! - (Ep. 49) Както обикновено, Гризи се опитва да отвори вратата на дървената къщичка на рейнджъра, за да се настани комфортно...</title>
-  </programme>
-  <programme start="20250730193500 +0300" stop="20250730194500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Лемингови стомашни проблеми - (Ep. 50) Лемингите са се сдобили с пакет бял боб със странни свойства: ако човек смеси боба със сода и го изяде, се превръща в...</title>
-  </programme>
-  <programme start="20250730194500 +0300" stop="20250730200000 +0300" channel="cartoonito.bg">
-    <title lang="bg">СуперТингс: Съперници на Кабуум - Казуум сила: Геройското име! - (Ep. 3) Казуум Кидс вече са Супер герои и трябва спешно да си изберат имена, тъй като вече влизат в битка със Зрънчомраз,...</title>
-  </programme>
-  <programme start="20250730200000 +0300" stop="20250730060000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Спокойно, Скуби-Ду!: Тихо, Скуби-Ду! - (Ep. 5) За да реши мистерията със зловещия Кристален пълзач - прилепоподобно пещерно чудовище, бандата трябва да влезе в...</title>
-  </programme>
-  <programme start="20250730060000 +0300" stop="20250730061000 +0300" channel="cartoonito.bg">
+  <programme start="20250730060000 +0300" stop="20250730060500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 2 , епизод 62</title>
+  </programme>
+  <programme start="20250730060500 +0300" stop="20250730061000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 2 , епизод 63</title>
   </programme>
   <programme start="20250730061000 +0300" stop="20250730062500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 2 , епизод 64</title>
@@ -34393,14 +34521,32 @@
   <programme start="20250730062500 +0300" stop="20250730063500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 2 , епизод 65</title>
   </programme>
-  <programme start="20250730063500 +0300" stop="20250730065500 +0300" channel="cartoonito.bg">
+  <programme start="20250730063500 +0300" stop="20250730064000 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 2 , епизод 66</title>
   </programme>
-  <programme start="20250730065500 +0300" stop="20250730080000 +0300" channel="cartoonito.bg">
+  <programme start="20250730064000 +0300" stop="20250730065500 +0300" channel="cartoonito.bg">
+    <title lang="bg">СуперТингс: Съперници на Кабуум - Казуум сила , сезон 1 , епизод 2</title>
+  </programme>
+  <programme start="20250730065500 +0300" stop="20250730070500 +0300" channel="cartoonito.bg">
     <title lang="bg">Бъгс Бъни Строители , сезон 2 , епизод 4</title>
   </programme>
-  <programme start="20250730080000 +0300" stop="20250730082000 +0300" channel="cartoonito.bg">
+  <programme start="20250730070500 +0300" stop="20250730072500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Бъгс Бъни Строители , сезон 2 , епизод 5</title>
+  </programme>
+  <programme start="20250730072500 +0300" stop="20250730073500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Batwheels , сезон 1 , епизод 40</title>
+  </programme>
+  <programme start="20250730073500 +0300" stop="20250730075500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Batwheels , сезон 1 , епизод 26</title>
+  </programme>
+  <programme start="20250730075500 +0300" stop="20250730080000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 36</title>
+  </programme>
+  <programme start="20250730080000 +0300" stop="20250730080500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 37</title>
+  </programme>
+  <programme start="20250730080500 +0300" stop="20250730082000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 38</title>
   </programme>
   <programme start="20250730082000 +0300" stop="20250730083000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 1 , епизод 15</title>
@@ -34408,8 +34554,14 @@
   <programme start="20250730083000 +0300" stop="20250730085000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 1 , епизод 16</title>
   </programme>
-  <programme start="20250730085000 +0300" stop="20250730092500 +0300" channel="cartoonito.bg">
+  <programme start="20250730085000 +0300" stop="20250730090000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 1 , епизод 31</title>
+  </programme>
+  <programme start="20250730090000 +0300" stop="20250730092000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 1 , епизод 18</title>
+  </programme>
+  <programme start="20250730092000 +0300" stop="20250730092500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 2 , епизод 1</title>
   </programme>
   <programme start="20250730092500 +0300" stop="20250730094500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 2 , епизод 11</title>
@@ -34417,11 +34569,20 @@
   <programme start="20250730094500 +0300" stop="20250730095500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 2 , епизод 12</title>
   </programme>
-  <programme start="20250730095500 +0300" stop="20250730103500 +0300" channel="cartoonito.bg">
+  <programme start="20250730095500 +0300" stop="20250730101500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 2 , епизод 13</title>
   </programme>
-  <programme start="20250730103500 +0300" stop="20250730110000 +0300" channel="cartoonito.bg">
+  <programme start="20250730101500 +0300" stop="20250730102500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 2 , епизод 14</title>
+  </programme>
+  <programme start="20250730102500 +0300" stop="20250730103500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 2 , епизод 15</title>
+  </programme>
+  <programme start="20250730103500 +0300" stop="20250730105500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 2 , епизод 16</title>
+  </programme>
+  <programme start="20250730105500 +0300" stop="20250730110000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Шоуто на Том и Джери , сезон 3 , епизод 10</title>
   </programme>
   <programme start="20250730110000 +0300" stop="20250730111000 +0300" channel="cartoonito.bg">
     <title lang="bg">Шоуто на Том и Джери , сезон 3 , епизод 11</title>
@@ -34435,8 +34596,17 @@
   <programme start="20250730112800 +0300" stop="20250730113300 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 3 , епизод 31</title>
   </programme>
-  <programme start="20250730113300 +0300" stop="20250730120500 +0300" channel="cartoonito.bg">
+  <programme start="20250730113300 +0300" stop="20250730113500 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 3 , епизод 35</title>
+  </programme>
+  <programme start="20250730113500 +0300" stop="20250730115500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Лампът , сезон 4 , епизод 23</title>
+  </programme>
+  <programme start="20250730115500 +0300" stop="20250730120000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 4 , епизод 5</title>
+  </programme>
+  <programme start="20250730120000 +0300" stop="20250730120500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 4 , епизод 6</title>
   </programme>
   <programme start="20250730120500 +0300" stop="20250730122000 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 4 , епизод 7</title>
@@ -34444,11 +34614,26 @@
   <programme start="20250730122000 +0300" stop="20250730122500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 4 , епизод 8</title>
   </programme>
-  <programme start="20250730122500 +0300" stop="20250730124000 +0300" channel="cartoonito.bg">
+  <programme start="20250730122500 +0300" stop="20250730123500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 4 , епизод 9</title>
   </programme>
-  <programme start="20250730124000 +0300" stop="20250730135000 +0300" channel="cartoonito.bg">
+  <programme start="20250730123500 +0300" stop="20250730124000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 4 , епизод 10</title>
+  </programme>
+  <programme start="20250730124000 +0300" stop="20250730125500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 4 , епизод 11</title>
+  </programme>
+  <programme start="20250730125500 +0300" stop="20250730130500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 5</title>
+  </programme>
+  <programme start="20250730130500 +0300" stop="20250730132500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 6</title>
+  </programme>
+  <programme start="20250730132500 +0300" stop="20250730133500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 29</title>
+  </programme>
+  <programme start="20250730133500 +0300" stop="20250730135000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 30</title>
   </programme>
   <programme start="20250730135000 +0300" stop="20250730140000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 4 , епизод 31</title>
@@ -34462,11 +34647,26 @@
   <programme start="20250730143000 +0300" stop="20250730144000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 4 , епизод 34</title>
   </programme>
-  <programme start="20250730144000 +0300" stop="20250730151000 +0300" channel="cartoonito.bg">
+  <programme start="20250730144000 +0300" stop="20250730150000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 4 , епизод 35</title>
   </programme>
-  <programme start="20250730151000 +0300" stop="20250730162900 +0300" channel="cartoonito.bg">
+  <programme start="20250730150000 +0300" stop="20250730151000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Бъгс Бъни Строители , сезон 1 , епизод 26</title>
+  </programme>
+  <programme start="20250730151000 +0300" stop="20250730152000 +0300" channel="cartoonito.bg">
     <title lang="bg">Бъгс Бъни Строители , сезон 1 , епизод 27</title>
+  </programme>
+  <programme start="20250730152000 +0300" stop="20250730153000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Бъгс Бъни Строители: Каските , сезон 1 , епизод 5</title>
+  </programme>
+  <programme start="20250730153000 +0300" stop="20250730154000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Batwheels , сезон 1 , епизод 6</title>
+  </programme>
+  <programme start="20250730154000 +0300" stop="20250730160000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Batwheels , сезон 1 , епизод 7</title>
+  </programme>
+  <programme start="20250730160000 +0300" stop="20250730162900 +0300" channel="cartoonito.bg">
+    <title lang="bg">Спокойно, Скуби-Ду! , сезон 2 , епизод 15</title>
   </programme>
   <programme start="20250730162900 +0300" stop="20250730163300 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 3 , епизод 20</title>
@@ -34477,29 +34677,50 @@
   <programme start="20250730163500 +0300" stop="20250730164500 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 4 , епизод 35</title>
   </programme>
-  <programme start="20250730164500 +0300" stop="20250730171000 +0300" channel="cartoonito.bg">
+  <programme start="20250730164500 +0300" stop="20250730170000 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 3 , епизод 35</title>
+  </programme>
+  <programme start="20250730170000 +0300" stop="20250730171000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 1 , епизод 24</title>
   </programme>
   <programme start="20250730171000 +0300" stop="20250730172500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 1 , епизод 15</title>
   </programme>
-  <programme start="20250730172500 +0300" stop="20250730175500 +0300" channel="cartoonito.bg">
+  <programme start="20250730172500 +0300" stop="20250730173500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 1 , епизод 16</title>
+  </programme>
+  <programme start="20250730173500 +0300" stop="20250730175500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 1 , епизод 31</title>
   </programme>
   <programme start="20250730175500 +0300" stop="20250730180500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 45</title>
   </programme>
-  <programme start="20250730180500 +0300" stop="20250730183000 +0300" channel="cartoonito.bg">
+  <programme start="20250730180500 +0300" stop="20250730181000 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 46</title>
   </programme>
-  <programme start="20250730183000 +0300" stop="20250730184500 +0300" channel="cartoonito.bg">
+  <programme start="20250730181000 +0300" stop="20250730182500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 47</title>
+  </programme>
+  <programme start="20250730182500 +0300" stop="20250730183000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 48</title>
+  </programme>
+  <programme start="20250730183000 +0300" stop="20250730183500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 49</title>
+  </programme>
+  <programme start="20250730183500 +0300" stop="20250730184500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 50</title>
   </programme>
   <programme start="20250730184500 +0300" stop="20250730190000 +0300" channel="cartoonito.bg">
     <title lang="bg">СуперТингс: Съперници на Кабуум - Казуум сила , сезон 1 , епизод 3</title>
   </programme>
-  <programme start="20250730190000 +0300" stop="20250730200500 +0300" channel="cartoonito.bg">
+  <programme start="20250730190000 +0300" stop="20250730193000 +0300" channel="cartoonito.bg">
     <title lang="bg">Спокойно, Скуби-Ду! , сезон 1 , епизод 7</title>
+  </programme>
+  <programme start="20250730193000 +0300" stop="20250730200000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Спокойно, Скуби-Ду! , сезон 1 , епизод 3</title>
+  </programme>
+  <programme start="20250730200000 +0300" stop="20250730200500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 10</title>
   </programme>
   <programme start="20250730200500 +0300" stop="20250730202500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 4 , епизод 11</title>
@@ -34558,308 +34779,95 @@
   <programme start="20250730233000 +0300" stop="20250730235000 +0300" channel="cartoonito.bg">
     <title lang="bg">Бъгс Бъни Строители , сезон 1 , епизод 39</title>
   </programme>
-  <programme start="20250730235000 +0300" stop="20250731002000 +0300" channel="cartoonito.bg">
+  <programme start="20250730235000 +0300" stop="20250731000000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 3 , епизод 10</title>
   </programme>
-  <programme start="20250731002000 +0300" stop="20250731003000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Дим Сум - (Ep. 38) Шеф Пойънг Панда наема Шантавите строители, защото иска да си има Дим Сум ресторант в автобус. Екипът обаче изпитва...</title>
+  <programme start="20250731000000 +0300" stop="20250731001500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 3 , епизод 13</title>
   </programme>
-  <programme start="20250731003000 +0300" stop="20250731005000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Игра с кран - (Ep. 39) Шантавите строители построяват гигантска игра с щипки за Чиби Критър в Япония, но осъзнават, че щипката е счупена.20...</title>
+  <programme start="20250731001500 +0300" stop="20250731002500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 3 , епизод 14</title>
   </programme>
-  <programme start="20250731005000 +0300" stop="20250731010000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Яйце и Бийн - (Ep. 46) Мистър Бийн изпада в паника, когато в сместа за торти се появява чудовище. Оказва се, че това е малко птиче, но...</title>
+  <programme start="20250731002500 +0300" stop="20250731004500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 3 , епизод 7</title>
   </programme>
-  <programme start="20250731010000 +0300" stop="20250731011500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Лудо скачане! - (Ep. 47) Жабите в банята на мистър Бийн се размножават и това е последното, което иска хазяйката му, особено когато е поканила...</title>
+  <programme start="20250731004500 +0300" stop="20250731005500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 11</title>
   </programme>
-  <programme start="20250731011500 +0300" stop="20250731012500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Голяма покана - (Ep. 48) Бийн се запознава с възрастна аристократка и е на седмото небе, защото е поканен на обяд в имението ?. Той е решен на...</title>
+  <programme start="20250731005500 +0300" stop="20250731010500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 12</title>
   </programme>
-  <programme start="20250731012500 +0300" stop="20250731014500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Кралско преобразяване - (Ep. 49) Как човек да си избере тапет тези дни? След като гледа предаване за кралския дворец, Бийн решава да обзаведе стаята си...</title>
+  <programme start="20250731010500 +0300" stop="20250731012500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 15</title>
   </programme>
-  <programme start="20250731014500 +0300" stop="20250731015500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Ден на човека - (Ep. 29) Денят на човека е любимият ден от годината на Ела. Тя кани Мело на семейната вечеря. Мело иска да направи добро...</title>
+  <programme start="20250731012500 +0300" stop="20250731013500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 4</title>
   </programme>
-  <programme start="20250731015500 +0300" stop="20250731020500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Бегълци - (Ep. 30) Ела, Слипи и Мело се разбиват на една планета. Когато топината от ядрото ? пропуква леда отгоре, те пропадат и не...</title>
+  <programme start="20250731013500 +0300" stop="20250731015000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 6</title>
   </programme>
-  <programme start="20250731020500 +0300" stop="20250731022000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Спомени за Оумуамуа - (Ep. 31) Ела е разстроена, защото погрешка унищожава стари снимки на майка ?. Тя убеждава семейството да ги пресъздадат, за да...</title>
+  <programme start="20250731015000 +0300" stop="20250731020000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 29</title>
   </programme>
-  <programme start="20250731022000 +0300" stop="20250731023500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Аналогова Ела - (Ep. 32) Ела и компания отиват на къмпинг, но малко след като се настаняват, Маги ги предупреждава, че към тях идва слънчево...</title>
+  <programme start="20250731020000 +0300" stop="20250731022000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 30</title>
   </programme>
-  <programme start="20250731023500 +0300" stop="20250731025000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Мисия "Галактика" - (Ep. 33) Ела е впечатлена от новата асистентка на майка ? Анджели, най-вече от невероятните ? умения с космическия...</title>
+  <programme start="20250731022000 +0300" stop="20250731023000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 31</title>
   </programme>
-  <programme start="20250731025000 +0300" stop="20250731030000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Шах без мат - (Ep. 29) Тарла се учи как да играе шах, но състезателният ? дух кара всички да спрат да искат да играят с нея.Director: Tim...</title>
+  <programme start="20250731023000 +0300" stop="20250731023500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 32</title>
   </programme>
-  <programme start="20250731030000 +0300" stop="20250731031500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Речно чудовище - (Ep. 30) Плъхчо изпробва ново оборудване за гмуркане, но Портли решава, че е речно чудовище. Тарла доукрасява историята и...</title>
+  <programme start="20250731023500 +0300" stop="20250731025500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 33</title>
   </programme>
-  <programme start="20250731031500 +0300" stop="20250731033000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Ахой, невестулките! - (Ep. 31) Невестулките открадват лодката на Плъхчо, но скоро изпадат в големи неприятности заради бързата и дива река.Director:...</title>
+  <programme start="20250731025500 +0300" stop="20250731030500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 2 , епизод 15</title>
   </programme>
-  <programme start="20250731033000 +0300" stop="20250731033500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Бъди повече Жабок - (Ep. 32) Кърти не може да убеди другите да приемат новото му хоби - горско къпане, и става настоятелен като Жабока. Новата му...</title>
+  <programme start="20250731030500 +0300" stop="20250731032000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 16</title>
   </programme>
-  <programme start="20250731033500 +0300" stop="20250731035500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Г-н Тидълс - (Ep. 33) Кърти прави основно почистване и подарява мечето си господин Тидълс на Жабока. След време Кърти размисля и решава, че...</title>
+  <programme start="20250731032000 +0300" stop="20250731033000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 17</title>
   </programme>
-  <programme start="20250731035500 +0300" stop="20250731040500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Супершпионин - (Ep. 15) Мистър Бийн не спира да гледа любимото си предаване "Супер шпионин" и се радва, когато шпионският му комплект пристига...</title>
+  <programme start="20250731033000 +0300" stop="20250731035000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 18</title>
   </programme>
-  <programme start="20250731040500 +0300" stop="20250731042000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Скаут Бийн - (Ep. 16) Бийн по погрешка предизвиква инцидент, който попречва на Ирма да занесе значката в скаутския лагер "Голямата мечка"....</title>
+  <programme start="20250731035000 +0300" stop="20250731040000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 11</title>
   </programme>
-  <programme start="20250731042000 +0300" stop="20250731043000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Обратно на училище - (Ep. 17) Мистър Бийн не може да намери къде да паркира, освен в училищния паркинг. След поредица от странни случки, Бийн се...</title>
+  <programme start="20250731040000 +0300" stop="20250731041000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 12</title>
   </programme>
-  <programme start="20250731043000 +0300" stop="20250731045000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Лорд Бийн - (Ep. 18) Мистър Бийн изучава рода си и осъзнава, че прилича на определен лорд Бийн. Оказва се, че роднините му живеят в замък,...</title>
+  <programme start="20250731041000 +0300" stop="20250731042500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 15</title>
   </programme>
-  <programme start="20250731045000 +0300" stop="20250731050000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Ден на човека - (Ep. 29) Денят на човека е любимият ден от годината на Ела. Тя кани Мело на семейната вечеря. Мело иска да направи добро...</title>
+  <programme start="20250731042500 +0300" stop="20250731043500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 4</title>
   </programme>
-  <programme start="20250731050000 +0300" stop="20250731051000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Бегълци - (Ep. 30) Ела, Слипи и Мело се разбиват на една планета. Когато топината от ядрото ? пропуква леда отгоре, те пропадат и не...</title>
+  <programme start="20250731043500 +0300" stop="20250731045500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Ела сред звездите , сезон 2 , епизод 6</title>
   </programme>
-  <programme start="20250731051000 +0300" stop="20250731052500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Спомени за Оумуамуа - (Ep. 31) Ела е разстроена, защото погрешка унищожава стари снимки на майка ?. Тя убеждава семейството да ги пресъздадат, за да...</title>
+  <programme start="20250731045500 +0300" stop="20250731050500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 29</title>
   </programme>
-  <programme start="20250731052500 +0300" stop="20250731053500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Аналогова Ела - (Ep. 32) Ела и компания отиват на къмпинг, но малко след като се настаняват, Маги ги предупреждава, че към тях идва слънчево...</title>
+  <programme start="20250731050500 +0300" stop="20250731051500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 30</title>
   </programme>
-  <programme start="20250731053500 +0300" stop="20250731055500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Ела сред звездите: Мисия "Галактика" - (Ep. 33) Ела е впечатлена от новата асистентка на майка ? Анджели, най-вече от невероятните ? умения с космическия...</title>
+  <programme start="20250731051500 +0300" stop="20250731053000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 31</title>
   </programme>
-  <programme start="20250731055500 +0300" stop="20250731060500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Шах без мат - (Ep. 29) Тарла се учи как да играе шах, но състезателният ? дух кара всички да спрат да искат да играят с нея.Director: Tim...</title>
+  <programme start="20250731053000 +0300" stop="20250731054000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 32</title>
   </programme>
-  <programme start="20250731060500 +0300" stop="20250731061500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Речно чудовище - (Ep. 30) Плъхчо изпробва ново оборудване за гмуркане, но Портли решава, че е речно чудовище. Тарла доукрасява историята и...</title>
+  <programme start="20250731054000 +0300" stop="20250731060000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Жабокът и приятели , сезон 1 , епизод 33</title>
   </programme>
-  <programme start="20250731061500 +0300" stop="20250731063000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Ахой, невестулките! - (Ep. 31) Невестулките открадват лодката на Плъхчо, но скоро изпадат в големи неприятности заради бързата и дива река.Director:...</title>
-  </programme>
-  <programme start="20250731063000 +0300" stop="20250731064000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Бъди повече Жабок - (Ep. 32) Кърти не може да убеди другите да приемат новото му хоби - горско къпане, и става настоятелен като Жабока. Новата му...</title>
-  </programme>
-  <programme start="20250731064000 +0300" stop="20250731070000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Жабокът и приятели: Г-н Тидълс - (Ep. 33) Кърти прави основно почистване и подарява мечето си господин Тидълс на Жабока. След време Кърти размисля и решава, че...</title>
-  </programme>
-  <programme start="20250731070000 +0300" stop="20250731070500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечок - радар - (Ep. 67) Докато търси дистанционното управление на телевизора, Гризи случайно попада на кутия, която може да открива ключове...</title>
-  </programme>
-  <programme start="20250731070500 +0300" stop="20250731071000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Зорбинг леминги - (Ep. 68) Лемингите са обърнали с главата надолу къщичката на рейнджъра, за да си направят трасе с препятствия, по което да...</title>
-  </programme>
-  <programme start="20250731071000 +0300" stop="20250731072500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Трафиканство по въздуха - (Ep. 69) Лемингите конструират персонифициран делтаплан от количка за пазаруване от супермаркет, която използват като кош, и...</title>
-  </programme>
-  <programme start="20250731072500 +0300" stop="20250731073500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Приказка за леминги - (Ep. 70) Лемингите изподраскват цялата книжка за "Снежанка", която е оставена на дивана във всекидневната. Гризи ги прогонва,...</title>
-  </programme>
-  <programme start="20250731073500 +0300" stop="20250731074000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Лемингови забивки - (Ep. 71) Любимата марка течен шоколад на Гризи и лемингите организира състезание, в което наградата е огромен буркан с течен...</title>
-  </programme>
-  <programme start="20250731074000 +0300" stop="20250731075500 +0300" channel="cartoonito.bg">
-    <title lang="bg">СуперТингс: Съперници на Кабуум - Казуум сила: Геройското име! - (Ep. 3) Казуум Кидс вече са Супер герои и трябва спешно да си изберат имена, тъй като вече влизат в битка със Зрънчомраз,...</title>
-  </programme>
-  <programme start="20250731075500 +0300" stop="20250731080500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Великата Летяща бълха - (Ep. 6) Шантавите строители се запознават със Зипи - бълха, която живее на гърба на Силвестър. Те построяват цирк, с който да...</title>
-  </programme>
-  <programme start="20250731080500 +0300" stop="20250731082500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Настинка - (Ep. 7) Шантавите строители са назначени от кмета Легхорн, за да построят кино в парка Шантавел. Лола не се чувства добре, но...</title>
-  </programme>
-  <programme start="20250731082500 +0300" stop="20250731083500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Batwheels: Щом си самолет - (Ep. 26) Ред се пробва да бъде шпионин като Агент V-8, но бързо разбира, че това не е за него, затова се съюзява с Биби, когато...</title>
-  </programme>
-  <programme start="20250731083500 +0300" stop="20250731085500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Batwheels: На патрул - (Ep. 27) Котмобилът "Коте" спасява Бам, който е изпаднал в тежка ситуация, и той решава да я вземе със себе си на патрул с...</title>
-  </programme>
-  <programme start="20250731085500 +0300" stop="20250731090000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечок във вятъра - (Ep. 39) Лемингите засилват до максимум вентилатора и започват нова игра - летят наоколо като знаменца, понесени от силната...</title>
-  </programme>
-  <programme start="20250731090000 +0300" stop="20250731090500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечок строител - (Ep. 40) Лемингите се забавляват да рушат къщичките си от дървени блокчета от конструктор, които после изграждат отново със...</title>
-  </programme>
-  <programme start="20250731090500 +0300" stop="20250731092000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Кунг-фу леминги - (Ep. 41) Лемингите получават вдъхновение от уроците, представени в наръчник за бойни изкуства, и започват да чупят на две всеки...</title>
-  </programme>
-  <programme start="20250731092000 +0300" stop="20250731093000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Детето с джаджите - (Ep. 41) Бийн се среща с момче от Япония в научния музей. Първоначално той не се разбира с него, но открива, че в раницата му...</title>
-  </programme>
-  <programme start="20250731093000 +0300" stop="20250731095000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Посетителят - (Ep. 42) Мистър Бийн не знае от къде познава човека, който се появява на вратата му. Стара училищна снимка и шапка го карат да...</title>
-  </programme>
-  <programme start="20250731095000 +0300" stop="20250731100000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Големият телевизор - (Ep. 43) Ирма Гоб идва на гости, за да гледа телевизия и Бийн научава, че да харесваш различни предавания от тези на...</title>
-  </programme>
-  <programme start="20250731100000 +0300" stop="20250731102000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Лудории по клавишите - (Ep. 44) Решен да усвои симфонията на Бетовен, мистър Бийн си осигурява пиано, партитура, свещник и учител с голямо търпение....</title>
-  </programme>
-  <programme start="20250731102000 +0300" stop="20250731103000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Битка по тичане - (Ep. 45) Започва маратон и Бийн застава рамо до рамо със своя враг - човекът, откраднал мястото му на паркинга. Маратон или не,...</title>
-  </programme>
-  <programme start="20250731103000 +0300" stop="20250731104500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Яйце и Бийн - (Ep. 46) Мистър Бийн изпада в паника, когато в сместа за торти се появява чудовище. Оказва се, че това е малко птиче, но...</title>
-  </programme>
-  <programme start="20250731104500 +0300" stop="20250731110000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Лудо скачане! - (Ep. 47) Жабите в банята на мистър Бийн се размножават и това е последното, което иска хазяйката му, особено когато е поканила...</title>
-  </programme>
-  <programme start="20250731110000 +0300" stop="20250731111500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Голяма покана - (Ep. 48) Бийн се запознава с възрастна аристократка и е на седмото небе, защото е поканен на обяд в имението ?. Той е решен на...</title>
-  </programme>
-  <programme start="20250731111500 +0300" stop="20250731112500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Кралско преобразяване - (Ep. 49) Как човек да си избере тапет тези дни? След като гледа предаване за кралския дворец, Бийн решава да обзаведе стаята си...</title>
-  </programme>
-  <programme start="20250731112500 +0300" stop="20250731113500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Супер ядка - (Ep. 50) Мистър Бийн и съседът му се надпреварват чия тиква ще стане по-голяма. Победителят получава парична награда, както и...</title>
-  </programme>
-  <programme start="20250731113500 +0300" stop="20250731115500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Влюбеният Бийн - (Ep. 51) Той притежава нейния албум, плакат и тениска и когато любимката на Бийн, Рокси, обявява концерт в Лондон, неговата...</title>
-  </programme>
-  <programme start="20250731115500 +0300" stop="20250731120000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Шоуто на Том и Джери: Страшна нощ навън - (Ep. 32) Том по погрешка събужда зомбита и се налага да получи помощ от Джери ван Мишлинг.Director: Darrell Van Citters. 5...</title>
-  </programme>
-  <programme start="20250731120000 +0300" stop="20250731121000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Шоуто на Том и Джери: Ти си това, което ядеш - (Ep. 33) Том по погрешка изяжда храната на Спайк и не след дълго започва да се държи като куче. Всички започват да ядат кучешка...</title>
-  </programme>
-  <programme start="20250731121000 +0300" stop="20250731122500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Шоуто на Том и Джери: Джери орловото око - (Ep. 34) Том и Джери трябват да работят заедно, за да защитят семейство бебета орли от пума.Director: Darrell Van Citters. 15...</title>
-  </programme>
-  <programme start="20250731122500 +0300" stop="20250731122900 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Отново извънземни - (Ep. 20) Лампът обича да гледа за НЛО. Учените го прекъсват точно когато идва НЛО. Един извънземен е като Кльощавия и заработва...</title>
-  </programme>
-  <programme start="20250731122900 +0300" stop="20250731123500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Произход - (Ep. 47) Спомени връхлитат учените от снимка от детството. Срещнали са се в училищната лаборатория. Очилатият бил зубрач,...</title>
-  </programme>
-  <programme start="20250731123500 +0300" stop="20250731125500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Лампът и бобеното стебло - (Ep. 12) С оръжието за смаляване растение в дома на Учените става гигантско бобено стебло и повлича Лампът! Горе Учените и...</title>
-  </programme>
-  <programme start="20250731125500 +0300" stop="20250731130000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: По всякакъв начин - (Ep. 12) Гризи и лемингите по погрешка изстрелват буркана с течен шоколад в джунглата. Там, лемингите намират вълшебна гривна,...</title>
-  </programme>
-  <programme start="20250731130000 +0300" stop="20250731130500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Къщичката на Луната - (Ep. 13) Лемигите активират космическо явление и Луната пада, неутрализирайки гравитацията. Сега, необезпокоявани от Гризи,...</title>
-  </programme>
-  <programme start="20250731130500 +0300" stop="20250731132000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Академия "Гризи" - (Ep. 14) Гризи кара лемингите да подражават на дисциплинираните пингвини в негово присъствие, да не го безпокоят, но забравя,...</title>
-  </programme>
-  <programme start="20250731132000 +0300" stop="20250731132500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Заслужено - (Ep. 15) След инцидент с Дядо Коледа, лемингите се сдобиват с вълшебната му торба. Тя възнаграждава тези, чиито желания са...</title>
-  </programme>
-  <programme start="20250731132500 +0300" stop="20250731133500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Програма по заявка - (Ep. 16) Гризи и лемингите се карат какво да гледат по телевизията. Гризи конфискува дистанционното, но те намират друго. То...</title>
-  </programme>
-  <programme start="20250731133500 +0300" stop="20250731134000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мразовита чаша - (Ep. 17) Лемингите се състезават с шейни и печелят всеки път. Гризи решава също да се включи. Дронове прожектират холографски...</title>
-  </programme>
-  <programme start="20250731134000 +0300" stop="20250731135500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Шоко-ледено сорбе - (Ep. 18) Лемингите правят ледено сорбе, но е безвкусно. Гризи също - в буркан от шоколад, вкусотия! Лемингите го сменят с...</title>
-  </programme>
-  <programme start="20250731135500 +0300" stop="20250731140500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Фитнес инструктор - (Ep. 7) Бийн гледа рали, но Мисис Уикет иска да подреди градината ? срещу безплатен наем. Бийн пък вижда съсед, който обича да...</title>
-  </programme>
-  <programme start="20250731140500 +0300" stop="20250731142500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Проблем при трамплините - (Ep. 8) Мистър Бийн използва трамплин, за да не чака на опашка и да влезе тайно. Погрешка обаче влиза на грешното място, където...</title>
-  </programme>
-  <programme start="20250731142500 +0300" stop="20250731143500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Бийн боядисва - (Ep. 36) Мистър Бийн рисува Мечо, но по погрешка пръска зелена боя на кафявия тапет. О, не! Бийн трябва да подреди стаята си,...</title>
-  </programme>
-  <programme start="20250731143500 +0300" stop="20250731145000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Борецът Бийн - (Ep. 37) Бийн не харесва борбата, но спазва обещанието си и води мисис Уикет и приятеля ? на мач в града. Бийн се губи и по...</title>
-  </programme>
-  <programme start="20250731145000 +0300" stop="20250731150000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Рядка птица - (Ep. 38) Мистър Бийн чака да види рядка птица, за да си запълни колекцията, но му доскучава и решава да я нарисува и да закачи...</title>
-  </programme>
-  <programme start="20250731150000 +0300" stop="20250731152000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Сафарито на Бийн - (Ep. 39) Мистър Бийн отива на сафари и се връща с нещо повече от сувенир - смела маймунка се настанява в колата на Бийн и...</title>
-  </programme>
-  <programme start="20250731152000 +0300" stop="20250731153000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Игра на голф - (Ep. 40) Мистър Бийн иска да играе голф. Той прави игрище в апартамента си и кани Ирма да се присъедини. Играта се прехвърля от...</title>
-  </programme>
-  <programme start="20250731153000 +0300" stop="20250731154000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Край на играта - (Ep. 1) Мистър Бийн се запалва по видео игрите след като се запознава с племенника на мисис Уикет. Той решава да си купи своя...</title>
-  </programme>
-  <programme start="20250731154000 +0300" stop="20250731160000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Специална доставка - (Ep. 2) Мисис Уикет заръчва на Бийн да приеме доставката на един фотьойл. Той се дегизира като нея, защото доставчикът Браян би...</title>
-  </programme>
-  <programme start="20250731160000 +0300" stop="20250731161000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Парти лодка - (Ep. 28) Шантавите строители трябва да построят парти лодка за Мак и Тош, но Туити допуска грешка и не моли за помощ.10 mins,...</title>
-  </programme>
-  <programme start="20250731161000 +0300" stop="20250731162000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Кит-пощальон! - (Ep. 29) Строителите се опитват да помогнат на Уинстън Кит, като му строят пощенски камион, но Уинстън е свикнал да работи...</title>
-  </programme>
-  <programme start="20250731162000 +0300" stop="20250731163000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Бъгс Бъни Строители: Каските: Mалък е, но ще ни поведе! - (Ep. 6) Туити използва кран, за да повдига тежки материали и за да помага на екипа да свърши всички задачи.10 mins, 0+ (2023)...</title>
-  </programme>
-  <programme start="20250731163000 +0300" stop="20250731164000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Batwheels: Подобрението на Бам - (Ep. 10) Бам моли Мо да му монтира нови подобрения, за да се хареса на Батман, но те се оказват твърде мощни, за да ги...</title>
-  </programme>
-  <programme start="20250731164000 +0300" stop="20250731170000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Batwheels: Редбърд отива на плажа - (Ep. 11) Редбърд се вълнува, че Батман и Робин ще закарат него и Бам до брега, но когато Жокера и Пранк дойдат да съсипят...</title>
-  </programme>
-  <programme start="20250731170000 +0300" stop="20250731172900 +0300" channel="cartoonito.bg">
-    <title lang="bg">Спокойно, Скуби-Ду!: Американска готика - (Ep. 16) Шаги с изненада открива, че първата му детска любов е станала готик. Засрамен, че той изобщо не се е променил, Шаги...</title>
-  </programme>
-  <programme start="20250731172900 +0300" stop="20250731173300 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Кльощавият се превръща в чудовище - (Ep. 11) Кльощавият хълца и си сипва питие, но Очилатият е нарушил правилото да не държат в хладилника експериментални отвари....</title>
-  </programme>
-  <programme start="20250731173300 +0300" stop="20250731173500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Сомнамбул - (Ep. 12) Очилатият все забравя да не гледа филми на ужасите преди лягане. Бедствията го преследват, докато сомнамбулства. Само...</title>
-  </programme>
-  <programme start="20250731173500 +0300" stop="20250731174500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Арктическо приключение - (Ep. 36) Учените преследват Лампът до Северния полюс, където той снима дивите животни. Учените се дегизират като най-различни...</title>
-  </programme>
-  <programme start="20250731174500 +0300" stop="20250731180000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Лампът: Гигантският Лампът - (Ep. 37) Необикновен инцидент кара Лампът да порасне до гигантски размери! Двамата учени трябва да намерят начин да се справят...</title>
-  </programme>
-  <programme start="20250731180000 +0300" stop="20250731181000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Бутилката - (Ep. 32) Бийн се радва на своя кораб в бутилка, но той по погрешка попада в камиона на млекаря. Започва едно лудо преследване...</title>
-  </programme>
-  <programme start="20250731181000 +0300" stop="20250731183000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Златна рибка - (Ep. 33) Мечо е на химическо чистене и Бийн се чувства самотен. За щастие, той си има ново приятелче - златна рибка.Actors:...</title>
-  </programme>
-  <programme start="20250731183000 +0300" stop="20250731184000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Проблеми с колата - (Ep. 35) Механик подвежда Бийн, казвайки му, че колата му не може да бъде поправена и Бийн със свито сърце я дава за...</title>
-  </programme>
-  <programme start="20250731184000 +0300" stop="20250731185500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Мистър Бийн: Ресторант - (Ep. 36) Вечерята за рождения ден на Бийн се проваля, когато той и Мечо трябва да седнат на най-лошата маса. За това допринася...</title>
-  </programme>
-  <programme start="20250731185500 +0300" stop="20250731190500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечешка мажорна соната - (Ep. 51) Гризи иска да се отърве от старото пиано на всяка цена, но когато забелязва, че любимата му мецана харесва мелодията...</title>
-  </programme>
-  <programme start="20250731190500 +0300" stop="20250731191000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечешки фракции - (Ep. 52) Лемингите се сдобиват със сандъче, изпаднало от конвой на канадската армия. Вътре откриват кутия, от която излиза...</title>
-  </programme>
-  <programme start="20250731191000 +0300" stop="20250731192500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Мечката, снасяща златни яйца - (Ep. 53) Край супермаркета има апарат, от който при поставяне на монета изкачат яйца-изненада. Измежду различните подаръчета в...</title>
-  </programme>
-  <programme start="20250731192500 +0300" stop="20250731193000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Скоростен обучителен курс - (Ep. 54) В дома на рейнджъра Гризи намира високотехнологично устройство, с което е възможно да научиш всичко само за няколко...</title>
-  </programme>
-  <programme start="20250731193000 +0300" stop="20250731193500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Доколкото един мечок си спомня - (Ep. 55) Стара метална кутия, която Гризи и лемингите случайно откриват в пукнатина между скалите, събужда спомени от...</title>
-  </programme>
-  <programme start="20250731193500 +0300" stop="20250731194500 +0300" channel="cartoonito.bg">
-    <title lang="bg">Гризи и лемингите: Химически леминги - (Ep. 56) Как би могъл някой да гледа спокойно и релаксиращо документален филм за сьомга, когато лемингите са се заели да се...</title>
-  </programme>
-  <programme start="20250731194500 +0300" stop="20250731200000 +0300" channel="cartoonito.bg">
-    <title lang="bg">СуперТингс: Съперници на Кабуум - Казуум сила: Да си върнем Казуум! - (Ep. 4) Казуум Кидс проникват в базата на Мистър Кинг, за да вземат Казуум и да спасят Кабуум Сити, но при бягството им, Кид...</title>
-  </programme>
-  <programme start="20250731200000 +0300" stop="20250731203000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Спокойно, Скуби-Ду!: Примадоната - (Ep. 7) За да реши мистерията с призрачна изпълнителка, обитаваща залата, в която някога е пяла, бандата трябва да се представи...</title>
-  </programme>
-  <programme start="20250731203000 +0300" stop="20250731060000 +0300" channel="cartoonito.bg">
-    <title lang="bg">Спокойно, Скуби-Ду!: Ако не искаш да влезеш в затвора, не престъпвай закона - (Ep. 8) Фред е много развълнуван, че ще посети Трезора - затвор със строг режим, от който никой престъпник никога не е избягал....</title>
-  </programme>
-  <programme start="20250731060000 +0300" stop="20250731061000 +0300" channel="cartoonito.bg">
+  <programme start="20250731060000 +0300" stop="20250731060500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 2 , епизод 67</title>
+  </programme>
+  <programme start="20250731060500 +0300" stop="20250731061000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 2 , епизод 68</title>
   </programme>
   <programme start="20250731061000 +0300" stop="20250731062500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 2 , епизод 69</title>
@@ -34867,14 +34875,32 @@
   <programme start="20250731062500 +0300" stop="20250731063500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 2 , епизод 70</title>
   </programme>
-  <programme start="20250731063500 +0300" stop="20250731065500 +0300" channel="cartoonito.bg">
+  <programme start="20250731063500 +0300" stop="20250731064000 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 2 , епизод 71</title>
   </programme>
-  <programme start="20250731065500 +0300" stop="20250731080000 +0300" channel="cartoonito.bg">
+  <programme start="20250731064000 +0300" stop="20250731065500 +0300" channel="cartoonito.bg">
+    <title lang="bg">СуперТингс: Съперници на Кабуум - Казуум сила , сезон 1 , епизод 3</title>
+  </programme>
+  <programme start="20250731065500 +0300" stop="20250731070500 +0300" channel="cartoonito.bg">
     <title lang="bg">Бъгс Бъни Строители , сезон 2 , епизод 6</title>
   </programme>
-  <programme start="20250731080000 +0300" stop="20250731082000 +0300" channel="cartoonito.bg">
+  <programme start="20250731070500 +0300" stop="20250731072500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Бъгс Бъни Строители , сезон 2 , епизод 7</title>
+  </programme>
+  <programme start="20250731072500 +0300" stop="20250731073500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Batwheels , сезон 1 , епизод 24</title>
+  </programme>
+  <programme start="20250731073500 +0300" stop="20250731075500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Batwheels , сезон 1 , епизод 25</title>
+  </programme>
+  <programme start="20250731075500 +0300" stop="20250731080000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 39</title>
+  </programme>
+  <programme start="20250731080000 +0300" stop="20250731080500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 40</title>
+  </programme>
+  <programme start="20250731080500 +0300" stop="20250731082000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 41</title>
   </programme>
   <programme start="20250731082000 +0300" stop="20250731083000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 3 , епизод 1</title>
@@ -34882,11 +34908,23 @@
   <programme start="20250731083000 +0300" stop="20250731085000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 3 , епизод 2</title>
   </programme>
-  <programme start="20250731085000 +0300" stop="20250731094500 +0300" channel="cartoonito.bg">
+  <programme start="20250731085000 +0300" stop="20250731090000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 3 , епизод 3</title>
   </programme>
-  <programme start="20250731094500 +0300" stop="20250731101500 +0300" channel="cartoonito.bg">
+  <programme start="20250731090000 +0300" stop="20250731092000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 3 , епизод 4</title>
+  </programme>
+  <programme start="20250731092000 +0300" stop="20250731093000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 3 , епизод 9</title>
+  </programme>
+  <programme start="20250731093000 +0300" stop="20250731095000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 3 , епизод 10</title>
+  </programme>
+  <programme start="20250731095000 +0300" stop="20250731100000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 3 , епизод 13</title>
+  </programme>
+  <programme start="20250731100000 +0300" stop="20250731101500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 3 , епизод 14</title>
   </programme>
   <programme start="20250731101500 +0300" stop="20250731102500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 3 , епизод 7</title>
@@ -34897,23 +34935,56 @@
   <programme start="20250731103500 +0300" stop="20250731105500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 3 , епизод 17</title>
   </programme>
-  <programme start="20250731105500 +0300" stop="20250731111000 +0300" channel="cartoonito.bg">
+  <programme start="20250731105500 +0300" stop="20250731110000 +0300" channel="cartoonito.bg">
     <title lang="bg">Шоуто на Том и Джери , сезон 3 , епизод 11</title>
   </programme>
-  <programme start="20250731111000 +0300" stop="20250731112900 +0300" channel="cartoonito.bg">
+  <programme start="20250731110000 +0300" stop="20250731111000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Шоуто на Том и Джери , сезон 3 , епизод 12</title>
+  </programme>
+  <programme start="20250731111000 +0300" stop="20250731112500 +0300" channel="cartoonito.bg">
     <title lang="bg">Шоуто на Том и Джери , сезон 3 , епизод 11</title>
   </programme>
-  <programme start="20250731112900 +0300" stop="20250731120500 +0300" channel="cartoonito.bg">
+  <programme start="20250731112500 +0300" stop="20250731112900 +0300" channel="cartoonito.bg">
+    <title lang="bg">Лампът , сезон 3 , епизод 38</title>
+  </programme>
+  <programme start="20250731112900 +0300" stop="20250731113500 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 3 , епизод 9</title>
+  </programme>
+  <programme start="20250731113500 +0300" stop="20250731115500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Лампът , сезон 4 , епизод 13</title>
+  </programme>
+  <programme start="20250731115500 +0300" stop="20250731120000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 4 , епизод 12</title>
+  </programme>
+  <programme start="20250731120000 +0300" stop="20250731120500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 4 , епизод 13</title>
   </programme>
   <programme start="20250731120500 +0300" stop="20250731122000 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 4 , епизод 14</title>
   </programme>
-  <programme start="20250731122000 +0300" stop="20250731124000 +0300" channel="cartoonito.bg">
+  <programme start="20250731122000 +0300" stop="20250731122500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 4 , епизод 15</title>
   </programme>
-  <programme start="20250731124000 +0300" stop="20250731135000 +0300" channel="cartoonito.bg">
+  <programme start="20250731122500 +0300" stop="20250731123500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 4 , епизод 16</title>
+  </programme>
+  <programme start="20250731123500 +0300" stop="20250731124000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 4 , епизод 17</title>
+  </programme>
+  <programme start="20250731124000 +0300" stop="20250731125500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 4 , епизод 18</title>
+  </programme>
+  <programme start="20250731125500 +0300" stop="20250731130500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 7</title>
+  </programme>
+  <programme start="20250731130500 +0300" stop="20250731132500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 8</title>
+  </programme>
+  <programme start="20250731132500 +0300" stop="20250731133500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 36</title>
+  </programme>
+  <programme start="20250731133500 +0300" stop="20250731135000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 37</title>
   </programme>
   <programme start="20250731135000 +0300" stop="20250731140000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 4 , епизод 38</title>
@@ -34927,11 +34998,26 @@
   <programme start="20250731143000 +0300" stop="20250731144000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 5 , епизод 1</title>
   </programme>
-  <programme start="20250731144000 +0300" stop="20250731151000 +0300" channel="cartoonito.bg">
+  <programme start="20250731144000 +0300" stop="20250731150000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 5 , епизод 2</title>
   </programme>
-  <programme start="20250731151000 +0300" stop="20250731162900 +0300" channel="cartoonito.bg">
+  <programme start="20250731150000 +0300" stop="20250731151000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Бъгс Бъни Строители , сезон 1 , епизод 28</title>
+  </programme>
+  <programme start="20250731151000 +0300" stop="20250731152000 +0300" channel="cartoonito.bg">
     <title lang="bg">Бъгс Бъни Строители , сезон 1 , епизод 29</title>
+  </programme>
+  <programme start="20250731152000 +0300" stop="20250731153000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Бъгс Бъни Строители: Каските , сезон 1 , епизод 6</title>
+  </programme>
+  <programme start="20250731153000 +0300" stop="20250731154000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Batwheels , сезон 1 , епизод 8</title>
+  </programme>
+  <programme start="20250731154000 +0300" stop="20250731160000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Batwheels , сезон 1 , епизод 9</title>
+  </programme>
+  <programme start="20250731160000 +0300" stop="20250731162900 +0300" channel="cartoonito.bg">
+    <title lang="bg">Спокойно, Скуби-Ду! , сезон 2 , епизод 16</title>
   </programme>
   <programme start="20250731162900 +0300" stop="20250731163300 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 3 , епизод 22</title>
@@ -34942,8 +35028,11 @@
   <programme start="20250731163500 +0300" stop="20250731164500 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 4 , епизод 33</title>
   </programme>
-  <programme start="20250731164500 +0300" stop="20250731171000 +0300" channel="cartoonito.bg">
+  <programme start="20250731164500 +0300" stop="20250731170000 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 4 , епизод 37</title>
+  </programme>
+  <programme start="20250731170000 +0300" stop="20250731171000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 1 , епизод 18</title>
   </programme>
   <programme start="20250731171000 +0300" stop="20250731173000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 2 , епизод 1</title>
@@ -34957,11 +35046,17 @@
   <programme start="20250731175500 +0300" stop="20250731180500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 51</title>
   </programme>
-  <programme start="20250731180500 +0300" stop="20250731182500 +0300" channel="cartoonito.bg">
+  <programme start="20250731180500 +0300" stop="20250731181000 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 52</title>
   </programme>
-  <programme start="20250731182500 +0300" stop="20250731183500 +0300" channel="cartoonito.bg">
+  <programme start="20250731181000 +0300" stop="20250731182500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 53</title>
+  </programme>
+  <programme start="20250731182500 +0300" stop="20250731183000 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 54</title>
+  </programme>
+  <programme start="20250731183000 +0300" stop="20250731183500 +0300" channel="cartoonito.bg">
+    <title lang="bg">Гризи и лемингите , сезон 1 , епизод 55</title>
   </programme>
   <programme start="20250731183500 +0300" stop="20250731184500 +0300" channel="cartoonito.bg">
     <title lang="bg">Гризи и лемингите , сезон 1 , епизод 56</title>
@@ -34969,11 +35064,17 @@
   <programme start="20250731184500 +0300" stop="20250731190000 +0300" channel="cartoonito.bg">
     <title lang="bg">СуперТингс: Съперници на Кабуум - Казуум сила , сезон 1 , епизод 4</title>
   </programme>
-  <programme start="20250731190000 +0300" stop="20250731195000 +0300" channel="cartoonito.bg">
+  <programme start="20250731190000 +0300" stop="20250731193000 +0300" channel="cartoonito.bg">
     <title lang="bg">Спокойно, Скуби-Ду! , сезон 1 , епизод 9</title>
   </programme>
-  <programme start="20250731195000 +0300" stop="20250731201000 +0300" channel="cartoonito.bg">
+  <programme start="20250731193000 +0300" stop="20250731195000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Спокойно, Скуби-Ду! , сезон 1 , епизод 15</title>
+  </programme>
+  <programme start="20250731195000 +0300" stop="20250731200000 +0300" channel="cartoonito.bg">
     <title lang="bg">Лампът , сезон 3 , епизод 11</title>
+  </programme>
+  <programme start="20250731200000 +0300" stop="20250731201000 +0300" channel="cartoonito.bg">
+    <title lang="bg">Мистър Бийн , сезон 4 , епизод 14</title>
   </programme>
   <programme start="20250731201000 +0300" stop="20250731202500 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 2 , епизод 15</title>
@@ -35029,7 +35130,7 @@
   <programme start="20250731233000 +0300" stop="20250731235000 +0300" channel="cartoonito.bg">
     <title lang="bg">Бъгс Бъни Строители , сезон 2 , епизод 3</title>
   </programme>
-  <programme start="20250731235000 +0300" stop="20250801002000 +0300" channel="cartoonito.bg">
+  <programme start="20250731235000 +0300" stop="20250801000000 +0300" channel="cartoonito.bg">
     <title lang="bg">Мистър Бийн , сезон 3 , епизод 8</title>
   </programme>
   <programme start="20250730000000 +0300" stop="20250730003000 +0300" channel="supertoons.bg">
@@ -35500,542 +35601,596 @@
   <programme start="20250731233000 +0300" stop="20250801000000 +0300" channel="supertoons.bg">
     <title lang="bg">Мегамен: Презареждане , сезон 1 , епизод 6</title>
   </programme>
-  <programme start="20250730050000 +0300" stop="20250730051500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
-  </programme>
-  <programme start="20250730051500 +0300" stop="20250730052500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
-  </programme>
-  <programme start="20250730052500 +0300" stop="20250730054500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
-  </programme>
-  <programme start="20250730054500 +0300" stop="20250730055500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
-  </programme>
-  <programme start="20250730055500 +0300" stop="20250730061000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730060000 +0300" stop="20250730061000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 14</title>
   </programme>
   <programme start="20250730061000 +0300" stop="20250730062500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 15</title>
   </programme>
   <programme start="20250730062500 +0300" stop="20250730063500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 18</title>
   </programme>
-  <programme start="20250730063500 +0300" stop="20250730064500 +0300" channel="cartoonnetwork.tv">
-    <title>Зверчето: Вълк единак</title>
+  <programme start="20250730063500 +0300" stop="20250730065500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 20</title>
   </programme>
-  <programme start="20250730064500 +0300" stop="20250730070000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730065500 +0300" stop="20250730070500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 21</title>
   </programme>
-  <programme start="20250730070000 +0300" stop="20250730071000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730070500 +0300" stop="20250730072500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 19</title>
   </programme>
-  <programme start="20250730071000 +0300" stop="20250730072500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730072500 +0300" stop="20250730073000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Шантави рисунки - мисунки , сезон 1 , епизод 17</title>
   </programme>
-  <programme start="20250730072500 +0300" stop="20250730073500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730073000 +0300" stop="20250730075000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Шантави рисунки - мисунки , сезон 1 , епизод 17</title>
   </programme>
-  <programme start="20250730073500 +0300" stop="20250730075500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730075000 +0300" stop="20250730080000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Шантави рисунки - мисунки , сезон 1 , епизод 18</title>
   </programme>
-  <programme start="20250730075500 +0300" stop="20250730080500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730080000 +0300" stop="20250730081500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Шантави рисунки - мисунки , сезон 1 , епизод 19</title>
   </programme>
-  <programme start="20250730080500 +0300" stop="20250730082500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730081500 +0300" stop="20250730082500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 31</title>
   </programme>
-  <programme start="20250730082500 +0300" stop="20250730083000 +0300" channel="cartoonnetwork.tv">
-    <title>Шантави рисунки - мисунки</title>
+  <programme start="20250730082500 +0300" stop="20250730084000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 28</title>
   </programme>
-  <programme start="20250730083000 +0300" stop="20250730085000 +0300" channel="cartoonnetwork.tv">
-    <title>Шантави рисунки - мисунки</title>
+  <programme start="20250730084000 +0300" stop="20250730085000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 32</title>
   </programme>
-  <programme start="20250730085000 +0300" stop="20250730085500 +0300" channel="cartoonnetwork.tv">
-    <title>Шантави рисунки - мисунки</title>
+  <programme start="20250730085000 +0300" stop="20250730091000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 33</title>
   </programme>
-  <programme start="20250730085500 +0300" stop="20250730091500 +0300" channel="cartoonnetwork.tv">
-    <title>Шантави рисунки - мисунки</title>
+  <programme start="20250730091000 +0300" stop="20250730091500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 28</title>
   </programme>
   <programme start="20250730091500 +0300" stop="20250730092500 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 30</title>
   </programme>
   <programme start="20250730092500 +0300" stop="20250730094000 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 31</title>
   </programme>
   <programme start="20250730094000 +0300" stop="20250730095000 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 32</title>
   </programme>
   <programme start="20250730095000 +0300" stop="20250730101000 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 33</title>
   </programme>
-  <programme start="20250730101000 +0300" stop="20250730101500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730101000 +0300" stop="20250730102000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 5</title>
   </programme>
-  <programme start="20250730101500 +0300" stop="20250730102500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730102000 +0300" stop="20250730103500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 6</title>
   </programme>
-  <programme start="20250730102500 +0300" stop="20250730104000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730103500 +0300" stop="20250730104500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 20</title>
   </programme>
-  <programme start="20250730104000 +0300" stop="20250730105000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730104500 +0300" stop="20250730110500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 21</title>
   </programme>
-  <programme start="20250730105000 +0300" stop="20250730111000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730110500 +0300" stop="20250730111500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 33</title>
   </programme>
-  <programme start="20250730111000 +0300" stop="20250730112000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730111500 +0300" stop="20250730113000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 6</title>
   </programme>
-  <programme start="20250730112000 +0300" stop="20250730113500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730113000 +0300" stop="20250730114000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 11</title>
   </programme>
-  <programme start="20250730113500 +0300" stop="20250730114500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730114000 +0300" stop="20250730115000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 15</title>
   </programme>
-  <programme start="20250730114500 +0300" stop="20250730120500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730115000 +0300" stop="20250730121000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 14</title>
   </programme>
-  <programme start="20250730120500 +0300" stop="20250730121500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730121000 +0300" stop="20250730122000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Джелистоун! , сезон 3 , епизод 33</title>
   </programme>
-  <programme start="20250730121500 +0300" stop="20250730123000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730122000 +0300" stop="20250730123500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Джелистоун! , сезон 3 , епизод 34</title>
   </programme>
-  <programme start="20250730123000 +0300" stop="20250730124000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730123500 +0300" stop="20250730125000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 3 , епизод 5</title>
   </programme>
-  <programme start="20250730124000 +0300" stop="20250730125000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730125000 +0300" stop="20250730130500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 3 , епизод 6</title>
   </programme>
-  <programme start="20250730125000 +0300" stop="20250730131000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730130500 +0300" stop="20250730131500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 13</title>
   </programme>
-  <programme start="20250730131000 +0300" stop="20250730132000 +0300" channel="cartoonnetwork.tv">
-    <title>Джелистоун!</title>
+  <programme start="20250730131500 +0300" stop="20250730132500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 11</title>
   </programme>
-  <programme start="20250730132000 +0300" stop="20250730133500 +0300" channel="cartoonnetwork.tv">
-    <title>Джелистоун!</title>
+  <programme start="20250730132500 +0300" stop="20250730134000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 14</title>
   </programme>
-  <programme start="20250730133500 +0300" stop="20250730134500 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250730134000 +0300" stop="20250730135000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 15</title>
   </programme>
-  <programme start="20250730134500 +0300" stop="20250730140500 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250730135000 +0300" stop="20250730140500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 10</title>
   </programme>
   <programme start="20250730140500 +0300" stop="20250730141500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 14</title>
   </programme>
   <programme start="20250730141500 +0300" stop="20250730142500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 15</title>
   </programme>
   <programme start="20250730142500 +0300" stop="20250730144000 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 16</title>
   </programme>
   <programme start="20250730144000 +0300" stop="20250730145000 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 17</title>
   </programme>
-  <programme start="20250730145000 +0300" stop="20250730150500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250730145000 +0300" stop="20250730150000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 18</title>
   </programme>
-  <programme start="20250730150500 +0300" stop="20250730151500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730150000 +0300" stop="20250730151500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 19</title>
   </programme>
   <programme start="20250730151500 +0300" stop="20250730152500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 21</title>
   </programme>
-  <programme start="20250730152500 +0300" stop="20250730154000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730152500 +0300" stop="20250730154500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 22</title>
   </programme>
-  <programme start="20250730154000 +0300" stop="20250730155000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730154500 +0300" stop="20250730155500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 24</title>
   </programme>
-  <programme start="20250730155000 +0300" stop="20250730160000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730155500 +0300" stop="20250730161000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 25</title>
   </programme>
-  <programme start="20250730160000 +0300" stop="20250730161500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730161000 +0300" stop="20250730162000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 26</title>
   </programme>
-  <programme start="20250730161500 +0300" stop="20250730162500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730162000 +0300" stop="20250730164000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 27</title>
   </programme>
-  <programme start="20250730162500 +0300" stop="20250730164500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730164000 +0300" stop="20250730165000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 13</title>
   </programme>
-  <programme start="20250730164500 +0300" stop="20250730165500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730165000 +0300" stop="20250730170500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 17</title>
   </programme>
-  <programme start="20250730165500 +0300" stop="20250730171000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730170500 +0300" stop="20250730171500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 24</title>
   </programme>
-  <programme start="20250730171000 +0300" stop="20250730172000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730171500 +0300" stop="20250730172800 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 25</title>
   </programme>
-  <programme start="20250730172000 +0300" stop="20250730174000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730172800 +0300" stop="20250730173000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Зверчето: Вълк единак , сезон 1 , епизод 3</title>
   </programme>
-  <programme start="20250730174000 +0300" stop="20250730175000 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250730173000 +0300" stop="20250730174000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 2 , епизод 37</title>
   </programme>
-  <programme start="20250730175000 +0300" stop="20250730180500 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250730174000 +0300" stop="20250730175500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 2 , епизод 38</title>
   </programme>
-  <programme start="20250730180500 +0300" stop="20250730181500 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250730175500 +0300" stop="20250730180500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 2 , епизод 39</title>
   </programme>
-  <programme start="20250730181500 +0300" stop="20250730182500 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250730180500 +0300" stop="20250730182500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 2 , епизод 40</title>
   </programme>
-  <programme start="20250730182500 +0300" stop="20250730183000 +0300" channel="cartoonnetwork.tv">
-    <title>Зверчето: Вълк единак</title>
+  <programme start="20250730182500 +0300" stop="20250730183500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 2 , епизод 16</title>
   </programme>
-  <programme start="20250730183000 +0300" stop="20250730184000 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250730183500 +0300" stop="20250730185000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 2 , епизод 17</title>
   </programme>
-  <programme start="20250730184000 +0300" stop="20250730185500 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250730185000 +0300" stop="20250730190000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 2 , епизод 10</title>
   </programme>
-  <programme start="20250730185500 +0300" stop="20250730190500 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250730190000 +0300" stop="20250730191500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 2 , епизод 18</title>
   </programme>
-  <programme start="20250730190500 +0300" stop="20250730192000 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250730191500 +0300" stop="20250730192500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 33</title>
   </programme>
-  <programme start="20250730192000 +0300" stop="20250730193000 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250730192500 +0300" stop="20250730193500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 39</title>
   </programme>
-  <programme start="20250730193000 +0300" stop="20250730194500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250730193500 +0300" stop="20250730195500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 34</title>
   </programme>
-  <programme start="20250730194500 +0300" stop="20250730195500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250730195500 +0300" stop="20250730200500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 38</title>
   </programme>
-  <programme start="20250730195500 +0300" stop="20250730201500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250730200500 +0300" stop="20250730202000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 31</title>
   </programme>
-  <programme start="20250730201500 +0300" stop="20250730202500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730202000 +0300" stop="20250730203000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 2</title>
   </programme>
-  <programme start="20250730202500 +0300" stop="20250730203500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730203000 +0300" stop="20250730204000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 1</title>
   </programme>
-  <programme start="20250730203500 +0300" stop="20250730205000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730204000 +0300" stop="20250730205500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 3</title>
   </programme>
-  <programme start="20250730205000 +0300" stop="20250730210000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730205500 +0300" stop="20250730210500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 4</title>
   </programme>
-  <programme start="20250730210000 +0300" stop="20250730212000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730210500 +0300" stop="20250730211500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 5</title>
   </programme>
-  <programme start="20250730212000 +0300" stop="20250730213000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730211500 +0300" stop="20250730213000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 6</title>
   </programme>
   <programme start="20250730213000 +0300" stop="20250730214000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+    <title lang="bg">Време за приключения , сезон 5 , епизод 33</title>
   </programme>
-  <programme start="20250730214000 +0300" stop="20250730215500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730214000 +0300" stop="20250730220000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Време за приключения , сезон 5 , епизод 32</title>
   </programme>
-  <programme start="20250730215500 +0300" stop="20250730220500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730220000 +0300" stop="20250730221000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Време за приключения , сезон 5 , епизод 34</title>
   </programme>
-  <programme start="20250730220500 +0300" stop="20250730221500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730221000 +0300" stop="20250730222000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Време за приключения , сезон 5 , епизод 35</title>
   </programme>
-  <programme start="20250730221500 +0300" stop="20250730223000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250730222000 +0300" stop="20250730222500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Зверчето: Вълк единак , сезон 1 , епизод 7</title>
   </programme>
-  <programme start="20250730223000 +0300" stop="20250730224000 +0300" channel="cartoonnetwork.tv">
-    <title>Време за приключения</title>
+  <programme start="20250730222500 +0300" stop="20250730224000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 30</title>
   </programme>
   <programme start="20250730224000 +0300" stop="20250730225500 +0300" channel="cartoonnetwork.tv">
-    <title>Време за приключения</title>
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 29</title>
   </programme>
-  <programme start="20250730225500 +0300" stop="20250730231000 +0300" channel="cartoonnetwork.tv">
-    <title>Време за приключения</title>
+  <programme start="20250730225500 +0300" stop="20250730230500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 33</title>
   </programme>
-  <programme start="20250730231000 +0300" stop="20250730232000 +0300" channel="cartoonnetwork.tv">
-    <title>Време за приключения</title>
+  <programme start="20250730230500 +0300" stop="20250730232000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 34</title>
   </programme>
-  <programme start="20250730232000 +0300" stop="20250730232500 +0300" channel="cartoonnetwork.tv">
-    <title>Зверчето: Вълк единак</title>
+  <programme start="20250730232000 +0300" stop="20250730233000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 35</title>
   </programme>
-  <programme start="20250730232500 +0300" stop="20250730233500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730233000 +0300" stop="20250730235000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 36</title>
   </programme>
-  <programme start="20250730233500 +0300" stop="20250730235000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250730235000 +0300" stop="20250731000000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 37</title>
   </programme>
-  <programme start="20250730235000 +0300" stop="20250731050000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731000000 +0300" stop="20250731001000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 40</title>
   </programme>
-  <programme start="20250731050000 +0300" stop="20250731052000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731001000 +0300" stop="20250731002500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 38</title>
   </programme>
-  <programme start="20250731052000 +0300" stop="20250731053000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731002500 +0300" stop="20250731003500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 26</title>
   </programme>
-  <programme start="20250731053000 +0300" stop="20250731054500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731003500 +0300" stop="20250731005000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 11</title>
   </programme>
-  <programme start="20250731054500 +0300" stop="20250731055500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731005000 +0300" stop="20250731010500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 27</title>
   </programme>
-  <programme start="20250731055500 +0300" stop="20250731061000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731010500 +0300" stop="20250731012000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 1</title>
   </programme>
-  <programme start="20250731061000 +0300" stop="20250731063000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731012000 +0300" stop="20250731013000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 2</title>
   </programme>
-  <programme start="20250731063000 +0300" stop="20250731063500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731013000 +0300" stop="20250731014500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 3</title>
   </programme>
-  <programme start="20250731063500 +0300" stop="20250731064500 +0300" channel="cartoonnetwork.tv">
-    <title>Зверчето: Вълк единак</title>
+  <programme start="20250731014500 +0300" stop="20250731015500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 33</title>
   </programme>
-  <programme start="20250731064500 +0300" stop="20250731070000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731015500 +0300" stop="20250731020500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 34</title>
   </programme>
-  <programme start="20250731070000 +0300" stop="20250731071000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731020500 +0300" stop="20250731022500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 35</title>
   </programme>
-  <programme start="20250731071000 +0300" stop="20250731072500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731022500 +0300" stop="20250731023500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 36</title>
   </programme>
-  <programme start="20250731072500 +0300" stop="20250731073500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731023500 +0300" stop="20250731025000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 37</title>
   </programme>
-  <programme start="20250731073500 +0300" stop="20250731075500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731025000 +0300" stop="20250731030000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 40</title>
   </programme>
-  <programme start="20250731075500 +0300" stop="20250731080500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731030000 +0300" stop="20250731031500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 38</title>
   </programme>
-  <programme start="20250731080500 +0300" stop="20250731082000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731031500 +0300" stop="20250731032500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 39</title>
   </programme>
-  <programme start="20250731082000 +0300" stop="20250731083000 +0300" channel="cartoonnetwork.tv">
-    <title>Шантави рисунки - мисунки</title>
+  <programme start="20250731032500 +0300" stop="20250731034500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 1</title>
   </programme>
-  <programme start="20250731083000 +0300" stop="20250731085000 +0300" channel="cartoonnetwork.tv">
-    <title>Шантави рисунки - мисунки</title>
+  <programme start="20250731034500 +0300" stop="20250731035500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 6</title>
   </programme>
-  <programme start="20250731085000 +0300" stop="20250731085500 +0300" channel="cartoonnetwork.tv">
-    <title>Шантави рисунки - мисунки</title>
+  <programme start="20250731035500 +0300" stop="20250731040500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 7</title>
   </programme>
-  <programme start="20250731085500 +0300" stop="20250731091500 +0300" channel="cartoonnetwork.tv">
-    <title>Шантави рисунки - мисунки</title>
+  <programme start="20250731040500 +0300" stop="20250731042000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 9</title>
   </programme>
-  <programme start="20250731091500 +0300" stop="20250731092500 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250731042000 +0300" stop="20250731043000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 13</title>
   </programme>
-  <programme start="20250731092500 +0300" stop="20250731094000 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250731043000 +0300" stop="20250731045000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 11</title>
   </programme>
-  <programme start="20250731094000 +0300" stop="20250731095000 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250731045000 +0300" stop="20250731050000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 12</title>
   </programme>
-  <programme start="20250731095000 +0300" stop="20250731101000 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250731050000 +0300" stop="20250731051000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 10</title>
+  </programme>
+  <programme start="20250731051000 +0300" stop="20250731052500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 14</title>
+  </programme>
+  <programme start="20250731052500 +0300" stop="20250731054000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 15</title>
+  </programme>
+  <programme start="20250731054000 +0300" stop="20250731054500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Зверчето: Вълк единак , сезон 1 , епизод 7</title>
+  </programme>
+  <programme start="20250731054500 +0300" stop="20250731060000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 26</title>
+  </programme>
+  <programme start="20250731060000 +0300" stop="20250731061000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 23</title>
+  </programme>
+  <programme start="20250731061000 +0300" stop="20250731062500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 24</title>
+  </programme>
+  <programme start="20250731062500 +0300" stop="20250731063500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 22</title>
+  </programme>
+  <programme start="20250731063500 +0300" stop="20250731065500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 25</title>
+  </programme>
+  <programme start="20250731065500 +0300" stop="20250731070500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 26</title>
+  </programme>
+  <programme start="20250731070500 +0300" stop="20250731072000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 11</title>
+  </programme>
+  <programme start="20250731072000 +0300" stop="20250731073500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Шантави рисунки - мисунки , сезон 1 , епизод 21</title>
+  </programme>
+  <programme start="20250731073500 +0300" stop="20250731075000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Шантави рисунки - мисунки , сезон 1 , епизод 22</title>
+  </programme>
+  <programme start="20250731075000 +0300" stop="20250731080000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Шантави рисунки - мисунки , сезон 1 , епизод 23</title>
+  </programme>
+  <programme start="20250731080000 +0300" stop="20250731081500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Шантави рисунки - мисунки , сезон 1 , епизод 24</title>
+  </programme>
+  <programme start="20250731081500 +0300" stop="20250731082500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 27</title>
+  </programme>
+  <programme start="20250731082500 +0300" stop="20250731084000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 34</title>
+  </programme>
+  <programme start="20250731084000 +0300" stop="20250731085000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 35</title>
+  </programme>
+  <programme start="20250731085000 +0300" stop="20250731091000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 36</title>
+  </programme>
+  <programme start="20250731091000 +0300" stop="20250731092000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 34</title>
+  </programme>
+  <programme start="20250731092000 +0300" stop="20250731093000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 36</title>
+  </programme>
+  <programme start="20250731093000 +0300" stop="20250731094500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 37</title>
+  </programme>
+  <programme start="20250731094500 +0300" stop="20250731095500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 38</title>
+  </programme>
+  <programme start="20250731095500 +0300" stop="20250731101000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 39</title>
   </programme>
   <programme start="20250731101000 +0300" stop="20250731102000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 12</title>
   </programme>
-  <programme start="20250731102000 +0300" stop="20250731103000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731102000 +0300" stop="20250731103500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 21</title>
   </programme>
-  <programme start="20250731103000 +0300" stop="20250731104500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731103500 +0300" stop="20250731105000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 24</title>
   </programme>
-  <programme start="20250731104500 +0300" stop="20250731105500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731105000 +0300" stop="20250731110500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 37</title>
   </programme>
-  <programme start="20250731105500 +0300" stop="20250731111000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731110500 +0300" stop="20250731111500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 33</title>
   </programme>
-  <programme start="20250731111000 +0300" stop="20250731112000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731111500 +0300" stop="20250731113000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 34</title>
   </programme>
-  <programme start="20250731112000 +0300" stop="20250731113500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731113000 +0300" stop="20250731114000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 38</title>
   </programme>
-  <programme start="20250731113500 +0300" stop="20250731114500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731114000 +0300" stop="20250731115000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 1</title>
   </programme>
-  <programme start="20250731114500 +0300" stop="20250731120000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731115000 +0300" stop="20250731121000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 6</title>
   </programme>
-  <programme start="20250731120000 +0300" stop="20250731121500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731121000 +0300" stop="20250731122000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Джелистоун! , сезон 3 , епизод 35</title>
   </programme>
-  <programme start="20250731121500 +0300" stop="20250731123000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731122000 +0300" stop="20250731123500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Джелистоун! , сезон 3 , епизод 36</title>
   </programme>
-  <programme start="20250731123000 +0300" stop="20250731124000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731123500 +0300" stop="20250731124500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 3 , епизод 7</title>
   </programme>
-  <programme start="20250731124000 +0300" stop="20250731125000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731124500 +0300" stop="20250731130500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 3 , епизод 8</title>
   </programme>
-  <programme start="20250731125000 +0300" stop="20250731131000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731130500 +0300" stop="20250731131500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 16</title>
   </programme>
-  <programme start="20250731131000 +0300" stop="20250731132000 +0300" channel="cartoonnetwork.tv">
-    <title>Джелистоун!</title>
+  <programme start="20250731131500 +0300" stop="20250731132000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 21</title>
   </programme>
-  <programme start="20250731132000 +0300" stop="20250731133500 +0300" channel="cartoonnetwork.tv">
-    <title>Джелистоун!</title>
+  <programme start="20250731132000 +0300" stop="20250731134000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 31</title>
   </programme>
-  <programme start="20250731133500 +0300" stop="20250731134500 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250731134000 +0300" stop="20250731140500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 6 , епизод 14</title>
   </programme>
-  <programme start="20250731134500 +0300" stop="20250731140500 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250731140500 +0300" stop="20250731141500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 20</title>
   </programme>
-  <programme start="20250731140500 +0300" stop="20250731141000 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250731141500 +0300" stop="20250731142500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 21</title>
   </programme>
-  <programme start="20250731141000 +0300" stop="20250731142000 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250731142500 +0300" stop="20250731144000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 22</title>
   </programme>
-  <programme start="20250731142000 +0300" stop="20250731143500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250731144000 +0300" stop="20250731145000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 23</title>
   </programme>
-  <programme start="20250731143500 +0300" stop="20250731150500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250731145000 +0300" stop="20250731150000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 24</title>
   </programme>
-  <programme start="20250731150500 +0300" stop="20250731151500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731150000 +0300" stop="20250731151500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 3 , епизод 25</title>
   </programme>
   <programme start="20250731151500 +0300" stop="20250731152500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 28</title>
   </programme>
-  <programme start="20250731152500 +0300" stop="20250731154000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731152500 +0300" stop="20250731154500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 31</title>
   </programme>
-  <programme start="20250731154000 +0300" stop="20250731155000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731154500 +0300" stop="20250731155500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 32</title>
   </programme>
-  <programme start="20250731155000 +0300" stop="20250731160000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731155500 +0300" stop="20250731161000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 30</title>
   </programme>
-  <programme start="20250731160000 +0300" stop="20250731161500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731161000 +0300" stop="20250731162000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 29</title>
   </programme>
-  <programme start="20250731161500 +0300" stop="20250731162500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731162000 +0300" stop="20250731164000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 33</title>
   </programme>
-  <programme start="20250731162500 +0300" stop="20250731164000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731164000 +0300" stop="20250731165000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 29</title>
   </programme>
-  <programme start="20250731164000 +0300" stop="20250731165500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731165000 +0300" stop="20250731170500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 30</title>
   </programme>
-  <programme start="20250731165500 +0300" stop="20250731171000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731170500 +0300" stop="20250731171500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 31</title>
   </programme>
-  <programme start="20250731171000 +0300" stop="20250731172000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731171500 +0300" stop="20250731172600 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Кларънс , сезон 3 , епизод 28</title>
   </programme>
-  <programme start="20250731172000 +0300" stop="20250731174000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731172600 +0300" stop="20250731173000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Зверчето: Вълк единак , сезон 1 , епизод 4</title>
   </programme>
-  <programme start="20250731174000 +0300" stop="20250731175000 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250731173000 +0300" stop="20250731174000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 2 , епизод 31</title>
   </programme>
-  <programme start="20250731175000 +0300" stop="20250731180500 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250731174000 +0300" stop="20250731175500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 3 , епизод 3</title>
   </programme>
-  <programme start="20250731180500 +0300" stop="20250731181500 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250731175500 +0300" stop="20250731180500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 3 , епизод 4</title>
   </programme>
-  <programme start="20250731181500 +0300" stop="20250731182500 +0300" channel="cartoonnetwork.tv">
-    <title>Кларънс</title>
+  <programme start="20250731180500 +0300" stop="20250731182500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Крейг край реката , сезон 3 , епизод 5</title>
   </programme>
-  <programme start="20250731182500 +0300" stop="20250731183000 +0300" channel="cartoonnetwork.tv">
-    <title>Зверчето: Вълк единак</title>
-  </programme>
-  <programme start="20250731183000 +0300" stop="20250731183500 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250731182500 +0300" stop="20250731183500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 2 , епизод 23</title>
   </programme>
   <programme start="20250731183500 +0300" stop="20250731185000 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+    <title lang="bg">Малки Титани: В готовност! , сезон 2 , епизод 20</title>
   </programme>
   <programme start="20250731185000 +0300" stop="20250731190000 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+    <title lang="bg">Малки Титани: В готовност! , сезон 2 , епизод 21</title>
   </programme>
-  <programme start="20250731190000 +0300" stop="20250731192000 +0300" channel="cartoonnetwork.tv">
-    <title>Крейг край реката</title>
+  <programme start="20250731190000 +0300" stop="20250731191500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Малки Титани: В готовност! , сезон 2 , епизод 22</title>
   </programme>
-  <programme start="20250731192000 +0300" stop="20250731193000 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250731191500 +0300" stop="20250731192500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 5 , епизод 36</title>
   </programme>
-  <programme start="20250731193000 +0300" stop="20250731194500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250731192500 +0300" stop="20250731193500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 3</title>
   </programme>
-  <programme start="20250731194500 +0300" stop="20250731195500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250731193500 +0300" stop="20250731195500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 8</title>
   </programme>
-  <programme start="20250731195500 +0300" stop="20250731201500 +0300" channel="cartoonnetwork.tv">
-    <title>Малки Титани: В готовност!</title>
+  <programme start="20250731195500 +0300" stop="20250731200500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 1</title>
   </programme>
-  <programme start="20250731201500 +0300" stop="20250731202500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731200500 +0300" stop="20250731202000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 6 , епизод 5</title>
   </programme>
-  <programme start="20250731202500 +0300" stop="20250731203500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731202000 +0300" stop="20250731203000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 7</title>
   </programme>
-  <programme start="20250731203500 +0300" stop="20250731205000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731203000 +0300" stop="20250731204000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 8</title>
   </programme>
-  <programme start="20250731205000 +0300" stop="20250731210000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731204000 +0300" stop="20250731205500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 9</title>
   </programme>
-  <programme start="20250731210000 +0300" stop="20250731212000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731205500 +0300" stop="20250731210500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 10</title>
   </programme>
-  <programme start="20250731212000 +0300" stop="20250731213000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731210500 +0300" stop="20250731211500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 11</title>
+  </programme>
+  <programme start="20250731211500 +0300" stop="20250731213000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Пълна Драмарама , сезон 2 , епизод 51</title>
   </programme>
   <programme start="20250731213000 +0300" stop="20250731214000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+    <title lang="bg">Време за приключения , сезон 5 , епизод 37</title>
   </programme>
-  <programme start="20250731214000 +0300" stop="20250731215500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731214000 +0300" stop="20250731220000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Време за приключения , сезон 5 , епизод 36</title>
   </programme>
-  <programme start="20250731215500 +0300" stop="20250731220500 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731220000 +0300" stop="20250731221000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Време за приключения , сезон 5 , епизод 38</title>
   </programme>
-  <programme start="20250731220500 +0300" stop="20250731221000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731221000 +0300" stop="20250731222000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Време за приключения , сезон 5 , епизод 39</title>
   </programme>
-  <programme start="20250731221000 +0300" stop="20250731223000 +0300" channel="cartoonnetwork.tv">
-    <title>Пълна Драмарама</title>
+  <programme start="20250731222000 +0300" stop="20250731223000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Зверчето: Вълк единак , сезон 1 , епизод 8</title>
   </programme>
   <programme start="20250731223000 +0300" stop="20250731224000 +0300" channel="cartoonnetwork.tv">
-    <title>Време за приключения</title>
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 3 , епизод 39</title>
   </programme>
   <programme start="20250731224000 +0300" stop="20250731225500 +0300" channel="cartoonnetwork.tv">
-    <title>Време за приключения</title>
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 1</title>
   </programme>
-  <programme start="20250731225500 +0300" stop="20250731231000 +0300" channel="cartoonnetwork.tv">
-    <title>Време за приключения</title>
+  <programme start="20250731225500 +0300" stop="20250731230500 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 2</title>
   </programme>
-  <programme start="20250731231000 +0300" stop="20250731232000 +0300" channel="cartoonnetwork.tv">
-    <title>Време за приключения</title>
+  <programme start="20250731230500 +0300" stop="20250731232000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 3</title>
   </programme>
-  <programme start="20250731232000 +0300" stop="20250731232500 +0300" channel="cartoonnetwork.tv">
-    <title>Зверчето: Вълк единак</title>
+  <programme start="20250731232000 +0300" stop="20250731233000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 4</title>
   </programme>
-  <programme start="20250731232500 +0300" stop="20250731233500 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731233000 +0300" stop="20250731235000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 5</title>
   </programme>
-  <programme start="20250731233500 +0300" stop="20250731235000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
-  </programme>
-  <programme start="20250731235000 +0300" stop="20250801050000 +0300" channel="cartoonnetwork.tv">
-    <title>Невероятният свят на Гъмбол</title>
+  <programme start="20250731235000 +0300" stop="20250801000000 +0300" channel="cartoonnetwork.tv">
+    <title lang="bg">Невероятният свят на Гъмбол , сезон 4 , епизод 9</title>
   </programme>
   <programme start="20250730003100 +0300" stop="20250730003800 +0300" channel="disneychannel.bg">
     <title>Тафи - Бентли на мисия до Марс</title>

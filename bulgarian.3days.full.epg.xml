@@ -82,7 +82,7 @@
     <display-name>Code Fashion</display-name>
     <display-name>Code Fashion HD</display-name>
     <display-name>Code Fashion TV</display-name>
-    <display-name>Code Fashion TV HD</display-name>
+    <display-name lang="en">Code Fashion TV HD</display-name>
   </channel>
   <channel id="skat.bg">
     <display-name lang="bg">Скат</display-name>
@@ -116,8 +116,6 @@
   </channel>
   <channel id="rmtv.bg">
     <display-name>RM TV</display-name>
-    <display-name>Rimeks TV</display-name>
-    <display-name>Rimeks</display-name>
     <display-name>RM TV HD</display-name>
   </channel>
   <channel id="bgdnes.tv">
