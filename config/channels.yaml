@@ -200,6 +200,7 @@
     lang: bg
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
+  - extvs.plugin
   - start.bg
   - tv.dir.bg
   - dnes.bg
@@ -211,8 +212,8 @@
   - name: Code Health TV
   - name: Code Health HD
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
-  sources:
-  - codehealth.bg
+  sources:  
+  - extvs.plugin
   - tv.dir.bg
     
 - id: codefashion.bg
@@ -223,11 +224,10 @@
   - name: Code Fashion HD
   - name: Code Fashion TV
   - name: Code Fashion TV HD
-    lang: en
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
+  - extvs.plugin
   - tv.dir.bg
-  - codefashion.bg
     
 - id: skat.bg
   enabled: true
@@ -240,8 +240,8 @@
     lang: en
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
-  - start.bg
   - dnes.bg
+  - start.bg
   - tv.dir.bg
   
 - id: bulgaria24.bg
@@ -253,6 +253,7 @@
   - name: Bulgaria 24
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - bulgaria24.bg
   - start.bg
   - dnes.bg
   - tv.dir.bg
@@ -281,6 +282,7 @@
   - name: Agro TV
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:
+  - extvs.plugin
   - start.bg
   - dnevnik.bg
   
@@ -372,9 +374,12 @@
   enabled: true
   names:
   - name: RM TV
+  - name: Rimeks TV
+  - name: Rimeks
   - name: RM TV HD
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
+  - rmtv.bg
   - start.bg
 
 - id: bgdnes.tv
@@ -587,10 +592,10 @@
     lang: en
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
-  - tv.dir.bg
   - tv-programa.bg
   - tvprofil.com
   - start.bg
+  - tv.dir.bg
   
 - id: filmboxstars.com
   enabled: true
@@ -1533,40 +1538,11 @@
   sources:
   - tvtoday.de
   
-- id: sportklub1.rs
-  enabled: true
-  names:
-  - name: "SR: Sport Klub 1"
-  - name: "Sport Klub 1 SR"
-    lang: sr
-  groups: ["sport", "tivi.bg"]
-  sources:
-  - united.cloud
-  
-- id: sportklub2.rs
-  enabled: true
-  names:
-  - name: "SR: Sport Klub 2"
-  - name: "Sport Klub 2 SR"
-    lang: sr
-  groups: ["sport", "tivi.bg"]
-  sources:
-  - united.cloud
-  
-- id: sportklub3.rs
-  enabled: true
-  names:
-  - name: "SR: Sport Klub 3"
-  - name: "Sport Klub 3 SR"
-    lang: sr
-  groups: ["sport", "tivi.bg"]
-  sources:
-  - united.cloud
-  
 - id: sportklub1.hr
   enabled: true
   names:
   - name: "HR: Sport Klub 1"
+  - name: "SR: Sport Klub 1"
   - name: "Sport Klub 1 HR"
     lang: hr
   groups: ["sport", "tivi.bg"]
@@ -1577,6 +1553,7 @@
   enabled: true
   names:
   - name: "HR: Sport Klub 2"
+  - name: "SR: Sport Klub 2"
   - name: "Sport Klub 2 HR"
     lang: hr
   groups: ["sport", "tivi.bg"]
@@ -1587,6 +1564,7 @@
   enabled: true
   names:
   - name: "HR: Sport Klub 3"
+  - name: "SR: Sport Klub 3"
   - name: "Sport Klub 3 HR"
     lang: hr
   groups: ["sport", "tivi.bg"]
@@ -1788,6 +1766,7 @@
     lang: en
   groups: ["tivi.bg", "vivacom"]
   sources:
+  - stringray.com
   - tvsporedi.si
   - programtv.onet.pl
   - start.bg
@@ -2074,7 +2053,6 @@
   groups: ["tivi.bg", "vivacom", "a1"]
   sources:
   - dnevnik.bg
-  - start.bg
   - tvsporedi.si
   - tv-programa.bg
   - programtv.onet.pl
@@ -2090,9 +2068,8 @@
     lang: en
   groups: ["tivi.bg", "a1"]
   sources:
-  - dnevnik.bg
-  - start.bg
   - tvsporedi.si
+  - dnevnik.bg
   - programtv.onet.pl
 
 - id: deutschesmusik.de
@@ -3554,9 +3531,9 @@
   groups: ["kids", "tivi.bg", "vivacom", "a1"]
   sources:
   - tv.dir.bg
+  - tv-programa.bg
   - dnevnik.bg
   - start.bg
-  - tv-programa.bg
   
 - id: disneychannel.bg
   enabled: true

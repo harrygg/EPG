@@ -19,8 +19,8 @@
             document.getElementById("totalDuration").innerText = totalDuration;
 
             var channelsTableElement = document.getElementById("channels");
-            var programsWithEpg = 0;
-            var programsWithoutEpg = 0;
+            var channelsWithEpg = 0;
+            var channelsWithoutEpg = 0;
             var n = 0;
 
             channels.forEach(channel => {
@@ -65,14 +65,14 @@
                 }
                 totalProgramsTd.innerText = totalPrograms;
                 if (totalPrograms > 0) {
-                    programsWithEpg++;
+                    channelsWithEpg++;
                 } else {
-                    programsWithoutEpg++;
+                    channelsWithoutEpg++;
                     channelNameTd.style.color = "red";
                     totalProgramsTd.style.color = "red";
                 }
-                document.getElementById("programsWithEpg").innerText = programsWithEpg;
-                document.getElementById("programsWithoutEpg").innerText = programsWithoutEpg;
+                document.getElementById("channelsWithEpg").innerText = channelsWithEpg;
+                document.getElementById("channelsWithoutEpg").innerText = channelsWithoutEpg;
                 channelsTableElement.appendChild(tableRowElement);
             });
             // console.log(channels);
@@ -132,8 +132,8 @@
     <h3>Grabbing started at: <span id="startTime"></span></h3>
     <h3>Grabbing ended at: <span id="endTime"></span></h3>
     <h3>Grabbing duration: <span id="totalDuration"></span></h3>
-    <h3>Programs with EPG: <span id="programsWithEpg"></span></h3>
-    <h3>Programs without EPG: <span id="programsWithoutEpg"></span></h3>
+    <h3>Channels with EPG: <span id="channelsWithEpg"></span></h3>
+    <h3>CHannels without EPG: <span id="channelsWithoutEpg"></span></h3>
 
     <table id="channels" cellspacing="0" cellpadding="5" style="padding: 5px">
         <tr>
