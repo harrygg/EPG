@@ -1,4 +1,4 @@
-﻿---
+---
 # A list of channels to maintain EPG for. Standard YAML syntax. 
 # Mandatory parameters: 
 # id - the id of the channel.
@@ -28,7 +28,6 @@
 #   sources:
 #   - source.com
 #   - source2.com
-
 - id: bnt1.bg
   names: 
   - name: БНТ 1
@@ -253,7 +252,7 @@
   - name: Bulgaria 24
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
-  - bulgaria24.bg
+  - bulgaria24.org
   - start.bg
   - dnes.bg
   - tv.dir.bg
