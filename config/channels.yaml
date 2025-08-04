@@ -212,8 +212,8 @@
   - name: Code Health HD
   groups: ["bg", "tivi.bg", "vivacom", "a1"]
   sources:  
-  - extvs.plugin
   - tv.dir.bg
+  - extvs.plugin
     
 - id: codefashion.bg
   enabled: true
@@ -361,13 +361,14 @@
   - tv.dir.bg
   
 - id: vtk.bg
-  enabled: false
+  enabled: true
+  increment: false
   names:
   - name: ВТК
     lang: bg
   groups: ["bg", "tivi.bg", "vivacom"]
   sources:
-  - start.bg
+  - armymedia.bg
   
 - id: rmtv.bg
   enabled: true
