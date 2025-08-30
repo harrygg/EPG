@@ -1,0 +1,120 @@
+---
+enabled: true
+version: 1.0
+author: Hristo Genev
+timezone: Europe/Warsaw
+
+date-parameter:
+  format: list
+  list: [ 0, 1, 2, 3, 4, 5, 6 ]
+
+request:
+  url: http://programtv.onet.pl/program-tv/${url}?dzien=${date}
+  operations: 
+    - name: validate-text-exists
+      hook: after
+      arguments: [ "<spam>${date.format(yyyy-MM-dd)}</span>"]
+
+programs:
+  debug: false
+  locator: .emissions ul > li
+    
+elements:
+  - name: title
+    locator: .titles > a
+    operations:
+      - name: beautify
+        hook: after
+
+  - name: start
+    locator: .hour
+    operations:
+      - name: remove
+        hook: after
+        arguments: [ '&nbsp;' ]
+
+channel-parameters:
+  mtveurope.com:
+    url: mtv-europe-118
+  mtvlive.com:
+    url: mtv-live-hd-105
+  mtvhits.com:
+    url: mtv-hits-476
+  mtv80s.com:
+    url: vh1-classic-european-345
+  mtv90s.com:
+    url: mtv-rocks-344
+  clubmtv.com:
+    url: mtv-dance-481
+  mtv00s.com:
+    url: vh1-9
+  erox.spiintl.com:
+    url: erox-hd-520
+  eroxxx.spiintl.com:
+    url: eroxxx-hd-512
+  dorceltv.com:
+    url: dorcel-tv-507
+  dorcelxxx.com:
+    url: dorcel-xxx-506
+  hustlerhd.com:
+    url: hustler-hd-138
+  hustlertv.com:
+    url: hustler-tv-107
+  redlighttv.com:
+    url: redlight-499
+  private.tv:
+    url: private-tv-351
+  playboy.tv:
+    url: playboy-tv-482
+  vividred.tv:
+    url: vivid-red-hd-627
+  brazzers.eu:
+    url: brazzers-tv-europe-279
+  cnbc.com:
+    url: cnbc-247
+  zdf.de:
+    url: zdf-417
+  deutschewelle.de:
+    url: dw-364
+  skynews.uk:
+    url: sky-news-340
+  cgtn.cn:
+    url: cctv-news-291
+  mezzolive.tv:
+    url: mezzo-live-hd-398
+  mezzo.tv:
+    url: mezzo-234
+  arirang.tv:
+    url: arirang-tv-30
+  rtdocu.com:
+    url: rt-documentary-474
+  russiatoday.com:
+    url: russia-today-hd-164
+  fashion.tv:
+    url: fashion-tv-233
+  skysport1.de:
+    url: sky-sport-1-441
+  skysport2.de:
+    url: sky-sport-2-443
+  skysportaustria.au:
+    url: sky-sport-austria-444
+  dmax.de:
+    url: dmax-428
+  nhkworld.com:
+    url: nhk-world-tv-11
+  iconcert.stingray.com:
+    url: stingray-iconcert-601
+  gametoon.tv:
+    url: gametoon-hd-602
+  travelxp.tv:
+    url: travelxp-hd-656
+  euronews.com:
+    url: euronews-367
+  bloomberg.com:
+    url: bloomberg-ang-245
+  360tunebox.tv:
+    url: 360tunebox-302
+  fastfunbox.com:
+    url: fast-funbox-hd-104
+  fightbox.com:
+    url: fightbox-436
