@@ -1,0 +1,80 @@
+---
+author: Hristo Genev
+
+date-parameter:
+  format: yyyy-MM-dd
+
+request:
+  url: https://tv.yandex.ru/channel/${channelId}?date=${date}
+    
+programs:
+  locator-strategy: csspath
+  locator: .channel-schedule__event
+  #debug: true
+
+elements: 
+  - name: title
+    language: ru
+    locator: .channel-schedule__text
+  - name: start
+    locator: .channel-schedule__time
+    debug: false
+  - name: desc
+    enabled: false
+    locator: program.description
+
+
+channel-parameters:
+  ohotarybalka.ru:
+    channelId: ohotnik-i-rybolov-69
+  jivayapriroda.ru:
+    channelId: jivaya-priroda-1090
+  russiatoday.com:
+    channelId: russia-today-70
+  rtdoc.com:
+    channelId: rt-doc-1258
+  glasamiturista.ru:
+    channelId: glazami-turista-1473
+  luxe.tv:
+    channelId: luxetv-542
+  mcmtop.fr:
+    channelId: mcm-top-583
+  zhivi.ru:
+    channelId: jivi-421
+  moyaplaneta.ru:
+    channelId: moya-planeta-653
+  karusel.tv:
+    channelId: karusel-int-554
+  vijuprimiere.ru:
+    channelId: vip-premiere-779
+  vijumegahit.ru:
+    channelId: vip-megahit-778
+  vijucomedy.ru:
+    channelId: vip-comedy-777
+  detskiymir.ru:
+    channelId: detskiy-mir-1256
+  bober.ru:
+    channelId: bober-1171
+  konnyymir .ru:
+    channelId: konnyy-mir-1184
+  vremya .ru:
+    channelId: vremya-649
+  vijutv1000ruskoe.ru:
+    channelId: tv1000-russkoe-kino-475
+  centralnoe.ru:
+    channelId: centralnoe-televidenie-ctv-198
+  fightbox.com:
+    channelId: fast-fun-box-hd-1243
+  vremya.ru:
+    channelId: vremya-649
+
+# Used for extracting channel names and params from a page containing the list of available channels
+#channel-extract-rules: 
+#  url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=now&tz=0&search=&channel=&offset=0
+#  channel-name: 
+#    locator: .channel-header--title a
+#    property: text
+    
+#  channel-param: 
+#    locator: .channel-header--title a
+#    attribute: href

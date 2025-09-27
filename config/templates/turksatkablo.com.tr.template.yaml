@@ -1,0 +1,95 @@
+﻿---
+version: 1.0
+author: Hristo Genev
+
+date-parameter:
+  format: "%d"
+
+### The programs are loaded on  https://www.turksatkablo.com.tr/yayin-akisi.aspx from a json document
+request:
+  http-timeout: 60
+  url: https://www.turksatkablo.com.tr/userUpload/EPG/${date}.json?_=${date.format(epoch)}
+  debug: false
+    
+programs:
+  # the jsonpath locator returns all elements inside the k array
+  # where the n value matches exactly the channelId parameter. 
+  # =~ indicates a regular expression pattern. it is used on purpose due to  
+  # the channelId being sometimes in lowercase sometimes in uppercase
+  locator: $.k[?(@.n=~'/^${channelId}$/i')].p[:]
+  locator-strategy: jsonpath
+
+elements:
+  - name: start
+    locator: c
+  - name: stop
+    locator: d
+  - name: title
+    language: tr
+    locator: b
+    operations:
+      # We need this validation in order to prevent programs with title "-" to be added
+      # these programs are dummy and are start at 00:00 when the last show from the previous day
+      # stretches into this day. They could have just removed the program instead of adding dummy names. wtf. 
+      - name: validate-text-not-equal
+        hook: after
+        arguments: [ "-" ]
+        on-failure: break
+
+channel-parameters: 
+  kanald.tr:
+    channelId: KANAL D
+  fox.tr:
+    channelId: Fox
+  tv8.tr:
+    channelId: TV 8
+  tv85.tr:
+    channelId: TV 8,5
+  trt1.tr:
+    channelId: TRT 1
+  trthaber.tr:
+    channelId: TRT Haber
+  trtworld.tr:
+    channelId: TRT World
+  trtbelgesel.tr:
+    channelId: TRT Belgesel
+  trtspor.tr:
+    channelId: TRT Spor
+  trtcocuk.tr:
+    channelId: TRT Çocuk
+  ahaber.tr:
+    channelId: A Haber
+  haberturk.tr:
+    channelId: HABERTÜRK TV
+  cnnturk.tr:
+    channelId: CNN Türk
+  beyaztv.tr:
+    channelId: Beyaz TV
+  showtv.tr:
+    channelId: Show
+  startv.tr:
+    channelId: Star
+  ntv.tr:
+    channelId: NTV
+  aspor.tr:
+    channelId: A Spor
+  atv.tr:
+    channelId: Atv
+  teve2.tr:
+    channelId: Teve 2
+  kanal7.tr:
+    channelId: Kanal 7
+  nowtv.tr:
+    channelId: NOW
+  trtavaz.tr:
+    channelId: TRT AVAZ HD
+  trtarabi.tr:
+    channelId: TRT ARABİ
+  beinsports1.tr:
+    channelId: beIN SPORTS 1
+  beinsports2.tr:
+    channelId: beIN SPORTS 2
+  beinsports3.tr:
+    channelId: beIN SPORTS 3
+  beinsports4.tr:
+    channelId: beIN SPORTS 4
