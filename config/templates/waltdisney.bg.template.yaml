@@ -1,0 +1,49 @@
+author: Hristo Genev
+
+date-parameter:
+  format: yyyyMMdd
+
+request:
+  url: https://${host}/${channel}/${date}
+
+programs:
+  locator: li[data-datetime-date='${date.format(yyyy-MM-dd)}']
+
+elements:
+  - name: title
+    locator: h3
+    type: directinnertext
+    operations: 
+      - name: beautify
+        hook: after
+
+  - name: start
+    locator: h5
+
+  - name: desc
+    locator: p
+
+channel-parameters:
+  fox.bg:
+    host: www.starchannel-bg.com/schedule
+    channel: star
+
+  foxlife.bg:
+    host: www.starchannel-bg.com/schedule
+    channel: starlife
+    
+  foxcrime.bg:
+    host: www.starchannel-bg.com/schedule
+    channel: starcrime
+
+  natgeo.bg:
+    host: www.natgeotv.com/bg/schedule
+    channel: natgeo
+  
+  natgeowild.bg:
+    host: www.natgeotv.com/bg/schedule
+    channel: nationalgeographicwild
+
+  24kitchen.bg:
+    host: www.24kitchen.bg
+    channel: tvprogram

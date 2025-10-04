@@ -1,0 +1,33 @@
+---
+author: Hristo Genev
+
+date-parameter:
+  format: epoch
+
+request:
+  url: http://hobbytv.bg/index.php?p=program&channel=${channelId}&day=${date}
+    
+programs:
+  locator: .dayselect table:nth-of-type(2) tr
+    
+elements:
+  - name: start
+    locator: .prog_time2
+
+  - name: title
+    locator: .program-link
+    post-opeartions:
+    - name: beautify
+
+  - name: desc
+    locator: .program-link
+    attribute: title
+
+channel-parameters:
+  hobbytv.bg:
+    channelId: hobbytv
+  hobbyhd.bg:
+    channelId: hobbyhd
+  hobbylov.bg:
+    channelId: hobbylov
+  

@@ -1,0 +1,216 @@
+---
+# The level of logging. 
+log-level: verbose
+
+# The number of days ahead we will grab programs for.
+days-ahead: 3
+
+# The number of days in the past a program will be kept for.
+days-behind: 0
+
+# Should grab from cache or ignore the cache and always grab fresh programs
+incremental-grabbing: true
+
+# The number of threads that will be run in parallel. 
+# Each thread will start a grabber for a website template.
+parallel: 1
+
+# The default user-agent string that will be used in each request. 
+# The value can be overwritten per website. 
+# To do so, add a request header in the request section of a template file
+default-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122 Safari/537.36
+
+# Should the program grab program details. 
+# Overwritable for each channel in channels config file. Defaults to true.
+grab-details: true
+
+# The lifetime of the cache in seconds.
+# If the value is 0, the cache will not be used at all.
+# If the value is greater than 0, the cache will be used and the programs will be grabbed only if they are not in the cache or if they are older than the cache lifetime.
+# The cache lifetime is the time in seconds after which the cache will be considered stale and the programs will be grabbed again.
+# If the value is negative, the cache will be used and the programs will be grabbed only if they are not in the cache.
+cache-lifetime: 0.00001
+
+# The compression type to be used for storing cache files. Available options are: none, gzip, zip
+cache-compression-type: gzip
+
+# The maximum number of rounds the program will run.
+# Each time a new source will be selected from channel sources incrementally 
+max-grabbing-rounds: 4  
+
+# Convert grabbed programs start and stop times to local time zone
+convert-to-local-datetime: true
+
+# The maximum length of the text content of an XMLTV element.
+# The value can be overriden in site templates, globally for all elements, or per single element
+# Defaults to 0, which means unlimited
+xmltv-max-element-size: 0
+
+# The maximum values an XMLTV element can have. For instance, if a show has 10 actors,
+# do not add more than the maxiumum
+xmltv-max-element-values: 3
+
+# Apply some post processing rules on grabbed XMLTV elements to beautify the output. 
+# That is, remove double spaces, new lines, html characters etc.
+# Defaults to false as most of the elements should not require it. 
+# It can be overwritten in the site template per element by adding an operation with name=beautify and hook=after
+xmltv-beautify-elements: true
+
+# Delay between 2 back to back requests. Some websites have anti-flooding protection, which restricts the 
+# request rate from given IPs if the requests comming from that IP are typically far higher than that of a normal user.
+# To prevent this, we can add some delay between 2 consequitive requests which should lower the reuqest rate. 
+# Value is in milliseconds. Default is 0
+delay-between-requests: 0
+
+# The time to wait for server response before canceling a request
+# The default is 30 seconds
+http-timeout: 30
+
+# The number of retries to attempt if a request ends up with no response, or error i.e. Internal Server Error 500
+# Defaults to 2
+request-retries: 2
+
+# The delay before retrying a failed request. Value is in milliseconds, defaults to 500.
+delay-between-request-retries: 500
+
+# The maximum time all channel programs should be grabbed. If channel grabbing takes longer it will be canceled. 
+# Defaults to 300. Value is in seconds.
+channel-grabbing-timeout: 300
+
+# The maximum time in seconds a single program should be grabbed. After that, the program grabbing is canceled. Default is 60 seconds.
+program-grabbing-timeout: 60
+
+# Output folder where the XML files will be saved
+output-folder: output
+
+# Generates report for grabbed programs and grabber usage and timings
+generate-report: true
+
+# List of output XML files
+# Each entry should have the following properties
+output-files:
+  # name of the file excluding the compression file extension i.e. epg.xml and not epg.xmlip
+  - name: epg.xml
+    # Compression type to use - gzip or zip or none
+    compression: none
+    # A list of group names. Only channels from those groups will be exported in the file
+    # groups: []
+    # Programs of how many days in the future will be included in the EPG
+    days-ahead: 3
+    # Programs of how many days in the past will be exported in the EPG (If they exist in the cache)
+    days-behind: 0
+    # The level of program details
+    # 1 - program will contain only start, stop and title
+    # 2 - program will contain above, plus desc and icon
+    # 3 - include all available details
+    details-level: 3
+    
+  - name: epg.xml.gz
+    days-ahead: 3
+    days-behind: 0
+    compression: gzip
+
+  - name: all-3days.basic.epg.xml
+    days-ahead: 3
+    days-behind: 0
+    details-level: 1
+    compression: none
+    
+  - name: all-3days.basic.epg.xml.gz
+    days-ahead: 3
+    days-behind: 0
+    details-level: 1
+    compression: gzip
+    
+  - name: all-3days.details.epg.xml
+    days-ahead: 3
+    days-behind: 0
+    details-level: 2
+    compression: none
+    
+  - name: all-3days.details.epg.xml.gz
+    days-ahead: 3
+    days-behind: 0
+    details-level: 2
+    compression: gzip
+    
+  - name: all-3days.details.epg.xml.gz
+    days-ahead: 3
+    days-behind: 0
+    details-level: 2
+    compression: gzip
+
+  - name: all-3days.full.epg.xml
+    days-ahead: 3
+    days-behind: 0
+    compression: none
+    
+  - name: all-3days.full.epg.xml.gz
+    days-ahead: 3
+    days-behind: 0
+    compression: gzip
+    
+  - name: all-2days.full.epg.xml.gz
+    days-ahead: 2
+    days-behind: 0
+    compression: gzip
+    
+  - name: all-2days.full.epg.xml
+    days-ahead: 2
+    days-behind: 0
+    compression: none
+    
+  - name: all-2days.details.epg.xml
+    days-ahead: 2
+    days-behind: 0
+    details-level: 2
+    compression: none
+    
+  - name: all-2days.details.epg.xml.gz
+    days-ahead: 2
+    days-behind: 0
+    details-level: 2
+    compression: gzip
+
+  - name: all-2days.basic.epg.xml
+    days-ahead: 2
+    days-behind: 0
+    details-level: 1
+    compression: none
+    
+  - name: all-2days.basic.epg.xml.gz
+    days-ahead: 2
+    days-behind: 0
+    details-level: 1
+    compression: gzip
+    
+  - name: bulgarian.3days.full.epg.xml.gz
+    days-ahead: 3
+    days-behind: 0
+    groups: ["bg"]
+    compression: gzip
+    
+  - name: bulgarian.3days.full.epg.xml
+    days-ahead: 3
+    days-behind: 0
+    groups: ["bg"]
+    compression: none
+
+  - name: sport.epg.xml
+    groups: [ "sport" ]
+    compression: none
+
+  - name: tivibg.xml.gz
+    days-ahead: 3
+    groups: ["tivi.bg"]
+    compression: gzip
+
+  - name: a1.xml.gz
+    days-ahead: 3
+    groups: ["a1"]
+    compression: gzip
+
+  - name: vivacom.xml.gz
+    days-ahead: 3
+    groups: ["vivacom"]
+    compression: gzip
