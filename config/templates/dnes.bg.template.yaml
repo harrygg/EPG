@@ -1,0 +1,273 @@
+---
+version: 1.0
+author: Hristo Genev
+
+date-parameter:
+  format: yyyy-MM-dd
+
+request:
+  url: https://www.dnes.bg/tv/channel/${channelId}/${date}
+  
+programs:
+  exclude-first: 1
+  locator: .program-list-item
+
+elements:
+  - name: start
+    locator: span
+    
+  - name: title
+    locator: h3
+
+channel-parameters:
+  bgonair.bg:
+    channelId: Bulgaria%20ON%20AIR
+  bloombergtv.bg:
+    channelId: Bloomberg%20TV%20Bulgaria
+  btv.bg:
+    channelId: bTV
+  bnt1.bg:
+    channelId: BNT1
+  planetatv.bg:
+    channelId: Planeta
+  nova.bg:
+    channelId: Nova
+  diema.bg:
+    channelId: Diema
+  diemafamily.bg:
+    channelId: DiemaFamily
+  kinonova.bg:
+    channelId: KinoNova
+  skat.bg:
+    channelId: Skat
+  ring.bg:
+    channelId: RING
+  btvcinema.bg:
+    channelId: bTVAction
+  btvstory.bg:
+    channelId: bTVStory
+  btvcomedy.bg:
+    channelId: bTVComedy
+  btvaction.bg:
+    channelId: bTVAction
+  axn.bg:
+    channelId: AXN
+  axnwhite.bg:
+    channelId: AXNWhite
+  axnblack.bg:
+    channelId: AXNBlack
+  alfatv.bg:
+    channelId: Alfa
+  bnt2.bg:
+    channelId: BNT2
+  bnt3.bg:
+    channelId: BNT3
+  bnt4.bg:
+    channelId: BNT4
+  discoverychannel.bg:
+    channelId: Discovery
+  davincilearning.tv:
+    channelId: DaVinciLearning
+  discoveryscience.bg:
+    channelId: DiscoveryScience
+  disneychannel.bg:
+    channelId: Disney
+  hbo.bg:
+    channelId: HBO
+  hbo2.bg:
+    channelId: HBO2
+  hbo3.bg:
+    channelId: HBO3
+  starchannel.bg:
+    channelId: STAR Channel
+  foodnetwork.bg:
+    channelId: FoodNetwork
+  # fentv.bg:
+  #   channelId: 11144
+  # fenfolk.bg:
+  #   channelId: 11262
+  # balkanika.bg:
+  #   channelId: 11122
+  foxlife.bg:
+    channelId: STAR Life
+  foxcrime.bg:
+    channelId: STAR Crime
+  # fashion.tv:
+  #   channelId: 11090
+  novasport.bg:
+    channelId: NovaSport
+  natgeowild.bg:
+    channelId: NatGeoWild
+  natgeo.bg:
+    channelId: NatGeo
+  eurosport1.bg:
+    channelId: Eurosport1
+  eurosport2.bg:
+    channelId: Eurosport2
+  evrokom.bg:
+    channelId: Eurocom
+  # extremesportschannel.com:
+  #   channelId: 11089
+  ekids.bg:
+    channelId: EKids
+  cnninternational.com:
+    channelId: CNN
+  # cinemax1.bg:
+  #   channelId: 11118
+  # cinemax2.bg:
+  #   channelId: 11116
+  # jimjam.tv:
+  #   channelId: 11094
+  # MGM:
+  #   channelId: 11152
+  # mtvhits.com:
+  #   channelId: 11097
+  # mtvlive.com:
+  #   channelId: 11098
+  # mcm.fr:
+  #   channelId: 11105
+  # utilisima:
+  #   channelId: 11115
+  planetafolk.bg:
+    channelId: PlanetaFolk
+  planeta4k.bg:
+    channelId: Planeta4K
+  thevoice.bg:
+    channelId: TheVoice
+  tyankovfolk.bg:
+    channelId: TiankovFolk
+  tv1000.bg:
+    channelId: TV1000
+  tlc.bg:
+    channelId: TLC
+  travelchannel.bg:
+    channelId: TravelChannel
+  ohotarybalka.ru:
+    channelId: Ribalka
+  nature.viasat.bg:
+    channelId: ViasatNature
+  explore.viasat.bg:
+    channelId: ViasatExplorer
+  arena.vivacom.bg:
+    channelId: VIVACOMArena
+  history.viasat.bg:
+    channelId: ViasatHistory
+  nick.tv:
+    channelId: 11151
+  disneyjunior.bg:
+    channelId: 11156
+  historychannel.tv:
+    channelId: 11158
+  nickelodeon.tv:
+    channelId: Nickelodeon
+  tracesports.nova.bg:
+    channelId: 11166
+  boxtv.bg:
+    channelId: 11168
+  moviestar.bg:
+    channelId: 11178
+  mezzo.tv:
+    channelId: 11187
+  agrotv.bg:
+    channelId: agroTV
+  fueltv.com:
+    channelId: 11196
+  investigationdiscoveryextra.bg:
+    channelId: 11197
+  tv1.bg:
+    channelId: 11200
+  diemasport.bg:
+    channelId: DiemaSport
+  diemasport2.bg:
+    channelId: DiemaSport2
+  diemasport3.bg:
+    channelId: DiemaSport3
+  'Nickelodeon Junior':
+    channelId: NickJr
+  epicdrama.bg:
+    channelId: EpicDrama
+  edgesport.com:
+    channelId: 11233
+  maxsport1.bg:
+    channelId: MAXSport1
+  maxsport2.bg:
+    channelId: MAXSport2
+  maxsport3.bg:
+    channelId: MAXSport3
+  maxsport4.bg:
+    channelId: MAXSport4
+  eurochannel.com:
+    channelId: 11246
+  sedemosmi.tv:
+    channelId: 78TV
+  NickToons:
+    channelId: 11256
+  mtv80s.com:
+    channelId: 11259
+  mtv90s.com:
+    channelId: 11260
+  clubmtv.com:
+    channelId: 11261
+  cinemania:
+    channelId: 11268
+  news.nova.bg:
+    channelId: 11269
+  tv.lovenature.com:
+    channelId: 11278
+  nostalgia.bg:
+    channelId: 11279
+  iconcert.stingray.com:
+    channelId: 11282
+  mezzolive.mezzo.tv:
+    channelId: 11283
+  gametoon.com:
+    channelId: 11284
+  filmboxarthouse.com:
+    channelId: 11285
+  fastandfunbox.com:
+    channelId: 11281
+  filmbox.com:
+    channelId: 11229
+  filmboxextra.com:
+    channelId: 11230
+  filmboxplus.com:
+    channelId: 11231
+  360box.com:
+    channelId: 11280
+  docubox.com:
+    channelId: 11193
+  fightbox.com:
+    channelId: 11194
+  hgtv.com:
+    channelId: 11286
+  codehealth.bg:
+    channelId: 11293
+  vidimoinevidimo.bg:
+    channelId: 11315
+  kanal4.bg:
+    channelId: 11312
+  ams.de:
+    channelId: 11312
+  cartoonito.bg:
+    channelId: 11298
+  ducktv.com:
+    channelId: DuckTV
+  24kitchen.bg:
+    channelId: 24kitchen
+  Bulgaria24.bg:
+    channelId: Bulgaria24
+  wildtv.com:
+    channelId: WildTV
+  BBC1.bg:
+    channelId: BBC1
+  tvevropa.bg:
+    channelId: EuroNews
+
+channel-extract-rules:
+ url: https://www.dnes.bg/tv
+ channel-name:
+   locator: select#channel option
+   property: text
+ channel-param: 
+   locator: select#channel option
+   property: value
