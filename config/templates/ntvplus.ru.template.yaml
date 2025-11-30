@@ -1,0 +1,140 @@
+---
+author: Hristo Genev
+culture: Ru-ru
+
+date-parameter:
+  format: dd.MM.yyyy
+
+request:
+  url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=${date}&tz=0&search=&channel=${channelId}&offset=0
+    
+programs:
+  locator: .tv-schedule--item
+
+elements: 
+  - name: title
+    language: ru
+    locator: .tv-schedule--item-title 
+  - name: start
+    locator: .tv-schedule--item-time
+  - name: reviewId
+    attribute: data-tv-review
+
+program-details:
+  request: 
+    url: https://ntvplus.ru/tv/ajax/review?id=${reviewId}
+  elements:
+    - name: desc
+      locator: .popover-box--text
+    - name: icon
+      locator: img
+      attribute: src
+      operations:
+        - name: prepend
+          hook: after
+          arguments: [ 'https://ntvplus.ru/' ]
+      
+channel-parameters:
+  ohotarybalka.ru:
+    channelId: 202
+  matchfutbol1.ru:
+    channelId: 167
+  matchfutbol2.ru:
+    channelId: 203
+  matchfutbol3.ru:
+    channelId: 260
+  matcharena.ru:
+    channelId: 209
+  matchigra.ru:
+    channelId: 211
+  matchpremier.ru:
+    channelId: 70
+  matchtv.ru:
+    channelId: 335
+  matchboetz.ru:
+    channelId: 79
+  matchstrana.ru:
+    channelId: 126
+  telekanalkhl.ru:
+    channelId: 127
+  mirbaseketbola.ru:
+    channelId: 486
+  konnyimir.ru:
+    channelId: 271
+  rossiya1.ru:
+    channelId: 42
+  rossiya24.ru:
+    channelId: 74
+  rossiyak.ru:
+    channelId: 39
+  pervyikanal.ru:
+    channelId: 41
+  pyatyjkanal.ru:
+    channelId: 87
+  mir.ru:
+    channelId: 89
+  tv3.ru:
+    channelId: 235
+  rentv.ru:
+    channelId: 15
+  sts.ru:
+    channelId: 23
+  tvts.ru:
+    channelId: 30
+  ntv.ru:
+    channelId: 40
+  tnt.ru:
+    channelId: 24
+  tnt4.ru:
+    channelId: 112
+  vijutv1000ruskoe.ru:
+    channelId: 178
+  kanal8.ru:
+    channelId: 200
+  zvezda.ru:
+    channelId: 94
+  rt.ru:
+    channelId: 71
+  zhivi.ru:
+    channelId: 216
+  lyubimoekino.ru:
+    channelId: 360
+  domkino.ru:
+    channelId: 81
+  domkinopremium.ru:
+    channelId: 368
+  vremiya.ru:
+    channelId: 85
+  telekafe.ru:
+    channelId: 164
+  bridge.ru:
+    channelId: 187
+  che.ru:
+    channelId: 146
+  yu.ru:
+    channelId: 43
+  moyaplaneta.ru:
+    channelId: 171
+  fox.ru:
+    channelId: 150
+  vipcomedy.ru:
+    channelId: 255
+  vipmegahit.ru:
+    channelId: 254
+  vippremiere.ru:
+    channelId: 253
+  spas.ru:
+    channelId: 60
+  pyatnitsa.ru:
+    channelId: 5
+
+# Used for extracting channel names and params from a page containing the list of available channels
+#channel-extract-rules: 
+#  url: https://ntvplus.ru/tv/ajax/tv?genre=all&date=now&tz=0&search=&channel=&offset=0
+#  channel-name: 
+#    locator: .channel-header--title a
+#    property: text
+    
+#  channel-param: 
+#    locator: .channel-header--title a
+#    attribute: href

@@ -1,0 +1,28 @@
+---
+author: Hristo Genev
+
+date-parameter:
+  format: epoch
+
+request:
+  url: http://core.ohotarybalka.tv/uiapi/schedule/week/${date}
+    
+programs:
+  locator-strategy: jsonpath
+  locator: items[:]
+
+elements:
+  - name: start
+    time-format: o
+    locator: date_start
+  - name: title
+    language: ru
+    locator: title
+  - name: desc
+    language: ru
+    locator: description
+  - name: icon
+    locator: imageThumb
+  - name: stop
+    locator: date_end
+    enabled: false

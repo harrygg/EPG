@@ -1,0 +1,75 @@
+version: 1.0
+author: Hristo Genev
+culture: TR-tr
+
+request:
+  url: https://www.trt.net.tr/yayin-akisi
+  debug: false
+  with-browser: true
+  next-day-actions:
+    - action: click
+      locator: 
+
+programs:
+  locator: div.stream-conteiner div:nth-of-type(${column}) div.card-content .livestream-conteiner, div.stream-conteiner div:nth-of-type(${column}) div.card-content .current
+  debug: false
+    
+elements:
+  - name: start
+    locator:  .livestream-time
+    time-format: HH.mm
+    debug: false
+
+  - name: title
+    locator: .livestream-title
+
+channel-parameters:
+  trt1.tr:
+    channelId: trt-1
+    column: 1
+  trt2.tr:
+    channelId: trt-2
+    column: 2
+  trtbelgesel.tr:
+    channelId: trt-belgesel
+    column: 3
+  trthaber.tr:
+    channelId: trt-haber
+    column: 4
+  trtspor.tr:
+    channelId: trt-spor
+    column: 5
+  trtsporyildiz.tr:
+    channelId: trt-spor-yildiz
+    column: 6
+  trtmuzik.tr:
+    channelId: trt-muzik
+    column: 7
+  trtcocuk.tr:
+    channelId: trt-cocuk
+    column: 8
+  trtdiyanetcocuk.tr:
+    channelId: trt-diyanet-cocuk
+    column: 9
+  trtturk.tr:
+    channelId: trt-turk
+    column: 10
+  trtavaz.tr:
+    channelId: trt-avaz
+    column: 11
+  trtkurdi.tr:
+    channelId: trt-kurdi
+    column: 12
+  trtarabi.tr:
+    channelId: trt-kurdi
+    column: 13
+  # trtarabi.tr:
+  #   channelId: trt-arabi
+  # trt4k.tr:
+  #   channelId: trt-4k
+  # trtebailkokul.tr:
+  #   channelId: trt-eba-ilkokul
+  # trtebaortaokul.tr:
+  #   channelId: trt-eba-ortaokul
+  # trtebalise.tr:
+  #   channelId: trt-eba-lise
