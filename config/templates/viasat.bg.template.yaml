@@ -1,0 +1,48 @@
+---
+uthor: Hristo Genev
+
+date-parameter:
+  format: yyyy-MM-d
+
+request:
+  url: https://${host}/?date=${date}
+
+programs:
+  locator: .list-unstyled li
+  debug: false
+
+elements:
+  - name: title
+    locator: h4
+    debug: false
+    operations:
+    - name: remove-after
+      hook: after
+      arguments: [ ".description", true]
+    - name: beautify
+      hook: after
+  
+  - name: start
+    locator: h2
+
+  - name: desc
+    locator: .description > p
+    operations:
+      - name: beautify
+        hook: after
+
+  - name: icon
+    locator: .image-inner-wrapper > img
+    attribute: src
+
+channel-parameters:
+  history.viasat.bg:
+    host: viasathistory.bg
+  explore.viasat.bg:
+    host: viasatexplore.bg
+  nature.viasat.bg:
+    host: viasatnature.bg
+  kino.viasat.bg:
+    host: viasatkino.bg
+  truecrime.viasat.bg:
+    host: viasattruecrime.bg
