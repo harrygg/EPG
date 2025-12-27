@@ -1,0 +1,28 @@
+---
+author: Hristo Genev
+date-parameter:
+  format: list
+  list: [ 1,2,3,4,5,6,7 ]
+
+request:
+  debug: false
+  url: https://axn-bulgaria.com/programa/
+    
+programs:
+  locator: "#${channelId} .day:nth-of-type(${date}) .program"
+    
+elements:
+  - name: start
+    locator: .time
+
+  - name: title
+    locator: .title
+
+delay-between-requests: 500
+channel-parameters:
+  axn.bg:
+    channelId: AXNtimeline
+  axnwhite.bg:
+    channelId: AXN_whitetimeline
+  axnblack.bg:
+    channelId: AXN_blacktimeline
