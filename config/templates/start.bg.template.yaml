@@ -1,0 +1,314 @@
+---
+author: Hristo Genev
+enabled: true
+
+date-parameter:
+  format: yyyy-MM-dd
+
+request:
+  url: https://www.start.bg/lenta/tv-programa/tv/${channelId}/${date}/0
+  delay: 5000
+
+programs:
+  locator: .tv-dlist > li
+    
+elements:
+  - name: start
+    locator: .time
+
+  - name: title
+    language: bg
+    locator: .title
+
+channel-parameters:    
+  bnt1.bg:
+    channelId: bnt
+  btv.bg:
+    channelId: btv
+  nova.bg:
+    channelId: nova%20tv
+  bgonair.bg:
+    channelId: bulgaria%20on%20air
+  bloombergtv.bg:
+    channelId: bloomberg%20tv%20bulgaria
+  axn.bg:
+    channelId: axn
+  animalplanet.bg:
+    channelId: animal%20planet
+  alfatv.bg:
+    channelId: alfa
+  balkanika.bg:
+    channelId: balkanika
+  bnt2.bg:
+    channelId: bnt2
+  Boomerang:
+    channelId: 14
+  btvaction.bg:
+    channelId: btv action
+  btvcinema.bg:
+    channelId: btv cinema
+  btvcomedy.bg:
+    channelId: btv comedy
+  btvstory.bg:
+    channelId: btv lady
+  cartoonnetwork.tv:
+    channelId: cartoon%20network
+  cinemax1.bg:
+    channelId: cinemax
+  cinemax2.bg:
+    channelId: cinemax 2
+  cnninternational.com:
+    channelId: cnn
+  diemafamily.bg:
+    channelId: diema family
+  diema.bg:
+    channelId: 27
+  discoverychannel.bg:
+    channelId: discovery channel
+  disneychannel.bg:
+    channelId: disney channel
+  davincilearning.tv:
+    channelId: da%20vinci%20learning
+  ekids.bg:
+    channelId: e-kids
+  evrokom.bg:
+    channelId: eurocom
+  eurosport1.bg:
+    channelId: eurosport
+  eurosport2.bg:
+    channelId: eurosport%202
+  viasatexplorer.bg:
+    channelId: viasat explorer
+  extremesportschannel.com:
+    channelId: extreme sports
+  fentv.bg:
+    channelId: fen%20tv
+  starlife.bg:
+    channelId: 47
+  starcrime.bg:
+    channelId: 48
+  hbo.bg:
+    channelId: 50
+  viasathistory.bg:
+    channelId: 52
+  'History Channel':
+    channelId: 53
+  bulgaria24.bg:
+    channelId: bulgaria%2024
+  'Хоби ТВ':
+    channelId: 54
+  jimjam.tv:
+    channelId: jimjam
+  mcm:
+    channelId: mcm
+  mgm:
+    channelId: mgm
+  mtvlive.com:
+    channelId: mtv%20live%20hd
+  'Viasat Nature':
+    channelId: 65
+  'National Geographic':
+    channelId: 67
+  'National Geographic Wild':
+    channelId: 68
+  novasport.bg:
+    channelId: nova%20sport
+  ort.ru:
+    channelId: ort
+  planetatv.bg:
+    channelId: planeta
+  planetafolk.bg:
+    channelId: planeta%20folk
+  planetahd.bg:
+    channelId: planeta%20hd
+  planeta4k.bg:
+    channelId: planeta%204k
+  ring.bg:
+    channelId: ring.bg
+  skat.bg:
+    channelId: skat
+  telekabel.bg:
+    channelId: telekabel
+  thevoice.bg:
+    channelId: the%20voice
+  tlc.bg:
+    channelId: tlc
+  traveltv.bg:
+    channelId: 96
+  travelchannel.bg:
+    channelId: 97
+  'Travel Channel SD':
+    channelId: 114
+  TV1000:
+    channelId: 99
+  TVPlus:
+    channelId: 101
+  Utilisima:
+    channelId: 102
+  'VH 1':
+    channelId: 103
+  vivacomarena.bg:
+    channelId: vivacom%20arena
+  'Fox Channel':
+    channelId: 107
+  'Fashion TV':
+    channelId: 110
+  'MTV Hits':
+    channelId: 113
+  'CBS Reality':
+    channelId: 117
+  tvevropa.bg:
+    channelId: tv%20evropa
+  kinonova.bg:
+    channelId: kino%20nova
+  foodnetwork.com:
+    channelId: food%20network%20hd
+  nick.tv:
+    channelId: nickhd
+  'Eurosport HD':
+    channelId: 128
+  'HBO HD':
+    channelId: 129
+  boxtv.bg:
+    channelId: box%20tv
+  disneyjunior.bg:
+    channelId: 131
+  nickelodeon.tv:
+    channelId: nickelodeon
+  'Investigation Discovery':
+    channelId: 137
+  'Trace Sports':
+    channelId: 138
+  'History HD':
+    channelId: 140
+  'National Geographic HD':
+    channelId: 142
+  axnblack.bg:
+    channelId: axn%20black
+  axnwhite.bg:
+    channelId: axn%20white
+  crimeandinvestigation.bg:
+    channelId: crime%20and%20investigation
+  moviestar.bg:
+    channelId: moviestar
+  Первий:
+    channelId: 150
+  'Comedy Central Extra':
+    channelId: 155
+  agrotv.bg:
+    channelId: agro%20tv
+  DocuBox:
+    channelId: 163
+  FightBox:
+    channelId: 164
+  fueltv.com:
+    channelId: 166
+  'Viasat Nature/History HD':
+    channelId: 168
+  tv1.bg:
+    channelId: tv1
+  mezzo.tv:
+    channelId: mezzo
+  diemasport.bg:
+    channelId: diema%20sport
+  diemasport2.bg:
+    channelId: diema%20sport%202
+  'Investigation Discovery Extra':
+    channelId: 174
+  'HBO 2':
+    channelId: 181
+  HBO3:
+    channelId: 182
+  vtk.bg:
+    channelId: 186
+  'Nickelodeon Junior':
+    channelId: 191
+  'EPIC Drama':
+    channelId: 195
+  filmbox.com:
+    channelId: 196
+  filmboxextra.com:
+    channelId: 197
+  filmboxstars.com:
+    channelId: 198
+  'EDGE Sport':
+    channelId: 200
+  'BNT 3':
+    channelId: 201
+  BNT4:
+    channelId: 202
+  'MAX Sport 1':
+    channelId: 204
+  'MAX Sport 2':
+    channelId: 205
+  'MAX Sport 3':
+    channelId: 206
+  'MAX Sport 4':
+    channelId: 209
+  НТВ-МИР:
+    channelId: 211
+  eurochannel.com:
+    channelId: 212
+  'НТВ Право':
+    channelId: 213
+  'НТВ Сериал':
+    channelId: 214
+  'НТВ Стиль':
+    channelId: 215
+  'B1B Action':
+    channelId: 216
+  sedemosmi.tv:
+    channelId: 217
+  nicktoons.tv:
+    channelId: nicktoons
+  'Film Plus HD':
+    channelId: 221
+  mtv80s.com:
+    channelId: mtv%2080s
+  mtv90s.com:
+    channelId: mtv 90s
+  clubmtv.com:
+    channelId: 226
+  fenfolk.bg:
+    channelId: fen%20folk
+  cinemania.bg:
+    channelId: cinemania
+  news.nova.bg:
+    channelId: novanews
+  tv.lovenature.com:
+    channelId: love%20nature
+  nostalgia.bg:
+    channelId: nostalgia
+  '360 TuneBox':
+    channelId: 237
+  Fast&FunBox:
+    channelId: 238
+  mezzolivemezzolive.tv:
+    channelId: 240
+  hgtv.com:
+    channelId: hgtv
+  'FilmBox Arthouse':
+    channelId: 243
+  GameToon:
+    channelId: 244
+  diemasport3.bg:
+    channelId: diema%20sport%203
+  ambience.tv:
+    channelId: ambience%20tv    
+  vidimoinevidimo.bg:
+    channelId: vidimo%20i%20nevidimo%20tv
+  iconcert.stingray.com:
+    channelId: iconcerts
+  kanal4.bg:
+    channelId: kanal%204
+  kitchen.tv:
+    channelId: 270
+
+channel-extract-rules:
+ url: https://www.start.bg/lenta/tv-programa/tv/show/index/
+ channel-name:
+   locator: .channel .name
+   attribute: text
+ channel-param: 
+   locator: .channel a
+   property: href
