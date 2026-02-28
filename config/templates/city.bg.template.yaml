@@ -1,0 +1,34 @@
+---
+version: 1.0
+author: Hristo Genev
+
+request:
+  url: https://www.city.bg/schedule
+
+programs:
+  locator: '#schedule-container tr'
+
+elements:
+  - name: start
+    locator: .show-time
+    time-format: HH.mm
+            
+  - name: title
+    language: bg
+    locator: .show-name
+
+  - name: detailsUrl
+    locator: .show-name a
+    attribute: href
+
+program-details:
+  request:
+    url: https://www.city.bg${detailsUrl}
+    cache-lifetime: -1
+
+  elements:
+    - name: desc
+      locator: .show-article
+      operations:
+        - name: beautify
+          hook: after

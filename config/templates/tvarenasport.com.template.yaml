@@ -1,0 +1,90 @@
+author: Hristo Genev
+culture: sr-Latn-RS
+timezone: Europe/Belgrade
+
+date-parameter:
+  format: list
+  list: [ 2, 3, 4, 5, 6, 7]
+
+request:
+  url: https://www.tvarenasport.com/tv-scheme
+  debug: false
+
+programs:
+  locator: .tv-scheme-chanel:nth-of-type(${channelId}) .tv-scheme-new-slider-item:nth-of-type(${date}) .slider-content
+  debug: false
+
+elements:
+  - name: start
+    locator: .slider-content-top > span
+    debug: false
+
+  - name: sportType
+    debug: false
+    locator: .slider-content-middle > span
+    operations:
+      - name: append
+        hook: after
+        arguments: [ ": " ]
+        conditions: [ value-not-empty ]
+    
+  - name: title  
+    debug: false
+    locator: .slider-content-bottom > p
+    language: sr
+    operations:
+      - name: prepend
+        hook: after
+        arguments: ["${sportType}"]
+        conditions: 
+          - argument-not-empty
+          - argument-not-contain-value
+      
+channel-parameters:
+  arenasportpremium1.sr:
+    channelId: 1
+  arenasportpremium2.sr:
+    channelId: 2
+  arenasportpremium3.sr:
+    channelId: 3
+  arenasport1.sr:
+    channelId: 4
+  arenasport2.sr:
+    channelId: 5
+  arenasport3.sr:
+    channelId: 6
+  arenasport4.sr:
+    channelId: 7
+  arenasport5.sr:
+    channelId: 8
+  arenasport6.sr:
+    channelId: 9
+  arenasport7.sr:
+    channelId: 10
+  arenasport8.sr:
+    channelId: 11
+  arenasport9.sr:
+    channelId: 12
+  arenasport10.sr:
+    channelId: 13
+
+  arenasport1.hr:
+    channelId: 1
+  arenasport2.hr:
+    channelId: 2
+  arenasport3.hr:
+    channelId: 3
+  arenasport4.hr:
+    channelId: 4
+  arenasport5.hr:
+    channelId: 5
+  arenasport6.hr:
+    channelId: 6
+  arenasport7.hr:
+    channelId: 7
+  arenasport8.hr:
+    channelId: 8
+  arenasport9.hr:
+    channelId: 9
+  arenasport10.hr:
+    channelId: 10

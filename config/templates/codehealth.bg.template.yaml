@@ -1,0 +1,32 @@
+---
+author: Hristo Genev
+
+date-parameter:
+  format: epoch
+
+request:
+  url: https://codehealth.bg/wp-admin/admin-ajax.php
+  http-method: POST
+  body: action=extvs_get_schedule_simple&param_shortcode=%7B%22style%22%3A%222%22%2C%22fullcontent_in%22%3A%22collapse%22%2C%22show_image%22%3A%22show%22%2C%22channel%22%3A%22%22%2C%22slidesshow%22%3A%22%22%2C%22slidesscroll%22%3A%22%22%2C%22start_on%22%3A%22%22%2C%22before_today%22%3A%22%22%2C%22after_today%22%3A%22%22%2C%22list_dates%22%3A%22%22%2C%22order%22%3A%22DESC%22%2C%22orderby%22%3A%22date%22%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22order_channel%22%3A%22%22%2C%22class%22%3A%22%22%2C%22ID%22%3A%22ex-6610%22%7D&date=${date}&chanel=code-health
+  headers: 
+    Content-Type: application/x-www-form-urlencoded
+    Accept: application/json, text/javascript, */*; q=0.01
+    Referer: https://codehealth.bg/programa/
+    X-Requested-With: XMLHttpRequest
+  operations:
+    - name: regex-unescape
+      hook: after
+
+programs:
+  locator-strategy: csspath
+  locator: tr
+
+elements:
+  - name: title
+    locator: h3
+
+  - name: start
+    locator: span
+
+  - name: desc
+    locator: p

@@ -1,0 +1,82 @@
+---
+author: Hristo Genev
+
+date-parameter:
+  format: yyyy/MM/dd
+
+request:
+  url: https://nova.bg/schedule/index/${channelId}/${date}
+  delay-between-requests: 0
+  
+programs:
+  locator: ol[data-date='${date.format(yyyy-MM-dd)}'] li
+
+elements: 
+  - name: title
+    locator: h2
+    operations: 
+      - name: beautify
+        hook: after
+        
+  - name: start
+    locator: .timeline-hour
+
+  - name: desc
+    locator: .timeline-show > span
+    operations:
+      - name: beautify
+        hook: after
+
+  - name: icon
+    locator: img
+    attribute: src
+
+  - name: detailsUrl
+    locator: a.gtm-TVLiveBroadcasts-click
+    attribute: href
+ 
+program-details:
+  enabled: false
+  request:
+    url: ${detailsUrl}
+
+  elements:
+    - name: desc
+      locator: span[itemprop=description]
+      operations:
+      - name: beautify
+        hook: after
+    - name: extrasUrl
+      locator: .gtm-ShowMore-click
+      attribute: href
+
+program-extras:
+  enabled: false
+  request:
+    url: ${extrasUrl}
+  elements:
+    - name: desc
+      locator: .production-details
+      operations:
+      - name: beautify
+        hook: after
+
+channel-parameters:
+  nova.bg:
+    channelId: 0
+  diema.bg:
+    channelId: 1
+  diemafamily.bg:
+    channelId: 2
+  kinonova.bg:
+    channelId: 3
+  novasport.bg:
+    channelId: 4
+  diemasport.bg:
+    channelId: 5
+  diemasport2.bg:
+    channelId: 6
+  news.nova.bg:
+    channelId: 7
+  diemasport3.bg:
+    channelId: 8

@@ -1,0 +1,66 @@
+---
+version: 1.0
+author: Hristo Genev
+timezone: Europe/Paris
+
+date-parameter:
+  format: list
+  list: [1,2,3,4,5,6,7]
+
+request:
+  debug: false
+  url: https://www.telestar.fr/programme-tv/grille-chaine/${channelId}
+
+programs:
+  debug: true
+  locator: .channel:nth-of-type(${date}) .program
+    
+elements:
+  - name: start
+    time-format: "HH'h'mm" 
+    #locator: .time
+    locator: time">(\d\dh\d\d)\s+ 
+    locator-strategy: regex
+    debug: true
+    #operations:
+    #- name: regex-remove
+    #  arguments: [ '\s*-.*?\)' ]
+    #  hook: after
+
+  - name: title
+    language: fr
+    locator: .title
+
+  - name: category
+    locator: .category
+
+  - name: desc
+    locator: .synopsis
+
+channel-parameters:
+  france2.fr:
+    channelId: france2
+  france3.fr:
+    channelId: france3
+  france4.fr:
+    channelId: france4
+  france5.fr:
+    channelId: france5
+  chasseetpeche.fr:
+    channelId: chasseetpeche
+  arte.fr:
+    channelId: arte
+  m6.fr:
+    channelId: m6
+  bbcworldnews.com:
+    channelId: bbcworld
+  aljazeera.com:
+    channelId: aljazeerauk
+  cnbc.com:
+    channelId: cnbc
+  mcm.fr:
+    channelId: mcm
+  iconcerts.stingray.com:
+    channelId: stingrayconcerts
+  myzentv.com:
+    channelId: myzentv

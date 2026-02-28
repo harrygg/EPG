@@ -1,0 +1,48 @@
+---
+id: mojtv.hr
+enabled: true
+version: 1.0
+author: Hristo Genev
+timezone: Europe/Zagreb
+
+date-parameter:
+  format: d.M.yyyy
+  culture: hr-HR
+
+request:
+  url: https://mojtv.hr/m2/tv-program/kanal.aspx?datum=${date}&id=${channelId}
+
+programs:
+  locator: .ui-body-b > ul > li
+
+elements:
+  - name: start
+    locator: span.show-time b
+    debug: true
+  - name: title
+    locator: a > span > b
+    debug: true
+
+channel-parameters:
+  arenasport1.hr:
+    channelId: 179
+  arenasport2.hr:
+    channelId: 180
+  arenasport3.hr:
+    channelId: 253
+  arenasport4.hr:
+    channelId: 264
+  arenasport5.hr:
+    channelId: 460
+  arenasport6.hr:
+    channelId: 533
+  sportklub1.hr:
+    channelId: 62
+  sportklub2.hr:
+    channelId: 63
+  sportklub3.hr:
+    channelId: 296
+  sportklub4.hr:
+    channelId: 240
+  sportklub5.hr:
+    channelId: 241

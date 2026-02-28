@@ -1,0 +1,76 @@
+---
+author: Hristo Genev
+
+date-parameter:
+  format: yyyy-MM-dd
+
+request:
+  url: https://www.btv.bg/programata/?day=${date}  
+  http-timeout: 120
+
+programs:
+  locator: ul.channel-schedule-${channelId} > li
+  
+elements:
+  - name: title
+    locator: .title
+
+  - name: start
+    locator: .time
+
+  - name: detailsUrl
+    locator: a
+    attribute: href
+    operations: 
+      - name: prepend
+        hook: after
+        arguments: [ https://www.btv.bg ]
+        conditions: 
+          - value-not-empty
+          - value-not-contain(http)
+         
+program-details:
+  request:
+    url: ${detailsUrl}/about
+
+  elements:
+    - name: sub-title
+      enabled: false
+      locator: .title-secondary
+      operations:
+        - name: remove
+          hook: before
+          arguments: ['Оригинално заглавие: ']   
+    - name: desc
+      locator: .text-block
+      operations:
+        - name: beautify
+          hook: after
+    - name: icon
+      locator: div.has-image > img
+      attribute: src
+
+      # operations: 
+      #   - name: prepend
+      #     hook: after
+      #     arguments: ['https:']
+      #     conditions: 
+      #       - value-not-empty 
+      #       - value-not-contain(https:)
+
+
+channel-parameters:
+  btv.bg:
+    channelId: btv
+  btvaction.bg:
+    channelId: btv-action
+  btvcinema.bg:
+    channelId: btv-cinema
+  btvcomedy.bg:
+    channelId: btv-comedy
+  btvstory.bg:
+    channelId: btv-story
+  ring.bg:
+    channelId: ring
+  btvinternational.bg:
+    channelId: btv-international

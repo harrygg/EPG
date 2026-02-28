@@ -1,0 +1,49 @@
+author: Hristo Genev
+cache-lifetime: 0.00001
+
+date-parameter:
+  format: yyyyMMdd
+
+request:
+  url: https://bnt.bg/program/${channelId}
+
+programs:
+  locator: .tab-holder-${date} a
+    
+elements:
+  - name: title
+    locator: .name
+    language: bg
+
+  - name: start
+    locator: .hour
+    time-format: H:mm
+
+  - name: icon
+    locator: img
+    attribute: src
+
+  - name: detailsUrl
+    attribute: href
+
+program-details:
+  request:
+    url: ${detailsUrl}
+  elements:
+    - name: desc
+      locator: .under-head
+      operations:
+      - name: beautify
+        hook: after
+
+channel-parameters:
+  bnt1.bg:
+    channelId: bnt1
+  bnt2.bg:
+    channelId: bnt2
+  bnt3.bg:
+    channelId: bnt3
+  bnt4.bg:
+    channelId: bnt4
+
+delay-between-requests: 500

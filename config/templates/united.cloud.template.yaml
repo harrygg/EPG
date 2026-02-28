@@ -1,0 +1,148 @@
+version: 1.0
+author: Hristo Genev
+
+date-parameter:
+  format: epoch
+
+init-pages:
+  - request:
+      url: https://api-web.ug-be.cdn.united.cloud/oauth/token?grant_type=client_credentials
+      http-method: POST
+      headers: 
+        Authorization: Basic MjdlMTFmNWUtODhlMi00OGU0LWJkNDItOGUxNWFiYmM2NmY1OjEyejJzMXJ3bXdhZmsxMGNkdzl0cjloOWFjYjZwdjJoZDhscXZ0aGc=
+        Content-Type: application/x-www-form-urlencoded
+      body-params: 
+        grant_type: client_credentials
+      debug: false
+    elements:
+      - name: token
+        locator-strategy: jsonpath
+        locator: access_token
+        debug: false    
+
+request:
+  url: https://api-web.ug-be.cdn.united.cloud/v1/public/events/epg?cid=${channelId}&fromTime=${date}000&toTime=${date.addDays(1)}999&communityIdentifier=${com_id}&languageId=${lang_id}
+  debug: false
+  headers:
+    Referer: https://sportklub.rs/
+    Authorization: Bearer ${token}
+    X-UCP-TIME-FORMAT: timestamp
+    
+programs:
+  locator-strategy: jsonpath
+  locator: $.*.[:]
+  # debug: true
+
+elements: 
+  - name: title
+    locator: title
+    debug: false
+
+  - name: start
+    locator: startTime
+    time-format: unix
+    # debug: true
+
+  #- name: stop
+  #  locator: endTime
+  #  time-format: unix
+  #  debug: true
+
+  - name: desc
+    locator: shortDescription
+
+
+channel-parameters:
+  sportklub1.rs:
+    channelId: 66
+    com_id: sk_rs
+    lang_id: 404
+  sportklub2.rs:
+    channelId: 67
+    com_id: sk_rs
+    lang_id: 404
+  sportklub3.rs:
+    channelId: 68
+    com_id: sk_rs
+    lang_id: 404
+  sportklub4.rs:
+    channelId: 69
+    com_id: sk_rs
+    lang_id: 404
+  sportklub5.rs:
+    channelId: 70
+    com_id: sk_rs
+    lang_id: 404
+  sportklub6.rs:
+    channelId: 71
+    com_id: sk_rs
+    lang_id: 404
+  sportklub7.rs:
+    channelId: 74
+    com_id: sk_rs
+    lang_id: 404
+  sportklub8.rs:
+    channelId: 75
+    com_id: sk_rs
+    lang_id: 404
+  sportklub9.rs:
+    channelId: 76
+    com_id: sk_rs
+    lang_id: 404
+  sportklub10.rs:
+    channelId: 77
+    com_id: sk_rs
+    lang_id: 404
+  sportklub4k.rs:
+    channelId: 644 
+    com_id: sk_rs
+    lang_id: 404
+  sportklubhd.rs:
+    channelId: 18
+    com_id: sk_rs
+    lang_id: 404
+  sportklubgolf.rs:
+    channelId: 73
+    com_id: sk_rs
+    lang_id: 404
+  sportklubfight.rs:
+    channelId: 72
+    com_id: sk_rs
+    lang_id: 404
+  sportklubesports.rs:
+    channelId: 687
+    com_id: sk_rs
+    lang_id: 404
+  sportklub1.hr:
+    channelId: 556
+    com_id: sk_hr
+    lang_id: 181
+  sportklub2.hr:
+    channelId: 923
+    com_id: sk_hr
+    lang_id: 181
+  sportklub3.hr:
+    channelId: 924
+    com_id: sk_hr
+    lang_id: 181
+  sportklub4.hr:
+    channelId: 925
+    com_id: sk_hr
+    lang_id: 181
+  sportklub5.hr:
+    channelId: 926
+    com_id: sk_hr
+    lang_id: 181
+  sportklub6.hr:
+    channelId: 927
+    com_id: sk_hr
+    lang_id: 181
+  sportklubhd.hr:
+    channelId: 928
+    com_id: sk_hr
+    lang_id: 181
+  sportklub4k.hr:
+    channelId: 644
+    com_id: sk_hr
+    lang_id: 181
+

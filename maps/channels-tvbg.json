@@ -1,0 +1,2361 @@
+{
+	"streams": {
+		"БНТ 1": {
+			"g": "bg"
+		},
+		"BNT1 HD": {
+			"id": "БНТ 1",
+			"g": "bg",
+			"l": "bnt1"
+		},
+		"БНТ1 LQ": {
+			"id": "БНТ 1",
+			"g": "bg",
+			"l": "bnt1"
+		},
+		"БНТ 2": {
+			"g": "bg"
+		},
+		"БНТ2 LQ": {
+			"id": "БНТ 2",
+			"g": "bg"
+		},
+		"BNT World": {
+			"n": "БНТ 4",
+			"id": "БНТ 4",
+			"g": "bg"
+		},
+		"БНТ HD": {
+			"n": "БНТ 3",
+			"id": "БНТ 3",
+			"g": "st"
+		},
+		"БНТ HD в SD": {
+			"id": "БНТ 3",
+			"g": "st",
+			"l": "bnthd"
+		},
+		"bTV": {
+			"g": "bg"
+		},
+		"bTV Action": {
+			"g": "mv"
+		},
+		"bTV Comedy": {
+			"g": "mv"
+		},
+		"bTV Lady": {
+			"g": "mv"
+		},
+		"BTV Lady LQ": {
+			"id": "bTV Lady",
+			"g": "mv"
+		},
+		"RING BG": {
+			"g": "st"
+		},
+		"RING LQ": {
+			"id": "RING BG",
+			"g": "st"
+		},
+		"Nova": {
+			"g": "bg"
+		},
+		"Нова HD": {
+			"id": "Nova",
+			"g": "bg"
+		},
+		"7/8 TV": {
+			"n": "7-8 TV",
+			"id": "78TV",
+			"g": "bg",
+			"l": "78tv"
+		},
+		"7/8 HD": {
+			"n": "7-8 HD",
+			"id": "78TV",
+			"g": "bg",
+			"l": "78tv"
+		},
+		"NOVAsport LQ": {
+			"id": "Nova Sport",
+			"g": "bg"
+		},
+		"KinoNova": {
+			"g": "mv"
+		},
+		"Diema": {
+			"g": "mv"
+		},
+		"Diema Family": {
+			"g": "mv"
+		},
+		"FOX Channel": {
+			"id": "FOX",
+			"g": "mv"
+		},
+		"FOX LQ": {
+			"id": "FOX",
+			"g": "mv"
+		},
+		"FOX HD": {
+			"id": "FOX",
+			"g": "mv"
+		},
+		"FOX Life": {
+			"g": "mv"
+		},
+		"FOX Life HD (es,en)": {
+			"g": "mv",
+			"l": "foxlifehd",
+			"n": "FOX Life HD (es&en)",
+			"id": "FOX Life HD (es&en)"
+		},
+		"FOX (de)": {
+			"g": "mv"
+		},
+		"FOX Crime": {
+			"g": "mv"
+		},
+		"FOX RU": {
+			"g": "ru"
+		},
+		"FOX TR": {
+			"g": "tr"
+		},
+		"TV 1000": {
+			"g": "mv"
+		},
+		"Epic Drama": {
+			"g": "mv"
+		},
+		"DIVA Universal": {
+			"g": "bg"
+		},
+		"AXN": {
+			"g": "mv"
+		},
+		"AXN White": {
+			"g": "mv"
+		},
+		"AXN Black": {
+			"g": "mv"
+		},
+		"Bulgaria on Air": {
+			"g": "bg"
+		},
+		"BIT": {
+			"g": "bg"
+		},
+		"ТВ Европа": {
+			"g": "bg"
+		},
+		"Канал 0": {
+			"g": "bg"
+		},
+		"Канал 3": {
+			"g": "bg"
+		},
+		"Канал 4": {
+			"g": "bg"
+		},
+		"СКАТ": {
+			"g": "bg"
+		},
+		"HMTV": {
+			"g": "mv"
+		},
+		"AMC": {
+			"g": "mv"
+		},
+		"Bloomberg BG": {
+			"g": "bg"
+		},
+		"Viasat HD": {
+			"id": "Viasat HD",
+			"g": "dc"
+		},
+		"Viasat History": {
+			"g": "dc"
+		},
+		"Viasat Nature": {
+			"g": "dc"
+		},
+		"Viasat Explore": {
+			"g": "dc"
+		},
+		"Viasat Explorer": {
+			"id": "Viasat Explore",
+			"g": "dc"
+		},
+		"Discovery Showcase": {
+			"g": "dc"
+		},
+		"Discovery Channel": {
+			"g": "dc"
+		},
+		"Discovery HD": {
+			"id": "Discovery Channel",
+			"g": "dc"
+		},
+		"Discovery LQ": {
+			"id": "Discovery Channel",
+			"g": "dc"
+		},
+		"Discovery Science": {
+			"g": "dc"
+		},
+		"Discovery World": {
+			"g": "dc"
+		},
+		"Animal Planet": {
+			"g": "dc"
+		},
+		"National Geographic": {
+			"g": "dc"
+		},
+		"NatGeo HD": {
+			"id": "National Geographic",
+			"g": "dc"
+		},
+		"NatGeo LQ": {
+			"id": "National Geographic",
+			"g": "dc"
+		},
+		"NatGeo Wild": {
+			"g": "dc"
+		},
+		"History Channel": {
+			"id": "History",
+			"g": "dc"
+		},
+		"History HD": {
+			"id": "History",
+			"g": "dc"
+		},
+		"History 2": {
+			"g": "dc"
+		},
+		"Travel Channel": {
+			"g": "dc"
+		},
+		"Travel HD": {
+			"id": "Travel",
+			"g": "dc",
+			"l": "travelhd"
+		},
+		"Travel HD в SD": {
+			"id": "Travel",
+			"g": "dc",
+			"l": "travelhd"
+		},
+		"Travel TV": {
+			"id": "Travel",
+			"g": "dc"
+		},
+		"TVT Tourism": {
+			"g": "dc"
+		},
+		"DocuBox": {
+			"g": "dc"
+		},
+		"Wild TV": {
+			"g": "dc"
+		},
+		"C&I Networks": {
+			"g": "dc"
+		},
+		"Дестинация BG": {
+			"g": "dc"
+		},
+		"InLife": {
+			"g": "bg"
+		},
+		"Hobby TV": {
+			"g": "bg"
+		},
+		"Hobby LQ": {
+			"id": "Hobby TV",
+			"g": "bg"
+		},
+		"Hobby HD": {
+			"id": "Hobby HD",
+			"g": "bg"
+		},
+		"OutDoor": {
+			"g": "dc"
+		},
+		"BG Лов": {
+			"g": "bg"
+		},
+		"Food Network": {
+			"g": "th"
+		},
+		"Da Vinci Learning": {
+			"g": "dc"
+		},
+		"BBC Earth": {
+			"g": "dc"
+		},
+		"Дартс": {
+			"g": "bg"
+		},
+		"PO TV": {
+			"g": "bg"
+		},
+		"Черно море": {
+			"g": "bg"
+		},
+		"VTV": {
+			"g": "bg"
+		},
+		"BG DNES": {
+			"g": "dc"
+		},
+		"Bulgaria 24": {
+			"g": "bg"
+		},
+		"Varna TV": {
+			"g": "bg"
+		},
+		"Стойчев": {
+			"g": "bg"
+		},
+		"Шумен": {
+			"g": "bg"
+		},
+		"TVN": {
+			"g": "bg"
+		},
+		"Rimex TV": {
+			"g": "bg"
+		},
+		"КИС 13": {
+			"g": "bg"
+		},
+		"БНП ТВ": {
+			"g": "bg"
+		},
+		"Agro TV": {
+			"g": "bg"
+		},
+		"Alfa TV": {
+			"g": "bg"
+		},
+		"Alfa TV (web)": {
+			"g": "bg",
+			"id": "Alfa TV",
+			"l": "alfatv"
+		},
+		"TV1": {
+			"g": "bg"
+		},
+		"100% Auto Moto TV": {
+			"g": "st"
+		},
+		"ВТК": {
+			"g": "bg"
+		},
+		"Евроком": {
+			"g": "bg"
+		},
+		"БХ ТВ": {
+			"g": "bg"
+		},
+		"BHTV": {
+			"g": "bg"
+		},
+		"ПП ТВ": {
+			"g": "bg"
+		},
+		"Pravoslavna TV (web)": {
+			"g": "bg",
+			"id": "ПП ТВ",
+			"l": "pptv"
+		},
+		"The World": {
+			"g": "dc"
+		},
+		"Chasse & Peche": {
+			"g": "dc"
+		},
+		"24 Техно": {
+			"g": "dc"
+		},
+		"Wness": {
+			"g": "th"
+		},
+		"Spark": {
+			"g": "dc"
+		},
+		"ID Xtra": {
+			"g": "dc"
+		},
+		"Insight": {
+			"g": "dc"
+		},
+		"24 Kitchen": {
+			"g": "th"
+		},
+		"Fine Living": {
+			"g": "th"
+		},
+		"Fiesta": {
+			"g": "th"
+		},
+		"TLC": {
+			"g": "mv"
+		},
+		"CBS Drama": {
+			"n": "Sundance TV",
+			"id": "Sundance TV",
+			"g": "mv"
+		},
+		"CBS Reality": {
+			"g": "mv"
+		},
+		"Comedy Central": {
+			"g": "mv"
+		},
+		"Comedy Central HD (es,en)": {
+			"n": "Comedy Central HD (es&en)",
+			"id": "Comedy Central",
+			"g": "mv",
+			"l": "comedycentral"
+		},
+		"English Club": {
+			"g": "bg"
+		},
+		"Moviestar HD": {
+			"id": "Movie Star",
+			"g": "mv"
+		},
+		"Action+": {
+			"g": "mv"
+		},
+		"Comedy+ (тест)": {
+			"n": "Comedy+",
+			"id": "Comedy+",
+			"g": "mv",
+			"l": "comedyplus"
+		},
+		"Comedy+": {
+			"g": "mv"
+		},
+		"V Arena": {
+			"g": "mv"
+		},
+		"HBO": {
+			"g": "mv"
+		},
+		"HBO 2": {
+			"g": "mv"
+		},
+		"HBO 3": {
+			"g": "mv"
+		},
+		"F+": {
+			"g": "st"
+		},
+		"TV+": {
+			"g": "bg"
+		},
+		"MotorVision": {
+			"g": "st"
+		},
+		"Мотоспорт": {
+			"g": "st"
+		},
+		"Sky Bundesliga 1": {
+			"g": "st"
+		},
+		"Fight Network": {
+			"g": "st"
+		},
+		"Fight World": {
+			"g": "st"
+		},
+		"FightBox": {
+			"g": "st"
+		},
+		"B1B Action": {
+			"g": "st"
+		},
+		"Fast and Fun": {
+			"g": "st"
+		},
+		"Supper Tennis": {
+			"g": "st"
+		},
+		"Racing UK": {
+			"g": "st"
+		},
+		"Manchester United": {
+			"g": "st"
+		},
+		"Chelsea TV UK": {
+			"g": "st"
+		},
+		"Liverpool FC TV UK": {
+			"g": "st"
+		},
+		"Sky Folk": {
+			"g": "mu",
+			"n": "Sky Folk"
+		},
+		"Sport 1": {
+      "n": "MAX Sport 1",
+			"id": "MAX Sport 1"
+		},
+		"Sport 2": {
+      "n": "MAX Sport 2",
+			"id": "MAX Sport 2"
+		},
+		"Sport 3": {
+      "n": "MAX Sport 3",
+			"id": "MAX Sport 3"
+		},
+		"Sport 4": {
+      "n": "MAX Sport 4",
+			"id": "MAX Sport 4"
+		},
+		"LIG TV": {
+			"g": "st",
+			"n": "Bein Sports 1 (tr)",
+			"id": "Bein Sports 1 (tr)"
+		},
+		"LIG TV 2": {
+			"g": "st",
+			"n": "Bein Sports 2 (tr)",
+			"id": "Bein Sports 2 (tr)"
+		},
+		"LIG TV 3": {
+			"g": "st",
+			"n": "Bein Sports 3 (tr)",
+			"id": "Bein Sports 3 (tr)"
+		},
+		"Setanta": {
+			"g": "st"
+		},
+		"Motors TV HD": {
+			"id": "Motors UK",
+			"g": "st"
+		},
+		"Motors UK": {
+			"g": "st"
+		},
+		"Fuel TV": {
+			"g": "st"
+		},
+		"Box Nation": {
+			"g": "st"
+		},
+		"LaLiga": {
+			"g": "st"
+		},
+		"Movistar Golf": {
+			"g": "st"
+		},
+		"Movistar Futbol": {
+			"g": "st"
+		},
+		"Movistar Deportes 1": {
+			"g": "st"
+		},
+		"Movistar Deportes 2": {
+			"g": "st"
+		},
+		"Toros TV": {
+			"g": "st"
+		},
+		"Movistar F1": {
+			"g": "st"
+		},
+		"Movistar GP": {
+			"g": "st"
+		},
+		"Матч !Игра": {
+			"g": "st"
+		},
+		"Матч Боец": {
+			"g": "st"
+		},
+		"Матч ТВ": {
+			"id": "Матч! ТВ",
+			"g": "st"
+		},
+		"Матч! ТВ": {
+			"g": "st"
+		},
+		"Матч! Футбол 1": {
+			"g": "st"
+		},
+		"Матч! Футбол 2": {
+			"g": "st"
+		},
+		"Матч! Футбол 3": {
+			"g": "st"
+		},
+		"Футбол 1 HD (Укр)": {
+			"g": "st"
+		},
+		"Футбол 2 HD (Укр)": {
+			"g": "st"
+		},
+		"Наш Футбол": {
+			"g": "st"
+		},
+		"Тест: Наш Футбол": {
+			"n": "Наш Футбол",
+			"id": "Наш Футбол",
+			"g": "st"
+		},
+		"Телеканал КХЛ": {
+			"g": "st"
+		},
+		"Конный Мир": {
+			"g": "st"
+		},
+		"Viasat Golf": {
+			"g": "st"
+		},
+		"AB Moteurs": {
+			"g": "st"
+		},
+		"Tivibu Spor": {
+			"g": "st"
+		},
+		"Sky 1": {
+			"g": "en"
+		},
+		"Sky 2": {
+			"g": "en"
+		},
+		"Sky 3D de": {
+			"g": "de"
+		},
+		"Sky Action": {
+			"g": "en"
+		},
+		"Sky Atlantic": {
+			"g": "de"
+		},
+		"Sky Comedy": {
+			"g": "en"
+		},
+		"Sky Disney": {
+			"g": "en"
+		},
+		"Sky Drama": {
+			"g": "en"
+		},
+		"Sky Family": {
+			"g": "en"
+		},
+		"Sky Hits": {
+			"g": "en"
+		},
+		"Sky Living": {
+			"g": "en"
+		},
+		"Sky Modern Greats": {
+			"g": "mv"
+		},
+		"Sky Premiere": {
+			"g": "mv"
+		},
+		"Sky Premiere +1": {
+			"g": "mv"
+		},
+		"Sky SciFi/Horror": {
+			"n": "Sky SciFi Horror",
+			"g": "mv"
+		},
+		"Sky Select": {
+			"g": "en"
+		},
+		"Sky Thriller": {
+			"g": "mv"
+		},
+		"SyFy UK": {
+			"g": "de"
+		},
+		"SyFy HD": {
+			"id": "SyFy UK",
+			"g": "de"
+		},
+		"Comedy Central UK": {
+			"g": "en"
+		},
+		"True Enternatinment": {
+			"g": "mv"
+		},
+		"True Enternatinment +1": {
+			"g": "mv"
+		},
+		"True Movies 1": {
+			"n": "True Christmas",
+			"id": "True Christmas",
+			"g": "mv"
+		},
+		"True Movies +1": {
+			"n": "True Christmas +1",
+			"id": "True Christmas +1",
+			"g": "mv"
+		},
+		"KIX": {
+			"g": "ki"
+		},
+		"Kix +1": {
+			"g": "ki"
+		},
+		"POP": {
+			"g": "en"
+		},
+		"Pop +1": {
+			"g": "en"
+		},
+		"Tiny Pop": {
+			"g": "ki"
+		},
+		"Tiny Pop +1": {
+			"g": "ki"
+		},
+		"Sony SAB": {
+			"g": "as"
+		},
+		"Sony MAX": {
+			"g": "as"
+		},
+		"ARY QTV": {
+			"g": "as"
+		},
+		"Channel 4": {
+			"g": "en"
+		},
+		"ITV 1": {
+			"g": "en"
+		},
+		"ITV 2": {
+			"g": "en"
+		},
+		"ITV 3": {
+			"g": "en"
+		},
+		"Deutsche Welle": {
+			"g": "nw"
+		},
+		"CNN International": {
+			"g": "nw"
+		},
+		"Euronews": {
+			"g": "nw"
+		},
+		"Bloomberg": {
+			"g": "nw"
+		},
+		"Bloomberg UK HD": {
+			"id": "Bloomberg",
+			"g": "nw"
+		},
+		"Sky News": {
+			"g": "nw"
+		},
+		"BBC 1": {
+			"g": "en"
+		},
+		"BBC 2": {
+			"g": "en"
+		},
+		"BBC 4": {
+			"g": "en"
+		},
+		"BBC Worldnews": {
+			"g": "nw"
+		},
+		"BBC World HD": {
+			"id": "BBC Worldnews",
+			"g": "nw"
+		},
+		"CNBC": {
+			"g": "nw"
+		},
+		"France 24": {
+			"g": "nw"
+		},
+		"Al Jazeera Eng": {
+			"id": "Aljazeera English",
+			"g": "nw"
+		},
+		"Aljazeera English HD": {
+			"id": "Aljazeera English",
+			"g": "nw"
+		},
+		"Al Jazeera Balkans": {
+			"g": "nw"
+		},
+		"CCTV 4": {
+			"g": "nw"
+		},
+		"CCTV News": {
+			"n": "CGTN",
+			"g": "nw"
+		},
+		"CCTV 9 Documentary": {
+			"g": "dc"
+		},
+		"CCTV French": {
+			"n": "CGTN Francais",
+			"g": "fr"
+		},
+		"RT News HD": {
+			"id": "Russia Today",
+			"g": "nw"
+		},
+		"Russia Today": {
+			"g": "nw"
+		},
+		"RT Spanish": {
+			"g": "nw"
+		},
+		"RT Docu": {
+			"g": "dc"
+		},
+		"NHK World": {
+			"g": "nw"
+		},
+		"DTX": {
+			"g": "dc"
+		},
+		"Discovery Turbo": {
+			"g": "dc"
+		},
+		"COLORS": {
+			"g": "as"
+		},
+		"B4U Music": {
+			"g": "mu"
+		},
+		"Bridge": {
+			"g": "mu"
+		},
+		"Landscape": {
+			"g": "mu"
+		},
+		"Kazakh TV": {
+			"g": "as"
+		},
+		"Power TV": {
+			"g": "mu"
+		},
+		"Top Pop TV": {
+			"g": "mu",
+			"l": "kralpop"
+		},
+		"Fishing & Hunting": {
+			"g": "dc"
+		},
+		"BG Info": {
+			"n": "BG Info (GO TV)",
+			"id": "GO TV",
+			"g": "bg"
+		},
+		"GO TV": {
+			"g": "bg"
+		},
+		"M1": {
+			"g": "mu"
+		},
+		"M2": {
+			"g": "mu"
+		},
+		"Vevo": {
+			"g": "mu"
+		},
+		"Djazz": {
+			"g": "mu"
+		},
+		"Brava": {
+			"g": "mu"
+		},
+		"Classica": {
+			"g": "mu"
+		},
+		"Hit Mix Channel": {
+			"g": "mu"
+		},
+		"Balkanika": {
+			"g": "mu"
+		},
+		"Roma TV": {
+			"g": "mu"
+		},
+		"iConcerts": {
+			"g": "mu"
+		},
+		"Mooz Dance": {
+			"g": "mu"
+		},
+		"MTV Dance": {
+			"g": "mu"
+		},
+		"MTV Live": {
+			"g": "mu"
+		},
+		"MTV": {
+			"g": "mu"
+		},
+		"MTV Rocks": {
+			"g": "mu"
+		},
+		"MTV Hits": {
+			"g": "mu"
+		},
+		"VH1": {
+			"g": "mu"
+		},
+		"VH1 Classic": {
+			"g": "mu"
+		},
+		"Chartshow TV": {
+			"g": "mu"
+		},
+		"Chartshow Hits": {
+			"g": "mu"
+		},
+		"Flava": {
+			"g": "mu"
+		},
+		"Scuzz": {
+			"g": "mu"
+		},
+		"The Vault": {
+			"g": "mu"
+		},
+		"Kerrang! TV": {
+			"g": "mu"
+		},
+		"Mezzo": {
+			"g": "mu"
+		},
+		"Mezzo Live": {
+			"g": "mu"
+		},
+		"MM TV": {
+			"g": "mu"
+		},
+		"MCM Top": {
+			"g": "mu"
+		},
+		"Fast&FunBox": {
+			"g": "th"
+		},
+		"Fashion TV": {
+			"g": "th"
+		},
+		"Fashion Television": {
+			"g": "th"
+		},
+		"Fashion One": {
+			"g": "th"
+		},
+		"CodeFashion TV": {
+			"g": "th"
+		},
+		"Fashion": {
+			"id": "Fashion TV",
+			"g": "th"
+		},
+		"FashionBox": {
+			"g": "th"
+		},
+		"F.O. HD": {
+			"id": "F.O. TV",
+			"g": "th"
+		},
+		"F.O. SD": {
+			"id": "F.O. TV",
+			"g": "th"
+		},
+		"F.O. TV": {
+			"g": "th"
+		},
+		"Smash Hits": {
+			"g": "mu"
+		},
+		"Body and Balance": {
+			"g": "th"
+		},
+		"World Fashion": {
+			"g": "th"
+		},
+		"Deluxe Lounge": {
+			"g": "th"
+		},
+		"Luxe": {
+			"g": "th"
+		},
+		"The Voice": {
+			"g": "mu"
+		},
+		"City TV": {
+			"g": "mu"
+		},
+		"City LQ": {
+			"id": "City TV",
+			"g": "mu"
+		},
+		"359TV": {
+			"g": "mu"
+		},
+		"Родина ТВ": {
+			"g": "mu"
+		},
+		"BOX": {
+			"g": "mu"
+		},
+		"Kiss TV": {
+			"g": "mu"
+		},
+		"Juce TV": {
+			"g": "mu"
+		},
+		"Magic TV": {
+			"g": "mu"
+		},
+		"Magic UK": {
+			"g": "mu"
+		},
+		"Планета": {
+			"g": "mu"
+		},
+		"Planeta LQ": {
+			"id": "Планета",
+			"g": "mu"
+		},
+		"Планета HD": {
+			"id": "Планета HD",
+			"g": "mu"
+		},
+		"Планета Фолк": {
+			"g": "mu"
+		},
+		"Planeta Folk LQ": {
+			"id": "Планета Фолк",
+			"g": "mu"
+		},
+		"FEN HD": {
+			"id": "FEN TV",
+			"g": "mu"
+		},
+		"FEN TV": {
+			"g": "mu"
+		},
+		"Fen Folk": {
+			"g": "mu"
+		},
+		"DSTV": {
+			"g": "mu"
+		},
+		"Фолклор ТВ": {
+			"id": "Фолклор",
+			"g": "mu"
+		},
+		"Фолклор HD": {
+			"id": "Фолклор",
+			"g": "mu"
+		},
+		"Тянков ТВ": {
+			"g": "mu",
+			"l": "tyankovtv"
+		},
+		"Тянков HD": {
+			"id": "Тянков ТВ",
+			"g": "mu"
+		},
+		"Тянков Мюзик": {
+			"g": "mu"
+		},
+		"Tiankov Music": {
+			"id": "Тянков Мюзик",
+			"g": "mu"
+		},
+		"Salsa+": {
+			"g": "mu"
+		},
+		"DM Sat": {
+			"g": "mu"
+		},
+		"DM SAT LQ": {
+			"id": "DM Sat",
+			"g": "mu"
+		},
+		"BN Music": {
+			"g": "mu"
+		},
+		"Shanson": {
+			"g": "mu"
+		},
+		"Музыка": {
+			"g": "mu"
+		},
+		"RCK": {
+			"g": "mu"
+		},
+		"Jukebox": {
+			"g": "mu"
+		},
+		"Cartoon Network / TCM": {
+			"n": "Cartoon Network - TCM",
+			"id": "Cartoon Network",
+			"g": "ki"
+		},
+		"CN": {
+			"id": "Cartoon Network",
+			"g": "ki"
+		},
+		"Cartoon Net LQ": {
+			"id": "Cartoon Network",
+			"g": "ki"
+		},
+		"Boomerang": {
+			"g": "ki"
+		},
+		"Fix and Foxi": {
+			"g": "ki"
+		},
+		"eKids": {
+			"g": "ki"
+		},
+		"Nickelodeon": {
+			"g": "ki"
+		},
+		"Nick Jr.": {
+			"g": "ki"
+		},
+		"Kika": {
+			"g": "ki"
+		},
+		"KiKa HD": {
+			"id": "Kika",
+			"g": "ki"
+		},
+		"Baby TV": {
+			"g": "ki"
+		},
+		"Duck TV": {
+			"g": "ki"
+		},
+		"Duck HD": {
+			"id": "Duck TV",
+			"g": "ki"
+		},
+		"Jim Jam": {
+			"g": "ki"
+		},
+		"Smile Of A Child": {
+			"g": "ki"
+		},
+		"Looney Toons": {
+			"g": "ki"
+		},
+		"Tom and Jerry": {
+			"g": "ki"
+		},
+		"Disney Channel": {
+			"g": "ki"
+		},
+		"Disney LQ": {
+			"id": "Disney Channel",
+			"g": "ki"
+		},
+		"Disney Jr.": {
+			"id": "Disney Jr.",
+			"g": "ki"
+		},
+		"Disney Cinemagic": {
+			"g": "ki"
+		},
+		"Disney DE": {
+			"g": "ki"
+		},
+		"Disney RU": {
+			"g": "ki"
+		},
+		"Disney TR": {
+			"g": "ki"
+		},
+		"Карусель": {
+			"g": "ki"
+		},
+		"Карусель RU": {
+			"id": "Карусель",
+			"g": "ki"
+		},
+		"Детский мир": {
+			"g": "ki"
+		},
+		"Детский мир / Телеклуб": {
+			"n": "Детский мир - Телеклуб",
+			"id": "Детский мир",
+			"g": "ki"
+		},
+		"RiC": {
+			"g": "ki"
+		},
+		"Veronica / Disney (NL)": {
+			"n": "Veronica / Disney (NL)",
+			"g": "ki"
+		},
+		"Pink Kids": {
+			"g": "ki"
+		},
+		"TV8 Intl": {
+			"g": "tr"
+		},
+		"TV 8.5": {
+			"g": "tr"
+		},
+		"Cartoon TR": {
+			"g": "tr"
+		},
+		"TRT Cocuk": {
+			"g": "tr"
+		},
+		"Planet Cocuk": {
+			"g": "ki"
+		},
+		"Armenia": {
+			"g": "th"
+		},
+		"Armenia 1": {
+			"id": "Armenia",
+			"g": "th"
+		},
+		"Polonia": {
+			"g": "th"
+		},
+		"Pro TV Intl": {
+			"g": "ro"
+		},
+		"Realitatea TV": {
+			"g": "ro"
+		},
+		"Inedit TV": {
+			"g": "ro"
+		},
+		"Alfa Omega TV": {
+			"g": "ro"
+		},
+		"TV SudEst": {
+			"g": "ro"
+		},
+		"Est TV": {
+			"g": "ro"
+		},
+		"West TV Regional": {
+			"g": "ro"
+		},
+		"Estrada TV": {
+			"g": "mu"
+		},
+		"RTP International": {
+			"g": "th"
+		},
+		"RTP Int": {
+			"id": "RTP International",
+			"g": "th"
+		},
+		"RTVE": {
+			"g": "th"
+		},
+		"TVE": {
+			"g": "th"
+		},
+		"Cosmo HD (es,en)": {
+			"g": "th",
+			"id": "Cosmo HD (es&en)",
+			"n": "Cosmo HD (es&en)"
+		},
+		"SkyIT Cinema Passion": {
+			"g": "it"
+		},
+		"SkyIT Cinema Hits": {
+			"g": "it"
+		},
+		"SkyIT Cinema Family": {
+			"g": "it"
+		},
+		"SkyIT Cinema Cult": {
+			"g": "it"
+		},
+		"SkyIT Cinema Comedy": {
+			"g": "it"
+		},
+		"SkyIT Cinema +1": {
+			"g": "it"
+		},
+		"Discovery IT": {
+			"g": "it"
+		},
+		"Primafila 3": {
+			"g": "it"
+		},
+		"Primafila": {
+			"g": "it"
+		},
+		"Cinema MAX": {
+			"n": "Top Crime",
+			"id": "Top Crime",
+			"g": "it"
+		},
+		"Premium Stories": {
+			"g": "it"
+		},
+		"Premium Cinema Joy": {
+			"g": "it"
+		},
+		"Premium Action  +24": {
+			"g": "it"
+		},
+		"Premium Cinema Energy": {
+			"g": "it"
+		},
+		"Premium Cinema 2 IT": {
+			"g": "it"
+		},
+		"RSI La1": {
+			"g": "it"
+		},
+		"RSI La2": {
+			"g": "it"
+		},
+		"LA 5": {
+			"g": "it"
+		},
+		"DMAX IT": {
+			"g": "it"
+		},
+		"Tagesschau 24": {
+			"g": "de"
+		},
+		"ORF1": {
+			"id": "ORF1",
+			"g": "de"
+		},
+		"ORF2": {
+			"id": "ORF2",
+			"g": "de"
+		},
+		"RTL": {
+			"id": "RTL",
+			"g": "de"
+		},
+		"RTL 2": {
+			"id": "RTL 2",
+			"g": "de"
+		},
+		"RTL II": {
+			"id": "RTL 2",
+			"g": "de"
+		},
+		"RTL Nitro": {
+			"id": "RTL Nitro",
+			"g": "de"
+		},
+		"Super RTL": {
+			"id": "Super RTL",
+			"g": "de"
+		},
+		"Sat.1": {
+			"id": "SAT1",
+			"g": "de"
+		},
+		"SAT1": {
+			"id": "SAT1",
+			"g": "de"
+		},
+		"Sat.1 Gold": {
+			"id": "Sat.1 Gold",
+			"g": "de"
+		},
+		"ProSieben": {
+			"id": "PRO7",
+			"g": "de"
+		},
+		"ProSieben Maxx": {
+			"g": "de"
+		},
+		"PRO7": {
+			"id": "PRO7",
+			"g": "de"
+		},
+		"Kabel Eins": {
+			"g": "de"
+		},
+		"Kabel 1 Doku": {
+			"g": "de"
+		},
+		"Deutsches Musik": {
+			"g": "mu"
+		},
+		"VOX": {
+			"g": "de"
+		},
+		"3sat": {
+			"g": "de"
+		},
+		"Anixe": {
+			"g": "de"
+		},
+		"Tele 5 DE": {
+			"g": "de"
+		},
+		"Sixx": {
+			"g": "de"
+		},
+		"N24": {
+			"g": "de"
+		},
+		"N24 (WELT)": {
+			"id": "N24",
+			"g": "de"
+		},
+		"N24 Doku": {
+			"g": "de"
+		},
+		"WDR": {
+			"g": "de"
+		},
+		"Arte HD": {
+			"id": "Arte DE",
+			"g": "de"
+		},
+		"Arte DE": {
+			"g": "de"
+		},
+		"ARD / Das Erste": {
+			"n": "ARD - Das Erste",
+			"g": "de"
+		},
+		"ARD One": {
+			"g": "de"
+		},
+		"ARD HD": {
+			"id": "ARD One",
+			"g": "de"
+		},
+		"ZDF": {
+			"g": "de"
+		},
+		"ZDF Info": {
+			"g": "de"
+		},
+		"ZDF Neo": {
+			"g": "de"
+		},
+		"ZDF Kultur": {
+			"g": "de"
+		},
+		"Servus": {
+			"g": "de"
+		},
+		"Servus AT": {
+			"g": "de"
+		},
+		"Eins Festival": {
+			"g": "de"
+		},
+		"N-TV": {
+			"g": "de"
+		},
+		"Phoenix": {
+			"g": "de"
+		},
+		"Discovery DE": {
+			"g": "de"
+		},
+		"Nat Geo DE": {
+			"g": "de"
+		},
+		"Natgeo Wild EU": {
+			"g": "de"
+		},
+		"13th Street": {
+			"g": "de"
+		},
+		"TNT Film": {
+			"g": "de"
+		},
+		"TNT Serie": {
+			"g": "de"
+		},
+		"MGM": {
+			"g": "de"
+		},
+		"Eins Plus": {
+			"g": "de"
+		},
+		"SR Fernsehen": {
+			"g": "de"
+		},
+		"DMAX DE": {
+			"g": "de"
+		},
+		"TLC DE": {
+			"g": "de"
+		},
+		"Spiegel Geschichte": {
+			"g": "de"
+		},
+		"Первый канал (EUR)": {
+			"g": "ru"
+		},
+		"Первый канал  (RU)": {
+			"id": "Первый канал",
+			"g": "ru"
+		},
+		"Первый канал HD (RU)": {
+			"id": "Первый канал",
+			"g": "ru"
+		},
+		"CTC Инт.": {
+			"g": "ru"
+		},
+		"Домашний": {
+			"g": "ru"
+		},
+		"СТС Россия": {
+			"id": "CTC Инт.",
+			"g": "ru"
+		},
+		"TVCI Центр": {
+			"g": "ru"
+		},
+		"TVCI Центр Международный": {
+			"g": "ru"
+		},
+		"ТВ Центр Россия": {
+			"g": "ru"
+		},
+		"ТВ Центр Международный": {
+			"g": "ru"
+		},
+		"ТНТ": {
+			"g": "ru"
+		},
+		"RTVi": {
+			"g": "ru"
+		},
+		"Живи": {
+			"g": "ru"
+		},
+		"Спас": {
+			"g": "ru"
+		},
+		"24 Doc": {
+			"g": "ru"
+		},
+		"Охота и рыбалка": {
+			"g": "ru"
+		},
+		"Звезда": {
+			"g": "ru"
+		},
+		"Звезда +2": {
+			"g": "ru"
+		},
+		"Россия 1": {
+			"g": "ru"
+		},
+		"Россия HD": {
+			"id": "Россия 1",
+			"g": "ru"
+		},
+		"TV RUS": {
+			"g": "ru"
+		},
+		"НТВ": {
+			"g": "ru"
+		},
+		"НТВ Мир": {
+			"g": "ru"
+		},
+		"Россия 24": {
+			"g": "ru"
+		},
+		"Россия К": {
+			"g": "ru"
+		},
+		"Канал 5": {
+			"g": "ru"
+		},
+		"ТВ3": {
+			"g": "ru"
+		},
+		"Че": {
+			"g": "ru"
+		},
+		"Наше кино": {
+			"g": "ru"
+		},
+		"РТР Планета": {
+			"g": "ru"
+		},
+		"Дом кино": {
+			"g": "ru"
+		},
+		"Дом Кино Premium HD": {
+			"id": "Дом кино",
+			"g": "ru"
+		},
+		"Время": {
+			"g": "ru"
+		},
+		"Перец": {
+			"g": "ru"
+		},
+		"Телекафе": {
+			"g": "ru"
+		},
+		"Пятница": {
+			"g": "ru"
+		},
+		"Русский Экстрим": {
+			"g": "st"
+		},
+		"Мир ТВ": {
+			"g": "ru"
+		},
+		"MirTv": {
+			"id": "Мир ТВ",
+			"g": "ru"
+		},
+		"ТБН Россия": {
+			"g": "ru"
+		},
+		"Наука 2.0": {
+			"g": "ru"
+		},
+		"Russian Travel Guide": {
+			"g": "ru"
+		},
+		"Russian Travel Giude": {
+			"g": "ru",
+			"id": "Russian Travel Guide",
+			"n": "Russian Travel Guide"
+		},
+		"Ю": {
+			"g": "ru"
+		},
+		"Телеканал 2x2": {
+			"g": "ru"
+		},
+		"Наука": {
+			"g": "ru"
+		},
+		"Еврокино": {
+			"g": "ru"
+		},
+		"Моя Планета": {
+			"g": "ru"
+		},
+		"РЕН ТВ": {
+			"g": "ru"
+		},
+		"TV1000 Мегахит": {
+			"g": "ru"
+		},
+		"TV1000 Премиум": {
+			"g": "ru"
+		},
+		"TV1000 Комеди": {
+			"g": "ru"
+		},
+		"TV1000 Русское кино": {
+			"g": "ru"
+		},
+		"Русский Иллюзион": {
+			"g": "ru"
+		},
+		"Илюзион+": {
+			"g": "ru"
+		},
+		"Интер (Укр)": {
+			"g": "ru"
+		},
+		"UA TV (Укр)": {
+			"g": "ru"
+		},
+		"1+1 (Укр)": {
+			"g": "ru"
+		},
+		"2+2 (Укр)": {
+			"g": "ru"
+		},
+		"ICTV (Укр)": {
+			"g": "ru"
+		},
+		"СТБ (Укр)": {
+			"g": "ru"
+		},
+		"НТН (Укр)": {
+			"g": "ru"
+		},
+		"ТЕТ (Укр)": {
+			"g": "ru"
+		},
+		"Новый (Укр)": {
+			"g": "ru"
+		},
+		"112 (Укр)": {
+			"g": "ru"
+		},
+		"Телеканал новостей 24 (Укр)": {
+			"g": "ru"
+		},
+		"5 канал (Укр)": {
+			"g": "ru",
+			"l": "5kanalurk"
+		},
+		"Тонис (Укр)": {
+			"g": "ru"
+		},
+		"HD Fashion (Укр)": {
+			"id": "HD Fashion (Укр)",
+			"g": "ru"
+		},
+		"ARTE Francais": {
+			"g": "fr"
+		},
+		"Eurochannel": {
+			"g": "fr"
+		},
+		"TF1": {
+			"g": "fr"
+		},
+		"La Une": {
+			"g": "fr"
+		},
+		"La Deux": {
+			"g": "fr"
+		},
+		"La Trois": {
+			"g": "fr"
+		},
+		"Club RTL": {
+			"g": "fr"
+		},
+		"Plug RTL": {
+			"g": "fr"
+		},
+		"RTL TVi": {
+			"g": "fr"
+		},
+		"Animaux": {
+			"g": "fr"
+		},
+		"NT1": {
+			"g": "fr"
+		},
+		"France 24 FR": {
+			"g": "fr"
+		},
+		"AB3": {
+			"g": "fr"
+		},
+		"Toute L'histoire": {
+			"id": "Toute L histoire",
+			"g": "fr"
+		},
+		"RTL 9 HD": {
+			"id": "RTL9 (Fr)",
+			"g": "fr"
+		},
+		"RTL9 (Fr)": {
+			"id": "RTL9 (Fr)",
+			"g": "fr"
+		},
+		"BFM": {
+			"g": "fr"
+		},
+		"BFM Business HD": {
+			"id": "BFM",
+			"g": "fr"
+		},
+		"TV5 Monde": {
+			"g": "fr"
+		},
+		"TV 5 Monde HD": {
+			"id": "TV5 Monde",
+			"g": "fr"
+		},
+		"France 0": {
+			"g": "fr"
+		},
+		"France 2": {
+			"g": "fr"
+		},
+		"France 3": {
+			"g": "fr"
+		},
+		"France 4": {
+			"g": "fr"
+		},
+		"France 5": {
+			"g": "fr"
+		},
+		"Canal Algerie": {
+			"g": "fr"
+		},
+		"Moviemax Premier 1": {
+			"n": "Bein Movies",
+			"id": "Moviemax Premier 1",
+			"g": "tr"
+		},
+		"beIN Box Office 1": {
+			"g": "tr"
+		},
+		"Kanal 7 (tr)": {
+			"g": "tr"
+		},
+		"Salon 1": {
+			"g": "tr"
+		},
+		"Salon 2": {
+			"g": "tr",
+			"id": "Cinestar Vizyon 1",
+			"name": "Cinestar Vizyon 1"
+		},
+		"Salon 3": {
+			"g": "tr"
+		},
+		"Kanal D": {
+			"g": "tr"
+		},
+		"Kanal 3": {
+			"g": "tr",
+			"l": "kanal3tr"
+		},
+		"Rumeli TV": {
+			"g": "tr"
+		},
+		"Yaban TV": {
+			"g": "tr"
+		},
+		"Flash TV": {
+			"g": "tr"
+		},
+		"NTV Spor": {
+			"g": "tr"
+		},
+		"NTV TR": {
+			"g": "tr"
+		},
+		"TRT": {
+			"id": "TRT 1",
+			"g": "tr"
+		},
+		"TRT 1": {
+			"id": "TRT 1",
+			"g": "tr"
+		},
+		"TRT Avaz": {
+			"g": "tr"
+		},
+		"TRT Arapca": {
+			"g": "tr"
+		},
+		"TRT Music": {
+			"g": "tr"
+		},
+		"TRT Haber": {
+			"g": "tr"
+		},
+		"TRT Belgesel": {
+			"g": "tr"
+		},
+		"TRT World": {
+			"g": "tr"
+		},
+		"Minika Cocuk": {
+			"g": "tr"
+		},
+		"Euro D": {
+			"g": "tr"
+		},
+		"A Spor": {
+			"g": "tr"
+		},
+		"Star TV": {
+			"g": "tr"
+		},
+		"Euro Star": {
+			"g": "tr"
+		},
+		"Kardelen": {
+			"g": "tr"
+		},
+		"Abant TV": {
+			"g": "tr"
+		},
+		"GTV Guneydogu TV": {
+			"g": "tr"
+		},
+		"Kanal 26 TR": {
+			"g": "tr"
+		},
+		"TV 8": {
+			"g": "tr"
+		},
+		"TV 8 Intl": {
+			"g": "tr"
+		},
+		"TV8 HD": {
+			"id": "TV 8",
+			"g": "tr"
+		},
+		"Tay TV": {
+			"g": "tr"
+		},
+		"Teve 2": {
+			"g": "tr"
+		},
+		"Show TV": {
+			"g": "tr"
+		},
+		"Show Turk": {
+			"id": "Show TV",
+			"g": "tr"
+		},
+		"Haber Turk": {
+			"g": "tr"
+		},
+		"Planet Turk": {
+			"g": "tr"
+		},
+		"Kanal 5": {
+			"g": "tr"
+		},
+		"A Haber": {
+			"g": "tr"
+		},
+		"ATV": {
+			"g": "tr"
+		},
+		"ATV Avrupa": {
+			"g": "tr"
+		},
+		"Semerkand": {
+			"g": "tr"
+		},
+		"Beyaz TV": {
+			"g": "tr"
+		},
+		"CNN Turk": {
+			"g": "tr"
+		},
+		"NTV Avrupa": {
+			"g": "tr"
+		},
+		"Kanal t": {
+			"g": "tr"
+		},
+		"NR1": {
+			"g": "tr"
+		},
+		"NR1 Turk": {
+			"g": "tr"
+		},
+		"Kral Pop": {
+			"g": "tr"
+		},
+		"Kral TV": {
+			"g": "tr"
+		},
+		"Dream Turk": {
+			"g": "tr"
+		},
+		"Dream TV": {
+			"g": "tr"
+		},
+		"Viva TR": {
+			"g": "tr"
+		},
+		"Planet Mutfak": {
+			"g": "tr"
+		},
+		"Planet Pembe": {
+			"g": "tr"
+		},
+		"Power Turk": {
+			"g": "tr"
+		},
+		"Akilli TV": {
+			"g": "tr"
+		},
+		"TuneBox": {
+			"g": "th"
+		},
+		"Arirang": {
+			"g": "as"
+		},
+		"Zee TV": {
+			"g": "nl"
+		},
+		"Private": {
+			"g": "xx"
+		},
+		"Sexto Senso": {
+			"g": "xx"
+		},
+		"SCT Exotica": {
+			"g": "xx"
+		},
+		"TGirls": {
+			"g": "xx"
+		},
+		"SCT Satisfaction": {
+			"g": "xx"
+		},
+		"Penthouse HD1": {
+			"id": "Penthouse HD1",
+			"g": "xx"
+		},
+		"Penthouse HD2": {
+			"id": "Penthouse HD1",
+			"g": "xx"
+		},
+		"Redlight": {
+			"g": "xx"
+		},
+		"Dorcel TV": {
+			"g": "xx"
+		},
+		"Dorcel HD": {
+			"n": "Dorcel XXX",
+			"id": "Dorcel XXX",
+			"g": "xx"
+		},
+		"Evil Angel": {
+			"g": "xx"
+		},
+		"EroX": {
+			"g": "xx"
+		},
+		"EroXX HD": {
+			"id": "EroXX HD",
+			"g": "xx"
+		},
+		"Hustler TV": {
+			"g": "xx"
+		},
+		"Hustler HD": {
+			"id": "Hustler HD",
+			"g": "xx"
+		},
+		"Brazzers TV": {
+			"g": "xx"
+		},
+		"Dusk!": {
+			"g": "xx"
+		},
+		"SuperOne": {
+			"g": "xx"
+		},
+		"French Lover": {
+			"g": "xx"
+		},
+		"CentoCento": {
+			"g": "xx"
+		},
+		"XXX 4": {
+			"n": "SuperOne",
+			"id": "SuperOne",
+			"g": "xx"
+		},
+		"SCT Teleitalia": {
+			"g": "xx"
+		},
+		"PinkO TV": {
+			"g": "xx"
+		},
+		"SCT Boy & Boy": {
+			"g": "xx"
+		},
+		"Русская Ночь": {
+			"g": "xx"
+		},
+		"Искушение": {
+			"g": "xx"
+		},
+		"Ночной Клуб": {
+			"g": "xx"
+		},
+		"XYMAX": {
+			"g": "xx"
+		},
+		"XYMAX HD 2": {
+			"g": "xx"
+		},
+		"XYMIX": {
+			"g": "xx"
+		},
+		"XYMIX HD 2": {
+			"g": "xx"
+		},
+		"XYPlus": {
+			"g": "xx"
+		},
+		"XYPlus HD 2": {
+			"g": "xx"
+		},
+		"Slovenija 2 TV": {
+			"g": "th"
+		},
+		"Pink-N-Roll": {
+			"id": "Pink-N-Roll",
+			"g": "sr"
+		},
+		"Happy RS": {
+			"g": "sr"
+		},
+		"Jugoton": {
+			"g": "sr"
+		},
+		"Prva RS": {
+			"g": "sr"
+		},
+		"РТС 1": {
+			"g": "sr"
+		},
+		"РТС 2": {
+			"g": "sr"
+		},
+		"РТС 3": {
+			"g": "sr"
+		},
+		"O2 (B92)": {
+			"g": "sr"
+		},
+		"Grand": {
+			"g": "sr"
+		},
+		"Grand 2": {
+			"g": "sr"
+		},
+		"V.I.P. TV": {
+			"g": "mu"
+		},
+		"Hayat Folk": {
+			"g": "sr"
+		},
+		"Сител MK": {
+			"g": "sr"
+		},
+		"MRTV 1": {
+			"g": "sr"
+		},
+		"MRTV 2": {
+			"g": "sr"
+		},
+		"MRTV 3": {
+			"g": "sr"
+		},
+		"Телма MK": {
+			"g": "sr"
+		},
+		"Алфа MK": {
+			"g": "sr"
+		},
+		"Канал 5 MK": {
+			"g": "sr"
+		},
+		"24 Вести MK": {
+			"g": "sr"
+		},
+		"Nova TV MK": {
+			"g": "sr"
+		},
+		"ARY News": {
+			"g": "as"
+		},
+		"and TV": {
+			"g": "as"
+		},
+		"PPV Info": {
+			"id": "PPV Info",
+			"g": "ot"
+		},
+		"PPV 1 (demo)": {
+			"g": "mv"
+		},
+		"PPV 2 (demo)": {
+			"g": "mv"
+		},
+		"PPV 3 (demo)": {
+			"g": "mv"
+		},
+		"PPV 4 (demo)": {
+			"g": "mv"
+		},
+		"PPV 5 (demo)": {
+			"g": "mv"
+		},
+		"PPV 6 (demo)": {
+			"g": "mv"
+		},
+		"Algerie 3": {
+			"g": "fr"
+		},
+		"CGTN": {
+			"g": "th"
+		},
+		"Star Gold": {
+			"g": "as"
+		},
+		"Star Plus": {
+			"g": "as"
+		},
+		"Star Life OK": {
+			"g": "as"
+		},
+		"Rishtey": {
+			"g": "as"
+		},
+		"Sikh Channel": {
+			"g": "as"
+		},
+		"Sangat": {
+			"g": "as"
+		},
+		"Georgia 1 TV": {
+			"g": "ru"
+		},
+		"ERT World": {
+			"g": "gr"
+		},
+		"EPT HD": {
+			"id": "EPT HD",
+			"g": "gr"
+		},
+		"EPT 1": {
+			"g": "gr"
+		},
+		"EPT 2": {
+			"g": "gr"
+		},
+		"EPT 3": {
+			"g": "gr"
+		},
+		"SKAI": {
+			"g": "gr"
+		},
+		"ANT1": {
+			"g": "gr"
+		},
+		"Alpha GR": {
+			"g": "gr"
+		},
+		"Star GR": {
+			"g": "gr"
+		},
+		"E Channel GR": {
+			"g": "gr"
+		},
+		"M.TV": {
+			"g": "gr",
+			"l": "makedoniatv"
+		},
+		"ART": {
+			"g": "gr"
+		},
+		"Mega": {
+			"g": "gr"
+		},
+		"BNT1 +1": {
+			"g": "bg"
+		},
+		"BTV +1": {
+			"g": "bg"
+		},
+		"BTV Comedy +1": {
+			"g": "mv"
+		},
+		"Nova +1": {
+			"g": "bg"
+		},
+		"HBO +1": {
+			"g": "mv"
+		},
+		"БНТ HD +1": {
+			"id": "БНТ HD +1",
+			"g": "st"
+		},
+		"BNT1 +2": {
+			"g": "bg"
+		},
+		"BTV +2": {
+			"g": "bg"
+		},
+		"Nova +2": {
+			"g": "bg"
+		},
+		"BNT1 +7": {
+			"g": "bg"
+		},
+		"BTV +7": {
+			"g": "bg"
+		},
+		"Nova +7": {
+			"g": "bg"
+		},
+		"БНТ HD +12": {
+			"id": "БНТ HD +12",
+			"g": "bg"
+		},
+		"BNT1 +24": {
+			"g": "bg"
+		},
+		"BTV +24": {
+			"g": "bg"
+		},
+		"Nova +24": {
+			"g": "bg"
+		},
+		"BNT1 +48": {
+			"g": "bg"
+		},
+		"BTV +48": {
+			"g": "bg"
+		},
+		"Nova +48": {
+			"g": "bg"
+		}
+	},
+	"groups": {
+		"bg": "Български",
+		"en": "Английски",
+		"mv": "Филми",
+		"st": "Спортни",
+		"dc": "Документални",
+		"th": "Тематични",
+		"de": "Немски",
+		"as": "Азиатски",
+		"nw": "Новини",
+		"mu": "Музикални",
+		"ki": "Детски",
+		"it": "Италиански",
+		"tr": "Турски",
+		"ru": "Руски",
+		"fr": "Френски",
+		"nl": "Холандски",
+		"xx": "Възрастни",
+		"gr": "Гръцки",
+		"ot": "Други",
+		"sr": "Сръбски",
+		"ro": "Румънски"
+	},
+	"revision": "1",
+	"date": "20180910"
+}

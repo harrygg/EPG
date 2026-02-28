@@ -1,0 +1,135 @@
+author: Hristo Genev
+
+date-parameter:
+  format: dddd
+  culture: bg-BG
+
+request:
+  debug: false
+  url: https://www.xn----8sbafg9clhjcp.bg/tv/${channelId}/${date.capitalize()}
+
+programs:
+  locator: .programTable > tbody > tr
+  exclude-first: 1
+  exclude-last: 0
+    
+elements:
+  - name: start
+    time-format: HH:mm
+    locator: .programTime
+
+  - name: title
+    language: bg
+    locator: td > a
+    operations:
+      - name: beautify
+        hook: after
+
+  - name: detailsUrl
+    debug: false
+    locator: td > a
+    attribute: href
+
+program-details:
+  enabled: ${programDetailsEnabled}
+  request: 
+    url: https://www.xn----8sbafg9clhjcp.bg/predavane${detailsUrl}
+
+  elements:
+    - name: desc
+      locator: .filmInfo
+      debug: false
+      operations:
+      - name: beautify
+        hook: after
+
+timeouts:
+  between-requests: 1
+
+global-parameters:
+  programDetailsEnabled: false
+
+channel-parameters: 
+  theworld.bg:
+    channelId: the-world
+  moviestar.bg:
+    channelId: moviestar
+    programDetailsEnabled: true
+  cinemania.bg:
+    channelId: cinemania
+    programDetailsEnabled: true
+  epicdrama.bg:
+    channelId: epic-drama
+  axn.bg:
+    channelId: axn
+  hbo.bg:
+    channelId: hbo
+  hbo2.bg:
+    channelId: hbo-comedy
+  hbo3.bg:
+    channelId: hbo-3
+  cinemax1.bg:
+    channelId: cinemax
+  cinemax2.bg:
+    channelId: cinemax-2
+  hobbytv.bg:
+    channelId: hobi
+  docubox.spiintl.com:
+    channelId: docubox
+  hgtv.com:
+    channelId: hgtv
+  cartoonito.bg:
+    channelId: cartoonito
+  filmboxstars.com:
+    channelId: filmbox-stars
+    programDetailsEnabled: true
+  filmboxextras.com:
+    channelId: filmbox-extras
+    programDetailsEnabled: true
+  filmbox.com:
+    channelId: filmbox
+    programDetailsEnabled: true
+  tlc.bg:
+    channelId: tlc
+  travelchannel.bg:
+    channelId: travel-channel
+  nickelodeon.tv:
+    channelId: nickelodeon
+  nicktoons.tv:
+    channelId: nicktoons
+  nick.tv:
+    channelId: nick-jr
+  disneychannel.bg:
+    channelId: disney
+  cartoonnetwork.tv:
+    channelId: cartoon-network
+  thevoice.bg:
+    channelId: the-voice
+  mezzo.tv:
+    channelId: mezzo
+  planetatv.bg:
+    channelId: planeta
+  ekids.bg:
+    channelId: ekids
+  discoverychannel.bg:
+    channelId: discovery
+  investigationdiscovery.bg:
+    channelId: id
+  investigationdiscoveryextra.bg:
+    channelId: id-xtra
+  historytv.com:
+    channelId: history
+  btvstory.bg:
+    channelId: btv-story
+  btvcinema.bg:
+    channelId: btv-cinema
+  btvaction.bg:
+    channelId: btv-action
+  tv1.bg:
+    channelId: tv1
+  nostalgia.bg:
+    channelId: nostalgia
+  vivacomarena.bg:
+    channelId: vivacom-arena
+  foodnetwork.com:
+    channelId: food-network

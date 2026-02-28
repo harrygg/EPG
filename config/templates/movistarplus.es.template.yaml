@@ -1,0 +1,51 @@
+---
+version: 1.0
+author: Hristo Genev
+timezone: Europe/Madrid
+
+date-parameter:
+  format: yyyy-MM-dd
+
+request:
+  url: https://www.movistarplus.es/programacion-tv/${channelId}/${date}
+  debug: false
+  operations: 
+    - name: remove-before
+      hook: after
+      # Remove the text before the second occurance of the script tag, remove the script tag as well
+      arguments: [ "<script type=\"application/ld+json\">", true, 2]
+    - name: remove-after
+      hook: after
+      # Remove the text before the first occurance of the closing script tag, remove the closing script tag as well
+      arguments: [ "</script>", true]
+    
+programs:
+  debug: true
+  locator-strategy: jsonpath
+  locator: $.itemListElement[:]
+
+elements:
+  - name: start
+    locator: item.startDate
+    time-format: o
+  - name: title  
+    locator: item.name
+  - name: stop
+    locator: item.endDate
+    time-format: o
+      
+channel-parameters:
+  tve.es:
+    channelId: TVE
+  movistardeportes2.es:
+    channelId: ARTHUR
+  ligadecampeones.mplus.es:
+    channelId: CHAPIO
+  deportes.mplus.es:
+    channelId: CPDEP
+  telesur.es:
+    channelId: TLESUR
+  movistargolf.es:
+    channelId: GOLF+
+  cgtndocumentary.cn:
+    channelId: CGTND

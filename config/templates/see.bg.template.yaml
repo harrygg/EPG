@@ -1,0 +1,32 @@
+---
+version: 1.0
+author: Hristo Genev
+
+date-parameter:
+  format: list
+  list: [ 0,1,2,3,4,5,6 ]
+
+week-overflow: false
+
+request:
+  url: https://see.bg/tv-programa
+
+programs:
+  locator: '#sched-${date} div'
+
+elements:
+
+  - name: start
+    locator: .time
+
+  - name: subtitle
+    locator: .content
+
+  - name: title
+    locator: .title    
+    operations:
+      - name: append
+        hook: after
+        arguments: [ ' - ${subtitle}' ]
+        conditions: [ argument-not-empty ]
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>EPG Статистика</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h3 {
+      color: #444;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #eef;
+    }
+
+    td:first-child {
+      font-weight: bold;
+    }
+
+    #channels h2, #grabbers h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+  </style>
+  <script src="report.js" type="text/javascript"></script>
+  <script>
+    window.onload = () => {
+      document.getElementById("startTime").innerText = startTime;
+      document.getElementById("endTime").innerText = endTime;
+      document.getElementById("totalDuration").innerText = totalDuration;
+
+      const channelsTableElement = document.getElementById("channels");
+      let programsWithEpg = 0;
+      let programsWithoutEpg = 0;
+      let n = 0;
+
+      channels.forEach(channel => {
+        n++;
+        const row = document.createElement("tr");
+
+        const numberTd = document.createElement("td");
+        numberTd.innerText = n;
+        row.appendChild(numberTd);
+
+        const nameTd = document.createElement("td");
+        nameTd.innerText = channel.ChannelName;
+        nameTd.style.fontWeight = "bold";
+        nameTd.style.fontFamily = "Verdana";
+        row.appendChild(nameTd);
+
+        const totalProgramsTd = document.createElement("td");
+        row.appendChild(totalProgramsTd);
+
+        const hasDetailsTd = document.createElement("td");
+        hasDetailsTd.innerHTML = channel.HasDetails ? "✅" : "";
+        row.appendChild(hasDetailsTd);
+
+        const durationTd = document.createElement("td");
+        durationTd.innerText = channel.Duration;
+        row.appendChild(durationTd);
+
+        let totalPrograms = 0;
+        for (let i = 0; i < 5; i++) {
+          const grabberTd = document.createElement("td");
+          if (i < channel.GrabbersList.length) {
+            const grabber = channel.GrabbersList[i];
+            totalPrograms += grabber.ProgramsCount;
+            grabberTd.innerText = `${grabber.GrabberId}: ${grabber.ProgramsCount}, ${grabber.Duration}`;
+          } else {
+            grabberTd.innerText = "0";
+          }
+          row.appendChild(grabberTd);
+        }
+
+        totalProgramsTd.innerText = totalPrograms;
+
+        if (totalPrograms > 0) {
+          programsWithEpg++;
+        } else {
+          programsWithoutEpg++;
+          nameTd.style.color = "red";
+          totalProgramsTd.style.color = "red";
+        }
+
+        channelsTableElement.appendChild(row);
+      });
+
+      document.getElementById("programsWithEpg").innerText = programsWithEpg;
+      document.getElementById("programsWithoutEpg").innerText = programsWithoutEpg;
+
+      const grabbers = {};
+      channels.forEach(channel => {
+        channel.GrabbersList.forEach(grabber => {
+          if (grabber.GrabberId in grabbers) {
+            grabbers[grabber.GrabberId].totalPrograms += grabber.ProgramsCount;
+            grabbers[grabber.GrabberId].usedInChannels += 1;
+            grabbers[grabber.GrabberId].totalDuration += grabber.DurationInMs;
+          } else {
+            grabbers[grabber.GrabberId] = {
+              totalPrograms: grabber.ProgramsCount,
+              usedInChannels: 1,
+              totalDuration: grabber.DurationInMs
+            };
+          }
+        });
+      });
+
+      const grabbersTableElement = document.getElementById("grabbers");
+      for (const [grabberId, data] of Object.entries(grabbers)) {
+        const row = document.createElement("tr");
+
+        const nameTd = document.createElement("td");
+        nameTd.innerText = grabberId;
+
+        const usageTd = document.createElement("td");
+        usageTd.innerText = data.usedInChannels;
+
+        const programsTd = document.createElement("td");
+        programsTd.innerText = data.totalPrograms;
+
+        const durationTd = document.createElement("td");
+        durationTd.innerText = new Date(data.totalDuration).toISOString().substr(11, 8);
+
+        if (data.totalPrograms === 0) {
+          nameTd.style.color = "red";
+          usageTd.style.color = "red";
+          programsTd.style.color = "red";
+        }
+
+        row.appendChild(nameTd);
+        row.appendChild(usageTd);
+        row.appendChild(programsTd);
+        row.appendChild(durationTd);
+
+        grabbersTableElement.appendChild(row);
+      }
+    };
+  </script>
+</head>
+<body>
+  <h3>Статистика за процеса по събиране на разписанието</h3>
+  <div>
+    Начало: <span id="startTime"></span><br>
+    Край: <span id="endTime"></span><br>
+    Продължителност: <span id="totalDuration"></span><br>
+    Канали с разписание: <span id="programsWithEpg"></span><br>
+    Канали без разписание: <span id="programsWithoutEpg"></span>
+  </div>
+
+
+    <h3>Линкове за сваляне на програмния справочник: </h3>
+  <p>
+  Всички канали: <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/all-3days.full.epg.xml.gz">3 дневно, с всички възможни детайли</a> | <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/all-3days.details.epg.xml.gz">3 дневно, само с описание</a> | <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/all-3days.basic.epg.xml.gz">3 дневно, без детайли</a> | <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/all-2days.full.epg.xml.gz">2 дневно, с всички детайли</a>| <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/all-2days.full.epg.xml.gz">2 дневно, без детайли</a><br>
+   TiVi.bg: <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/tivibg.xml.gz">3 дневно, с всички възможни детайли</a><br>
+    A1: <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/a1.xml.gz">3 дневно, с всички възможни детайли</a><br>
+    Vivacom: <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/vivacom.xml.gz">3 дневно, с всички възможни детайли</a><br>
+	
+    Всички български канали <a href="https://github.com/harrygg/EPG/raw/refs/heads/master/bulgarian.3days.full.epg.xml.gz">3 дневно, с всички възможни детайли</a><br>
+    Всички спортни канали: <a href="https://raw.githubusercontent.com/harrygg/EPG/refs/heads/master/sport.epg.xml">3 дневно, с всички възможни детайли</a><br>
+  </p>
+
+  <h3>Списък на каналите</h3>
+  <table id="channels">
+    <thead>
+      <tr>
+        <th rowspan="2">#</th>
+        <th rowspan="2">Име на канал</th>
+        <th rowspan="2">Брой програми</th>
+        <th rowspan="2">Програми с детайли</th>
+        <th rowspan="2">Времетраене на събирането</th>
+        <th colspan="5">Брой опити</th>
+      </tr>
+      <tr>
+        <th>#1</th>
+        <th>#2</th>
+        <th>#3</th>
+        <th>#4</th>
+        <th>#5</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <hr>
+
+  <h3>Източници на програми</h3>
+  <table id="grabbers">
+    <thead>
+      <tr>
+        <th>Име на източник</th>
+        <th>Използван за брой канали</th>
+        <th>Брой програми</th>
+        <th>Брой използвания</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body>
+</html>

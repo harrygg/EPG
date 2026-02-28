@@ -1,0 +1,104 @@
+---
+author: Hristo Genev
+culture: bg-BG
+
+date-parameter:
+  format: yyyy-MM
+
+request: 
+  url: http://exports.pawa.tv/viasat/${channelNameEncoded}/Bulgarian/${date}-${channelNameEncoded}-EET.xml
+  cache-lifetime: 3
+    
+programs: 
+  locator: day[date='${date.format(yyyy-MM-dd)}'] > program
+    
+elements: 
+  - name: start
+    locator: startTime
+
+  - name: episodeTitle
+    locator: episodetitle
+
+  - name: season
+    locator: season
+    
+  - name: episode
+    locator: episode 
+
+  - name: title
+    locator: name 
+    operations: 
+      - name: append
+        arguments: [ ':' ]
+        hook: after
+      - name: append
+        arguments: [ '${episodeTitle}. ' ] 
+        hook: after
+      - name: append
+        arguments: [ 'Сезон: ${season} Епизод: ${episode}' ]
+        hook: after
+          
+  - name: synopsisThisEpisode
+    locator: synopsisThisEpisode 
+    operations:   
+      - name: prepend
+        hook: after
+        arguments: [В този епизод:]
+        conditions: ['value-not-empty']
+          
+  - name: bline
+    locator: bline
+    operations: 
+      - name: append
+        hook: after
+        arguments: [ '\n' ]
+        conditions: ['value-not-empty']
+            
+  - name: desc
+    locator: synopsis
+    operations: 
+      - name: prepend
+        hook: after
+        arguments: [ '${bline}' ]
+        conditions: 
+          - argument-not-empty
+            
+      - name: append
+        hook: after
+        arguments: [ '\n' ]
+        conditions:  
+          - value-not-empty 
+
+      - name: append
+        hook: after
+        arguments: [ '${synopsisThisEpisode}' ]
+ 
+  - name: actor
+    locator: castmember
+
+  - name: director
+    locator: director
+        
+  - name: icon
+    locator: cropped
+    attribute: src
+
+channel-parameters:
+  epicdrama.bg:
+    channelNameEncoded: Epic%20Drama%20(CEE)
+    channelName: EpicDrama(CEE)
+  explore.viasat.bg:
+    channelNameEncoded: Viasat%20Explore%20CEE
+    channelName: ViasatExploreCEE
+  history.viasat.bg:
+    channelNameEncoded: Viasat%20History%20CEE
+    channelName: ViasatHistoryCEE
+  nature.viasat.bg:
+    channelNameEncoded: Viasat%20Nature%20CEE
+    channelName: ViasatNatureCEE
+  kino.viasat.bg:
+    channelNameEncoded: Viasat%20Kino%20Balkan
+    channelName: Viasat%20Kino%20Balkan
+  truecrime.viasat.bg:
+    channelNameEncoded: Viasat%20True%20Crime%20CEE
+    channelName: Viasat%20True%20Crime%20CEE

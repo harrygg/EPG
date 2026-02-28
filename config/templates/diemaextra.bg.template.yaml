@@ -1,0 +1,84 @@
+---
+version: 1.0
+author: Hristo Genev
+
+date-parameter:
+  format: yyyy-MM-dd
+
+init-pages:
+  - request:
+      debug: true
+      http-method: POST
+      url: https://nbg-api.fite.tv/api/v2/auth/registerClient
+      headers:
+        x-flipps-user-agent: Flipps/78/10.7
+        x-flipps-version: 2022-05-18
+        content-type: application/json
+    elements:
+      - name: client_id
+        debug: false        
+        locator: client_id        
+        operations:
+          - name: append
+            hook: after
+            arguments: [":"]
+          - name: base64encode
+            hook: after
+
+  - request:
+      debug: true
+      http-method: POST
+      url: https://nbg-api.fite.tv/api/v2/auth/authorizeAnonymous
+      headers:
+          x-flipps-user-agent: Flipps/78/10.7
+          x-flipps-version: 2022-05-18
+          authorization: Basic ${client_id}
+    elements:
+      - name: access_token
+        debug: true
+        locator-strategy: jsonpath
+        locator: access_token
+
+request:
+  debug: false
+  url: https://nbg-api.fite.tv/api/v2/videos/${channelId}/epg?from_dt=${date}T00:00:00.000Z&to_dt=${date.addDays(5)}T22:00:00.000Z
+  headers:
+    authorization: Bearer ${access_token}
+    x-flipps-user-agent: Flipps/78/10.7
+    x-flipps-version: 2022-05-18
+
+programs:
+  debug: false
+  locator-strategy: jsonpath
+  locator: programs[:]
+
+elements:
+  - name: start
+    locator: start_time
+    time-format: o
+
+  - name: _desc
+    locator: description
+    operations: 
+      - name: prepend
+        hook: after
+        arguments: [ ", " ]
+        conditions: [ value-not-empty ]
+
+  - name: title
+    locator: title
+    operations:
+      - name: append
+        hook: after
+        arguments: [ "${_desc}" ]
+        conditions: [ argument-not-empty ]
+
+channel-parameters:
+  diemasport.bg: 
+    channelId: 543496
+  diemasport2.bg: 
+    channelId: 543497
+  diemasport3.bg: 
+    channelId: 546630
+  fightclub.diemasport.bg: 
+    channelId: 624910

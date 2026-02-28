@@ -1,0 +1,45 @@
+---
+version: 1.1
+author: Hristo Genev
+timezone: Europe/London
+
+date-parameter:
+  format: yyyy-MM-dd
+
+request:
+  url: https://www.tvguide.co.uk/channel/${channelId}?date=${date}
+  debug: true
+
+programs:
+  locator: div.js-schedule
+  
+
+elements:
+  - name: start
+    attribute: data-date
+    time-format: o
+
+  - name: title  
+    locator: a
+    debug: false
+      
+  - name: desc
+    locator: .md\:block
+    enabled: true
+    debug: false
+  
+  - name: icon
+    locator: img
+    attribute: src
+    enabled: true
+    debug: false
+
+channel-parameters:
+  euronews.com:
+    channelId: euronews
+  bbcworldnews.com:
+    channelId: bbc-news
+  discoveryscience.com:
+    channelId: discovery-science
+  travelxp.com:
+    channelId: travelxp

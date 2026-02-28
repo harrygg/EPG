@@ -1,0 +1,36 @@
+---
+version: 1.0
+author: Hristo Genev
+timezone: Europe/Moscow
+
+request:
+  url: https://playouts.bbox.bulsat.com/epg
+
+programs:
+  debug: true
+  locator-strategy: jsonpath
+  locator: $.${channelId}[:]
+    
+elements:
+  - name: start
+    locator: starttime
+    time-format: epoch
+
+  - name: stop
+    locator: endtime
+    time-format: epoch
+    
+  - name: title
+    language: bg
+    locator: label
+
+  - name: desc
+    locator: shortdescription
+
+channel-parameters:    
+  cine.box:
+    channelId: Cinebox
+  action.box:
+    channelId: Actionbox
+  comedy.box:
+    channelId: Comedybox

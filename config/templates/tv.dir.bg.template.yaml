@@ -1,0 +1,278 @@
+---
+author: Hristo Genev
+enabled: true
+
+date-parameter:
+  format: yyyy-MM-dd
+
+### Make this call before anything else to get the required token
+init-pages:
+  - request: 
+      url: https://tv.dir.bg/init?article_id=
+    elements:
+      - name: token
+        locator-strategy: jsonpath
+        locator: csrfToken
+        debug: true    
+
+### Now we have the token, we can do post
+request:
+  url: https://tv.dir.bg/load/programs
+  http-method: POST
+  debug: false
+  body-params: 
+    _token: ${token}
+    channel: ${channelId}
+    day: ${date}
+  headers: 
+    x-requested-with: XMLHttpRequest
+    Content-Type: application/x-www-form-urlencoded
+  operations:
+    - name: regex-remove
+      hook: after
+      arguments: [ "(<img.*?>)" ]
+    - name: regex-remove
+      hook: after
+      arguments: [ "({\"status\":true,\"html\":\")" ]
+    - name: regex-remove
+      hook: after
+      arguments: [ "(\"})" ]
+    - name: regex-unescape
+      hook: after
+
+programs:
+  locator: .panels .panel:nth-of-type(n+2) .broadcast-item
+  debug: false
+
+elements:
+  - name: start
+    debug: false
+    locator: .broadcast-time
+    operations: 
+    - name: regex-extract
+      hook: after
+      arguments: [ "\\d\\d\\:\\d\\d" ]
+
+  - name: title
+    language: bg
+    locator: .broadcast-title
+    operations:
+      - name: beautify
+        hook: after
+
+channel-parameters: 
+  bnt1.bg:
+    channelId: 57
+  btv.bg:
+    channelId: 61
+  nova.bg:
+    channelId: 60
+  diema.bg:
+    channelId: 63
+  novanews.bg:
+    channelId: 85
+  btvaction.bg:
+    channelId: 95
+  bgonair.bg:
+    channelId: 100
+  btvcinema.bg:
+    channelId: 58
+  maxsport1.bg:
+    channelId: 41
+  maxsport2.bg:
+    channelId: 56
+  maxsport3.bg:
+    channelId: 28
+  maxsport4.bg:
+    channelId: 12
+  kinonova.bg:
+    channelId: 86
+  diemafamily.bg:
+    channelId: 90
+  fox.bg:
+    channelId: 69
+  foxlife.bg:
+    channelId: 30
+  foxcrime.bg:
+    channelId: 3
+  novasport.bg:
+    channelId: 62
+  btvcomedy.bg:
+    channelId: 81
+  btvstory.bg:
+    channelId: 74
+  tvevropa.bg:
+    channelId: 91
+  natgeo.bg:
+    channelId: 83
+  natgeowild.bg:
+    channelId: 8
+  discoverychannel.bg:
+    channelId: 4
+  animalplanet.bg:
+    channelId: 23
+  bloombergtv.bg:
+    channelId: 65
+  evrokom.bg:
+    channelId: 66
+  ring.bg:
+    channelId: 59
+  hbo.bg:
+    channelId: 42
+  hbo2.bg:
+    channelId: 17
+  hbo3.bg:
+    channelId: 15
+  cinemax1.bg:
+    channelId: 21
+  cinemax2.bg:
+    channelId: 14
+  kino.viasat.bg:
+    channelId: 32
+  moviestar.bg:
+    channelId: 2
+  epicdrama.bg:
+    channelId: 45
+  axn.bg:
+    channelId: 92
+  axnwhite.bg:
+    channelId: 36
+  axnblack.bg:
+    channelId: 43
+  skyshowtime1.com:
+    channelId: 53
+  skyshowtime2.com:
+    channelId: 52
+  dizi.bg:
+    channelId: 20
+  filmboxextra.com:
+    channelId: 34
+  filmboxstars.com:
+    channelId: 35
+  filmbox.com:
+    channelId: 18
+  nostalgia.bg:
+    channelId: 26
+  cinemania.bg:
+    channelId: 54
+  vivacomarena.bg:
+    channelId: 44
+  cinestar.hr:
+    channelId: 29
+  cinestaraction.hr:
+    channelId: 33
+  24kitchen.bg:
+    channelId: 96
+  foodnetwork.com:
+    channelId: 40
+  travelchannel.bg:
+    channelId: 72
+  tlc.bg:
+    channelId: 19
+  hgtv.com:
+    channelId: 22
+  codefashion.bg:
+    channelId: 10
+  sedemosmi.tv:
+    channelId: 98
+  codehealth.bg:
+    channelId: 11
+  baby.tv:
+    channelId: 79
+  nick.tv:
+    channelId: 97
+  duck.tv:
+    channelId: 87
+  disneychannel.bg:
+    channelId: 70
+  nickelodeon.tv:
+    channelId: 78
+  cartoonnetwork.tv:
+    channelId: 84
+  nicktoons.tv:
+    channelId: 94
+  supertoons.bg:
+    channelId: 27
+  cartoonito.bg:
+    channelId: 80
+  bnt2.bg:
+    channelId: 99
+  bnt3.bg:
+    channelId: 82
+  bnt4.bg:
+    channelId: 64
+  eurosport1.bg:
+    channelId: 67
+  eurosport2.bg:
+    channelId: 50
+  eurosport4k.bg:
+    channelId: 37
+  diemasport1.bg:
+    channelId: 16
+  diemasport2.bg:
+    channelId: 31
+  diemasport3.bg:
+    channelId: 51
+  fightklub.diemasport.bg:
+    channelId: 24
+  historytv.com:
+    channelId: 38
+  historychannel2.com:
+    channelId: 39
+  history.viasat.bg:
+    channelId: 68
+  explore.viasat.bg:
+    channelId: 73
+  nature.viasat.bg:
+    channelId: 77
+  truecrime.viasat.bg:
+    channelId: 89
+  lovenature.com:
+    channelId: 93
+  crimeinvestigation.bg:
+    channelId: 48
+  investigationdiscovery.bg:
+    channelId: 55
+  skat.bg:
+    channelId: 5
+  kanal3.bg:
+    channelId: 13
+  kanal4.bg:
+    channelId: 76
+  tv1.bg:
+    channelId: 71
+  bbcworldnews.com:
+    channelId: 49
+  euronews.com:
+    channelId: 46
+  deutschewelle.de:
+    channelId: 7
+  rtl.de:
+    channelId: 6
+  france24.fr:
+    channelId: 1
+  aljazeera.com:
+    channelId: 9
+  cnninternational.com:
+    channelId: 47
+  mtveurope.com:
+    channelId: 25
+  thevoice.bg:
+    channelId: 88
+  magictv.bg:
+    channelId: 75
+
+# Used for extracting channel names and params from a page 
+# containing the list of available channels
+channel-extract-rules:
+ url: https://tv.dir.bg/channels
+ channel-name: 
+   locator: .channel_link img
+   property: alt
+ channel-param:
+   locator: .channel_link
+   attribute: href
+   # TODO: Unsupported yet
+   # operations:
+   #   - name: remove
+   #     arguments: [ /programa/ ]
