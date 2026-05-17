@@ -3177,6 +3177,7 @@
 - id: fishingandhunting.tv
   enabled: true
   name: Fishing and Hunting
+  days-ahead: 7
   groups: ["tivi.bg", "vivacom", "а1"]
   sources:
   - tv-programa.bg
