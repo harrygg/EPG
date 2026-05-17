@@ -9,10 +9,10 @@ APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$APP_DIR"
 
 # Define the path to the executable
-EXE_PATH="$APP_DIR/bin/app.dll"
+EXE_PATH="$APP_DIR/bin/App.dll"
 
 # Execute the application with arguments
-#dotnet "$EXE_PATH" grab -f "$APP_DIR/config" -o "$APP_DIR" -l 0
+dotnet "$EXE_PATH" grab -f "$APP_DIR/config" -o "$APP_DIR" -l 0
 
 echo "[LOG] Execution of app.exe completed."
 
