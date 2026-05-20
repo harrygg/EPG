@@ -11,6 +11,13 @@ cd "$APP_DIR"
 # Define the path to the executable
 EXE_PATH="$APP_DIR/bin/App.dll"
 
+if error_msg=$(git pull 2>&1); then
+    echo "Pulled the latest changes from Git"
+else
+    echo "❌ Git pull failed with the following error:"
+    echo "$error_msg"
+fi
+
 # Execute the application with arguments
 dotnet "$EXE_PATH" grab -f "$APP_DIR/config" -o "$APP_DIR" -l 0
 
