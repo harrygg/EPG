@@ -1,12 +1,13 @@
+version: 1.1
 author: Hristo Genev
 
 date-parameter:
-  format: list
-  list: [monday, tuesday, wednesday, thursday, friday, saturday, sunday]
+  format: dddd
+  culture: en-US
 
 request:
   debug: false
-  url: https://tv-programa.bg/${channelId}/${date}
+  url: https://tv-programa.bg/${channelId}/${date.lowercase()}
 
 programs:
   locator: table.table-program > tbody > tr
@@ -23,6 +24,13 @@ elements:
   - name: title
     language: bg
     locator: .program-title > strong
+    operations:
+      - name: beautify
+        hook: after
+
+  - name: sub-title
+    language: bg
+    locator: .program-title > small.d-none
     operations:
       - name: beautify
         hook: after
@@ -52,7 +60,7 @@ channel-parameters:
     channelId: animal-planet
   antena3.bg:
     channelId: antena-3
-  automotorsport.bg:
+  ams.de:
     channelId: auto-motor-sport
   axn.bg:
     channelId: axn
@@ -60,7 +68,7 @@ channel-parameters:
     channelId: axn-black
   axnwhite.bg:
     channelId: axn-white
-  babytv.bg:
+  baby.tv:
     channelId: baby-tv
   balkanika.bg:
     channelId: balkanika
@@ -102,7 +110,7 @@ channel-parameters:
     channelId: bulgariaonair
   cmusic.bg:
     channelId: c-music
-  cartoonnetwork.bg:
+  cartoonnetwork.tv:
     channelId: cartoon-network
   cartoonito.bg:
     channelId: cartoonito
@@ -112,7 +120,7 @@ channel-parameters:
     channelId: ci-network
   cinemania.bg:
     channelId: cinemania
-  cinemax.bg:
+  cinemax1.bg:
     channelId: cinemax
   cinemax2.bg:
     channelId: cinemax-2
@@ -142,7 +150,7 @@ channel-parameters:
     channelId: ctc-kids
   currenttime.bg:
     channelId: current-time
-  davincilearning.bg:
+  davincilearning.tv:
     channelId: da-vinci-learning
   deluxelounge.bg:
     channelId: deluxe-lounge
@@ -182,13 +190,13 @@ channel-parameters:
     channelId: domkino-premium
   dstv.bg:
     channelId: dstv
-  ducktv.bg:
+  duck.tv:
     channelId: duck-tv
-  dw.bg:
+  deutschewelle.de:
     channelId: dw
   ekids.bg:
     channelId: ekids
-  englishclubtv.bg:
+  englishclub.tv:
     channelId: english-club-tv
   epicdrama.bg:
     channelId: epic-drama
@@ -210,7 +218,7 @@ channel-parameters:
     channelId: fashionbox
   fastandfun.bg:
     channelId: fast-and-fun
-  fenfolktv.bg:
+  fenfolk.bg:
     channelId: fen-folk-tv
   fentv.bg:
     channelId: fen-tv
@@ -222,7 +230,7 @@ channel-parameters:
     channelId: filmbox
   filmboxarthouse.bg:
     channelId: filmbox-arthouse
-  filmboxextras.com:
+  filmboxextra.com:
     channelId: filmbox-extra
   filmboxstars.com:
     channelId: filmbox-stars
@@ -274,7 +282,7 @@ channel-parameters:
     channelId: idj-kids
   investigationdiscovery.bg:
     channelId: investigation-discovery
-  jimjam.bg:
+  jimjam.tv:
     channelId: jim-jam
   kanal7.bg:
     channelId: kanal-7
@@ -412,17 +420,17 @@ channel-parameters:
     channelId: tv-999
   tvtourism.bg:
     channelId: tv-tourism
-  tve.bg:
+  tve.es:
     channelId: tve
   tvrinternational.bg:
     channelId: tvr-international
-  viasatexplore.bg:
+  explore.viasat.bg:
     channelId: viasat-explore
-  viasathistory.bg:
+  history.viasat.bg:
     channelId: viasat-history
-  viasatkino.bg:
+  kino.viasat.bg:
     channelId: viasat-kino
-  viasatnature.bg:
+  nature.viasat.bg:
     channelId: viasat-nature
   vivacomarena.bg:
     channelId: vivacom-arena
@@ -430,7 +438,7 @@ channel-parameters:
     channelId: vox
   vtk.bg:
     channelId: vtk
-  wildtv.bg:
+  wildtv.com:
     channelId: wild-tv
   wness.bg:
     channelId: wness
