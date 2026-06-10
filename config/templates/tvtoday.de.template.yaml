@@ -6,7 +6,7 @@ date-parameter:
   format: yyMMdd
 
 request:
-  url: https://m.tvtoday.de/programm/standard/sender/${channelId}.html?date=${date}
+  url: https://www.tvtoday.de/programm/standard/sender/${channelId}.html?date=${date}
 
 programs:
   locator: article.broadcast
