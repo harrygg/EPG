@@ -18,20 +18,21 @@ elements:
     debug: false
     operations:
       - name: regex-extract
+        debug: false
         hook: after
-        arguments: [ "\\d{1,2}[:|\\.]\\d{2}" ]
-
-  # - name: _desc
-  #   locator: .description
-  #   debug: true
+        arguments: [ "(\\d{1,2}[:|\\.]\\d{2}) -" ]
+  
+  #  - name: _desc
+  #    locator: .broadcast__meta
+  #    debug: false
 
   - name: title
     locator: .headline-md
-    # operations:
-      # - name: append
-      #   hook: after
-      #   arguments: [ ", ${_desc}" ]
-      #   conditions: [ argument-not-empty ]
+  #    operations:
+  #      - name: append
+  #        hook: after
+  #        arguments: [ ", ${_desc}" ]
+  #        conditions: [ argument-not-empty ]
 
   - name: stop
     locator: .broadcast__time
@@ -40,12 +41,12 @@ elements:
       - name: regex-extract
         hook: after
         arguments: [ "\\- (\\d{1,2}[:|\\.]\\d{2})" ]
-
-
-  # - name: detailsUrl
-  #   locator: a.broadcast__content-wrapper
-  #   attribute: href
-  #   debug: false
+    
+    
+    # - name: detailsUrl
+    #   locator: a.broadcast__content-wrapper
+    #   attribute-name: href
+    #   debug: false
     # operations:
     #   - name: prepend
     #     hook: after
@@ -78,8 +79,7 @@ elements:
 #       - name: remove
 #         hook: after
 #         arguments: [ "${title1}" ]
-
-channel-parameters: 
+channel-parameters:
   pro7max.de:
     channelId: pro7m
   ard.de:
@@ -196,7 +196,7 @@ channel-parameters:
     channelId: disne
   NICK:
     channelId: nick
-  Ric:
+  ric.de:
     channelId: ric
   'TOGGO plus':
     channelId: toggo
@@ -492,5 +492,4 @@ channel-parameters:
 #  channel-param:
 #    locator: li.tv-tip > a.icon-wrap
 #    attribute: href
-
 

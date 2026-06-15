@@ -17,23 +17,26 @@ elements:
     attribute: data-start
     time-format: yyyy-MM-ddTHH:mm:sszzz
 
-  - name: stop
-    attribute: data-end
-    time-format: yyyy-MM-ddTHH:mm:sszzz
-
+  - name: title2
+    locator: .program-title > small.d-none
+    operations:
+      - name: beautify
+        hook: after
+  
   - name: title
     language: bg
     locator: .program-title > strong
     operations:
       - name: beautify
         hook: after
-
-  - name: sub-title
-    language: bg
-    locator: .program-title > small.d-none
-    operations:
-      - name: beautify
+      - name: append          
         hook: after
+        arguments: [ " ${title2}" ]
+        conditions: [ "argument-not-empty" ]
+        
+  - name: stop
+    attribute: data-end
+    time-format: yyyy-MM-ddTHH:mm:sszzz
 
   - name: desc
     language: bg
